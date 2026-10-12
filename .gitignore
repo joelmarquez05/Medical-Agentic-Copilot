@@ -1,0 +1,25 @@
+# Credentials and local configuration
+secrets/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+api_key.md
+nvidia_api_key.md
+open_router_key.md
+
+# Local environments and application state
+.venv/
+/runtime/
+/tmp/
+/.cache/
+/.pytest_cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+/web/node_modules/
+/web/dist/
+*.log

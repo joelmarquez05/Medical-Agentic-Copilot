@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "medical-agentic-copilot"
+version = "0.1.0"
+description = "A LangGraph oncology-nutrition proof of concept with reviewable evaluation artifacts"
+requires-python = ">=3.11"
+dependencies = [
+  "langchain==1.4.4",
+  "langchain-core==1.6.9",
+  "langgraph==1.2.14",
+  "langchain-google-genai==4.4.0",
+  "langchain-openai==1.7.0",
+  "pydantic==2.14.0",
+  "python-dotenv==1.2.4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest==9.1.1"]
+anthropic = ["langchain-anthropic>=1,<2"]
+ollama = ["langchain-ollama>=1,<2"]
+report = ["PyMuPDF==1.28.2"]
+pdf = ["PyMuPDF==1.28.2"]
+
+[project.scripts]
+medical-copilot = "medical_copilot.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+medical_copilot = ["resources/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
