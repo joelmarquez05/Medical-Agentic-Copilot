@@ -1,0 +1,17 @@
+{
+  "provider": "openai_compatible",
+  "model": "openai/gpt-oss-20b",
+  "api_key_env": "NVIDIA_API_KEY",
+  "credential_file": "nvidia_api_key.md",
+  "base_url": "https://integrate.api.nvidia.com/v1",
+  "temperature": 1.0,
+  "max_tokens": 4096,
+  "timeout_seconds": 120,
+  "max_retries": 0,
+  "min_interval_seconds": 1.0,
+  "rate_limit_retries": 1,
+  "rate_limit_wait_seconds": 30.0,
+  "max_revisions": 1,
+  "json_repair_attempts": 1,
+  "provider_options": {"use_responses_api": false}
+}

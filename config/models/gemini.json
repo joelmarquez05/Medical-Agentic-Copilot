@@ -1,0 +1,16 @@
+{
+  "provider": "google_genai",
+  "model": "gemini-3.5-flash-lite",
+  "api_key_env": "GEMINI_API_KEY",
+  "credential_file": "api_key.md",
+  "temperature": null,
+  "max_tokens": 4096,
+  "timeout_seconds": 60,
+  "max_retries": 0,
+  "min_interval_seconds": 4.0,
+  "rate_limit_retries": 2,
+  "rate_limit_wait_seconds": 30.0,
+  "max_revisions": 1,
+  "json_repair_attempts": 1,
+  "provider_options": {"vertexai": false}
+}
