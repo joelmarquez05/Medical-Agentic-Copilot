@@ -1,0 +1,9 @@
+{
+  "timeout_seconds": 20,
+  "min_interval_seconds": 0.4,
+  "max_retries": 2,
+  "retry_wait_seconds": 1,
+  "max_response_bytes": 4000000,
+  "max_abstract_characters": 4500,
+  "email_env": "NCBI_EMAIL"
+}
