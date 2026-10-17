@@ -1,0 +1,54 @@
+{
+  "synthetic": true,
+  "version": "2026-10-16",
+  "patients": [
+    {
+      "code": "Alpha",
+      "display_name": "Patient Alpha",
+      "filename": "alpha_initial.pdf",
+      "title": "Alpha - Initial nutrition review (10 Oct 2026)",
+      "observation_date": "2026-10-10",
+      "weight_kg": 64.2,
+      "snack": "lactose-free plain yogurt",
+      "sections": [
+        ["Case and visit", "ALPHA-DEMO-2026. Fictional 58-year-old adult with resected colorectal cancer, receiving adjuvant systemic treatment. Initial outpatient nutrition review: 10 October 2026."],
+        ["Measurements", "Recorded weight: 64.2 kg on 10 October 2026. Previous weight: 68.0 kg on 1 September 2026. Height: 1.68 m. These are dated observations; the earlier weight is not a correction of the current value."],
+        ["Food intake and symptoms", "The patient reports reduced appetite, early satiety and intermittent nausea around treatment days. Small, cool meals are easier to tolerate than large hot meals. The preferred snack is lactose-free plain yogurt."],
+        ["Reported nutrition routine", "The patient reports two oral nutritional supplement cartons daily. The brand, carton volume and protein content were not recorded, so their nutrient contribution cannot be calculated from this note."],
+        ["Daily context and follow-up", "The patient remains independent with usual daily activities; a relative helps with shopping and meal preparation. A repeat weight and intake review is scheduled for 13 October. No medication changes are specified in this summary."],
+        ["Information not available", "Measured energy intake, renal function, albumin, body-composition measurements and a formal allergy history are not available in this visit summary."]
+      ]
+    },
+    {
+      "code": "Beta",
+      "display_name": "Patient Beta",
+      "filename": "beta_initial.pdf",
+      "title": "Beta - Initial nutrition review (10 Oct 2026)",
+      "observation_date": "2026-10-10",
+      "weight_kg": 81.7,
+      "snack": "banana and oat porridge",
+      "sections": [
+        ["Case and visit", "BETA-DEMO-2026. Fictional 67-year-old adult with non-small-cell lung cancer, receiving first-line systemic treatment. Initial outpatient nutrition review: 10 October 2026."],
+        ["Measurements", "Recorded weight: 81.7 kg on 10 October 2026. Previous weight: 83.0 kg on 1 September 2026. Height: 1.80 m. No later weight is provided in this record."],
+        ["Food intake and symptoms", "The patient reports variable appetite and fatigue, with breakfast generally better tolerated than the evening meal. The preferred snack is banana and oat porridge. Swallowing difficulty is not reported in this visit note."],
+        ["Reported nutrition routine", "The patient reports one oral nutritional supplement carton daily. Brand, volume and protein content are not specified."],
+        ["Daily context and follow-up", "The patient lives with a partner who prepares most meals. Short walks and usual self-care remain possible. A later intake review is planned; no follow-up measurements or treatment changes are included here."],
+        ["Information not available", "Measured energy intake, renal function, albumin, body-composition measurements and a formal allergy history are not available in this visit summary."]
+      ]
+    }
+  ],
+  "followup": {
+    "filename": "alpha_followup.pdf",
+    "title": "Alpha - Follow-up nutrition review (13 Oct 2026)",
+    "observation_date": "2026-10-13",
+    "weight_kg": 62.4,
+    "sections": [
+      ["Case and visit", "ALPHA-DEMO-2026. Follow-up outpatient nutrition review: 13 October 2026. This note belongs to the same fictional Alpha case as the initial 10 October review."],
+      ["New observation", "Recorded weight: 62.4 kg on 13 October 2026. The previous review recorded 64.2 kg on 10 October. This is a new observation, not a correction or deletion of the earlier measurement."],
+      ["Interval history", "Appetite remains variable and early satiety continues. The patient reports that smaller meals are still easier to finish. Nausea is less troublesome than at the previous review. The patient reports continuing two oral nutritional supplement cartons daily."],
+      ["What was not reassessed", "Food preferences were not reassessed at this visit. There is no updated food diary. Supplement brand and protein content remain unspecified."],
+      ["Functional context", "The patient continues usual self-care; fatigue varies around treatment days. A relative helps with shopping and meal preparation. No new medication or oncological treatment changes are documented."],
+      ["Follow-up information", "No new laboratory results or formal body-composition assessment are available. The change in weight is recorded without assigning a cause. The next review will consider the measurements and intake symptoms from both visits."]
+    ]
+  }
+}

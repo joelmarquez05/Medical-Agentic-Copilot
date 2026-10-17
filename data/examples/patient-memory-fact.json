@@ -1,0 +1,8 @@
+{
+  "fact_key": "weight_kg",
+  "value": 64.2,
+  "unit": "kg",
+  "observed_at": "2026-10-10T09:00:00+00:00",
+  "source_ref": "Explicit fictional example input; not a clinical record.",
+  "origin": "user_provided"
+}

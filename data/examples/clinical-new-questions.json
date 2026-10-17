@@ -1,0 +1,12 @@
+{
+  "questions": [
+    {
+      "question_id": "EXAMPLE-01",
+      "question": "What findings support acute pericarditis as a possible diagnosis, and what information would be needed to distinguish it from other causes of chest pain? Provide real references when available and state evidence limitations."
+    },
+    {
+      "question_id": "EXAMPLE-02",
+      "question": "What did the original PREVENT CLOT trial report for mortality, deep-vein thrombosis and pulmonary embolism? Distinguish the outcomes and cite evidence that you actually obtained."
+    }
+  ]
+}
