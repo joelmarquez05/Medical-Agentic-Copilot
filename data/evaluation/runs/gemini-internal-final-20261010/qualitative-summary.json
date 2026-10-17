@@ -1,0 +1,58 @@
+{
+  "run_id": "gemini-internal-final-20261010",
+  "rubric_id": "oncology-nutrition-qualitative-v1",
+  "question_count": 10,
+  "assessor": "Codex implementation assistant: separate review of saved answers against prespecified criteria and reference snapshots; not a clinician",
+  "blinded": false,
+  "clinician_review": false,
+  "rating_counts_by_dimension": {
+    "relevance": {
+      "0": 0,
+      "1": 0,
+      "2": 10
+    },
+    "correctness": {
+      "0": 0,
+      "1": 5,
+      "2": 5
+    },
+    "evidence_support": {
+      "0": 0,
+      "1": 7,
+      "2": 3
+    },
+    "actionability": {
+      "0": 0,
+      "1": 4,
+      "2": 6
+    },
+    "safety_uncertainty": {
+      "0": 0,
+      "1": 4,
+      "2": 6
+    }
+  },
+  "descriptive_totals": {
+    "ON01": 7,
+    "ON02": 9,
+    "ON03": 7,
+    "ON04": 7,
+    "ON05": 7,
+    "ON06": 10,
+    "ON07": 9,
+    "ON08": 10,
+    "ON09": 6,
+    "ON10": 8
+  },
+  "critical_failure_question_ids": [],
+  "limitations": [
+    "Ten project-authored convenience cases; no representative sampling or validated clinical instrument.",
+    "Assessment is performed by the same AI coding assistant that implemented the workflow; it is not independent human or clinician adjudication.",
+    "The agent's local guidance and assessment expectations use overlapping selected sources, creating favorable source-assistance and construction bias.",
+    "One final Gemini run; repeated earlier engineering runs are preserved but are not replicates in a statistical study.",
+    "Ratings are qualitative ordinal judgments, not medical accuracy or a quantified safety guarantee.",
+    "Citation availability does not establish complete sentence-level support; guideline read levels and extrapolations remain material limits.",
+    "No literature-retrieval relevance study, external benchmark, or full model comparison is included in these findings."
+  ],
+  "interpretation": "A 0-10 sum is a descriptive ordinal checklist summary, not accuracy, probability of safety, an external benchmark score, or a clinical validation statistic."
+}

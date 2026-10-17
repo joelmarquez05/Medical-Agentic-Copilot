@@ -1,0 +1,16 @@
+{
+  "question_id": "BM06",
+  "model_profile": "qwen3.8-27b",
+  "answer_sha256": "9af33e3c89a6a8dcf13c8dbc263fd403972d254daabe840f61024679df126742",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "consistent"
+  },
+  "answer_notes": "Correct D. Uses the explicitly chronic renal framing and pericarditic/uremic clues, with a clear ATN, glomerulonephritis and nephrotic cast differential. Does not claim retrieved evidence or confirmed renal histology.",
+  "researcher_reference_ids": [],
+  "queries": [],
+  "papers": {},
+  "citations": {}
+}

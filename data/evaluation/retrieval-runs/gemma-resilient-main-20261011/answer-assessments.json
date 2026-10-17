@@ -1,0 +1,149 @@
+{
+  "reviewer": "Unblinded implementation assistant; explicit post-generation notes, no paid judge or independent clinician",
+  "rubric_sha256": "fbb86bb32a2234ae9a3866722b5dbb61f79eb3474e123d9d36fef1c9ef11df51",
+  "reviews": [
+    {
+      "question_id": "IC01",
+      "answer_sha256": "2e818929f3e6d4221623bacff1d61adfda60ffa5f80b8007e96b353e3ffaa6a0",
+      "option_score_unchanged": true,
+      "dimension_ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "minor_limitation"
+      },
+      "brief_observed_notes": "Correct B; supplied antibiotic exposure, diarrhea and leukocytosis support the most-likely diagnosis. Three real sources are cited, but their 400-character views do not establish every fluoroquinolone/mechanism claim. No stool result is invented. Citation-array IDs are valid; prose uses shortened PMID-like aliases rather than exact view IDs.",
+      "reference_source_ids": [
+        "CL01"
+      ]
+    },
+    {
+      "question_id": "IC02",
+      "answer_sha256": "a696462770591da06c35e235324d667ad9f7d06dd54ab451e45bf03b3a8d92cc",
+      "option_score_unchanged": true,
+      "dimension_ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "minor_limitation",
+        "calibration_and_provenance": "consistent"
+      },
+      "brief_observed_notes": "Correct B; positional pain and the supplied rub/negative examination findings drive the answer. Pleuritic pain and worsening lying flat are added descriptors rather than exact stem details. Direct knowledge-based answer acknowledges absent verification.",
+      "reference_source_ids": [
+        "CL02"
+      ]
+    },
+    {
+      "question_id": "IC03",
+      "answer_sha256": "bc1d52db24efdb2cd737563033caf7aa9c40bba8284a302eee28b433484874f8",
+      "option_score_unchanged": true,
+      "dimension_ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "minor_limitation",
+        "calibration_and_provenance": "consistent"
+      },
+      "brief_observed_notes": "Correct A with untreated hypothyroidism, elevated TSH and hyperprolactinemia. Actual human hypothyroidism excerpt supports the association; the answer explicitly distinguishes the unshown TRH mechanism as background knowledge. Clozapine attribution is not verified by these views. Repetition and stating that TSH alone confirms primary disease reduce precision; option remains unchanged.",
+      "reference_source_ids": [
+        "CL03",
+        "CL03B"
+      ]
+    },
+    {
+      "question_id": "IC04",
+      "answer_sha256": "c993e011c308c3a56aaf475dcabf4fbe672c8fd30e1a0b12abf850f30827c140",
+      "option_score_unchanged": true,
+      "dimension_ratings": {
+        "case_reasoning": "minor_limitation",
+        "reference_concordance": "material_issue",
+        "calibration_and_provenance": "minor_limitation"
+      },
+      "brief_observed_notes": "C still differs from released B. The answer recognizes limb-threatening ischemia and acknowledges immediate heparin, but prioritizes definitive thrombectomy over the released initial-treatment choice. This known prioritization ambiguity remains. It calls IIb diagnostic without Doppler/complete viability assessment and labels IIa viable rather than marginally threatened. No current guideline was actually retrieved/read; the two endovascular cohort excerpts cannot validate its preferred next step. Its statement that no evidence was verified is distinct from having performed a search.",
+      "reference_source_ids": [
+        "CL05"
+      ]
+    },
+    {
+      "question_id": "IC05",
+      "answer_sha256": "3f09947aaf2e49289704e73fef9922de1d48e942d16e7d133bdc042eea4d4ed3",
+      "option_score_unchanged": true,
+      "dimension_ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "minor_limitation"
+      },
+      "brief_observed_notes": "Correct B: previous infant invasive GBS disease supports prophylaxis without delaying for screening, consistent with the earlier evaluator ACOG reference. Five background records were actually supplied, so the limitation claiming no evidence registry was provided misstates execution. None of these excerpts verifies the decisive prior-infant guideline indication. No citation is fabricated.",
+      "reference_source_ids": [
+        "CL06"
+      ]
+    },
+    {
+      "question_id": "IC06",
+      "answer_sha256": "cb291301530c3e061d9a3d5f23d9250c6609d8f4ae379b5969688e11927303c1",
+      "option_score_unchanged": true,
+      "dimension_ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "consistent"
+      },
+      "brief_observed_notes": "Correct A with severe hypertension/thrombocytopenia and stabilization before delivery. A restrictive search returns zero papers; the model still answers from knowledge and acknowledges lack of PubMed verification. No falsely elevated liver enzymes, dose or retrieved recommendation is asserted.",
+      "reference_source_ids": [
+        "CL07"
+      ]
+    },
+    {
+      "question_id": "IC07",
+      "answer_sha256": "614205b425985b5caf38101995fc5baae24c69c3011f3ddccecff5b672db8af4",
+      "option_score_unchanged": true,
+      "dimension_ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "consistent"
+      },
+      "brief_observed_notes": "Correct D and neutralization mechanism, with no invented reversal dose. Direct answer acknowledges absent verification. The broad description of other therapies does not support a patient-specific regimen.",
+      "reference_source_ids": [
+        "CL08"
+      ]
+    },
+    {
+      "question_id": "IC08",
+      "answer_sha256": "5a26eb391dedede2ce108ab1174065db9c3e1383a778b912917a645ef14c9ea9",
+      "option_score_unchanged": true,
+      "dimension_ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "minor_limitation",
+        "calibration_and_provenance": "minor_limitation"
+      },
+      "brief_observed_notes": "Correct B. An actual original BALANCE search and read supply 14.5% versus 16.1% mortality and noninferiority. The explanation accurately gives the -1.6 percentage-point difference and interval bounds but calls the intention-to-treat interval 95% instead of the abstract's 95.7%; the selected option is unaffected. No normalization/retry was needed in this new live episode.",
+      "reference_source_ids": [
+        "BALANCE"
+      ]
+    },
+    {
+      "question_id": "IC09",
+      "answer_sha256": "899fac934e0b645076e6aa06eb3343c7af646db652fa7ee800991a7777963603",
+      "option_score_unchanged": true,
+      "dimension_ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "consistent"
+      },
+      "brief_observed_notes": "Correct D, with DVT 2.51% versus 1.71% and PE 1.49% in both groups supported by the actually read original PREVENT CLOT abstract. No hip-fracture-only population description. Correct key and stronger observable attribution, not an option-accuracy gain over baseline.",
+      "reference_source_ids": [
+        "PREVENT_CLOT"
+      ]
+    },
+    {
+      "question_id": "IC10",
+      "answer_sha256": "70bf7a8f73b63a21b5628080c145ad5def3e694957ea3d10bd34833d7ee069f2",
+      "option_score_unchanged": true,
+      "dimension_ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "minor_limitation",
+        "calibration_and_provenance": "minor_limitation"
+      },
+      "brief_observed_notes": "Correct C after search, a rejected view-ID-instead-of-PMID argument, a corrected read, and reserved fourth-call finalization. The actually read SOUL review supports HR 0.86 and CI 0.77-0.96 but omits 12.0% versus 13.8% rates. The original trial was not found. Event rates in the answer agree with the frozen key but cannot be credited to retrieved evidence; empty limitations overstate complete verification. Its only-choice HR wording is loose since D has the same HR and reverses event rates.",
+      "reference_source_ids": [
+        "SOUL"
+      ]
+    }
+  ],
+  "keys_changed": 0,
+  "reference_reuse": "Baseline review-sources.json; previous journal entries. No evaluator reference entered generation."
+}

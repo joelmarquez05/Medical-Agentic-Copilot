@@ -1,0 +1,39 @@
+{
+  "question_id": "BM13",
+  "model_profile": "kimi-k3",
+  "answer_sha256": "48788a94e0eee5d7b24879097255fbc3ec9f3c162878ae355a4e92208657d2a2",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "minor_limitation",
+    "calibration_and_provenance": "minor_limitation"
+  },
+  "answer_notes": "Correct C. Actual excerpt supports travel-associated fever, splenomegaly and rose spots, but calling the rash pathognomonic overstates specificity and presence; the same excerpt reports rose spots in only 11 percent. It also dismisses schistosomiasis as exclusively chronic despite CDC acute presentations. These explanatory limitations do not reassign the released key.",
+  "researcher_reference_ids": [
+    "R4-CL05",
+    "R5-CL04"
+  ],
+  "queries": [
+    {
+      "rating": "appropriate",
+      "notes": "Targets enteric fever, rose spots and traveler clinical features directly."
+    }
+  ],
+  "papers": {
+    "8433774": {
+      "rating": "partially_relevant",
+      "notes": "Culture-positive typhoid/paratyphoid cohort supports organism context; its excerpt cuts before travel/clinical-feature findings."
+    },
+    "743658": {
+      "rating": "directly_relevant",
+      "notes": "Explicit travel history, fever, splenomegaly and rose-spot frequency address the diagnostic pattern and variability."
+    }
+  },
+  "citations": {
+    "P743658_search_17fafd9be2c1": {
+      "rating": "supported",
+      "notes": "Explicit recent foreign travel, fever, splenomegaly and rose spots support the pattern; they do not substantiate pathognomonic status, which is an overstatement."
+    }
+  },
+  "inline_citations": {}
+}

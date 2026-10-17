@@ -1,0 +1,84 @@
+{
+  "sources": [
+    {
+      "id": "BALANCE",
+      "title": "Antibiotic Treatment for 7 versus 14 Days in Patients with Bloodstream Infections.",
+      "authors_or_organization": "BALANCE Investigators, for the Canadian Critical Care Trials Group, the Association of Medical Microbiology and Infectious Disease Canada Clinical Research Network, the Australian and New Zealand Intensive Care Society Clinical Trials Group, and the Australasian Society for Infectious Diseases Clinical Research Network, Daneman N, Rishu A, Pinto R, Rogers BA, Shehabi Y, Parke R, Cook D, Arabi Y, Muscedere J, Reynolds S, Hall R, Dwivedi DB, McArthur C, McGuinness S, Yahav D, Coburn B, Geagea A, Das P, Shin P, Detsky M, Morris A, Fralick M, Powis JE, Kandel C, Sligl W, Bagshaw SM, Singhal N, Belley-Cote E, Whitlock R, Khwaja K, Morpeth S, Kazemi A, Williams A, MacFadden DR, McIntyre L, Tsang J, Lamontagne F, Carignan A, Marshall J, Friedrich JO, Cirone R, Downing M, Graham C, Davis J, Duan E, Neary J, Evans G, Alraddadi B, Al Johani S, Martin C, Elsayed S, Ball I, Lauzier F, Turgeon A, Stelfox HT, Conly J, McDonald EG, Lee TC, Sullivan R, Grant J, Kagan I, Young P, Lawrence C, O'Callaghan K, Eustace M, Choong K, Aslanian P, Buehner U, Havey T, Binnie A, Prazak J, Reeve B, Litton E, Lother S, Kumar A, Zarychanski R, Hoffman T, Paterson D, Daley P, Commons RJ, Charbonney E, Naud JF, Roberts S, Tiruvoipati R, Gupta S, Wood G, Shum O, Miyakis S, Dodek P, Kwok C, Fowler RA, The BALANCE Investigators, for the Canadian Critical Care Trials Group, the Association of Medical Microbiology and Infectious Disease Canada Clinical Research Network, the Australian and New Zealand Intensive Care Society Clinical Trials Group, and the Australasian Society for Infectious Diseases Clinical Research Network\n.",
+      "year": "2025",
+      "doi": "10.1056/nejmoa2404991",
+      "pmid": "39565030",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39565030/",
+      "accessed": "2026-10-11",
+      "evidence_type": "primary_randomized_trial",
+      "read_level": "Original PubMed abstract via NCBI EFetch; metadata cross-check via Europe PMC",
+      "supports": "Exact numeric/outcome facts in IC08",
+      "role": "Evaluator reference only; do not supply these records to the baseline or prepopulate answering-agent tools"
+    },
+    {
+      "id": "PREVENT_CLOT",
+      "title": "Aspirin or Low-Molecular-Weight Heparin for Thromboprophylaxis after a Fracture.",
+      "authors_or_organization": "Major Extremity Trauma Research Consortium (METRC), O'Toole RV, Stein DM, O'Hara NN, Frey KP, Taylor TJ, Scharfstein DO, Carlini AR, Sudini K, Degani Y, Slobogean GP, Haut ER, Obremskey W, Firoozabadi R, Bosse MJ, Goldhaber SZ, Marvel D, Castillo RC.",
+      "year": "2023",
+      "doi": "10.1056/nejmoa2205973",
+      "pmid": "36652352",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36652352/",
+      "accessed": "2026-10-11",
+      "evidence_type": "primary_randomized_trial",
+      "read_level": "Original PubMed abstract via NCBI EFetch; metadata cross-check via Europe PMC",
+      "supports": "Exact numeric/outcome facts in IC09",
+      "role": "Evaluator reference only; do not supply these records to the baseline or prepopulate answering-agent tools"
+    },
+    {
+      "id": "SOUL",
+      "title": "Oral Semaglutide and Cardiovascular Outcomes in High-Risk Type 2 Diabetes.",
+      "authors_or_organization": "McGuire DK, Marx N, Mulvagh SL, Deanfield JE, Inzucchi SE, Pop-Busui R, Mann JFE, Emerson SS, Poulter NR, Engelmann MDM, Ripa MS, Hovingh GK, Brown-Frandsen K, Bain SC, Cavender MA, Gislum M, David JP, Buse JB, SOUL Study Group.",
+      "year": "2025",
+      "doi": "10.1056/nejmoa2501006",
+      "pmid": "40162642",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40162642/",
+      "accessed": "2026-10-11",
+      "evidence_type": "primary_randomized_trial",
+      "read_level": "Original PubMed abstract via NCBI EFetch; metadata cross-check via Europe PMC",
+      "supports": "Exact numeric/outcome facts in IC10",
+      "role": "Evaluator reference only; do not supply these records to the baseline or prepopulate answering-agent tools"
+    },
+    {
+      "id": "GEMMA_CARD",
+      "title": "Gemma 4 model card",
+      "authors_or_organization": "Google DeepMind / Google AI for Developers",
+      "year": 2026,
+      "year_note": "Living documentation/model page accessed in 2026",
+      "url": "https://ai.google.dev/gemma/docs/core/model_card_4",
+      "accessed": "2026-10-11",
+      "read_level": "Official model documentation/catalogue",
+      "evidence_type": "official_model_or_provider_documentation",
+      "supports": "Compact MoE reference-model choice and advertised tools/reasoning; successful new-agent hosted use remains untested"
+    },
+    {
+      "id": "GEMMA_TOOLS",
+      "title": "Function calling with Gemma 4",
+      "authors_or_organization": "Google DeepMind / Google AI for Developers",
+      "year": 2026,
+      "year_note": "Living documentation/model page accessed in 2026",
+      "url": "https://ai.google.dev/gemma/docs/capabilities/text/function-calling-gemma4",
+      "accessed": "2026-10-11",
+      "read_level": "Official model documentation/catalogue",
+      "evidence_type": "official_model_or_provider_documentation",
+      "supports": "Compact MoE reference-model choice and advertised tools/reasoning; successful new-agent hosted use remains untested"
+    },
+    {
+      "id": "GEMMA_OR",
+      "title": "Gemma 4 26B A4B - API Pricing & Providers",
+      "authors_or_organization": "OpenRouter",
+      "year": 2026,
+      "year_note": "Living documentation/model page accessed in 2026",
+      "url": "https://openrouter.ai/google/gemma-4-26b-a4b-it",
+      "accessed": "2026-10-11",
+      "read_level": "Official model documentation/catalogue",
+      "evidence_type": "official_model_or_provider_documentation",
+      "supports": "Compact MoE reference-model choice and advertised tools/reasoning; successful new-agent hosted use remains untested"
+    }
+  ],
+  "reuse_for_medqa_cases": "requirement-2-restart-sources.json",
+  "model_choice_status": "User selected Gemma 4; one identical model for points 2 and 3"
+}

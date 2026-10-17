@@ -1,0 +1,185 @@
+{
+  "stage": "benchmark",
+  "models": {
+    "glm-5.3": {
+      "stage": "benchmark",
+      "planned": 30,
+      "recorded": 30,
+      "statuses": {
+        "completed": 30
+      },
+      "provider_requests": 55,
+      "reported_or_estimated_cost_usd": 0.0577622,
+      "unknown_charge_records": 0,
+      "terminal_message_coverage": 30,
+      "application_fallbacks": 0,
+      "local_normalizations": 0,
+      "closing_phase_episodes": 0,
+      "tool_action_attempts": 25,
+      "tool_execution_attempts": 25,
+      "tool_statuses": {
+        "ok": 25
+      },
+      "tool_names": {
+        "search_pubmed": 23,
+        "read_pubmed_abstract": 2
+      },
+      "episodes_with_search": 20,
+      "episodes_with_citations": 17,
+      "pubmed_logical_http_requests": 44,
+      "pubmed_http_attempts": 44,
+      "question_paper_pairs": 65,
+      "input_tokens": 153700,
+      "output_tokens": 13224,
+      "reasoning_tokens": 4020,
+      "correct": 29,
+      "valid_completed": 30,
+      "incorrect_completed": 1,
+      "objective_score_planned": 0.9666666666666667,
+      "objective_score_recorded": 0.9666666666666667,
+      "accuracy_among_valid": 0.9666666666666667,
+      "wilson_95_interval_planned": [
+        0.8332960900859082,
+        0.9940914096183874
+      ],
+      "unrecorded": 0,
+      "interpretation": "Primary score is exact released-key matches / all planned cases, including nonanswers; incomplete collection remains explicit. CI does not account for benchmark contamination or clinical deployment."
+    },
+    "kimi-k3": {
+      "stage": "benchmark",
+      "planned": 30,
+      "recorded": 30,
+      "statuses": {
+        "completed": 30
+      },
+      "provider_requests": 70,
+      "reported_or_estimated_cost_usd": 0.5778668,
+      "unknown_charge_records": 0,
+      "terminal_message_coverage": 30,
+      "application_fallbacks": 0,
+      "local_normalizations": 0,
+      "closing_phase_episodes": 4,
+      "tool_action_attempts": 40,
+      "tool_execution_attempts": 40,
+      "tool_statuses": {
+        "ok": 40
+      },
+      "tool_names": {
+        "search_pubmed": 35,
+        "read_pubmed_abstract": 5
+      },
+      "episodes_with_search": 24,
+      "episodes_with_citations": 21,
+      "pubmed_logical_http_requests": 64,
+      "pubmed_http_attempts": 65,
+      "question_paper_pairs": 80,
+      "input_tokens": 230256,
+      "output_tokens": 29748,
+      "reasoning_tokens": 21986,
+      "correct": 29,
+      "valid_completed": 30,
+      "incorrect_completed": 1,
+      "objective_score_planned": 0.9666666666666667,
+      "objective_score_recorded": 0.9666666666666667,
+      "accuracy_among_valid": 0.9666666666666667,
+      "wilson_95_interval_planned": [
+        0.8332960900859082,
+        0.9940914096183874
+      ],
+      "unrecorded": 0,
+      "interpretation": "Primary score is exact released-key matches / all planned cases, including nonanswers; incomplete collection remains explicit. CI does not account for benchmark contamination or clinical deployment."
+    },
+    "mimo-v2.6-pro": {
+      "stage": "benchmark",
+      "planned": 30,
+      "recorded": 30,
+      "statuses": {
+        "completed": 30
+      },
+      "provider_requests": 81,
+      "reported_or_estimated_cost_usd": 0.17311173,
+      "unknown_charge_records": 0,
+      "terminal_message_coverage": 30,
+      "application_fallbacks": 0,
+      "local_normalizations": 0,
+      "closing_phase_episodes": 6,
+      "tool_action_attempts": 51,
+      "tool_execution_attempts": 51,
+      "tool_statuses": {
+        "ok": 51
+      },
+      "tool_names": {
+        "search_pubmed": 43,
+        "read_pubmed_abstract": 8
+      },
+      "episodes_with_search": 30,
+      "episodes_with_citations": 28,
+      "pubmed_logical_http_requests": 88,
+      "pubmed_http_attempts": 88,
+      "question_paper_pairs": 145,
+      "input_tokens": 322620,
+      "output_tokens": 37669,
+      "reasoning_tokens": 25514,
+      "correct": 27,
+      "valid_completed": 30,
+      "incorrect_completed": 3,
+      "objective_score_planned": 0.9,
+      "objective_score_recorded": 0.9,
+      "accuracy_among_valid": 0.9,
+      "wilson_95_interval_planned": [
+        0.7437891742081593,
+        0.9654001112526658
+      ],
+      "unrecorded": 0,
+      "interpretation": "Primary score is exact released-key matches / all planned cases, including nonanswers; incomplete collection remains explicit. CI does not account for benchmark contamination or clinical deployment."
+    },
+    "qwen3.8-27b": {
+      "stage": "benchmark",
+      "planned": 30,
+      "recorded": 30,
+      "statuses": {
+        "completed": 30
+      },
+      "provider_requests": 58,
+      "reported_or_estimated_cost_usd": 0.06644849,
+      "unknown_charge_records": 0,
+      "terminal_message_coverage": 30,
+      "application_fallbacks": 0,
+      "local_normalizations": 1,
+      "closing_phase_episodes": 2,
+      "tool_action_attempts": 27,
+      "tool_execution_attempts": 27,
+      "tool_statuses": {
+        "ok": 27
+      },
+      "tool_names": {
+        "search_pubmed": 23,
+        "read_pubmed_abstract": 4
+      },
+      "episodes_with_search": 19,
+      "episodes_with_citations": 13,
+      "pubmed_logical_http_requests": 43,
+      "pubmed_http_attempts": 43,
+      "question_paper_pairs": 58,
+      "input_tokens": 179756,
+      "output_tokens": 43895,
+      "reasoning_tokens": 37060,
+      "correct": 29,
+      "valid_completed": 30,
+      "incorrect_completed": 1,
+      "objective_score_planned": 0.9666666666666667,
+      "objective_score_recorded": 0.9666666666666667,
+      "accuracy_among_valid": 0.9666666666666667,
+      "wilson_95_interval_planned": [
+        0.8332960900859082,
+        0.9940914096183874
+      ],
+      "unrecorded": 0,
+      "interpretation": "Primary score is exact released-key matches / all planned cases, including nonanswers; incomplete collection remains explicit. CI does not account for benchmark contamination or clinical deployment."
+    }
+  },
+  "new_provider_requests": 264,
+  "reported_or_estimated_cost_usd": 0.87518922,
+  "gemma_reference": "data/evaluation/benchmark-runs/gemma-full-agent-medqa30-v3-20261011",
+  "interpretation": "New models use identical frozen questions/full agent; Gemma is retained, not regenerated."
+}

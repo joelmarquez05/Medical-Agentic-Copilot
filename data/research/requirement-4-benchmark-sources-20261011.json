@@ -1,0 +1,43 @@
+{
+  "sources": [
+    {
+      "id": "R4-PROV1",
+      "title": "General-purpose large language models outperform specialized clinical AI tools on medical benchmarks",
+      "authors_or_organization": "Krithik Vishwanath, Anton Alyakin, Mrigayu Ghosh, Ali Hage, Sean N. Neifert, Cordelia Orillac, Nataniel J. Mandelberg, Hammad A. Khan, Jin Vivian Lee, Jie J. Yao, William Robert Small, Aakaash Varma, D. Brock Hewitt, Yindalon Aphinyanaphongs, Daniel Alexander Alber, Eric Karl Oermann",
+      "year": 2026,
+      "doi": "10.1038/s41591-026-04431-5",
+      "url": "https://www.nature.com/articles/s41591-026-04431-5",
+      "accessed": "2026-10-11",
+      "read_level": "Official publisher abstract, Methods benchmark construction/MedQA scoring and Data availability",
+      "supports": "Confirmed OpenEvidence evaluation on 500 randomly sampled MedQA questions; public MedQA source. Requirement-1 B01 provenance. Does not establish comparability with this project's different 30 cases or justify adopting their LLM extraction/judging.",
+      "preprint": false,
+      "reuse": "data/research/openevidence-inventory.json B01 / E073"
+    },
+    {
+      "id": "R4-PROV2",
+      "title": "MedQA: Code and data for MedQA",
+      "authors_or_organization": "jind11 / MedQA authors: Di Jin, Eileen Pan, Nassim Oufattole, Wei-Hung Weng, Hanyi Fang, Peter Szolovits",
+      "year": "Repository accessed 2026",
+      "url": "https://github.com/jind11/MedQA",
+      "accessed": "2026-10-11",
+      "read_level": "Original repository README: dataset splits and four-option release",
+      "supports": "Released benchmark provenance, train/dev/test separation and US four-option version. The README-linked 2020 arXiv work is a preprint, as recorded in earlier source catalogues."
+    },
+    {
+      "id": "R4-PROV3",
+      "title": "MedQA-USMLE-4-options",
+      "authors_or_organization": "GBaker",
+      "year": "Dataset repository accessed 2026",
+      "url": "https://huggingface.co/datasets/GBaker/MedQA-USMLE-4-options/tree/0fb93dd23a7339b6dcd27e241cb9b5eca62d4d18",
+      "accessed": "2026-10-11",
+      "read_level": "Public fixed-revision file listing and previously preserved JSONL; all 1273 rows/labels independently checked locally",
+      "supports": "Exact practical test artifact, original option/answer fields, reproducible revision; not separately obtained examination-board keys."
+    }
+  ],
+  "technical_reuse": [
+    "data/research/requirement-3-restart-sources.json",
+    "data/research/requirement-3-resilient-technical-sources-20261011.json",
+    "data/research/internal-pubmed-set-sources-20261011.json"
+  ],
+  "role": "Benchmark provenance/engineering context only. Never supplied as answering-agent evidence; actual retrieval and post-generation researcher references are separately recorded."
+}

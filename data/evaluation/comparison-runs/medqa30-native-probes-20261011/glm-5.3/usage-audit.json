@@ -1,0 +1,35 @@
+{
+  "records": [
+    {
+      "question_id": "PILOT-01",
+      "started_at_utc": "2026-10-11T20:03:12+00:00",
+      "estimated_maximum_usd": 0.02180064,
+      "request_sent": true,
+      "status": "ok",
+      "usage": {
+        "input_tokens": 1046,
+        "output_tokens": 178,
+        "total_tokens": 1224
+      },
+      "provider_usage": {
+        "prompt_tokens": 1046,
+        "completion_tokens": 178,
+        "total_tokens": 1224,
+        "cost": 0.0005619,
+        "reasoning_tokens": 32
+      },
+      "cost_usd": 0.0005619,
+      "cost_basis": "Provider-reported usage.cost.",
+      "finish_reason": "stop",
+      "model_name": "z-ai/glm-5.3",
+      "provider_route": "Configured pin; actual route not independently exposed by this response.",
+      "elapsed_seconds": 2.778
+    }
+  ],
+  "budget": {
+    "limit_usd": 6.0,
+    "reported_or_estimated_spend_usd": 3.90993203,
+    "unreported_charge_reserve_usd": 0.15,
+    "policy": "Before each paid request, reserve a conservative prompt-byte estimate plus the full output cap at configured provider price ceilings. Failed requests without usage retain that reserve. This is a local guard, not a provider billing guarantee."
+  }
+}

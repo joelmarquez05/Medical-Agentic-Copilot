@@ -1,0 +1,50 @@
+{
+  "question_id": "BM19",
+  "model_profile": "kimi-k3",
+  "answer_sha256": "5f65793adcf7548cfdfeecaae1c1f65f72ad9387d24fbe9e5ae8c3558c3420e4",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "consistent"
+  },
+  "answer_notes": "Correct neural-tube-defect selection. Actually read the 1992 review explicitly reporting a 1% spina-bifida association with carbamazepine; the estimate is properly attributed to an older review rather than presented as a current guideline estimate.",
+  "researcher_reference_ids": [
+    "R5-CL07"
+  ],
+  "queries": [
+    {
+      "rating": "appropriate",
+      "notes": "Direct carbamazepine/spina-bifida query retrieves a specific older estimate."
+    }
+  ],
+  "papers": {
+    "8419718": {
+      "rating": "partially_relevant",
+      "notes": "General epilepsy-management opening, not a specific fetal-risk finding."
+    },
+    "1543829": {
+      "rating": "directly_relevant",
+      "notes": "Read review explicitly links carbamazepine to 1% spina-bifida risk."
+    },
+    "9681097": {
+      "rating": "partially_relevant",
+      "notes": "Folate/AED pregnancy review methods, not drug-specific results in this excerpt."
+    },
+    "29215383": {
+      "rating": "directly_relevant",
+      "notes": "Excerpt directly discusses early-pregnancy anticonvulsant neural-tube risk, but cuts off drug-specific findings."
+    },
+    "15955936": {
+      "rating": "partially_relevant",
+      "notes": "Relevant pregnancy-AED cohort objective/methods only, no malformation results delivered."
+    }
+  },
+  "citations": {
+    "P1543829_read_8624d981fb21": {
+      "rating": "supported",
+      "notes": "Actually read abstract explicitly reports the attributed 1% carbamazepine/spina-bifida risk."
+    }
+  },
+  "inline_citations": {}
+}

@@ -1,0 +1,385 @@
+{
+  "reviewer": "Unblinded assistant inspecting all visible answers and full supplied/cited passages; no independent clinician or paid judge",
+  "review_scope": "Twelve answers, fourteen actual structured cited views and all unique C case-view pairs; positive source support means associated stated facts, not full requested-case completion.",
+  "reference_values_changed": false,
+  "reviews": [
+    {
+      "condition": "B-full-context",
+      "question_id": "ART01",
+      "answer_sha256": "0b1df4e7b532394655b9f07b8f307e6a4fe77aacdd438e41d3cdfa6e630ba682",
+      "explanation_grade": 2,
+      "note": "All four article figures match; approximately 50% is preserved in the explanation. No extrapolation to all cancer patients.",
+      "citations": [
+        {
+          "source_id": "D01454b384c55_p2_c2_1f86e2571dc9",
+          "grade": "supported",
+          "note": "Supports the actually stated associated facts. All four requested figures and approximate qualifier are present.",
+          "view_sha256": "6cb2bdca8d8c00ecbe241036e68582af5075ae946c5403c25172ee1e739a0d1f"
+        }
+      ],
+      "retrieval_views": []
+    },
+    {
+      "condition": "B-full-context",
+      "question_id": "ART02",
+      "answer_sha256": "03217841f678330da575d56cb40140fe640ce95fdd3891f87b4c75d129e1f25b",
+      "explanation_grade": 2,
+      "note": "All four physician-trial details and daily units/average follow-up match the original article. No prescribing recommendation is made.",
+      "citations": [
+        {
+          "source_id": "D01454b384c55_p4_c1_5bbc8c2a27bb",
+          "grade": "supported",
+          "note": "Supports the actually stated associated facts. Exact physician count, E/C daily doses and average follow-up.",
+          "view_sha256": "2aca42ab6cbb594d9aee8223c5c122a87b5b130647963e3b1cc6c2ca25032834"
+        }
+      ],
+      "retrieval_views": []
+    },
+    {
+      "condition": "B-full-context",
+      "question_id": "ART03",
+      "answer_sha256": "e1ff71a0dd8df9110fbde958292d79cfde57024971fbb1825f835b12a5ec1563",
+      "explanation_grade": 2,
+      "note": "Correct count, duration, completion and false significance flag; no unsupported claim of efficacy/equivalence.",
+      "citations": [
+        {
+          "source_id": "D01454b384c55_p7_c1_931b00ff6761",
+          "grade": "supported",
+          "note": "Supports the actually stated associated facts. 472 patients, eight weeks, 37% completion and no significant differences.",
+          "view_sha256": "b0918fc276f4ec6ec0eb74e739688c14143e13dcd000bec8edb267848085c3f2"
+        }
+      ],
+      "retrieval_views": []
+    },
+    {
+      "condition": "B-full-context",
+      "question_id": "ART04",
+      "answer_sha256": "1393779c532d5b76f80c70d79d4aa47d5a5c46c0db674095c1640d1bd759a0a0",
+      "explanation_grade": 2,
+      "note": "Correctly distinguishes the two studies and per-day versus per-administration quantities; bid is explained correctly as twice daily.",
+      "citations": [
+        {
+          "source_id": "D01454b384c55_p7_c2_b7b00271541e",
+          "grade": "supported",
+          "note": "Supports the actually stated associated facts. Correct multicenter and pilot figures; distinguishes per-day versus per-administration doses.",
+          "view_sha256": "f8fae8bd12de2b5f6c590f2c846c8d2100443492d962d1f41a3e9ec8dc9662bb"
+        }
+      ],
+      "retrieval_views": []
+    },
+    {
+      "condition": "B-full-context",
+      "question_id": "ART05",
+      "answer_sha256": "0e894c62939dea8d3db9c20fdd8d1d2f9734119ecf9f449b1eac53ef2d0928d5",
+      "explanation_grade": 2,
+      "note": "Full context joins pages 7 and 8 and correctly cites both, recovering all four details.",
+      "citations": [
+        {
+          "source_id": "D01454b384c55_p7_c2_b7b00271541e",
+          "grade": "supported",
+          "note": "Supports the actually stated associated facts. Contains patient count and first two doses; ends at dexamethasone without its dose.",
+          "view_sha256": "f8fae8bd12de2b5f6c590f2c846c8d2100443492d962d1f41a3e9ec8dc9662bb"
+        },
+        {
+          "source_id": "D01454b384c55_p8_c1_461e28dfc4f4",
+          "grade": "supported",
+          "note": "Supports the actually stated associated facts. Unread by C; initial 3 mg/day continuation supplies dexamethasone dose when joined to page 7.",
+          "view_sha256": "1ada9dbdf8bf04c6e2f2a0c74958f07e3004e9a57cd6aad98f0c1efe45967400"
+        }
+      ],
+      "retrieval_views": []
+    },
+    {
+      "condition": "B-full-context",
+      "question_id": "ART06",
+      "answer_sha256": "8d0aedd06be7dc6e56edeecdc2bac4443d51110f972fe3d267f5bc0fcf3681e3",
+      "explanation_grade": 2,
+      "note": "Full context combines the two page-10 chunks, keeping whole-review and controlled-subset counts distinct and citing both.",
+      "citations": [
+        {
+          "source_id": "D01454b384c55_p10_c1_01dabd8547ec",
+          "grade": "supported",
+          "note": "Supports the actually stated associated facts. Whole-review counts 15/11 present; sentence stops before controlled-subset outcomes.",
+          "view_sha256": "79a2dcdb2d1a606383358163c25b5b497be12385e2e27b95422f2ec7e7f8de3e"
+        },
+        {
+          "source_id": "D01454b384c55_p10_c2_dccfbf19e922",
+          "grade": "supported",
+          "note": "Supports the actually stated associated facts. Unread by C; contains controlled-subset counts two benefit/four no effect.",
+          "view_sha256": "c83fe1f1f3014519d6edc261340b9ed3870f9db2e07e574b36e2139e7d897b38"
+        }
+      ],
+      "retrieval_views": []
+    },
+    {
+      "condition": "C-pdf-tools",
+      "question_id": "ART01",
+      "answer_sha256": "7f6cd7e25a470ab3fa92a5308795f8504958e5e5af631790706ff34138368b23",
+      "explanation_grade": 2,
+      "note": "All four article figures match; approximately 50% is preserved in the explanation. No extrapolation to all cancer patients.",
+      "citations": [
+        {
+          "source_id": "D01454b384c55_p2_c2_1f86e2571dc9",
+          "grade": "supported",
+          "note": "Supports the actually stated associated facts. All four requested figures and approximate qualifier are present.",
+          "view_sha256": "6cb2bdca8d8c00ecbe241036e68582af5075ae946c5403c25172ee1e739a0d1f"
+        }
+      ],
+      "retrieval_views": [
+        {
+          "source_id": "D01454b384c55_p2_c2_1f86e2571dc9",
+          "grade": "direct",
+          "note": "All four requested figures and approximate qualifier are present.",
+          "view_sha256": "6cb2bdca8d8c00ecbe241036e68582af5075ae946c5403c25172ee1e739a0d1f"
+        },
+        {
+          "source_id": "D01454b384c55_p3_c1_83f3fcf7bb53",
+          "grade": "partial",
+          "note": "Energy/substrate section caption only, without requested figures; no raster interpretation credited.",
+          "view_sha256": "b0c8b5b5276bc683426d168d578d617781b3e2366d971044ce3797d314591e6d"
+        },
+        {
+          "source_id": "D01454b384c55_p13_c1_ab2796011710",
+          "grade": "partial",
+          "note": "Bibliography identifies Lundholm/Cao-related studies but supplies no requested study percentages.",
+          "view_sha256": "20117bd876335b8a46ac418bad6edf4944457afafd424e05cc2bf84666fc216e"
+        },
+        {
+          "source_id": "D01454b384c55_p4_c1_5bbc8c2a27bb",
+          "grade": "irrelevant",
+          "note": "Micronutrient/fat discussion has unrelated numbers, not hypermetabolism/TEE figures.",
+          "view_sha256": "2aca42ab6cbb594d9aee8223c5c122a87b5b130647963e3b1cc6c2ca25032834"
+        }
+      ]
+    },
+    {
+      "condition": "C-pdf-tools",
+      "question_id": "ART02",
+      "answer_sha256": "a77f19567a37ab221d5d6e7afad3af1d6819e2402455a957e36d5c6e59b044d7",
+      "explanation_grade": 2,
+      "note": "All four physician-trial details and daily units/average follow-up match the original article. No prescribing recommendation is made.",
+      "citations": [
+        {
+          "source_id": "D01454b384c55_p4_c1_5bbc8c2a27bb",
+          "grade": "supported",
+          "note": "Supports the actually stated associated facts. Exact physician count, E/C daily doses and average follow-up.",
+          "view_sha256": "2aca42ab6cbb594d9aee8223c5c122a87b5b130647963e3b1cc6c2ca25032834"
+        }
+      ],
+      "retrieval_views": [
+        {
+          "source_id": "D01454b384c55_p4_c1_5bbc8c2a27bb",
+          "grade": "direct",
+          "note": "Exact physician count, E/C daily doses and average follow-up.",
+          "view_sha256": "2aca42ab6cbb594d9aee8223c5c122a87b5b130647963e3b1cc6c2ca25032834"
+        },
+        {
+          "source_id": "D01454b384c55_p13_c2_6560355709f1",
+          "grade": "partial",
+          "note": "Physicians' vitamin-study reference metadata, without the requested quantitative details.",
+          "view_sha256": "a9f5eca48868bd9029d88d3bb650f4ba5dd4a02d529c10b9f914e2f95115faa7"
+        },
+        {
+          "source_id": "D01454b384c55_p5_c1_dbbd6e65f33c",
+          "grade": "irrelevant",
+          "note": "Thiamine/refeeding/exercise are different topics, not the E/C physician trial.",
+          "view_sha256": "f8007487312f634c4a4a0796fbd826174e58130cfd9d90708e5d59a10a90dd52"
+        },
+        {
+          "source_id": "D01454b384c55_p4_c2_965f25741d94",
+          "grade": "irrelevant",
+          "note": "Diet/feeding-route intervention text does not provide this trial's figures.",
+          "view_sha256": "eb50d5e47b9b7e0b749200661b72c7783800d1f400e4e5118d306c219a164cf6"
+        }
+      ]
+    },
+    {
+      "condition": "C-pdf-tools",
+      "question_id": "ART03",
+      "answer_sha256": "d6004bd43f6506db1974c668d3fabcc5f0feab191158d560cd65cea0dfbacc88",
+      "explanation_grade": 2,
+      "note": "Correct count, duration, completion and false significance flag; no unsupported claim of efficacy/equivalence.",
+      "citations": [
+        {
+          "source_id": "D01454b384c55_p7_c1_931b00ff6761",
+          "grade": "supported",
+          "note": "Supports the actually stated associated facts. 472 patients, eight weeks, 37% completion and no significant differences.",
+          "view_sha256": "b0918fc276f4ec6ec0eb74e739688c14143e13dcd000bec8edb267848085c3f2"
+        }
+      ],
+      "retrieval_views": [
+        {
+          "source_id": "D01454b384c55_p7_c1_931b00ff6761",
+          "grade": "direct",
+          "note": "472 patients, eight weeks, 37% completion and no significant differences.",
+          "view_sha256": "b0918fc276f4ec6ec0eb74e739688c14143e13dcd000bec8edb267848085c3f2"
+        },
+        {
+          "source_id": "D01454b384c55_p8_c1_461e28dfc4f4",
+          "grade": "irrelevant",
+          "note": "Arginine-containing perioperative immunonutrition is a different intervention/study.",
+          "view_sha256": "1ada9dbdf8bf04c6e2f2a0c74958f07e3004e9a57cd6aad98f0c1efe45967400"
+        },
+        {
+          "source_id": "D01454b384c55_p10_c1_01dabd8547ec",
+          "grade": "irrelevant",
+          "note": "Glutamine/mucositis studies are not the HMB-mixture cachexia RCT.",
+          "view_sha256": "79a2dcdb2d1a606383358163c25b5b497be12385e2e27b95422f2ec7e7f8de3e"
+        },
+        {
+          "source_id": "D01454b384c55_p11_c1_a1cbe9479ca8",
+          "grade": "irrelevant",
+          "note": "HSCT/glutamine and neutropenic diets do not supply HMB-mixture trial details.",
+          "view_sha256": "b76b049c39b302e519d0d9a1049cbe7d55f86743f21d4e832fbee85a42fc8309"
+        },
+        {
+          "source_id": "D01454b384c55_p10_c2_dccfbf19e922",
+          "grade": "irrelevant",
+          "note": "Glutamine-controlled subset/HSCT continuation does not answer the HMB question.",
+          "view_sha256": "c83fe1f1f3014519d6edc261340b9ed3870f9db2e07e574b36e2139e7d897b38"
+        }
+      ]
+    },
+    {
+      "condition": "C-pdf-tools",
+      "question_id": "ART04",
+      "answer_sha256": "9b416238104d13d9f1e346a2559045a6f8a8d69135c2c2a9c01833ea2e60ee5c",
+      "explanation_grade": 2,
+      "note": "Correctly distinguishes the two studies and per-day versus per-administration quantities; bid is explained correctly as twice daily.",
+      "citations": [
+        {
+          "source_id": "D01454b384c55_p7_c2_b7b00271541e",
+          "grade": "supported",
+          "note": "Supports the actually stated associated facts. Correct multicenter and pilot figures; distinguishes per-day versus per-administration doses.",
+          "view_sha256": "f8fae8bd12de2b5f6c590f2c846c8d2100443492d962d1f41a3e9ec8dc9662bb"
+        }
+      ],
+      "retrieval_views": [
+        {
+          "source_id": "D01454b384c55_p7_c2_b7b00271541e",
+          "grade": "direct",
+          "note": "Correct multicenter and pilot figures; distinguishes per-day versus per-administration doses.",
+          "view_sha256": "f8fae8bd12de2b5f6c590f2c846c8d2100443492d962d1f41a3e9ec8dc9662bb"
+        },
+        {
+          "source_id": "D01454b384c55_p14_c3_44d9c956300a",
+          "grade": "partial",
+          "note": "References 68/69 identify the exact studies, without count/dose/duration details.",
+          "view_sha256": "9211725d88aa9b121c5d01b821094d5ae76c185a508a5d423ef12cbfd2671ebe"
+        },
+        {
+          "source_id": "D01454b384c55_p2_c1_56d320f8659d",
+          "grade": "irrelevant",
+          "note": "Global THC glossary/intro has no requested trial or pilot details.",
+          "view_sha256": "ac1240bcef40214c361c1a0db2e285050a0129b7fb7986f48d4b5e2c65f0bc90"
+        }
+      ]
+    },
+    {
+      "condition": "C-pdf-tools",
+      "question_id": "ART05",
+      "answer_sha256": "6348d08651f022fc70abe6e81a40c1e5bb897fa366b6a144de66289346dc49c8",
+      "explanation_grade": 1,
+      "note": "Three requested values correct; dexamethasone dose remains null. Actual search/read obtained page 7, not its page-8 continuation. A malformed third research output led to reserved finalization. Honest missing-value response, but incomplete article access and a long episode; do not credit unread 3 mg/day.",
+      "citations": [
+        {
+          "source_id": "D01454b384c55_p7_c2_b7b00271541e",
+          "grade": "supported",
+          "note": "Supports the actually stated associated facts. Contains patient count and first two doses; ends at dexamethasone without its dose.",
+          "view_sha256": "f8fae8bd12de2b5f6c590f2c846c8d2100443492d962d1f41a3e9ec8dc9662bb"
+        }
+      ],
+      "retrieval_views": [
+        {
+          "source_id": "D01454b384c55_p7_c2_b7b00271541e",
+          "grade": "direct",
+          "note": "Contains patient count and first two doses; ends at dexamethasone without its dose.",
+          "view_sha256": "f8fae8bd12de2b5f6c590f2c846c8d2100443492d962d1f41a3e9ec8dc9662bb"
+        },
+        {
+          "source_id": "D01454b384c55_p14_c3_44d9c956300a",
+          "grade": "partial",
+          "note": "Reference 72 identifies the three-arm study, without its doses/count.",
+          "view_sha256": "9211725d88aa9b121c5d01b821094d5ae76c185a508a5d423ef12cbfd2671ebe"
+        },
+        {
+          "source_id": "D01454b384c55_p6_c1_529d60f1dbaf",
+          "grade": "irrelevant",
+          "note": "General corticosteroid/progestin/fish-oil guidance does not give the three-arm trial figures.",
+          "view_sha256": "fd6aaa9c852f51981983c37d76ba72930df2ec32cfa57b0bd938469726f3f3d1"
+        },
+        {
+          "source_id": "D01454b384c55_p14_c2_b3bf254dc368",
+          "grade": "irrelevant",
+          "note": "Other cachexia reviews/insulin/HMB citations do not report this trial's requested figures.",
+          "view_sha256": "f214fa2203c7b262387309679d924f57cbad3d237d2f096c154faae4c1ef0451"
+        },
+        {
+          "source_id": "D01454b384c55_p7_c1_931b00ff6761",
+          "grade": "irrelevant",
+          "note": "Adjacent HMB/insulin/prokinetic discussion is not the three-arm trial.",
+          "view_sha256": "b0918fc276f4ec6ec0eb74e739688c14143e13dcd000bec8edb267848085c3f2"
+        }
+      ]
+    },
+    {
+      "condition": "C-pdf-tools",
+      "question_id": "ART06",
+      "answer_sha256": "00abfb445aec5409d2013e6bc4a56169e1d81fba2598ad94ce9cbaee7087c0aa",
+      "explanation_grade": 1,
+      "note": "Whole-review counts correct; both controlled-subset counts remain null. The agent searched the dangling phrase and read page 11 instead of page-10 chunk 2. Claimed truncation concerns delivered excerpts, not absence from the article. Finalization followed three actual research operations; no invented numbers, but incomplete coverage and prolonged generation.",
+      "citations": [
+        {
+          "source_id": "D01454b384c55_p10_c1_01dabd8547ec",
+          "grade": "supported",
+          "note": "Supports the actually stated associated facts. Whole-review counts 15/11 present; sentence stops before controlled-subset outcomes.",
+          "view_sha256": "79a2dcdb2d1a606383358163c25b5b497be12385e2e27b95422f2ec7e7f8de3e"
+        }
+      ],
+      "retrieval_views": [
+        {
+          "source_id": "D01454b384c55_p10_c1_01dabd8547ec",
+          "grade": "direct",
+          "note": "Whole-review counts 15/11 present; sentence stops before controlled-subset outcomes.",
+          "view_sha256": "79a2dcdb2d1a606383358163c25b5b497be12385e2e27b95422f2ec7e7f8de3e"
+        },
+        {
+          "source_id": "D01454b384c55_p15_c2_935358589834",
+          "grade": "irrelevant",
+          "note": "Other glutamine/RT trial references do not identify/provide the requested review counts.",
+          "view_sha256": "3f2010ee483730c58b6c94bb06f6897613e52d0a2907a8915d73a5dd47c73810"
+        },
+        {
+          "source_id": "D01454b384c55_p15_c3_ffe96f86232c",
+          "grade": "partial",
+          "note": "Reference 112 identifies the exact Sayles review, without its quantitative synthesis.",
+          "view_sha256": "94ada917c096d00c6d172b0afa61d1cb7da0396c921f9827cb71eb3f95a71c76"
+        },
+        {
+          "source_id": "D01454b384c55_p11_c1_a1cbe9479ca8",
+          "grade": "irrelevant",
+          "note": "Other HSCT/glutamine evidence and diets do not supply the requested controlled-subset counts.",
+          "view_sha256": "b76b049c39b302e519d0d9a1049cbe7d55f86743f21d4e832fbee85a42fc8309"
+        },
+        {
+          "source_id": "D01454b384c55_p7_c2_b7b00271541e",
+          "grade": "irrelevant",
+          "note": "Cannabinoid/androgen studies collide with the word six but are unrelated.",
+          "view_sha256": "f8fae8bd12de2b5f6c590f2c846c8d2100443492d962d1f41a3e9ec8dc9662bb"
+        },
+        {
+          "source_id": "D01454b384c55_p8_c1_461e28dfc4f4",
+          "grade": "irrelevant",
+          "note": "Surgery and previous drug-dose continuation are unrelated to the glutamine review.",
+          "view_sha256": "1ada9dbdf8bf04c6e2f2a0c74958f07e3004e9a57cd6aad98f0c1efe45967400"
+        },
+        {
+          "source_id": "D01454b384c55_p11_c2_26b20c76121b",
+          "grade": "irrelevant",
+          "note": "Survivor activity/BMI continuation is unrelated to the review counts.",
+          "view_sha256": "5979778ca7b572951e8ec9ac0fd166c24d58b530e3ec70665b2c5e6b690b0e2d"
+        }
+      ]
+    }
+  ]
+}

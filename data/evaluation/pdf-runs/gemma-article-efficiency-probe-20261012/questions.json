@@ -1,0 +1,9 @@
+{
+  "questions": [
+    {
+      "question_id": "ARTICLE-PILOT",
+      "question": "According to the summary of this article, how many numbered recommendations are presented? Return answer as a JSON object encoded in the answer string with only recommendations_count (number), explain the actual source, and give its exact registered citation. selected_option must be null.",
+      "options": null
+    }
+  ]
+}

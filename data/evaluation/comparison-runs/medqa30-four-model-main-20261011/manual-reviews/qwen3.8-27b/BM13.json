@@ -1,0 +1,34 @@
+{
+  "question_id": "BM13",
+  "model_profile": "qwen3.8-27b",
+  "answer_sha256": "c792b652b9043a57ddd57217a236a648d2d1af7dfeb7bd5fb9579fe9fc2b2148",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "consistent"
+  },
+  "answer_notes": "Correct C. Appropriate fever/travel/intestinal/hepatosplenic/rose pattern and a qualified clinical differential. Explicitly acknowledges that the actual excerpt does not confirm the rose presentation; the cited cohort supplies general typhoid/paratyphoid organism context only.",
+  "researcher_reference_ids": [
+    "R4-CL05"
+  ],
+  "queries": [
+    {
+      "rating": "partially_appropriate",
+      "notes": "Relevant syndrome/rash but requiring Indonesia as well narrows the search beyond the necessary clinical pattern."
+    }
+  ],
+  "papers": {
+    "8433774": {
+      "rating": "partially_relevant",
+      "notes": "Culture-positive typhoid/paratyphoid cohort supports organism context; its excerpt cuts before travel/clinical-feature findings."
+    }
+  },
+  "citations": {
+    "P8433774_search_3ba8e56268f5": {
+      "rating": "partially_supported",
+      "notes": "Actual culture-positive typhoid/paratyphoid context is relevant, but the decisive rash/clinical features are outside the excerpt; the model acknowledges this gap."
+    }
+  },
+  "inline_citations": {}
+}

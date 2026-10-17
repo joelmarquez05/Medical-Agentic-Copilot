@@ -1,0 +1,46 @@
+{
+  "question_id": "BM29",
+  "model_profile": "kimi-k3",
+  "answer_sha256": "33d34dd7bce70bfd9adfe51283735bdf85bd9894a61e5c30a458c3586965db1b",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "minor_limitation",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "minor_limitation"
+  },
+  "answer_notes": "Correct lamotrigine with a fitting early severe-cutaneous-reaction suspicion. Calls the vignette mucocutaneous SJS despite no mucosal findings being supplied; the 2-8-week risk is label-supported researcher context, not delivered by either short excerpt. The prevention excerpt lists AEDs as a class, not lamotrigine by name in its body.",
+  "researcher_reference_ids": [
+    "R4-CL11"
+  ],
+  "queries": [
+    {
+      "rating": "appropriate",
+      "notes": "Direct drug/reaction/bipolar query finds a case and prevention review."
+    }
+  ],
+  "papers": {
+    "29659202": {
+      "rating": "partially_relevant",
+      "notes": "Bipolar LTG mild/moderate rash and rechallenge methods, not the severe reaction pattern."
+    },
+    "17244876": {
+      "rating": "directly_relevant",
+      "notes": "Excerpt explicitly documents LTG-induced SJS with oral/general skin lesions."
+    },
+    "34092825": {
+      "rating": "directly_relevant",
+      "notes": "LTG/SJS prevention title and direct SJS delayed-hypersensitivity/class risk background."
+    }
+  },
+  "citations": {
+    "P17244876_search_b7599e42f8e1": {
+      "rating": "supported",
+      "notes": "Actually delivered excerpt explicitly states LTG-induced SJS and its eruption, without proving the vignette diagnosis."
+    },
+    "P34092825_search_f533357b24b3": {
+      "rating": "partially_supported",
+      "notes": "Supports delayed hypersensitivity and antiepileptics as common causes; delivered body stops before naming lamotrigine or early timing."
+    }
+  },
+  "inline_citations": {}
+}

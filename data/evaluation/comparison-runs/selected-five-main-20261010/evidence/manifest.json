@@ -1,0 +1,342 @@
+{
+  "created_at_utc": "2026-10-10T16:29:53+00:00",
+  "selection": "Unfiltered PMID-deduplicated union of the initial and final requirement-3 cohorts for each unchanged question; all ten guidance cards supplied to every model.",
+  "guidance_sha256": "ee820f5e22b7bb4213c04752355d8c641b96bc80d84ea232e256a5238d2eb3af",
+  "questions": [
+    {
+      "question_id": "ON01",
+      "sha256": "64434668f9ebea035ae146dc2d8b7b6e28359a42cff55855e9275120c853889c",
+      "pubmed_ids": [
+        "P19524333",
+        "P30235002",
+        "P32019626",
+        "P32563599",
+        "P32873437",
+        "P34207529",
+        "P37902006"
+      ],
+      "guidance_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "archived_retrieval_records": [
+        {
+          "path": "data/evaluation/retrieval-runs/gemini-pubmed-internal-20261010/retrieval/ON01.json",
+          "sha256": "b058485686b0e5460043e6dc2e242aa6b14eda3b4f14f42f59e913e1c04eb5cb"
+        },
+        {
+          "path": "data/evaluation/retrieval-runs/gemini-pubmed-final-20261010/retrieval/ON01.json",
+          "sha256": "7bcadb9e6f717fad789631a7d27813f11072f2b0c582c1c3c753afb20e8318d5"
+        }
+      ]
+    },
+    {
+      "question_id": "ON02",
+      "sha256": "bac41d1338d4d44a4557dc9da5dc2b84e7c15c5c8b191c068c51225d6d0383e7",
+      "pubmed_ids": [
+        "P2105475",
+        "P18359195",
+        "P19647909",
+        "P28143668",
+        "P33369797"
+      ],
+      "guidance_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "archived_retrieval_records": [
+        {
+          "path": "data/evaluation/retrieval-runs/gemini-pubmed-internal-20261010/retrieval/ON02.json",
+          "sha256": "56bbe051db4fa6dc89cf777121c093fc574058800ecb6c98641c102835f694e3"
+        },
+        {
+          "path": "data/evaluation/retrieval-runs/gemini-pubmed-final-20261010/retrieval/ON02.json",
+          "sha256": "e442d7da939fda6ade3ab3f39ff1376b88669d61d6ddfae2f3cc556832c6afce"
+        }
+      ]
+    },
+    {
+      "question_id": "ON03",
+      "sha256": "384387032e88cb7bec1293f614e98738846a3ff6de37a718cfec3476a33a00eb",
+      "pubmed_ids": [
+        "P3140323",
+        "P6186877",
+        "P6774119",
+        "P11564312",
+        "P15044652",
+        "P29016197"
+      ],
+      "guidance_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "archived_retrieval_records": [
+        {
+          "path": "data/evaluation/retrieval-runs/gemini-pubmed-internal-20261010/retrieval/ON03.json",
+          "sha256": "749c313f5fd65dd1c3c7c9b6679de0ef030d3c9244a9551a8adcdb972d877d07"
+        },
+        {
+          "path": "data/evaluation/retrieval-runs/gemini-pubmed-final-20261010/retrieval/ON03.json",
+          "sha256": "9e038a871b07e7429e7e71931a86a775d13e8e3b49249213257c0e17fa4f368f"
+        }
+      ]
+    },
+    {
+      "question_id": "ON04",
+      "sha256": "f4e81b6c609c6474c3c447f2a78f0504ffe865785eb47d8e54339af828de5457",
+      "pubmed_ids": [
+        "P16462173",
+        "P16500444",
+        "P21364165",
+        "P27885969",
+        "P32432946",
+        "P36377820",
+        "P36992552",
+        "P42178744"
+      ],
+      "guidance_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "archived_retrieval_records": [
+        {
+          "path": "data/evaluation/retrieval-runs/gemini-pubmed-internal-20261010/retrieval/ON04.json",
+          "sha256": "56acd3c006353d3678229577b178e34fae8293e9f6502b74582973b092ea0ff6"
+        },
+        {
+          "path": "data/evaluation/retrieval-runs/gemini-pubmed-final-20261010/retrieval/ON04.json",
+          "sha256": "92c6df598add160f4ded7733aec32e76fce457c4098211a00b10c2fb0199ce17"
+        }
+      ]
+    },
+    {
+      "question_id": "ON05",
+      "sha256": "7fad1e70982233d35c3e11f17bebc62b7da22a6f42f23cd2897ae1b9eb7c5ac7",
+      "pubmed_ids": [
+        "P12170570",
+        "P28689670",
+        "P29369114",
+        "P31080641",
+        "P31916411",
+        "P32002684",
+        "P33841322",
+        "P34813576",
+        "P34897740"
+      ],
+      "guidance_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "archived_retrieval_records": [
+        {
+          "path": "data/evaluation/retrieval-runs/gemini-pubmed-internal-20261010/retrieval/ON05.json",
+          "sha256": "08e8a3c5f78d57a97dcd82f68eba8329a1408640df391ca7ece6c6959862aba6"
+        },
+        {
+          "path": "data/evaluation/retrieval-runs/gemini-pubmed-final-20261010/retrieval/ON05.json",
+          "sha256": "fc61cbb64b5628daad0f2292b258e6c7d7e813281c23b5f9370283aaf42571b8"
+        }
+      ]
+    },
+    {
+      "question_id": "ON06",
+      "sha256": "32f1d9898ec874ad99b60ae54acb31c8b34ff1fb294eae34a2f9185daefe3b14",
+      "pubmed_ids": [
+        "P19284691",
+        "P27885969",
+        "P32028807",
+        "P32384662",
+        "P38732574"
+      ],
+      "guidance_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "archived_retrieval_records": [
+        {
+          "path": "data/evaluation/retrieval-runs/gemini-pubmed-internal-20261010/retrieval/ON06.json",
+          "sha256": "919332197c143ac95a891e14357a615a669f0340e247846b897ccd31ebb056dc"
+        },
+        {
+          "path": "data/evaluation/retrieval-runs/gemini-pubmed-final-20261010/retrieval/ON06.json",
+          "sha256": "c2e94dafc2de6d06e0862d48813c57802a6a28717e51904799ac97af2baa939c"
+        }
+      ]
+    },
+    {
+      "question_id": "ON07",
+      "sha256": "1266a8c2824b2ba56c209d4a31aba68da136bbfa84466e56387830af7bbe0310",
+      "pubmed_ids": [
+        "P8143100",
+        "P10785904",
+        "P16679934",
+        "P18955453",
+        "P27409075",
+        "P35576506",
+        "P38762324",
+        "P40307551",
+        "P40384506",
+        "P41406403"
+      ],
+      "guidance_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "archived_retrieval_records": [
+        {
+          "path": "data/evaluation/retrieval-runs/gemini-pubmed-internal-20261010/retrieval/ON07.json",
+          "sha256": "7562c3a0c93fa89db7a42d2b90969e80059bc2be7b220092ab0e2f3ae7b5acfc"
+        },
+        {
+          "path": "data/evaluation/retrieval-runs/gemini-pubmed-final-20261010/retrieval/ON07.json",
+          "sha256": "0f19e39258fb78f22d570c55611a1ad7516f5ecae0cf5d4564c9a2c45bd6f7dc"
+        }
+      ]
+    },
+    {
+      "question_id": "ON08",
+      "sha256": "c9a4b4df475d6f2c6a989c0c3a5b2db5f620ab22253a89fb2d1a737c79709111",
+      "pubmed_ids": [
+        "P18064645",
+        "P36561763",
+        "P38718638",
+        "P40362760",
+        "P40563519",
+        "P40611279"
+      ],
+      "guidance_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "archived_retrieval_records": [
+        {
+          "path": "data/evaluation/retrieval-runs/gemini-pubmed-internal-20261010/retrieval/ON08.json",
+          "sha256": "de34446d1bdd535d11299471022fd763347e0bafafb0707f73e15620fcc404ec"
+        },
+        {
+          "path": "data/evaluation/retrieval-runs/gemini-pubmed-final-20261010/retrieval/ON08.json",
+          "sha256": "b931c97376866f69a96f4b7aa288fa790ffc6ce3709bc77606f31cd3164183c7"
+        }
+      ]
+    },
+    {
+      "question_id": "ON09",
+      "sha256": "87ecc070fbaf46e006522dc8a2ae90ed05d5403a1f0d9199a0c62abb0fd0731c",
+      "pubmed_ids": [
+        "P32745358",
+        "P34916141",
+        "P39639485",
+        "P42011215"
+      ],
+      "guidance_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "archived_retrieval_records": [
+        {
+          "path": "data/evaluation/retrieval-runs/gemini-pubmed-internal-20261010/retrieval/ON09.json",
+          "sha256": "9d767e1d0f8d9e3b03ac81e56f62fe8eabc8311112ee317bdf40c0630eb68aaa"
+        },
+        {
+          "path": "data/evaluation/retrieval-runs/gemini-pubmed-final-20261010/retrieval/ON09.json",
+          "sha256": "89745e17e2a9a9a2e2e5a15f382345b97c70b1680699debdca151fafa8488719"
+        }
+      ]
+    },
+    {
+      "question_id": "ON10",
+      "sha256": "02c082f8e985fadc048191a4ed90a9410c8710f5fa95c01f884577d360545d99",
+      "pubmed_ids": [
+        "P28266779",
+        "P33274644",
+        "P34610596",
+        "P35015037",
+        "P38176412"
+      ],
+      "guidance_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "archived_retrieval_records": [
+        {
+          "path": "data/evaluation/retrieval-runs/gemini-pubmed-internal-20261010/retrieval/ON10.json",
+          "sha256": "e1cb6e38c425e2078f2167f3e74834acf09b05e973b1b44565b677c3c8aec944"
+        },
+        {
+          "path": "data/evaluation/retrieval-runs/gemini-pubmed-final-20261010/retrieval/ON10.json",
+          "sha256": "d7ab4abcf2c20909d89ad375d6e358b0bd7c41e10f3c806399a529f7f2c7498f"
+        }
+      ]
+    }
+  ]
+}

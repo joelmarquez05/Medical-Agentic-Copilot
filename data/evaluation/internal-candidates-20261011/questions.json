@@ -1,0 +1,105 @@
+{
+  "status": "Candidate selection for discussion; not approved/frozen as a scored run",
+  "questions": [
+    {
+      "question_id": "CP01",
+      "question": "A 58-year-old female, being treated on the medical floor for community-acquired pneumonia with levofloxacin, develops watery diarrhea. She reports at least 9 episodes of diarrhea within the last two days, with lower abdominal discomfort and cramping. Her temperature is 98.6° F (37° C), respiratory rate is 15/min, pulse is 67/min, and blood pressure is 122/98 mm Hg. Her physical examination is unremarkable. Laboratory testing shows:\nHb%   13 gm/dL\nTotal count (WBC):   13,400/mm3\nDifferential count:    \n  Neutrophils: 80%\n  Lymphocytes: 15%\n  Monocytes: 5%\nESR:   33 mm/hr\nWhat is the most likely diagnosis?",
+      "options": {
+        "A": "Ulcerative colitis",
+        "B": "C. difficile colitis",
+        "C": "Irritable bowel syndrome",
+        "D": "Giardiasis"
+      }
+    },
+    {
+      "question_id": "CP02",
+      "question": "A 45-year-old African-American woman presents with dyspnea, cough, and non-radiating chest pain. Her chest pain is relieved by leaning forward and worsens upon leaning backwards. A scratchy rub is heard best with the patient leaning forward. Physical examination did not elucidate evidence of a positive Kussmaul's sign, pulsus paradoxus, or pericardial knock. The patient most likely is suffering from which of the following?",
+      "options": {
+        "A": "Constrictive pericarditis",
+        "B": "Acute pericarditis",
+        "C": "Libman-Sacks endocarditis",
+        "D": "Acute myocardial infarction"
+      }
+    },
+    {
+      "question_id": "CP03",
+      "question": "A 32-year-old woman comes to the physician because of a 3-month history of irregular menses, milky discharge from her nipples, fatigue, and weight gain. Menses occur at irregular 25–40-day intervals and last 1–2 days with minimal flow. 5 months ago, she was started on clozapine for treatment of schizophrenia. She has hypothyroidism but has not been taking levothyroxine over the past 6 months. Visual field examination show no abnormalities. Her serum thyroid-stimulating hormone is 17.0 μU/mL and serum prolactin is 85 ng/mL. Which of the following is the most likely explanation for the nipple discharge in this patient?",
+      "options": {
+        "A": "Hypothyroidism",
+        "B": "Prolactinoma",
+        "C": "Thyrotropic pituitary adenoma",
+        "D": "Ectopic prolactin production"
+      }
+    },
+    {
+      "question_id": "CP04",
+      "question": "A 19-year-old man with a past medical history significant only for moderate facial acne and mild asthma presents to his primary care physician with a new rash. He notes it has developed primarily over the backs of his elbows and is itchy. He also reports a 6-month history of foul-smelling diarrhea. He has no significant social or family history. The patient's blood pressure is 109/82 mm Hg, pulse is 66/min, respiratory rate is 16/min, and temperature is 36.7°C (98.0°F). Physical examination reveals crusting vesicular clusters on his elbows with a base of erythema and edema. What is the most likely underlying condition?",
+      "options": {
+        "A": "Food allergy",
+        "B": "Type 2 diabetes mellitus",
+        "C": "Celiac disease",
+        "D": "IgA nephropathy"
+      }
+    },
+    {
+      "question_id": "CP05",
+      "question": "A 68-year-old man presents to the emergency department with leg pain. He states that the pain started suddenly while he was walking outside. The patient has a past medical history of diabetes, hypertension, obesity, and atrial fibrillation. His temperature is 99.3°F (37.4°C), blood pressure is 152/98 mmHg, pulse is 97/min, respirations are 15/min, and oxygen saturation is 99% on room air. Physical exam is notable for a cold and pale left leg. The patient’s sensation is markedly diminished in the left leg when compared to the right, and his muscle strength is 1/5 in his left leg. Which of the following is the best next step in management?",
+      "options": {
+        "A": "Graded exercise and aspirin",
+        "B": "Heparin drip",
+        "C": "Surgical thrombectomy",
+        "D": "Tissue plasminogen activator"
+      }
+    },
+    {
+      "question_id": "CP06",
+      "question": "A 27-year-old woman, gravida 2, para 1, at 37 weeks' gestation is admitted to the hospital in active labor. She has received routine prenatal care, but she has not been tested for group B streptococcal (GBS) colonization. Pregnancy and delivery of her first child were complicated by an infection with GBS that resulted in sepsis in the newborn. Current medications include folic acid and a multivitamin. Vital signs are within normal limits. The abdomen is nontender and contractions are felt every 4 minutes. There is clear amniotic fluid pooling in the vagina. The fetus is in a cephalic presentation. The fetal heart rate is 140/min. Which of the following is the most appropriate next step in management?",
+      "options": {
+        "A": "Obtain vaginal-rectal swab for GBS culture",
+        "B": "Administer intrapartum intravenous penicillin",
+        "C": "Obtain vaginal-rectal swab for GBS culture and nucleic acid amplification testing",
+        "D": "Obtain vaginal-rectal swab for nucleic acid amplification testing"
+      }
+    },
+    {
+      "question_id": "CP07",
+      "question": "A 32-year-old woman, gravida 2, para 1, at 32 weeks' gestation comes to the physician for a prenatal visit. She reports that she has had frequent headaches and dizziness recently. Pregnancy and delivery of her first child were uncomplicated. There is no personal or family history of serious illness. Medications include folic acid and a multivitamin. Her temperature is 37°C (98.6°F), pulse is 90/min, and blood pressure is 170/100 mm Hg. Pelvic examination shows a uterus consistent in size with a 32-week gestation. Physical examination shows 2+ edema in the lower extremities. Laboratory studies show:\nHematocrit 37%\nLeukocyte count 9000/mm3\nPlatelet count 60,000/mm3\nSerum\nNa+ 140 mEq/L\nCl- 104 mEq/L\nK+ 4.4 mEq/L\nCreatinine 1.0 mg/dL\nAspartate aminotransferase 20 U/L\nAlanine aminotransferase 20 U/L\nWhich of the following is the most appropriate next step in management?\"",
+      "options": {
+        "A": "Magnesium sulfate and labetalol therapy",
+        "B": "Platelet transfusion",
+        "C": "Admit the patient to the ICU",
+        "D": "Perform C-section\n\""
+      }
+    },
+    {
+      "question_id": "CP08",
+      "question": "A 52-year-old man who was recently hospitalized with a pulmonary embolism is put on an unfractionated heparin drip as a bridge to chronic warfarin therapy. During morning rounds, he is found to have diffuse bruising despite minimal trauma, and his heparin infusion rate is found to be faster than prescribed. A coagulation panel is obtained, which shows a aPTT of 130 seconds (therapeutic 70-120 seconds), and the decision is made to reverse the effects of heparin. Which of the following would most likely be administered in order to do this?",
+      "options": {
+        "A": "Aminocaproic acid",
+        "B": "Fresh frozen plasma",
+        "C": "Platelets",
+        "D": "Protamine sulfate"
+      }
+    },
+    {
+      "question_id": "CP09",
+      "question": "Ten days after being discharged from the hospital, a 42-year-old man comes to the emergency department because of reduced urine output for 3 days. Physical examination is normal. Serum creatinine concentration is 2.9 mg/dL. Urinalysis shows brownish granular casts and 2+ proteinuria. Renal biopsy shows patchy necrosis of the proximal convoluted tubule with sloughing of tubular cells into the lumen and preservation of tubular basement membranes. Administration of which of the following drugs during this patient's hospitalization is most likely the cause of the observed decrease in renal function?",
+      "options": {
+        "A": "Captopril",
+        "B": "Aspirin",
+        "C": "Acyclovir",
+        "D": "Gentamicin"
+      }
+    },
+    {
+      "question_id": "CP10",
+      "question": "A group of investigators conducted a randomized controlled trial to compare the effectiveness of rivaroxaban to warfarin for ischemic stroke prevention in patients with atrial fibrillation. A total of 14,000 participants were enrolled and one half was assigned to each of the cohorts. The patients were followed prospectively for 3 years. At the conclusion of the trial, the incidence of ischemic stroke in participants taking rivaroxaban was 1.7% compared to 2.2% in participants taking warfarin. The hazard ratio is calculated as 0.79 and the 95% confidence interval is reported as 0.64 to 0.97. If the study was conducted with a total of 7,000 participants, which of the following changes would most be expected?",
+      "options": {
+        "A": "Decreased hazard ratio",
+        "B": "Increased confidence interval range",
+        "C": "Decreased type I error rate",
+        "D": "Increased risk of confounding bias"
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-11",
+  "operation": "Local record review; attempted read-only authenticated ledger query was blocked before execution",
+  "user_total_openrouter_cost_limit_usd": 6.0,
+  "limit_scope": "Conservative cumulative interpretation including previous work",
+  "main_budget_record": "data/evaluation/comparison-runs/selected-five-main-20261010/budget.json",
+  "main_recorded_spend_including_initial_preflight_and_pilot_usd": 3.65147843,
+  "alternate_preflight_record": "data/checks/alternate-google-platform-preflight-20261010.json",
+  "alternate_preflight_recorded_spend_usd": 0.00038254,
+  "combined_local_recorded_paid_spend_usd": 3.65186097,
+  "unknown_charge_reserve_usd": 3.837008,
+  "arithmetic_limit_minus_local_recorded_spend_usd": 2.34813903,
+  "verified_remaining_paid_allowance_usd": null,
+  "account_total_credits_usd": null,
+  "account_total_usage_usd": null,
+  "authenticated_ledger_check": "Blocked by automatic tool policy: blocked by policy. No HTTP response or balance observation was obtained.",
+  "new_model_inference_calls": 0,
+  "google_native_monetary_charges": "Unknown",
+  "interpretation": "Local charges are not a reconciled account invoice. The reserve is uncertain bookkeeping, not confirmed expenditure. Keep paid inference stopped pending design and spending reconciliation."
+}

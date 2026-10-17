@@ -1,0 +1,17 @@
+{
+  "question_id": "BM22",
+  "model_profile": "kimi-k3",
+  "answer_sha256": "f3679c0122a2ee9769f32ad6f044dce514ff7b263fda7f0dd699ea8e3dea50a2",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "consistent"
+  },
+  "answer_notes": "Correct incretin-preservation mechanism and clear contrasts with sulfonylurea, SGLT2 and PPAR-gamma options; no tool evidence claimed or fabricated.",
+  "researcher_reference_ids": [],
+  "queries": [],
+  "papers": {},
+  "citations": {},
+  "inline_citations": {}
+}

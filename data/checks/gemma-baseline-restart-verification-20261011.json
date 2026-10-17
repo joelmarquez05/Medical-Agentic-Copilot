@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "stage": "baseline",
+  "run_id": "gemma-baseline-restart-20261011",
+  "checks": "Frozen source/input/key/profile/protocol/rubric hashes; exact replayed prompts/actions/answers/traces; empty evidence/history/tools; separate keys; numeric costs; no credential-shaped strings or private reasoning fields.",
+  "cases": [
+    {
+      "question_id": "IC01",
+      "answer_sha256": "4841bb4ee39bbc5396563ed7bf62d9715b2cdff3c452e52ed90e17af22b5495d",
+      "status": "completed",
+      "replayed_saved_responses": 1
+    },
+    {
+      "question_id": "IC02",
+      "answer_sha256": "7dc638e1940a6961fd0db9f142f71a08a428f69fb599ef71af6c2b14df320fb1",
+      "status": "completed",
+      "replayed_saved_responses": 1
+    },
+    {
+      "question_id": "IC03",
+      "answer_sha256": "a78a5d4e7d2f8a41a4814c8b0bf94797270096e9d8c28577553269e73326086d",
+      "status": "completed",
+      "replayed_saved_responses": 1
+    },
+    {
+      "question_id": "IC04",
+      "answer_sha256": "b171fd2d5a645d44596d553381101f9175e214fff2857735bbc4bb9d145d8278",
+      "status": "completed",
+      "replayed_saved_responses": 1
+    },
+    {
+      "question_id": "IC05",
+      "answer_sha256": "5af9ce1ade19512b181f94900e7986e23dcdd08cb700c9e12b124cf3a39606a9",
+      "status": "completed",
+      "replayed_saved_responses": 1
+    },
+    {
+      "question_id": "IC06",
+      "answer_sha256": "efc5abcff7a7ea1b505f2925499dd814e2d11b739ee5abfc63bb5a2dbafad602",
+      "status": "completed",
+      "replayed_saved_responses": 1
+    },
+    {
+      "question_id": "IC07",
+      "answer_sha256": "2e0ab7607555c9d9c4ecd4721d1c9f54e5846bb37fa0187cd735971c1e109a40",
+      "status": "completed",
+      "replayed_saved_responses": 1
+    },
+    {
+      "question_id": "IC08",
+      "answer_sha256": "6a85337b495a0d9baf76adea1e914f62d1afd6f464403b5097040980e21fd52f",
+      "status": "completed",
+      "replayed_saved_responses": 1
+    },
+    {
+      "question_id": "IC09",
+      "answer_sha256": "1b9143239a7a962c54e7f34a41d33c10ae42256409764ac9756a30250e252f08",
+      "status": "completed",
+      "replayed_saved_responses": 1
+    },
+    {
+      "question_id": "IC10",
+      "answer_sha256": "bcb5d13e6587e471e29583e4024c0956cf4ce847189673ea624f81ec954a0ee6",
+      "status": "completed",
+      "replayed_saved_responses": 1
+    }
+  ],
+  "new_provider_requests": 0,
+  "new_pubmed_requests": 0,
+  "credential_files_read": 0,
+  "tool_execution_attempts": 0,
+  "account_ledger_delta_usd": 0.0023913790000000823,
+  "provider_reported_or_estimated_usd": 0.00340734,
+  "ledger_delta_matches_recorded_usage": false
+}

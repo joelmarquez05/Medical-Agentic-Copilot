@@ -1,0 +1,922 @@
+{
+  "records": [
+    {
+      "question_id": "direct:MQ01",
+      "started_at_utc": "2026-10-11T10:08:22+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0020349,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 215,
+        "output_tokens": 1849,
+        "total_tokens": 2064,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 1735
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 1849,
+        "prompt_tokens": 215,
+        "total_tokens": 2064,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1735,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.00041581,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.00041581,
+          "upstream_inference_prompt_cost": 9.03e-06,
+          "upstream_inference_completions_cost": 0.00040678
+        }
+      },
+      "cost_usd": 0.00041581,
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 18.569
+    },
+    {
+      "question_id": "direct:MQ02",
+      "started_at_utc": "2026-10-11T10:08:59+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0020373,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 216,
+        "output_tokens": 735,
+        "total_tokens": 951,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 623
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 735,
+        "prompt_tokens": 216,
+        "total_tokens": 951,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 623,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.000170772,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.000170772,
+          "upstream_inference_prompt_cost": 9.072e-06,
+          "upstream_inference_completions_cost": 0.0001617
+        }
+      },
+      "cost_usd": 0.000170772,
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 8.479
+    },
+    {
+      "question_id": "direct:MQ03",
+      "started_at_utc": "2026-10-11T10:10:26+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0020799,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 299,
+        "output_tokens": 1266,
+        "total_tokens": 1565,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 1170
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 1266,
+        "prompt_tokens": 299,
+        "total_tokens": 1565,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1170,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.000291078,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.000291078,
+          "upstream_inference_prompt_cost": 1.2558e-05,
+          "upstream_inference_completions_cost": 0.00027852
+        }
+      },
+      "cost_usd": 0.000291078,
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 15.93
+    },
+    {
+      "question_id": "direct:MQ04",
+      "started_at_utc": "2026-10-11T10:14:19+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0020875,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 356,
+        "output_tokens": 6144,
+        "total_tokens": 6500,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 6141
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 6144,
+        "prompt_tokens": 356,
+        "total_tokens": 6500,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 6141,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.001366632,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.001366632,
+          "upstream_inference_prompt_cost": 1.4952e-05,
+          "upstream_inference_completions_cost": 0.00135168
+        }
+      },
+      "cost_usd": 0.001366632,
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "model_version": null,
+      "finish_reason": "length",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 74.969
+    },
+    {
+      "question_id": "direct:MQ05",
+      "started_at_utc": "2026-10-11T10:15:55+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0020552,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 251,
+        "output_tokens": 1026,
+        "total_tokens": 1277,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 922
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 1026,
+        "prompt_tokens": 251,
+        "total_tokens": 1277,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 922,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.000236262,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.000236262,
+          "upstream_inference_prompt_cost": 1.0542e-05,
+          "upstream_inference_completions_cost": 0.00022572
+        }
+      },
+      "cost_usd": 0.000236262,
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 12.552
+    },
+    {
+      "question_id": "direct:MQ06",
+      "started_at_utc": "2026-10-11T10:16:47+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0020727,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 323,
+        "output_tokens": 6144,
+        "total_tokens": 6467,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 6141
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 6144,
+        "prompt_tokens": 323,
+        "total_tokens": 6467,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 6141,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.001365246,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.001365246,
+          "upstream_inference_prompt_cost": 1.3566e-05,
+          "upstream_inference_completions_cost": 0.00135168
+        }
+      },
+      "cost_usd": 0.001365246,
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "model_version": null,
+      "finish_reason": "length",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 59.017
+    },
+    {
+      "question_id": "direct:MQ07",
+      "started_at_utc": "2026-10-11T10:19:37+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.002067,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 364,
+        "output_tokens": 2366,
+        "total_tokens": 2730,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 2254
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 2366,
+        "prompt_tokens": 364,
+        "total_tokens": 2730,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 2254,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.000535808,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.000535808,
+          "upstream_inference_prompt_cost": 1.5288e-05,
+          "upstream_inference_completions_cost": 0.00052052
+        }
+      },
+      "cost_usd": 0.000535808,
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 21.403
+    },
+    {
+      "question_id": "direct:MQ08",
+      "started_at_utc": "2026-10-11T10:21:01+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0020446,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 227,
+        "output_tokens": 929,
+        "total_tokens": 1156,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 837
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 929,
+        "prompt_tokens": 227,
+        "total_tokens": 1156,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 837,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.000213914,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.000213914,
+          "upstream_inference_prompt_cost": 9.534e-06,
+          "upstream_inference_completions_cost": 0.00020438
+        }
+      },
+      "cost_usd": 0.000213914,
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 8.701
+    },
+    {
+      "question_id": "direct:MQ09",
+      "started_at_utc": "2026-10-11T10:21:24+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0020438,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 235,
+        "output_tokens": 553,
+        "total_tokens": 788,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 438
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 553,
+        "prompt_tokens": 235,
+        "total_tokens": 788,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 438,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.00013153,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.00013153,
+          "upstream_inference_prompt_cost": 9.87e-06,
+          "upstream_inference_completions_cost": 0.00012166
+        }
+      },
+      "cost_usd": 0.00013153,
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 5.748
+    },
+    {
+      "question_id": "direct:MQ10",
+      "started_at_utc": "2026-10-11T10:21:45+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0020798,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 288,
+        "output_tokens": 793,
+        "total_tokens": 1081,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 692
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 793,
+        "prompt_tokens": 288,
+        "total_tokens": 1081,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 692,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.000186556,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.000186556,
+          "upstream_inference_prompt_cost": 1.2096e-05,
+          "upstream_inference_completions_cost": 0.00017446
+        }
+      },
+      "cost_usd": 0.000186556,
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 8.092
+    },
+    {
+      "question_id": "agent:MQ01",
+      "started_at_utc": "2026-10-11T10:22:12+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0020343,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 219,
+        "output_tokens": 598,
+        "total_tokens": 817,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 531
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 598,
+        "prompt_tokens": 219,
+        "total_tokens": 817,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 531,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.000140758,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.000140758,
+          "upstream_inference_prompt_cost": 9.198e-06,
+          "upstream_inference_completions_cost": 0.00013156
+        }
+      },
+      "cost_usd": 0.000140758,
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 10.819
+    },
+    {
+      "question_id": "agent:MQ01",
+      "started_at_utc": "2026-10-11T10:22:23+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0021213,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 393,
+        "output_tokens": 944,
+        "total_tokens": 1337,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 837
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 944,
+        "prompt_tokens": 393,
+        "total_tokens": 1337,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 837,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.000224186,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.000224186,
+          "upstream_inference_prompt_cost": 1.6506e-05,
+          "upstream_inference_completions_cost": 0.00020768
+        }
+      },
+      "cost_usd": 0.000224186,
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 7.877
+    },
+    {
+      "question_id": "agent:MQ02",
+      "started_at_utc": "2026-10-11T10:23:58+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0020367,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 220,
+        "output_tokens": 1566,
+        "total_tokens": 1786,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 1504
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 1566,
+        "prompt_tokens": 220,
+        "total_tokens": 1786,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1504,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.00035376,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.00035376,
+          "upstream_inference_prompt_cost": 9.24e-06,
+          "upstream_inference_completions_cost": 0.00034452
+        }
+      },
+      "cost_usd": 0.00035376,
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 12.794
+    },
+    {
+      "question_id": "agent:MQ02",
+      "started_at_utc": "2026-10-11T10:24:11+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0021083,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 352,
+        "output_tokens": 660,
+        "total_tokens": 1012,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 545
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 660,
+        "prompt_tokens": 352,
+        "total_tokens": 1012,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 545,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.000159984,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.000159984,
+          "upstream_inference_prompt_cost": 1.4784e-05,
+          "upstream_inference_completions_cost": 0.0001452
+        }
+      },
+      "cost_usd": 0.000159984,
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 9.413
+    },
+    {
+      "question_id": "agent:MQ03",
+      "started_at_utc": "2026-10-11T10:26:31+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0020793,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 303,
+        "output_tokens": 1140,
+        "total_tokens": 1443,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 1082
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 1140,
+        "prompt_tokens": 303,
+        "total_tokens": 1443,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1082,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.000263526,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.000263526,
+          "upstream_inference_prompt_cost": 1.2726e-05,
+          "upstream_inference_completions_cost": 0.0002508
+        }
+      },
+      "cost_usd": 0.000263526,
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 15.482
+    },
+    {
+      "question_id": "agent:MQ03",
+      "started_at_utc": "2026-10-11T10:26:47+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0021502,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 439,
+        "output_tokens": 1347,
+        "total_tokens": 1786,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 1249
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 1347,
+        "prompt_tokens": 439,
+        "total_tokens": 1786,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1249,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.000314778,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.000314778,
+          "upstream_inference_prompt_cost": 1.8438e-05,
+          "upstream_inference_completions_cost": 0.00029634
+        }
+      },
+      "cost_usd": 0.000314778,
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 23.33
+    }
+  ],
+  "budget": {
+    "limit_usd": 6.0,
+    "reported_or_estimated_spend_usd": 3.86025491,
+    "unreported_charge_reserve_usd": 0.15,
+    "policy": "Before each paid request, reserve a conservative prompt-byte estimate plus the full output cap at configured provider price ceilings. Failed requests without usage retain that reserve. This is a local guard, not a provider billing guarantee."
+  }
+}

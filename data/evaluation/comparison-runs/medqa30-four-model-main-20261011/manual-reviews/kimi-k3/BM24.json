@@ -1,0 +1,48 @@
+{
+  "question_id": "BM24",
+  "model_profile": "kimi-k3",
+  "answer_sha256": "73639f9657ccf23ff1551c1a293608ac4c8847ee13dbc5b686206622cb797819",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "minor_limitation"
+  },
+  "answer_notes": "Correct hypothyroid phenotype and TSH finding. The diagnosis/TSH excerpt is useful, whereas the second cited opening defines etiologies rather than verifying the whole symptom complex or hyper-to-hypothyroid course.",
+  "researcher_reference_ids": [],
+  "queries": [
+    {
+      "rating": "partially_appropriate",
+      "notes": "Meaningful distinctive signs but multiple exact clinical terms restrict matches to zero."
+    },
+    {
+      "rating": "appropriate",
+      "notes": "Broader hypothyroidism manifestations/diagnosis query is a sensible repair."
+    }
+  ],
+  "papers": {
+    "22443971": {
+      "rating": "directly_relevant",
+      "notes": "Direct hypothyroidism etiology/diagnosis review, but only etiologic opening delivered."
+    },
+    "20537182": {
+      "rating": "partially_relevant",
+      "notes": "Congenital neonatal symptoms are related physiology, not this adult temporal presentation."
+    },
+    "29872890": {
+      "rating": "directly_relevant",
+      "notes": "Excerpt explicitly discusses clinical diagnosis, TSH and subclinical versus manifest biochemical findings."
+    }
+  },
+  "citations": {
+    "P29872890_search_ac587eb1242c": {
+      "rating": "supported",
+      "notes": "Explicit TSH-based diagnosis and elevated-TSH context support the selected primary-thyroid finding."
+    },
+    "P22443971_search_41c705661f1d": {
+      "rating": "partially_supported",
+      "notes": "Supports thyroid-hormone deficiency/etiologies, not the specific signs or earlier thyrotoxic course."
+    }
+  },
+  "inline_citations": {}
+}

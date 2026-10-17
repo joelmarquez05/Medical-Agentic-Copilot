@@ -1,0 +1,11 @@
+{
+  "status": "error",
+  "error": "Model request failed (OpenAITimeoutError); check authentication, model availability, quota, and network access.",
+  "trace": [],
+  "tool_results": [],
+  "drafts": [],
+  "reviews": [],
+  "revision_count": 0,
+  "provenance": "Offline replay of the saved visible responses and saved failure type. No new medical answer or API response was generated.",
+  "original_answer_file_sha256": "09b70248c15c6066d855bc021cb0585f669f842dc3da064e3a1d812660fb9232"
+}

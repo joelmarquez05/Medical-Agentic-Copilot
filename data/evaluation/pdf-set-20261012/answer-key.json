@@ -1,0 +1,143 @@
+{
+  "keys": [
+    {
+      "question_id": "PDF01",
+      "answer_idx": "C",
+      "key_type": "project-authored-official-document-fact",
+      "reference_facts": [
+        "Screen intake, weight change and BMI.",
+        "Start at diagnosis.",
+        "Repeat according to clinical stability, not a mandated fixed interval."
+      ],
+      "pdf_pages": [
+        2
+      ],
+      "printed_pages": [
+        "2899"
+      ],
+      "recommendations": [
+        "B1-1"
+      ],
+      "supporting_view_ids": [
+        "D01454b384c55_p2_c2_4dc1366057f6"
+      ],
+      "verification": "Read original rendered PDF pages and extracted passages before generation; not a released exam question or LLM-assigned clinical truth."
+    },
+    {
+      "question_id": "PDF02",
+      "answer_idx": "A",
+      "key_type": "project-authored-official-document-fact",
+      "reference_facts": [
+        "First example is strictly less than 50%, for more than one week.",
+        "Second is 50-75%, for more than two weeks."
+      ],
+      "pdf_pages": [
+        4
+      ],
+      "printed_pages": [
+        "2901"
+      ],
+      "recommendations": [
+        "B3-1 commentary"
+      ],
+      "supporting_view_ids": [
+        "D01454b384c55_p4_c1_949f4c69f0f1"
+      ],
+      "verification": "Read original rendered PDF pages and extracted passages before generation; not a released exam question or LLM-assigned clinical truth."
+    },
+    {
+      "question_id": "PDF03",
+      "answer_idx": "D",
+      "key_type": "project-authored-official-document-fact",
+      "reference_facts": [
+        "B4-1: strong recommendation/high evidence/consensus.",
+        "B4-2: weak recommendation/low evidence/strong consensus."
+      ],
+      "pdf_pages": [
+        5,
+        6
+      ],
+      "printed_pages": [
+        "2902",
+        "2903"
+      ],
+      "recommendations": [
+        "B4-1",
+        "B4-2"
+      ],
+      "supporting_view_ids": [
+        "D01454b384c55_p5_c1_96736a9e811d",
+        "D01454b384c55_p6_c1_c9e15b349058"
+      ],
+      "verification": "Read original rendered PDF pages and extracted passages before generation; not a released exam question or LLM-assigned clinical truth."
+    },
+    {
+      "question_id": "PDF04",
+      "answer_idx": "B",
+      "key_type": "project-authored-official-document-fact",
+      "reference_facts": [
+        "Advanced-cancer choices require patient discussion of prognosis, benefit and care burden.",
+        "Dying-patient goal is comfort; parenteral nutrition/hydration usually lack benefit, not an absolute never rule.",
+        "Acute confusion is the explicit short/limited hydration exception to assess dehydration."
+      ],
+      "pdf_pages": [
+        12,
+        13
+      ],
+      "printed_pages": [
+        "2909",
+        "2910"
+      ],
+      "recommendations": [
+        "C6-2",
+        "C6-3"
+      ],
+      "supporting_view_ids": [
+        "D01454b384c55_p12_c1_2c98199ad2cb",
+        "D01454b384c55_p13_c1_da70a8b5bae1"
+      ],
+      "verification": "Read original rendered PDF pages and extracted passages before generation; not a released exam question or LLM-assigned clinical truth."
+    },
+    {
+      "question_id": "PDF05",
+      "answer_idx": "D",
+      "key_type": "project-authored-official-document-fact",
+      "reference_facts": [
+        "Diagnose/treat constipation before considering prokinetic treatment.",
+        "Metoclopramide: central nervous system; domperidone: cardiac rhythm."
+      ],
+      "pdf_pages": [
+        7
+      ],
+      "printed_pages": [
+        "2904"
+      ],
+      "recommendations": [
+        "B5-8"
+      ],
+      "supporting_view_ids": [
+        "D01454b384c55_p7_c1_3b968a4b46ab"
+      ],
+      "verification": "Read original rendered PDF pages and extracted passages before generation; not a released exam question or LLM-assigned clinical truth."
+    },
+    {
+      "question_id": "PDF06",
+      "answer_idx": "C",
+      "key_type": "project-authored-official-document-fact",
+      "reference_facts": [
+        "No pembrolizumab dosing regimen is specified in the fixed document; do not import an external regimen."
+      ],
+      "pdf_pages": [],
+      "printed_pages": [],
+      "recommendations": [],
+      "supporting_view_ids": [],
+      "verification": "Read original rendered PDF pages and extracted passages before generation; not a released exam question or LLM-assigned clinical truth.",
+      "absence_verification": {
+        "exact_term": "pembrolizumab",
+        "text_matches": 0,
+        "scope": "All sixteen extracted text-bearing pages; no image-only or semantic-exhaustive guarantee.",
+        "references_to_regimen_found": false
+      }
+    }
+  ]
+}

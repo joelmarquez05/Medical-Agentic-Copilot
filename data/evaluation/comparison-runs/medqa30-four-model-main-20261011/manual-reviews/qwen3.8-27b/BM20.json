@@ -1,0 +1,33 @@
+{
+  "question_id": "BM20",
+  "model_profile": "qwen3.8-27b",
+  "answer_sha256": "77103453720d7fea848287e524b92970f92e176a546486d80a9a18fd87fd88fb",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "minor_limitation",
+    "calibration_and_provenance": "consistent"
+  },
+  "answer_notes": "Correct initial radiograph and appropriately declines to cite tangential rectal-atresia retrieval. The phrase that plain radiography assesses a transition zone blurs its role with contrast-enema localization; initial obstruction/perforation assessment remains the correct option.",
+  "researcher_reference_ids": [
+    "R4-CL07"
+  ],
+  "queries": [
+    {
+      "rating": "appropriate",
+      "notes": "Clinically pertinent delayed-meconium initial-management query."
+    },
+    {
+      "rating": "appropriate",
+      "notes": "Broader neonatal-obstruction initial-radiograph query despite no matches."
+    }
+  ],
+  "papers": {
+    "20006038": {
+      "rating": "partially_relevant",
+      "notes": "Neonatal rectal-atresia background is related obstruction, but no initial diagnostic sequencing in the snippet."
+    }
+  },
+  "citations": {},
+  "inline_citations": {}
+}

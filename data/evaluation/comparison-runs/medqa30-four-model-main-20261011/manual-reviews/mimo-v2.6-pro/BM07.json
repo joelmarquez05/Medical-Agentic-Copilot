@@ -1,0 +1,51 @@
+{
+  "question_id": "BM07",
+  "model_profile": "mimo-v2.6-pro",
+  "answer_sha256": "0d2218e257cbc51c4e2d27f908da54aa20956ba3a6cd33e53434de8dca9c7dce",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "consistent"
+  },
+  "answer_notes": "Correct D. Actually reads the human thermal/head-injury study and pathophysiology review, then accurately attributes reduced mucosal blood volume preceding lesions and the source conclusion of ischemic injury. Keeps older-study/abstract/eponym limits explicit and does not fabricate numerical results. This is a stronger observable evidence path than citing only the methods excerpt.",
+  "researcher_reference_ids": [],
+  "queries": [
+    {
+      "rating": "appropriate",
+      "notes": "Targets burn stress ulcers and the relevant mucosal-ischemia mechanism."
+    }
+  ],
+  "papers": {
+    "374443": {
+      "rating": "directly_relevant",
+      "notes": "Critically ill/burn stress mucosal injury and ischemic initiation are explicitly described."
+    },
+    "4053922": {
+      "rating": "directly_relevant",
+      "notes": "Visible acute-ulcer discussion identifies local ischemia as the earliest recognizable lesion, directly addressing the mechanistic option."
+    },
+    "4547190": {
+      "rating": "not_assessable",
+      "notes": "Editorial title only with no visible abstract or identifiable clinical topic; do not infer burn mechanism from the search match."
+    },
+    "7095361": {
+      "rating": "directly_relevant",
+      "notes": "Human gastric-hemodynamic study directly examines stress lesions after thermal/head injury; search text is methods only, while a read exposes measured volume reductions and conclusions."
+    }
+  },
+  "citations": {
+    "P7095361_read_b0ede202679f": {
+      "rating": "supported",
+      "notes": "The actual read reports markedly reduced mucosal blood volume preceding lesions and explicitly concludes gastric ischemia is the main cause in thermal/head injury subjects; this is not full-text or independent causality validation."
+    },
+    "P4053922_read_f5e889634ab4": {
+      "rating": "supported",
+      "notes": "The full abstract explicitly identifies local ischemia as the earliest acute-ulcer lesion, matching the attributed review statement."
+    },
+    "P374443_search_39c95955086d": {
+      "rating": "supported",
+      "notes": "Visible text links severe burns/critical illness, acute stress mucosal lesions and probable ischemic initiation; no exact effect size is inferred."
+    }
+  }
+}

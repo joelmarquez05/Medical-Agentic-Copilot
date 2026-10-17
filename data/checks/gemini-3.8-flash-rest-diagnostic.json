@@ -1,0 +1,7 @@
+{
+  "purpose": "REST generation diagnostic after SDK access-preflight timeout; not a medical evaluation.",
+  "status": "error",
+  "error_type": "TimeoutError",
+  "http_status": null,
+  "elapsed_seconds": 35.337
+}

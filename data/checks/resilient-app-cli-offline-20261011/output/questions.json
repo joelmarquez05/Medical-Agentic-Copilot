@@ -1,0 +1,19 @@
+{
+  "questions": [
+    {
+      "question_id": "SYNTHETIC-FAIL",
+      "question": "Synthetic permanent provider failure fixture.",
+      "options": null
+    },
+    {
+      "question_id": "../SYNTHETIC-FINAL",
+      "question": "Synthetic free-text completion fixture.",
+      "options": null
+    },
+    {
+      "question_id": "SYNTHETIC-CLARIFY",
+      "question": "Synthetic clarification fixture.",
+      "options": null
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "question": {
+    "question_id": "SYNTHETIC-CLARIFY",
+    "question": "Synthetic clarification fixture.",
+    "options": null
+  },
+  "history": [
+    {
+      "role": "model",
+      "action": {
+        "type": "clarify",
+        "question": "Synthetic request for missing context."
+      }
+    }
+  ],
+  "evidence": {},
+  "trace": [
+    {
+      "node": "initialize"
+    },
+    {
+      "node": "research",
+      "turn": 1,
+      "input_bytes": 7294,
+      "status": "ok",
+      "action": {
+        "type": "clarify",
+        "question": "Synthetic request for missing context."
+      },
+      "normalizations": [],
+      "elapsed_seconds": 0.0002
+    },
+    {
+      "node": "validate_output",
+      "status": "awaiting_clarification"
+    },
+    {
+      "node": "finish",
+      "status": "awaiting_clarification"
+    }
+  ],
+  "model_turns": 1,
+  "tool_actions": 0,
+  "action": {
+    "type": "clarify",
+    "question": "Synthetic request for missing context."
+  },
+  "status": "awaiting_clarification",
+  "response": {
+    "type": "clarify",
+    "question": "Synthetic request for missing context."
+  },
+  "issues": [],
+  "error_type": null,
+  "research_turns": 1,
+  "final_attempts": 0,
+  "provider_failures": 0,
+  "closing_reason": null,
+  "next_step": "finish",
+  "output_origin": "model",
+  "elapsed_seconds": 0.0054,
+  "configuration": {
+    "tools": [
+      {
+        "name": "search_pubmed",
+        "description": "Search PubMed for papers relevant to a clinical question or a named trial. Optional: answer directly when existing knowledge is adequate. Returns at most five real titles, publication metadata and up to 400 abstract characters, with source IDs. An excerpt may omit the needed finding. Use read_pubmed_abstract with returned numeric PMIDs to inspect more text. No full text; PubMed indexing is not quality appraisal.",
+        "arguments_schema": {
+          "additionalProperties": false,
+          "properties": {
+            "query": {
+              "maxLength": 600,
+              "minLength": 3,
+              "title": "Query",
+              "type": "string"
+            },
+            "max_results": {
+              "default": 5,
+              "maximum": 5,
+              "minimum": 1,
+              "title": "Max Results",
+              "type": "integer"
+            },
+            "sort": {
+              "const": "relevance",
+              "default": "relevance",
+              "title": "Sort",
+              "type": "string"
+            }
+          },
+          "required": [
+            "query"
+          ],
+          "title": "ClinicalSearchArgs",
+          "type": "object"
+        }
+      },
+      {
+        "name": "read_pubmed_abstract",
+        "description": "Read up to three abstracts for numeric PMIDs actually returned by this episode's PubMed searches. Returns up to 3500 characters per abstract, explicitly flagged if missing/truncated. Cite the returned source IDs; search/read IDs are distinct immutable views. Reads abstracts, not full-text articles. Do not guess IDs or assume a paper supports a claim from its title.",
+        "arguments_schema": {
+          "additionalProperties": false,
+          "properties": {
+            "pmids": {
+              "items": {
+                "type": "string"
+              },
+              "maxItems": 3,
+              "minItems": 1,
+              "title": "Pmids",
+              "type": "array"
+            }
+          },
+          "required": [
+            "pmids"
+          ],
+          "title": "ReadAbstractArgs",
+          "type": "object"
+        }
+      }
+    ],
+    "limits": {
+      "max_research_turns": 3,
+      "max_tool_actions": 3,
+      "max_final_attempts": 2,
+      "max_model_turns": 5,
+      "max_input_bytes": 65536
+    }
+  },
+  "interpretation": "Every episode returns a terminal message; only completed model answers count as medical completions. Normalization/recovery and original provider responses remain auditable.",
+  "version": "clinical-resilient-v3",
+  "model_calls": [],
+  "response_audit": [],
+  "transport_formats": [],
+  "literature": {
+    "events": [],
+    "http_requests": [],
+    "interpretation": "Raw paper metadata/abstracts are researcher artifacts. Only generation_view plus the graph's evidence registry were delivered to the model."
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "CL01": {
+    "title": "Clinical Practice Guidelines for Clostridium difficile Infection in Adults and Children: 2017 Update by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA).",
+    "authors": "McDonald LC, Gerding DN, Johnson S, Bakken JS, Carroll KC, Coffin SE, Dubberke ER, Garey KW, Gould CV, Kelly C, Loo V, Shaklee Sammons J, Sandora TJ, Wilcox MH.",
+    "year": "2018",
+    "doi": "10.1093/cid/cix1085",
+    "pmid": "29462280",
+    "pmcid": "PMC6018983",
+    "abstract": "A panel of experts was convened by the Infectious Diseases Society of America (IDSA) and Society for Healthcare Epidemiology of America (SHEA) to update the 2010 clinical practice guideline on Clostridium difficile infection (CDI) in adults. The update, which has incorporated recommendations for children (following the adult recommendations for epidemiology, diagnosis, and treatment), includes significant changes in the management of this infection and reflects the evolving controversy over best methods for diagnosis. Clostridium difficile remains the most important cause of healthcare-associated diarrhea and has become the most commonly identified cause of healthcare-associated infection in adults in the United States. Moreover, C. difficile has established itself as an important community pathogen. Although the prevalence of the epidemic and virulent ribotype 027 strain has declined markedly along with overall CDI rates in parts of Europe, it remains one of the most commonly identified strains in the United States where it causes a sizable minority of CDIs, especially healthcare-associated CDIs. This guideline updates recommendations regarding epidemiology, diagnosis, treatment, infection prevention, and environmental management.",
+    "query": "DOI:10.1093/cid/cix1085",
+    "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1093%2Fcid%2Fcix1085&format=json&resultType=core&pageSize=1"
+  },
+  "CL02": {
+    "title": "2015 ESC Guidelines for the diagnosis and management of pericardial diseases: The Task Force for the Diagnosis and Management of Pericardial Diseases of the European Society of Cardiology (ESC)Endorsed by: The European Association for Cardio-Thoracic Surgery (EACTS).",
+    "authors": "Adler Y, Charron P, Imazio M, Badano L, Barón-Esquivias G, Bogaert J, Brucato A, Gueret P, Klingel K, Lionis C, Maisch B, Mayosi B, Pavie A, Ristic AD, Sabaté Tenas M, Seferovic P, Swedberg K, Tomkowski W, ESC Scientific Document Group .",
+    "year": "2015",
+    "doi": "10.1093/eurheartj/ehv318",
+    "pmid": "26320112",
+    "pmcid": "PMC7539677",
+    "abstract": null,
+    "query": "DOI:10.1093/eurheartj/ehv318",
+    "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1093%2Feurheartj%2Fehv318&format=json&resultType=core&pageSize=1"
+  },
+  "CL03": {
+    "title": "Diagnosis and treatment of hyperprolactinemia: an Endocrine Society clinical practice guideline.",
+    "authors": "Melmed S, Casanueva FF, Hoffman AR, Kleinberg DL, Montori VM, Schlechte JA, Wass JA, Endocrine Society.",
+    "year": "2011",
+    "doi": "10.1210/jc.2010-1692",
+    "pmid": "21296991",
+    "pmcid": null,
+    "abstract": "<h4>Objective</h4>The aim was to formulate practice guidelines for the diagnosis and treatment of hyperprolactinemia.<h4>Participants</h4>The Task Force consisted of Endocrine Society-appointed experts, a methodologist, and a medical writer.<h4>Evidence</h4>This evidence-based guideline was developed using the Grading of Recommendations, Assessment, Development, and Evaluation (GRADE) system to describe both the strength of recommendations and the quality of evidence.<h4>Consensus process</h4>One group meeting, several conference calls, and e-mail communications enabled consensus. Committees and members of The Endocrine Society, The European Society of Endocrinology, and The Pituitary Society reviewed and commented on preliminary drafts of these guidelines.<h4>Conclusions</h4>Practice guidelines are presented for diagnosis and treatment of patients with elevated prolactin levels. These include evidence-based approaches to assessing the cause of hyperprolactinemia, treating drug-induced hyperprolactinemia, and managing prolactinomas in nonpregnant and pregnant subjects. Indications and side effects of therapeutic agents for treating prolactinomas are also presented.",
+    "query": "DOI:10.1210/jc.2010-1692",
+    "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1210%2Fjc.2010-1692&format=json&resultType=core&pageSize=1"
+  },
+  "CL05": {
+    "title": "2024 ACC/AHA/AACVPR/APMA/ABC/SCAI/SVM/SVN/SVS/SIR/VESS Guideline for the Management of Lower Extremity Peripheral Artery Disease: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines.",
+    "authors": "Gornik HL, Aronow HD, Goodney PP, Arya S, Brewster LP, Byrd L, Chandra V, Drachman DE, Eaves JM, Ehrman JK, Evans JN, Getchius TSD, Gutiérrez JA, Hawkins BM, Hess CN, Ho KJ, Jones WS, Kim ESH, Kinlay S, Kirksey L, Kohlman-Trigoboff D, Long CA, Pollak AW, Sabri SS, Sadwin LB, Secemsky EA, Serhal M, Shishehbor MH, Treat-Jacobson D, Wilkins LR, Peer Review Committee Members.",
+    "year": "2024",
+    "doi": "10.1161/cir.0000000000001251",
+    "pmid": "38743805",
+    "pmcid": "PMC12782132",
+    "abstract": "<h4>Aim</h4>The \"2024 ACC/AHA/AACVPR/APMA/ABC/SCAI/SVM/SVN/SVS/SIR/VESS Guideline for the Management of Lower Extremity Peripheral Artery Disease\" provides recommendations to guide clinicians in the treatment of patients with lower extremity peripheral artery disease across its multiple clinical presentation subsets (ie, asymptomatic, chronic symptomatic, chronic limb-threatening ischemia, and acute limb ischemia).<h4>Methods</h4>A comprehensive literature search was conducted from October 2020 to June 2022, encompassing studies, reviews, and other evidence conducted on human subjects that was published in English from PubMed, EMBASE, the Cochrane Library, CINHL Complete, and other selected databases relevant to this guideline. Additional relevant studies, published through May 2023 during the peer review process, were also considered by the writing committee and added to the evidence tables where appropriate.<h4>Structure</h4>Recommendations from the \"2016 AHA/ACC Guideline on the Management of Patients With Lower Extremity Peripheral Artery Disease\" have been updated with new evidence to guide clinicians. In addition, new recommendations addressing comprehensive care for patients with peripheral artery disease have been developed.",
+    "query": "DOI:10.1161/CIR.0000000000001251",
+    "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1161%2FCIR.0000000000001251&format=json&resultType=core&pageSize=1"
+  },
+  "CL06": {
+    "title": "Prevention of Group B Streptococcal Early-Onset Disease in Newborns: ACOG Committee Opinion, Number 797.",
+    "authors": null,
+    "year": "2020",
+    "doi": "10.1097/aog.0000000000003668",
+    "pmid": "31977795",
+    "pmcid": null,
+    "abstract": "Group B streptococcus (GBS) is the leading cause of newborn infection. The primary risk factor for neonatal GBS early-onset disease (EOD) is maternal colonization of the genitourinary and gastrointestinal tracts. Approximately 50% of women who are colonized with GBS will transmit the bacteria to their newborns. Vertical transmission usually occurs during labor or after rupture of membranes. In the absence of intrapartum antibiotic prophylaxis, 1-2% of those newborns will develop GBS EOD. Other risk factors include gestational age of less than 37 weeks, very low birth weight, prolonged rupture of membranes, intraamniotic infection, young maternal age, and maternal black race. The key obstetric measures necessary for effective prevention of GBS EOD continue to include universal prenatal screening by vaginal-rectal culture, correct specimen collection and processing, appropriate implementation of intrapartum antibiotic prophylaxis, and coordination with pediatric care providers. The American College of Obstetricians and Gynecologists now recommends performing universal GBS screening between 36 0/7 and 37 6/7 weeks of gestation. All women whose vaginal-rectal cultures at 36 0/7-37 6/7 weeks of gestation are positive for GBS should receive appropriate intrapartum antibiotic prophylaxis unless a prelabor cesarean birth is performed in the setting of intact membranes. Although a shorter duration of recommended intrapartum antibiotics is less effective than 4 or more hours of prophylaxis, 2 hours of antibiotic exposure has been shown to reduce GBS vaginal colony counts and decrease the frequency of a clinical neonatal sepsis diagnosis. Obstetric interventions, when necessary, should not be delayed solely to provide 4 hours of antibiotic administration before birth. This Committee Opinion, including , , and , updates and replaces the obstetric components of the CDC 2010 guidelines, \"Prevention of Perinatal Group B Streptococcal Disease: Revised Guidelines From CDC, 2010.\"",
+    "query": "DOI:10.1097/AOG.0000000000003668",
+    "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1097%2FAOG.0000000000003668&format=json&resultType=core&pageSize=1"
+  },
+  "CL09": {
+    "title": "Aminoglycosides: nephrotoxicity.",
+    "authors": "Mingeot-Leclercq MP, Tulkens PM.",
+    "year": "1999",
+    "doi": "10.1128/aac.43.5.1003",
+    "pmid": "10223907",
+    "pmcid": "PMC89104",
+    "abstract": null,
+    "query": "EXT_ID:10223907 AND SRC:MED",
+    "metadata_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A10223907+AND+SRC%3AMED&format=json&resultType=core&pageSize=1"
+  }
+}

@@ -1,0 +1,1366 @@
+{
+  "reviewer": "Unblinded implementation assistant; explicit post-generation notes, no paid judge or independent clinician",
+  "rubric_sha256": "f5b4e5e9887e54a7f6358b9fec4dcf7dea9a8a1f1baf26ff6d90238371c76846",
+  "review_notes_sha256": "47cbd819935d9c305307d4b4d28c07f98f7af289be0a78535a848edb37f00a17",
+  "episodes": [
+    {
+      "question_id": "BM01",
+      "answer_sha256": "2edb6f84af7221fc3e5d4014f6cc3726ef2f1c3cff69f1f80628fae07aa0ac97",
+      "search_decision": "answered_directly",
+      "query_assessments": [],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "answer_evidence_notes": "Correct D. Identifies worsening shock, failed fluid stabilization and supplied hemoperitoneum; prioritizes operative control over CT. No invented injury grade or organ diagnosis. WSES guidance supports the instability/operative priority; direct answer explicitly lacks external verification.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM02",
+      "answer_sha256": "55997e6ad447fe47dff82b3733b1a5a74769b8bedc9e01ce837b9706aac90f0b",
+      "search_decision": "searched",
+      "query_assessments": [
+        {
+          "query": "heart failure BNP ADH sodium potassium electrolyte abnormalities",
+          "status": "ok",
+          "rating": "partially_appropriate",
+          "notes": "Correct heart-failure topic, but combines BNP, ADH, sodium, potassium and abnormalities in one restrictive query; no reformulation."
+        }
+      ],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "answer_evidence_notes": "Correct C. Uses S3, crackles and edema to identify the heart-failure pattern, and explicitly notes that low potassium is less certain without medications. Search returned zero; no source is invented. Its limitation handles physiologic uncertainty but does not explicitly acknowledge absent PubMed verification.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM03",
+      "answer_sha256": "af294134950dea2ce075fe8f5ff7973c6bf7958f7a7e9b349ed8a6856004b496",
+      "search_decision": "searched",
+      "query_assessments": [
+        {
+          "query": "Lambert-Eaton myasthenic syndrome post-exercise facilitation bladder incontinence small cell lung cancer",
+          "status": "ok",
+          "rating": "partially_appropriate",
+          "notes": "Correct Lambert-Eaton/SCLC topic, but combines the full symptom list including bladder incontinence; no broader query after the empty result."
+        }
+      ],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "answer_evidence_notes": "Correct D. Post-exercise facilitation, proximal weakness and poor anticholinesterase response support the examination's Lambert-Eaton/SCLC association. Does not assert a proven lung tumor. The very restrictive query returns zero and this is acknowledged, rather than presented as no literature exists.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM04",
+      "answer_sha256": "39d908e4c64502c4574440c668355c859910beb575eb0fe1132faa14b1b655a2",
+      "search_decision": "searched",
+      "query_assessments": [
+        {
+          "query": "female fetal oocyte meiosis arrest stage",
+          "status": "ok",
+          "rating": "appropriate",
+          "notes": "Directly targets fetal female meiosis and arrest stage."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "37784186",
+          "title": "The molecular regulatory mechanisms of meiotic arrest and resumption in Oocyte development and maturation.",
+          "authors": "Zhenle Pei, Ke Deng, Congjian Xu, Shuo Zhang",
+          "year": "2023",
+          "doi": "10.1186/s12958-023-01143-0",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37784186/",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Human fetal meiosis and diplotene/prophase-I arrest are explicit in the delivered excerpt.",
+          "generation_view_ids": [
+            "P37784186_search_6611bee90539"
+          ],
+          "generation_view_sha256": {
+            "P37784186_search_6611bee90539": "ffc4b0520a12ca36b0633dc72a4e1f86b04a90a077270a455b5495158a7ddbfe"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        },
+        {
+          "pmid": "25652637",
+          "title": "Insights into female germ cell biology: from in vivo development to in vitro derivations.",
+          "authors": "Dajung Jung, Kehkooi Kee",
+          "year": "2015",
+          "doi": "10.4103/1008-682X.148077",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25652637/",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Human germ-cell development context; excerpt stops before female meiotic stage.",
+          "generation_view_ids": [
+            "P25652637_search_45eb564bc8b0"
+          ],
+          "generation_view_sha256": {
+            "P25652637_search_45eb564bc8b0": "799a2a977f27b18d2ad662936bc14ed356a3a63a06e9fd954a98336eb9b8c278"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        },
+        {
+          "pmid": "29544632",
+          "title": "Involvement of Bone Morphogenetic Proteins (BMP) in the Regulation of Ovarian Function.",
+          "authors": "Sheena L P Regan, Phil G Knight, John L Yovich, Yee Leung, Frank Arfuso, Arun Dharmarajan",
+          "year": "2018",
+          "doi": "10.1016/bs.vh.2018.01.015",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29544632/",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Primordial-follicle excerpt explicitly states an oocyte arrested at diplotene.",
+          "generation_view_ids": [
+            "P29544632_search_1e2ce3fc8f31"
+          ],
+          "generation_view_sha256": {
+            "P29544632_search_1e2ce3fc8f31": "315dcf13c9e03b8d7c788cf82d1604f0f308287e6997fa07bae3d7e3698c3d55"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        },
+        {
+          "pmid": "30611263",
+          "title": "The art of oocyte meiotic arrest regulation.",
+          "authors": "Bo Pan, Julang Li",
+          "year": "2019",
+          "doi": "10.1186/s12958-018-0445-8",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30611263/",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Oocyte meiotic-arrest regulation and fetal meiosis directly address the developmental topic.",
+          "generation_view_ids": [
+            "P30611263_search_05f88f3c439a"
+          ],
+          "generation_view_sha256": {
+            "P30611263_search_05f88f3c439a": "57540edf2a4a8cf3386580b2c50157c051e0b6bd5b1dfe4a29d6a7c031070bd0"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        },
+        {
+          "pmid": "24806359",
+          "title": "Age-related decrease of meiotic cohesins in human oocytes.",
+          "authors": "Makiko Tsutsumi, Reiko Fujiwara, Haruki Nishizawa, Mayuko Ito, Hiroshi Kogo, Hidehito Inagaki, Tamae Ohye, Takema Kato, Takuma Fujii, Hiroki Kurahashi",
+          "year": "2014",
+          "doi": "10.1371/journal.pone.0096710",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24806359/",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Age/cohesin/aneuploidy topic rather than newborn arrest stage.",
+          "generation_view_ids": [
+            "P24806359_search_eee3ce6a689b"
+          ],
+          "generation_view_sha256": {
+            "P24806359_search_eee3ce6a689b": "d853e12c811ad983fc5853eaf67e14390454b05be3a93f2d92c81f7b65de09a1"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        }
+      ],
+      "citation_assessments": [
+        {
+          "source_id": "P37784186_search_6611bee90539",
+          "view_exists": true,
+          "pmid": "37784186",
+          "rating": "supported",
+          "brief_reason": "Delivered text explicitly states fetal meiosis initiation and diplotene/prophase-I arrest; that is the assessed central claim.",
+          "claim_checks": [],
+          "generation_view_sha256": "ffc4b0520a12ca36b0633dc72a4e1f86b04a90a077270a455b5495158a7ddbfe"
+        },
+        {
+          "source_id": "P29544632_search_1e2ce3fc8f31",
+          "view_exists": true,
+          "pmid": "29544632",
+          "rating": "supported",
+          "brief_reason": "Delivered text explicitly states primordial follicles contain a diplotene-arrested oocyte. Later hormonal-resumption detail is not independently verified by this view.",
+          "claim_checks": [],
+          "generation_view_sha256": "315dcf13c9e03b8d7c788cf82d1604f0f308287e6997fa07bae3d7e3698c3d55"
+        }
+      ],
+      "answer_evidence_notes": "Correct B. Two actual excerpts support fetal meiosis and diplotene/prophase-I arrest. The answer's later hormonal-resumption detail is background knowledge not established by these short views; no clinical study on this infant is implied. Other returned papers are not all directly useful.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM05",
+      "answer_sha256": "63db39cab4c82973e2b47ec22e806fafbb86d2fd418bff4e6a10eb5b04354672",
+      "search_decision": "searched",
+      "query_assessments": [
+        {
+          "query": "simvastatin metformin glyburide lisinopril transaminitis liver enzyme elevation",
+          "status": "ok",
+          "rating": "partially_appropriate",
+          "notes": "Conjoins four separate drugs with a liver-adverse-effect topic, rather than checking a likely candidate or each alternative."
+        }
+      ],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "answer_evidence_notes": "Correct B. Recognizes simvastatin transaminase elevation and that fenofibrate can also contribute. The archived label corroborates the stable warning. Only-one wording should not imply that the other listed drugs can never cause liver injury; causation in this patient is not proven. Query conjunctively names four drugs and returns zero; absent verification is acknowledged.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM06",
+      "answer_sha256": "b71eda54e7953d4dccf569d1da23e104ce489d911b4979f61a27689270aae2af",
+      "search_decision": "answered_directly",
+      "query_assessments": [],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "answer_evidence_notes": "Correct D. Connects chronic severe renal impairment/uremic features with broad waxy casts and distinguishes the supplied alternatives. Explicit absent-verification limitation. This answers the examination's sediment question, not a complete acute management plan.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM07",
+      "answer_sha256": "a4946c0b2683a440628393236d9097fe1f6565217a96f1f03dd31664c87eaa2b",
+      "search_decision": "searched",
+      "query_assessments": [
+        {
+          "query": "Curling's ulcer pathophysiology burns",
+          "status": "ok",
+          "rating": "appropriate",
+          "notes": "Directly targets the named burn-related ulcer and its pathophysiology; imperfect returned papers do not invalidate that topic choice."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "4567321",
+          "title": "Burns.",
+          "authors": "J A Moncrief",
+          "year": "1973",
+          "doi": "10.1056/NEJM197303012880905",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/4567321/",
+          "paper_relevance": "not_assessable",
+          "brief_reason": "Generic Burns title with no abstract cannot establish its stress-ulcer mechanism coverage.",
+          "generation_view_ids": [
+            "P4567321_search_d6d03caba98d"
+          ],
+          "generation_view_sha256": {
+            "P4567321_search_d6d03caba98d": "2294829470856c7f09d536f76b4ef623256258bb8566394583ad62e31bd58751"
+          },
+          "model_visible_text_kinds": [
+            "title_only"
+          ]
+        },
+        {
+          "pmid": "27048251",
+          "title": "Functional dyspepsia: new insights into pathogenesis and therapy.",
+          "authors": "Nicholas J Talley",
+          "year": "2016",
+          "doi": "10.3904/kjim.2016.091",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27048251/",
+          "paper_relevance": "irrelevant",
+          "brief_reason": "Functional dyspepsia differs from acute burn-related stress bleeding.",
+          "generation_view_ids": [
+            "P27048251_search_374d911ea0cc"
+          ],
+          "generation_view_sha256": {
+            "P27048251_search_374d911ea0cc": "9c84ffd593c1325b82534c24afbd31016b434366e1ae82bee6c6707d7d5962e8"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        },
+        {
+          "pmid": "4053922",
+          "title": "The pathophysiology of peptic ulcer disease.",
+          "authors": "F P Brooks",
+          "year": "1985",
+          "doi": "10.1007/BF01309381",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/4053922/",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "General acute ulcer defense/ischemia context; not burn-specific.",
+          "generation_view_ids": [
+            "P4053922_search_2f724eaca4c7"
+          ],
+          "generation_view_sha256": {
+            "P4053922_search_2f724eaca4c7": "5e77babd53461368eb401e23f752022cf3c275474620958c47465363a9cc56e9"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        },
+        {
+          "pmid": "497665",
+          "title": "Gastric and duodenal ulceration after burns.",
+          "authors": "Authors not supplied in the PubMed record",
+          "year": "1979",
+          "doi": "10.1136/bmj.2.6189.512",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/497665/",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Title explicitly addresses gastric/duodenal ulceration after burns; no mechanism text supplied.",
+          "generation_view_ids": [
+            "P497665_search_d8c669a0f11f"
+          ],
+          "generation_view_sha256": {
+            "P497665_search_d8c669a0f11f": "197272276735c84d9ef4c8343e954788b77a55902d734827c7b1c7d56b7a292f"
+          },
+          "model_visible_text_kinds": [
+            "title_only"
+          ]
+        },
+        {
+          "pmid": "8821097",
+          "title": "Update on current therapeutic approaches in burns.",
+          "authors": "K Z Shirani, G M Vaughan, A D Mason, B A Pruitt",
+          "year": "1996",
+          "doi": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8821097/",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Burn hypovolemia/fluid physiology, not a delivered ulcer-mechanism account.",
+          "generation_view_ids": [
+            "P8821097_search_a222ddabbafc"
+          ],
+          "generation_view_sha256": {
+            "P8821097_search_a222ddabbafc": "0e8d6ab198c13c272d13e721077142c0d014539023abdde3cb2ff2eb1d013c37"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        }
+      ],
+      "citation_assessments": [],
+      "answer_evidence_notes": "Correct D. Burn-related stress ulceration and mucosal hypoperfusion coherently support the choice. Actual returned records include two title-only sources and related ulcer/burn physiology; no exact mechanism is falsely credited to a read. The answer explains its evidence gap rather than citing irrelevant material.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM08",
+      "answer_sha256": "9560a02bc6a848fe76a2574a2363271d7c78bd33894be1a902d0fc1f9e03685c",
+      "search_decision": "answered_directly",
+      "query_assessments": [],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "answer_evidence_notes": "Correct B. Severe obesity coherently links the osteoarthritis-like knee pattern and sleep-apnea-like symptoms. The answer describes suggested conditions, not an obtained sleep-study result. It acknowledges no PubMed verification.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM09",
+      "answer_sha256": "716d6b181f177546b5a5176b5f884d6e2d56dd5119d3852596b9bd8fc6e72239",
+      "search_decision": "answered_directly",
+      "query_assessments": [],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "answer_evidence_notes": "Correct C. Identifies likely pyruvate-kinase deficiency/glycolysis and correctly distinguishes PFK-1 allosteric regulation from the indirect hepatic PKA/PFK-2 route. The independent researcher reference verifies hepatic isoenzyme regulation; it was not agent evidence. No claim that RBC PFK-1 is directly phosphorylated by PKA.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM10",
+      "answer_sha256": "e43d7b48206a77495383b7f68c7611e86927376f1771376777e5002ba1de18c8",
+      "search_decision": "answered_directly",
+      "query_assessments": [],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "answer_evidence_notes": "Correct C. Symptoms/serology support the expected celiac villous atrophy and crypt hyperplasia. Diagnostic wording is stronger than an independently confirmed biopsy, which is exactly what the question asks to predict. No histology result is invented and no source verification is claimed.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM11",
+      "answer_sha256": "cfd12cf49415267ab8339c319a67ec10e1c525605557a9533077ddee0963faba",
+      "search_decision": "answered_directly",
+      "query_assessments": [],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "answer_evidence_notes": "Correct C among the restricted options. Correctly distinguishes core antibody exposure from surface-antibody immunity, but does not specify IgM anti-HBc versus total anti-HBc or the antigen/antibody panel needed to characterize active infection. CDC confirms these distinctions; no key change. No explicit absent-external-verification acknowledgment.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM12",
+      "answer_sha256": "bbb7e4bc0664c8abe7628f2a00dcf1e3a7accb9bcaeaf69d2850a161ef3a8b73",
+      "search_decision": "searched",
+      "query_assessments": [
+        {
+          "query": "pancytopenia splenomegaly dry tap bone marrow stain TRAP hairy cell leukemia",
+          "status": "ok",
+          "rating": "partially_appropriate",
+          "notes": "Combines nearly every vignette feature with TRAP and hairy-cell leukemia; no simpler disease/stain query follows."
+        }
+      ],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "answer_evidence_notes": "Correct D. Uses cytopenias, splenomegaly and dry tap to predict hairy-cell/TRAP findings; does not pretend an actual positive stain was obtained. Restrictive query returns zero, with an explicit evidence limitation.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM13",
+      "answer_sha256": "666d1d4b1fa22901ee81c5df12f62d45030dc565577be5aead84f8c6e1fe7d5b",
+      "search_decision": "answered_directly",
+      "query_assessments": [],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "answer_evidence_notes": "Correct C. Travel, evolving fever/GI symptoms and rose spots fit the examination diagnosis. Calling hepatosplenomegaly/rose spots pathognomonic overstates specificity; CDC notes overlap and culture-based diagnosis. No external verification was claimed.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM14",
+      "answer_sha256": "30b9e13c445e6f314ad0a1f7b2a01e5cad124aa6c6674fbb64feaee6bd76f7da",
+      "search_decision": "answered_directly",
+      "query_assessments": [],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "answer_evidence_notes": "Correct D for a palpable unilateral undescended testis at 11 months. EAU guidance supports early orchiopexy, ideally before 12 months and at latest 18; the model's 6-12-month target is reasonable. No drug dose or fabricated source. This is knowledge-based guideline attribution, explicitly unverified by the agent.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM15",
+      "answer_sha256": "a08c3b6c776a46429e34d5e7955b833211cd783696e69280ec7c156e67b04983",
+      "search_decision": "searched",
+      "query_assessments": [
+        {
+          "query": "etoposide chemotherapy nausea vomiting area postrema metoclopramide",
+          "status": "ok",
+          "rating": "partially_appropriate",
+          "notes": "Combines etoposide, chemotherapy vomiting, area postrema and metoclopramide; narrower than a general mechanism check."
+        },
+        {
+          "query": "chemotherapy induced vomiting area postrema metoclopramide",
+          "status": "ok",
+          "rating": "appropriate",
+          "notes": "Broadens from etoposide to chemotherapy emesis/area postrema; relevance and drug-specific support remain separate."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "1485177",
+          "title": "Mechanisms by which cancer chemotherapeutic drugs induce emesis.",
+          "authors": "L X Cubeddu",
+          "year": "1992",
+          "doi": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/1485177/",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Area-postrema/chemotherapy emesis mechanisms directly address the target organ; scope is not all circulating-toxin claims.",
+          "generation_view_ids": [
+            "P1485177_search_bcfefe9224ee"
+          ],
+          "generation_view_sha256": {
+            "P1485177_search_bcfefe9224ee": "06627dc7204007287ad08f42e6ff670468003b4087ba7d3bdad234f5271c12f3"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        },
+        {
+          "pmid": "25295673",
+          "title": "Attenuation of cisplatin-induced emetogenesis by standardized Bacopa monnieri extracts in the pigeon: behavioral and neurochemical correlations.",
+          "authors": "Ihsan Ullah, Fazal Subhan, John A Rudd, Khalid Rauf, Javaid Alam, Muhammad Shahid, Robert D E Sewell",
+          "year": "2014",
+          "doi": "10.1055/s-0034-1383121",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25295673/",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Cisplatin/Bacopa animal emesis work, not etoposide or metoclopramide mechanism.",
+          "generation_view_ids": [
+            "P25295673_search_174991b33fd4"
+          ],
+          "generation_view_sha256": {
+            "P25295673_search_174991b33fd4": "84ba51abfe79e662aa72327a4e9a668db9d2d3a527a17b0ed2589097b9dde732"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        },
+        {
+          "pmid": "29615907",
+          "title": "Suppression of Cisplatin-Induced Vomiting by Cannabis sativa in Pigeons: Neurochemical Evidences.",
+          "authors": "Ihsan Ullah, Fazal Subhan, Javaid Alam, Muhammad Shahid, Muhammad Ayaz",
+          "year": "2018",
+          "doi": "10.3389/fphar.2018.00231",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29615907/",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Cisplatin/cannabis pigeon emesis work; indirect relevance only.",
+          "generation_view_ids": [
+            "P29615907_search_0e442d782d5a"
+          ],
+          "generation_view_sha256": {
+            "P29615907_search_0e442d782d5a": "78d0d4fd10bef0de2f3693882388109786c0d9956f97ce311eee9426975a184f"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        },
+        {
+          "pmid": "1838490",
+          "title": "[Ondansetron: a specific 5-HT3 serotonin receptor inhibitor, a new antiemetic in oncology].",
+          "authors": "H d'Allens, B Aubert, J Bons, M Pappo",
+          "year": "1991",
+          "doi": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/1838490/",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Ondansetron/5-HT3 emesis article, not evidence for metoclopramide/D2.",
+          "generation_view_ids": [
+            "P1838490_search_5ba59cfba4c3"
+          ],
+          "generation_view_sha256": {
+            "P1838490_search_5ba59cfba4c3": "21e3d7b050347f54a2e3b30f3f8a7505cf92e2404915bf789aa6ecd293a30025"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        },
+        {
+          "pmid": "31768887",
+          "title": "Gingerol inhibits cisplatin-induced acute and delayed emesis in rats and minks by regulating the central and peripheral 5-HT, SP, and DA systems.",
+          "authors": "Li Tian, Weibin Qian, Qiuhai Qian, Wei Zhang, Xinrui Cai",
+          "year": "2020",
+          "doi": "10.1007/s11418-019-01372-x",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31768887/",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Gingerol/cisplatin animal studies rather than this clinical drug/structure question.",
+          "generation_view_ids": [
+            "P31768887_search_55dc61feca49"
+          ],
+          "generation_view_sha256": {
+            "P31768887_search_55dc61feca49": "c437990c6e7427220bf7d73e093b17ff94d1f9af29ab04832401f219c24cf9c7"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        }
+      ],
+      "citation_assessments": [
+        {
+          "source_id": "P1485177_search_bcfefe9224ee",
+          "view_exists": true,
+          "pmid": "1485177",
+          "rating": "partially_supported",
+          "brief_reason": "Supports area-postrema involvement in chemotherapy emesis, not the BBB/circulating-toxin assertion. The supplied dog-experiment text questions a circulating-substance role.",
+          "claim_checks": [],
+          "generation_view_sha256": "06627dc7204007287ad08f42e6ff670468003b4087ba7d3bdad234f5271c12f3"
+        },
+        {
+          "source_id": "P1838490_search_5ba59cfba4c3",
+          "view_exists": true,
+          "pmid": "1838490",
+          "rating": "unsupported",
+          "brief_reason": "The cited view discusses ondansetron and 5-HT3, not metoclopramide or D2-receptor blockade. The D2 fact is independently true but unsupported by this citation.",
+          "claim_checks": [],
+          "generation_view_sha256": "21e3d7b050347f54a2e3b30f3f8a7505cf92e2404915bf789aa6ecd293a30025"
+        }
+      ],
+      "answer_evidence_notes": "Correct D but incomplete citation support. The area-postrema source supports a central emetic role, not every blood-brain-barrier/circulating-toxin claim; its visible text even questions circulating substances in dog experiments. The second cited excerpt concerns ondansetron/5-HT3, not metoclopramide/D2. FDA confirms the D2 fact independently, without repairing that unsupported citation. Etoposide-versus-cisplatin scope is acknowledged.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM16",
+      "answer_sha256": "2fd126feeb20a35c2f464a071b165b1f0d54902efc97a84c8b6cc0beaaaa47d6",
+      "search_decision": "searched",
+      "query_assessments": [
+        {
+          "query": "GOLD guidelines acute exacerbation COPD antibiotic treatment",
+          "status": "ok",
+          "rating": "appropriate",
+          "notes": "Targets GOLD/AECOPD antibiotic treatment, the correct clinical decision topic."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "34353802",
+          "title": "Procalcitonin-guided initiation of antibiotics in AECOPD inpatients: study protocol for a multicenter randomised controlled trial.",
+          "authors": "Lixue Huang, Jinxiang Wang, Xiaoying Gu, Weili Sheng, Yeming Wang, Bin Cao",
+          "year": "2021",
+          "doi": "10.1136/bmjopen-2021-049515",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34353802/",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Antibiotic initiation protocol mentions GOLD/Anthonisen but does not supply doxycycline selection evidence.",
+          "generation_view_ids": [
+            "P34353802_search_a14a928ffbb9"
+          ],
+          "generation_view_sha256": {
+            "P34353802_search_a14a928ffbb9": "0962e9e01291f8ae22da2fc250d05d01a61a4d6df27915df8674dcb8f91f627c"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        },
+        {
+          "pmid": "40898355",
+          "title": "Study protocol: COPD-eosinophil-guided reduction of inhaled corticosteroids (COPERNICOS) : A randomized, double-blinded, multicenter, four-arm intervention clinical trial on eosinophil-guided time-updated person-specific reduction of inhaled corticosteroid therapy and prophylactic low dose Azithromycin therapy in patients with severe or very severe chronic obstructive pulmonary disease (COPD).",
+          "authors": "Christian Rønn, Barbara Bonnesen, Imane Achir Alispahic, Louise Lindhardt Tønnesen, Jakob Lyngby Kjærgaard, Mia Moberg, Charlotte Suppli Ulrik, Zitta Barrella Harboe, Andrea Browatzki, Torben Tranborg Jensen, Christian N Meyer, Uffe Bodtger, Elisabeth Bendstrup, Sofie Lock Johansson, Diana Utech Kaiser, Charlotte Hyldgaard, Jørgen Vestbo, Pradeesh Sivapalan, Jens-Ulrik Stæhr Jensen",
+          "year": "2025",
+          "doi": "10.1186/s13063-025-09032-0",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40898355/",
+          "paper_relevance": "irrelevant",
+          "brief_reason": "Chronic eosinophil/ICS reduction and prophylactic azithromycin protocol, not this acute antibiotic decision.",
+          "generation_view_ids": [
+            "P40898355_search_db47be930e97"
+          ],
+          "generation_view_sha256": {
+            "P40898355_search_db47be930e97": "069b25dc9f27d84e831dff0cb78db825b021cc1145950056fbb92db6fca34ae9"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        },
+        {
+          "pmid": "41844237",
+          "title": "Acute Exacerbation of Chronic Obstructive Pulmonary Disease: Pharmacological Treatment of AECOPD New Perspectives.",
+          "authors": "Jonathan Calvello, Michael Avaricio, Paolo Ruggeri, Antonio M Esquinas, Bushra Mina",
+          "year": "2026",
+          "doi": "10.1055/a-2826-5752",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41844237/",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "AECOPD pharmacological-treatment review directly concerns the clinical management topic; excerpt lacks exact drug recommendation.",
+          "generation_view_ids": [
+            "P41844237_search_323cba28ef5a"
+          ],
+          "generation_view_sha256": {
+            "P41844237_search_323cba28ef5a": "aef955200ab3f48c4d34e46ee0f54cd9b8e15aac5103c00d30aeea02ed16c41e"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        },
+        {
+          "pmid": "15293621",
+          "title": "Atypical pathogens and respiratory tract infections.",
+          "authors": "F Blasi",
+          "year": "2004",
+          "doi": "10.1183/09031936.04.00135703",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/15293621/",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Broader atypical respiratory-infection topic; no direct COPD drug choice in the view.",
+          "generation_view_ids": [
+            "P15293621_search_f1aa589a273c"
+          ],
+          "generation_view_sha256": {
+            "P15293621_search_f1aa589a273c": "ea828e52dbd8a852f7cb84a288c08b3e5530f57561083374a2b06a6b9b5464c1"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        },
+        {
+          "pmid": "35321460",
+          "title": "An audit of patients admitted to hospital in Nepal for COPD exacerbation.",
+          "authors": "Marte Styrvold, Ane Jonette Heggset Sterten, Sudeep Shrestha, Subodh Dhakal, Ingunn Harstad",
+          "year": "2022",
+          "doi": "10.1177/20503121221085087",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35321460/",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "COPD hospital-care audit/GOLD comparison rather than this specific antibiotic decision.",
+          "generation_view_ids": [
+            "P35321460_search_91eebbec75ff"
+          ],
+          "generation_view_sha256": {
+            "P35321460_search_91eebbec75ff": "20497bd5135bcf4ad2ea7ac137e16459245e50b8180d90f115b8e52d235d1425"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        }
+      ],
+      "citation_assessments": [],
+      "answer_evidence_notes": "Correct A. Increased dyspnea/purulent sputum coherently support antibiotic consideration and the released doxycycline choice. Search supplied five records, so the limitation claiming no evidence registry was provided is false. Excerpts do not verify its exact drug recommendation or current full GOLD criteria. It cites no paper and makes no dose claim.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM17",
+      "answer_sha256": "1218a712bd84ae5c0c4ce539bf68c238ed2ed6720e302a74c2e874f2bd2cb6df",
+      "search_decision": "answered_directly",
+      "query_assessments": [],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "answer_evidence_notes": "Correct A. Sudden intraoperative rigidity, hyperthermia and ETCO2 85 support malignant hyperthermia over the medication distractors. The specific anesthetic is correctly acknowledged as unknown, rather than invented. The answer omits explicit acknowledgment of no external verification; it is not a complete resuscitation protocol.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM18",
+      "answer_sha256": "eb9d2550c1e9ff87f3ec2909c127097fbec51d300060e33e3a062eadab2aae64",
+      "search_decision": "answered_directly",
+      "query_assessments": [],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "answer_evidence_notes": "Correct B. Groin/perineal distribution, scrotal sparing and wrestling context support tinea cruris among the choices. No obtained fungal test or reference is invented; absent verification is explicit.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM19",
+      "answer_sha256": "0fe4486a3dc1c1b5a0397b9e0481bc8d2b40b3324e445fc05e4d2e7a9993224d",
+      "search_decision": "searched",
+      "query_assessments": [
+        {
+          "query": "carbamazepine pregnancy neural tube defects risk",
+          "status": "ok",
+          "rating": "appropriate",
+          "notes": "Directly targets carbamazepine, pregnancy and neural-tube-defect risk."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "8419718",
+          "title": "Update on epilepsy.",
+          "authors": "E L So",
+          "year": "1993",
+          "doi": "10.1016/s0025-7125(16)30279-6",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8419718/",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "General epilepsy/AED treatment context; delivered excerpt lacks pregnancy/NTD data.",
+          "generation_view_ids": [
+            "P8419718_search_25b2e0b9bf4d"
+          ],
+          "generation_view_sha256": {
+            "P8419718_search_25b2e0b9bf4d": "e6d06c5c523c92e9888ebe0546b5d8b489af8f5597d7f7f7c20c3440488670a0"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        },
+        {
+          "pmid": "8400940",
+          "title": "Epilepsy and pregnancy.",
+          "authors": "M D O'Brien, S Gilmour-White",
+          "year": "1993",
+          "doi": "10.1136/bmj.307.6902.492",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8400940/",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Epilepsy/pregnancy title only, no carbamazepine outcome text.",
+          "generation_view_ids": [
+            "P8400940_search_7a5035fb79dd"
+          ],
+          "generation_view_sha256": {
+            "P8400940_search_7a5035fb79dd": "116cbff75dc7a6fb77aa2d4a2203eca7ca5f14d95572cc3574eafaeed4af7173"
+          },
+          "model_visible_text_kinds": [
+            "title_only"
+          ]
+        },
+        {
+          "pmid": "19330496",
+          "title": "Teratogenesis associated with antibipolar agents.",
+          "authors": "Ha T T Nguyen, Verinder Sharma, Roger S McIntyre",
+          "year": "2009",
+          "doi": "10.1007/s12325-009-0011-z",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19330496/",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Antibipolar teratogenesis review methods; no risk finding appears in the excerpt.",
+          "generation_view_ids": [
+            "P19330496_search_f263edbf07c4"
+          ],
+          "generation_view_sha256": {
+            "P19330496_search_f263edbf07c4": "998f89e023f147c87d4d00e8f1686d774006e08f8c546d914861100738c69458"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        },
+        {
+          "pmid": "235422",
+          "title": "The teratogenic risk of antiepileptic drugs.",
+          "authors": "D Janz",
+          "year": "1975",
+          "doi": "10.1111/j.1528-1157.1975.tb04732.x",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/235422/",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Old AED-teratogenicity title only, without the needed drug association.",
+          "generation_view_ids": [
+            "P235422_search_005f1207de66"
+          ],
+          "generation_view_sha256": {
+            "P235422_search_005f1207de66": "9c61c52601d2baeb4dcc39641f496217062f745dab8eb61ec7c09943332e8d28"
+          },
+          "model_visible_text_kinds": [
+            "title_only"
+          ]
+        },
+        {
+          "pmid": "11734102",
+          "title": "Epilepsy in Pregnant Women.",
+          "authors": "Michiko Kimura Bruno, Cynthia L. Harden",
+          "year": "2002",
+          "doi": "10.1007/s11940-002-0003-7",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11734102/",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Actual read explicitly links carbamazepine/valproate to neural-tube defects; historical review, not current regimen advice.",
+          "generation_view_ids": [
+            "P11734102_search_ce9124dfc9a0",
+            "P11734102_read_54fe4a85ad13"
+          ],
+          "generation_view_sha256": {
+            "P11734102_search_ce9124dfc9a0": "c77cf2d8aa6d1e3bbc25dc8c627bb5d280fdf51cf41901820f3072f9b8994909",
+            "P11734102_read_54fe4a85ad13": "96b55c431d73b5a0e7edf29478ee4ab6e35d3bb00fc29ba104b4405e153c2f2c"
+          },
+          "model_visible_text_kinds": [
+            "abstract",
+            "abstract_excerpt"
+          ]
+        }
+      ],
+      "citation_assessments": [
+        {
+          "source_id": "P11734102_read_54fe4a85ad13",
+          "view_exists": true,
+          "pmid": "11734102",
+          "rating": "supported",
+          "brief_reason": "Actual read explicitly states carbamazepine is associated with neural-tube defects. Does not quantify this patient's comparative risk or validate all historical treatment advice.",
+          "claim_checks": [],
+          "generation_view_sha256": "96b55c431d73b5a0e7edf29478ee4ab6e35d3bb00fc29ba104b4405e153c2f2c"
+        }
+      ],
+      "answer_evidence_notes": "Correct B. The actually read 2002 review explicitly links carbamazepine to neural-tube defects, supporting the meningocele association. It does not quantify comparative absolute risk for this patient. Only that association is credited; the old review's broader pregnancy-treatment recommendations are not validated or adopted.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM20",
+      "answer_sha256": "0e52fd757a20e07e880036cd4bd5e0bb1fdc6f626705438756e551ec2c107e25",
+      "search_decision": "searched",
+      "query_assessments": [
+        {
+          "query": "delayed passage of meconium neonate management",
+          "status": "ok",
+          "rating": "partially_appropriate",
+          "notes": "Neonatal delayed-meconium management is related, but omits the decisive initial-imaging/workup question."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "37828049",
+          "title": "Hirschsprung disease.",
+          "authors": "Louise Montalva, Lily S Cheng, Raj Kapur, Jacob C Langer, Dominique Berrebi, Kristiina Kyrklund, Mikko Pakarinen, Ivo de Blaauw, Arnaud Bonnard, Ankush Gosain",
+          "year": "2023",
+          "doi": "10.1038/s41572-023-00465-y",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37828049/",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Hirschsprung/neonatal obstruction signs; excerpt lacks initial imaging sequence.",
+          "generation_view_ids": [
+            "P37828049_search_7bfef46ff153"
+          ],
+          "generation_view_sha256": {
+            "P37828049_search_7bfef46ff153": "b617c2c286d86c4e3eb1cc3a1d2fd762c4a9c788af9e97567459c912d73ff1b0"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        },
+        {
+          "pmid": "20714730",
+          "title": "Delayed diagnosis of imperforate anus: an unacceptable morbidity.",
+          "authors": "Carmen Turowski, Jens Dingemann, John Gillick",
+          "year": "2010",
+          "doi": "10.1007/s00383-010-2691-5",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20714730/",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Neonatal anorectal-obstruction differential/diagnostic delay, not the requested first imaging step.",
+          "generation_view_ids": [
+            "P20714730_search_f0e00508207b"
+          ],
+          "generation_view_sha256": {
+            "P20714730_search_f0e00508207b": "90861aa8fdca555a13fba9e85fbdb989a18893488eafa154791b7428c8d88e92"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        },
+        {
+          "pmid": "32152637",
+          "title": "Chronic constipation in infants and children.",
+          "authors": "Jeremy Meng Dao Ho, Choon How How",
+          "year": "2020",
+          "doi": "10.11622/smedj.2020014",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32152637/",
+          "paper_relevance": "irrelevant",
+          "brief_reason": "Older-child chronic constipation differs from acute neonatal obstruction.",
+          "generation_view_ids": [
+            "P32152637_search_b3db1cff82e3"
+          ],
+          "generation_view_sha256": {
+            "P32152637_search_b3db1cff82e3": "f613d1dc3c4d9bd8fa2976e7c480cef3119b9ce1c9ff26457cb0d3f7b7397ed3"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        },
+        {
+          "pmid": "10807228",
+          "title": "Meconium diseases in infants with very low birth weight.",
+          "authors": "R A Dimmitt, R L Moss",
+          "year": "2000",
+          "doi": "10.1016/s1055-8586(00)70020-5",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10807228/",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Meconium obstruction in very-low-birth-weight infants; different population and no initial radiograph in excerpt.",
+          "generation_view_ids": [
+            "P10807228_search_6c7225efa2a4"
+          ],
+          "generation_view_sha256": {
+            "P10807228_search_6c7225efa2a4": "77713d13a4952978352520972852443733bb46d8faec95dc9b127dc507085ee9"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        },
+        {
+          "pmid": "35313185",
+          "title": "Waardenburg-Shah syndrome rare and challenging case report from Somalia.",
+          "authors": "Abdishakur Mohamed Abdi, Abdullahi Yusuf Ali, Ismail Hakki Göl",
+          "year": "2022",
+          "doi": "10.1016/j.ijscr.2022.106952",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35313185/",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Syndromic Hirschsprung case, not the nondysmorphic newborn's initial imaging decision.",
+          "generation_view_ids": [
+            "P35313185_search_39417d63b012"
+          ],
+          "generation_view_sha256": {
+            "P35313185_search_39417d63b012": "dcf63a0fda2a4ff2797c45578683b301c84279b7bc6a5542f93e5626871670fc"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        }
+      ],
+      "citation_assessments": [],
+      "answer_evidence_notes": "Correct A. Distinguishes initial obstruction imaging from a later cause-specific workup; ACR's indexed primary guidance supports initial radiography for poor feeding/no meconium. Retrieved excerpts describe neonatal differentials but not this imaging sequence. Must-precede wording is broader than all possible clinical pathways; no retrieved trial is falsely cited.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM21",
+      "answer_sha256": "a6f16528a265bab84e473740157695e0c2da674e7856c0994cad2e1157d7dc00",
+      "search_decision": "answered_directly",
+      "query_assessments": [],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "answer_evidence_notes": "Correct D but the explanation weakly addresses the IBD/polypharmacy clue and dismisses colchicine marrow toxicity too broadly. Its official label explicitly reports pancytopenia at therapeutic doses. Allopurinol labeling documents myelosuppression and increased thiopurine exposure; a possible IBD-related azathioprine/mercaptopurine interaction is relevant but not a proven exposure in this stem. DRESS is not established by the supplied facts. Preserve correct key alongside this material explanation issue.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM22",
+      "answer_sha256": "b91c6ce44ea12edf509e6b6885ce9aec82ff064a24c42d6383c39522f616e00c",
+      "search_decision": "answered_directly",
+      "query_assessments": [],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "answer_evidence_notes": "Correct A. Identifies DPP-4 inhibition and incretin preservation and distinguishes the alternative mechanisms. No dose, patient recommendation or source verification is invented.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM23",
+      "answer_sha256": "929a2308137cd0967a55426c5582511bd8ee37f74d306341c18971621252d9e5",
+      "search_decision": "searched",
+      "query_assessments": [
+        {
+          "query": "Sargramostim infusion reaction muscle pain vomiting hypotension",
+          "status": "ok",
+          "rating": "partially_appropriate",
+          "notes": "Correct drug/reaction topic, but conjunctive symptom terms narrow retrieval excessively."
+        },
+        {
+          "query": "Sargramostim infusion reaction hypotension myalgia vomiting",
+          "status": "ok",
+          "rating": "partially_appropriate",
+          "notes": "Near-equivalent symptom query; little substantive broadening or GM-CSF synonym use."
+        },
+        {
+          "query": "Sargramostim infusion reaction hypotension myalgia",
+          "status": "ok",
+          "rating": "partially_appropriate",
+          "notes": "Removes one symptom but retains the same narrow approach; no broader drug/infusion-reaction query."
+        }
+      ],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "answer_evidence_notes": "Correct C. The independent LEUKINE label supports first-administration infusion reactions with respiratory/hemodynamic features; not proof that every symptom in this vignette uniquely diagnoses the drug. Three near-equivalent restrictive queries all return zero. The reserved fourth call produces an honest knowledge-based answer, demonstrating bounded finalization without fabricated references.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM24",
+      "answer_sha256": "596370031f93fdba1d8b9136487ac19bb3710bfe76a811eaf6348f40188ca208",
+      "search_decision": "searched",
+      "query_assessments": [
+        {
+          "query": "hyperthyroidism followed by hypothyroidism clinical presentation",
+          "status": "ok",
+          "rating": "appropriate",
+          "notes": "Targets the hyper-to-hypothyroid clinical sequence directly."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "35604323",
+          "title": "Current concepts regarding Graves' orbitopathy.",
+          "authors": "Luigi Bartalena, Maria Laura Tanda",
+          "year": "2022",
+          "doi": "10.1111/joim.13524",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35604323/",
+          "paper_relevance": "irrelevant",
+          "brief_reason": "Graves orbitopathy does not address this hyper-to-hypothyroid clinical sequence.",
+          "generation_view_ids": [
+            "P35604323_search_ffd1254f60ed"
+          ],
+          "generation_view_sha256": {
+            "P35604323_search_ffd1254f60ed": "ae86a80e4b76af1c7ed285fc9345a4463e02db8877d3d0ecec46817e26f232ae"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        },
+        {
+          "pmid": "34913664",
+          "title": "Thyroiditis: Evaluation and Treatment.",
+          "authors": "Beatriz Martinez Quintero, Cynthia Yazbeck, Lori B Sweeney",
+          "year": "2021",
+          "doi": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34913664/",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Thyroiditis phases address the diagnostic topic; truncated excerpt does not verify final TSH.",
+          "generation_view_ids": [
+            "P34913664_search_72b87d389a54"
+          ],
+          "generation_view_sha256": {
+            "P34913664_search_72b87d389a54": "ab8cf66ac4f8ba7056c372e88937756cb776e67abc2e04b1d98b8dd3a91dabb5"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        },
+        {
+          "pmid": "28351085",
+          "title": "[Not Available].",
+          "authors": "Ladan Mehran, Atieh Amouzegar, Parnian Kheirkhah Rahimabad, Maryam Tohidi, Zhale Tahmasebinejad, Fereidoun Azizi",
+          "year": "2017",
+          "doi": "10.1055/s-0042-117279",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28351085/",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Subclinical thyroid/metabolic-syndrome study, not this overt clinical sequence; supplied title unavailable.",
+          "generation_view_ids": [
+            "P28351085_search_1dc02fab3567"
+          ],
+          "generation_view_sha256": {
+            "P28351085_search_1dc02fab3567": "ddd0f8f9638b2f95c76c62cfd3056b012d8ba748836cd284873d59c7f05be648"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        },
+        {
+          "pmid": "17080266",
+          "title": "TSH adenomas.",
+          "authors": "Edward R Laws, Mary Lee Vance, John A Jane",
+          "year": "2006",
+          "doi": "10.1007/s11102-006-0411-x",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17080266/",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Pituitary TSH-adenoma differential, not evidence for the specific primary-thyroid course.",
+          "generation_view_ids": [
+            "P17080266_search_5c0af3d6082b"
+          ],
+          "generation_view_sha256": {
+            "P17080266_search_5c0af3d6082b": "49fbcf9bbeb1432acc44bc93a47b0993f9390d82ed8914d7820d85c49fe7d8a8"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        }
+      ],
+      "citation_assessments": [
+        {
+          "source_id": "P34913664_search_72b87d389a54",
+          "view_exists": true,
+          "pmid": "34913664",
+          "rating": "partially_supported",
+          "brief_reason": "Excerpt supports thyroiditis and initial hormone release; stops before hypothyroid phase/elevated TSH, so complete asserted sequence exceeds the view.",
+          "claim_checks": [],
+          "generation_view_sha256": "ab8cf66ac4f8ba7056c372e88937756cb776e67abc2e04b1d98b8dd3a91dabb5"
+        }
+      ],
+      "answer_evidence_notes": "Correct A. Recognizes current primary-hypothyroid features and appropriately leaves thyroiditis subtype uncertain. The supplied review excerpt supports general thyroiditis/initial hormone release, but stops before the later hypothyroid phase or TSH finding. Calling the two described states triphasic is loose; complete course is not observed.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM25",
+      "answer_sha256": "86d04a909dc5bd82d6bccc3e58a266ffcb33433e2d9b2743031a63ca39e1da2f",
+      "search_decision": "searched",
+      "query_assessments": [
+        {
+          "query": "Bruton's agammaglobulinemia clinical presentation boy encapsulated bacteria",
+          "status": "ok",
+          "rating": "partially_appropriate",
+          "notes": "Correct X-linked agammaglobulinemia topic, but adds several literal phenotype terms rather than a simpler disorder/presentation query."
+        }
+      ],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "answer_evidence_notes": "Correct D. Male infant, age after maternal IgG wanes and recurrent encapsulated bacterial infections support X-linked agammaglobulinemia; the distractor distinctions are coherent. Empty search is acknowledged, with no fabricated laboratory results or references.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM26",
+      "answer_sha256": "129616e30c5e4f2123828bc898d9e0fe992854a69d8b93d94680bea3a290611c",
+      "search_decision": "searched",
+      "query_assessments": [
+        {
+          "query": "mechanism of spontaneous bacterial peritonitis cirrhosis bacterial translocation",
+          "status": "ok",
+          "rating": "appropriate",
+          "notes": "Directly targets SBP/cirrhosis bacterial-translocation mechanism."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "38936554",
+          "title": "Type-I interferon shapes peritoneal immunity in cirrhosis and drives caspase-5-mediated progranulin release upon infection.",
+          "authors": "Michael Rooney, Shivalee N Duduskar, Mohamed Ghait, Johanna Reißing, Sven Stengel, Philipp A Reuken, Stefanie Quickert, Alexander Zipprich, Michael Bauer, Ashley J Russo, Vijay A Rathinam, Andreas Stallmach, Ignacio Rubio, Tony Bruns",
+          "year": "2024",
+          "doi": "10.1016/j.jhep.2024.06.019",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38936554/",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Gut bacterial translocation/SBP mechanism is explicit in the first delivered sentence.",
+          "generation_view_ids": [
+            "P38936554_search_69e6c89e4a95"
+          ],
+          "generation_view_sha256": {
+            "P38936554_search_69e6c89e4a95": "4c0093e8303a63819068237a7e35aeff86728b645e15b4801ac06964e8d3c8f4"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        },
+        {
+          "pmid": "19266595",
+          "title": "Spontaneous bacterial peritonitis.",
+          "authors": "Anastasios Koulaouzidis, Shivaram Bhat, Athar A Saeed",
+          "year": "2009",
+          "doi": "10.3748/wjg.15.1042",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19266595/",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "SBP review explicitly identifies bacterial translocation as the key pathogenesis mechanism.",
+          "generation_view_ids": [
+            "P19266595_search_e48b25bcbc63"
+          ],
+          "generation_view_sha256": {
+            "P19266595_search_e48b25bcbc63": "d752b4fb692b854a8ba259351c3f82074bd189005cba6dd3e6d9504a17148d27"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        },
+        {
+          "pmid": "30930689",
+          "title": "Immune Dysfunction and Albumin-Related Immunity in Liver Cirrhosis.",
+          "authors": "Benjamin Wilde, Antonios Katsounas",
+          "year": "2019",
+          "doi": "10.1155/2019/7537649",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30930689/",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "General cirrhosis immune dysfunction; excerpt does not identify the decisive mechanism.",
+          "generation_view_ids": [
+            "P30930689_search_1a7c70248dac"
+          ],
+          "generation_view_sha256": {
+            "P30930689_search_1a7c70248dac": "7270534f3d74ff2fef6b5e6aa7d651e048957a6ee148eac5cc1370eb8d285860"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        },
+        {
+          "pmid": "8728196",
+          "title": "Peritoneal dialysis in liver disorders.",
+          "authors": "R Selgas, M A Bajo, C Jimenez, C Sanchez, G Del Peso, G Cacho, C Diaz, M J Fernandez-Reyes, F De Alvaro",
+          "year": "1996",
+          "doi": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8728196/",
+          "paper_relevance": "irrelevant",
+          "brief_reason": "Peritoneal dialysis/liver-virus barriers differ from spontaneous infection in this nondialysis patient.",
+          "generation_view_ids": [
+            "P8728196_search_2b2cfb69af7a"
+          ],
+          "generation_view_sha256": {
+            "P8728196_search_2b2cfb69af7a": "49f7b9fba01307d67b4a1f5a73c2d285be51143ecc917fe09922b3e50434fd1a"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        },
+        {
+          "pmid": "31324695",
+          "title": "Role of endotoxemia in causing renal dysfunction in cirrhosis.",
+          "authors": "Jennifer L Peng, Witina Techasatian, Takashi Hato, Suthat Liangpunsakul",
+          "year": "2020",
+          "doi": "10.1136/jim-2019-001056",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31324695/",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Cirrhotic infection/endotoxemia renal context rather than the specific ascites mechanism.",
+          "generation_view_ids": [
+            "P31324695_search_5cef99350ffc"
+          ],
+          "generation_view_sha256": {
+            "P31324695_search_5cef99350ffc": "3b20fcb3f9ce2f6a7f962d51fff7c0737baa6280d0d5dd6cf648ee69f1705da5"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        }
+      ],
+      "citation_assessments": [
+        {
+          "source_id": "P19266595",
+          "view_exists": false,
+          "pmid": null,
+          "rating": "not_assessable",
+          "brief_reason": "Primary cited ID is not registered. Separate unique-PMID diagnostic maps to a real supplied view supporting bacterial translocation; no primary repair/reclassification.",
+          "claim_checks": [],
+          "generation_view_sha256": null
+        },
+        {
+          "source_id": "P38936554",
+          "view_exists": false,
+          "pmid": null,
+          "rating": "not_assessable",
+          "brief_reason": "Primary cited ID is not registered. Separate unique-PMID diagnostic maps to a real supplied view supporting gut translocation/SBP; not a fabricated paper and not a repaired primary citation.",
+          "claim_checks": [],
+          "generation_view_sha256": null
+        }
+      ],
+      "answer_evidence_notes": "Correct C with correct 1900*0.60=1140 ascitic neutrophil calculation. Two papers actually returned directly support bacterial translocation, but the model cites raw P-prefixed PMIDs rather than the exact registered view IDs. Host flags both unknown citations. Separate unique-PMID diagnostics confirm real papers/content without repairing the primary response. PMN threshold alone does not exclude secondary peritonitis; confirms is stronger than the limited stem/evidence.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM27",
+      "answer_sha256": "624f03268d2832af2322288cdfc6acf75aef88e1cebc06e01b4af7be301df84b",
+      "search_decision": "searched",
+      "query_assessments": [
+        {
+          "query": "Fragile X syndrome physical examination findings long face large ears",
+          "status": "ok",
+          "rating": "appropriate",
+          "notes": "Directly targets the requested fragile-X physical phenotype."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "10874635",
+          "title": "Screening for the fragile X syndrome among the mentally retarded: a clinical study. The Collaborative Fragile X Study Group.",
+          "authors": "B B de Vries, S Mohkamsing, A M van den Ouweland, E Mol, K Gelsema, M van Rijn, A Tibben, D J Halley, H J Duivenvoorden, B A Oostra, M F Niermeijer",
+          "year": "1999",
+          "doi": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10874635/",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Actual excerpt explicitly supplies FMR1/CGG and long-face/protruding-ear features.",
+          "generation_view_ids": [
+            "P10874635_search_82720c1a830a"
+          ],
+          "generation_view_sha256": {
+            "P10874635_search_82720c1a830a": "3803a97e241b0f200e71bd0555a8a675a612db00e5b2810fc0b44e37a58c5222"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        }
+      ],
+      "citation_assessments": [
+        {
+          "source_id": "P10874635_search_82720c1a830a",
+          "view_exists": true,
+          "pmid": "10874635",
+          "rating": "supported",
+          "brief_reason": "Actual excerpt directly supplies the cited long-face/large-protruding-ear and expanded CGG/FMR1 phenotype association.",
+          "claim_checks": [],
+          "generation_view_sha256": "3803a97e241b0f200e71bd0555a8a675a612db00e5b2810fc0b44e37a58c5222"
+        }
+      ],
+      "answer_evidence_notes": "Correct B. Actual delivered clinical-study excerpt explicitly supports the long-face/large-ear phenotype and expanded FMR1 CGG repeat association. Historical terminology in the source is not adopted as a modern clinical recommendation.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM28",
+      "answer_sha256": "276da13a6cfb6ca7bb1772fd4de7bcc94d06d137cb1ae588a8a67b6ab559e786",
+      "search_decision": "searched",
+      "query_assessments": [
+        {
+          "query": "muscle rigidity hyperthermia management NMS MH",
+          "status": "ok",
+          "rating": "partially_appropriate",
+          "notes": "Targets plausible NMS/MH differential but uses both acronyms and lacks a specific treatment term."
+        },
+        {
+          "query": "management of muscle rigidity and hyperthermia NMS vs MDMA",
+          "status": "ok",
+          "rating": "partially_appropriate",
+          "notes": "Adds the MDMA differential while retaining a conjunctive acronym query; does not focus on a named intervention."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "22101771",
+          "title": "Anesthetic management of a pediatric patient with neuroleptic malignant syndrome.",
+          "authors": "Tarun Bhalla, Douglas Maxey, Amod Sawardekar, Joseph D Tobias",
+          "year": "2012",
+          "doi": "10.1007/s00540-011-1269-2",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22101771/",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "NMS phenotype and antiemetic association are explicit; excerpt does not supply dantrolene treatment evidence.",
+          "generation_view_ids": [
+            "P22101771_search_7fba1f3c7510"
+          ],
+          "generation_view_sha256": {
+            "P22101771_search_7fba1f3c7510": "4a446651289351998ba941649a4c24ec59b35a12071ae0f2e5a550fdff965f14"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        }
+      ],
+      "citation_assessments": [],
+      "answer_evidence_notes": "Correct B. Plausible NMS after a dopamine-antagonist antiemetic; exact drug/exposure is explicitly unknown. A returned case excerpt supports syndrome/antiemetic association, but neither successful query nor failed follow-up supplies dantrolene outcome evidence. FDA supports metoclopramide as a possible NMS trigger, not proof of this patient's drug. Calling dantrolene the specific NMS treatment is stronger than the evidence obtained.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM29",
+      "answer_sha256": "52beebffa4378dde38f2531afe2ac84561a4846366878d175a99903edaace3bb",
+      "search_decision": "searched",
+      "query_assessments": [
+        {
+          "query": "lamotrigine targetoid lesions rash bipolar disorder",
+          "status": "ok",
+          "rating": "partially_appropriate",
+          "notes": "Targets lamotrigine rash/bipolar disorder but uses a narrow lesion-description combination."
+        },
+        {
+          "query": "lamotrigine targetoid lesions SJS bipolar",
+          "status": "ok",
+          "rating": "appropriate",
+          "notes": "Reformulates toward the named SJS drug association; evidence strength of a case report is separately graded."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "40078262",
+          "title": "Severe Cutaneous Adverse Reaction to Lamotrigine: A Case of Stevens-Johnson Syndrome in a Psychiatric Patient.",
+          "authors": "Kajomi Shingala, Dipesh Nariya",
+          "year": "2025",
+          "doi": "10.7759/cureus.78812",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40078262/",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Lamotrigine/SJS psychiatric case directly supports the drug association; not comparative-risk evidence.",
+          "generation_view_ids": [
+            "P40078262_search_87b2fbcda5d8"
+          ],
+          "generation_view_sha256": {
+            "P40078262_search_87b2fbcda5d8": "72fcea3dff51a182d5dd9903c94f3651b94c34680677398e962e754196791c29"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ]
+        }
+      ],
+      "citation_assessments": [
+        {
+          "source_id": "P40078262_search_87b2fbcda5d8",
+          "view_exists": true,
+          "pmid": "40078262",
+          "rating": "partially_supported",
+          "brief_reason": "Supports lamotrigine/SJS association in a psychiatric case, not population-level preferential risk or proof that this vignette's exact rash is SJS.",
+          "claim_checks": [],
+          "generation_view_sha256": "72fcea3dff51a182d5dd9903c94f3651b94c34680677398e962e754196791c29"
+        }
+      ],
+      "answer_evidence_notes": "Correct A. Actual lamotrigine/SJS psychiatric-case excerpt and independent boxed warning support the drug association. A single case does not establish comparative psychiatric-population risk; mucosal involvement or skin detachment is not supplied, so the vignette's exact rash syndrome is not proven. The model appropriately notes absent direct confirmation.",
+      "tool_errors": 0
+    },
+    {
+      "question_id": "BM30",
+      "answer_sha256": "a2565980a25bf4f0d125daa22aa94297f1b9cbed007b41ce94ad91e1baac89fd",
+      "search_decision": "answered_directly",
+      "query_assessments": [],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "answer_evidence_notes": "Correct C. Sympathetic activation coherently explains increased heart rate/systolic pressure during exercise. The baroreflex contrast is simplified and does not discuss exercise-related resetting, but the selected mechanism is consistent. Knowledge-based explanation explicitly lacks external verification.",
+      "tool_errors": 0
+    }
+  ],
+  "limit": "All returned question-paper pairs and cited views; actual delivered text only, no full-text/exhaustive recall claim."
+}

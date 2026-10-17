@@ -1,0 +1,1420 @@
+{
+  "reviewer": "Unblinded implementation assistant; explicit post-generation notes, no paid judge or independent clinician",
+  "rubric_sha256": "fed69330b2eaf185c36c8aebf6b2a3ae1c5ef9a3c64ba98aedbf06f607de6b9c",
+  "manual_review_sha256": {
+    "BM01.json": "bfac0115ba588100ec578fdaf571241912740b90c0e4389fb3be3d121f2e4e58",
+    "BM02.json": "3e7ebeed893ddb09ade8cfbe4530542a1719b44d999186c83f1e5e29a8bcb281",
+    "BM03.json": "691cd67f607f0ec87c62b0a2a79664b1c8c453fcc44ee41c4eac13eb587b8de8",
+    "BM04.json": "a5465735dab02a6d8c3666d776f54863a3415793c0ac7dba0cc529e97aa27ad2",
+    "BM05.json": "08ffa24cd9e8e0c58764beb1554488e8b03954f0c9ef0d69ab33b7cddb0fc587",
+    "BM06.json": "8c1adc3af729f36364cea1b6b42f0f0d7bae93c0c24674f788538a954481f229",
+    "BM07.json": "9ca4be7bb190f1a38178bdda2b74db9a43e6fe97f0f8fa3142dc3aea8fa7996b",
+    "BM08.json": "aba1b3317f5343e49a692553721ff99000af18527a2988460f852ff1a8e78a87",
+    "BM09.json": "1394956c587f19d5be06ac105fbf0504a72e3bc4172f2eaf95a5649e8a03c854",
+    "BM10.json": "e5492e7af3fb23addf962aeafa6d3f6f0f82a6539865edab2ebbd445e1ba0332",
+    "BM11.json": "2e75abf7a2e54f5ff3234e19233e0563d967f6e1141505db3f976880e4c74d2c",
+    "BM12.json": "f830f1fe7f5d038c2cc8593f84ac302701fd0656786a9e1ffae9b4ca7e0ed703",
+    "BM13.json": "56f533e9493959a0d9148eefdc10008cb31ae278db6863ec307acf135d64b030",
+    "BM14.json": "f720b9fd127b94720a07195f6441d1ff4e23c02785e987d302453c13a6f8243a",
+    "BM15.json": "d7c2677cca5c3f0741359256a41aad0d485f0f26a70488bcecd8b7188ddc7442",
+    "BM16.json": "c90cb3d96f1d89fdf0bc88f4310d85d68afbe2139c9f5e2a1c8210f2c9384adf",
+    "BM17.json": "7f06ce98a452622d815e8ad98a20ebd17e85cb1c7d32247163e3369f1140ea95",
+    "BM18.json": "725d6d82d6e7b5337e18283ac52b29aa5d16a67c1973af5a810319d11cb43a95",
+    "BM19.json": "fb48f03041e7f602dfc2994dd0f7a3b81fae187cd2a63d479e722ffebca4f9c4",
+    "BM20.json": "e1ddd1063fd2b17c43e3acd2281b6229ca645ea9231f35adb05469b31641324f",
+    "BM21.json": "b62e0ba2dc1f585abe66c711aa13c98b210e8e38d4134ccd25e49255b9eb18d1",
+    "BM22.json": "35ca866477857b8e65d7d2de236c589b545d779eea1e0031faa197f2f9699526",
+    "BM23.json": "6c78fc8b7ea7c40b9d8626bf9db1f319d45a72cfd39e99cf4bb2c7ae4c5a3d24",
+    "BM24.json": "f3e7f4f13e9a791f009b7f1f95bf7d6e220d4802f7b97d2afadbc6e1001e5210",
+    "BM25.json": "1874035b426168dd5c7ca04d2535902a15640515469719d4692db7b99fecca4b",
+    "BM26.json": "4e323d5b86cf883700d1558bdb154d791dbfc17b75c38b8efe24dd1dd547baa8",
+    "BM27.json": "fab6cf1896d31f805e061b77e89c17e6139f693c3bc29c73a1c2f863008d5b74",
+    "BM28.json": "e56cb49c1f032e18078d1a0267553b7ba920bbe84a69c1becda33759e2526951",
+    "BM29.json": "2ca4a17ecd3617e0e77b8a19b0e3d0953e8034240daaa2a622b85b4e4225918a",
+    "BM30.json": "090e33ce376c9ee38032681b86582a471bd468a29a8a7b470a991d817c184845"
+  },
+  "keys_changed": 0,
+  "retrieval_rubric_sha256": "f5b4e5e9887e54a7f6358b9fec4dcf7dea9a8a1f1baf26ff6d90238371c76846",
+  "episodes": [
+    {
+      "question_id": "BM01",
+      "answer_sha256": "504327bdef16aefc6d29d69273f9d2762d19af2bd69f876ea8dd74765b021ab7",
+      "query_assessments": [],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Correct D. Prioritizes emergent exploration for supplied refractory shock, hemoperitoneum and peritonitis, while explaining why CT or fluids alone delay control. Explicitly acknowledges no external verification. Independent WSES context supports the choice."
+    },
+    {
+      "question_id": "BM02",
+      "answer_sha256": "07f7f11c4c4ccfc99333bde27646439ede009e20c9f95b3c48c7678630f761a1",
+      "query_assessments": [
+        {
+          "query": "heart failure BNP ADH hyponatremia hypokalemia neurohormonal activation",
+          "status": "ok",
+          "rating": "partially_appropriate",
+          "notes": "Targets the right disease but joins BNP, ADH, sodium, potassium and neurohormonal activation in one restrictive query; no broader reformulation."
+        }
+      ],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Correct C. Uses heart-failure signs, ventricular stretch, RAAS and non-osmotic ADH to explain BNP/ADH elevation and dilutional hyponatremia. Potassium wasting is stated as a possibility rather than a measured lab result. Honestly reports the empty search and lacks external verification."
+    },
+    {
+      "question_id": "BM03",
+      "answer_sha256": "a5d184a63ae85abc04ffd09064f11a255c963d99dcdeec0b6b6d870d79e62765",
+      "query_assessments": [],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Correct D. Explains proximal exercise facilitation, presynaptic calcium-channel autoimmunity and autonomic/malignancy clues, while distinguishing poor anticholinesterase response from MG. Explicitly labels its answer as existing knowledge without external verification."
+    },
+    {
+      "question_id": "BM04",
+      "answer_sha256": "db4ebdc958f4405294c334253a64ff700680e19b804095a80a08c584287b990d",
+      "query_assessments": [],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Correct B. Gives the decisive fetal-entry/prophase-I arrest explanation and excludes the other options without introducing an incorrect fertilization-stage claim. States that this is unverified reproductive-physiology knowledge."
+    },
+    {
+      "question_id": "BM05",
+      "answer_sha256": "e8f5e329c24f563f016e82e1fe9b99408fb2a7b7559a1c840cd84be0c49959f6",
+      "query_assessments": [
+        {
+          "query": "statin-associated transaminase elevation",
+          "status": "ok",
+          "rating": "appropriate",
+          "notes": "Concise statin-associated transaminase topic search."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "16913392",
+          "title": "Safety issues with statin therapy.",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "The search excerpt gives statin-safety review objectives/data sources, but not a liver/transaminase finding.",
+          "generation_view_ids": [
+            "P16913392_search_735bf5d91d45"
+          ],
+          "generation_view_sha256": {
+            "P16913392_search_735bf5d91d45": "a29dfc1d4cdeb88f2e20b4d459ff0a64e9e801aefc5ec1cc363f31e031cebdef"
+          }
+        },
+        {
+          "pmid": "24840269",
+          "title": "Overcoming toxicity and side-effects of lipid-lowering therapies.",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "General lipid-therapy safety topic; delivered text concerns guideline indications, not a transaminase finding.",
+          "generation_view_ids": [
+            "P24840269_search_6a4018e87ca8"
+          ],
+          "generation_view_sha256": {
+            "P24840269_search_6a4018e87ca8": "ddd0e5b087614530fc24f46224f4528d925b4f098dc742ef973b6521b1794e3d"
+          }
+        },
+        {
+          "pmid": "38716533",
+          "title": "Atorvastatin-induced Myositis and Drug-induced Liver Injury.",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Atorvastatin/myositis case includes generic statin transaminase-elevation background; the named drug differs from simvastatin.",
+          "generation_view_ids": [
+            "P38716533_search_9807b5957e93"
+          ],
+          "generation_view_sha256": {
+            "P38716533_search_9807b5957e93": "951060b2264f9a86e25301f68a07efc0b0bc0ba35010078b3967a49392303814"
+          }
+        },
+        {
+          "pmid": "28466399",
+          "title": "Identification and Management of Statin-Associated Symptoms in Clinical Practice: Extension of a Clinician Survey to 12 Further Countries.",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Statin-associated symptom management survey is related, but the excerpt does not specify hepatic effects.",
+          "generation_view_ids": [
+            "P28466399_search_0f4c4b5f0123"
+          ],
+          "generation_view_sha256": {
+            "P28466399_search_0f4c4b5f0123": "309dd84c1bfde11a0b7bb319c50fa465a57188cc2c5e1bd284fe8da437471ffd"
+          }
+        },
+        {
+          "pmid": "41658727",
+          "title": "Statin-Associated Immune-Mediated Necrotizing Myopathy Presenting as Persistent Hypertransaminasemia.",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Statin-triggered immune muscle disease can present with transaminase elevation; different mechanism/phenotype from presumed hepatic injury.",
+          "generation_view_ids": [
+            "P41658727_search_fba7907a8568"
+          ],
+          "generation_view_sha256": {
+            "P41658727_search_fba7907a8568": "753b8b5bf93a63d932cac90459d190fe2e63484e384a13e249734507902c352e"
+          }
+        }
+      ],
+      "citation_assessments": [
+        {
+          "source_id": "P38716533_search_9807b5957e93",
+          "view_exists": true,
+          "pmid": "38716533",
+          "rating": "supported",
+          "brief_reason": "Explicit generic statin-class background supports enzyme elevations above three times ULN; it does not independently isolate simvastatin in this patient.",
+          "generation_view_sha256": "951060b2264f9a86e25301f68a07efc0b0bc0ba35010078b3967a49392303814"
+        },
+        {
+          "source_id": "P16913392_search_735bf5d91d45",
+          "view_exists": true,
+          "pmid": "16913392",
+          "rating": "unsupported",
+          "brief_reason": "The delivered view is objectives/data-source text and lacks the attributed hepatic/transaminase finding; its full abstract was not read by this model.",
+          "generation_view_sha256": "a29dfc1d4cdeb88f2e20b4d459ff0a64e9e801aefc5ec1cc363f31e031cebdef"
+        }
+      ],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Correct B. Correct statin-class adverse-effect reasoning and recognizes fenofibrate as another possible contributor. The atorvastatin excerpt explicitly mentions greater-than-three-times-ULN transaminases, but the cited statin-safety search view supplies no hepatic finding. Specific simvastatin attribution relies on knowledge, not a directly verified patient/drug study."
+    },
+    {
+      "question_id": "BM06",
+      "answer_sha256": "9af33e3c89a6a8dcf13c8dbc263fd403972d254daabe840f61024679df126742",
+      "query_assessments": [],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Correct D. Uses the explicitly chronic renal framing and pericarditic/uremic clues, with a clear ATN, glomerulonephritis and nephrotic cast differential. Does not claim retrieved evidence or confirmed renal histology."
+    },
+    {
+      "question_id": "BM07",
+      "answer_sha256": "c9d3afbfc1b0b9a86f076512524eb552a071f6988812ce01042c0341923ea00f",
+      "query_assessments": [
+        {
+          "query": "Curling ulcer burn gastric mucosal blood flow ischemia",
+          "status": "ok",
+          "rating": "appropriate",
+          "notes": "Targets burn stress ulceration, mucosal flow and ischemia together."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "4053922",
+          "title": "The pathophysiology of peptic ulcer disease.",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Visible acute-ulcer discussion identifies local ischemia as the earliest recognizable lesion, directly addressing the mechanistic option.",
+          "generation_view_ids": [
+            "P4053922_search_2f724eaca4c7"
+          ],
+          "generation_view_sha256": {
+            "P4053922_search_2f724eaca4c7": "5e77babd53461368eb401e23f752022cf3c275474620958c47465363a9cc56e9"
+          }
+        },
+        {
+          "pmid": "7095361",
+          "title": "Gastric mucosal hemodynamics after thermal or head injury. A clinical application of reflectance spectrophotometry.",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Human gastric-hemodynamic study directly examines stress lesions after thermal/head injury; search text is methods only, while a read exposes measured volume reductions and conclusions.",
+          "generation_view_ids": [
+            "P7095361_search_2b39ea57f652"
+          ],
+          "generation_view_sha256": {
+            "P7095361_search_2b39ea57f652": "0f17c9189b8c24885c3172fff15ba3035ff5f34a51b3306a763193c63a4283e6"
+          }
+        }
+      ],
+      "citation_assessments": [
+        {
+          "source_id": "P4053922_search_2f724eaca4c7",
+          "view_exists": true,
+          "pmid": "4053922",
+          "rating": "supported",
+          "brief_reason": "Actual acute-ulcer text supports local ischemia as the initial lesion; not every burn-specific fact is independently verified.",
+          "generation_view_sha256": "5e77babd53461368eb401e23f752022cf3c275474620958c47465363a9cc56e9"
+        },
+        {
+          "source_id": "P7095361_search_2b39ea57f652",
+          "view_exists": true,
+          "pmid": "7095361",
+          "rating": "partially_supported",
+          "brief_reason": "Methods establish that mucosal flow in thermal/head injury was studied, but the agent-attributed reduced-flow finding is outside the delivered excerpt.",
+          "generation_view_sha256": "0f17c9189b8c24885c3172fff15ba3035ff5f34a51b3306a763193c63a4283e6"
+        }
+      ],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Correct D. Appropriate burn-related mucosal hypoperfusion mechanism. The general acute-ulcer review supports ischemia, but the thermal-injury search excerpt contains investigation methods rather than evidence of measured reduction. Acknowledges truncated evidence without resolving that claim gap."
+    },
+    {
+      "question_id": "BM08",
+      "answer_sha256": "d4bc40446624d3138151e77d9e91ed2e4809fb6201a3c578d127bd61ac412f84",
+      "query_assessments": [],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Correct B. Uses mechanical knee-load/OA features and an obesity-OSA risk explanation for sleep symptoms, with appropriate competing-cause exclusion. Does not pretend that external sources or sleep testing confirmed these inferences."
+    },
+    {
+      "question_id": "BM09",
+      "answer_sha256": "eb0ba0188b96c8d4f619009cf8b5c1bd579e4be9c4987a11b5cb8bbf7ca6a2ed",
+      "query_assessments": [],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Correct C. Coherent PK-deficiency and ATP/citrate versus AMP/F2,6BP explanation. Explicitly confines PKA lowering of F2,6BP to liver and does not claim direct PFK-1 phosphorylation. No retrieved verification is invented; independently checked Rider context supports that distinction."
+    },
+    {
+      "question_id": "BM10",
+      "answer_sha256": "1e45e1cec803bb2fbb27b338eee453599300107698d4aafb933b2f378914e2ac",
+      "query_assessments": [
+        {
+          "query": "celiac disease duodenal biopsy villous atrophy crypt hyperplasia",
+          "status": "ok",
+          "rating": "appropriate",
+          "notes": "Targets duodenal biopsy and the defining villous/crypt pattern."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "17075969",
+          "title": "Celiac disease.",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Actual read explicitly links active celiac disease, positive tTG, villous atrophy and crypt hyperplasia, including systemic/rash associations.",
+          "generation_view_ids": [
+            "P17075969_search_f5410eeb56e8",
+            "P17075969_read_c1d0a6d69a52"
+          ],
+          "generation_view_sha256": {
+            "P17075969_search_f5410eeb56e8": "9caf6b3777c2608a1789a7772129478e7c04bc29877383fa48b813c338931ca4",
+            "P17075969_read_c1d0a6d69a52": "5f5b6fb9c37a3d39192d1cdd6f4aa3a53f129bcb2da7fcf877b2fff6e056e576"
+          }
+        },
+        {
+          "pmid": "31404667",
+          "title": "Seasonal Variation of Duodenal Intraepithelial Lymphocytosis.",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Marsh-1 intraepithelial lymphocytosis with normal architecture is related staging background, not the expected classic atrophy/hyperplasia phenotype.",
+          "generation_view_ids": [
+            "P31404667_search_aab5bc326bd9"
+          ],
+          "generation_view_sha256": {
+            "P31404667_search_aab5bc326bd9": "b000a80a06e16fb09886d5c2f766e9209d669302bd8a03d7de3f7ca6d49728fe"
+          }
+        },
+        {
+          "pmid": "32350146",
+          "title": "Celiac disease: a multi-faceted medical condition.",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Celiac/gluten autoimmune background is related, but this delivered excerpt does not describe the asked histology.",
+          "generation_view_ids": [
+            "P32350146_search_2aff7fc1e515"
+          ],
+          "generation_view_sha256": {
+            "P32350146_search_2aff7fc1e515": "623829fa8c75e90448dc0bf04116ea87d92e23b21fd702918111e1a7240f5f10"
+          }
+        },
+        {
+          "pmid": "25872537",
+          "title": "Celiac disease: diagnosis and treatment.",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Actual adult guideline abstract explicitly gives lymphocyte infiltration, crypt hyperplasia and villous atrophy; age-specific management is not inferred.",
+          "generation_view_ids": [
+            "P25872537_search_c9c9ad5a09ab",
+            "P25872537_read_b12128245948"
+          ],
+          "generation_view_sha256": {
+            "P25872537_search_c9c9ad5a09ab": "d7ca633c66450b763b7e544b9ae08f10469772f4bf9696ee9d1712f31963b733",
+            "P25872537_read_b12128245948": "d49ea02d078f3eed796bc7863afb285f5b6177e878368269d858b111e7ad313d"
+          }
+        }
+      ],
+      "citation_assessments": [
+        {
+          "source_id": "P25872537_read_b12128245948",
+          "view_exists": true,
+          "pmid": "25872537",
+          "rating": "supported",
+          "brief_reason": "Actual read explicitly lists the three histologic changes, supporting this limited shared pathology claim rather than pediatric diagnostic thresholds.",
+          "generation_view_sha256": "d49ea02d078f3eed796bc7863afb285f5b6177e878368269d858b111e7ad313d"
+        },
+        {
+          "source_id": "P17075969_read_c1d0a6d69a52",
+          "view_exists": true,
+          "pmid": "17075969",
+          "rating": "supported",
+          "brief_reason": "Actual read explicitly characterizes active disease with villous atrophy/crypt hyperplasia/positive tTG, matching the attributed pattern.",
+          "generation_view_sha256": "5f5b6fb9c37a3d39192d1cdd6f4aa3a53f129bcb2da7fcf877b2fff6e056e576"
+        }
+      ],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Correct C. Actually reads the found guideline/review and cites explicit histologic descriptions rather than the short initial snippets. The adult guideline is used for shared celiac histology, not transferred pediatric treatment thresholds; the general review also covers any-age disease and dermatitis association."
+    },
+    {
+      "question_id": "BM11",
+      "answer_sha256": "c11bbb267f30fd49fac864541ab6ff5f345d78e931b45bda114c58c3b5aaef1f",
+      "query_assessments": [
+        {
+          "query": "acute hepatitis B diagnosis IgM anti-HBc HBsAg serology",
+          "status": "ok",
+          "rating": "appropriate",
+          "notes": "Direct acute HBV/IgM anti-core/HBsAg serologic query."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "27761442",
+          "title": "Diagnosis of hepatitis B.",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "HBV diagnostic-serology overview lists the exact marker families, though the delivered excerpt lacks their functional phase meanings.",
+          "generation_view_ids": [
+            "P27761442_search_fbf80d09b257"
+          ],
+          "generation_view_sha256": {
+            "P27761442_search_fbf80d09b257": "8de0c8b79b8b2e97315e2391db51167360f05fed89e2be1a7881933c13b8ac42"
+          }
+        },
+        {
+          "pmid": "15062760",
+          "title": "The ADVIA Centaur infectious disease assays: a technical review.",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Technical assay platform/panel background, not the acute-versus-immunity interpretation in the view.",
+          "generation_view_ids": [
+            "P15062760_search_57465cd1ebac"
+          ],
+          "generation_view_sha256": {
+            "P15062760_search_57465cd1ebac": "3cd58405c45c94a7d238040a442104e759186303a02417399ab4c9ab076c0476"
+          }
+        },
+        {
+          "pmid": "2670343",
+          "title": "Serology of acute and chronic type B hepatitis.",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Explicit acute self-limited HBsAg/IgM anti-HBc rise-and-fall directly addresses the marker choice.",
+          "generation_view_ids": [
+            "P2670343_search_e578320cabcc"
+          ],
+          "generation_view_sha256": {
+            "P2670343_search_e578320cabcc": "bc0ebb12be06880ab22ae1fbfc2bfdee069915e0f619863cc5ed1650127e06ce"
+          }
+        },
+        {
+          "pmid": "10683539",
+          "title": "Clinical course and consequences of hepatitis B infection.",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "This model only receives viral-structure background; the acute-marker section is in a longer read that belongs to Kimi, not Qwen.",
+          "generation_view_ids": [
+            "P10683539_search_c7a2155a4c33"
+          ],
+          "generation_view_sha256": {
+            "P10683539_search_c7a2155a4c33": "8dfdac941067ec239e4092642f704689f631cd6e092ee58ee4be27932e49508f"
+          }
+        },
+        {
+          "pmid": "3944592",
+          "title": "Serological diagnosis of acute delta hepatitis.",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "HDV diagnostic marker study in HBsAg-positive drug users is related co-infection/assay background, not the exact initial HBV choice.",
+          "generation_view_ids": [
+            "P3944592_search_d94ed318c1a9"
+          ],
+          "generation_view_sha256": {
+            "P3944592_search_d94ed318c1a9": "999a08055dff2175bb643404d41b80bb998a464d357a3f40712e5fc1e333859b"
+          }
+        }
+      ],
+      "citation_assessments": [
+        {
+          "source_id": "P2670343_search_e578320cabcc",
+          "view_exists": true,
+          "pmid": "2670343",
+          "rating": "supported",
+          "brief_reason": "The snippet explicitly identifies HBsAg/IgM anti-core dynamics in acute infection, supporting the limited acute-marker statement.",
+          "generation_view_sha256": "bc0ebb12be06880ab22ae1fbfc2bfdee069915e0f619863cc5ed1650127e06ce"
+        },
+        {
+          "source_id": "P27761442_search_fbf80d09b257",
+          "view_exists": true,
+          "pmid": "27761442",
+          "rating": "partially_supported",
+          "brief_reason": "The excerpt enumerates IgM/IgG core and surface markers but does not establish the attributed acute-versus-immunity roles.",
+          "generation_view_sha256": "8de0c8b79b8b2e97315e2391db51167360f05fed89e2be1a7881933c13b8ac42"
+        }
+      ],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Correct C. Appropriate restricted-choice IgM anti-core interpretation and HBV risk/hepatitis pattern. The acute-serology excerpt supports IgM, while the second cited diagnosis excerpt only enumerates markers and transmission rather than their acute/immunity roles. Its limitation acknowledges the absence of full confirmation; CDC independently supports the marker distinction."
+    },
+    {
+      "question_id": "BM12",
+      "answer_sha256": "e497f22013cfcaa3c1717f73e3c61de0ecb5d6560c123aa00f25ef7ed3775483",
+      "query_assessments": [
+        {
+          "query": "hairy cell leukemia dry tap tartrate-resistant acid phosphatase peripheral blood smear",
+          "status": "ok",
+          "rating": "partially_appropriate",
+          "notes": "Relevant disease/stain but adds dry tap and peripheral-smear terms to the same query, narrowing retrieval beyond the core marker."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "7631555",
+          "title": "Fine needle aspiration of the spleen in hairy cell leukemia. A case report.",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "HCL case-report background explicitly describes TRAP isoenzyme and cytoplasmic projections; no diagnostic sensitivity is inferred.",
+          "generation_view_ids": [
+            "P7631555_search_d0839aecb737"
+          ],
+          "generation_view_sha256": {
+            "P7631555_search_d0839aecb737": "3aa47702a28432f7f0893d4c6bf9e3d99a6fbe5f086f5e4f2c5c55d60a6003f1"
+          }
+        }
+      ],
+      "citation_assessments": [
+        {
+          "source_id": "P7631555_search_d0839aecb737",
+          "view_exists": true,
+          "pmid": "7631555",
+          "rating": "supported",
+          "brief_reason": "Actual excerpt explicitly says HCL cells contain TRAP isoenzyme and prominent projections, supporting the limited marker claim.",
+          "generation_view_sha256": "3aa47702a28432f7f0893d4c6bf9e3d99a6fbe5f086f5e4f2c5c55d60a6003f1"
+        }
+      ],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Correct D. Appropriate dry-tap/cytopenia/spleen HCL inference and stain differential. The real case-report background explicitly supports TRAP/projections, and the response does not claim full-text or population diagnostic accuracy."
+    },
+    {
+      "question_id": "BM13",
+      "answer_sha256": "c792b652b9043a57ddd57217a236a648d2d1af7dfeb7bd5fb9579fe9fc2b2148",
+      "query_assessments": [
+        {
+          "query": "typhoid fever Salmonella typhi rose spots travel Indonesia",
+          "status": "ok",
+          "rating": "partially_appropriate",
+          "notes": "Relevant syndrome/rash but requiring Indonesia as well narrows the search beyond the necessary clinical pattern."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "8433774",
+          "title": "[Abdominal typhus and paratyphoid fever in 2 academic hospitals: 1984-1990].",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Culture-positive typhoid/paratyphoid cohort supports organism context; its excerpt cuts before travel/clinical-feature findings.",
+          "generation_view_ids": [
+            "P8433774_search_3ba8e56268f5"
+          ],
+          "generation_view_sha256": {
+            "P8433774_search_3ba8e56268f5": "885a07571ab2d388697e1c0407f6b48d321250a8e6f303e6a893332860bc1c5d"
+          }
+        }
+      ],
+      "citation_assessments": [
+        {
+          "source_id": "P8433774_search_3ba8e56268f5",
+          "view_exists": true,
+          "pmid": "8433774",
+          "rating": "partially_supported",
+          "brief_reason": "Actual culture-positive typhoid/paratyphoid context is relevant, but the decisive rash/clinical features are outside the excerpt; the model acknowledges this gap.",
+          "generation_view_sha256": "885a07571ab2d388697e1c0407f6b48d321250a8e6f303e6a893332860bc1c5d"
+        }
+      ],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Correct C. Appropriate fever/travel/intestinal/hepatosplenic/rose pattern and a qualified clinical differential. Explicitly acknowledges that the actual excerpt does not confirm the rose presentation; the cited cohort supplies general typhoid/paratyphoid organism context only."
+    },
+    {
+      "question_id": "BM14",
+      "answer_sha256": "8739b154fce6752aac7c41c4e1a7426d5ee6928bd2db4abdb28f970ccb62d89b",
+      "query_assessments": [
+        {
+          "query": "orchiopexy undescended testis timing 6 months",
+          "status": "ok",
+          "rating": "appropriate",
+          "notes": "Targets early orchiopexy for undescended testis, with the relevant six-month age context."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "20610195",
+          "title": "Cryptorchidism.",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Cryptorchidism prevalence/fetal-descent physiology is related background; the snippet lacks the operation/age recommendation.",
+          "generation_view_ids": [
+            "P20610195_search_d9d3057e3bc2"
+          ],
+          "generation_view_sha256": {
+            "P20610195_search_d9d3057e3bc2": "c1ee0b618647abcb1609e485106a3fd3eedfeb0b9383573dde7e7713b15fb452"
+          }
+        },
+        {
+          "pmid": "24232174",
+          "title": "Ideal timing of orchiopexy: a systematic review.",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Systematic review specifically addresses optimal orchiopexy age; the view contains objective/methods, not the result.",
+          "generation_view_ids": [
+            "P24232174_search_75cf794afded"
+          ],
+          "generation_view_sha256": {
+            "P24232174_search_75cf794afded": "afcdce2f385452b847bb37350823ba584fbaec8a832096dd73424a8ca3896028"
+          }
+        },
+        {
+          "pmid": "31500876",
+          "title": "Changing Trends in the Referral and Timing of Treatment for Congenital Cryptorchidism: A Single-Center Experience from Bosnia and Herzegovina.",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Explicit 6-12-month goal/no-later-than-18 timing and complications directly address the decision.",
+          "generation_view_ids": [
+            "P31500876_search_ee4428d6e807"
+          ],
+          "generation_view_sha256": {
+            "P31500876_search_ee4428d6e807": "75e6079947937f923ce1bd955ea4de7911c43c2525318b066f037faa2e788f0a"
+          }
+        },
+        {
+          "pmid": "36175288",
+          "title": "Racial and ethnic disparities in the timing of orchiopexy for cryptorchidism.",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Racial/ethnic implementation disparity study is related surgery-timing context, not a direct recommendation/comparison in the view.",
+          "generation_view_ids": [
+            "P36175288_search_18c15ab597f9"
+          ],
+          "generation_view_sha256": {
+            "P36175288_search_18c15ab597f9": "b1727f1feb9e735b978ba976d769cb6ba3a229218d013fecdecfde62544622cb"
+          }
+        },
+        {
+          "pmid": "33609392",
+          "title": "Timing of orchidopexy and its relationship to postoperative testicular atrophy: results from the ORCHESTRA study.",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Explicit British consensus under-one-year recommendation addresses timing; postoperative-atrophy findings are absent in the snippet.",
+          "generation_view_ids": [
+            "P33609392_search_868be89ea81a"
+          ],
+          "generation_view_sha256": {
+            "P33609392_search_868be89ea81a": "a4e3cc4a4beb60c1749e13e3943f6e7389a11d2f8519604d71b858ba8d3a5b08"
+          }
+        }
+      ],
+      "citation_assessments": [
+        {
+          "source_id": "P31500876_search_ee4428d6e807",
+          "view_exists": true,
+          "pmid": "31500876",
+          "rating": "supported",
+          "brief_reason": "Explicitly supports the 6-12-month/no-later-than-18 timing and associated complication rationale.",
+          "generation_view_sha256": "75e6079947937f923ce1bd955ea4de7911c43c2525318b066f037faa2e788f0a"
+        },
+        {
+          "source_id": "P33609392_search_868be89ea81a",
+          "view_exists": true,
+          "pmid": "33609392",
+          "rating": "supported",
+          "brief_reason": "Explicitly supports the cited under-one-year consensus timing; no unseen postoperative atrophy finding is attributed.",
+          "generation_view_sha256": "a4e3cc4a4beb60c1749e13e3943f6e7389a11d2f8519604d71b858ba8d3a5b08"
+        }
+      ],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Correct D. Appropriate palpable inguinal management at eleven months. Actual timing snippets support the under-one-year/6-12 goal and latest-eighteen-month statement; it correctly does not claim full guidelines or trial effect sizes were read. Other management-option details remain knowledge-based."
+    },
+    {
+      "question_id": "BM15",
+      "answer_sha256": "9a305de3ece8c54895a46751148586899c4940e2aeb89e2651820043bab12a35",
+      "query_assessments": [
+        {
+          "query": "chemotherapy induced nausea vomiting area postrema metoclopramide",
+          "status": "ok",
+          "rating": "appropriate",
+          "notes": "Targets chemotherapy emesis, AP and the responsive drug directly."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "1485177",
+          "title": "Mechanisms by which cancer chemotherapeutic drugs induce emesis.",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Explicit AP role and circulating versus neurally mediated hypotheses directly address the site; dog experiments in the excerpt do not support a circulating-substance role.",
+          "generation_view_ids": [
+            "P1485177_search_bcfefe9224ee"
+          ],
+          "generation_view_sha256": {
+            "P1485177_search_bcfefe9224ee": "06627dc7204007287ad08f42e6ff670468003b4087ba7d3bdad234f5271c12f3"
+          }
+        },
+        {
+          "pmid": "25295673",
+          "title": "Attenuation of cisplatin-induced emetogenesis by standardized Bacopa monnieri extracts in the pigeon: behavioral and neurochemical correlations.",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Bacopa/cisplatin pigeon neurochemical work is related emesis physiology, not metoclopramide/etoposide site verification.",
+          "generation_view_ids": [
+            "P25295673_search_174991b33fd4"
+          ],
+          "generation_view_sha256": {
+            "P25295673_search_174991b33fd4": "84ba51abfe79e662aa72327a4e9a668db9d2d3a527a17b0ed2589097b9dde732"
+          }
+        },
+        {
+          "pmid": "1838490",
+          "title": "[Ondansetron: a specific 5-HT3 serotonin receptor inhibitor, a new antiemetic in oncology].",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "5-HT3/ondansetron receptors in GI/AP are related localization evidence but a different receptor/drug from metoclopramide D2.",
+          "generation_view_ids": [
+            "P1838490_search_5ba59cfba4c3"
+          ],
+          "generation_view_sha256": {
+            "P1838490_search_5ba59cfba4c3": "21e3d7b050347f54a2e3b30f3f8a7505cf92e2404915bf789aa6ecd293a30025"
+          }
+        },
+        {
+          "pmid": "31768887",
+          "title": "Gingerol inhibits cisplatin-induced acute and delayed emesis in rats and minks by regulating the central and peripheral 5-HT, SP, and DA systems.",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Gingerol/cisplatin rat-mink neurotransmitter experiments are related emesis background, with different intervention/species and no specific metoclopramide site in the view.",
+          "generation_view_ids": [
+            "P31768887_search_55dc61feca49"
+          ],
+          "generation_view_sha256": {
+            "P31768887_search_55dc61feca49": "c437990c6e7427220bf7d73e093b17ff94d1f9af29ab04832401f219c24cf9c7"
+          }
+        }
+      ],
+      "citation_assessments": [
+        {
+          "source_id": "P1485177_search_bcfefe9224ee",
+          "view_exists": true,
+          "pmid": "1485177",
+          "rating": "partially_supported",
+          "brief_reason": "Supports AP importance but not the full BBB/drug-specific stimulus account; circulating-substance evidence is specifically questioned in dogs.",
+          "generation_view_sha256": "06627dc7204007287ad08f42e6ff670468003b4087ba7d3bdad234f5271c12f3"
+        },
+        {
+          "source_id": "P1838490_search_5ba59cfba4c3",
+          "view_exists": true,
+          "pmid": "1838490",
+          "rating": "supported",
+          "brief_reason": "Explicitly places emetic 5-HT3 receptors in GI tract/AP, matching the limited claim of emetic receptor pathways there. Unlike a D2 attribution, it is not credited as metoclopramide-specific evidence.",
+          "generation_view_sha256": "21e3d7b050347f54a2e3b30f3f8a7505cf92e2404915bf789aa6ecd293a30025"
+        }
+      ],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Correct D. Properly uses the ondansetron excerpt for emetic-receptor localization in AP rather than explicitly attributing its 5-HT3 findings to D2. The AP snippet supports involvement but not every BBB/metoclopramide or direct-stimulus detail. Independent drug labeling supports pharmacology, without counting as agent retrieval."
+    },
+    {
+      "question_id": "BM16",
+      "answer_sha256": "c2d111b090fd291d79b0485ffcc51c580d39d2b20a6b7c08927b25c37f055266",
+      "query_assessments": [
+        {
+          "query": "acute exacerbation COPD antibiotics doxycycline purulent sputum",
+          "status": "ok",
+          "rating": "appropriate",
+          "notes": "Targets acute COPD antibiotics/doxycycline and the decisive purulent-sputum feature."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "19929027",
+          "title": "Chronic obstructive pulmonary disease: role of bacteria and updated guide to antibacterial selection in the older patient.",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Older-patient COPD antibacterials/comorbidity background; its excerpt lacks the exact first-line choice.",
+          "generation_view_ids": [
+            "P19929027_search_ccd1b97a8fbe"
+          ],
+          "generation_view_sha256": {
+            "P19929027_search_ccd1b97a8fbe": "75045bd4f39d62f6bc7435f8e6804187f93141c0efaf9d858411070e450ae003"
+          }
+        },
+        {
+          "pmid": "10028339",
+          "title": "[Optimizing of antibiotics policy in the Netherlands. III. SWAB guidelines for antimicrobial therapy in adults hospitalized with bronchitis. Foundation Antibiotics Policy Work Group].",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Bronchitis/COPD empirical-antibiotic guideline covers a broader hospital setting, with the specific COPD recommendation cut off.",
+          "generation_view_ids": [
+            "P10028339_search_19ea4fe70c8e"
+          ],
+          "generation_view_sha256": {
+            "P10028339_search_19ea4fe70c8e": "c3528d9d11213666a31b143f199f1b5c6ac30132224b44765f1d6ea12b843417"
+          }
+        },
+        {
+          "pmid": "12084002",
+          "title": "Antibiotics in the treatment of acute exacerbations of chronic bronchitis.",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "AECB antimicrobial treatment directly addresses the question; actual reads give cardinal symptoms, doxycycline efficacy and severe-disease/resistance limits, while search-only text is generic rationale.",
+          "generation_view_ids": [
+            "P12084002_search_9c288308d81a",
+            "P12084002_read_1a7978177175"
+          ],
+          "generation_view_sha256": {
+            "P12084002_search_9c288308d81a": "66b2fc48a2fd6270572fb0acf5d25d1325a6f3ec16008304d30deef7caba1e6a",
+            "P12084002_read_1a7978177175": "ff9135138fa93a48dd327050d81f1574d284af1391670c5062db8770bb62bbe1"
+          }
+        },
+        {
+          "pmid": "15521160",
+          "title": "Acute exacerbation of chronic bronchitis: a primary care consensus guideline.",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "AECB primary-care treatment guideline directly addresses management; actual read includes doxycycline and indication/risk criteria, not all of which this patient explicitly meets.",
+          "generation_view_ids": [
+            "P15521160_search_7db755b1d44f",
+            "P15521160_read_5a40ac7b0cf9"
+          ],
+          "generation_view_sha256": {
+            "P15521160_search_7db755b1d44f": "3d9480511d3d3aac95885195a0b34a9ccf67a84b09eeace54716ad0d1db65fd5",
+            "P15521160_read_5a40ac7b0cf9": "daedd2ff51af0574f64e4520d796a84e87698d409fa09b305a045e95cf357848"
+          }
+        },
+        {
+          "pmid": "12390053",
+          "title": "Chronic obstructive pulmonary disease: role of bacteria and guide to antibacterial selection in the older patient.",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Actual read explicitly gives cardinal-symptom antibiotic benefit, doxycycline for simple COPD and risk/severity-dependent alternatives.",
+          "generation_view_ids": [
+            "P12390053_search_051a2cb3495d",
+            "P12390053_read_de6e7bb04fe5"
+          ],
+          "generation_view_sha256": {
+            "P12390053_search_051a2cb3495d": "9397025804fc73f1e1474f57276acb4cce995636456809724289910747108742",
+            "P12390053_read_de6e7bb04fe5": "eb805aa8386d717d6f9254288a5ef4f03e34abcdce9c5d1ec826c74bdbd94967"
+          }
+        }
+      ],
+      "citation_assessments": [
+        {
+          "source_id": "P15521160_read_5a40ac7b0cf9",
+          "view_exists": true,
+          "pmid": "15521160",
+          "rating": "partially_supported",
+          "brief_reason": "Actual read explicitly gives a moderate-AECB doxycycline option, but its additional risk-rule requirements do not clearly match all supplied facts.",
+          "generation_view_sha256": "daedd2ff51af0574f64e4520d796a84e87698d409fa09b305a045e95cf357848"
+        },
+        {
+          "source_id": "P12084002_read_1a7978177175",
+          "view_exists": true,
+          "pmid": "12084002",
+          "rating": "supported",
+          "brief_reason": "Actual read explicitly describes the triad, purulent/low-function antibiotic benefit, doxycycline trial efficacy and limitations of erythromycin/more severe-disease alternatives.",
+          "generation_view_sha256": "ff9135138fa93a48dd327050d81f1574d284af1391670c5062db8770bb62bbe1"
+        },
+        {
+          "source_id": "P12390053_read_de6e7bb04fe5",
+          "view_exists": true,
+          "pmid": "12390053",
+          "rating": "supported",
+          "brief_reason": "Actual read explicitly supports two/three cardinal-symptom benefit and doxycycline for simple COPD, with host risk/severity distinctions; no claim of every local susceptibility is credited.",
+          "generation_view_sha256": "eb805aa8386d717d6f9254288a5ef4f03e34abcdce9c5d1ec826c74bdbd94967"
+        }
+      ],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Correct A. Actually reads three relevant older treatment reviews/guideline abstracts and correctly uses cardinal symptoms, simple-versus-complicated disease and resistance-based alternatives. The 2004 risk-rule criteria are not all supplied for this patient, while other reads explicitly support the triad and simple-COPD doxycycline choice. It acknowledges older/abstract-only and local-culture limitations."
+    },
+    {
+      "question_id": "BM17",
+      "answer_sha256": "ff67120a674405edc260293f2d3839cf61cb12d6ccd337e25330c630f79777fa",
+      "query_assessments": [
+        {
+          "query": "malignant hyperthermia intraoperative muscle rigidity hypercarbia dantrolene treatment",
+          "status": "ok",
+          "rating": "appropriate",
+          "notes": "Combines the distinctive perioperative phenotype with syndrome and antidote."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "33314641",
+          "title": "Malignant hyperthermia during pediatric kidney transplantation-A medical and ethical quandary.",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Read pediatric MH transplant case explicitly reports hypercarbia, rigidity and dantrolene.",
+          "generation_view_ids": [
+            "P33314641_search_9a5dcc2115e9",
+            "P33314641_read_4d3992ca2d64"
+          ],
+          "generation_view_sha256": {
+            "P33314641_search_9a5dcc2115e9": "4bc8967fea05234fd90bccc25685abd9141fa525d9fc39bb0921a7b515d7f775",
+            "P33314641_read_4d3992ca2d64": "198afd5daa859283948d85460fc10584093a2ce57954481d2a2f8e4ed74f5f0a"
+          }
+        },
+        {
+          "pmid": "42171648",
+          "title": "Hot and Cold: Malignant Hyperthermia Without Fever in a Burn Patient.",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Read burn case shows MH without fever and dantrolene reversal.",
+          "generation_view_ids": [
+            "P42171648_search_e218569c892d",
+            "P42171648_read_4e6ce276465a"
+          ],
+          "generation_view_sha256": {
+            "P42171648_search_e218569c892d": "e75b2046704398686cc0998b7149bf99588f6eca402569b13188c6d389d56b0a",
+            "P42171648_read_4e6ce276465a": "574f2a5e960e2a5773fdce0085476fc73f63f2628637a8eef19c00c871baa00d"
+          }
+        },
+        {
+          "pmid": "7978180",
+          "title": "[Hypercapnia and mixed acidosis as the only sign of malignant hyperthermia (MH)?].",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Search-only case about hypercapnia; delivered opening gives previous anesthetic history rather than management.",
+          "generation_view_ids": [
+            "P7978180_search_4c98b93f1237"
+          ],
+          "generation_view_sha256": {
+            "P7978180_search_4c98b93f1237": "2862c3ef4d03f951997535203855852a8783bd1813325eaf829e31919e1da16a"
+          }
+        },
+        {
+          "pmid": "41769458",
+          "title": "A Rare Case of Suspected Malignant Hyperthermia in a Three-Day-Old Neonate: A Case Report.",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Read neonatal MH case describes abrupt ETCO2 rise and dantrolene treatment.",
+          "generation_view_ids": [
+            "P41769458_search_c046a181ea18",
+            "P41769458_read_fa2e23a3b58d"
+          ],
+          "generation_view_sha256": {
+            "P41769458_search_c046a181ea18": "2712275568a3342889e38efcc50aea6e223b2e524fd642e9f86a55434af31119",
+            "P41769458_read_fa2e23a3b58d": "0f6fed68c87a401f6cdab2a43837821cf0b281e9439601f2676461d088d12b4c"
+          }
+        }
+      ],
+      "citation_assessments": [
+        {
+          "source_id": "P41769458_read_fa2e23a3b58d",
+          "view_exists": true,
+          "pmid": "41769458",
+          "rating": "supported",
+          "brief_reason": "Read case explicitly describes phenotype and intravenous dantrolene.",
+          "generation_view_sha256": "0f6fed68c87a401f6cdab2a43837821cf0b281e9439601f2676461d088d12b4c"
+        },
+        {
+          "source_id": "P42171648_read_4e6ce276465a",
+          "view_exists": true,
+          "pmid": "42171648",
+          "rating": "supported",
+          "brief_reason": "Read case explicitly describes rigidity/hypercapnia and successful dantrolene.",
+          "generation_view_sha256": "574f2a5e960e2a5773fdce0085476fc73f63f2628637a8eef19c00c871baa00d"
+        },
+        {
+          "source_id": "P33314641_read_4d3992ca2d64",
+          "view_exists": true,
+          "pmid": "33314641",
+          "rating": "supported",
+          "brief_reason": "Read pediatric case explicitly links MH signs with prompt dantrolene.",
+          "generation_view_sha256": "198afd5daa859283948d85460fc10584093a2ce57954481d2a2f8e4ed74f5f0a"
+        }
+      ],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Correct antidote and differential, citing three actually read case reports whose abstracts explicitly describe MH hypercarbia/rigidity and successful dantrolene management. The model accurately states these are cases rather than guideline evidence."
+    },
+    {
+      "question_id": "BM18",
+      "answer_sha256": "34a0f029ed6d84c251fdc2a37938c955d1375ed682febcf6538cb12471096773",
+      "query_assessments": [
+        {
+          "query": "tinea cruris inguinal pruritus sparing scrotum",
+          "status": "ok",
+          "rating": "appropriate",
+          "notes": "Clinically appropriate groin and scrotal-sparing terms, although no records returned."
+        }
+      ],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Correct groin dermatophytosis with honest disclosure of an empty targeted search. Distinguishes the glans/scrotal Candida alternatives more carefully than conflating balanitis exclusively with scrotal disease."
+    },
+    {
+      "question_id": "BM19",
+      "answer_sha256": "6fc28814129f87205d5471e07b3cbacf39a9cad41f2cab594dd100911f4bedd4",
+      "query_assessments": [
+        {
+          "query": "carbamazepine pregnancy neural tube defect spina bifida meningocele",
+          "status": "ok",
+          "rating": "partially_appropriate",
+          "notes": "Correct concepts but requiring meningocele in addition to spina bifida is overly restrictive."
+        },
+        {
+          "query": "carbamazepine pregnancy neural tube defects",
+          "status": "ok",
+          "rating": "appropriate",
+          "notes": "Broader exposure/pregnancy/neural-tube query yields relevant general risk literature."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "8400940",
+          "title": "Epilepsy and pregnancy.",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Pregnancy/epilepsy-specific title, but no abstract or finding supplied.",
+          "generation_view_ids": [
+            "P8400940_search_7a5035fb79dd"
+          ],
+          "generation_view_sha256": {
+            "P8400940_search_7a5035fb79dd": "116cbff75dc7a6fb77aa2d4a2203eca7ca5f14d95572cc3574eafaeed4af7173"
+          }
+        },
+        {
+          "pmid": "19330496",
+          "title": "Teratogenesis associated with antibipolar agents.",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Teratogenicity review methods, no drug-specific malformation in delivered text.",
+          "generation_view_ids": [
+            "P19330496_search_f263edbf07c4"
+          ],
+          "generation_view_sha256": {
+            "P19330496_search_f263edbf07c4": "998f89e023f147c87d4d00e8f1686d774006e08f8c546d914861100738c69458"
+          }
+        },
+        {
+          "pmid": "8419718",
+          "title": "Update on epilepsy.",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "General epilepsy-management opening.",
+          "generation_view_ids": [
+            "P8419718_search_25b2e0b9bf4d"
+          ],
+          "generation_view_sha256": {
+            "P8419718_search_25b2e0b9bf4d": "e6d06c5c523c92e9888ebe0546b5d8b489af8f5597d7f7f7c20c3440488670a0"
+          }
+        },
+        {
+          "pmid": "235422",
+          "title": "The teratogenic risk of antiepileptic drugs.",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "AED teratogenic-risk title without an abstract or drug-specific results.",
+          "generation_view_ids": [
+            "P235422_search_005f1207de66"
+          ],
+          "generation_view_sha256": {
+            "P235422_search_005f1207de66": "9c61c52601d2baeb4dcc39641f496217062f745dab8eb61ec7c09943332e8d28"
+          }
+        },
+        {
+          "pmid": "29083536",
+          "title": "Bipolar Disorder in Pregnancy: A Review of Pregnancy Outcomes.",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Pregnancy/bipolar-treatment review background and methods, not specific neural-tube evidence.",
+          "generation_view_ids": [
+            "P29083536_search_f4e8b0f20501"
+          ],
+          "generation_view_sha256": {
+            "P29083536_search_f4e8b0f20501": "e4876e71b30db14ffd3114a61a0ee7a6663458fc5bc7b720189b45efb1bfcdbe"
+          }
+        }
+      ],
+      "citation_assessments": [],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Correct neural-tube-defect association, declining to cite excerpts that do not establish it specifically. Two-step broadening after an over-specific empty query is sensible and the knowledge provenance is explicit."
+    },
+    {
+      "question_id": "BM20",
+      "answer_sha256": "77103453720d7fea848287e524b92970f92e176a546486d80a9a18fd87fd88fb",
+      "query_assessments": [
+        {
+          "query": "neonate failure to pass meconium abdominal distension contrast enema initial management",
+          "status": "ok",
+          "rating": "appropriate",
+          "notes": "Clinically pertinent delayed-meconium initial-management query."
+        },
+        {
+          "query": "neonatal intestinal obstruction delayed meconium abdominal radiograph initial evaluation",
+          "status": "ok",
+          "rating": "appropriate",
+          "notes": "Broader neonatal-obstruction initial-radiograph query despite no matches."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "20006038",
+          "title": "Individualized management of upper rectal atresia.",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Neonatal rectal-atresia background is related obstruction, but no initial diagnostic sequencing in the snippet.",
+          "generation_view_ids": [
+            "P20006038_search_2048856ca7c0"
+          ],
+          "generation_view_sha256": {
+            "P20006038_search_2048856ca7c0": "68950d7591ac13cb6bceae1b1c9cf0863abec4fc51908860193e729b0fe9edbb"
+          }
+        }
+      ],
+      "citation_assessments": [],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Correct initial radiograph and appropriately declines to cite tangential rectal-atresia retrieval. The phrase that plain radiography assesses a transition zone blurs its role with contrast-enema localization; initial obstruction/perforation assessment remains the correct option."
+    },
+    {
+      "question_id": "BM21",
+      "answer_sha256": "1e222a7e9afbb805fef868436b208d789395f035b82f482e72b7786e823ac113",
+      "query_assessments": [
+        {
+          "query": "allopurinol azathioprine pancytopenia xanthine oxidase interaction",
+          "status": "ok",
+          "rating": "appropriate",
+          "notes": "Direct IBD/gout-interaction mechanism query."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "31885095",
+          "title": "Drug Interaction Between Febuxostat and Thiopurine Antimetabolites: A Review of the FDA Adverse Event Reporting System and Medical Literature.",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Direct background on XO inhibition increasing thiopurine active metabolites and myelosuppression.",
+          "generation_view_ids": [
+            "P31885095_search_29f5b337f4e5"
+          ],
+          "generation_view_sha256": {
+            "P31885095_search_29f5b337f4e5": "007934a702b78b46d3e2332305b83faba3b6d65aa4f667a4e46f82e545edd574"
+          }
+        },
+        {
+          "pmid": "10707497",
+          "title": "[Bone marrow depression after azathioprine. New discoveries on an old drug].",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Excerpt directly describes AZA marrow toxicity with impaired XO/TPMT inactivation.",
+          "generation_view_ids": [
+            "P10707497_search_7b265c8eae09"
+          ],
+          "generation_view_sha256": {
+            "P10707497_search_7b265c8eae09": "c81de45c6584b89a88932f0fefeb9d331c213eeec24a9147b07fa30e9213c830"
+          }
+        }
+      ],
+      "citation_assessments": [
+        {
+          "source_id": "P31885095_search_29f5b337f4e5",
+          "view_exists": true,
+          "pmid": "31885095",
+          "rating": "supported",
+          "brief_reason": "Directly supports the class interaction described as a possible explanation.",
+          "generation_view_sha256": "007934a702b78b46d3e2332305b83faba3b6d65aa4f667a4e46f82e545edd574"
+        },
+        {
+          "source_id": "P10707497_search_7b265c8eae09",
+          "view_exists": true,
+          "pmid": "10707497",
+          "rating": "supported",
+          "brief_reason": "Directly supports increased thiopurine cytotoxic metabolites and marrow depression with slow XO inactivation.",
+          "generation_view_sha256": "c81de45c6584b89a88932f0fefeb9d331c213eeec24a9147b07fa30e9213c830"
+        }
+      ],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Matches the official XO-inhibitor key with well-calibrated possible AZA/6-MP exposure, explicitly noting the missing medication list. Both actual excerpts support impaired thiopurine inactivation/myelotoxicity, not a documented patient medication history."
+    },
+    {
+      "question_id": "BM22",
+      "answer_sha256": "e48caf9a6364a23c37656d562e7ea7072bea2fb535873f2c87b1462b3d92301e",
+      "query_assessments": [
+        {
+          "query": "DPP-4 inhibitor sitagliptin incretin GLP-1 GIP degradation glucose-dependent insulin secretion",
+          "status": "ok",
+          "rating": "appropriate",
+          "notes": "Targets both incretin hormones, breakdown and glucose-dependent secretion."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "26768240",
+          "title": "Cardiovascular Effects of Incretin-Based Therapies.",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Excerpt explicitly describes incretin-based drug classes and inhibited GLP-1/GIP breakdown.",
+          "generation_view_ids": [
+            "P26768240_search_dfa2e132fe20"
+          ],
+          "generation_view_sha256": {
+            "P26768240_search_dfa2e132fe20": "b286304e64ba519e6740bde37305395fd830566104a756e3383705c2e7463c17"
+          }
+        },
+        {
+          "pmid": "19275548",
+          "title": "Recent advances in antidiabetic drug therapies targeting the enteroinsular axis.",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Direct enteroinsular/incretin insulin-potentiation physiology, though no sitagliptin in this opening.",
+          "generation_view_ids": [
+            "P19275548_search_b65daf73d358"
+          ],
+          "generation_view_sha256": {
+            "P19275548_search_b65daf73d358": "2e1d8efa3e9300fb94c8d92db2e21e5c72b0aa2434b3ab7681994b702289024b"
+          }
+        },
+        {
+          "pmid": "36209967",
+          "title": "Proline based rationally designed peptide esters against dipeptidyl peptidase-4: Highly potent anti-diabetic agents.",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Experimental DPP-4 inhibitor esters and cleaved incretins, not sitagliptin.",
+          "generation_view_ids": [
+            "P36209967_search_ae924c0c98d1"
+          ],
+          "generation_view_sha256": {
+            "P36209967_search_ae924c0c98d1": "32af7f36be20c694d467cbb628fb20f3ed1ef5d268d8ab5db0569cd73da507ee"
+          }
+        },
+        {
+          "pmid": "17407649",
+          "title": "Inhibition of DPP-4: a new therapeutic approach for the treatment of type 2 diabetes.",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Direct DPP-4 therapy title and incretin insulin-secretion physiology.",
+          "generation_view_ids": [
+            "P17407649_search_618b6a6e1745"
+          ],
+          "generation_view_sha256": {
+            "P17407649_search_618b6a6e1745": "59299d3e57fb753d9797ca3b6bebd988f549ea1a8dfed353d6fabf3210b53430"
+          }
+        },
+        {
+          "pmid": "19074620",
+          "title": "The role of incretins in glucose homeostasis and diabetes treatment.",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "General incretin glucose-disposal physiology without drug identity/mechanism in the excerpt.",
+          "generation_view_ids": [
+            "P19074620_search_0c91fc4aeaea"
+          ],
+          "generation_view_sha256": {
+            "P19074620_search_0c91fc4aeaea": "37e7b7aa68335e0e79e14ba9cb02130e28f1361ee3ece648322e9406077e4265"
+          }
+        }
+      ],
+      "citation_assessments": [
+        {
+          "source_id": "P26768240_search_dfa2e132fe20",
+          "view_exists": true,
+          "pmid": "26768240",
+          "rating": "partially_supported",
+          "brief_reason": "Supports the drug-class breakdown mechanism, but not sitagliptin-specific identity in this view.",
+          "generation_view_sha256": "b286304e64ba519e6740bde37305395fd830566104a756e3383705c2e7463c17"
+        },
+        {
+          "source_id": "P17407649_search_618b6a6e1745",
+          "view_exists": true,
+          "pmid": "17407649",
+          "rating": "partially_supported",
+          "brief_reason": "Supports incretin hormones and increased insulin secretion; drug identity and breakdown details are not delivered here.",
+          "generation_view_sha256": "59299d3e57fb753d9797ca3b6bebd988f549ea1a8dfed353d6fabf3210b53430"
+        }
+      ],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Correct DPP-4 inhibitor choice and concise distractor classification. Cited search excerpts establish incretin breakdown/class action and insulin potentiation, but neither names sitagliptin specifically; no read follows to close this drug-identity evidence gap."
+    },
+    {
+      "question_id": "BM23",
+      "answer_sha256": "d54e28d7b060ce03937b9b8fb00ca6cae4bc7fff26b381e4b95f4ff354d8e2fe",
+      "query_assessments": [],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Correct sargramostim and reasonable differential based on cytopenias and an immediate systemic reaction, with no false evidence provenance. Clinical first-infusion reaction and true hypersensitivity can overlap; the vignette does not establish a specific immunologic mechanism."
+    },
+    {
+      "question_id": "BM24",
+      "answer_sha256": "a46ace0ff0e16254baf0dbade137c903fcebe2d47783a145801194b2a9182344",
+      "query_assessments": [
+        {
+          "query": "Hashimoto thyroiditis hypothyroidism elevated TSH delayed relaxation deep tendon reflexes",
+          "status": "ok",
+          "rating": "partially_appropriate",
+          "notes": "Relevant hypothyroid/thyroiditis signs but long conjunction with delayed-reflex terminology yields no papers."
+        }
+      ],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Correct elevated TSH from classic current hypothyroid features, honestly disclosing an empty search. The speculative Graves phase is less clearly justified than destructive thyroiditis, and thyroid dysfunction does not categorically exclude coexisting inflammatory arthritis."
+    },
+    {
+      "question_id": "BM25",
+      "answer_sha256": "657819ad1a5557c50193c0818cfd210b46e302ba38afd4c9ef8c801a3c98dd89",
+      "query_assessments": [],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Correct male infant/recurrent encapsulated bacterial infection pattern after maternal IgG wanes; concise knowledge-based explanation without claiming retrieval or laboratory confirmation."
+    },
+    {
+      "question_id": "BM26",
+      "answer_sha256": "105b06e1e23534e0ec0a9f454debf5d8e7a75ed4f8bc139d5cdcc8a221a9fd22",
+      "query_assessments": [],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Correct mechanism and accurate SAAG/PMN calculations with explicit knowledge provenance. Calling the neutrophil count alone diagnostic overstates exclusion of secondary peritonitis, though SBP is the most likely offered mechanism from the whole clinical picture."
+    },
+    {
+      "question_id": "BM27",
+      "answer_sha256": "27d94c7d53fdcee4cdc6a195730957be436f41b91f98723ccd967326eaf7bf79",
+      "query_assessments": [],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Correct fragile-X face/ear findings from FMR1/CGG expansion; pubertal qualification of macroorchidism is sensible and no external verification is claimed."
+    },
+    {
+      "question_id": "BM28",
+      "answer_sha256": "27a3e7f7f0a084e4079d47e2afbecdd456499806eb4fd65fe85e5bddbf7cc2e2",
+      "query_assessments": [
+        {
+          "query": "serotonin syndrome severe hyperthermia rigidity intubation dantrolene",
+          "status": "ok",
+          "rating": "partially_appropriate",
+          "notes": "Relevant severe-toxic-hyperthermia terms but presupposes SS and stacks multiple treatment terms."
+        },
+        {
+          "query": "serotonin syndrome hyperthermia intubation paralysis",
+          "status": "ok",
+          "rating": "partially_appropriate",
+          "notes": "Broader SS escalation query finds useful management papers, but still neglects antiemetic/NMS etiology."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "38926083",
+          "title": "[Not Available].",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Despite unavailable title, excerpt directly reviews SS diagnosis/management and uncertainty.",
+          "generation_view_ids": [
+            "P38926083_search_de7bf4cdc6c2"
+          ],
+          "generation_view_sha256": {
+            "P38926083_search_de7bf4cdc6c2": "1772a1930abc812e279580f0aaf2f38f036a1516baa1d5fe292c32743d141a13"
+          }
+        },
+        {
+          "pmid": "20433130",
+          "title": "Prevention, recognition, and management of serotonin syndrome.",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "SS clinical triad and serotonergic exposure background relevant to differential.",
+          "generation_view_ids": [
+            "P20433130_search_5429a8cfff24"
+          ],
+          "generation_view_sha256": {
+            "P20433130_search_5429a8cfff24": "05d7ded0500e3e15638e1ee381cdaa981c79518362e397d256ae040cbe73b718"
+          }
+        },
+        {
+          "pmid": "27469512",
+          "title": "Management of Serotonin Syndrome and Neuroleptic Malignant Syndrome.",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Read SS/NMS management review explicitly stresses medication history and severe-case paralysis/intubation.",
+          "generation_view_ids": [
+            "P27469512_search_e3db517972b3",
+            "P27469512_read_49158eb19c7d"
+          ],
+          "generation_view_sha256": {
+            "P27469512_search_e3db517972b3": "e5ed6c73d4a50fa7d1a201f06586a907faf277e4685eb1c1f2e66768d7067992",
+            "P27469512_read_49158eb19c7d": "93ccf8a1c8d1d7782d61cd84213a71fa20cf3bbb9898fa43f3bb1e4cad622f25"
+          }
+        },
+        {
+          "pmid": "8888541",
+          "title": "Serotonin syndrome from venlafaxine-tranylcypromine interaction.",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Specific antidepressant interaction with similar symptoms, not a supplied exposure here.",
+          "generation_view_ids": [
+            "P8888541_search_e1320ad640a8"
+          ],
+          "generation_view_sha256": {
+            "P8888541_search_e1320ad640a8": "dab864966381294ed79588415978de5f0b34827a387a808d719b02add6f6ea0d"
+          }
+        },
+        {
+          "pmid": "27335364",
+          "title": "Challenges in a large mixed drug overdose patient.",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Actually read mixed-overdose case has documented multi-drug exposure/clonus and intubation; cannot establish this antiemetic-associated etiology.",
+          "generation_view_ids": [
+            "P27335364_search_9d534e4013d1",
+            "P27335364_read_3b52a0b65f88"
+          ],
+          "generation_view_sha256": {
+            "P27335364_search_9d534e4013d1": "8c2d6a6cdeb209846188f283dce0150e40742b87bcc9e64a2d058c6b8313ad3b",
+            "P27335364_read_3b52a0b65f88": "86086489327503f8fd1af8a1f01286c5de969966af1cdade69ee3326e9de018d"
+          }
+        }
+      ],
+      "citation_assessments": [],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Released-key mismatch: relevant actual reads support intubation/paralysis for severe syndromes, but diagnosis is overconfident SS despite the antiemetic temporal clue and absent known serotonergic exposure/clonus. The mixed-overdose case cannot establish the same toxidrome here. No structured reference is cited, so read evidence is recorded as retrieval rather than silently credited as a citation."
+    },
+    {
+      "question_id": "BM29",
+      "answer_sha256": "2d84af976890dd43365c969c0faebb7a2b059ab653487e4b0d16cb0023cdd7b5",
+      "query_assessments": [
+        {
+          "query": "lamotrigine Stevens-Johnson syndrome targetoid rash prodrome",
+          "status": "ok",
+          "rating": "partially_appropriate",
+          "notes": "Relevant drug/SJS but extra morphology/prodrome conjunction is restrictive and empty."
+        },
+        {
+          "query": "lamotrigine Stevens-Johnson syndrome",
+          "status": "ok",
+          "rating": "appropriate",
+          "notes": "Broader drug/SJS query finds association and indication papers."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "37943271",
+          "title": "Management of Stevens-Johnson Syndrome/Toxic Epidermal Necrolysis: A Case Report and Literature Review.",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "SJS/TEN management review opening, no LTG identity in this view.",
+          "generation_view_ids": [
+            "P37943271_search_e5d58a281a91"
+          ],
+          "generation_view_sha256": {
+            "P37943271_search_e5d58a281a91": "be5969a6ac9dcbc616dc1774814ecba680733594fc931b8fc5d9a0276f047dc7"
+          }
+        },
+        {
+          "pmid": "9798758",
+          "title": "Lamotrigine-induced severe cutaneous adverse reactions.",
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Systematic LTG-associated SJS/TEN case-review objective.",
+          "generation_view_ids": [
+            "P9798758_search_60e02e379476"
+          ],
+          "generation_view_sha256": {
+            "P9798758_search_60e02e379476": "bf1e7474e37884905f2272acb4e21792a3d0ffaed197d56f7c4f8c79b0d0f42b"
+          }
+        },
+        {
+          "pmid": "27979020",
+          "title": "Antiepilepsy drugs and the immune system.",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "AED immune/hypersensitivity class background, not LTG-specific clinical phenotype.",
+          "generation_view_ids": [
+            "P27979020_search_4621a9422610"
+          ],
+          "generation_view_sha256": {
+            "P27979020_search_4621a9422610": "89187c47b19e35ea268ff7228d002ce87c92876521d50c432aeca727921175ce"
+          }
+        },
+        {
+          "pmid": "14731061",
+          "title": "Spotlight on lamotrigine in bipolar disorder.",
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "LTG bipolar indication/neuronal mechanism, supporting indication rather than severe reaction.",
+          "generation_view_ids": [
+            "P14731061_search_bea26ccaecf7"
+          ],
+          "generation_view_sha256": {
+            "P14731061_search_bea26ccaecf7": "ec5cfdc90969ad02b71367f83c12cacf7304c82bfa9ff71f59fa39d9dcdf3ec2"
+          }
+        }
+      ],
+      "citation_assessments": [
+        {
+          "source_id": "P9798758_search_60e02e379476",
+          "view_exists": true,
+          "pmid": "9798758",
+          "rating": "supported",
+          "brief_reason": "Directly verifies the explicitly limited LTG severe-reaction association.",
+          "generation_view_sha256": "bf1e7474e37884905f2272acb4e21792a3d0ffaed197d56f7c4f8c79b0d0f42b"
+        },
+        {
+          "source_id": "P14731061_search_bea26ccaecf7",
+          "view_exists": true,
+          "pmid": "14731061",
+          "rating": "supported",
+          "brief_reason": "Directly supports the limited bipolar-indication statement; not credited for SJS morphology/timing.",
+          "generation_view_sha256": "ec5cfdc90969ad02b71367f83c12cacf7304c82bfa9ff71f59fa39d9dcdf3ec2"
+        }
+      ],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Correct drug with appropriately cautious severe-cutaneous-reaction spectrum rather than definitive patient SJS. One excerpt verifies LTG/SJS-TEN case association, the other its bipolar indication; morphology/prodrome are explicitly acknowledged as not verified in those views."
+    },
+    {
+      "question_id": "BM30",
+      "answer_sha256": "449e217437b612a202dcea3e053a58f163202100e2f20e4dcdb18abff8c83928",
+      "query_assessments": [],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "supplementary_inline_reference_assessments": [],
+      "answer_evidence_notes": "Correct sympathetic HR/systolic rise with local muscle vasodilation explaining little diastolic change. The baroreflex contrast is simplified but does not undermine the correct choice; no external evidence is claimed."
+    }
+  ]
+}

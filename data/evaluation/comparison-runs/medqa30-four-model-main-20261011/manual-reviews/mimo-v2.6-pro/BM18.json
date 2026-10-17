@@ -1,0 +1,56 @@
+{
+  "question_id": "BM18",
+  "model_profile": "mimo-v2.6-pro",
+  "answer_sha256": "239b72738a77f14d9f35589d4b68f32e525289267bc8c74944294c4b590ee07c",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "consistent"
+  },
+  "answer_notes": "Correct tinea cruris with anatomically careful balanitis/glans differential. Two excerpts substantiate groin localization and pruritus/athletic humidity; the urology excerpt concerns male prevalence/public transmission, not the whole morphology. No scrotal-sparing or wrestler-specific study is claimed to have been read.",
+  "researcher_reference_ids": [],
+  "queries": [
+    {
+      "rating": "appropriate",
+      "notes": "Broader dermatophytosis and groin-diagnosis query retrieves pertinent reviews."
+    }
+  ],
+  "papers": {
+    "9672436": {
+      "rating": "partially_relevant",
+      "notes": "General dermatophyte classification; groin-specific passage is beyond this truncated excerpt."
+    },
+    "12046779": {
+      "rating": "directly_relevant",
+      "notes": "Excerpt explicitly maps tinea cruris to the groin."
+    },
+    "19842572": {
+      "rating": "directly_relevant",
+      "notes": "Excerpt directly describes pruritic groin disease and high-school athletes/heat/humidity."
+    },
+    "15897702": {
+      "rating": "partially_relevant",
+      "notes": "Male dermatophytosis/public-area epidemiology; excerpt does not establish morphology."
+    },
+    "26738249": {
+      "rating": "partially_relevant",
+      "notes": "General dermatophyte skin morphology and contact transmission rather than groin-specific discrimination."
+    }
+  },
+  "citations": {
+    "P12046779_search_05f671868b23": {
+      "rating": "supported",
+      "notes": "Explicit body-site naming supports the stated groin diagnosis."
+    },
+    "P19842572_search_b7a3ef9bda48": {
+      "rating": "supported",
+      "notes": "Explicit intense pruritus, groin location and athletic heat/humidity support the stated background."
+    },
+    "P15897702_search_da555a54099c": {
+      "rating": "partially_supported",
+      "notes": "Supports male/public-area transmission, not scrotal sparing or the whole cited clinical appearance."
+    }
+  },
+  "inline_citations": {}
+}

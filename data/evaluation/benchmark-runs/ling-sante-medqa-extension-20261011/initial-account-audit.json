@@ -1,0 +1,14 @@
+{
+  "checked_at_utc": "2026-10-11T10:28:33+00:00",
+  "ledger": {
+    "total_credits": 10,
+    "total_usage": 3.860254905
+  },
+  "prior_recorded_budget": {
+    "limit_usd": 6.0,
+    "reported_or_estimated_spend_usd": 3.86025491,
+    "unreported_charge_reserve_usd": 0.15,
+    "policy": "Before each paid request, reserve a conservative prompt-byte estimate plus the full output cap at configured provider price ceilings. Failed requests without usage retain that reserve. This is a local guard, not a provider billing guarantee."
+  },
+  "new_inference_calls": 0
+}

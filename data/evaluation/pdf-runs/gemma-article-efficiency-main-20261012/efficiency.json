@@ -1,0 +1,9 @@
+{
+  "input_token_reduction_percent": 50.28168640856454,
+  "reported_cost_reduction_percent": 23.441740004184176,
+  "total_episode_time_reduction_percent": -91.73827638243219,
+  "median_episode_time_reduction_percent": 28.54034137813819,
+  "quality_reference": "24 correlated article fields in six cases, plus actual cited-passage and manual qualifier checks",
+  "old_ABC_percentages_reused": false,
+  "complete_quality_preserved": false
+}

@@ -1,0 +1,27 @@
+{
+  "recorded": 6,
+  "planned": 6,
+  "valid_model_answers": 6,
+  "terminal_messages": 6,
+  "statuses": {
+    "completed": 6
+  },
+  "provider_requests": 16,
+  "cost_usd": 0.01504023,
+  "unknown_charge_records": 0,
+  "input_tokens": 93811,
+  "output_tokens": 23130,
+  "reasoning_tokens": 16812,
+  "total_episode_seconds": 390.8324,
+  "median_episode_seconds": 23.5451,
+  "successful_pdf_operations": {
+    "search_pdf": 7,
+    "read_pdf_page": 2
+  },
+  "max_input_bytes": 35890,
+  "structured_citations": 6,
+  "correct_fields": 21,
+  "correct_fields_with_cited_reference_passage": 21,
+  "all_fields_correct_cases": 4,
+  "recorded_fields": 24
+}

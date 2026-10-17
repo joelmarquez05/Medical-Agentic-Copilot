@@ -1,0 +1,441 @@
+{
+  "mode": "fixed_previously_retrieved_pubmed_plus_guidance",
+  "guidance_version": "2026-10-10.requirement-2.v1",
+  "cards": [
+    {
+      "id": "G01",
+      "topic": "screening",
+      "description": "Weight loss, intake, BMI, muscle function, and nutrition assessment",
+      "source_ids": [
+        "S01",
+        "S08"
+      ],
+      "locator": "ESPEN recommendations 1-2; NCI nutrition-assessment sections",
+      "summary": "Track intake, weight trajectory, and BMI from diagnosis. An abnormal screen warrants assessment of symptoms, muscle, function, and inflammation. Normal BMI does not exclude clinically important nutritional deterioration."
+    },
+    {
+      "id": "G02",
+      "topic": "requirements",
+      "description": "General adult energy and protein targets and their limitations",
+      "source_ids": [
+        "S01"
+      ],
+      "locator": "ESPEN recommendations 3-4",
+      "summary": "When individualized measurement is unavailable, estimate 25-30 kcal/kg/day. Protein should exceed 1 g/kg/day and, when feasible, approach 1.5 g/kg/day. These are adjustable estimates, not initial refeeding rates."
+    },
+    {
+      "id": "G03",
+      "topic": "enteral",
+      "description": "Inadequate oral intake, dysphagia, mucositis, and a functioning gut",
+      "source_ids": [
+        "S01",
+        "S08"
+      ],
+      "locator": "ESPEN recommendation 9; NCI nutrition-impact symptoms",
+      "summary": "Escalate from counseling and oral supplements to enteral support when intake remains inadequate. PN becomes relevant when enteral support is infeasible or insufficient. Treat symptoms and assess swallowing safety."
+    },
+    {
+      "id": "G04",
+      "topic": "parenteral",
+      "description": "Intestinal failure, obstruction, PN burdens, prognosis, and goals",
+      "source_ids": [
+        "S09",
+        "S02"
+      ],
+      "locator": "ESMO nutrition-support sections; ASCO nutritional recommendation 1.2",
+      "summary": "Intestinal failure can justify considering PN in selected patients; cachexia alone does not justify routine PN. Assess reversible causes, performance, anticipated benefit, prognosis, goals, and burdens. Comfort and symptom relief take priority near death; PN decisions require specialist discussion."
+    },
+    {
+      "id": "G05",
+      "topic": "cachexia",
+      "description": "Multifactorial wasting, counseling, and updated appetite-drug evidence",
+      "source_ids": [
+        "S02",
+        "S03",
+        "S09"
+      ],
+      "locator": "ASCO 2020 recommendations 1.1-1.2; ASCO 2023 recommendations 2.1-2.2; ESMO assessment",
+      "summary": "Cachexia involves disease-related metabolic changes and muscle loss, not simply low intake. Offer individualized dietitian input, nutrient-dense food, symptom care, and realistic goals. Routine tubes or PN are not established treatments for advanced-cancer cachexia alone. ASCO's 2023 update permits selected clinician-supervised low-dose olanzapine for appetite/weight; the supporting populations were mainly lung/GI cancers."
+    },
+    {
+      "id": "G06",
+      "topic": "refeeding",
+      "description": "High-risk nutrition restart, thiamine, electrolytes, and monitoring",
+      "source_ids": [
+        "S04"
+      ],
+      "locator": "NICE CG32 recommendations 1.4.6-1.4.8 and table 2",
+      "summary": "BMI below 16 or low baseline phosphate, potassium, or magnesium indicates high refeeding risk. Use expert-supervised cautious initiation; NICE suggests at most 10 kcal/kg/day initially, with 5 in extreme cases, then gradual increase. Give thiamine before and during early feeding, replace electrolytes as needed, and monitor fluids, glucose, phosphate, magnesium, and potassium. Do not start full maintenance targets immediately. Rate and correction decisions require local clinical protocols."
+    },
+    {
+      "id": "G07",
+      "topic": "food_safety",
+      "description": "Neutropenia, unnecessary dietary restriction, and food hygiene",
+      "source_ids": [
+        "S05",
+        "S08"
+      ],
+      "locator": "ASCO 2022 dietary recommendations; NCI reducing foodborne illness",
+      "summary": "A routinely restrictive neutropenic diet has not shown infection-prevention benefit and is not recommended by ASCO for that purpose. Emphasize hygiene, safe storage and cooking, and avoidance of unsafe raw/undercooked or unpasteurized products. Follow specific transplant-center protocols where applicable while protecting nutritional intake."
+    },
+    {
+      "id": "G08",
+      "topic": "supplements",
+      "description": "High-dose vitamins/antioxidants, deficiency correction, and interactions",
+      "source_ids": [
+        "S01",
+        "S06"
+      ],
+      "locator": "ESPEN recommendation 5; NCI supplement-interaction sections",
+      "summary": "Use ordinary micronutrient intake rather than high doses without a demonstrated deficiency. Antioxidant supplements can interact with treatment, and safety/benefit evidence is uncertain. Review the exact products with the oncology team; food-based nutrition and clinician-directed deficiency correction are distinct from megadose supplementation."
+    },
+    {
+      "id": "G09",
+      "topic": "pancreatic_enzymes",
+      "description": "Pancreatic cancer, malabsorption, steatorrhea, and enzyme replacement",
+      "source_ids": [
+        "S07"
+      ],
+      "locator": "NICE NG85 recommendations 1.6.1-1.6.5",
+      "summary": "NICE recommends enteric-coated pancreatin for unresectable pancreatic cancer. Weight loss with greasy stools should prompt assessment of maldigestion and other causes, not only calorie advice. Enzyme selection, meal-time use, titration, and nutritional follow-up require the treating team; the source recommendation does not specify a universal dose."
+    },
+    {
+      "id": "G10",
+      "topic": "restrictive_diets",
+      "description": "Fasting or ketogenic diets during treatment in a person losing weight",
+      "source_ids": [
+        "S01",
+        "S05"
+      ],
+      "locator": "ESPEN recommendation 8; ASCO 2022 dietary evidence review",
+      "summary": "Avoid energy-restrictive diets in malnourished or at-risk patients. Evidence does not establish fasting or ketogenic diets as routine cancer-treatment adjuncts. Prioritize adequate intake and explain uncertainty without claiming diet cures cancer."
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "title": "ESPEN practical guideline: Clinical Nutrition in cancer",
+      "authors": "Maurizio Muscaritoli, Jann Arends, Patrick Bachmann, and colleagues",
+      "organization": "ESPEN",
+      "year": 2021,
+      "doi": "10.1016/j.clnu.2021.02.005",
+      "url": "https://www.espen.org/files/ESPEN-Guidelines/ESPEN-practical-guideline-clinical-nutrition-in-cancer.pdf",
+      "accessed": "2026-10-10",
+      "type": "clinical_practice_guideline",
+      "read_level": "Relevant full-text recommendations and commentaries",
+      "supports": "Screening, adult energy/protein estimates, nutrition route, micronutrients, and avoidance of energy-restrictive diets in malnutrition."
+    },
+    {
+      "id": "S02",
+      "title": "Management of Cancer Cachexia: ASCO Guideline",
+      "authors": "Eric J. Roeland, Kari Bohlke, Vickie E. Baracos, and colleagues",
+      "organization": "ASCO",
+      "year": 2020,
+      "doi": "10.1200/JCO.20.00611",
+      "url": "https://ascopubs.org/doi/10.1200/JCO.20.00611",
+      "accessed": "2026-10-10",
+      "type": "clinical_practice_guideline",
+      "read_level": "Abstract and indexed nutritional recommendations 1.1-1.2",
+      "supports": "Dietitian counseling and avoidance of routine tube feeding or PN for advanced-cancer cachexia alone; selected exceptions."
+    },
+    {
+      "id": "S03",
+      "title": "Cancer Cachexia: ASCO Guideline Rapid Recommendation Update",
+      "authors": "Eric J. Roeland, Kari Bohlke, Vickie E. Baracos, Thomas J. Smith, and Charles L. Loprinzi",
+      "organization": "ASCO",
+      "year": 2023,
+      "doi": "10.1200/JCO.23.01280",
+      "url": "https://ascopubs.org/doi/10.1200/JCO.23.01280",
+      "accessed": "2026-10-10",
+      "type": "clinical_practice_guideline_update",
+      "read_level": "Indexed updated recommendations 2.1-2.2 and qualifying statement",
+      "supports": "Selected low-dose olanzapine use for appetite/weight; prevents repeating an outdated blanket claim that no drug is supported."
+    },
+    {
+      "id": "S04",
+      "title": "Nutrition support for adults: oral nutrition support, enteral tube feeding and parenteral nutrition (CG32)",
+      "authors": "National Institute for Health and Care Excellence",
+      "organization": "NICE",
+      "year": 2006,
+      "updated": "2017-08-04",
+      "url": "https://www.nice.org.uk/guidance/cg32/chapter/Recommendations",
+      "accessed": "2026-10-10",
+      "type": "clinical_practice_guideline",
+      "read_level": "Indexed full recommendations 1.4.6-1.4.8; official PDF also identified",
+      "supports": "High refeeding-risk identification, cautious feeding, thiamine, electrolyte and fluid monitoring."
+    },
+    {
+      "id": "S05",
+      "title": "Exercise, Diet, and Weight Management During Cancer Treatment: ASCO Guideline",
+      "authors": "Jennifer A. Ligibel, Kari Bohlke, Anne M. May, and colleagues",
+      "organization": "ASCO",
+      "year": 2022,
+      "doi": "10.1200/JCO.22.00687",
+      "url": "https://ascopubs.org/doi/10.1200/JCO.22.00687",
+      "accessed": "2026-10-10",
+      "type": "clinical_practice_guideline",
+      "read_level": "Full abstract and indexed recommendations",
+      "supports": "No routine neutropenic diet to prevent infection; limited evidence for specific diets/weight-loss interventions during treatment; exercise guidance."
+    },
+    {
+      "id": "S06",
+      "title": "Cancer Therapy Interactions With Foods and Dietary Supplements (PDQ) - Health Professional Version",
+      "authors": "National Cancer Institute PDQ Integrative, Alternative, and Complementary Therapies Editorial Board",
+      "organization": "National Cancer Institute",
+      "year": 2026,
+      "year_note": "Living evidence summary, snapshot accessed in 2026; not an original publication year",
+      "url": "https://www.cancer.gov/about-cancer/treatment/cam/hp/dietary-interactions-pdq",
+      "accessed": "2026-10-10",
+      "type": "government_evidence_summary",
+      "read_level": "Relevant full-text supplement and antioxidant sections",
+      "supports": "Supplement-drug interactions and uncertainty about antioxidant supplement safety/efficacy during treatment."
+    },
+    {
+      "id": "S07",
+      "title": "Pancreatic cancer in adults: diagnosis and management (NG85)",
+      "authors": "National Institute for Health and Care Excellence",
+      "organization": "NICE",
+      "year": 2018,
+      "url": "https://www.nice.org.uk/guidance/ng85/chapter/Recommendations",
+      "accessed": "2026-10-10",
+      "type": "clinical_practice_guideline",
+      "read_level": "Indexed nutritional recommendations 1.6.1-1.6.5",
+      "supports": "Enteric-coated pancreatin in unresectable pancreatic cancer and perioperative nutrition route."
+    },
+    {
+      "id": "S08",
+      "title": "Nutrition in Cancer Care (PDQ) - Health Professional Version",
+      "authors": "National Cancer Institute PDQ Supportive and Palliative Care Editorial Board",
+      "organization": "National Cancer Institute",
+      "year": 2026,
+      "year_note": "Living evidence summary, snapshot accessed in 2026; not an original publication year",
+      "url": "https://www.cancer.gov/about-cancer/treatment/side-effects/appetite-loss/nutrition-hp-pdq",
+      "accessed": "2026-10-10",
+      "type": "government_evidence_summary",
+      "read_level": "Relevant full-text symptom and foodborne-illness sections",
+      "supports": "Nutrition-impact symptom management and food-safety counseling; evidence limitations of neutropenic diets."
+    },
+    {
+      "id": "S09",
+      "title": "Cancer cachexia in adult patients: ESMO Clinical Practice Guidelines",
+      "authors": "Jann Arends, Florian Strasser, Sandrine Gonella, and colleagues",
+      "organization": "ESMO",
+      "year": 2021,
+      "doi": "10.1016/j.esmoop.2021.100092",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8233663/",
+      "accessed": "2026-10-10",
+      "type": "clinical_practice_guideline",
+      "read_level": "Relevant full-text nutrition, prognosis, and end-of-life sections",
+      "supports": "Multifactorial cachexia and benefit/burden-based decisions about nutrition support in advanced disease."
+    },
+    {
+      "id": "P2105475",
+      "pmid": "2105475",
+      "title": "Metabolic response to enteral food in different phases of cancer cachexia in rats.",
+      "authors": "Z Zylicz, O Schwantje, D J Wagener, H T Folgering",
+      "author_list": [
+        "Z Zylicz",
+        "O Schwantje",
+        "D J Wagener",
+        "H T Folgering"
+      ],
+      "year": "1990",
+      "publication_date": "1990",
+      "journal": "Oncology",
+      "doi": "10.1159/000226793",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2105475/",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "abstract": "The resting energy expenditure (REE) and postprandial energy expenditure (PPEE) were measured using closed-circuit indirect calorimetry in Walker 256 carcinosarcoma-bearing rats. The results were compared to the appropriate controls. The PPEE measurements were performed after oral test feeding. At the beginning of the tumor growth, the REE and PPEE were similar in all groups. In the second week, the tumor-bearing rats showed increased REE and decreased PPEE. The tumor-bearing rats lost weight and became anorectic. After day 14, the REE rapidly dropped to very low values and the body weight continued to decrease. This study makes it possible to differentiate three phases of cancer cachexia: silent or preclinical, hypermetabolic and hypometabolic.",
+      "abstract_present": true,
+      "abstract_truncated": false,
+      "abstract_original_characters": 755,
+      "copyright_information": null,
+      "read_level": "PubMed title and abstract",
+      "preprint": false,
+      "retracted": false,
+      "retraction_notice": false,
+      "expression_of_concern": false,
+      "corrections": [],
+      "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+      "retrieved_at_utc": "2026-10-10T09:39:41+00:00"
+    },
+    {
+      "id": "P18359195",
+      "pmid": "18359195",
+      "title": "Cancer cachexia: measured and predicted resting energy expenditures for nutritional needs evaluation.",
+      "authors": "Gyasi Johnson, Agnès Sallé, Gérard Lorimier, Laurent Laccourreye, Bernard Enon, Vincent Blin, Yann Jousset, Jean-Pierre Arnaud, Yves Malthièry, Gilles Simard, Patrick Ritz",
+      "author_list": [
+        "Gyasi Johnson",
+        "Agnès Sallé",
+        "Gérard Lorimier",
+        "Laurent Laccourreye",
+        "Bernard Enon",
+        "Vincent Blin",
+        "Yann Jousset",
+        "Jean-Pierre Arnaud",
+        "Yves Malthièry",
+        "Gilles Simard",
+        "Patrick Ritz"
+      ],
+      "year": "2008",
+      "publication_date": "2008 May",
+      "journal": "Nutrition (Burbank, Los Angeles County, Calif.)",
+      "doi": "10.1016/j.nut.2008.01.013",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18359195/",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "abstract": "OBJECTIVE: Cancer cachexia is associated with weight loss, poor nutritional status, and systemic inflammation. Accurate nutritional support for patients is calculated on resting energy expenditure (REE) measurement or prediction. The present study evaluated the agreement between measured and predicted REE (mREE and pREE, respectively) and the influence of acute phase response (APR) on REE.\nMETHODS: Thirty-six patients with cancer were divided into weight-stable (WS; weight loss <2%) and weight-losing (WL; weight loss >5%) patients. Measured REE was measured by indirect calorimetry and adjusted for fat-free mass (FFM). The Bland-Altman approach was used to assess the agreement between mREE and pREE from the Harris-Benedict equations (HBE). Blood levels of C-reactive protein were assessed.\nRESULTS: There was no difference in mREE between groups (WS 1677 +/- 273, WL 1521 +/- 305) even when mREE was adjusted for FFM (WS 1609 +/- 53, WL 1589 +/- 53). In WL patients, FFM-adjusted REE correlated with blood C-reactive protein levels (r = 0.471, P = 0.048). HBEs tend to underestimate REE in both groups.\nCONCLUSION: WL and WS patients with cancer had similar REEs but were different in terms of APR. APR could contribute to weight loss through enhancing REE. In a clinical context, HBE was in poor agreement with mREE in both groups.",
+      "abstract_present": true,
+      "abstract_truncated": false,
+      "abstract_original_characters": 1341,
+      "copyright_information": null,
+      "read_level": "PubMed title and abstract",
+      "preprint": false,
+      "retracted": false,
+      "retraction_notice": false,
+      "expression_of_concern": false,
+      "corrections": [],
+      "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+      "retrieved_at_utc": "2026-10-10T09:28:06+00:00"
+    },
+    {
+      "id": "P19647909",
+      "pmid": "19647909",
+      "title": "Resting energy expenditure and body composition in patients with newly detected cancer.",
+      "authors": "Dong-xing Cao, Guo-hao Wu, Bo Zhang, Ying-jun Quan, Jia Wei, Huan Jin, Yi Jiang, Zi-ang Yang",
+      "author_list": [
+        "Dong-xing Cao",
+        "Guo-hao Wu",
+        "Bo Zhang",
+        "Ying-jun Quan",
+        "Jia Wei",
+        "Huan Jin",
+        "Yi Jiang",
+        "Zi-ang Yang"
+      ],
+      "year": "2010",
+      "publication_date": "2010 Feb",
+      "journal": "Clinical nutrition (Edinburgh, Scotland)",
+      "doi": "10.1016/j.clnu.2009.07.001",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19647909/",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "abstract": "BACKGROUND & AIMS: Elevated resting energy expenditure (REE) may be a major determinant in the development of cancer cachexia. The aim of the study was to evaluate REE and body composition in cancer patients and find out the relationship between energy expenditure and substrate utilization.\nMETHODS: Measured resting energy expenditure (mREE), carbohydrate oxidation (C-O), and fat oxidation (F-O) were measured by indirect calorimetry in 714 cancer patients and 642 controls. Extracellular fluid (ECF), intracellular fluid (ICF), and total water (TW) were measured by bioelectrical impedance appliance; fat mass (FM), fat free mass (FFM), and body cell mass (BCM) were further determined.\nRESULTS: Compared with the controls, cancer patients showed no significant difference in mREE, but had higher mREE/FFM and mREE/pREE. 46.7% (n=333) of cancer patients were hypermetabolic, 43.5% (n=310) normometabolic, and 9.8% (n=71) hypometabolic; whereas 25.2% (n=162) of control subjects were hypermetabolic, 56.5% (n=363) normometabolic, and 18.3% (n=117) hypometabolic. Cancer patients showed an increase in F-O, ECF, TW/BW and ECF/BW; and a decrease in C-O, npRQ, ICF, ICF/BW. REE was correlated to substrate oxidation rate. Cancer patients exhibited an elevation in FM, FM/BW, FFM, and BCM, and a decrease in FFM/BW.\nCONCLUSIONS: 1. Cancer patients had elevated REE. Cancer type, pathological stage and duration of disease influenced REE. 2. Aberrations in substrate utilization may contribute to the elevated REE in cancer patients. 3. FM, FFM, and BCM diminished in cancer patients, which may be related to the elevated REE.",
+      "abstract_present": true,
+      "abstract_truncated": false,
+      "abstract_original_characters": 1624,
+      "copyright_information": "Copyright 2009 Elsevier Ltd and European Society for Clinical Nutrition and Metabolism. All rights reserved.",
+      "read_level": "PubMed title and abstract",
+      "preprint": false,
+      "retracted": false,
+      "retraction_notice": false,
+      "expression_of_concern": false,
+      "corrections": [],
+      "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+      "retrieved_at_utc": "2026-10-10T09:39:41+00:00"
+    },
+    {
+      "id": "P28143668",
+      "pmid": "28143668",
+      "title": "Resting energy expenditure in the risk assessment of anticancer treatments.",
+      "authors": "Anne Jouinot, Clara Vazeille, Jean Philippe Durand, Olivier Huillard, Pascaline Boudou-Rouquette, Romain Coriat, Jeanne Chapron, Nathalie Neveux, Jean Pascal De Bandt, Jerome Alexandre, Luc Cynober, Francois Goldwasser",
+      "author_list": [
+        "Anne Jouinot",
+        "Clara Vazeille",
+        "Jean Philippe Durand",
+        "Olivier Huillard",
+        "Pascaline Boudou-Rouquette",
+        "Romain Coriat",
+        "Jeanne Chapron",
+        "Nathalie Neveux",
+        "Jean Pascal De Bandt",
+        "Jerome Alexandre",
+        "Luc Cynober",
+        "Francois Goldwasser"
+      ],
+      "year": "2018",
+      "publication_date": "2018 Apr",
+      "journal": "Clinical nutrition (Edinburgh, Scotland)",
+      "doi": "10.1016/j.clnu.2017.01.007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28143668/",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article",
+        "Observational Study"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "abstract": "BACKGROUND & AIMS: Alterations of nutritional and performance status (PS) are associated with higher risk of chemotherapy toxicity. Increased resting energy expenditure (REE) is frequent in cancer patients and may contribute to cachexia. We investigated whether abnormal energetic metabolism could predict early acute limiting toxicities (ELT) of anticancer treatments.\nMETHODS: In this observational monocentric study, REE was measured by indirect calorimetry before treatment initiation. Based on the ratio of measured REE to REE predicted by the Harris-Benedict formula, patients were classified as hypometabolic (<90%), normometabolic (90-110%) or hypermetabolic (>110%). Body mass index, weight loss, PS, albumin, transthyretin, C-reactive protein (CRP) and muscle mass (CT-scan) were studied. Were defined as ELT any unplanned hospitalization or any adverse event leading to dose reduction or discontinuation during the first cycle of treatment.\nRESULTS: We enrolled 277 patients: 76% had metastatic disease; 89% received chemotherapy and 11% targeted therapy; 29% were normometabolic, 51% hypermetabolic and 20% hypometabolic. Fifty-nine patients (21%) experienced an ELT. Toxicity was associated with abnormal metabolism (vs normal: OR = 2.37 [1.13-4.94], p = 0.023), PS (2-3 vs 0-1: OR = 2.04 [1.12-3.74], p = 0.023), albumin (<35 vs ≥35 g/l: OR = 2.39 [1.03-5.54], p = 0.048), and inflammation (CRP ≥10 vs <10 mg/l: OR = 2.43 [1.35-4.38], p = 0.004). To predict toxicity, the most sensitive parameter was the REE (83%) followed by PINI (63%), GPS (59%), CRP (55%), PS (41%), NRI (37%), and albumin (16%). In multivariate analysis, elevated CRP was an independent predictor of toxicity (p = 0.047).\nCONCLUSION: Abnormal basal energy metabolism identifies patients at higher risk of treatment-related acute complications.",
+      "abstract_present": true,
+      "abstract_truncated": false,
+      "abstract_original_characters": 1829,
+      "copyright_information": "Copyright © 2017 Elsevier Ltd and European Society for Clinical Nutrition and Metabolism. All rights reserved.",
+      "read_level": "PubMed title and abstract",
+      "preprint": false,
+      "retracted": false,
+      "retraction_notice": false,
+      "expression_of_concern": false,
+      "corrections": [],
+      "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+      "retrieved_at_utc": "2026-10-10T09:39:41+00:00"
+    },
+    {
+      "id": "P33369797",
+      "pmid": "33369797",
+      "title": "Bone metastases induce metabolic changes and mitophagy in mice.",
+      "authors": "Jenna Wilcox-Hagerty, Haifang Xu, Brian A Hain, Amy C Arnold, David L Waning",
+      "author_list": [
+        "Jenna Wilcox-Hagerty",
+        "Haifang Xu",
+        "Brian A Hain",
+        "Amy C Arnold",
+        "David L Waning"
+      ],
+      "year": "2021",
+      "publication_date": "2021 Feb",
+      "journal": "Experimental physiology",
+      "doi": "10.1113/EP089130",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33369797/",
+      "pmcid": "PMC7855482",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "abstract": "NEW FINDINGS: What is the central question of this study? Cachexia causes severe changes in skeletal muscle metabolism and function and is a key predictor of negative outcomes in cancer patients: what are the changes in whole animal energy metabolism and mitochondria in skeletal muscle? What is the main finding and its importance? There is decreased whole animal energy expenditure in mice with cachexia. They displayed highly dysmorphic mitochondria and mitophagy in skeletal muscle.\nABSTRACT: Cachexia causes changes in skeletal muscle metabolism. Mice with MDA-MB-231 breast cancer bone metastases and cachexia have decreased whole animal energy metabolism and increased skeletal muscle mitophagy. We examined whole animal energy metabolism by indirect calorimetry in mice with MDA-MB-231 breast cancer bone metastases, and showed decreased energy expenditure. We also examined skeletal muscle mitochondria and found that mitochondria in mice with MDA-MB-231 bone metastases are highly dysmorphic and have altered protein markers of mitochondrial biogenesis and dynamics. In addition, LC3B protein was increased in mitochondria of skeletal muscle from cachectic mice, and colocalized with the mitochondrial protein Tom20. Our data demonstrate the importance of mitophagy in cachexia. Understanding these changes will help contribute to defining treatments for cancer cachexia.",
+      "abstract_present": true,
+      "abstract_truncated": false,
+      "abstract_original_characters": 1381,
+      "copyright_information": "© 2020 The Authors. Experimental Physiology © 2020 The Physiological Society.",
+      "read_level": "PubMed title and abstract",
+      "preprint": false,
+      "retracted": false,
+      "retraction_notice": false,
+      "expression_of_concern": false,
+      "corrections": [],
+      "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+      "retrieved_at_utc": "2026-10-10T09:39:41+00:00"
+    }
+  ],
+  "limitation": "Manual guidance paraphrases and question-specific PubMed metadata/abstracts from two earlier real retrieval cohorts, not full texts or a new search. The unfiltered union may contain irrelevant or conflicting material. No evaluator labels are supplied."
+}

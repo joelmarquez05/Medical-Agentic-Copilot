@@ -1,0 +1,43 @@
+{
+  "question_id": "BM13",
+  "model_profile": "glm-5.3",
+  "answer_sha256": "71e729ed107fe52bae1ebdfd5fe65eda37be87f95e615ef5900949b3a712003d",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "minor_limitation",
+    "calibration_and_provenance": "minor_limitation"
+  },
+  "answer_notes": "Correct C. Coherent typhoid pattern and travel timeline, with honest acknowledgement that its excerpts do not verify all pediatric clinical features. The categorical claim that S. mansoni is chronic rather than acute is too broad: CDC describes acute schistosomiasis with fever/diarrhea. This does not change the restricted-choice Typhi label; retrieved culture/epidemiology text is only partial clinical support.",
+  "researcher_reference_ids": [
+    "R4-CL05",
+    "R5-CL04"
+  ],
+  "queries": [
+    {
+      "rating": "partially_appropriate",
+      "notes": "Correct enteric-fever topic but adds Indonesia and clinical features as simultaneous restrictions, narrowing beyond the causal-organism question."
+    }
+  ],
+  "papers": {
+    "30300755": {
+      "rating": "partially_relevant",
+      "notes": "Typhi culture-positive indigenous/imported Taiwan epidemiology is related organism context, not the complete pediatric rose-spot phenotype."
+    },
+    "8433774": {
+      "rating": "partially_relevant",
+      "notes": "Culture-positive typhoid/paratyphoid cohort supports organism context; its excerpt cuts before travel/clinical-feature findings."
+    }
+  },
+  "citations": {
+    "P30300755_search_7ee9b5413cb9": {
+      "rating": "partially_supported",
+      "notes": "Supports culture-confirmed Typhi/indigenous-imported epidemiologic context, not the complete claimed child/travel/rose-spot syndrome."
+    },
+    "P8433774_search_3ba8e56268f5": {
+      "rating": "partially_supported",
+      "notes": "Supports culture-positive typhoid/paratyphoid cases, but travel/rose/hepatosplenic findings are not present in this short view."
+    }
+  },
+  "inline_citations": {}
+}

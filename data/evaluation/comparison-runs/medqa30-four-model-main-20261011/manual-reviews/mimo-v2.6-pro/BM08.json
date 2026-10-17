@@ -1,0 +1,103 @@
+{
+  "question_id": "BM08",
+  "model_profile": "mimo-v2.6-pro",
+  "answer_sha256": "aba0ee1b456d4664956c21780ae118a185916d2f57b64e91e256708875f61fed",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "consistent"
+  },
+  "answer_notes": "Correct B. Substantively separates a combined obesity/OA/OSA query into component risk/symptom searches. Actual excerpts support the OA-weight link and both OSA sleepiness and obesity mechanisms. Explicitly says the patient-level linkage is inferential and OSA lacks sleep-test confirmation; no trial outcome is invented.",
+  "researcher_reference_ids": [],
+  "queries": [
+    {
+      "rating": "appropriate",
+      "notes": "Targets the unifying obesity relationship with both case conditions, including a directly relevant trial-design result."
+    },
+    {
+      "rating": "appropriate",
+      "notes": "Separately seeks the weight/knee-OA risk relationship."
+    },
+    {
+      "rating": "appropriate",
+      "notes": "Separately targets obesity, OSA and excessive daytime sleepiness."
+    }
+  ],
+  "papers": {
+    "41090431": {
+      "rating": "directly_relevant",
+      "notes": "Trial-design abstract explicitly treats obesity with OSA and knee OA as related complications; design is not proof of outcomes or this patient diagnosis."
+    },
+    "41039116": {
+      "rating": "partially_relevant",
+      "notes": "Obesity pharmacotherapy and complication meta-analysis is background; specific knee/OSA associations are absent in the excerpt."
+    },
+    "41547366": {
+      "rating": "partially_relevant",
+      "notes": "GLP-1 weight/metabolic/cardiovascular treatment background is related to obesity, but this snippet lacks knee-OA/OSA relationships."
+    },
+    "27409075": {
+      "rating": "irrelevant",
+      "notes": "Congress-proceedings excerpt covers literacy, schizophrenia walking and simulation topics, not this obesity/OA/OSA question."
+    },
+    "40604322": {
+      "rating": "partially_relevant",
+      "notes": "Obesity-related metabolic/cardiovascular comorbidity treatment is background, not direct knee-OA/OSA evidence in the visible text."
+    },
+    "39250809": {
+      "rating": "directly_relevant",
+      "notes": "Explicit knee OA symptom pattern and overweight/obesity as leading modifiable risk factors match the case."
+    },
+    "40174718": {
+      "rating": "directly_relevant",
+      "notes": "Knee-OA incident risk-factor systematic review directly addresses the etiologic topic, but its delivered text is methods rather than obesity results."
+    },
+    "27180156": {
+      "rating": "directly_relevant",
+      "notes": "Explicit proven obesity/knee-OA association and major modifiable risk factor match the causal-risk question."
+    },
+    "25447976": {
+      "rating": "partially_relevant",
+      "notes": "Knee-OA risk meta-analysis is relevant but explicitly concerns ages 50 and over, unlike this 40-year-old."
+    },
+    "19037063": {
+      "rating": "directly_relevant",
+      "notes": "Explicit obesity association with joint pain and increased knee-OA risk directly addresses the weight/pain mechanism."
+    },
+    "34148375": {
+      "rating": "partially_relevant",
+      "notes": "OSA airway events/sleep fragmentation are related symptom background, but this cardiovascular statement excerpt lacks the obesity link."
+    },
+    "32286648": {
+      "rating": "directly_relevant",
+      "notes": "Explicit excessive daytime sleepiness as the common OSA presentation matches the sleep complaints."
+    },
+    "27188535": {
+      "rating": "directly_relevant",
+      "notes": "Explicit upper-airway sleep collapse mechanism includes obesity as a contributor."
+    },
+    "34353537": {
+      "rating": "partially_relevant",
+      "notes": "Broader sleep-disordered breathing, daytime sleepiness and obesity/CV-risk background is related, without distinguishing the exact OSA diagnosis here."
+    }
+  },
+  "citations": {
+    "P39250809_search_319a1551bf8e": {
+      "rating": "supported",
+      "notes": "Explicitly supports the case-like OA symptom pattern and obesity risk statement."
+    },
+    "P27180156_search_ba7844ca5e0f": {
+      "rating": "supported",
+      "notes": "Explicitly supports the obesity-knee-OA association and major modifiable risk factor."
+    },
+    "P32286648_search_a8d1d7b7b7fb": {
+      "rating": "supported",
+      "notes": "Explicitly supports excessive sleepiness as a common OSA presentation; no obesity link is credited to this clipped view."
+    },
+    "P27188535_search_40a0ee5da05c": {
+      "rating": "supported",
+      "notes": "Explicitly includes obesity in the upper-airway collapse mechanism of OSA, matching the associated weight/sleep claim."
+    }
+  }
+}

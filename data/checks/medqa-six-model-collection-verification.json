@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "models": 6,
+  "original_case_records": 78,
+  "primary_valid_completed_outputs": 74,
+  "posthoc_nonconforming_explicit_option": 1,
+  "unusable_truncated_outputs": 3,
+  "new_reported_cost_usd": 0.207558453,
+  "final_observed_account_usage_usd": 3.863347433,
+  "model_calls": 96,
+  "review_fingerprints_and_excerpts_match": true,
+  "keys_not_rewritten": true,
+  "local_links_checked": 153,
+  "new_inference_calls_for_checks": 0
+}

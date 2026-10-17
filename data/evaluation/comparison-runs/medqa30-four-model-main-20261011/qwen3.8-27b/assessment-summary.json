@@ -1,0 +1,39 @@
+{
+  "answer_reviews": 30,
+  "material_issue_cases": [
+    "BM28"
+  ],
+  "answer_dimension_counts": {
+    "case_reasoning": {
+      "consistent": 28,
+      "minor_limitation": 1,
+      "material_issue": 1
+    },
+    "reference_concordance": {
+      "consistent": 28,
+      "minor_limitation": 2
+    },
+    "calibration_and_provenance": {
+      "consistent": 23,
+      "minor_limitation": 7
+    }
+  },
+  "paper_pairs": 58,
+  "paper_relevance": {
+    "partially_relevant": 32,
+    "directly_relevant": 26
+  },
+  "citation_support": {
+    "supported": 18,
+    "unsupported": 1,
+    "partially_supported": 7
+  },
+  "unknown_citation_ids": 0,
+  "supplementary_inline_reference_count": 0,
+  "query_ratings": {
+    "partially_appropriate": 8,
+    "appropriate": 15
+  },
+  "new_model_requests": 0,
+  "independent_clinician_review": false
+}

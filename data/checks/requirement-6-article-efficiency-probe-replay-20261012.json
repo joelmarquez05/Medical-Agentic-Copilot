@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "run_id": "gemma-article-efficiency-probe-20261012",
+  "episodes": [
+    {
+      "condition": "B-full-context",
+      "question_id": "ARTICLE-PILOT",
+      "model_responses": 1,
+      "pdf_operations": 0,
+      "answer_sha256": "388425b2e4857ce7d95a644dd491c4e95a000618266bab0f4320c15e1c8e958a"
+    }
+  ],
+  "new_model_requests": 0,
+  "credentials_read": 0,
+  "no_knowledge_only_condition": true,
+  "identical_complete_B_and_delivered_C_views": true,
+  "no_gold_answer_fields_in_requests": true,
+  "interpretation": "Exact saved operational replay and code-based field checks, not independent clinical validation."
+}

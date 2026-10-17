@@ -1,0 +1,146 @@
+{
+  "use": "Post hoc explanation appraisal only; not generated answers or replacement keys",
+  "mode": "live_pubmed_title_abstract",
+  "client_version": "requirement-3-v1",
+  "query": "28720000[uid] OR 16412110[uid]",
+  "effective_query": "(28720000[uid] OR 16412110[uid]) NOT (retracted publication[pt] OR retraction notice[pt] OR hasretractionin OR hasretractionof)",
+  "sort": "relevance",
+  "max_results": 2,
+  "total_matches": 2,
+  "query_translation": "(28720000[UID] OR 16412110[UID]) NOT (\"retracted publication\"[Publication Type] OR \"retraction notice\"[Publication Type] OR \"hasretractionin\"[All Fields] OR \"hasretractionof\"[All Fields])",
+  "warnings": {},
+  "esearch_pmids": [
+    "28720000",
+    "16412110"
+  ],
+  "sources": [
+    {
+      "id": "P28720000",
+      "pmid": "28720000",
+      "title": "Differentiation Between Pyogenic Flexor Tenosynovitis and Other Finger Infections.",
+      "authors": "Colin D Kennedy, Alexander S Lauder, Jonathan R Pribaz, Stephen A Kennedy",
+      "author_list": [
+        "Colin D Kennedy",
+        "Alexander S Lauder",
+        "Jonathan R Pribaz",
+        "Stephen A Kennedy"
+      ],
+      "year": "2017",
+      "publication_date": "2017 Nov",
+      "journal": "Hand (New York, N.Y.)",
+      "doi": "10.1177/1558944717692089",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28720000/",
+      "pmcid": "PMC5669334",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "abstract": "BACKGROUND: Hospital transfer decisions regarding pyogenic flexor tenosynovitis (PFT) are made difficult by emergency department presentations similar to other finger infections, with pain, redness, and functional limitation. Our objectives were to: (1) determine diagnostic sensitivity and specificity of Kanavel signs; and (2) identify existing factors most predictive of PFT during initial presentation.\nMETHODS: Adult patients who underwent surgical consultation for concern of PFT over a 5-year period were identified retrospectively. Bivariate screening identified clinical criteria for differentiation, and multivariate logistic regression was performed to control for confounding. We then created a prediction algorithm for diagnosis of PFT. Receiver operating characteristic (ROC) curve analysis was used to evaluate diagnostic accuracy.\nRESULTS: Patients with PFT differed significantly from those with non-PFT finger infections in regard to the 4 Kanavel signs, duration of symptoms less than 5 days, and erythrocyte sedimentation rate. Sensitivity of the Kanavel signs ranged from 91.4% to 97.1%. Specificity ranged from 51.3% to 69.2%. Logistic regression identified independent predictors for PFT as tenderness along the flexor tendon sheath, pain with passive extension, and duration of symptoms less than 5 days. A prediction algorithm incorporating these 3 factors showed an area under the ROC curve of 0.91 (95% confidence interval, 0.840-0.979).\nCONCLUSIONS: Kanavel signs have high sensitivity for detecting PFT but have poor specificity on an individual basis. Clinical prediction algorithms that combine the relevant factors may be helpful in the development of clinical prediction tools and educational materials for optimization of emergency hand care systems. Further prospective study is needed.",
+      "abstract_present": true,
+      "abstract_truncated": false,
+      "abstract_original_characters": 1821,
+      "copyright_information": null,
+      "read_level": "PubMed title and abstract",
+      "preprint": false,
+      "retracted": false,
+      "retraction_notice": false,
+      "expression_of_concern": false,
+      "corrections": [],
+      "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+      "retrieval_rank": 1,
+      "retrieved_at_utc": "2026-10-11T10:18:53+00:00"
+    },
+    {
+      "id": "P16412110",
+      "pmid": "16412110",
+      "title": "Reiter's syndrome (reactive arthritis) and travelers' diarrhea.",
+      "authors": "Johnnie A Yates, Lori C Stetz",
+      "author_list": [
+        "Johnnie A Yates",
+        "Lori C Stetz"
+      ],
+      "year": "2006",
+      "publication_date": "2006 Jan-Feb",
+      "journal": "Journal of travel medicine",
+      "doi": "10.1111/j.1708-8305.2006.00009.x",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16412110/",
+      "pmcid": null,
+      "publication_types": [
+        "Case Reports",
+        "Journal Article"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Reiter's syndrome [also called reactive arthritis (ReA)] is the triad of arthritis, urethritis, and conjunctivitis. Two cases of Reiter's syndrome triggered by travelers' diarrhea are presented. Health care providers should suspect ReA in travelers with joint symptoms and antecedent diarrheal disease.",
+      "abstract_present": true,
+      "abstract_truncated": false,
+      "abstract_original_characters": 302,
+      "copyright_information": null,
+      "read_level": "PubMed title and abstract",
+      "preprint": false,
+      "retracted": false,
+      "retraction_notice": false,
+      "expression_of_concern": false,
+      "corrections": [],
+      "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+      "retrieval_rank": 2,
+      "retrieved_at_utc": "2026-10-11T10:18:53+00:00"
+    }
+  ],
+  "excluded_records": [],
+  "http_requests": [
+    {
+      "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "parameters": {
+        "db": "pubmed",
+        "term": "(28720000[uid] OR 16412110[uid]) NOT (retracted publication[pt] OR retraction notice[pt] OR hasretractionin OR hasretractionof)",
+        "retmode": "json",
+        "retmax": 2,
+        "sort": "relevance"
+      },
+      "started_at_utc": "2026-10-11T10:18:51+00:00",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "ok",
+          "http_status": 200,
+          "elapsed_seconds": 1.021
+        }
+      ],
+      "cache_hit": false,
+      "status": "ok",
+      "response_sha256": "d9accde86c15b93d05c719090067c3bb059ca8dc4ad4f9b9103ac7e7d02ca5bc",
+      "response_bytes": 374,
+      "snapshot_file": "d9accde86c15b93d05c719090067c3bb059ca8dc4ad4f9b9103ac7e7d02ca5bc.json",
+      "retrieved_at_utc": "2026-10-11T10:18:52+00:00"
+    },
+    {
+      "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+      "parameters": {
+        "db": "pubmed",
+        "id": "28720000,16412110",
+        "retmode": "xml"
+      },
+      "started_at_utc": "2026-10-11T10:18:52+00:00",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "ok",
+          "http_status": 200,
+          "elapsed_seconds": 0.456
+        }
+      ],
+      "cache_hit": false,
+      "status": "ok",
+      "response_sha256": "93bf126aa0e3ad3a3e37828d6e249002cb641196ed0f4b0b41694c9fc3262463",
+      "response_bytes": 14386,
+      "snapshot_file": "93bf126aa0e3ad3a3e37828d6e249002cb641196ed0f4b0b41694c9fc3262463.xml",
+      "retrieved_at_utc": "2026-10-11T10:18:53+00:00"
+    }
+  ],
+  "retrieved_at_utc": "2026-10-11T10:18:53+00:00",
+  "limitation": "A small ranked search, not a systematic review. No full text, citation-network search, clinical appraisal, or medRxiv-specific integration. No persistent cache is used."
+}

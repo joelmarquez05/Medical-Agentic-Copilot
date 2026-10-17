@@ -1,0 +1,19 @@
+{
+  "question_id": "BM26",
+  "model_profile": "qwen3.8-27b",
+  "answer_sha256": "105b06e1e23534e0ec0a9f454debf5d8e7a75ed4f8bc139d5cdcc8a221a9fd22",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "minor_limitation",
+    "calibration_and_provenance": "consistent"
+  },
+  "answer_notes": "Correct mechanism and accurate SAAG/PMN calculations with explicit knowledge provenance. Calling the neutrophil count alone diagnostic overstates exclusion of secondary peritonitis, though SBP is the most likely offered mechanism from the whole clinical picture.",
+  "researcher_reference_ids": [
+    "R5-CL08"
+  ],
+  "queries": [],
+  "papers": {},
+  "citations": {},
+  "inline_citations": {}
+}

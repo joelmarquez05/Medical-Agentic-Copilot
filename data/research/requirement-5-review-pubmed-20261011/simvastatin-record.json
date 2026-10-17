@@ -1,0 +1,70 @@
+{
+  "papers": [
+    {
+      "id": "P19442259",
+      "pmid": "19442259",
+      "title": "Effects of simvastatin 40 mg daily on muscle and liver adverse effects in a 5-year randomized placebo-controlled trial in 20,536 high-risk people.",
+      "authors": "MRC/BHF Heart Protection Study Collaborative Group, Jane Armitage, Louise Bowman, Rory Collins, Sarah Parish, Jonathan Tobert",
+      "author_list": [
+        "MRC/BHF Heart Protection Study Collaborative Group",
+        "Jane Armitage",
+        "Louise Bowman",
+        "Rory Collins",
+        "Sarah Parish",
+        "Jonathan Tobert"
+      ],
+      "year": "2009",
+      "publication_date": "2009 Mar 31",
+      "journal": "BMC clinical pharmacology",
+      "doi": "10.1186/1472-6904-9-6",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19442259/",
+      "pmcid": "PMC2676245",
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "abstract": "BACKGROUND: Simvastatin reduces cardiovascular mortality and morbidity but, as with other HMG-CoA reductase inhibitors, can cause significant muscle toxicity and has been associated with elevations of liver transaminases.\nMETHODS: Muscle and liver adverse effects of simvastatin 40 mg daily were evaluated in a randomized placebo-controlled trial involving 20,536 UK patients with vascular disease or diabetes (in which a substantial reduction of cardiovascular mortality and morbidity has previously been demonstrated).\nRESULTS: The excess incidence of myopathy in the simvastatin group was < 0.1% over the 5 years of the trial, and there were no significant differences between the treatment groups in the incidence of serious hepatobiliary disease.\nCONCLUSION: Among the many different types of high-risk patient studied (including women, older individuals and those with low cholesterol levels), there was a very low incidence (< 0.1%) of myopathy during 5 years treatment with simvastatin 40 mg daily. The risk of hepatitis, if any, was undetectable even in this very large long-term trial. Routine monitoring of liver function tests during treatment with simvastatin 40 mg is not useful.",
+      "abstract_present": true,
+      "abstract_truncated": false,
+      "abstract_original_characters": 1193,
+      "copyright_information": null,
+      "read_level": "PubMed title and abstract",
+      "preprint": false,
+      "retracted": false,
+      "retraction_notice": false,
+      "expression_of_concern": false,
+      "corrections": [],
+      "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract."
+    }
+  ],
+  "http_requests": [
+    {
+      "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+      "parameters": {
+        "db": "pubmed",
+        "id": "19442259",
+        "retmode": "xml"
+      },
+      "started_at_utc": "2026-10-11T20:56:35+00:00",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "ok",
+          "http_status": 200,
+          "elapsed_seconds": 0.663
+        }
+      ],
+      "cache_hit": false,
+      "status": "ok",
+      "response_sha256": "d0abc75aa31cac94a4b9c20c4e3b746fed94593721d581d26e6183a39a4e5fb1",
+      "response_bytes": 21599,
+      "snapshot_file": "d0abc75aa31cac94a4b9c20c4e3b746fed94593721d581d26e6183a39a4e5fb1.xml",
+      "retrieved_at_utc": "2026-10-11T20:56:35+00:00"
+    }
+  ],
+  "role": "Post-generation researcher check, not supplied to the answering agent or used to change a key."
+}

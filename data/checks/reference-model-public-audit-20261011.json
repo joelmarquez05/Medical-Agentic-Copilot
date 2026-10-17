@@ -1,0 +1,614 @@
+{
+  "checked_at_utc": "2026-10-11T11:36:40.718731+00:00",
+  "operation": "Public unauthenticated catalog/endpoint read; no inference",
+  "models_url": "https://openrouter.ai/api/v1/models",
+  "models": [
+    {
+      "id": "z-ai/glm-5.3",
+      "name": "Z.ai: GLM 5.3",
+      "input_usd_per_million": 0.039,
+      "output_usd_per_million": 4.8,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "parallel_tool_calls",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "context_length": 1048576,
+      "reasoning": {
+        "mandatory": true,
+        "default_enabled": true,
+        "supported_efforts": [
+          "max",
+          "high",
+          "low"
+        ],
+        "default_effort": "max"
+      },
+      "listed_only": true
+    },
+    {
+      "id": "moonshotai/kimi-k3",
+      "name": "MoonshotAI: Kimi K3",
+      "input_usd_per_million": 0.7999999999999999,
+      "output_usd_per_million": 10.0,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "context_length": 1048576,
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true,
+        "supported_efforts": [
+          "max",
+          "high",
+          "low"
+        ],
+        "default_effort": "max"
+      },
+      "listed_only": true
+    },
+    {
+      "id": "xiaomi/mimo-v2.6-pro",
+      "name": "Xiaomi: MiMo-V2.6-Pro",
+      "input_usd_per_million": 0.435,
+      "output_usd_per_million": 0.87,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "context_length": 1050000,
+      "reasoning": {
+        "mandatory": false
+      },
+      "listed_only": true
+    },
+    {
+      "id": "qwen/qwen3.8-27b",
+      "name": "Qwen: Qwen3.8 27B",
+      "input_usd_per_million": 0.04,
+      "output_usd_per_million": 2.3,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_a",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "context_length": 1000000,
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true,
+        "supported_efforts": [
+          "xhigh",
+          "medium",
+          "low"
+        ],
+        "default_effort": "xhigh"
+      },
+      "listed_only": true
+    },
+    {
+      "id": "google/gemma-4-26b-a4b-it",
+      "name": "Google: Gemma 4 26B A4B ",
+      "input_usd_per_million": 0.0675,
+      "output_usd_per_million": 0.22499999999999998,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "context_length": 262144,
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": false
+      },
+      "listed_only": true
+    },
+    {
+      "id": "inclusionai/ling-3.0-flash-sante",
+      "name": "inclusionAI: Ling 3.0 Flash Sante",
+      "input_usd_per_million": 0.041999999999999996,
+      "output_usd_per_million": 0.12319999999999999,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "seed",
+        "stop",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "context_length": 262144,
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true
+      },
+      "listed_only": true
+    }
+  ],
+  "gemma_endpoint_url": "https://openrouter.ai/api/v1/models/google/gemma-4-26b-a4b-it/endpoints",
+  "gemma_endpoints": [
+    {
+      "name": "Darkbloom | google/gemma-4-26b-a4b-it-20260403",
+      "provider_name": "Darkbloom",
+      "tag": "darkbloom",
+      "pricing": {
+        "prompt": "0.000000042",
+        "completion": "0.00000022",
+        "input_cache_read": "0.000000021",
+        "discount": 0
+      },
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "temperature",
+        "top_p",
+        "top_k",
+        "frequency_penalty",
+        "presence_penalty",
+        "repetition_penalty",
+        "stop",
+        "seed",
+        "max_tokens",
+        "response_format",
+        "structured_outputs",
+        "logprobs",
+        "top_logprobs",
+        "tools",
+        "tool_choice"
+      ],
+      "max_completion_tokens": 32768,
+      "reasoning": null
+    },
+    {
+      "name": "Io Net | google/gemma-4-26b-a4b-it-20260403",
+      "provider_name": "Io Net",
+      "tag": "io-net/bf16",
+      "pricing": {
+        "prompt": "0.0000000483",
+        "completion": "0.00000021",
+        "input_cache_read": "0.0000000203",
+        "discount": 0.3
+      },
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "max_tokens",
+        "temperature",
+        "tools",
+        "logprobs",
+        "top_logprobs",
+        "tool_choice"
+      ],
+      "max_completion_tokens": 235927,
+      "reasoning": null
+    },
+    {
+      "name": "DekaLLM | google/gemma-4-26b-a4b-it-20260403",
+      "provider_name": "DekaLLM",
+      "tag": "dekallm/bf16",
+      "pricing": {
+        "prompt": "0.00000006",
+        "completion": "0.00000033",
+        "input_cache_read": "0.00000004",
+        "discount": 0
+      },
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "frequency_penalty",
+        "logit_bias",
+        "max_tokens",
+        "presence_penalty",
+        "seed",
+        "stop",
+        "temperature",
+        "top_p",
+        "tools",
+        "tool_choice",
+        "logprobs",
+        "top_logprobs",
+        "response_format"
+      ],
+      "max_completion_tokens": 235929,
+      "reasoning": null
+    },
+    {
+      "name": "NextBit | google/gemma-4-26b-a4b-it-20260403",
+      "provider_name": "NextBit",
+      "tag": "nextbit/bf16",
+      "pricing": {
+        "prompt": "0.0000000675",
+        "completion": "0.000000225",
+        "input_cache_read": "0.0000000375",
+        "discount": 0.25
+      },
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "max_tokens",
+        "temperature",
+        "top_p",
+        "stop",
+        "frequency_penalty",
+        "presence_penalty",
+        "response_format",
+        "structured_outputs",
+        "repetition_penalty",
+        "seed",
+        "logprobs",
+        "top_logprobs",
+        "tools",
+        "tool_choice"
+      ],
+      "max_completion_tokens": 235929,
+      "reasoning": null
+    },
+    {
+      "name": "DeepInfra | google/gemma-4-26b-a4b-it-20260403",
+      "provider_name": "DeepInfra",
+      "tag": "deepinfra/fp8",
+      "pricing": {
+        "prompt": "0.00000007",
+        "completion": "0.00000034",
+        "discount": 0
+      },
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "max_tokens",
+        "temperature",
+        "top_p",
+        "stop",
+        "frequency_penalty",
+        "presence_penalty",
+        "repetition_penalty",
+        "top_k",
+        "seed",
+        "min_p",
+        "tool_choice",
+        "tools",
+        "structured_outputs",
+        "response_format",
+        "logit_bias"
+      ],
+      "max_completion_tokens": 16384,
+      "reasoning": null
+    },
+    {
+      "name": "Makora | google/gemma-4-26b-a4b-it-20260403",
+      "provider_name": "Makora",
+      "tag": "makora",
+      "pricing": {
+        "prompt": "0.00000008",
+        "completion": "0.00000032",
+        "input_cache_read": "0.000000032",
+        "discount": 0
+      },
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "temperature",
+        "top_p",
+        "top_k",
+        "frequency_penalty",
+        "presence_penalty",
+        "repetition_penalty",
+        "stop",
+        "max_tokens",
+        "seed",
+        "response_format",
+        "tools",
+        "tool_choice",
+        "logprobs",
+        "top_logprobs"
+      ],
+      "max_completion_tokens": 128000,
+      "reasoning": null
+    },
+    {
+      "name": "CoreWeave | google/gemma-4-26b-a4b-it-20260403",
+      "provider_name": "CoreWeave",
+      "tag": "coreweave/bf16",
+      "pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000003",
+        "input_cache_read": "0.00000005",
+        "discount": 0
+      },
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "max_tokens",
+        "temperature",
+        "top_p",
+        "top_k",
+        "repetition_penalty",
+        "frequency_penalty",
+        "presence_penalty",
+        "stop",
+        "seed",
+        "response_format",
+        "structured_outputs",
+        "logprobs",
+        "top_logprobs"
+      ],
+      "max_completion_tokens": 235929,
+      "reasoning": null
+    },
+    {
+      "name": "Cloudflare | google/gemma-4-26b-a4b-it-20260403",
+      "provider_name": "Cloudflare",
+      "tag": "cloudflare",
+      "pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000003",
+        "input_cache_read": "0.00000005",
+        "discount": 0
+      },
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "max_tokens",
+        "temperature",
+        "top_p",
+        "top_k",
+        "seed",
+        "repetition_penalty",
+        "frequency_penalty",
+        "presence_penalty",
+        "min_p",
+        "stop",
+        "logit_bias",
+        "response_format",
+        "tools",
+        "tool_choice",
+        "logprobs",
+        "top_logprobs"
+      ],
+      "max_completion_tokens": 230400,
+      "reasoning": null
+    },
+    {
+      "name": "Venice | google/gemma-4-26b-a4b-it-20260403",
+      "provider_name": "Venice",
+      "tag": "venice/bf16",
+      "pricing": {
+        "prompt": "0.00000013",
+        "completion": "0.0000004",
+        "input_cache_read": "0.00000005",
+        "discount": 0
+      },
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "max_tokens",
+        "temperature",
+        "top_p",
+        "stop",
+        "frequency_penalty",
+        "presence_penalty",
+        "top_k",
+        "response_format",
+        "structured_outputs",
+        "tools",
+        "tool_choice",
+        "logprobs",
+        "top_logprobs"
+      ],
+      "max_completion_tokens": 8192,
+      "reasoning": null
+    },
+    {
+      "name": "Parasail | google/gemma-4-26b-a4b-it-20260403",
+      "provider_name": "Parasail",
+      "tag": "parasail/bf16",
+      "pricing": {
+        "prompt": "0.00000013",
+        "completion": "0.0000004",
+        "input_cache_read": "0.00000005",
+        "discount": 0
+      },
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "max_tokens",
+        "temperature",
+        "top_p",
+        "frequency_penalty",
+        "presence_penalty",
+        "repetition_penalty",
+        "seed",
+        "stop",
+        "top_k",
+        "logit_bias",
+        "structured_outputs",
+        "response_format",
+        "logprobs",
+        "top_logprobs"
+      ],
+      "max_completion_tokens": 235929,
+      "reasoning": null
+    },
+    {
+      "name": "Novita | google/gemma-4-26b-a4b-it-20260403",
+      "provider_name": "Novita",
+      "tag": "novita/bf16",
+      "pricing": {
+        "prompt": "0.00000013",
+        "completion": "0.0000004",
+        "discount": 0
+      },
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "max_tokens",
+        "temperature",
+        "top_p",
+        "stop",
+        "frequency_penalty",
+        "presence_penalty",
+        "seed",
+        "top_k",
+        "repetition_penalty",
+        "tools",
+        "tool_choice",
+        "response_format",
+        "logprobs",
+        "top_logprobs"
+      ],
+      "max_completion_tokens": 131072,
+      "reasoning": null
+    },
+    {
+      "name": "SiliconFlow | google/gemma-4-26b-a4b-it-20260403",
+      "provider_name": "SiliconFlow",
+      "tag": "siliconflow/fp8",
+      "pricing": {
+        "prompt": "0.00000014",
+        "completion": "0.0000004",
+        "input_cache_read": "0.00000005",
+        "discount": 0
+      },
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "temperature",
+        "top_p",
+        "top_k",
+        "frequency_penalty",
+        "max_tokens",
+        "response_format",
+        "structured_outputs"
+      ],
+      "max_completion_tokens": 235929,
+      "reasoning": null
+    },
+    {
+      "name": "Google | google/gemma-4-26b-a4b-it-20260403",
+      "provider_name": "Google",
+      "tag": "google-vertex/global",
+      "pricing": {
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
+        "discount": 0
+      },
+      "supported_parameters": [
+        "reasoning",
+        "include_reasoning",
+        "max_tokens",
+        "temperature",
+        "top_p",
+        "seed",
+        "response_format",
+        "top_k",
+        "repetition_penalty",
+        "frequency_penalty",
+        "presence_penalty",
+        "stop",
+        "tools",
+        "tool_choice",
+        "structured_outputs",
+        "logprobs",
+        "top_logprobs"
+      ],
+      "max_completion_tokens": 235929,
+      "reasoning": null
+    }
+  ],
+  "account_or_credentials_accessed": false,
+  "inference_requests": 0,
+  "interpretation": "Advertised parameters/prices only; successful full-agent native tool calling and reasoning transport remain untested"
+}

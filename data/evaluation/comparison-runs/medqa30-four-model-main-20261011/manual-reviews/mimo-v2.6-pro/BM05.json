@@ -1,0 +1,69 @@
+{
+  "question_id": "BM05",
+  "model_profile": "mimo-v2.6-pro",
+  "answer_sha256": "93e8c0efea1d60517695933b2fb6292e898d9716c1da9af4062bd7f55184ce09",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "minor_limitation"
+  },
+  "answer_notes": "Correct B. Performs substantive broader search and actually reads three found reviews, supporting transient early statin enzyme elevations, reversibility, CYP3A4 interactions and uncertainty around fibrate injury. Separates concomitant fenofibrate from offered options and does not claim patient-specific causality. The word commonly is broader than the read safety review describing liver dysfunction as rare; exact frequency/dose are not established.",
+  "researcher_reference_ids": [
+    "R4-CL02"
+  ],
+  "queries": [
+    {
+      "rating": "appropriate",
+      "notes": "Targets statin/simvastatin liver-enzyme effects, though early results are mainly experimental."
+    },
+    {
+      "rating": "appropriate",
+      "notes": "Broadens to clinical statin liver-safety reviews, then reads the found relevant records."
+    }
+  ],
+  "papers": {
+    "8835365": {
+      "rating": "partially_relevant",
+      "notes": "Simvastatin hepatotoxicity in high-dose hamsters is related, with animal/dose limitations for this routine human regimen."
+    },
+    "18712086": {
+      "rating": "irrelevant",
+      "notes": "Experimental simvastatin-glycyrrhizic-acid complex/enzyme inhibition is not evidence of this clinical hepatic adverse effect in its excerpt."
+    },
+    "16550036": {
+      "rating": "partially_relevant",
+      "notes": "General drug-induced liver disease background; visible examples are other drug groups rather than simvastatin."
+    },
+    "17967156": {
+      "rating": "partially_relevant",
+      "notes": "General idiosyncratic DILI clinical spectrum/diagnosis is related background, not drug-specific evidence."
+    },
+    "16913392": {
+      "rating": "directly_relevant",
+      "notes": "Actual full abstract read explicitly describes usually mild/asymptomatic statin liver dysfunction, reversibility and simvastatin CYP3A4 interactions."
+    },
+    "29847748": {
+      "rating": "partially_relevant",
+      "notes": "Actual read addresses fibrates and statin combination liver risks; relevant to concomitant fenofibrate but not direct standalone simvastatin evidence."
+    },
+    "22108148": {
+      "rating": "directly_relevant",
+      "notes": "Actual full abstract explicitly describes transient asymptomatic aminotransferase elevations early in statin therapy, while discussing safety in chronic liver disease."
+    }
+  },
+  "citations": {
+    "P16913392_read_b09962fdf692": {
+      "rating": "supported",
+      "notes": "The actual read explicitly supports mild reversible liver dysfunction and simvastatin CYP3A4 interaction risk; supports common pattern rather than a high incidence."
+    },
+    "P22108148_read_22a530fdcee6": {
+      "rating": "supported",
+      "notes": "Actual read explicitly describes transient asymptomatic aminotransferase elevation in the first 12 weeks; patient causality is not inferred."
+    },
+    "P29847748_read_e582971b746c": {
+      "rating": "supported",
+      "notes": "Actual read explicitly states inconsistent fibrate-hepatotoxicity findings and increased combination risk in one meta-analysis, matching the secondary differential discussion."
+    }
+  }
+}

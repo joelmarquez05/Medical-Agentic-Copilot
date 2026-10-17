@@ -1,0 +1,1585 @@
+{
+  "records": [
+    {
+      "question_id": "ON01",
+      "started_at_utc": "2026-10-10T16:33:36+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.34414,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 718,
+        "output_tokens": 261,
+        "total_tokens": 979,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 1
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 261,
+        "prompt_tokens": 718,
+        "total_tokens": 979,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.001280802,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.001280802,
+          "upstream_inference_prompt_cost": 2.8002e-05,
+          "upstream_inference_completions_cost": 0.0012528
+        }
+      },
+      "cost_usd": 0.001280802,
+      "model_name": "z-ai/glm-5.3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 2.689
+    },
+    {
+      "question_id": "ON01",
+      "started_at_utc": "2026-10-10T16:33:39+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.493552,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 9956,
+        "output_tokens": 695,
+        "total_tokens": 10651,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 0
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 695,
+        "prompt_tokens": 9956,
+        "total_tokens": 10651,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.003724284,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.003724284,
+          "upstream_inference_prompt_cost": 0.000388284,
+          "upstream_inference_completions_cost": 0.003336
+        }
+      },
+      "cost_usd": 0.003724284,
+      "model_name": "z-ai/glm-5.3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 5.008
+    },
+    {
+      "question_id": "ON01",
+      "started_at_utc": "2026-10-10T16:33:44+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.507684,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 10892,
+        "output_tokens": 1434,
+        "total_tokens": 12326,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 411
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 1434,
+        "prompt_tokens": 10892,
+        "total_tokens": 12326,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 411,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.007307988,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.007307988,
+          "upstream_inference_prompt_cost": 0.000424788,
+          "upstream_inference_completions_cost": 0.0068832
+        }
+      },
+      "cost_usd": 0.007307988,
+      "model_name": "z-ai/glm-5.3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 10.791
+    },
+    {
+      "question_id": "ON01",
+      "started_at_utc": "2026-10-10T16:33:55+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.523944,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 11779,
+        "output_tokens": 897,
+        "total_tokens": 12676,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 42
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 897,
+        "prompt_tokens": 11779,
+        "total_tokens": 12676,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 42,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.004764981,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.004764981,
+          "upstream_inference_prompt_cost": 0.000459381,
+          "upstream_inference_completions_cost": 0.0043056
+        }
+      },
+      "cost_usd": 0.004764981,
+      "model_name": "z-ai/glm-5.3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 5.294
+    },
+    {
+      "question_id": "ON01",
+      "started_at_utc": "2026-10-10T16:34:00+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.5115,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 11045,
+        "output_tokens": 1598,
+        "total_tokens": 12643,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 10112,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 159
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 1598,
+        "prompt_tokens": 11045,
+        "total_tokens": 12643,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 159,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 10112,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.008091043,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.008091043,
+          "upstream_inference_prompt_cost": 0.000420643,
+          "upstream_inference_completions_cost": 0.0076704
+        }
+      },
+      "cost_usd": 0.008091043,
+      "model_name": "z-ai/glm-5.3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 11.233
+    },
+    {
+      "question_id": "ON02",
+      "started_at_utc": "2026-10-10T16:41:26+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.344116,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 712,
+        "output_tokens": 218,
+        "total_tokens": 930,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 1
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 218,
+        "prompt_tokens": 712,
+        "total_tokens": 930,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.001074168,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.001074168,
+          "upstream_inference_prompt_cost": 2.7768e-05,
+          "upstream_inference_completions_cost": 0.0010464
+        }
+      },
+      "cost_usd": 0.001074168,
+      "model_name": "z-ai/glm-5.3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 1.706
+    },
+    {
+      "question_id": "ON02",
+      "started_at_utc": "2026-10-10T16:41:28+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.454752,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 7826,
+        "output_tokens": 664,
+        "total_tokens": 8490,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 1
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 664,
+        "prompt_tokens": 7826,
+        "total_tokens": 8490,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.003492414,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.003492414,
+          "upstream_inference_prompt_cost": 0.000305214,
+          "upstream_inference_completions_cost": 0.0031872
+        }
+      },
+      "cost_usd": 0.003492414,
+      "model_name": "z-ai/glm-5.3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 4.61
+    },
+    {
+      "question_id": "ON02",
+      "started_at_utc": "2026-10-10T16:41:32+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.467996,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 8697,
+        "output_tokens": 596,
+        "total_tokens": 9293,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 161
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 596,
+        "prompt_tokens": 8697,
+        "total_tokens": 9293,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 161,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.003199983,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.003199983,
+          "upstream_inference_prompt_cost": 0.000339183,
+          "upstream_inference_completions_cost": 0.0028608
+        }
+      },
+      "cost_usd": 0.003199983,
+      "model_name": "z-ai/glm-5.3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 3.749
+    },
+    {
+      "question_id": "ON03",
+      "started_at_utc": "2026-10-10T16:50:30+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.344236,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 714,
+        "output_tokens": 175,
+        "total_tokens": 889,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 1
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 175,
+        "prompt_tokens": 714,
+        "total_tokens": 889,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.000867846,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.000867846,
+          "upstream_inference_prompt_cost": 2.7846e-05,
+          "upstream_inference_completions_cost": 0.00084
+        }
+      },
+      "cost_usd": 0.000867846,
+      "model_name": "z-ai/glm-5.3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 2.304
+    },
+    {
+      "question_id": "ON03",
+      "started_at_utc": "2026-10-10T16:50:32+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.444524,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 6910,
+        "output_tokens": 689,
+        "total_tokens": 7599,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 1
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 689,
+        "prompt_tokens": 6910,
+        "total_tokens": 7599,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.00357669,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.00357669,
+          "upstream_inference_prompt_cost": 0.00026949,
+          "upstream_inference_completions_cost": 0.0033072
+        }
+      },
+      "cost_usd": 0.00357669,
+      "model_name": "z-ai/glm-5.3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 4.108
+    },
+    {
+      "question_id": "ON03",
+      "started_at_utc": "2026-10-10T16:50:36+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.458656,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 7827,
+        "output_tokens": 1439,
+        "total_tokens": 9266,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 356
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 1439,
+        "prompt_tokens": 7827,
+        "total_tokens": 9266,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 356,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.007212453,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.007212453,
+          "upstream_inference_prompt_cost": 0.000305253,
+          "upstream_inference_completions_cost": 0.0069072
+        }
+      },
+      "cost_usd": 0.007212453,
+      "model_name": "z-ai/glm-5.3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 8.433
+    },
+    {
+      "question_id": "ON03",
+      "started_at_utc": "2026-10-10T16:50:45+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.47702,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 8702,
+        "output_tokens": 764,
+        "total_tokens": 9466,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 640,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 31
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 764,
+        "prompt_tokens": 8702,
+        "total_tokens": 9466,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 31,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 640,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.004005938,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.004005938,
+          "upstream_inference_prompt_cost": 0.000338738,
+          "upstream_inference_completions_cost": 0.0036672
+        }
+      },
+      "cost_usd": 0.004005938,
+      "model_name": "z-ai/glm-5.3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 4.156
+    },
+    {
+      "question_id": "ON03",
+      "started_at_utc": "2026-10-10T16:50:49+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.459908,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 7873,
+        "output_tokens": 985,
+        "total_tokens": 8858,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 7104,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 162
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 985,
+        "prompt_tokens": 7873,
+        "total_tokens": 8858,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 162,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 7104,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.005027943,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.005027943,
+          "upstream_inference_prompt_cost": 0.000299943,
+          "upstream_inference_completions_cost": 0.004728
+        }
+      },
+      "cost_usd": 0.005027943,
+      "model_name": "z-ai/glm-5.3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 7.106
+    },
+    {
+      "question_id": "ON04",
+      "started_at_utc": "2026-10-10T17:01:18+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.344128,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 703,
+        "output_tokens": 188,
+        "total_tokens": 891,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 1
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 188,
+        "prompt_tokens": 703,
+        "total_tokens": 891,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.000929817,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.000929817,
+          "upstream_inference_prompt_cost": 2.7417e-05,
+          "upstream_inference_completions_cost": 0.0009024
+        }
+      },
+      "cost_usd": 0.000929817,
+      "model_name": "z-ai/glm-5.3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 1.924
+    },
+    {
+      "question_id": "ON04",
+      "started_at_utc": "2026-10-10T17:01:20+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.76848,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 42082,
+        "output_tokens": 908,
+        "total_tokens": 42990,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 1
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 908,
+        "prompt_tokens": 42082,
+        "total_tokens": 42990,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.005999598,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.005999598,
+          "upstream_inference_prompt_cost": 0.001641198,
+          "upstream_inference_completions_cost": 0.0043584
+        }
+      },
+      "cost_usd": 0.005999598,
+      "model_name": "z-ai/glm-5.3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 8.54
+    },
+    {
+      "question_id": "ON04",
+      "started_at_utc": "2026-10-10T17:01:28+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.78562,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 43177,
+        "output_tokens": 1072,
+        "total_tokens": 44249,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 279
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 1072,
+        "prompt_tokens": 43177,
+        "total_tokens": 44249,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 279,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.006829503,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.006829503,
+          "upstream_inference_prompt_cost": 0.001683903,
+          "upstream_inference_completions_cost": 0.0051456
+        }
+      },
+      "cost_usd": 0.006829503,
+      "model_name": "z-ai/glm-5.3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 7.435
+    },
+    {
+      "question_id": "ON04",
+      "started_at_utc": "2026-10-10T17:01:36+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.36026,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 1595,
+        "output_tokens": 878,
+        "total_tokens": 2473,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 832,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 85
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 878,
+        "prompt_tokens": 1595,
+        "total_tokens": 2473,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 85,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 832,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.004275773,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.004275773,
+          "upstream_inference_prompt_cost": 6.1373e-05,
+          "upstream_inference_completions_cost": 0.0042144
+        }
+      },
+      "cost_usd": 0.004275773,
+      "model_name": "z-ai/glm-5.3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 3.873
+    },
+    {
+      "question_id": "ON04",
+      "started_at_utc": "2026-10-10T17:01:39+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.798204,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 43794,
+        "output_tokens": 926,
+        "total_tokens": 44720,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 1
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 926,
+        "prompt_tokens": 43794,
+        "total_tokens": 44720,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.006152766,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.006152766,
+          "upstream_inference_prompt_cost": 0.001707966,
+          "upstream_inference_completions_cost": 0.0044448
+        }
+      },
+      "cost_usd": 0.006152766,
+      "model_name": "z-ai/glm-5.3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 6.565
+    },
+    {
+      "question_id": "ON04",
+      "started_at_utc": "2026-10-10T17:01:46+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.786268,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 43209,
+        "output_tokens": 1303,
+        "total_tokens": 44512,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 42496,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 206
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 1303,
+        "prompt_tokens": 43209,
+        "total_tokens": 44512,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 206,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 42496,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.007897055,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.007897055,
+          "upstream_inference_prompt_cost": 0.001642655,
+          "upstream_inference_completions_cost": 0.0062544
+        }
+      },
+      "cost_usd": 0.007897055,
+      "model_name": "z-ai/glm-5.3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 7.305
+    },
+    {
+      "question_id": "ON05",
+      "started_at_utc": "2026-10-10T17:15:48+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.343988,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 704,
+        "output_tokens": 231,
+        "total_tokens": 935,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 1
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 231,
+        "prompt_tokens": 704,
+        "total_tokens": 935,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.001136256,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.001136256,
+          "upstream_inference_prompt_cost": 2.7456e-05,
+          "upstream_inference_completions_cost": 0.0011088
+        }
+      },
+      "cost_usd": 0.001136256,
+      "model_name": "z-ai/glm-5.3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 1.897
+    },
+    {
+      "question_id": "ON05",
+      "started_at_utc": "2026-10-10T17:15:50+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.504676,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 10085,
+        "output_tokens": 974,
+        "total_tokens": 11059,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 1
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 974,
+        "prompt_tokens": 10085,
+        "total_tokens": 11059,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.005068515,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.005068515,
+          "upstream_inference_prompt_cost": 0.000393315,
+          "upstream_inference_completions_cost": 0.0046752
+        }
+      },
+      "cost_usd": 0.005068515,
+      "model_name": "z-ai/glm-5.3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 5.686
+    },
+    {
+      "question_id": "ON05",
+      "started_at_utc": "2026-10-10T17:15:56+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.523572,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 11315,
+        "output_tokens": 1247,
+        "total_tokens": 12562,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 284
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 1247,
+        "prompt_tokens": 11315,
+        "total_tokens": 12562,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 284,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.006426885,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.006426885,
+          "upstream_inference_prompt_cost": 0.000441285,
+          "upstream_inference_completions_cost": 0.0059856
+        }
+      },
+      "cost_usd": 0.006426885,
+      "model_name": "z-ai/glm-5.3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 18.565
+    },
+    {
+      "question_id": "ON06",
+      "started_at_utc": "2026-10-10T17:20:12+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.34424,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 712,
+        "output_tokens": 170,
+        "total_tokens": 882,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 1
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 170,
+        "prompt_tokens": 712,
+        "total_tokens": 882,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.000843768,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.000843768,
+          "upstream_inference_prompt_cost": 2.7768e-05,
+          "upstream_inference_completions_cost": 0.000816
+        }
+      },
+      "cost_usd": 0.000843768,
+      "model_name": "z-ai/glm-5.3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 1.338
+    },
+    {
+      "question_id": "ON06",
+      "started_at_utc": "2026-10-10T17:20:13+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.737332,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 40140,
+        "output_tokens": 692,
+        "total_tokens": 40832,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 1
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 692,
+        "prompt_tokens": 40140,
+        "total_tokens": 40832,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.00488706,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.00488706,
+          "upstream_inference_prompt_cost": 0.00156546,
+          "upstream_inference_completions_cost": 0.0033216
+        }
+      },
+      "cost_usd": 0.00488706,
+      "model_name": "z-ai/glm-5.3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 7.084
+    },
+    {
+      "question_id": "ON06",
+      "started_at_utc": "2026-10-10T17:20:20+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.752184,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 41061,
+        "output_tokens": 1266,
+        "total_tokens": 42327,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 554
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 1266,
+        "prompt_tokens": 41061,
+        "total_tokens": 42327,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 554,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.007678179,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.007678179,
+          "upstream_inference_prompt_cost": 0.001601379,
+          "upstream_inference_completions_cost": 0.0060768
+        }
+      },
+      "cost_usd": 0.007678179,
+      "model_name": "z-ai/glm-5.3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 9.484
+    },
+    {
+      "question_id": "ON06",
+      "started_at_utc": "2026-10-10T17:20:29+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.765688,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 41650,
+        "output_tokens": 840,
+        "total_tokens": 42490,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 1
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 840,
+        "prompt_tokens": 41650,
+        "total_tokens": 42490,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.00565635,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.00565635,
+          "upstream_inference_prompt_cost": 0.00162435,
+          "upstream_inference_completions_cost": 0.004032
+        }
+      },
+      "cost_usd": 0.00565635,
+      "model_name": "z-ai/glm-5.3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 7.616
+    },
+    {
+      "question_id": "ON06",
+      "started_at_utc": "2026-10-10T17:20:37+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.75412,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 41189,
+        "output_tokens": 1081,
+        "total_tokens": 42270,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 99
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 1081,
+        "prompt_tokens": 41189,
+        "total_tokens": 42270,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 99,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.006795171,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.006795171,
+          "upstream_inference_prompt_cost": 0.001606371,
+          "upstream_inference_completions_cost": 0.0051888
+        }
+      },
+      "cost_usd": 0.006795171,
+      "model_name": "z-ai/glm-5.3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 11.63
+    },
+    {
+      "question_id": "ON07",
+      "started_at_utc": "2026-10-10T17:22:06+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.344108,
+      "request_sent": true,
+      "status": "error",
+      "error_type": "OpenAIConnectionError",
+      "error_http_status": null,
+      "cause_type": "APIConnectionError",
+      "elapsed_seconds": 0.003
+    },
+    {
+      "question_id": "ON08",
+      "started_at_utc": "2026-10-10T17:22:07+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.34394,
+      "request_sent": true,
+      "status": "error",
+      "error_type": "OpenAIConnectionError",
+      "error_http_status": null,
+      "cause_type": "APIConnectionError",
+      "elapsed_seconds": 0.004
+    },
+    {
+      "question_id": "ON09",
+      "started_at_utc": "2026-10-10T17:22:48+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.344068,
+      "request_sent": true,
+      "status": "error",
+      "error_type": "OpenAIConnectionError",
+      "error_http_status": null,
+      "cause_type": "APIConnectionError",
+      "elapsed_seconds": 0.003
+    }
+  ],
+  "budget": {
+    "limit_usd": 8.0,
+    "reported_or_estimated_spend_usd": 3.65147843,
+    "unreported_charge_reserve_usd": 3.49294,
+    "policy": "Before each paid request, reserve a conservative prompt-byte estimate plus the full output cap at configured provider price ceilings. Failed requests without usage retain that reserve. This is a local guard, not a provider billing guarantee."
+  }
+}

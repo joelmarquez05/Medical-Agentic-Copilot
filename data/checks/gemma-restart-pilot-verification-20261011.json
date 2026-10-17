@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "stage": "pilot",
+  "run_id": "gemma-restart-pilot-20261011",
+  "checks": "Frozen source/input/key/profile/protocol/rubric hashes; exact replayed prompts/actions/answers/traces; empty evidence/history/tools; separate keys; numeric costs; no credential-shaped strings or private reasoning fields.",
+  "cases": [
+    {
+      "question_id": "PILOT-01",
+      "answer_sha256": "9592022414451cdccbe370c70342fc1059da3aa74b6b38e1b3e19b88db1063a1",
+      "status": "completed",
+      "replayed_saved_responses": 1
+    }
+  ],
+  "new_provider_requests": 0,
+  "new_pubmed_requests": 0,
+  "credential_files_read": 0,
+  "tool_execution_attempts": 0,
+  "account_ledger_delta_usd": 0.0,
+  "provider_reported_or_estimated_usd": 0.0002038725,
+  "ledger_delta_matches_recorded_usage": false
+}

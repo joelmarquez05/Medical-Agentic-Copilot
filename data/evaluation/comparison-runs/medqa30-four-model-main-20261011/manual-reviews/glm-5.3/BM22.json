@@ -1,0 +1,44 @@
+{
+  "question_id": "BM22",
+  "model_profile": "glm-5.3",
+  "answer_sha256": "9e37a282a8447c3889ab88b98e0b82e21b6a45e03cde59b8d4e98858fdd287a3",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "minor_limitation"
+  },
+  "answer_notes": "Correct sitagliptin/DPP-4 mechanism with explicit reliance on pharmacology for incretin preservation. However, the claim that the triple-drug trial excerpt confirms sitagliptin classification is not present, and the retinal excerpt does not name sitagliptin. Correct names in an article title do not verify a drug-class mechanism.",
+  "researcher_reference_ids": [],
+  "queries": [
+    {
+      "rating": "appropriate",
+      "notes": "Direct drug-class/incretin mechanism query, despite tangential ranking."
+    }
+  ],
+  "papers": {
+    "37258803": {
+      "rating": "partially_relevant",
+      "notes": "Sitagliptin T2DM treatment trial methods, no classification/mechanism in delivered excerpt."
+    },
+    "28538228": {
+      "rating": "irrelevant",
+      "notes": "Psoriasis background and metabolic comorbidities, no incretin mechanism delivered."
+    },
+    "28779212": {
+      "rating": "partially_relevant",
+      "notes": "Retinal DPP-IV experimental objective is related class context, not sitagliptin identity or incretin mechanism."
+    }
+  },
+  "citations": {
+    "P37258803_search_f0268d1e1264": {
+      "rating": "unsupported",
+      "notes": "Neither delivered title nor excerpt states sitagliptin is a DPP-4 inhibitor."
+    },
+    "P28779212_search_d72db75dc0e8": {
+      "rating": "partially_supported",
+      "notes": "DPP-IV inhibitors are named, but no sitagliptin identity or full incretin mechanism appears."
+    }
+  },
+  "inline_citations": {}
+}

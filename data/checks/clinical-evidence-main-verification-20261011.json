@@ -1,0 +1,104 @@
+{
+  "passed": true,
+  "run_id": "gemma-evidence-main-20261011",
+  "stage": "autonomous",
+  "cases": [
+    {
+      "question_id": "IC01",
+      "answer_sha256": "f6eda997bde5ec050a81e00a0402464ffdad83e2d6d72e1c5adf73c8554ab9d2",
+      "replayed_model_responses": 1,
+      "replayed_logical_http_requests": 0,
+      "status": "completed",
+      "tool_actions": 0
+    },
+    {
+      "question_id": "IC02",
+      "answer_sha256": "8c1b0848a5b219dbd95f529da30c52ea3a63342f75c588b7d6516c03940d7a96",
+      "replayed_model_responses": 1,
+      "replayed_logical_http_requests": 0,
+      "status": "completed",
+      "tool_actions": 0
+    },
+    {
+      "question_id": "IC03",
+      "answer_sha256": "e5e028fcca9bd4b2d6174e6c1a3ee66d05e6d796b32117ce9b0884691589f45a",
+      "replayed_model_responses": 1,
+      "replayed_logical_http_requests": 0,
+      "status": "completed",
+      "tool_actions": 0
+    },
+    {
+      "question_id": "IC04",
+      "answer_sha256": "e31461a47d423a93e3050588f199b1dbe8b1399f373daccf8c70c73dd11cd280",
+      "replayed_model_responses": 1,
+      "replayed_logical_http_requests": 0,
+      "status": "completed",
+      "tool_actions": 0
+    },
+    {
+      "question_id": "IC05",
+      "answer_sha256": "8dc6f350ff95d0e507a377de6cd6de0a4d28d674ca82c0d835078b9ff2d8e623",
+      "replayed_model_responses": 1,
+      "replayed_logical_http_requests": 0,
+      "status": "completed",
+      "tool_actions": 0
+    },
+    {
+      "question_id": "IC06",
+      "answer_sha256": "5846f56ec4234e7477d033efc0345929963a9380ae5ef926b68c582d06c22fb7",
+      "replayed_model_responses": 1,
+      "replayed_logical_http_requests": 0,
+      "status": "completed",
+      "tool_actions": 0
+    },
+    {
+      "question_id": "IC07",
+      "answer_sha256": "e165e218211ade788f8d3ac62f5182e4b6cfeef847cc06583e393fdd9f29873b",
+      "replayed_model_responses": 1,
+      "replayed_logical_http_requests": 0,
+      "status": "completed",
+      "tool_actions": 0
+    },
+    {
+      "question_id": "IC08",
+      "answer_sha256": "ecced9c865cfaa7f519b7ff345fad1fd46fa764e2e2ecd19d7b8af45945a8c0e",
+      "replayed_model_responses": 2,
+      "replayed_logical_http_requests": 2,
+      "status": "invalid_model_output",
+      "tool_actions": 1
+    },
+    {
+      "question_id": "IC09",
+      "answer_sha256": "1595851286b3bc5ca8e72027bc6c6260787be2f7204485b322ac5eef49f2b60d",
+      "replayed_model_responses": 3,
+      "replayed_logical_http_requests": 3,
+      "status": "completed",
+      "tool_actions": 2
+    },
+    {
+      "question_id": "IC10",
+      "answer_sha256": "09a999013f64993ea49297c150ae2dd6cbffc817cff687d8947c1470a7752ffc",
+      "replayed_model_responses": 3,
+      "replayed_logical_http_requests": 4,
+      "status": "limit_reached",
+      "tool_actions": 2
+    }
+  ],
+  "baseline_core_source_unchanged": true,
+  "question_key_profile_unchanged": true,
+  "current_extension_source_matches_snapshot": {
+    "clinical_graph.py": true,
+    "clinical_evaluation.py": true,
+    "clinical_literature.py": true,
+    "clinical_literature_evaluation.py": true,
+    "pubmed.py": true,
+    "models.py": true,
+    "config.py": true,
+    "comparison_evaluation.py": true,
+    "evaluation.py": true
+  },
+  "new_provider_requests": 0,
+  "new_pubmed_requests": 0,
+  "credential_files_read": 0,
+  "interpretation": "Exact saved-prompt/action/source/HTTP replay plus hashes and input isolation; not medical correctness or substantive citation support validation."
+}

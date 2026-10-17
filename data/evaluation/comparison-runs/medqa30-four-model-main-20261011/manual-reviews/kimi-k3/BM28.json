@@ -1,0 +1,41 @@
+{
+  "question_id": "BM28",
+  "model_profile": "kimi-k3",
+  "answer_sha256": "9741f95a7e4b9dfc2acfcf29815d7215d116bd82a6a3651ec6393fbdf265495a",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "consistent"
+  },
+  "answer_notes": "Matches the key and recognizes the new antiemetic temporal clue as possible dopamine-blocker NMS, rather than declaring a particular party drug. Does not falsely cite the MDMA/MH hits as NMS management evidence. Dantrolene as an adjunct here is clinical knowledge, not comparative efficacy established by the Reglan label.",
+  "researcher_reference_ids": [
+    "R4-CL12"
+  ],
+  "queries": [
+    {
+      "rating": "partially_appropriate",
+      "notes": "Broad toxin management terms but assumes MDMA/serotonin mechanism and restricts results with intubation."
+    },
+    {
+      "rating": "partially_appropriate",
+      "notes": "Finds MDMA treatment cases, but does not pursue the later recognized antiemetic/NMS mechanism."
+    }
+  ],
+  "papers": {
+    "1355634": {
+      "rating": "partially_relevant",
+      "notes": "Complete short MDMA overdose abstract reports dantrolene use, not NMS or a comparative recommendation."
+    },
+    "12838644": {
+      "rating": "partially_relevant",
+      "notes": "MH/anaesthetic/ecstasy review, different trigger context from likely antiemetic NMS."
+    },
+    "9315942": {
+      "rating": "partially_relevant",
+      "notes": "Extreme MDMA hyperpyrexia case with ventilation/dantrolene; this patient has no confirmed MDMA exposure."
+    }
+  },
+  "citations": {},
+  "inline_citations": {}
+}

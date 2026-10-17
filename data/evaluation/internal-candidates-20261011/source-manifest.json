@@ -1,0 +1,11 @@
+{
+  "repository": "GBaker/MedQA-USMLE-4-options",
+  "revision": "0fb93dd23a7339b6dcd27e241cb9b5eca62d4d18",
+  "url": "https://huggingface.co/datasets/GBaker/MedQA-USMLE-4-options/resolve/0fb93dd23a7339b6dcd27e241cb9b5eca62d4d18/phrases_no_exclude_train.jsonl",
+  "file": "source-train.jsonl",
+  "sha256": "3a65baf760f17c395058d6699315a7ce8aa767c50cb193fea87ceb94dd790324",
+  "rows": 10178,
+  "split": "train",
+  "purpose": "Candidate internal development question selection; no inference",
+  "keys_checked": true
+}

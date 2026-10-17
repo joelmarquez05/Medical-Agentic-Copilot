@@ -1,0 +1,48 @@
+{
+  "stage": "autonomous",
+  "planned": 10,
+  "recorded": 10,
+  "statuses": {
+    "completed": 8,
+    "invalid_model_output": 1,
+    "limit_reached": 1
+  },
+  "provider_requests": 15,
+  "reported_or_estimated_cost_usd": 0.00533697,
+  "unknown_charge_records": 0,
+  "tool_action_attempts": 5,
+  "tool_execution_attempts": 5,
+  "tool_statuses": {
+    "ok": 5
+  },
+  "tool_names": {
+    "search_pubmed": 4,
+    "read_pubmed_abstract": 1
+  },
+  "episodes_with_search": 3,
+  "episodes_without_search": 7,
+  "pubmed_logical_http_requests": 9,
+  "pubmed_http_attempts": 9,
+  "question_paper_pairs": 12,
+  "input_tokens": 45494,
+  "output_tokens": 10605,
+  "reasoning_tokens": 8184,
+  "correct": 7,
+  "valid_completed": 8,
+  "incorrect_completed": 1,
+  "transitions": {
+    "both_correct": 7,
+    "both_wrong": 1,
+    "operationally_incomplete": 2
+  },
+  "by_key_type": {
+    "published_trial_fact": {
+      "planned": 3,
+      "correct": 1
+    },
+    "released_medqa_label": {
+      "planned": 7,
+      "correct": 6
+    }
+  }
+}

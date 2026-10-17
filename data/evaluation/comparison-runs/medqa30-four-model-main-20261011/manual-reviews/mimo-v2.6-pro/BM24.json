@@ -1,0 +1,40 @@
+{
+  "question_id": "BM24",
+  "model_profile": "mimo-v2.6-pro",
+  "answer_sha256": "9c9908ccb5cfd3310f957553b16a8803ef80b3c09d8cee9d47216164ba17a0bd",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "minor_limitation",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "consistent"
+  },
+  "answer_notes": "Correct elevated TSH, with useful actual reading of the three Hashimoto clinical states. The vignette does not prove Hashimoto specifically; pediatric hyperthyroid-phase resolution is not itself evidence that every such patient proceeds to adult hypothyroidism.",
+  "researcher_reference_ids": [],
+  "queries": [
+    {
+      "rating": "appropriate",
+      "notes": "Direct hashitoxicosis-to-hypothyroidism natural-history query."
+    }
+  ],
+  "papers": {
+    "35243857": {
+      "rating": "directly_relevant",
+      "notes": "Read guide explicitly describes destructive thyrotoxicosis, euthyroidism and hypothyroidism."
+    },
+    "29415743": {
+      "rating": "partially_relevant",
+      "notes": "Read pediatric commentary supports variable evolution and hyperthyroid-phase resolution, not this adult-specific sequence."
+    }
+  },
+  "citations": {
+    "P35243857_read_c1ee1f31307b": {
+      "rating": "supported",
+      "notes": "Actually read clinical states and hormone destruction/replacement support the described plausible thyroiditis trajectory."
+    },
+    "P29415743_read_03f2c801dbc9": {
+      "rating": "partially_supported",
+      "notes": "Hyperthyroid resolution and variable pediatric evolution are present; adult progression to hypothyroidism is not established by this record."
+    }
+  },
+  "inline_citations": {}
+}

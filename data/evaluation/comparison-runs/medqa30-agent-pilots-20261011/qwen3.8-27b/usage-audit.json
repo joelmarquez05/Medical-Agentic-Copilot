@@ -1,0 +1,60 @@
+{
+  "records": [
+    {
+      "question_id": "PILOT-01",
+      "started_at_utc": "2026-10-11T20:05:20+00:00",
+      "estimated_maximum_usd": 0.023327254999999998,
+      "request_sent": true,
+      "status": "ok",
+      "usage": {
+        "input_tokens": 1866,
+        "output_tokens": 168,
+        "total_tokens": 2034
+      },
+      "provider_usage": {
+        "prompt_tokens": 1866,
+        "completion_tokens": 168,
+        "total_tokens": 2034,
+        "cost": 0.00030144,
+        "reasoning_tokens": 126
+      },
+      "cost_usd": 0.00030144,
+      "cost_basis": "Provider-reported usage.cost.",
+      "finish_reason": "stop",
+      "model_name": "qwen/qwen3.8-27b",
+      "provider_route": "Configured pin; actual route not independently exposed by this response.",
+      "elapsed_seconds": 3.386
+    },
+    {
+      "question_id": "PILOT-01",
+      "started_at_utc": "2026-10-11T20:05:24+00:00",
+      "estimated_maximum_usd": 0.02344214,
+      "request_sent": true,
+      "status": "ok",
+      "usage": {
+        "input_tokens": 2597,
+        "output_tokens": 455,
+        "total_tokens": 3052
+      },
+      "provider_usage": {
+        "prompt_tokens": 2597,
+        "completion_tokens": 455,
+        "total_tokens": 3052,
+        "cost": 0.00071813,
+        "reasoning_tokens": 313
+      },
+      "cost_usd": 0.00071813,
+      "cost_basis": "Provider-reported usage.cost.",
+      "finish_reason": "stop",
+      "model_name": "qwen/qwen3.8-27b",
+      "provider_route": "Configured pin; actual route not independently exposed by this response.",
+      "elapsed_seconds": 7.259
+    }
+  ],
+  "budget": {
+    "limit_usd": 6.0,
+    "reported_or_estimated_spend_usd": 3.92717972,
+    "unreported_charge_reserve_usd": 0.15,
+    "policy": "Before each paid request, reserve a conservative prompt-byte estimate plus the full output cap at configured provider price ceilings. Failed requests without usage retain that reserve. This is a local guard, not a provider billing guarantee."
+  }
+}

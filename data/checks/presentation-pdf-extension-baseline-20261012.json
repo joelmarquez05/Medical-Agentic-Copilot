@@ -1,0 +1,29 @@
+{
+  "guion_sha256": "6e412286751f427a6d38dba7eb8694474684065c7e8c5d13846b21de40979f72",
+  "guion_bytes": 26699,
+  "guion_backup": "tmp\\presentation-pdf-extension-20261012\\guion-before.md",
+  "original_slide_sha256": {
+    "slides\\diapositiva_0.png": "402ca118fdf6ccba4103756521fb791978b00cefc3fece805e81b554216cfec9",
+    "slides\\diapositiva_1.png": "2217c2a311d1d0bb2fb9813da26b737a774d7324c59ba472900c0cdbd3e0804e",
+    "slides\\diapositiva_2.png": "0e417e65f5db65f86c2c95dd283f41e937fe858ca787ee04bbcf24d5ae81c8c4",
+    "slides\\diapositiva_3.png": "bd57d6a4ff131a6a680109e44a578e7f5665db7c221adeb69033bba73967705c",
+    "slides\\diapositiva_4.png": "0a168b590274c8cd1ea1c33da5fd4195d98e11046d89b7714249b5e96fa1087b",
+    "slides\\diapositiva_5.png": "4905f2f4f250f3a0559d5db63ec39801ee38240646fb79e94edc2359753c75b0",
+    "slides\\diapositiva_6.png": "785252d248e2f26da19f5f1963251932a43fb870b875bd7b83b1237ee03ba427",
+    "slides\\diapositiva_7.png": "7f1b69f15ef73fb0c7be9aebc6b5a54d327542bbd1cb8289df960068939f1550",
+    "slides\\diapositiva_8.png": "01134e8e2b852b7981b14729b2911077718ef3dc89bcaa530bb6b93aa57148ff",
+    "slides\\diapositiva_9.png": "5c997a610801107605924a7cdd383d7207ca4cbdec8ffc38b4acdf9e08e4c381",
+    "slides\\diapositiva_10.png": "4ec66ed8d767c1fdb9b96da281dd362288f3ec8bb90104a6d61ab6c46e44fef9",
+    "slides\\diapositiva_11.png": "b8400da1fc4604aca295fa6ce9377737faef4f659fd75e8fb86fab862ed8f24f",
+    "slides\\diapositiva_12.png": "082b7ade8a7b2b7dddddab913146aad6e972718bae4fc40b37f41ea95614dbaf",
+    "slides\\diapositiva_13.png": "68387919c63a0678d9faf2c011a58681eb43cf6bd9d7d8c41dae7b8a5fb9c1e1",
+    "slides\\diapositiva_14.png": "4decda8600ae03e20bf80c2b7db18ea16270d6c42cef40f0b38bf5cfac69416a",
+    "slides\\diapositiva_15.png": "242c32ec5a4d2e3a668ca60d4ff663cae22d1225f44999099717edbbe5affd75",
+    "slides\\diapositiva_16.png": "a8ead67dc514f9dfb59bdd0df0cf649c69af8cdfc1e770ca158c96f9729e5d62",
+    "slides\\diapositiva_17.png": "706e6e04e19b93219a368108798ade4cce92452dfc1b26c2d793fb6a75d8989c",
+    "slides\\diapositiva_18.png": "3d97a1eaea7fd435e15321ffa4bae6f1f85b022b973f40d432632b05a668474e",
+    "slides\\diapositiva_19.png": "e1805dae330749dd21a81d1a9e84ebc4061dbe484055632f7863e852f9bdc404"
+  },
+  "source_report_sha256": "e498e2eccce4e6277275e7e6bd5f3d82c320917cb3dd04f415990e2541efff4f",
+  "source_metrics_sha256": "43ba35d25be1f582764c3b3e8efb64b372de04d9377fb71124faf0f28ca76a1a"
+}

@@ -1,0 +1,67 @@
+{
+  "question_id": "BM16",
+  "model_profile": "mimo-v2.6-pro",
+  "answer_sha256": "67c5a8cc77ff70ba18a025e05885b1ba808d4b56d54ef35722787d59de37df4c",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "minor_limitation",
+    "calibration_and_provenance": "minor_limitation"
+  },
+  "answer_notes": "Correct A. Actually reads a doxycycline/prednisolone economic analysis and comparative meta-analysis, acknowledges the negative cost-effectiveness finding, risk-stratification gap and unverified hospitalized-trial result. Those studies establish that doxycycline was studied/classified first-line, not that every exacerbation is proven bacterial or that it is uniquely optimal. The phrase acute bronchitis/COPD blurs chronic-bronchitis exacerbation with uncomplicated acute bronchitis, for which CDC does not recommend routine antibiotics; this does not negate the COPD option.",
+  "researcher_reference_ids": [
+    "R5-CL05",
+    "R5-CL06"
+  ],
+  "queries": [
+    {
+      "rating": "appropriate",
+      "notes": "Targets acute COPD antibiotic/doxycycline randomized evidence."
+    },
+    {
+      "rating": "appropriate",
+      "notes": "Seeks the specific doxycycline/prednisolone clinical trial after reading indirect economic/comparative evidence."
+    }
+  ],
+  "papers": {
+    "33448349": {
+      "rating": "partially_relevant",
+      "notes": "Long-term prophylactic-antibiotic network meta-analysis is a different allocation from treating this acute exacerbation."
+    },
+    "20053967": {
+      "rating": "directly_relevant",
+      "notes": "Title-only editorial directly poses whether acute-COPD-exacerbation antibiotics are needed; no evidence/results are available in this view."
+    },
+    "30565022": {
+      "rating": "directly_relevant",
+      "notes": "Actual read studies doxycycline/prednisolone in outpatient AECOPD, with a negative two-year cost-effectiveness result; not an unqualified positive clinical-efficacy trial."
+    },
+    "17573508": {
+      "rating": "directly_relevant",
+      "notes": "Actual AECB first/second-line meta-analysis explicitly includes doxycycline, favors second-line clinical success and cannot stratify risk; relevant but not proof of unique preferred choice."
+    },
+    "11586005": {
+      "rating": "partially_relevant",
+      "notes": "High-risk AECB strategy/resistance differs from this unproven high-risk case and does not justify all empiric choices without local context."
+    },
+    "19875685": {
+      "rating": "directly_relevant",
+      "notes": "Doxycycline plus corticosteroid hospitalized AECOPD trial directly concerns the drug combination, but the delivered search text is objectives only and setting differs."
+    }
+  },
+  "citations": {
+    "P30565022_read_1ba9a5050a24": {
+      "rating": "supported",
+      "notes": "Actual read supports the limited claim that doxycycline added to prednisolone was specifically studied in outpatient AECOPD; the negative economic result is honestly disclosed, not recast as efficacy proof."
+    },
+    "P17573508_read_707ff9397182": {
+      "rating": "partially_supported",
+      "notes": "Explicitly classifies doxycycline within first-line drugs, but pooled results favor second-line clinical success and do not establish unique preferred choice for this risk profile."
+    },
+    "P19875685_search_f8affd197d6a": {
+      "rating": "partially_supported",
+      "notes": "The excerpt verifies a hospitalized doxycycline/corticosteroid trial objective; actual clinical success is not visible and the actor acknowledges that gap."
+    }
+  },
+  "inline_citations": {}
+}

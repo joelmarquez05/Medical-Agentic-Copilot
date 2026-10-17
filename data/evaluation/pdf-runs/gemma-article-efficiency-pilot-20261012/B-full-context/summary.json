@@ -1,0 +1,20 @@
+{
+  "recorded": 1,
+  "planned": 1,
+  "valid_model_answers": 1,
+  "terminal_messages": 1,
+  "statuses": {
+    "completed": 1
+  },
+  "provider_requests": 1,
+  "cost_usd": 0.00359166,
+  "unknown_charge_records": 0,
+  "input_tokens": 31324,
+  "output_tokens": 2575,
+  "reasoning_tokens": 2452,
+  "total_episode_seconds": 56.9759,
+  "median_episode_seconds": 56.9759,
+  "successful_pdf_operations": {},
+  "max_input_bytes": 109685,
+  "structured_citations": 1
+}

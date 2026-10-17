@@ -1,0 +1,461 @@
+{
+  "question_id": "ON09",
+  "question": "A synthetic adult with unresectable pancreatic cancer has weight loss and greasy stools despite trying to eat more. Besides increasing calorie intake, what potentially treatable nutrition problem and intervention should be discussed with the clinical team?",
+  "answer_status": "self_review_passed",
+  "searches": [
+    {
+      "name": "search_pubmed",
+      "arguments": {
+        "max_results": 5,
+        "query": "pancreatic cancer exocrine insufficiency enzyme replacement steatorrhea",
+        "sort": "relevance"
+      },
+      "status": "ok",
+      "output": {
+        "mode": "live_pubmed_title_abstract",
+        "client_version": "requirement-3-v1",
+        "query": "pancreatic cancer exocrine insufficiency enzyme replacement steatorrhea",
+        "effective_query": "(pancreatic cancer exocrine insufficiency enzyme replacement steatorrhea) NOT (retracted publication[pt] OR retraction notice[pt] OR hasretractionin OR hasretractionof)",
+        "sort": "relevance",
+        "max_results": 5,
+        "total_matches": 37,
+        "query_translation": "((\"pancreatic neoplasms\"[MeSH Terms] OR (\"pancreatic\"[All Fields] AND \"neoplasms\"[All Fields]) OR \"pancreatic neoplasms\"[All Fields] OR (\"pancreatic\"[All Fields] AND \"cancer\"[All Fields]) OR \"pancreatic cancer\"[All Fields]) AND (\"exocrin\"[All Fields] OR \"exocrine\"[All Fields] OR \"exocrinous\"[All Fields]) AND (\"insufficiencies\"[All Fields] OR \"insufficiency\"[All Fields] OR \"insufficient\"[All Fields] OR \"insufficiently\"[All Fields]) AND (\"enzyme s\"[All Fields] OR \"enzymes\"[Supplementary Concept] OR \"enzymes\"[All Fields] OR \"enzyme\"[All Fields] OR \"enzymes\"[MeSH Terms] OR \"enzymic\"[All Fields] OR \"enzymically\"[All Fields] OR \"enzymology\"[MeSH Subheading] OR \"enzymology\"[All Fields]) AND (\"replace\"[All Fields] OR \"replaceable\"[All Fields] OR \"replaced\"[All Fields] OR \"replaces\"[All Fields] OR \"replacing\"[All Fields] OR \"replacment\"[All Fields] OR \"replantation\"[MeSH Terms] OR \"replantation\"[All Fields] OR \"replacement\"[All Fields] OR \"replacements\"[All Fields]) AND (\"steatorrhoea\"[All Fields] OR \"steatorrhea\"[MeSH Terms] OR \"steatorrhea\"[All Fields])) NOT (\"retracted publication\"[Publication Type] OR \"retraction notice\"[Publication Type] OR \"hasretractionin\"[All Fields] OR \"hasretractionof\"[All Fields])",
+        "warnings": {},
+        "esearch_pmids": [
+          "39639485",
+          "32745358",
+          "34916141",
+          "42011215",
+          "22379635"
+        ],
+        "sources": [
+          {
+            "id": "P39639485",
+            "pmid": "39639485",
+            "title": "European guidelines for the diagnosis and treatment of pancreatic exocrine insufficiency: UEG, EPC, EDS, ESPEN, ESPGHAN, ESDO, and ESPCG evidence-based recommendations.",
+            "authors": "J Enrique Dominguez-Muñoz, Miroslav Vujasinovic, Daniel de la Iglesia, Djuna Cahen, Gabriele Capurso, Natalya Gubergrits, Peter Hegyi, Pali Hungin, Johann Ockenga, Salvatore Paiella, Lukas Perkhofer, Vinciane Rebours, Jonas Rosendahl, Roberto Salvia, Isabelle Scheers, Andrea Szentesi, Stefanos Bonovas, Daniele Piovani, J Matthias Löhr, European PEI Multidisciplinary Group",
+            "author_list": [
+              "J Enrique Dominguez-Muñoz",
+              "Miroslav Vujasinovic",
+              "Daniel de la Iglesia",
+              "Djuna Cahen",
+              "Gabriele Capurso",
+              "Natalya Gubergrits",
+              "Peter Hegyi",
+              "Pali Hungin",
+              "Johann Ockenga",
+              "Salvatore Paiella",
+              "Lukas Perkhofer",
+              "Vinciane Rebours",
+              "Jonas Rosendahl",
+              "Roberto Salvia",
+              "Isabelle Scheers",
+              "Andrea Szentesi",
+              "Stefanos Bonovas",
+              "Daniele Piovani",
+              "J Matthias Löhr",
+              "European PEI Multidisciplinary Group"
+            ],
+            "year": "2025",
+            "publication_date": "2025 Feb",
+            "journal": "United European gastroenterology journal",
+            "doi": "10.1002/ueg2.12674",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39639485/",
+            "pmcid": "PMC11866322",
+            "publication_types": [
+              "Journal Article",
+              "Practice Guideline"
+            ],
+            "languages": [
+              "eng"
+            ],
+            "abstract": "Pancreatic exocrine insufficiency (PEI) is defined as a reduction in pancreatic exocrine secretion below the level that allows the normal digestion of nutrients. Pancreatic disease and surgery are the main causes of PEI. However, other conditions and upper gastrointestinal surgery can also affect the digestive function of the pancreas. PEI can cause symptoms of nutritional malabsorption and deficiencies, which affect the quality of life and increase morbidity and mortality. These guidelines were developed following the United European Gastroenterology framework for the development of high-quality clinical guidelines. After a systematic literature review, the evidence was evaluated according to the Oxford Center for Evidence-Based Medicine and the Grading of Recommendations Assessment, Development, and Evaluation methodology, as appropriate. Statements and comments were developed by the working groups and voted on using the Delphi method. The diagnosis of PEI should be based on a global assessment of symptoms, nutritional status, and a pancreatic secretion test. Pancreatic enzyme replacement therapy (PERT), together with dietary advice and support, are the cornerstones of PEI therapy. PERT is indicated in patients with PEI that is secondary to pancreatic disease, pancreatic surgery, or other metabolic or gastroenterological conditions. Specific recommendations concerning the management of PEI under various clinical conditions are provided based on evidence and expert opinions. This evidence-based guideline summarizes the prevalence, clinical impact, and general diagnostic and therapeutic approaches for PEI, as well as the specifics of PEI in different clinical conditions. Finally, the unmet needs for future research are discussed.",
+            "abstract_present": true,
+            "abstract_truncated": false,
+            "abstract_original_characters": 1759,
+            "copyright_information": "© 2024 The Author(s). United European Gastroenterology Journal published by Wiley Periodicals LLC on behalf of United European Gastroenterology.",
+            "read_level": "PubMed title and abstract",
+            "preprint": false,
+            "retracted": false,
+            "retraction_notice": false,
+            "expression_of_concern": false,
+            "corrections": [],
+            "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+            "retrieval_rank": 1,
+            "retrieved_at_utc": "2026-10-10T09:29:46+00:00"
+          },
+          {
+            "id": "P32745358",
+            "pmid": "32745358",
+            "title": "Acute recurrent and chronic pancreatitis in children.",
+            "authors": "Mitsuyoshi Suzuki, Kei Minowa, Hiroyuki Isayama, Toshiaki Shimizu",
+            "author_list": [
+              "Mitsuyoshi Suzuki",
+              "Kei Minowa",
+              "Hiroyuki Isayama",
+              "Toshiaki Shimizu"
+            ],
+            "year": "2021",
+            "publication_date": "2021 Feb",
+            "journal": "Pediatrics international : official journal of the Japan Pediatric Society",
+            "doi": "10.1111/ped.14415",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32745358/",
+            "pmcid": null,
+            "publication_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "languages": [
+              "eng"
+            ],
+            "abstract": "Acute recurrent pancreatitis (ARP) is defined as two distinct episodes of acute pancreatitis (AP), whereas chronic pancreatitis (CP) is caused by persistent inflammation of the pancreas. In children they are caused by genetic mutations, autoimmune pancreatitis, congenital pancreatic abnormalities, and other conditions. Acute recurrent pancreatitis is frequently a precursor to CP, and both are thought to be on the same disease continuum. In particular, genetic factors are associated with early progression of ARP to CP. The diagnosis of CP, as in AP, is based on clinical findings, biochemical tests, and imaging studies. Findings of exocrine pancreatic dysfunction are also important in the diagnosis of CP. A step-up strategy has become increasingly standard for the treatment of patients with CP. This strategy starts with endoscopic treatment, such as pancreatic sphincterotomy and stenting, and progresses to surgery should endoscopic therapy fail or prove technically impossible. Non-opioid (e.g. ibuprofen / naproxen) and opioid (e.g. oxycodone) forms of analgesia are widely used in pediatric patients with AP or CP, whereas pancreatic enzyme replacement therapy may be beneficial for patients with abdominal pain, steatorrhea, and malnutrition. Despite the disparity in the age of onset, pediatric CP patients display some similarities to adults in terms of disease progress. To reduce the risk of developing pancreatic exocrine inefficiency, diabetes and pancreatic cancer in the future, clinicians need to be aware of the current diagnostic approach and treatment methods for ARP and CP and refer them to a pediatric gastroenterologist in a timely manner.",
+            "abstract_present": true,
+            "abstract_truncated": false,
+            "abstract_original_characters": 1670,
+            "copyright_information": "© 2020 Japan Pediatric Society.",
+            "read_level": "PubMed title and abstract",
+            "preprint": false,
+            "retracted": false,
+            "retraction_notice": false,
+            "expression_of_concern": false,
+            "corrections": [],
+            "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+            "retrieval_rank": 2,
+            "retrieved_at_utc": "2026-10-10T09:29:46+00:00"
+          },
+          {
+            "id": "P34916141",
+            "pmid": "34916141",
+            "title": "Staging exocrine pancreatic dysfunction.",
+            "authors": "Anam Khan, Santhi Swaroop Vege, Vikas Dudeja, Suresh T Chari",
+            "author_list": [
+              "Anam Khan",
+              "Santhi Swaroop Vege",
+              "Vikas Dudeja",
+              "Suresh T Chari"
+            ],
+            "year": "2022",
+            "publication_date": "2022 Jan",
+            "journal": "Pancreatology : official journal of the International Association of Pancreatology (IAP) ... [et al.]",
+            "doi": "10.1016/j.pan.2021.11.005",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34916141/",
+            "pmcid": null,
+            "publication_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "languages": [
+              "eng"
+            ],
+            "abstract": "Digestive capacity of the gastrointestinal tract, largely but not wholly, depends on exocrine pancreatic function to achieve near complete digestion and absorption of ingested food. Coefficient of fat absorption (CFA), the proportion of ingested fat absorbed (normal >93%), reflects digestive capacity. Exocrine pancreatic insufficiency (EPI) is the state of insufficient digestive capacity (CFA <93%) caused by severe loss of pancreatic exocrine function despite variable compensation by upregulation of extra-pancreatic lipolysis. Fecal elastase 1 (FE1) level is the most widely used, though imperfect, non-invasive test of pancreatic enzyme output. Decline in pancreas enzyme output, or pancreatic exocrine dysfunction (EPD), has a variable correlation with measurable decline in CFA. EPI results in steatorrhea, weight loss and nutrient deficiency, which are mitigated by pancreatic enzyme replacement therapy (PERT). We propose a staging system for EPD, based on measurement of fecal elastase (FE1) and, if necessary, CFA and serum fat-soluble vitamin levels. In Stage I (Mild) EPD, FE1 is 100-200 mcg/gm; if steatorrhea is present, non-pancreatic causes are likely. In Stage II (Moderate) EPD), FE1 is < 100 mcg/gm without clinical and/or laboratory evidence of steatorrhea. In Stage III, there are marked reductions in FE1 and CFA, but vitamin levels remain normal (Severe EPD or EPI without nutritional deficiency). In Stage IV all parameters are abnormal (Severe EPD or EPI with nutritional deficiency). EPD stages I and II are pancreas sufficient and PERT may not be the best or first approach in management of early-stage disease; it needs further study to determine clinical utility. The term EPI refers strictly to EPD Stages III and IV which should be treated with PERT, with Stage IV requiring micronutrient supplementation as well.",
+            "abstract_present": true,
+            "abstract_truncated": false,
+            "abstract_original_characters": 1847,
+            "copyright_information": "Copyright © 2021. Published by Elsevier B.V.",
+            "read_level": "PubMed title and abstract",
+            "preprint": false,
+            "retracted": false,
+            "retraction_notice": false,
+            "expression_of_concern": false,
+            "corrections": [],
+            "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+            "retrieval_rank": 3,
+            "retrieved_at_utc": "2026-10-10T09:29:46+00:00"
+          },
+          {
+            "id": "P42011215",
+            "pmid": "42011215",
+            "title": "Pancreatic exocrine insufficiency.",
+            "authors": "Daniel de la Iglesia, Miroslav Vujasinovic, J-Matthias Löhr, J Enrique Dominguez-Muñoz",
+            "author_list": [
+              "Daniel de la Iglesia",
+              "Miroslav Vujasinovic",
+              "J-Matthias Löhr",
+              "J Enrique Dominguez-Muñoz"
+            ],
+            "year": "2026",
+            "publication_date": "2026 Apr",
+            "journal": "EClinicalMedicine",
+            "doi": "10.1016/j.eclinm.2026.103880",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42011215/",
+            "pmcid": "PMC13091941",
+            "publication_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "languages": [
+              "eng"
+            ],
+            "abstract": "UNLABELLED: Pancreatic exocrine insufficiency (PEI) is a common but frequently under-recognised condition that often presents with non-specific gastrointestinal symptoms, which may be subtle in early stages. Evidence from studies published between 2000 and 2026 indicates that, although the leading causes of PEI are pancreatic diseases such as chronic or autoimmune pancreatitis, pancreatic cancer, and pancreatic surgery, it is also increasingly recognised in common conditions including diabetes mellitus and ageing. Clinically, PEI should be suspected in patients presenting with diarrhoea, steatorrhoea, bloating, weight loss, or abdominal discomfort, particularly when malnutrition or micronutrient deficiencies are present. These deficiencies are associated with clinically relevant complications, including osteoporosis and cardiovascular disease, highlighting the importance of timely diagnosis and appropriate management. Pancreatic enzyme replacement therapy remains the cornerstone of treatment, with currently available porcine-derived formulations demonstrating high efficacy, although future research should explore alternative enzyme sources and novel therapeutic approaches.\nFUNDING: The authors received no financial support for the research, authorship, and/or publication of this article.",
+            "abstract_present": true,
+            "abstract_truncated": false,
+            "abstract_original_characters": 1308,
+            "copyright_information": "© 2026 The Authors.",
+            "read_level": "PubMed title and abstract",
+            "preprint": false,
+            "retracted": false,
+            "retraction_notice": false,
+            "expression_of_concern": false,
+            "corrections": [],
+            "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+            "retrieval_rank": 4,
+            "retrieved_at_utc": "2026-10-10T09:29:46+00:00"
+          }
+        ],
+        "excluded_records": [
+          {
+            "pmid": "22379635",
+            "reason": "No parseable journal-article record was returned."
+          }
+        ],
+        "http_requests": [
+          {
+            "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+            "parameters": {
+              "db": "pubmed",
+              "term": "(pancreatic cancer exocrine insufficiency enzyme replacement steatorrhea) NOT (retracted publication[pt] OR retraction notice[pt] OR hasretractionin OR hasretractionof)",
+              "retmode": "json",
+              "retmax": 5,
+              "sort": "relevance"
+            },
+            "started_at_utc": "2026-10-10T09:29:44+00:00",
+            "attempts": [
+              {
+                "attempt": 1,
+                "status": "ok",
+                "http_status": 200,
+                "elapsed_seconds": 0.285
+              }
+            ],
+            "cache_hit": false,
+            "status": "ok",
+            "response_sha256": "f9462f8c2875922c0b3b9105bedc977711dcb571b9d059dff0e7d6928e8dbe54",
+            "response_bytes": 2787,
+            "snapshot_file": "f9462f8c2875922c0b3b9105bedc977711dcb571b9d059dff0e7d6928e8dbe54.json",
+            "retrieved_at_utc": "2026-10-10T09:29:45+00:00"
+          },
+          {
+            "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+            "parameters": {
+              "db": "pubmed",
+              "id": "39639485,32745358,34916141,42011215,22379635",
+              "retmode": "xml"
+            },
+            "started_at_utc": "2026-10-10T09:29:45+00:00",
+            "attempts": [
+              {
+                "attempt": 1,
+                "status": "ok",
+                "http_status": 200,
+                "elapsed_seconds": 0.943
+              }
+            ],
+            "cache_hit": false,
+            "status": "ok",
+            "response_sha256": "ccae899611bfa56c81187dedd6cb0a05948adf9a19c375fb76ff7ecccdb32cd7",
+            "response_bytes": 308867,
+            "snapshot_file": "ccae899611bfa56c81187dedd6cb0a05948adf9a19c375fb76ff7ecccdb32cd7.xml",
+            "retrieved_at_utc": "2026-10-10T09:29:46+00:00"
+          }
+        ],
+        "retrieved_at_utc": "2026-10-10T09:29:46+00:00",
+        "limitation": "A small ranked search, not a systematic review. No full text, citation-network search, clinical appraisal, or medRxiv-specific integration. No persistent cache is used."
+      },
+      "elapsed_seconds": 1.3567
+    }
+  ],
+  "initial_search_succeeded": true,
+  "initial_search_pmids": [
+    "39639485",
+    "32745358",
+    "34916141",
+    "42011215",
+    "22379635"
+  ],
+  "initial_returned_pmids": [
+    "39639485",
+    "32745358",
+    "34916141",
+    "42011215"
+  ],
+  "unique_papers": [
+    {
+      "id": "P39639485",
+      "pmid": "39639485",
+      "title": "European guidelines for the diagnosis and treatment of pancreatic exocrine insufficiency: UEG, EPC, EDS, ESPEN, ESPGHAN, ESDO, and ESPCG evidence-based recommendations.",
+      "authors": "J Enrique Dominguez-Muñoz, Miroslav Vujasinovic, Daniel de la Iglesia, Djuna Cahen, Gabriele Capurso, Natalya Gubergrits, Peter Hegyi, Pali Hungin, Johann Ockenga, Salvatore Paiella, Lukas Perkhofer, Vinciane Rebours, Jonas Rosendahl, Roberto Salvia, Isabelle Scheers, Andrea Szentesi, Stefanos Bonovas, Daniele Piovani, J Matthias Löhr, European PEI Multidisciplinary Group",
+      "author_list": [
+        "J Enrique Dominguez-Muñoz",
+        "Miroslav Vujasinovic",
+        "Daniel de la Iglesia",
+        "Djuna Cahen",
+        "Gabriele Capurso",
+        "Natalya Gubergrits",
+        "Peter Hegyi",
+        "Pali Hungin",
+        "Johann Ockenga",
+        "Salvatore Paiella",
+        "Lukas Perkhofer",
+        "Vinciane Rebours",
+        "Jonas Rosendahl",
+        "Roberto Salvia",
+        "Isabelle Scheers",
+        "Andrea Szentesi",
+        "Stefanos Bonovas",
+        "Daniele Piovani",
+        "J Matthias Löhr",
+        "European PEI Multidisciplinary Group"
+      ],
+      "year": "2025",
+      "publication_date": "2025 Feb",
+      "journal": "United European gastroenterology journal",
+      "doi": "10.1002/ueg2.12674",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39639485/",
+      "pmcid": "PMC11866322",
+      "publication_types": [
+        "Journal Article",
+        "Practice Guideline"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Pancreatic exocrine insufficiency (PEI) is defined as a reduction in pancreatic exocrine secretion below the level that allows the normal digestion of nutrients. Pancreatic disease and surgery are the main causes of PEI. However, other conditions and upper gastrointestinal surgery can also affect the digestive function of the pancreas. PEI can cause symptoms of nutritional malabsorption and deficiencies, which affect the quality of life and increase morbidity and mortality. These guidelines were developed following the United European Gastroenterology framework for the development of high-quality clinical guidelines. After a systematic literature review, the evidence was evaluated according to the Oxford Center for Evidence-Based Medicine and the Grading of Recommendations Assessment, Development, and Evaluation methodology, as appropriate. Statements and comments were developed by the working groups and voted on using the Delphi method. The diagnosis of PEI should be based on a global assessment of symptoms, nutritional status, and a pancreatic secretion test. Pancreatic enzyme replacement therapy (PERT), together with dietary advice and support, are the cornerstones of PEI therapy. PERT is indicated in patients with PEI that is secondary to pancreatic disease, pancreatic surgery, or other metabolic or gastroenterological conditions. Specific recommendations concerning the management of PEI under various clinical conditions are provided based on evidence and expert opinions. This evidence-based guideline summarizes the prevalence, clinical impact, and general diagnostic and therapeutic approaches for PEI, as well as the specifics of PEI in different clinical conditions. Finally, the unmet needs for future research are discussed.",
+      "abstract_present": true,
+      "abstract_truncated": false,
+      "abstract_original_characters": 1759,
+      "copyright_information": "© 2024 The Author(s). United European Gastroenterology Journal published by Wiley Periodicals LLC on behalf of United European Gastroenterology.",
+      "read_level": "PubMed title and abstract",
+      "preprint": false,
+      "retracted": false,
+      "retraction_notice": false,
+      "expression_of_concern": false,
+      "corrections": [],
+      "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+      "retrieval_rank": 1,
+      "retrieved_at_utc": "2026-10-10T09:29:46+00:00"
+    },
+    {
+      "id": "P32745358",
+      "pmid": "32745358",
+      "title": "Acute recurrent and chronic pancreatitis in children.",
+      "authors": "Mitsuyoshi Suzuki, Kei Minowa, Hiroyuki Isayama, Toshiaki Shimizu",
+      "author_list": [
+        "Mitsuyoshi Suzuki",
+        "Kei Minowa",
+        "Hiroyuki Isayama",
+        "Toshiaki Shimizu"
+      ],
+      "year": "2021",
+      "publication_date": "2021 Feb",
+      "journal": "Pediatrics international : official journal of the Japan Pediatric Society",
+      "doi": "10.1111/ped.14415",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32745358/",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Acute recurrent pancreatitis (ARP) is defined as two distinct episodes of acute pancreatitis (AP), whereas chronic pancreatitis (CP) is caused by persistent inflammation of the pancreas. In children they are caused by genetic mutations, autoimmune pancreatitis, congenital pancreatic abnormalities, and other conditions. Acute recurrent pancreatitis is frequently a precursor to CP, and both are thought to be on the same disease continuum. In particular, genetic factors are associated with early progression of ARP to CP. The diagnosis of CP, as in AP, is based on clinical findings, biochemical tests, and imaging studies. Findings of exocrine pancreatic dysfunction are also important in the diagnosis of CP. A step-up strategy has become increasingly standard for the treatment of patients with CP. This strategy starts with endoscopic treatment, such as pancreatic sphincterotomy and stenting, and progresses to surgery should endoscopic therapy fail or prove technically impossible. Non-opioid (e.g. ibuprofen / naproxen) and opioid (e.g. oxycodone) forms of analgesia are widely used in pediatric patients with AP or CP, whereas pancreatic enzyme replacement therapy may be beneficial for patients with abdominal pain, steatorrhea, and malnutrition. Despite the disparity in the age of onset, pediatric CP patients display some similarities to adults in terms of disease progress. To reduce the risk of developing pancreatic exocrine inefficiency, diabetes and pancreatic cancer in the future, clinicians need to be aware of the current diagnostic approach and treatment methods for ARP and CP and refer them to a pediatric gastroenterologist in a timely manner.",
+      "abstract_present": true,
+      "abstract_truncated": false,
+      "abstract_original_characters": 1670,
+      "copyright_information": "© 2020 Japan Pediatric Society.",
+      "read_level": "PubMed title and abstract",
+      "preprint": false,
+      "retracted": false,
+      "retraction_notice": false,
+      "expression_of_concern": false,
+      "corrections": [],
+      "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+      "retrieval_rank": 2,
+      "retrieved_at_utc": "2026-10-10T09:29:46+00:00"
+    },
+    {
+      "id": "P34916141",
+      "pmid": "34916141",
+      "title": "Staging exocrine pancreatic dysfunction.",
+      "authors": "Anam Khan, Santhi Swaroop Vege, Vikas Dudeja, Suresh T Chari",
+      "author_list": [
+        "Anam Khan",
+        "Santhi Swaroop Vege",
+        "Vikas Dudeja",
+        "Suresh T Chari"
+      ],
+      "year": "2022",
+      "publication_date": "2022 Jan",
+      "journal": "Pancreatology : official journal of the International Association of Pancreatology (IAP) ... [et al.]",
+      "doi": "10.1016/j.pan.2021.11.005",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34916141/",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Digestive capacity of the gastrointestinal tract, largely but not wholly, depends on exocrine pancreatic function to achieve near complete digestion and absorption of ingested food. Coefficient of fat absorption (CFA), the proportion of ingested fat absorbed (normal >93%), reflects digestive capacity. Exocrine pancreatic insufficiency (EPI) is the state of insufficient digestive capacity (CFA <93%) caused by severe loss of pancreatic exocrine function despite variable compensation by upregulation of extra-pancreatic lipolysis. Fecal elastase 1 (FE1) level is the most widely used, though imperfect, non-invasive test of pancreatic enzyme output. Decline in pancreas enzyme output, or pancreatic exocrine dysfunction (EPD), has a variable correlation with measurable decline in CFA. EPI results in steatorrhea, weight loss and nutrient deficiency, which are mitigated by pancreatic enzyme replacement therapy (PERT). We propose a staging system for EPD, based on measurement of fecal elastase (FE1) and, if necessary, CFA and serum fat-soluble vitamin levels. In Stage I (Mild) EPD, FE1 is 100-200 mcg/gm; if steatorrhea is present, non-pancreatic causes are likely. In Stage II (Moderate) EPD), FE1 is < 100 mcg/gm without clinical and/or laboratory evidence of steatorrhea. In Stage III, there are marked reductions in FE1 and CFA, but vitamin levels remain normal (Severe EPD or EPI without nutritional deficiency). In Stage IV all parameters are abnormal (Severe EPD or EPI with nutritional deficiency). EPD stages I and II are pancreas sufficient and PERT may not be the best or first approach in management of early-stage disease; it needs further study to determine clinical utility. The term EPI refers strictly to EPD Stages III and IV which should be treated with PERT, with Stage IV requiring micronutrient supplementation as well.",
+      "abstract_present": true,
+      "abstract_truncated": false,
+      "abstract_original_characters": 1847,
+      "copyright_information": "Copyright © 2021. Published by Elsevier B.V.",
+      "read_level": "PubMed title and abstract",
+      "preprint": false,
+      "retracted": false,
+      "retraction_notice": false,
+      "expression_of_concern": false,
+      "corrections": [],
+      "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+      "retrieval_rank": 3,
+      "retrieved_at_utc": "2026-10-10T09:29:46+00:00"
+    },
+    {
+      "id": "P42011215",
+      "pmid": "42011215",
+      "title": "Pancreatic exocrine insufficiency.",
+      "authors": "Daniel de la Iglesia, Miroslav Vujasinovic, J-Matthias Löhr, J Enrique Dominguez-Muñoz",
+      "author_list": [
+        "Daniel de la Iglesia",
+        "Miroslav Vujasinovic",
+        "J-Matthias Löhr",
+        "J Enrique Dominguez-Muñoz"
+      ],
+      "year": "2026",
+      "publication_date": "2026 Apr",
+      "journal": "EClinicalMedicine",
+      "doi": "10.1016/j.eclinm.2026.103880",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42011215/",
+      "pmcid": "PMC13091941",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "abstract": "UNLABELLED: Pancreatic exocrine insufficiency (PEI) is a common but frequently under-recognised condition that often presents with non-specific gastrointestinal symptoms, which may be subtle in early stages. Evidence from studies published between 2000 and 2026 indicates that, although the leading causes of PEI are pancreatic diseases such as chronic or autoimmune pancreatitis, pancreatic cancer, and pancreatic surgery, it is also increasingly recognised in common conditions including diabetes mellitus and ageing. Clinically, PEI should be suspected in patients presenting with diarrhoea, steatorrhoea, bloating, weight loss, or abdominal discomfort, particularly when malnutrition or micronutrient deficiencies are present. These deficiencies are associated with clinically relevant complications, including osteoporosis and cardiovascular disease, highlighting the importance of timely diagnosis and appropriate management. Pancreatic enzyme replacement therapy remains the cornerstone of treatment, with currently available porcine-derived formulations demonstrating high efficacy, although future research should explore alternative enzyme sources and novel therapeutic approaches.\nFUNDING: The authors received no financial support for the research, authorship, and/or publication of this article.",
+      "abstract_present": true,
+      "abstract_truncated": false,
+      "abstract_original_characters": 1308,
+      "copyright_information": "© 2026 The Authors.",
+      "read_level": "PubMed title and abstract",
+      "preprint": false,
+      "retracted": false,
+      "retraction_notice": false,
+      "expression_of_concern": false,
+      "corrections": [],
+      "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+      "retrieval_rank": 4,
+      "retrieved_at_utc": "2026-10-10T09:29:46+00:00"
+    }
+  ],
+  "cited_pubmed_ids": [
+    "P34916141",
+    "P39639485",
+    "P42011215"
+  ],
+  "interpretation": "Retrieval observations only. Relevance ratings are authored separately; citation inclusion and self-review are not quality measures."
+}

@@ -1,0 +1,235 @@
+{
+  "run_id": "gemini-pubmed-internal-20261010",
+  "rubric_id": "oncology-pubmed-retrieval-v1",
+  "assessor": "AI implementation assistant (Codex), qualitative review of saved titles and supplied abstracts",
+  "blinded": false,
+  "clinician_review": false,
+  "reviewed_at_utc": "2026-10-10T09:40:54+00:00",
+  "limitations": "Assistant-authored, unblinded judgments on a constructed internal set. No independent clinician adjudication, full-text appraisal, exhaustive relevant-paper set, recall estimate, or controlled clinical improvement claim. Relevance does not validate a source or its attribution. No new answer-quality score is assigned.",
+  "assessments": [
+    {
+      "question_id": "ON01",
+      "retrieval_file_sha256": "b058485686b0e5460043e6dc2e242aa6b14eda3b4f14f42f59e913e1c04eb5cb",
+      "coverage_rating": 1,
+      "coverage_rationale": "The set supports weight-loss and body-composition assessment despite a non-underweight BMI, but does not supply a practical validated screening pathway, intake/symptom review, or repeat-assessment schedule.",
+      "search_findings": "Seven consecutive concepts constrained the initial search to two studies rather than a broader screening guideline.",
+      "paper_assessments": [
+        {
+          "pmid": "32873437",
+          "relevance": 2,
+          "rationale": "A prospective advanced-solid-tumor cohort before chemotherapy compares weight loss, BMI and muscle/body-composition assessment. The abstract directly shows that weight-loss-defined malnutrition can be much more frequent than underweight BMI; its small mixed-cancer sample and diagnostic cutoffs are not a universal screening protocol."
+        },
+        {
+          "pmid": "30235002",
+          "relevance": 2,
+          "rationale": "Metastatic colorectal-cancer cachexia identification by clinical assessment and weight-loss/BMI/muscle criteria directly informs why normal BMI or appearance alone can miss a nutrition-related problem. Cachexia identification is not equivalent to a complete malnutrition assessment or a validated routine screening schedule."
+        }
+      ]
+    },
+    {
+      "question_id": "ON02",
+      "retrieval_file_sha256": "56bbe051db4fa6dc89cf777121c093fc574058800ecb6c98641c102835f694e3",
+      "coverage_rating": 1,
+      "coverage_rationale": "The sole article addresses measured versus predicted resting energy expenditure and limitations of prediction. It does not supply daily energy/protein targets or the 60-kg calculation.",
+      "search_findings": "The query added cachexia and several prediction-related terms and returned only one older energy-metabolism study.",
+      "paper_assessments": [
+        {
+          "pmid": "18359195",
+          "relevance": 1,
+          "rationale": "The measured-versus-predicted resting-energy study informs uncertainty about predictive equations in cancer. The provided abstract does not establish protein requirements or total daily 25-30 kcal/kg targets, and resting expenditure should not be conflated with total energy needs."
+        }
+      ]
+    },
+    {
+      "question_id": "ON03",
+      "retrieval_file_sha256": "749c313f5fd65dd1c3c7c9b6679de0ef030d3c9244a9551a8adcdb972d877d07",
+      "coverage_rating": 1,
+      "coverage_rationale": "The record covers radiation-associated nutrition-impact symptoms, but its supplied abstract does not establish the requested enteral-first escalation or the clinical conditions for PN.",
+      "search_findings": "Combining radiotherapy, head/neck, mucositis, dysphagia, enteral and parenteral terms returned one 1988 review; broadening was not requested.",
+      "paper_assessments": [
+        {
+          "pmid": "3140323",
+          "relevance": 1,
+          "rationale": "The old radiation-therapy review describes mucositis, dysphagia and malnutrition, so it supplies useful context. The truncated supplied abstract does not compare EN and PN or explain escalation for a functioning intestine; title/abstract relevance does not make it current route-selection guidance."
+        }
+      ]
+    },
+    {
+      "question_id": "ON04",
+      "retrieval_file_sha256": "56acd3c006353d3678229577b178e34fae8293e9f6502b74582973b092ea0ff6",
+      "coverage_rating": 2,
+      "coverage_rationale": "The set addresses individualized malignant-obstruction care, prognosis/performance-based consideration of home PN, goals/advance care planning, and poor-outcome context. Abstracts provide limited comparative benefit, complication, and uncertainty details.",
+      "search_findings": "The query returned three related records with complementary decision-making and prognosis context, including a national service survey and a gynecologic cohort.",
+      "paper_assessments": [
+        {
+          "pmid": "21364165",
+          "relevance": 2,
+          "rationale": "The review explicitly frames malignant bowel obstruction management around condition, prognosis and goals of care. It is directly useful for the decision framework, although the very brief abstract does not provide PN-specific benefits or risks."
+        },
+        {
+          "pmid": "36992552",
+          "relevance": 2,
+          "rationale": "The survey concerns palliative PN in advanced cancer with intestinal failure and discusses prognosis, performance status, service access and advance care planning. This is directly relevant to considering PN, but the reported UK criteria and clinician-practice survey are not proof of treatment benefit or universal eligibility thresholds."
+        },
+        {
+          "pmid": "42178744",
+          "relevance": 1,
+          "rationale": "The contemporary gynecologic-oncology obstruction cohort provides prognosis, TPN use and goals-of-care context. Its restricted tumor population and retrospective descriptive design limit application to the unspecified adult case and do not determine whether an individual should receive PN."
+        }
+      ]
+    },
+    {
+      "question_id": "ON05",
+      "retrieval_file_sha256": "08e8a3c5f78d57a97dcd82f68eba8329a1408640df391ca7ece6c6959862aba6",
+      "coverage_rating": 2,
+      "coverage_rationale": "Several abstracts describe cachexia as multifactorial or persistent despite nutrition and support multimodal, symptom-focused and interdisciplinary care. Specific current drug choices and patient-tailored implementation still require contemporary guidance and clinical assessment.",
+      "search_findings": "Five ranked records were returned, with one esophageal preoperative mismatch and one energy-metabolism-focused background review.",
+      "paper_assessments": [
+        {
+          "pmid": "32002684",
+          "relevance": 2,
+          "rationale": "The review links cancer/chemotherapy-related muscle loss to combined nutritional, physical, anti-inflammatory and multidisciplinary approaches. It directly informs supportive management, without establishing a particular intervention for this metastatic-lung case."
+        },
+        {
+          "pmid": "31080641",
+          "relevance": 1,
+          "rationale": "Preoperative esophageal-cancer nutrition describes inflammation, reduced intake and muscle loss, but the surgical, tumor-specific setting differs from metastatic lung-cancer cachexia. It offers background rather than the main decision evidence."
+        },
+        {
+          "pmid": "29369114",
+          "relevance": 1,
+          "rationale": "The review discusses hypermetabolism, cachexia and the role of resting-energy assessment. It supports a metabolic limitation of calorie-only reasoning, but is narrower than the requested nutritional and supportive-care approach; its pharmacologic suggestions are not established by relevance alone."
+        },
+        {
+          "pmid": "12170570",
+          "relevance": 2,
+          "rationale": "The advanced-cancer anorexia/cachexia review explicitly recommends multidimensional assessment, reversible-cause management, multimodal care and palliative involvement. It directly fits the supportive-care question, but its 2002 drug discussion should not be presented as current guidance."
+        },
+        {
+          "pmid": "34897740",
+          "relevance": 2,
+          "rationale": "The review explicitly distinguishes cachexia from starvation, notes weight loss despite adequate nutrition and describes the need for multimodal approaches and weak evidence. It directly addresses why calories alone may not reverse the syndrome."
+        }
+      ]
+    },
+    {
+      "question_id": "ON06",
+      "retrieval_file_sha256": "919332197c143ac95a891e14357a615a669f0340e247846b897ccd31ebb056dc",
+      "coverage_rating": 2,
+      "coverage_rationale": "The relevant refeeding reviews cover risk identification, cautious reintroduction, vitamins, individualized support and monitoring. The set also contains pediatric and surgical mismatches, and one truncated unrelated conference collection.",
+      "search_findings": "Five of eight matches were fetched. The ranking included a conference proceedings record whose huge abstract was truncated by the tool; it supplied no usable refeeding evidence in the shown excerpt.",
+      "paper_assessments": [
+        {
+          "pmid": "32384662",
+          "relevance": 1,
+          "rationale": "The preoperative-PN review mentions preventing refeeding complications with micronutrient management and monitoring. It is primarily about surgical PN efficacy and duration, not safe initiation for a severely undernourished adult; routine adequate-energy advice cannot be imported into this high-risk case."
+        },
+        {
+          "pmid": "38732574",
+          "relevance": 1,
+          "rationale": "The pediatric-oncology consensus discusses malnutrition assessment and nutrition interventions, including refeeding among its search topics. The pediatric population and abstract lacking a specific adult restart/monitoring regimen make it partial background."
+        },
+        {
+          "pmid": "19284691",
+          "relevance": 2,
+          "rationale": "The cancer-relevant refeeding review explicitly addresses rapid-feeding risk, cautious initiation, slow increase, thiamine and electrolyte/fluid management. It is directly useful to the core principles, although the 2009 abstract is not an individualized prescription or a substitute for current protocols."
+        },
+        {
+          "pmid": "27885969",
+          "relevance": 0,
+          "rationale": "This is a broad intensive-care conference proceedings collection. The supplied 4,500-character excerpt lists unrelated sepsis/biomarker abstracts and contains no assessable refeeding management evidence. This rating concerns the shown material, not a claim that no relevant item exists elsewhere in the enormous collection."
+        },
+        {
+          "pmid": "32028807",
+          "relevance": 2,
+          "rationale": "The hematological-cancer refeeding review emphasizes risk identification, individualized nutrition and ongoing monitoring. These central preventive principles fit the question, while the abstract provides limited operational dosing and electrolyte detail."
+        }
+      ]
+    },
+    {
+      "question_id": "ON07",
+      "retrieval_file_sha256": "7562c3a0c93fa89db7a42d2b90969e80059bc2be7b220092ab0e2f3ae7b5acfc",
+      "coverage_rating": 2,
+      "coverage_rationale": "The returned adult trials address restriction versus liberalization and infections, with conflicting findings and important transplant/acute-leukemia boundaries. Pediatric food-safety and feasibility material supplies only indirect context; general adult food-hygiene implementation is not fully described.",
+      "search_findings": "The recent noninferiority trial is directly relevant even though it conflicts with older summaries. Retrieving it was successful; the original generated answer then misrepresented its result, documented separately as an answer-attribution failure.",
+      "paper_assessments": [
+        {
+          "pmid": "41406403",
+          "relevance": 2,
+          "rationale": "This adult HSCT/acute-leukemia trial directly compares liberalized fresh-produce intake with a neutropenic diet and major infection. Its abstract reports crossing the stopping boundary in the liberalized arm, so it is important conflicting evidence with a restricted population, not evidence that restriction caused a nutritional or infection disadvantage."
+        },
+        {
+          "pmid": "18955453",
+          "relevance": 2,
+          "rationale": "The randomized AML induction study directly compares cooked versus raw produce and major infections in a protected environment. Its null result is relevant, but concomitant prophylaxis and the specialized setting limit generalization to all chemotherapy-associated neutropenia."
+        },
+        {
+          "pmid": "40384506",
+          "relevance": 1,
+          "rationale": "The pediatric Italian survey covers food-safety practices and reported foodborne infections. It is related to the precautions component, but neither its pediatric population nor descriptive practice counts establish efficacy of a particular adult diet."
+        },
+        {
+          "pmid": "10785904",
+          "relevance": 1,
+          "rationale": "The older institutional-practice survey shows variation in neutropenic restrictions and acknowledges uncertainty. It supplies historical implementation context, not comparative evidence that a produce ban prevents infection."
+        },
+        {
+          "pmid": "16679934",
+          "relevance": 1,
+          "rationale": "The small pediatric pilot compares neutropenic restriction with food-safety guidance and febrile neutropenia. The intervention is relevant, but the age mismatch, small sample and feasibility purpose make it indirect evidence for this adult case."
+        }
+      ]
+    },
+    {
+      "question_id": "ON08",
+      "retrieval_file_sha256": "de34446d1bdd535d11299471022fd763347e0bafafb0707f73e15620fcc404ec",
+      "coverage_rating": 0,
+      "coverage_rationale": "No retrieved article addresses chemotherapy-antioxidant interactions, oncology outcomes, high-dose supplementation or equivalence to food sources in this case.",
+      "search_findings": "The sole match was a PCOS supplement meta-analysis. The answer acknowledged the mismatch but no broader search was requested.",
+      "paper_assessments": [
+        {
+          "pmid": "40611279",
+          "relevance": 0,
+          "rationale": "The network meta-analysis evaluates supplements for polycystic ovary syndrome, endocrine/metabolic outcomes and oxidative markers. It has no supplied evidence about chemotherapy efficacy, oncology supplement safety or the requested food-versus-megadose distinction."
+        }
+      ]
+    },
+    {
+      "question_id": "ON09",
+      "retrieval_file_sha256": "9d767e1d0f8d9e3b03ac81e56f62fe8eabc8311112ee317bdf40c0630eb68aaa",
+      "coverage_rating": 2,
+      "coverage_rationale": "The PEI guideline and reviews directly cover maldigestion/steatorrhea, weight loss, assessment, PERT and dietary support. A pediatric pancreatitis review is indirect; abstracts do not establish a patient-specific dose or oncology-specific follow-up plan.",
+      "search_findings": "Five PMIDs were ranked; one was excluded because no parseable journal-article record was returned. Four papers remained, including one pediatric mismatch.",
+      "paper_assessments": [
+        {
+          "pmid": "39639485",
+          "relevance": 2,
+          "rationale": "The multidisciplinary PEI guideline explicitly links symptoms/nutritional assessment to diagnosis and identifies PERT plus dietary support as core treatment. It directly informs the potentially treatable maldigestion problem, though the abstract lacks condition-specific dosing and follow-up."
+        },
+        {
+          "pmid": "32745358",
+          "relevance": 1,
+          "rationale": "The review links pancreatic dysfunction, steatorrhea, malnutrition and enzyme therapy, but concerns children with recurrent/chronic pancreatitis rather than adults with unresectable pancreatic cancer. It is indirect background."
+        },
+        {
+          "pmid": "34916141",
+          "relevance": 2,
+          "rationale": "The exocrine-dysfunction staging review describes steatorrhea, weight loss, nutritional deficiencies and PERT. These are central to the case; proposed staging details and differential testing are not equivalent to a cancer-specific validated management protocol."
+        },
+        {
+          "pmid": "42011215",
+          "relevance": 2,
+          "rationale": "The review explicitly identifies pancreatic cancer among PEI causes, the case symptoms and enzyme therapy as central treatment. It is directly relevant, without supplying an individualized regimen or proving efficacy for this exact patient."
+        }
+      ]
+    },
+    {
+      "question_id": "ON10",
+      "retrieval_file_sha256": "e1cb6e38c425e2078f2167f3e74834acf09b05e973b1b44565b677c3c8aec944",
+      "coverage_rating": 0,
+      "coverage_rationale": "No PubMed paper was returned, so live retrieval supplies no evidence for fasting, ketogenic diets or cancer outcomes. The local-guidance-based answer remains a separate artifact.",
+      "search_findings": "The query ANDed fasting with ketogenic diet and additional chemotherapy/weight-loss/nutrition terms. Its translation also included a journal mapping for cancer chemotherapy. The preserved response reports no items; the reviewer did not request the available second search.",
+      "paper_assessments": []
+    }
+  ]
+}

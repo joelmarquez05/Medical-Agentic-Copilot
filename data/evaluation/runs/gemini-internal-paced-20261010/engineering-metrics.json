@@ -1,0 +1,37 @@
+{
+  "question_count": 10,
+  "statuses": {
+    "needs_human_review": 3,
+    "self_review_passed": 7
+  },
+  "model_call_count": 40,
+  "model_call_stages": {
+    "plan": 10,
+    "draft": 10,
+    "review": 15,
+    "revise": 5
+  },
+  "reported_usage": {
+    "input_tokens": 63420,
+    "output_tokens": 8860,
+    "total_tokens": 72280
+  },
+  "median_question_seconds": 14.002,
+  "min_question_seconds": 10.761,
+  "max_question_seconds": 19.322,
+  "sum_question_seconds": 147.973,
+  "revised_questions": [
+    "ON01",
+    "ON05",
+    "ON07",
+    "ON08",
+    "ON10"
+  ],
+  "questions_with_mechanical_citation_issues": [
+    "ON05",
+    "ON08"
+  ],
+  "successful_tool_call_count": 11,
+  "failed_tool_call_count": 0,
+  "interpretation": "Operational measurements only. Self-review status and citation-ID checks do not establish medical correctness or safety. Token counts are provider-reported; no billing cost or free-tier status is inferred."
+}

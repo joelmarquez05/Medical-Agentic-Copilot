@@ -1,0 +1,13 @@
+{
+  "question_count": 6,
+  "source": "Fixed ESPEN 2021 document; authored four-option fact questions, not MedQA",
+  "questions_sha256": "60ac11c2d4cc93e42161795b3074a8688ca973af3c28ac754f20a1505710b3a3",
+  "answer_key_sha256": "5d76bc092f1b8d774fe27d052bacef6ca5456fc325c5fea57f95dc81abeb8433",
+  "document_origin": "data/documents/ingested/espen-cancer-v1-20261012/document.json",
+  "document_json_sha256": "ce582d2e1d4a6e05d0a39dca3d2d552ebc606c5286b3183419d95b980497edb8",
+  "pdf_sha256": "01454b384c55c2d6a8027b081ff7bea4498c7ac75058eb0979156b505b2dfa74",
+  "pdf_pages_one_based": true,
+  "keys_frozen_before_model_generation": true,
+  "model_answers_used_to_select_questions": false,
+  "limits": "Six convenience document questions with multiple-choice cues; familiar guideline previously used in historical project. No clinical or general retrieval ranking."
+}

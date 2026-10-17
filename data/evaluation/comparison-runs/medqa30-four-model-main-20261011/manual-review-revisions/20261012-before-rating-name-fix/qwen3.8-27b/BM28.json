@@ -1,0 +1,49 @@
+{
+  "question_id": "BM28",
+  "model_profile": "qwen3.8-27b",
+  "answer_sha256": "27a3e7f7f0a084e4079d47e2afbecdd456499806eb4fd65fe85e5bddbf7cc2e2",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "material_concern",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "minor_limitation"
+  },
+  "answer_notes": "Released-key mismatch: relevant actual reads support intubation/paralysis for severe syndromes, but diagnosis is overconfident SS despite the antiemetic temporal clue and absent known serotonergic exposure/clonus. The mixed-overdose case cannot establish the same toxidrome here. No structured reference is cited, so read evidence is recorded as retrieval rather than silently credited as a citation.",
+  "researcher_reference_ids": [
+    "R4-CL12"
+  ],
+  "queries": [
+    {
+      "rating": "partially_appropriate",
+      "notes": "Relevant severe-toxic-hyperthermia terms but presupposes SS and stacks multiple treatment terms."
+    },
+    {
+      "rating": "partially_appropriate",
+      "notes": "Broader SS escalation query finds useful management papers, but still neglects antiemetic/NMS etiology."
+    }
+  ],
+  "papers": {
+    "38926083": {
+      "rating": "directly_relevant",
+      "notes": "Despite unavailable title, excerpt directly reviews SS diagnosis/management and uncertainty."
+    },
+    "20433130": {
+      "rating": "directly_relevant",
+      "notes": "SS clinical triad and serotonergic exposure background relevant to differential."
+    },
+    "27469512": {
+      "rating": "directly_relevant",
+      "notes": "Read SS/NMS management review explicitly stresses medication history and severe-case paralysis/intubation."
+    },
+    "8888541": {
+      "rating": "partially_relevant",
+      "notes": "Specific antidepressant interaction with similar symptoms, not a supplied exposure here."
+    },
+    "27335364": {
+      "rating": "partially_relevant",
+      "notes": "Actually read mixed-overdose case has documented multi-drug exposure/clonus and intubation; cannot establish this antiemetic-associated etiology."
+    }
+  },
+  "citations": {},
+  "inline_citations": {}
+}

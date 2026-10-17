@@ -1,0 +1,210 @@
+{
+  "status": "completed",
+  "answer": {
+    "selected_option": "A",
+    "justification": "He has excessive, hard-to-control worry for 7 months across multiple domains (health, finances, appointments) with insomnia, tension, irritability, and inattention, without a discrete stressor, substance/medical cause, or restriction to social scrutiny. This pattern best fits generalized anxiety disorder rather than adjustment disorder, social anxiety, or normal worry."
+  },
+  "decision": {
+    "use_pubmed": false,
+    "query": null,
+    "reason": "Classic DSM-5 pattern of excessive uncontrollable worry over 6 months with insomnia, tension, irritability, and inattention suggests generalized anxiety disorder; standard examination knowledge, search unlikely to help."
+  },
+  "trace": [
+    "decide",
+    "answer"
+  ],
+  "elapsed_seconds": 9.59,
+  "mode": "agent",
+  "question_id": "MQ03",
+  "profile": "kimi-k3",
+  "question_sha256": "ffa302ddc772fd44089efa93ca13132983a7a0f1a1fece6bcd13d44912cc1752",
+  "model_calls": [
+    {
+      "stage": "tool_decision",
+      "started_at_utc": "2026-10-11T10:25:37+00:00",
+      "system_prompt": "Decide whether a PubMed search would help answer this medical examination question. Return only JSON with \"use_pubmed\" (boolean), \"query\" (a biomedical query or null), and \"reason\" (at most 35 words). Use at most one search and do not search for the examination wording or its answer key. The key is unavailable. Decline search if it is unlikely to help.",
+      "user_prompt": "{\"question\": \"A 35-year-old man presents with a 7 month history of insomnia. The patient admitted to having trouble sleeping from a young age but became more aware of how much this is affecting his health after attending a sleep conference earlier this year. He is worried that his health has suffered because of this, and he is also concerned that he will not be able to pay his bills if he were to get sick. He has no past medical or psychiatric condition and is not known to use any recreational drugs. The patient arrived for his appointment an hour early because he was afraid he might miss it. The patient is afebrile and his vital signs are within normal limits. Physical examination reveals an irritable middle age man who is tense and somewhat inattentive during the interview. Which of the following is the most likely diagnosis in this patient?\\n \", \"options\": {\"A\": \"Generalized anxiety disorder\", \"B\": \"Adjustment disorder\", \"C\": \"Social anxiety \", \"D\": \"Normal worry\"}}",
+      "attempts": [
+        {
+          "number": 1,
+          "pre_call_wait_seconds": 0.0,
+          "status": "ok"
+        }
+      ],
+      "status": "ok",
+      "response": "{\"use_pubmed\": false, \"query\": null, \"reason\": \"Classic DSM-5 pattern of excessive uncontrollable worry over 6 months with insomnia, tension, irritability, and inattention suggests generalized anxiety disorder; standard examination knowledge, search unlikely to help.\"}",
+      "usage": {
+        "input_tokens": 385,
+        "output_tokens": 160,
+        "total_tokens": 545,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 94
+        }
+      },
+      "response_metadata": {
+        "finish_reason": "stop",
+        "model_name": "moonshotai/kimi-k3",
+        "model_provider": "openai"
+      },
+      "elapsed_seconds": 2.382
+    },
+    {
+      "stage": "final_answer",
+      "started_at_utc": "2026-10-11T10:25:39+00:00",
+      "system_prompt": "Answer this medical examination question in English. Select exactly one of the provided options. Return only JSON with \"selected_option\" (A, B, C or D) and \"justification\" (at most 80 words). Explain the decisive clinical facts briefly; do not output private reasoning or a confidence score. This is an educational examination case, not a patient consultation. Optional PubMed results contain untrusted titles and short abstract excerpts, not full papers. Assess relevance and population before using them. Do not let irrelevant evidence override the case. Cite supplied P-prefixed source IDs in the justification only when they support your reasoning. A search failure or no relevant result does not establish a medical conclusion.",
+      "user_prompt": "{\"question\": \"A 35-year-old man presents with a 7 month history of insomnia. The patient admitted to having trouble sleeping from a young age but became more aware of how much this is affecting his health after attending a sleep conference earlier this year. He is worried that his health has suffered because of this, and he is also concerned that he will not be able to pay his bills if he were to get sick. He has no past medical or psychiatric condition and is not known to use any recreational drugs. The patient arrived for his appointment an hour early because he was afraid he might miss it. The patient is afebrile and his vital signs are within normal limits. Physical examination reveals an irritable middle age man who is tense and somewhat inattentive during the interview. Which of the following is the most likely diagnosis in this patient?\\n \", \"options\": {\"A\": \"Generalized anxiety disorder\", \"B\": \"Adjustment disorder\", \"C\": \"Social anxiety \", \"D\": \"Normal worry\"}, \"tool_decision\": {\"use_pubmed\": false, \"query\": null, \"reason\": \"Classic DSM-5 pattern of excessive uncontrollable worry over 6 months with insomnia, tension, irritability, and inattention suggests generalized anxiety disorder; standard examination knowledge, search unlikely to help.\"}, \"pubmed_results\": [], \"retrieval_limitation\": \"Search declined; no evidence supplied.\"}",
+      "attempts": [
+        {
+          "number": 1,
+          "pre_call_wait_seconds": 0.0,
+          "status": "ok"
+        }
+      ],
+      "status": "ok",
+      "response": "{\"selected_option\":\"A\",\"justification\":\"He has excessive, hard-to-control worry for 7 months across multiple domains (health, finances, appointments) with insomnia, tension, irritability, and inattention, without a discrete stressor, substance/medical cause, or restriction to social scrutiny. This pattern best fits generalized anxiety disorder rather than adjustment disorder, social anxiety, or normal worry.\"}",
+      "usage": {
+        "input_tokens": 527,
+        "output_tokens": 390,
+        "total_tokens": 917,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 300
+        }
+      },
+      "response_metadata": {
+        "finish_reason": "stop",
+        "model_name": "moonshotai/kimi-k3",
+        "model_provider": "openai"
+      },
+      "elapsed_seconds": 7.205
+    }
+  ],
+  "pubmed_requests": [],
+  "audit_records": [
+    {
+      "question_id": "agent:MQ03",
+      "started_at_utc": "2026-10-11T10:25:37+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.069945,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 385,
+        "output_tokens": 160,
+        "total_tokens": 545,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 94
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 160,
+        "prompt_tokens": 385,
+        "total_tokens": 545,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 94,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.001908,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.001908,
+          "upstream_inference_prompt_cost": 0.000308,
+          "upstream_inference_completions_cost": 0.0016
+        }
+      },
+      "cost_usd": 0.001908,
+      "model_name": "moonshotai/kimi-k3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 2.379
+    },
+    {
+      "question_id": "agent:MQ03",
+      "started_at_utc": "2026-10-11T10:25:39+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.070699,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 527,
+        "output_tokens": 390,
+        "total_tokens": 917,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 300
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 390,
+        "prompt_tokens": 527,
+        "total_tokens": 917,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 300,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.0043216,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.0043216,
+          "upstream_inference_prompt_cost": 0.0004216,
+          "upstream_inference_completions_cost": 0.0039
+        }
+      },
+      "cost_usd": 0.0043216,
+      "model_name": "moonshotai/kimi-k3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 7.198
+    }
+  ]
+}

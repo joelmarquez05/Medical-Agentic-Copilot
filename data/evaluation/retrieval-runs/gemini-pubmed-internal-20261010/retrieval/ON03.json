@@ -1,0 +1,175 @@
+{
+  "question_id": "ON03",
+  "question": "A synthetic adult receiving head-and-neck radiotherapy has severe mucositis and dysphagia and cannot meet needs orally despite counseling and oral supplements. The intestine is functioning. What is a reasonable nutrition-support escalation, and when would parenteral nutrition enter the discussion?",
+  "answer_status": "self_review_passed",
+  "searches": [
+    {
+      "name": "search_pubmed",
+      "arguments": {
+        "max_results": 5,
+        "query": "head and neck radiotherapy mucositis enteral nutrition parenteral nutrition dysphagia",
+        "sort": "relevance"
+      },
+      "status": "ok",
+      "output": {
+        "mode": "live_pubmed_title_abstract",
+        "client_version": "requirement-3-v1",
+        "query": "head and neck radiotherapy mucositis enteral nutrition parenteral nutrition dysphagia",
+        "effective_query": "(head and neck radiotherapy mucositis enteral nutrition parenteral nutrition dysphagia) NOT (retracted publication[pt] OR retraction notice[pt] OR hasretractionin OR hasretractionof)",
+        "sort": "relevance",
+        "max_results": 5,
+        "total_matches": 1,
+        "query_translation": "((\"head neck\"[Journal] OR (\"head\"[All Fields] AND \"and\"[All Fields] AND \"neck\"[All Fields]) OR \"head and neck\"[All Fields]) AND (\"radiotherapy\"[MeSH Terms] OR \"radiotherapy\"[All Fields] OR \"radiotherapies\"[All Fields] OR \"radiotherapy\"[MeSH Subheading] OR \"radiotherapy s\"[All Fields]) AND (\"mucosalization\"[All Fields] OR \"mucosalized\"[All Fields] OR \"mucosally\"[All Fields] OR \"mucose\"[All Fields] OR \"mucoses\"[All Fields] OR \"mucositis\"[MeSH Terms] OR \"mucositis\"[All Fields] OR \"mucositides\"[All Fields] OR \"mucous membrane\"[MeSH Terms] OR (\"mucous\"[All Fields] AND \"membrane\"[All Fields]) OR \"mucous membrane\"[All Fields] OR \"mucosal\"[All Fields]) AND (\"enteral nutrition\"[MeSH Terms] OR (\"enteral\"[All Fields] AND \"nutrition\"[All Fields]) OR \"enteral nutrition\"[All Fields]) AND (\"parenteral nutrition\"[MeSH Terms] OR (\"parenteral\"[All Fields] AND \"nutrition\"[All Fields]) OR \"parenteral nutrition\"[All Fields]) AND (\"deglutition disorders\"[MeSH Terms] OR (\"deglutition\"[All Fields] AND \"disorders\"[All Fields]) OR \"deglutition disorders\"[All Fields] OR \"dysphagia\"[All Fields] OR \"dysphagias\"[All Fields])) NOT (\"retracted publication\"[Publication Type] OR \"retraction notice\"[Publication Type] OR \"hasretractionin\"[All Fields] OR \"hasretractionof\"[All Fields])",
+        "warnings": {},
+        "esearch_pmids": [
+          "3140323"
+        ],
+        "sources": [
+          {
+            "id": "P3140323",
+            "pmid": "3140323",
+            "title": "Malnutrition and the role of nutritional support for radiation therapy patients.",
+            "authors": "H J Thiel, R Fietkau, R Sauer",
+            "author_list": [
+              "H J Thiel",
+              "R Fietkau",
+              "R Sauer"
+            ],
+            "year": "1988",
+            "publication_date": "1988",
+            "journal": "Recent results in cancer research. Fortschritte der Krebsforschung. Progres dans les recherches sur le cancer",
+            "doi": "10.1007/978-3-642-82932-1_27",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3140323/",
+            "pmcid": null,
+            "publication_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "languages": [
+              "eng"
+            ],
+            "abstract": "The nutritional status of a tumor patient can be negatively influenced by the local and systemic effects of the malignant tumor (tumor cachexia, anorexia, difficult oral food intake), by the effects of the various antitumoral therapy modalities (surgery, radiotherapy, chemotherapy), and by the complications associated with such modalities (anorexia, nausea, vomiting, mucositis, xerostomia, alterations of the smell and taste sensations, odynophagia, dysphagia, maldigestion, malabsorption, diarrhea, steatorrhea, conditioned aversions, radiogenic late effects), as well as by the psychological reactions of the patient to the real or feared existence of his tumor. The radiation-induced nutritional disorders depend on the tumor localization, the region irradiated, the dose and length of radiotherapy, the fractionation, the volume irradiated, and the combination with other therapeutic modalities (\"combined modality therapy\"). The acute radiation-induced reactions are usually of limited duration and for this reason tend to interfere with the nutritional status to a lesser extent than the permanent chronic consequences of irradiation. Weight loss and malnutrition tend to develop particularly in patients in whom segments of the gastrointestinal tract are subjected to irradiation. The incidence and severity of deficient nutrition depend not only on the region irradiated (head-neck region, thorax, abdomen, pelvis) but also, and most particularly, on the volume of the digestive tract irradiated. Chemotherapy and radiotherapy combined act very strongly on rapidly proliferating cell populations (skin, mucosa, epithelium of the gastrointestinal tract). In this context, actinomycin D and adriamycin act like real sensitizers, whereas the majority of the other drugs are likely to produce only an additive effect. The first named cytostatics give rise to the so-called recall phenomenon, i.e., the reactivation of latent radiation effects in response to the subsequent administration of the drug. Malnutrition impairs organ function and ultimately results in increased morbidity and mortality. For this reason it has proven mandatory and reasonable that the organism of all tumor patients suffering from malnutrition is provided with the missing essential nutrients (especially amino acids for protein synthesis). This tends to clearly improve the Karnofsky performance status, with a positive effect on response rates, toxicity, and survival rates in retrospective studies.(ABSTRACT TRUNCATED AT 400 WORDS)",
+            "abstract_present": true,
+            "abstract_truncated": false,
+            "abstract_original_characters": 2518,
+            "copyright_information": null,
+            "read_level": "PubMed title and abstract",
+            "preprint": false,
+            "retracted": false,
+            "retraction_notice": false,
+            "expression_of_concern": false,
+            "corrections": [],
+            "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+            "retrieval_rank": 1,
+            "retrieved_at_utc": "2026-10-10T09:28:19+00:00"
+          }
+        ],
+        "excluded_records": [],
+        "http_requests": [
+          {
+            "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+            "parameters": {
+              "db": "pubmed",
+              "term": "(head and neck radiotherapy mucositis enteral nutrition parenteral nutrition dysphagia) NOT (retracted publication[pt] OR retraction notice[pt] OR hasretractionin OR hasretractionof)",
+              "retmode": "json",
+              "retmax": 5,
+              "sort": "relevance"
+            },
+            "started_at_utc": "2026-10-10T09:28:18+00:00",
+            "attempts": [
+              {
+                "attempt": 1,
+                "status": "ok",
+                "http_status": 200,
+                "elapsed_seconds": 0.313
+              }
+            ],
+            "cache_hit": false,
+            "status": "ok",
+            "response_sha256": "5fbe3ef0bed2f01ae44e598bbb442afe49d9ef50f452fc0c9f2a67f036f3d5b6",
+            "response_bytes": 2872,
+            "snapshot_file": "5fbe3ef0bed2f01ae44e598bbb442afe49d9ef50f452fc0c9f2a67f036f3d5b6.json",
+            "retrieved_at_utc": "2026-10-10T09:28:18+00:00"
+          },
+          {
+            "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+            "parameters": {
+              "db": "pubmed",
+              "id": "3140323",
+              "retmode": "xml"
+            },
+            "started_at_utc": "2026-10-10T09:28:18+00:00",
+            "attempts": [
+              {
+                "attempt": 1,
+                "status": "ok",
+                "http_status": 200,
+                "elapsed_seconds": 0.38
+              }
+            ],
+            "cache_hit": false,
+            "status": "ok",
+            "response_sha256": "55a2b22f09458c6f4747c7ec4dd9b94ec121de1119764cde687eeb95a55f1934",
+            "response_bytes": 6979,
+            "snapshot_file": "55a2b22f09458c6f4747c7ec4dd9b94ec121de1119764cde687eeb95a55f1934.xml",
+            "retrieved_at_utc": "2026-10-10T09:28:19+00:00"
+          }
+        ],
+        "retrieved_at_utc": "2026-10-10T09:28:19+00:00",
+        "limitation": "A small ranked search, not a systematic review. No full text, citation-network search, clinical appraisal, or medRxiv-specific integration. No persistent cache is used."
+      },
+      "elapsed_seconds": 0.7854
+    }
+  ],
+  "initial_search_succeeded": true,
+  "initial_search_pmids": [
+    "3140323"
+  ],
+  "initial_returned_pmids": [
+    "3140323"
+  ],
+  "unique_papers": [
+    {
+      "id": "P3140323",
+      "pmid": "3140323",
+      "title": "Malnutrition and the role of nutritional support for radiation therapy patients.",
+      "authors": "H J Thiel, R Fietkau, R Sauer",
+      "author_list": [
+        "H J Thiel",
+        "R Fietkau",
+        "R Sauer"
+      ],
+      "year": "1988",
+      "publication_date": "1988",
+      "journal": "Recent results in cancer research. Fortschritte der Krebsforschung. Progres dans les recherches sur le cancer",
+      "doi": "10.1007/978-3-642-82932-1_27",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3140323/",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "abstract": "The nutritional status of a tumor patient can be negatively influenced by the local and systemic effects of the malignant tumor (tumor cachexia, anorexia, difficult oral food intake), by the effects of the various antitumoral therapy modalities (surgery, radiotherapy, chemotherapy), and by the complications associated with such modalities (anorexia, nausea, vomiting, mucositis, xerostomia, alterations of the smell and taste sensations, odynophagia, dysphagia, maldigestion, malabsorption, diarrhea, steatorrhea, conditioned aversions, radiogenic late effects), as well as by the psychological reactions of the patient to the real or feared existence of his tumor. The radiation-induced nutritional disorders depend on the tumor localization, the region irradiated, the dose and length of radiotherapy, the fractionation, the volume irradiated, and the combination with other therapeutic modalities (\"combined modality therapy\"). The acute radiation-induced reactions are usually of limited duration and for this reason tend to interfere with the nutritional status to a lesser extent than the permanent chronic consequences of irradiation. Weight loss and malnutrition tend to develop particularly in patients in whom segments of the gastrointestinal tract are subjected to irradiation. The incidence and severity of deficient nutrition depend not only on the region irradiated (head-neck region, thorax, abdomen, pelvis) but also, and most particularly, on the volume of the digestive tract irradiated. Chemotherapy and radiotherapy combined act very strongly on rapidly proliferating cell populations (skin, mucosa, epithelium of the gastrointestinal tract). In this context, actinomycin D and adriamycin act like real sensitizers, whereas the majority of the other drugs are likely to produce only an additive effect. The first named cytostatics give rise to the so-called recall phenomenon, i.e., the reactivation of latent radiation effects in response to the subsequent administration of the drug. Malnutrition impairs organ function and ultimately results in increased morbidity and mortality. For this reason it has proven mandatory and reasonable that the organism of all tumor patients suffering from malnutrition is provided with the missing essential nutrients (especially amino acids for protein synthesis). This tends to clearly improve the Karnofsky performance status, with a positive effect on response rates, toxicity, and survival rates in retrospective studies.(ABSTRACT TRUNCATED AT 400 WORDS)",
+      "abstract_present": true,
+      "abstract_truncated": false,
+      "abstract_original_characters": 2518,
+      "copyright_information": null,
+      "read_level": "PubMed title and abstract",
+      "preprint": false,
+      "retracted": false,
+      "retraction_notice": false,
+      "expression_of_concern": false,
+      "corrections": [],
+      "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+      "retrieval_rank": 1,
+      "retrieved_at_utc": "2026-10-10T09:28:19+00:00"
+    }
+  ],
+  "cited_pubmed_ids": [
+    "P3140323"
+  ],
+  "interpretation": "Retrieval observations only. Relevance ratings are authored separately; citation inclusion and self-review are not quality measures."
+}

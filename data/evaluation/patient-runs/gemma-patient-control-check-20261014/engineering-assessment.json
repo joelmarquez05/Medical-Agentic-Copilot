@@ -1,0 +1,27 @@
+{
+  "separate_from_primary_denominator": true,
+  "score": {
+    "question_id": "CONTROL-OFF",
+    "eligible_model_answer": true,
+    "status": "completed",
+    "fields": [
+      {
+        "field": "weight_kg",
+        "expected": null,
+        "actual": null,
+        "present": true,
+        "matched": true
+      }
+    ],
+    "matched_fields": 1,
+    "total_fields": 1,
+    "all_fields_match": true,
+    "tool_actions": [],
+    "required_tool_family": null,
+    "required_tool_observed": true,
+    "citations": [],
+    "review": "Separate engineering control: actual model returns null with patient records withheld."
+  },
+  "runtime_fix": "patient-runtime-v1.1 recognizes the observed OpenAIConnectionError alias for one reserved final retry. Offline transport-failure regression tests the retry; this live control succeeded without a failure/retry.",
+  "original_PM01_preserved": true
+}

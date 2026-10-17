@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-10-14T13:37:40.933971+00:00",
+  "requirement": 7,
+  "scope": "Source/catalogue/archive/report consistency only; patient-memory implementation and evaluations remain pending.",
+  "primary_source_records": 14,
+  "reference_commit": "adc8f523c98cabc878a7016f2a0aceb8ca6fe694",
+  "reference_files_hash_verified": 6,
+  "MIT_license_preserved": true,
+  "application_sources_and_dependencies_unchanged": true,
+  "local_links_checked": 13,
+  "report_sha256": "21abf2b3ada703a8dc039b917ef3a7a6fe88d6c86ae634a8c0cfdca735cea692",
+  "source_catalogue_sha256": "f17b29f26a4a9367f703ffbd2d567746cc6946dcee10a62f8ad0b36e5425a6d0",
+  "compatibility_receipt_sha256": "e084b4187df27093254bee999753f805372f0f7f172c98700a7f269b22ee7f30",
+  "reference_manifest_sha256": "53a4a9c85b7d753ce022d4b38c88720704feb2ed47e024e641002cd199589190",
+  "new_inference_requests": 0,
+  "credentials_read": 0,
+  "patient_memory_implemented": false
+}

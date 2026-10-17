@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-16",
+  "new_inference_requests": 0,
+  "papers": [
+    {
+      "id": "ESPEN2021",
+      "filename": "01_espen_cancer_2021.pdf",
+      "title": "ESPEN practical guideline: Clinical Nutrition in cancer",
+      "authors": "Maurizio Muscaritoli, Jann Arends, Patrick Bachmann, and colleagues",
+      "year": 2021,
+      "doi": "10.1016/j.clnu.2021.02.005",
+      "pmid": "33946039",
+      "url": "https://espen.org/files/ESPEN-Guidelines/ESPEN-practical-guideline-clinical-nutrition-in-cancer.pdf",
+      "rights": "Publicly hosted by ESPEN; original copyright retained. No open licence asserted.",
+      "downloaded_from": "https://espen.org/files/ESPEN-Guidelines/ESPEN-practical-guideline-clinical-nutrition-in-cancer.pdf",
+      "bytes": 3383273,
+      "sha256": "01454b384c55c2d6a8027b081ff7bea4498c7ac75058eb0979156b505b2dfa74",
+      "pdf_pages": 16,
+      "candidate_evidence_pages": [
+        2
+      ]
+    },
+    {
+      "id": "PROTEOS2023",
+      "filename": "02_proteos_protein_2023.pdf",
+      "title": "High Protein Oral Nutritional Supplements Enable the Majority of Cancer Patients to Meet Protein Intake Recommendations during Systemic Anti-Cancer Treatment: A Randomised Controlled Parallel-Group Study",
+      "authors": "Anne-Marie Dingemans, Nico van Walree, Franz Schramel, Magdolen Youssef-El Soud, Edita Baltruskeviciene, Willem Lybaert, Margriet Veldhorst, Claudia A. van den Berg, and Stein Kaasa",
+      "year": 2023,
+      "doi": "10.3390/nu15245030",
+      "pmid": "38140289",
+      "url": "https://mdpi-res.com/d_attachment/nutrients/nutrients-15-05030/article_deploy/nutrients-15-05030.pdf",
+      "rights": "CC BY 4.0, copyright 2023 the authors; unchanged publisher PDF.",
+      "downloaded_from": "https://mdpi-res.com/d_attachment/nutrients/nutrients-15-05030/article_deploy/nutrients-15-05030.pdf",
+      "bytes": 2524156,
+      "sha256": "4dc81bb8722a4609e519800fe589d1c28b3022ff79b021eedbb37b634020c13e",
+      "pdf_pages": 17,
+      "candidate_evidence_pages": [
+        1,
+        6,
+        8,
+        14
+      ]
+    }
+  ]
+}

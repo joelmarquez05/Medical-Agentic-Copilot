@@ -1,0 +1,17 @@
+{
+  "question_id": "BM18",
+  "model_profile": "kimi-k3",
+  "answer_sha256": "d4442a0407ca4aae0719e3279417fa3da125202a750e4417ba13911a50fff280",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "minor_limitation",
+    "calibration_and_provenance": "consistent"
+  },
+  "answer_notes": "Correct tinea cruris from groin/perineal distribution and scrotal sparing, with knowledge provenance stated. Describing balanitis as characteristically scrotal conflates glans inflammation with intertrigo; this is a minor distractor explanation issue.",
+  "researcher_reference_ids": [],
+  "queries": [],
+  "papers": {},
+  "citations": {},
+  "inline_citations": {}
+}

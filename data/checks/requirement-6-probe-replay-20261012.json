@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "run_id": "gemma-pdf-native-probe-20261012",
+  "episodes": [
+    {
+      "condition": "B-full-context",
+      "question_id": "DOC-PILOT",
+      "model_responses": 1,
+      "native_final_calls": 1,
+      "pdf_operations": 0,
+      "answer_sha256": "9c9ee5e6a9b8fc91a997b81ae356878fec09770a9a2d6fc0ca76fcdd8fc64fc3"
+    }
+  ],
+  "new_provider_requests": 0,
+  "credentials_read": 0,
+  "all_initial_and_delivered_contexts_replayed": true,
+  "no_pubmed_tools_or_gold_fields_in_requests": true,
+  "interpretation": "Offline operational provenance, not clinical quality or an independent factual judge."
+}

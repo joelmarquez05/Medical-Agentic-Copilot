@@ -1,0 +1,54 @@
+{
+  "question_id": "BM29",
+  "model_profile": "qwen3.8-27b",
+  "answer_sha256": "2d84af976890dd43365c969c0faebb7a2b059ab653487e4b0d16cb0023cdd7b5",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "consistent"
+  },
+  "answer_notes": "Correct drug with appropriately cautious severe-cutaneous-reaction spectrum rather than definitive patient SJS. One excerpt verifies LTG/SJS-TEN case association, the other its bipolar indication; morphology/prodrome are explicitly acknowledged as not verified in those views.",
+  "researcher_reference_ids": [
+    "R4-CL11"
+  ],
+  "queries": [
+    {
+      "rating": "partially_appropriate",
+      "notes": "Relevant drug/SJS but extra morphology/prodrome conjunction is restrictive and empty."
+    },
+    {
+      "rating": "appropriate",
+      "notes": "Broader drug/SJS query finds association and indication papers."
+    }
+  ],
+  "papers": {
+    "37943271": {
+      "rating": "partially_relevant",
+      "notes": "SJS/TEN management review opening, no LTG identity in this view."
+    },
+    "9798758": {
+      "rating": "directly_relevant",
+      "notes": "Systematic LTG-associated SJS/TEN case-review objective."
+    },
+    "27979020": {
+      "rating": "partially_relevant",
+      "notes": "AED immune/hypersensitivity class background, not LTG-specific clinical phenotype."
+    },
+    "14731061": {
+      "rating": "partially_relevant",
+      "notes": "LTG bipolar indication/neuronal mechanism, supporting indication rather than severe reaction."
+    }
+  },
+  "citations": {
+    "P9798758_search_60e02e379476": {
+      "rating": "supported",
+      "notes": "Directly verifies the explicitly limited LTG severe-reaction association."
+    },
+    "P14731061_search_bea26ccaecf7": {
+      "rating": "supported",
+      "notes": "Directly supports the limited bipolar-indication statement; not credited for SJS morphology/timing."
+    }
+  },
+  "inline_citations": {}
+}

@@ -1,0 +1,1201 @@
+{
+  "source_url": "https://huggingface.co/datasets/GBaker/MedQA-USMLE-4-options/resolve/0fb93dd23a7339b6dcd27e241cb9b5eca62d4d18/phrases_no_exclude_test.jsonl",
+  "source_revision": "0fb93dd23a7339b6dcd27e241cb9b5eca62d4d18",
+  "source_sha256": "c3b905ccfa66152dc25afbcb2c10e86c0bdb208824f0658fcdb2c040f60a2beb",
+  "source_rows": 1273,
+  "seed": 20261011,
+  "eligible_rows": 981,
+  "selected_source_row_indices": [
+    655,
+    449,
+    660,
+    439,
+    362,
+    69,
+    51,
+    465,
+    638,
+    49
+  ],
+  "excluded_rows": [
+    {
+      "source_row_index": 9,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 10,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 11,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 18,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 24,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 28,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 31,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 34,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 38,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 40,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 45,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 58,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 63,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 70,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 72,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 74,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 77,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 84,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 87,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 95,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 110,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 111,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 114,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 116,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 118,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 123,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 126,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 129,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 135,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 139,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 140,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 141,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 146,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 147,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 158,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 159,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 180,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 184,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 185,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 205,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 211,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 212,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 220,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 226,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 228,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 232,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 233,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 237,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 241,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 242,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 245,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 251,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 256,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 264,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 270,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 274,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 276,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 279,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 280,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 284,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 287,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 303,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 307,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 309,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 311,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 313,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 319,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 322,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 329,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 330,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 331,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 333,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 336,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 337,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 340,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 351,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 352,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 365,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 367,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 373,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 374,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 378,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 384,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 388,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 397,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 399,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 406,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 408,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 411,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 412,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 422,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 423,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 431,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 446,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 448,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 454,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 457,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 459,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 464,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 467,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 469,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 470,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 475,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 484,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 485,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 491,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 505,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 507,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 509,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 511,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 518,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 519,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 521,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 522,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 525,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 528,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 531,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 535,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 537,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 541,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 543,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 546,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 547,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 548,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 551,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 552,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 555,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 557,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 569,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 572,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 575,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 577,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 578,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 579,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 581,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 587,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 602,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 603,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 605,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 607,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 608,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 610,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 614,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 616,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 622,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 628,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 633,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 640,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 641,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 644,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 653,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 654,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 657,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 668,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 670,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 676,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 682,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 683,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 685,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 688,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 695,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 705,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 709,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 711,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 712,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 714,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 716,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 717,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 724,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 725,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 727,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 729,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 730,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 732,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 739,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 746,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 754,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 758,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 761,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 768,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 780,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 785,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 793,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 794,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 802,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 807,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 808,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 821,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 822,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 825,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 830,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 832,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 835,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 837,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 838,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 852,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 861,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 863,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 865,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 866,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 867,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 871,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 873,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 877,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 879,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 881,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 882,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 887,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 901,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 905,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 907,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 910,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 913,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 918,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 924,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 926,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 927,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 933,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 935,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 937,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 942,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 945,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 954,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 958,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 960,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 962,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 964,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 972,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 977,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 979,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 989,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 990,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1001,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1002,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 1004,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1008,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1020,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 1023,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1026,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1029,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1032,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1047,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1060,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 1071,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1076,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1079,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 1095,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 1102,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1106,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1109,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1110,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 1111,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1112,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1115,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1117,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1125,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1129,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1132,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1139,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1141,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 1143,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 1152,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1153,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1158,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1163,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 1165,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1171,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1172,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1173,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1176,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1177,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 1186,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 1197,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 1200,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1201,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 1202,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 1203,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1204,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1211,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 1224,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1225,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1228,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1232,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1236,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1237,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 1239,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1245,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1248,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 1259,
+      "reason": "Conservative screen for a potentially unavailable visual."
+    },
+    {
+      "source_row_index": 1263,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1265,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    },
+    {
+      "source_row_index": 1269,
+      "reason": "Stem and options exceed 180 whitespace-delimited words."
+    }
+  ],
+  "question_count": 10,
+  "agent_question_ids": [
+    "MQ01",
+    "MQ02",
+    "MQ03"
+  ],
+  "selection": "Fixed-seed sample after predeclared length and missing-visual screens; no model output or correctness filtering.",
+  "wording_and_options_changed": false,
+  "questions_sha256": "42322c3250c4fc9e7d57e0b2a012b47f8eebd8aee724a24b865ddc9443b58805",
+  "answer_key_sha256": "697a91e0add462bfc218e0d6b4e0b28a3f7da5c5732ebbb0ed7c131f942ac632",
+  "limitation": "General medicine, selected short questions, ten cases; not representative MedQA or nutrition-specific competence. Potential benchmark training contamination."
+}

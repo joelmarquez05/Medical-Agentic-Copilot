@@ -1,0 +1,121 @@
+{
+  "purpose": "Verify successful behavior is unchanged after preserving interrupted graph state; recover reviewable partial state for the two interrupted NVIDIA demos.",
+  "live_api_calls": 0,
+  "cases": [
+    {
+      "run_id": "gemini-internal-final-20261010",
+      "question_id": "ON01",
+      "status": "needs_human_review",
+      "model_inputs_matched": true,
+      "final_answer_unchanged": true,
+      "completed_tool_calls_preserved": 1
+    },
+    {
+      "run_id": "gemini-internal-final-20261010",
+      "question_id": "ON02",
+      "status": "self_review_passed",
+      "model_inputs_matched": true,
+      "final_answer_unchanged": true,
+      "completed_tool_calls_preserved": 2
+    },
+    {
+      "run_id": "gemini-internal-final-20261010",
+      "question_id": "ON03",
+      "status": "self_review_passed",
+      "model_inputs_matched": true,
+      "final_answer_unchanged": true,
+      "completed_tool_calls_preserved": 1
+    },
+    {
+      "run_id": "gemini-internal-final-20261010",
+      "question_id": "ON04",
+      "status": "self_review_passed",
+      "model_inputs_matched": true,
+      "final_answer_unchanged": true,
+      "completed_tool_calls_preserved": 1
+    },
+    {
+      "run_id": "gemini-internal-final-20261010",
+      "question_id": "ON05",
+      "status": "needs_human_review",
+      "model_inputs_matched": true,
+      "final_answer_unchanged": true,
+      "completed_tool_calls_preserved": 1
+    },
+    {
+      "run_id": "gemini-internal-final-20261010",
+      "question_id": "ON06",
+      "status": "self_review_passed",
+      "model_inputs_matched": true,
+      "final_answer_unchanged": true,
+      "completed_tool_calls_preserved": 2
+    },
+    {
+      "run_id": "gemini-internal-final-20261010",
+      "question_id": "ON07",
+      "status": "self_review_passed",
+      "model_inputs_matched": true,
+      "final_answer_unchanged": true,
+      "completed_tool_calls_preserved": 1
+    },
+    {
+      "run_id": "gemini-internal-final-20261010",
+      "question_id": "ON08",
+      "status": "self_review_passed",
+      "model_inputs_matched": true,
+      "final_answer_unchanged": true,
+      "completed_tool_calls_preserved": 1
+    },
+    {
+      "run_id": "gemini-internal-final-20261010",
+      "question_id": "ON09",
+      "status": "self_review_passed",
+      "model_inputs_matched": true,
+      "final_answer_unchanged": true,
+      "completed_tool_calls_preserved": 1
+    },
+    {
+      "run_id": "gemini-internal-final-20261010",
+      "question_id": "ON10",
+      "status": "needs_human_review",
+      "model_inputs_matched": true,
+      "final_answer_unchanged": true,
+      "completed_tool_calls_preserved": 1
+    },
+    {
+      "run_id": "nvidia-gpt-oss-20b-demo-20261010",
+      "question_id": "ON02",
+      "status": "needs_human_review",
+      "model_inputs_matched": true,
+      "final_answer_unchanged": true,
+      "completed_tool_calls_preserved": 2
+    },
+    {
+      "run_id": "nvidia-kimi-k3-demo-20261010",
+      "question_id": "ON02",
+      "status": "error",
+      "model_inputs_matched": true,
+      "final_answer_unchanged": false,
+      "completed_tool_calls_preserved": 2
+    },
+    {
+      "run_id": "nvidia-deepseek-v4.1-flash-demo-20261010",
+      "question_id": "ON02",
+      "status": "error",
+      "model_inputs_matched": true,
+      "final_answer_unchanged": false,
+      "completed_tool_calls_preserved": 0
+    }
+  ],
+  "source_changes_since_main_run": {
+    "cli.py": {
+      "reason": "Requirement 3 adds PubMed commands and makes ask default to literature retrieval; --evidence local retains the original graph. The recorded requirement-2 runs and this replay use MedicalCopilot directly.",
+      "current_sha256": "5a55cfc4f8a31fa8acae47ae4b7a503b93d7fb9d2c9083d94480cfca89844336"
+    },
+    "graph.py": {
+      "reason": "Stream completed node updates so provider failures retain plan, evidence, draft, and review history.",
+      "current_sha256": "d50ca22363dc57dd1ea94fb3266051d567ad3d53103a191167e35fff050fb4c9"
+    }
+  },
+  "interpretation": "This is offline engineering verification using observed responses. It is not a second medical evaluation or additional live provider success."
+}

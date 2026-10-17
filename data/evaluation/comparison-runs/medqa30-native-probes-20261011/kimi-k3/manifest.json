@@ -1,0 +1,8 @@
+{
+  "run_id": "kimi-k3",
+  "stage": "probes",
+  "question_ids": [
+    "PILOT-01"
+  ],
+  "parent_run": "medqa30-native-probes-20261011"
+}

@@ -1,0 +1,45 @@
+{
+  "question_id": "BM11",
+  "model_profile": "kimi-k3",
+  "answer_sha256": "14827cf05165579f0237d0fd452ebc1bc0f3ff9ac99470edd05ef5bea87a24a3",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "consistent"
+  },
+  "answer_notes": "Correct C. Actually reads found serologic studies; accurately attributes acute HBsAg/IgM markers and high acute anti-HBc IgM. The quantitative source also shows positive/high IgM in chronic carriers with flares, so these data cannot prove exclusive acute specificity. It does not claim the numerical cutoff is universally diagnostic or adopt the old review treatment advice. The indexed quantitative abstract itself carries a 250-word truncation notice despite the transport flag.",
+  "researcher_reference_ids": [
+    "R4-CL04"
+  ],
+  "queries": [
+    {
+      "rating": "appropriate",
+      "notes": "Targets acute HBV marker/core-antibody serology directly."
+    }
+  ],
+  "papers": {
+    "15062760": {
+      "rating": "partially_relevant",
+      "notes": "Technical commercial-assay panel review is related serologic infrastructure; this excerpt omits the requested acute/core distinction."
+    },
+    "10683539": {
+      "rating": "directly_relevant",
+      "notes": "Actual read explicitly identifies HBsAg and IgM anti-HBc as acute markers, with broader chronic-course context."
+    },
+    "8119645": {
+      "rating": "directly_relevant",
+      "notes": "Actual quantitative read compares acute and chronic anti-core IgM, including positive chronic-flare results; useful but not proof of exclusive specificity."
+    }
+  },
+  "citations": {
+    "P10683539_read_5d5b00a721a2": {
+      "rating": "supported",
+      "notes": "Actual read explicitly characterizes acute HBV by HBsAg/IgM anti-HBc; no old treatment or survival values are adopted."
+    },
+    "P8119645_read_dcd1938800af": {
+      "rating": "supported",
+      "notes": "Actual read reports markedly elevated anti-HBc IgM in acute disease. Its chronic-flare positives remain a limitation; no perfect-specificity claim is credited."
+    }
+  }
+}

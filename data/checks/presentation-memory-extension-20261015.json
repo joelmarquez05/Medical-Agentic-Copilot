@@ -1,0 +1,119 @@
+{
+  "passed": true,
+  "requirement": 7,
+  "date": "2026-10-15",
+  "mode": "Built-in image_gen",
+  "original_slides_unchanged": 23,
+  "original_script_prefix_bytes_unchanged": 32760,
+  "script_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "slide_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "assets": [
+    {
+      "index": 23,
+      "title": "Memory that stays with the patient",
+      "file": "slides/diapositiva_23.png",
+      "native_source": "C:/Users/gatoj/.codex/generated_images/01a12199-088f-7c83-b01c-f8573d3a0d66/exec-6c7c53a8-7c3c-428c-9c48-d2b27bf50bf6.png",
+      "sha256": "317277974b593d98c057600eeff3ff21e05d1839acd2b99e1fca62eb9e845a8b",
+      "size": [
+        1672,
+        941
+      ],
+      "byte_identical_to_native": true,
+      "png_decode_passed": true
+    },
+    {
+      "index": 24,
+      "title": "A small context, with tools for the rest",
+      "file": "slides/diapositiva_24.png",
+      "native_source": "C:/Users/gatoj/.codex/generated_images/01a12199-088f-7c83-b01c-f8573d3a0d66/exec-6b23920e-a487-4c40-b6a5-2b4ce7d7a108.png",
+      "sha256": "e91ef92f488a8848d5662a2f2ac47074d14b1a1db1fba800f78a8d6284b7b903",
+      "size": [
+        1672,
+        941
+      ],
+      "byte_identical_to_native": true,
+      "png_decode_passed": true
+    },
+    {
+      "index": 25,
+      "title": "Testing continuity and separation",
+      "file": "slides/diapositiva_25.png",
+      "native_source": "C:/Users/gatoj/.codex/generated_images/01a12199-088f-7c83-b01c-f8573d3a0d66/exec-f061b132-31b2-42ab-a0e5-9cc1e5cfc61b.png",
+      "sha256": "0a3d6e2a72360aea13ea20a1cfe6845cb141b13208d1b25eb019dda33beb5953",
+      "size": [
+        1672,
+        941
+      ],
+      "byte_identical_to_native": true,
+      "png_decode_passed": true
+    }
+  ],
+  "script_sha256": "ad27dcbeb308d2c1d61aa7d2ff78656bf0b096400722daf43bc7b67544dd9619",
+  "new_script_word_count": 957,
+  "prompts": "data/presentation/requirement-7-slide-prompts-20261015.json",
+  "scientific_source_hashes_unchanged": {
+    "src\\medical_copilot\\patient_agent.py": "7c651b3521007742bb367a7299e11d5e06b3bbba7d406c82cdeaa6791a2985d9",
+    "src\\medical_copilot\\patient_memory.py": "6430b28a60047a625d9c958acc3cf75c3d3aab6d4b2adc44de272a4677e2f66c",
+    "src\\medical_copilot\\patient_tools.py": "0d3d46462ddb2a4aa1d0313b421b07f543f02d8b7ab6d202762f5767a3960d00",
+    "data\\evaluation\\patient-runs\\gemma-patient-main-20261014\\scores.json": "be953775ebd02aea5b894299cef277db2ba010af90853bb921a5650afe1f4ff5",
+    "data\\evaluation\\patient-runs\\gemma-patient-main-20261014\\manual-reviews.json": "93d1f5b97221eae1a0ea7733770c9a7a7c697fcc6afa1dcd1ff655c30f598707"
+  },
+  "visual_review": "Reviewed all three generated native slides: English text, simple diagrams, readable numbers, separate patient panels, correct flow arrows and footer numbers 24-26. No image edits/resizing or revisions needed.",
+  "new_openrouter_requests": 0,
+  "new_medical_evaluation_requests": 0,
+  "appended_script_utf8_and_accents_checked": true
+}

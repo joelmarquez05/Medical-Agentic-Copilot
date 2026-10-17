@@ -1,0 +1,9 @@
+{
+  "version": "clinical-resilient-v3",
+  "max_research_turns": 3,
+  "max_tool_actions": 3,
+  "max_final_attempts": 2,
+  "max_model_turns": 5,
+  "max_input_bytes": 65536,
+  "native_final_json_schema": true
+}

@@ -1,0 +1,60 @@
+{
+  "records": [
+    {
+      "question_id": "MY-PDF-01",
+      "started_at_utc": "2026-10-12T09:34:38+00:00",
+      "estimated_maximum_usd": 0.006553299999999999,
+      "request_sent": true,
+      "status": "ok",
+      "usage": {
+        "input_tokens": 1802,
+        "output_tokens": 163,
+        "total_tokens": 1965
+      },
+      "provider_usage": {
+        "prompt_tokens": 1802,
+        "completion_tokens": 163,
+        "total_tokens": 1965,
+        "cost": 0.00021108,
+        "reasoning_tokens": 98
+      },
+      "cost_usd": 0.00021108,
+      "cost_basis": "Provider-reported usage.cost.",
+      "finish_reason": "stop",
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "provider_route": "Configured pin; actual route not independently exposed by this response.",
+      "elapsed_seconds": 2.174
+    },
+    {
+      "question_id": "MY-PDF-01",
+      "started_at_utc": "2026-10-12T09:34:40+00:00",
+      "estimated_maximum_usd": 0.008698899999999999,
+      "request_sent": true,
+      "status": "ok",
+      "usage": {
+        "input_tokens": 8224,
+        "output_tokens": 412,
+        "total_tokens": 8636
+      },
+      "provider_usage": {
+        "prompt_tokens": 8224,
+        "completion_tokens": 412,
+        "total_tokens": 8636,
+        "cost": 0.00086376,
+        "reasoning_tokens": 256
+      },
+      "cost_usd": 0.00086376,
+      "cost_basis": "Provider-reported usage.cost.",
+      "finish_reason": "stop",
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "provider_route": "Configured pin; actual route not independently exposed by this response.",
+      "elapsed_seconds": 5.213
+    }
+  ],
+  "budget": {
+    "limit_usd": 6.0,
+    "reported_or_estimated_spend_usd": 4.86506225,
+    "unreported_charge_reserve_usd": 0.1563986,
+    "policy": "Before each paid request, reserve a conservative prompt-byte estimate plus the full output cap at configured provider price ceilings. Failed requests without usage retain that reserve. This is a local guard, not a provider billing guarantee."
+  }
+}

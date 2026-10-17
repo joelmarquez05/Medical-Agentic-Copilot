@@ -1,0 +1,68 @@
+{
+  "stage": "pilot",
+  "conditions": {
+    "A-no-document": {
+      "planned": 1,
+      "recorded": 1,
+      "statuses": {
+        "operationally_unanswered": 1
+      },
+      "valid_completed": 0,
+      "terminal_message_coverage": 1,
+      "application_fallbacks": 1,
+      "provider_requests": 1,
+      "cost_usd": 0,
+      "unknown_charge_records": 1,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "reasoning_tokens": 0,
+      "elapsed_provider_seconds": 158.28,
+      "successful_pdf_tool_calls": 0,
+      "max_input_bytes": 5618,
+      "cited_views": 0
+    },
+    "B-full-context": {
+      "planned": 1,
+      "recorded": 1,
+      "statuses": {
+        "completed": 1
+      },
+      "valid_completed": 1,
+      "terminal_message_coverage": 1,
+      "application_fallbacks": 0,
+      "provider_requests": 1,
+      "cost_usd": 0.00354075,
+      "unknown_charge_records": 0,
+      "input_tokens": 31295,
+      "output_tokens": 2414,
+      "reasoning_tokens": 986,
+      "elapsed_provider_seconds": 55.222,
+      "successful_pdf_tool_calls": 0,
+      "max_input_bytes": 109444,
+      "cited_views": 3
+    },
+    "C-pdf-tools": {
+      "planned": 1,
+      "recorded": 1,
+      "statuses": {
+        "completed": 1
+      },
+      "valid_completed": 1,
+      "terminal_message_coverage": 1,
+      "application_fallbacks": 0,
+      "provider_requests": 3,
+      "cost_usd": 0.0008928300000000001,
+      "unknown_charge_records": 0,
+      "input_tokens": 7317,
+      "output_tokens": 781,
+      "reasoning_tokens": 564,
+      "elapsed_provider_seconds": 10.272,
+      "successful_pdf_tool_calls": 2,
+      "max_input_bytes": 13018,
+      "cited_views": 1
+    }
+  },
+  "provider_requests": 5,
+  "cost_usd": 0.00443358,
+  "interpretation": "Exact option score, explanation/citation support and retrieval efficiency remain separate."
+}

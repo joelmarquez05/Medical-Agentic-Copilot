@@ -1,0 +1,110 @@
+{
+  "records": [
+    {
+      "question_id": "BM01",
+      "started_at_utc": "2026-10-11T17:55:51+00:00",
+      "estimated_maximum_usd": 0.0065947,
+      "request_sent": true,
+      "status": "ok",
+      "usage": {
+        "input_tokens": 1830,
+        "output_tokens": 302,
+        "total_tokens": 2132
+      },
+      "provider_usage": {
+        "prompt_tokens": 1830,
+        "completion_tokens": 302,
+        "total_tokens": 2132,
+        "cost": 0.000191475,
+        "reasoning_tokens": 271
+      },
+      "cost_usd": 0.000191475,
+      "cost_basis": "Provider-reported usage.cost.",
+      "finish_reason": "stop",
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "provider_route": "Configured pin; actual route not independently exposed by this response.",
+      "elapsed_seconds": 2.258
+    },
+    {
+      "question_id": "BM01",
+      "started_at_utc": "2026-10-11T17:55:54+00:00",
+      "estimated_maximum_usd": 0.0074535,
+      "request_sent": true,
+      "status": "ok",
+      "usage": {
+        "input_tokens": 4553,
+        "output_tokens": 1097,
+        "total_tokens": 5650
+      },
+      "provider_usage": {
+        "prompt_tokens": 4553,
+        "completion_tokens": 1097,
+        "total_tokens": 5650,
+        "cost": 0.0005541525,
+        "reasoning_tokens": 741
+      },
+      "cost_usd": 0.0005541525,
+      "cost_basis": "Provider-reported usage.cost.",
+      "finish_reason": "stop",
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "provider_route": "Configured pin; actual route not independently exposed by this response.",
+      "elapsed_seconds": 7.839
+    },
+    {
+      "question_id": "BM02",
+      "started_at_utc": "2026-10-11T17:56:02+00:00",
+      "estimated_maximum_usd": 0.0066587,
+      "request_sent": true,
+      "status": "ok",
+      "usage": {
+        "input_tokens": 1979,
+        "output_tokens": 920,
+        "total_tokens": 2899
+      },
+      "provider_usage": {
+        "prompt_tokens": 1979,
+        "completion_tokens": 920,
+        "total_tokens": 2899,
+        "cost": 0.0003405825,
+        "reasoning_tokens": 631
+      },
+      "cost_usd": 0.0003405825,
+      "cost_basis": "Provider-reported usage.cost.",
+      "finish_reason": "stop",
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "provider_route": "Configured pin; actual route not independently exposed by this response.",
+      "elapsed_seconds": 7.431
+    },
+    {
+      "question_id": "BM03",
+      "started_at_utc": "2026-10-11T17:56:10+00:00",
+      "estimated_maximum_usd": 0.0066727999999999996,
+      "request_sent": true,
+      "status": "ok",
+      "usage": {
+        "input_tokens": 1999,
+        "output_tokens": 2048,
+        "total_tokens": 4047
+      },
+      "provider_usage": {
+        "prompt_tokens": 1999,
+        "completion_tokens": 2048,
+        "total_tokens": 4047,
+        "cost": 0.0005746125,
+        "reasoning_tokens": 2001
+      },
+      "cost_usd": 0.0005746125,
+      "cost_basis": "Provider-reported usage.cost.",
+      "finish_reason": "stop",
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "provider_route": "Configured pin; actual route not independently exposed by this response.",
+      "elapsed_seconds": 14.772
+    }
+  ],
+  "budget": {
+    "limit_usd": 6.0,
+    "reported_or_estimated_spend_usd": 3.88810991,
+    "unreported_charge_reserve_usd": 0.15,
+    "policy": "Before each paid request, reserve a conservative prompt-byte estimate plus the full output cap at configured provider price ceilings. Failed requests without usage retain that reserve. This is a local guard, not a provider billing guarantee."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "purpose": "Post-collection account-wide observation after eleven newly authorized requests",
+  "initial_ledger": {
+    "checked_at_utc": "2026-10-11T15:41:11+00:00",
+    "credential_source": "file",
+    "total_usage": 3.863347433,
+    "total_credits": 10,
+    "interpretation": "Account-wide observation; delayed billing or other account activity remains possible."
+  },
+  "pilot_immediate_final_ledger": {
+    "checked_at_utc": "2026-10-11T15:41:21+00:00",
+    "credential_source": "file",
+    "total_usage": 3.863347433,
+    "total_credits": 10,
+    "interpretation": "Account-wide observation; delayed billing or other account activity remains possible."
+  },
+  "baseline_preflight_ledger": {
+    "checked_at_utc": "2026-10-11T15:41:58+00:00",
+    "credential_source": "file",
+    "total_usage": 3.863347433,
+    "total_credits": 10,
+    "interpretation": "Account-wide observation; delayed billing or other account activity remains possible."
+  },
+  "baseline_immediate_final_ledger": {
+    "checked_at_utc": "2026-10-11T15:44:35+00:00",
+    "credential_source": "file",
+    "total_usage": 3.865738812,
+    "total_credits": 10,
+    "interpretation": "Account-wide observation; delayed billing or other account activity remains possible."
+  },
+  "latest_ledger": {
+    "checked_at_utc": "2026-10-11T15:47:49+00:00",
+    "credential_source": "file",
+    "total_usage": 3.866958642,
+    "total_credits": 10,
+    "interpretation": "Account-wide observation; delayed billing or other account activity remains possible."
+  },
+  "pilot_provider_reported_usd": 0.0002038725,
+  "baseline_provider_reported_usd": 0.00340734,
+  "new_provider_reported_total_usd": 0.0036112125,
+  "account_observed_delta_usd": 0.003611209000000226,
+  "ledger_matches_provider_total_within_1e_9": false,
+  "new_inference_requests": 11,
+  "inference_requests_in_this_audit": 0,
+  "account_limit_usd": 6,
+  "uncertainty_headroom_usd": 0.15,
+  "interpretation": "Immediate ledgers can lag usage; numeric per-response charges remain separately preserved. Account observations can include other activity. Never treat an initial unchanged balance as a zero-cost inference.",
+  "provider_sum_minus_account_delta_usd": 3.4999997739447453e-09,
+  "agreement_within_1e_8_usd_rounding_tolerance": true,
+  "rounding_note": "The eleven response costs and nine-decimal account total agree within 1e-8 USD; the original stricter 1e-9 test remains false and is not hidden."
+}

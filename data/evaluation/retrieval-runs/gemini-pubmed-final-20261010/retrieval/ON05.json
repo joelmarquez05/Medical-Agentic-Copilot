@@ -1,0 +1,518 @@
+{
+  "question_id": "ON05",
+  "question": "A synthetic adult with metastatic lung cancer has anorexia, ongoing weight loss, and muscle wasting. Does increasing calories alone reliably reverse cancer cachexia, and what nutritional and supportive-care approach should be discussed?",
+  "answer_status": "self_review_passed",
+  "searches": [
+    {
+      "name": "search_pubmed",
+      "arguments": {
+        "query": "cancer cachexia nutrition intervention multimodal therapy OR treatment",
+        "max_results": 5,
+        "sort": "relevance"
+      },
+      "status": "ok",
+      "output": {
+        "mode": "live_pubmed_title_abstract",
+        "client_version": "requirement-3-v1",
+        "query": "cancer cachexia nutrition intervention multimodal therapy OR treatment",
+        "effective_query": "(cancer cachexia nutrition intervention multimodal therapy OR treatment) NOT (retracted publication[pt] OR retraction notice[pt] OR hasretractionin OR hasretractionof)",
+        "sort": "relevance",
+        "max_results": 5,
+        "total_matches": 14586177,
+        "query_translation": "(((\"cancer s\"[All Fields] OR \"cancerated\"[All Fields] OR \"canceration\"[All Fields] OR \"cancerization\"[All Fields] OR \"cancerized\"[All Fields] OR \"cancerous\"[All Fields] OR \"neoplasms\"[MeSH Terms] OR \"neoplasms\"[All Fields] OR \"cancer\"[All Fields] OR \"cancers\"[All Fields]) AND (\"cachexia\"[MeSH Terms] OR \"cachexia\"[All Fields] OR \"cachexias\"[All Fields]) AND (\"diet therapy\"[MeSH Terms] OR (\"diet\"[All Fields] AND \"therapy\"[All Fields]) OR \"diet therapy\"[All Fields] OR (\"nutrition\"[All Fields] AND \"intervention\"[All Fields]) OR \"nutrition intervention\"[All Fields]) AND (\"combined modality therapy\"[MeSH Terms] OR (\"combined\"[All Fields] AND \"modality\"[All Fields] AND \"therapy\"[All Fields]) OR \"combined modality therapy\"[All Fields] OR (\"multimodal\"[All Fields] AND \"therapy\"[All Fields]) OR \"multimodal therapy\"[All Fields])) OR (\"therapeutics\"[MeSH Terms] OR \"therapeutics\"[All Fields] OR \"treatments\"[All Fields] OR \"therapy\"[MeSH Subheading] OR \"therapy\"[All Fields] OR \"treatment\"[All Fields] OR \"treatment s\"[All Fields])) NOT (\"retracted publication\"[Publication Type] OR \"retraction notice\"[Publication Type] OR \"hasretractionin\"[All Fields] OR \"hasretractionof\"[All Fields])",
+        "warnings": {},
+        "esearch_pmids": [
+          "28689670",
+          "31916411",
+          "34813576",
+          "32002684",
+          "33841322"
+        ],
+        "sources": [
+          {
+            "id": "P28689670",
+            "pmid": "28689670",
+            "title": "ESPEN expert group recommendations for action against cancer-related malnutrition.",
+            "authors": "J Arends, V Baracos, H Bertz, F Bozzetti, P C Calder, N E P Deutz, N Erickson, A Laviano, M P Lisanti, D N Lobo, D C McMillan, M Muscaritoli, J Ockenga, M Pirlich, F Strasser, M de van der Schueren, A Van Gossum, P Vaupel, A Weimann",
+            "author_list": [
+              "J Arends",
+              "V Baracos",
+              "H Bertz",
+              "F Bozzetti",
+              "P C Calder",
+              "N E P Deutz",
+              "N Erickson",
+              "A Laviano",
+              "M P Lisanti",
+              "D N Lobo",
+              "D C McMillan",
+              "M Muscaritoli",
+              "J Ockenga",
+              "M Pirlich",
+              "F Strasser",
+              "M de van der Schueren",
+              "A Van Gossum",
+              "P Vaupel",
+              "A Weimann"
+            ],
+            "year": "2017",
+            "publication_date": "2017 Oct",
+            "journal": "Clinical nutrition (Edinburgh, Scotland)",
+            "doi": "10.1016/j.clnu.2017.06.017",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28689670/",
+            "pmcid": null,
+            "publication_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "languages": [
+              "eng"
+            ],
+            "abstract": "Patients with cancer are at particularly high risk for malnutrition because both the disease and its treatments threaten their nutritional status. Yet cancer-related nutritional risk is sometimes overlooked or under-treated by clinicians, patients, and their families. The European Society for Clinical Nutrition and Metabolism (ESPEN) recently published evidence-based guidelines for nutritional care in patients with cancer. In further support of these guidelines, an ESPEN oncology expert group met for a Cancer and Nutrition Workshop in Berlin on October 24 and 25, 2016. The group examined the causes and consequences of cancer-related malnutrition, reviewed treatment approaches currently available, and built the rationale and impetus for clinicians involved with care of patients with cancer to take actions that facilitate nutrition support in practice. The content of this position paper is based on presentations and discussions at the Berlin meeting. The expert group emphasized 3 key steps to update nutritional care for people with cancer: (1) screen all patients with cancer for nutritional risk early in the course of their care, regardless of body mass index and weight history; (2) expand nutrition-related assessment practices to include measures of anorexia, body composition, inflammatory biomarkers, resting energy expenditure, and physical function; (3) use multimodal nutritional interventions with individualized plans, including care focused on increasing nutritional intake, lessening inflammation and hypermetabolic stress, and increasing physical activity.",
+            "abstract_present": true,
+            "abstract_truncated": false,
+            "abstract_original_characters": 1585,
+            "copyright_information": "Copyright © 2017 Elsevier Ltd and European Society for Clinical Nutrition and Metabolism. All rights reserved.",
+            "read_level": "PubMed title and abstract",
+            "preprint": false,
+            "retracted": false,
+            "retraction_notice": false,
+            "expression_of_concern": false,
+            "corrections": [],
+            "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+            "retrieval_rank": 1,
+            "retrieved_at_utc": "2026-10-10T09:40:22+00:00"
+          },
+          {
+            "id": "P31916411",
+            "pmid": "31916411",
+            "title": "Nutrition interventions to treat low muscle mass in cancer.",
+            "authors": "Carla M Prado, Sarah A Purcell, Alessandro Laviano",
+            "author_list": [
+              "Carla M Prado",
+              "Sarah A Purcell",
+              "Alessandro Laviano"
+            ],
+            "year": "2020",
+            "publication_date": "2020 Apr",
+            "journal": "Journal of cachexia, sarcopenia and muscle",
+            "doi": "10.1002/jcsm.12525",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31916411/",
+            "pmcid": "PMC7113510",
+            "publication_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "languages": [
+              "eng"
+            ],
+            "abstract": "Many patients with cancer experience poor nutritional status, which detrimentally impacts clinical outcomes. Poor nutritional status in cancer is primarily manifested by severe muscle mass (MM) depletion, which may occur at any stage (from curative to palliative) and often co-exists with obesity. The objective of this article was to discuss gaps and opportunities related to the role of nutrition in preventing and reversing low MM in cancer. It also provides a narrative review of relevant nutritional interventions for patients capable of oral intake. The impact of nutrition interventions to prevent/treat low MM in cancer is not well understood, potentially due to the limited number of studies and of clinically viable, accurate body composition assessment tools. Additionally, the type of study designs, inclusion criteria, length of intervention, and choice of nutritional strategies have not been optimal, likely underestimating the anabolic potential of nutrition interventions. Nutrition studies are also often of short duration, and interventions that adapt to the metabolic and behavioural changes during the clinical journey are needed. We discuss energy requirements (25-30 kcal/kg/day) and interventions of protein (1.0-1.5 g/kg/day), branched-chain amino acids (leucine: 2-4 g/day), β-hydroxy β-methylbutyrate (3 g/day), glutamine (0.3 g/kg/day), carnitine (4-6 g/day), creatine (5 g/day), fish oil/eicosapentanoic acid (2.0-2.2 g/day EPA and 1.5 g/day DHA), vitamin/minerals (e.g. vitamin D: 600-800 international units per day), and multimodal approaches (nutrition, exercise, and pharmaceutical) to countermeasure low MM in cancer. Although the evidence is variable by modality type, interventions were generally not specifically studied in the context of cancer. Understanding patients' nutritional requirements could lead to targeted prescriptions to prevent or attenuate low MM in cancer, with the overall aim of minimizing muscle loss during anti-cancer therapy and maximizing muscle anabolism during recovery. It is anticipated that this will, in turn, improve overall health and prognostication including tolerance to treatment and survival. However, oncology-specific interventions with more robust study designs are needed to facilitate these goals.",
+            "abstract_present": true,
+            "abstract_truncated": false,
+            "abstract_original_characters": 2278,
+            "copyright_information": "© 2020 The Authors. Journal of Cachexia, Sarcopenia and Muscle published by John Wiley & Sons Ltd on behalf of the Society on Sarcopenia, Cachexia and Wasting Disorders.",
+            "read_level": "PubMed title and abstract",
+            "preprint": false,
+            "retracted": false,
+            "retraction_notice": false,
+            "expression_of_concern": false,
+            "corrections": [],
+            "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+            "retrieval_rank": 2,
+            "retrieved_at_utc": "2026-10-10T09:40:22+00:00"
+          },
+          {
+            "id": "P34813576",
+            "pmid": "34813576",
+            "title": "The Most Current Algorithms for the Treatment and Prevention of Hypertrophic Scars and Keloids: A 2020 Update of the Algorithms Published 10 Years Ago.",
+            "authors": "Rei Ogawa",
+            "author_list": [
+              "Rei Ogawa"
+            ],
+            "year": "2022",
+            "publication_date": "2022 Jan 01",
+            "journal": "Plastic and reconstructive surgery",
+            "doi": "10.1097/PRS.0000000000008667",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34813576/",
+            "pmcid": "PMC8687618",
+            "publication_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "languages": [
+              "eng"
+            ],
+            "abstract": "BACKGROUND: In 2010, this Journal published my comprehensive review of the literature on hypertrophic scars and keloids. In that article, I presented evidence-based algorithms for the prevention and treatment of these refractory pathologic scars. In the ensuing decade, substantial progress has been made in the field, including many new randomized controlled trials. To reflect this, I have updated my review.\nMETHODS: All studies were evaluated for methodologic quality. Baseline characteristics of patients were extracted along with the interventions and their outcomes. Systematic reviews, meta-analyses, and comprehensive reviews were included if available.\nRESULTS: Risk factors that promote hypertrophic scar and keloid growth include local factors (tension on the wound/scar), systemic factors (e.g., hypertension), genetic factors (e.g., single-nucleotide polymorphisms), and lifestyle factors. Treatment of hypertrophic scars depends on scar contracture severity: if severe, surgery is the first choice. If not, conservative therapies are indicated. Keloid treatment depends on whether they are small and single or large and multiple. Small and single keloids can be treated radically by surgery with adjuvant therapy (e.g., radiotherapy) or multimodal conservative therapy. For large and multiple keloids, volume- and number-reducing surgery is a choice. Regardless of the treatment(s), patients should be followed up over the long term. Conservative therapies, including gel sheets, tape fixation, topical and injected external agents, oral agents, and makeup therapy, should be administered on a case-by-case basis.\nCONCLUSIONS: Randomized controlled trials on pathologic scar management have increased markedly over the past decade. Although these studies suffer from various limitations, they have greatly improved hypertrophic scar and keloid management. Future high-quality trials are likely to improve the current hypertrophic scar and keloid treatment algorithms further.",
+            "abstract_present": true,
+            "abstract_truncated": false,
+            "abstract_original_characters": 1990,
+            "copyright_information": "Copyright © 2021 The Authors. Published by Wolters Kluwer Health, Inc. on behalf of the American Society of Plastic Surgeons. All rights reserved.",
+            "read_level": "PubMed title and abstract",
+            "preprint": false,
+            "retracted": false,
+            "retraction_notice": false,
+            "expression_of_concern": false,
+            "corrections": [],
+            "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+            "retrieval_rank": 3,
+            "retrieved_at_utc": "2026-10-10T09:40:22+00:00"
+          },
+          {
+            "id": "P32002684",
+            "pmid": "32002684",
+            "title": "Chemotherapy-Induced Sarcopenia.",
+            "authors": "Federico Bozzetti",
+            "author_list": [
+              "Federico Bozzetti"
+            ],
+            "year": "2020",
+            "publication_date": "2020 Jan 30",
+            "journal": "Current treatment options in oncology",
+            "doi": "10.1007/s11864-019-0691-9",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32002684/",
+            "pmcid": null,
+            "publication_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "languages": [
+              "eng"
+            ],
+            "abstract": "Sarcopenia is being consistently recognized as a condition not only associated with the presence of a malignancy but also induced by the oncologic therapies. Due to its negative impact on tolerance to chemotherapy and final outcome in both medical and surgical cancer patients, sarcopenia should be always considered and prevented, and, if recognized, should be appropriately treated. A CT scan at the level of the third lumbar vertebra, using an appropriate software, is the more common and easily available way to diagnose sarcopenia. It is now acknowledged that mechanisms involved in iatrogenic sarcopenia are several and depending on the type of molecule included in the regimen of chemotherapy, different pharmacologic antidotes will be required in the future. However, progression of the disease and the associated malnutrition per se are able to progressively erode the muscle mass and since sarcopenia is the hallmark of cachexia, the therapeutic approach to chemotherapy-induced sarcopenia parallels that of cachexia. This approach mainly relies on those strategies which are able to increase the lean body mass and include the use of anabolic/anti-inflammatory agents, nutritional interventions, physical exercise and, even better, a combination of different therapies. There are some phase II studies and some small controlled randomized trials which have validated these treatments using single agents or combined multimodal approaches. While these approaches may require the cooperation of some specialists (nutritionists with a specific knowledge on pathophysiology of catabolic states, accredited exercise physiologists and physiotherapists), the oncologist too should directly enter these issues to coordinate the choice and priority of the treatments. Who better than the oncologist knows the natural history of the disease, its evolution, and the probability of tolerance and response to the oncologic therapy? Only the oncologist knows when it is essential to potentiate any effort to better achieve a control of the disease, using all the available armamentarium, and when the condition is too advanced and hence requires a more palliative than supporting care. The oncologist also knows when to expect a gastrointestinal toxicity (mucositis, nausea, vomiting, and diarrhea) and hence it is more convenient using a parenteral than an enteral nutritional intervention or, on the contrary, when patient is suitable for discharge from hospital and oral supplements should be promptly tested for compliance and then prescribed. When patients are at high risk for malnutrition or if, regardless of their nutritional status, they are candidate to aggressive and potentially toxic treatments, they should undergo a jointed evaluation by the oncologist and the nutritionist and physical therapist to assess together a combined approach. In conclusion, the treatment of both cancer- or chemotherapy-related sarcopenia represents a challenge for the modern oncologist who must be able to coordinate a new panel of specialists with the same skill necessary to decide the priority of different oncologic treatments within a complex multidisciplinary context.",
+            "abstract_present": true,
+            "abstract_truncated": false,
+            "abstract_original_characters": 3167,
+            "copyright_information": null,
+            "read_level": "PubMed title and abstract",
+            "preprint": false,
+            "retracted": false,
+            "retraction_notice": false,
+            "expression_of_concern": false,
+            "corrections": [],
+            "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+            "retrieval_rank": 4,
+            "retrieved_at_utc": "2026-10-10T09:40:22+00:00"
+          },
+          {
+            "id": "P33841322",
+            "pmid": "33841322",
+            "title": "Risks, Benefits, and Treatment Modalities of Menopausal Hormone Therapy: Current Concepts.",
+            "authors": "Jaya Mehta, Juliana M Kling, JoAnn E Manson",
+            "author_list": [
+              "Jaya Mehta",
+              "Juliana M Kling",
+              "JoAnn E Manson"
+            ],
+            "year": "2021",
+            "publication_date": "2021",
+            "journal": "Frontiers in endocrinology",
+            "doi": "10.3389/fendo.2021.564781",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33841322/",
+            "pmcid": "PMC8034540",
+            "publication_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "languages": [
+              "eng"
+            ],
+            "abstract": "Menopausal hormone therapy (HT) prescribing practices have evolved over the last few decades guided by the changing understanding of the treatment's risks and benefits. Since the Women's Health Initiative (WHI) trial results in 2002, including post-intervention analysis and cumulative 18-year follow up, it has become clear that the risks of HT are low for healthy women less than age 60 or within ten years from menopause. For those who are experiencing bothersome vasomotor symptoms, the benefits are likely to outweigh the risks in view of HT's efficacy for symptom management. HT also has a role in preventing osteoporosis in appropriate candidates for treatment. A comprehensive overview of the types, routes, and formulations of currently available HT, as well as HT's benefits and risks by outcomes of interest are provided to facilitate clinical decision making.",
+            "abstract_present": true,
+            "abstract_truncated": false,
+            "abstract_original_characters": 871,
+            "copyright_information": "Copyright © 2021 Mehta, Kling and Manson.",
+            "read_level": "PubMed title and abstract",
+            "preprint": false,
+            "retracted": false,
+            "retraction_notice": false,
+            "expression_of_concern": false,
+            "corrections": [],
+            "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+            "retrieval_rank": 5,
+            "retrieved_at_utc": "2026-10-10T09:40:22+00:00"
+          }
+        ],
+        "excluded_records": [],
+        "http_requests": [
+          {
+            "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+            "parameters": {
+              "db": "pubmed",
+              "term": "(cancer cachexia nutrition intervention multimodal therapy OR treatment) NOT (retracted publication[pt] OR retraction notice[pt] OR hasretractionin OR hasretractionof)",
+              "retmode": "json",
+              "retmax": 5,
+              "sort": "relevance"
+            },
+            "started_at_utc": "2026-10-10T09:40:21+00:00",
+            "attempts": [
+              {
+                "attempt": 1,
+                "status": "ok",
+                "http_status": 200,
+                "elapsed_seconds": 0.824
+              }
+            ],
+            "cache_hit": false,
+            "status": "ok",
+            "response_sha256": "7b570047d5e628d464864f05d30962e29fcce4549379481f728f98e5e138b12b",
+            "response_bytes": 2710,
+            "snapshot_file": "7b570047d5e628d464864f05d30962e29fcce4549379481f728f98e5e138b12b.json",
+            "retrieved_at_utc": "2026-10-10T09:40:21+00:00"
+          },
+          {
+            "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+            "parameters": {
+              "db": "pubmed",
+              "id": "28689670,31916411,34813576,32002684,33841322",
+              "retmode": "xml"
+            },
+            "started_at_utc": "2026-10-10T09:40:21+00:00",
+            "attempts": [
+              {
+                "attempt": 1,
+                "status": "ok",
+                "http_status": 200,
+                "elapsed_seconds": 0.661
+              }
+            ],
+            "cache_hit": false,
+            "status": "ok",
+            "response_sha256": "bb460f40ab51d3ee53cb491fcae0b42b047b6f9c59648b9caf95aa2a952f993d",
+            "response_bytes": 197167,
+            "snapshot_file": "bb460f40ab51d3ee53cb491fcae0b42b047b6f9c59648b9caf95aa2a952f993d.xml",
+            "retrieved_at_utc": "2026-10-10T09:40:22+00:00"
+          }
+        ],
+        "retrieved_at_utc": "2026-10-10T09:40:22+00:00",
+        "limitation": "A small ranked search, not a systematic review. No full text, citation-network search, clinical appraisal, or medRxiv-specific integration. No persistent cache is used."
+      },
+      "elapsed_seconds": 1.4922
+    }
+  ],
+  "initial_search_succeeded": true,
+  "initial_search_pmids": [
+    "28689670",
+    "31916411",
+    "34813576",
+    "32002684",
+    "33841322"
+  ],
+  "initial_returned_pmids": [
+    "28689670",
+    "31916411",
+    "34813576",
+    "32002684",
+    "33841322"
+  ],
+  "unique_papers": [
+    {
+      "id": "P28689670",
+      "pmid": "28689670",
+      "title": "ESPEN expert group recommendations for action against cancer-related malnutrition.",
+      "authors": "J Arends, V Baracos, H Bertz, F Bozzetti, P C Calder, N E P Deutz, N Erickson, A Laviano, M P Lisanti, D N Lobo, D C McMillan, M Muscaritoli, J Ockenga, M Pirlich, F Strasser, M de van der Schueren, A Van Gossum, P Vaupel, A Weimann",
+      "author_list": [
+        "J Arends",
+        "V Baracos",
+        "H Bertz",
+        "F Bozzetti",
+        "P C Calder",
+        "N E P Deutz",
+        "N Erickson",
+        "A Laviano",
+        "M P Lisanti",
+        "D N Lobo",
+        "D C McMillan",
+        "M Muscaritoli",
+        "J Ockenga",
+        "M Pirlich",
+        "F Strasser",
+        "M de van der Schueren",
+        "A Van Gossum",
+        "P Vaupel",
+        "A Weimann"
+      ],
+      "year": "2017",
+      "publication_date": "2017 Oct",
+      "journal": "Clinical nutrition (Edinburgh, Scotland)",
+      "doi": "10.1016/j.clnu.2017.06.017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28689670/",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Patients with cancer are at particularly high risk for malnutrition because both the disease and its treatments threaten their nutritional status. Yet cancer-related nutritional risk is sometimes overlooked or under-treated by clinicians, patients, and their families. The European Society for Clinical Nutrition and Metabolism (ESPEN) recently published evidence-based guidelines for nutritional care in patients with cancer. In further support of these guidelines, an ESPEN oncology expert group met for a Cancer and Nutrition Workshop in Berlin on October 24 and 25, 2016. The group examined the causes and consequences of cancer-related malnutrition, reviewed treatment approaches currently available, and built the rationale and impetus for clinicians involved with care of patients with cancer to take actions that facilitate nutrition support in practice. The content of this position paper is based on presentations and discussions at the Berlin meeting. The expert group emphasized 3 key steps to update nutritional care for people with cancer: (1) screen all patients with cancer for nutritional risk early in the course of their care, regardless of body mass index and weight history; (2) expand nutrition-related assessment practices to include measures of anorexia, body composition, inflammatory biomarkers, resting energy expenditure, and physical function; (3) use multimodal nutritional interventions with individualized plans, including care focused on increasing nutritional intake, lessening inflammation and hypermetabolic stress, and increasing physical activity.",
+      "abstract_present": true,
+      "abstract_truncated": false,
+      "abstract_original_characters": 1585,
+      "copyright_information": "Copyright © 2017 Elsevier Ltd and European Society for Clinical Nutrition and Metabolism. All rights reserved.",
+      "read_level": "PubMed title and abstract",
+      "preprint": false,
+      "retracted": false,
+      "retraction_notice": false,
+      "expression_of_concern": false,
+      "corrections": [],
+      "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+      "retrieval_rank": 1,
+      "retrieved_at_utc": "2026-10-10T09:40:22+00:00"
+    },
+    {
+      "id": "P31916411",
+      "pmid": "31916411",
+      "title": "Nutrition interventions to treat low muscle mass in cancer.",
+      "authors": "Carla M Prado, Sarah A Purcell, Alessandro Laviano",
+      "author_list": [
+        "Carla M Prado",
+        "Sarah A Purcell",
+        "Alessandro Laviano"
+      ],
+      "year": "2020",
+      "publication_date": "2020 Apr",
+      "journal": "Journal of cachexia, sarcopenia and muscle",
+      "doi": "10.1002/jcsm.12525",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31916411/",
+      "pmcid": "PMC7113510",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Review"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Many patients with cancer experience poor nutritional status, which detrimentally impacts clinical outcomes. Poor nutritional status in cancer is primarily manifested by severe muscle mass (MM) depletion, which may occur at any stage (from curative to palliative) and often co-exists with obesity. The objective of this article was to discuss gaps and opportunities related to the role of nutrition in preventing and reversing low MM in cancer. It also provides a narrative review of relevant nutritional interventions for patients capable of oral intake. The impact of nutrition interventions to prevent/treat low MM in cancer is not well understood, potentially due to the limited number of studies and of clinically viable, accurate body composition assessment tools. Additionally, the type of study designs, inclusion criteria, length of intervention, and choice of nutritional strategies have not been optimal, likely underestimating the anabolic potential of nutrition interventions. Nutrition studies are also often of short duration, and interventions that adapt to the metabolic and behavioural changes during the clinical journey are needed. We discuss energy requirements (25-30 kcal/kg/day) and interventions of protein (1.0-1.5 g/kg/day), branched-chain amino acids (leucine: 2-4 g/day), β-hydroxy β-methylbutyrate (3 g/day), glutamine (0.3 g/kg/day), carnitine (4-6 g/day), creatine (5 g/day), fish oil/eicosapentanoic acid (2.0-2.2 g/day EPA and 1.5 g/day DHA), vitamin/minerals (e.g. vitamin D: 600-800 international units per day), and multimodal approaches (nutrition, exercise, and pharmaceutical) to countermeasure low MM in cancer. Although the evidence is variable by modality type, interventions were generally not specifically studied in the context of cancer. Understanding patients' nutritional requirements could lead to targeted prescriptions to prevent or attenuate low MM in cancer, with the overall aim of minimizing muscle loss during anti-cancer therapy and maximizing muscle anabolism during recovery. It is anticipated that this will, in turn, improve overall health and prognostication including tolerance to treatment and survival. However, oncology-specific interventions with more robust study designs are needed to facilitate these goals.",
+      "abstract_present": true,
+      "abstract_truncated": false,
+      "abstract_original_characters": 2278,
+      "copyright_information": "© 2020 The Authors. Journal of Cachexia, Sarcopenia and Muscle published by John Wiley & Sons Ltd on behalf of the Society on Sarcopenia, Cachexia and Wasting Disorders.",
+      "read_level": "PubMed title and abstract",
+      "preprint": false,
+      "retracted": false,
+      "retraction_notice": false,
+      "expression_of_concern": false,
+      "corrections": [],
+      "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+      "retrieval_rank": 2,
+      "retrieved_at_utc": "2026-10-10T09:40:22+00:00"
+    },
+    {
+      "id": "P34813576",
+      "pmid": "34813576",
+      "title": "The Most Current Algorithms for the Treatment and Prevention of Hypertrophic Scars and Keloids: A 2020 Update of the Algorithms Published 10 Years Ago.",
+      "authors": "Rei Ogawa",
+      "author_list": [
+        "Rei Ogawa"
+      ],
+      "year": "2022",
+      "publication_date": "2022 Jan 01",
+      "journal": "Plastic and reconstructive surgery",
+      "doi": "10.1097/PRS.0000000000008667",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34813576/",
+      "pmcid": "PMC8687618",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "abstract": "BACKGROUND: In 2010, this Journal published my comprehensive review of the literature on hypertrophic scars and keloids. In that article, I presented evidence-based algorithms for the prevention and treatment of these refractory pathologic scars. In the ensuing decade, substantial progress has been made in the field, including many new randomized controlled trials. To reflect this, I have updated my review.\nMETHODS: All studies were evaluated for methodologic quality. Baseline characteristics of patients were extracted along with the interventions and their outcomes. Systematic reviews, meta-analyses, and comprehensive reviews were included if available.\nRESULTS: Risk factors that promote hypertrophic scar and keloid growth include local factors (tension on the wound/scar), systemic factors (e.g., hypertension), genetic factors (e.g., single-nucleotide polymorphisms), and lifestyle factors. Treatment of hypertrophic scars depends on scar contracture severity: if severe, surgery is the first choice. If not, conservative therapies are indicated. Keloid treatment depends on whether they are small and single or large and multiple. Small and single keloids can be treated radically by surgery with adjuvant therapy (e.g., radiotherapy) or multimodal conservative therapy. For large and multiple keloids, volume- and number-reducing surgery is a choice. Regardless of the treatment(s), patients should be followed up over the long term. Conservative therapies, including gel sheets, tape fixation, topical and injected external agents, oral agents, and makeup therapy, should be administered on a case-by-case basis.\nCONCLUSIONS: Randomized controlled trials on pathologic scar management have increased markedly over the past decade. Although these studies suffer from various limitations, they have greatly improved hypertrophic scar and keloid management. Future high-quality trials are likely to improve the current hypertrophic scar and keloid treatment algorithms further.",
+      "abstract_present": true,
+      "abstract_truncated": false,
+      "abstract_original_characters": 1990,
+      "copyright_information": "Copyright © 2021 The Authors. Published by Wolters Kluwer Health, Inc. on behalf of the American Society of Plastic Surgeons. All rights reserved.",
+      "read_level": "PubMed title and abstract",
+      "preprint": false,
+      "retracted": false,
+      "retraction_notice": false,
+      "expression_of_concern": false,
+      "corrections": [],
+      "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+      "retrieval_rank": 3,
+      "retrieved_at_utc": "2026-10-10T09:40:22+00:00"
+    },
+    {
+      "id": "P32002684",
+      "pmid": "32002684",
+      "title": "Chemotherapy-Induced Sarcopenia.",
+      "authors": "Federico Bozzetti",
+      "author_list": [
+        "Federico Bozzetti"
+      ],
+      "year": "2020",
+      "publication_date": "2020 Jan 30",
+      "journal": "Current treatment options in oncology",
+      "doi": "10.1007/s11864-019-0691-9",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32002684/",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Sarcopenia is being consistently recognized as a condition not only associated with the presence of a malignancy but also induced by the oncologic therapies. Due to its negative impact on tolerance to chemotherapy and final outcome in both medical and surgical cancer patients, sarcopenia should be always considered and prevented, and, if recognized, should be appropriately treated. A CT scan at the level of the third lumbar vertebra, using an appropriate software, is the more common and easily available way to diagnose sarcopenia. It is now acknowledged that mechanisms involved in iatrogenic sarcopenia are several and depending on the type of molecule included in the regimen of chemotherapy, different pharmacologic antidotes will be required in the future. However, progression of the disease and the associated malnutrition per se are able to progressively erode the muscle mass and since sarcopenia is the hallmark of cachexia, the therapeutic approach to chemotherapy-induced sarcopenia parallels that of cachexia. This approach mainly relies on those strategies which are able to increase the lean body mass and include the use of anabolic/anti-inflammatory agents, nutritional interventions, physical exercise and, even better, a combination of different therapies. There are some phase II studies and some small controlled randomized trials which have validated these treatments using single agents or combined multimodal approaches. While these approaches may require the cooperation of some specialists (nutritionists with a specific knowledge on pathophysiology of catabolic states, accredited exercise physiologists and physiotherapists), the oncologist too should directly enter these issues to coordinate the choice and priority of the treatments. Who better than the oncologist knows the natural history of the disease, its evolution, and the probability of tolerance and response to the oncologic therapy? Only the oncologist knows when it is essential to potentiate any effort to better achieve a control of the disease, using all the available armamentarium, and when the condition is too advanced and hence requires a more palliative than supporting care. The oncologist also knows when to expect a gastrointestinal toxicity (mucositis, nausea, vomiting, and diarrhea) and hence it is more convenient using a parenteral than an enteral nutritional intervention or, on the contrary, when patient is suitable for discharge from hospital and oral supplements should be promptly tested for compliance and then prescribed. When patients are at high risk for malnutrition or if, regardless of their nutritional status, they are candidate to aggressive and potentially toxic treatments, they should undergo a jointed evaluation by the oncologist and the nutritionist and physical therapist to assess together a combined approach. In conclusion, the treatment of both cancer- or chemotherapy-related sarcopenia represents a challenge for the modern oncologist who must be able to coordinate a new panel of specialists with the same skill necessary to decide the priority of different oncologic treatments within a complex multidisciplinary context.",
+      "abstract_present": true,
+      "abstract_truncated": false,
+      "abstract_original_characters": 3167,
+      "copyright_information": null,
+      "read_level": "PubMed title and abstract",
+      "preprint": false,
+      "retracted": false,
+      "retraction_notice": false,
+      "expression_of_concern": false,
+      "corrections": [],
+      "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+      "retrieval_rank": 4,
+      "retrieved_at_utc": "2026-10-10T09:40:22+00:00"
+    },
+    {
+      "id": "P33841322",
+      "pmid": "33841322",
+      "title": "Risks, Benefits, and Treatment Modalities of Menopausal Hormone Therapy: Current Concepts.",
+      "authors": "Jaya Mehta, Juliana M Kling, JoAnn E Manson",
+      "author_list": [
+        "Jaya Mehta",
+        "Juliana M Kling",
+        "JoAnn E Manson"
+      ],
+      "year": "2021",
+      "publication_date": "2021",
+      "journal": "Frontiers in endocrinology",
+      "doi": "10.3389/fendo.2021.564781",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33841322/",
+      "pmcid": "PMC8034540",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Menopausal hormone therapy (HT) prescribing practices have evolved over the last few decades guided by the changing understanding of the treatment's risks and benefits. Since the Women's Health Initiative (WHI) trial results in 2002, including post-intervention analysis and cumulative 18-year follow up, it has become clear that the risks of HT are low for healthy women less than age 60 or within ten years from menopause. For those who are experiencing bothersome vasomotor symptoms, the benefits are likely to outweigh the risks in view of HT's efficacy for symptom management. HT also has a role in preventing osteoporosis in appropriate candidates for treatment. A comprehensive overview of the types, routes, and formulations of currently available HT, as well as HT's benefits and risks by outcomes of interest are provided to facilitate clinical decision making.",
+      "abstract_present": true,
+      "abstract_truncated": false,
+      "abstract_original_characters": 871,
+      "copyright_information": "Copyright © 2021 Mehta, Kling and Manson.",
+      "read_level": "PubMed title and abstract",
+      "preprint": false,
+      "retracted": false,
+      "retraction_notice": false,
+      "expression_of_concern": false,
+      "corrections": [],
+      "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+      "retrieval_rank": 5,
+      "retrieved_at_utc": "2026-10-10T09:40:22+00:00"
+    }
+  ],
+  "cited_pubmed_ids": [
+    "P28689670",
+    "P32002684"
+  ],
+  "interpretation": "Retrieval observations only. Relevance ratings are authored separately; citation inclusion and self-review are not quality measures."
+}

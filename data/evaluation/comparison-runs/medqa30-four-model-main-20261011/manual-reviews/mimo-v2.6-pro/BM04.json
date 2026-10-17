@@ -1,0 +1,53 @@
+{
+  "question_id": "BM04",
+  "model_profile": "mimo-v2.6-pro",
+  "answer_sha256": "1ef4e62b7d5345c832e8a801aac45edf83d584c066464369e27cdc7a09872a64",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "material_issue",
+    "calibration_and_provenance": "minor_limitation"
+  },
+  "answer_notes": "Correct B, but the justification incorrectly extends prophase-I arrest until fertilization. Its main answer instead says resumption after puberty, creating a stage inconsistency. The source says whole meiosis completes with fertilization; the independently read Jones abstract explicitly distinguishes prophase-I and metaphase-II arrests. Mouse/perinatal caveats are honest but do not repair the erroneous extension.",
+  "researcher_reference_ids": [
+    "R5-CL01"
+  ],
+  "queries": [
+    {
+      "rating": "appropriate",
+      "notes": "Directly targets fetal oocyte prophase-I/dictyate arrest."
+    }
+  ],
+  "papers": {
+    "31956283": {
+      "rating": "directly_relevant",
+      "notes": "Explicit fetal meiotic initiation and prophase-I dictyate arrest address the central stage, despite the review focus on aging/cohesin."
+    },
+    "18084010": {
+      "rating": "directly_relevant",
+      "notes": "Directly discusses fetal oocyte meiosis and multiple arrests, but the 400-character view is cut during the prophase-stage description."
+    },
+    "15823221": {
+      "rating": "partially_relevant",
+      "notes": "Fetal germ-cell population/proliferation is related developmental context; visible text does not establish the precise arrest stage."
+    },
+    "25503411": {
+      "rating": "directly_relevant",
+      "notes": "Explicit perinatal mammalian/mouse primordial-oocyte prophase-I arrest addresses the mechanism; population transfer is limited."
+    }
+  },
+  "citations": {
+    "P31956283_search_6bcddbd48e12": {
+      "rating": "supported",
+      "notes": "Explicitly supports fetal initiation and prophase-I arrest, not the incorrect added claim that that arrest persists until fertilization."
+    },
+    "P18084010_search_9a732b2b2abe": {
+      "rating": "partially_supported",
+      "notes": "The excerpt says whole meiosis only completes at fertilization and mentions two arrests; conflating whole completion with persistent prophase-I arrest misuses the source and its stage detail is truncated."
+    },
+    "P25503411_search_f466ba745ce7": {
+      "rating": "supported",
+      "notes": "Explicitly supports perinatal primordial-oocyte prophase-I arrest in the stated mammalian/mouse setting; it does not verify the false human fertilization-stage extension."
+    }
+  }
+}

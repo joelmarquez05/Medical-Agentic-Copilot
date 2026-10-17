@@ -1,0 +1,650 @@
+{
+  "reviewer": "Unblinded implementation assistant; manual post-generation observations, no paid judge",
+  "answers": {
+    "BM01": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "consistent"
+      },
+      "notes": "Correct D. Identifies worsening shock, failed fluid stabilization and supplied hemoperitoneum; prioritizes operative control over CT. No invented injury grade or organ diagnosis. WSES guidance supports the instability/operative priority; direct answer explicitly lacks external verification.",
+      "reference_sources": [
+        "R4-CL01"
+      ]
+    },
+    "BM02": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "consistent"
+      },
+      "notes": "Correct C. Uses S3, crackles and edema to identify the heart-failure pattern, and explicitly notes that low potassium is less certain without medications. Search returned zero; no source is invented. Its limitation handles physiologic uncertainty but does not explicitly acknowledge absent PubMed verification.",
+      "reference_sources": []
+    },
+    "BM03": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "consistent"
+      },
+      "notes": "Correct D. Post-exercise facilitation, proximal weakness and poor anticholinesterase response support the examination's Lambert-Eaton/SCLC association. Does not assert a proven lung tumor. The very restrictive query returns zero and this is acknowledged, rather than presented as no literature exists.",
+      "reference_sources": []
+    },
+    "BM04": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "minor_limitation"
+      },
+      "notes": "Correct B. Two actual excerpts support fetal meiosis and diplotene/prophase-I arrest. The answer's later hormonal-resumption detail is background knowledge not established by these short views; no clinical study on this infant is implied. Other returned papers are not all directly useful.",
+      "reference_sources": []
+    },
+    "BM05": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "minor_limitation",
+        "calibration_and_provenance": "consistent"
+      },
+      "notes": "Correct B. Recognizes simvastatin transaminase elevation and that fenofibrate can also contribute. The archived label corroborates the stable warning. Only-one wording should not imply that the other listed drugs can never cause liver injury; causation in this patient is not proven. Query conjunctively names four drugs and returns zero; absent verification is acknowledged.",
+      "reference_sources": [
+        "R4-CL02"
+      ]
+    },
+    "BM06": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "consistent"
+      },
+      "notes": "Correct D. Connects chronic severe renal impairment/uremic features with broad waxy casts and distinguishes the supplied alternatives. Explicit absent-verification limitation. This answers the examination's sediment question, not a complete acute management plan.",
+      "reference_sources": []
+    },
+    "BM07": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "consistent"
+      },
+      "notes": "Correct D. Burn-related stress ulceration and mucosal hypoperfusion coherently support the choice. Actual returned records include two title-only sources and related ulcer/burn physiology; no exact mechanism is falsely credited to a read. The answer explains its evidence gap rather than citing irrelevant material.",
+      "reference_sources": []
+    },
+    "BM08": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "consistent"
+      },
+      "notes": "Correct B. Severe obesity coherently links the osteoarthritis-like knee pattern and sleep-apnea-like symptoms. The answer describes suggested conditions, not an obtained sleep-study result. It acknowledges no PubMed verification.",
+      "reference_sources": []
+    },
+    "BM09": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "consistent"
+      },
+      "notes": "Correct C. Identifies likely pyruvate-kinase deficiency/glycolysis and correctly distinguishes PFK-1 allosteric regulation from the indirect hepatic PKA/PFK-2 route. The independent researcher reference verifies hepatic isoenzyme regulation; it was not agent evidence. No claim that RBC PFK-1 is directly phosphorylated by PKA.",
+      "reference_sources": [
+        "R4-CL03"
+      ]
+    },
+    "BM10": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "minor_limitation"
+      },
+      "notes": "Correct C. Symptoms/serology support the expected celiac villous atrophy and crypt hyperplasia. Diagnostic wording is stronger than an independently confirmed biopsy, which is exactly what the question asks to predict. No histology result is invented and no source verification is claimed.",
+      "reference_sources": []
+    },
+    "BM11": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "minor_limitation",
+        "calibration_and_provenance": "minor_limitation"
+      },
+      "notes": "Correct C among the restricted options. Correctly distinguishes core antibody exposure from surface-antibody immunity, but does not specify IgM anti-HBc versus total anti-HBc or the antigen/antibody panel needed to characterize active infection. CDC confirms these distinctions; no key change. No explicit absent-external-verification acknowledgment.",
+      "reference_sources": [
+        "R4-CL04"
+      ]
+    },
+    "BM12": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "consistent"
+      },
+      "notes": "Correct D. Uses cytopenias, splenomegaly and dry tap to predict hairy-cell/TRAP findings; does not pretend an actual positive stain was obtained. Restrictive query returns zero, with an explicit evidence limitation.",
+      "reference_sources": []
+    },
+    "BM13": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "minor_limitation",
+        "calibration_and_provenance": "minor_limitation"
+      },
+      "notes": "Correct C. Travel, evolving fever/GI symptoms and rose spots fit the examination diagnosis. Calling hepatosplenomegaly/rose spots pathognomonic overstates specificity; CDC notes overlap and culture-based diagnosis. No external verification was claimed.",
+      "reference_sources": [
+        "R4-CL05"
+      ]
+    },
+    "BM14": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "consistent"
+      },
+      "notes": "Correct D for a palpable unilateral undescended testis at 11 months. EAU guidance supports early orchiopexy, ideally before 12 months and at latest 18; the model's 6-12-month target is reasonable. No drug dose or fabricated source. This is knowledge-based guideline attribution, explicitly unverified by the agent.",
+      "reference_sources": [
+        "R4-CL06"
+      ]
+    },
+    "BM15": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "minor_limitation",
+        "calibration_and_provenance": "material_issue"
+      },
+      "notes": "Correct D but incomplete citation support. The area-postrema source supports a central emetic role, not every blood-brain-barrier/circulating-toxin claim; its visible text even questions circulating substances in dog experiments. The second cited excerpt concerns ondansetron/5-HT3, not metoclopramide/D2. FDA confirms the D2 fact independently, without repairing that unsupported citation. Etoposide-versus-cisplatin scope is acknowledged.",
+      "reference_sources": [
+        "R4-CL12"
+      ]
+    },
+    "BM16": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "minor_limitation"
+      },
+      "notes": "Correct A. Increased dyspnea/purulent sputum coherently support antibiotic consideration and the released doxycycline choice. Search supplied five records, so the limitation claiming no evidence registry was provided is false. Excerpts do not verify its exact drug recommendation or current full GOLD criteria. It cites no paper and makes no dose claim.",
+      "reference_sources": []
+    },
+    "BM17": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "minor_limitation"
+      },
+      "notes": "Correct A. Sudden intraoperative rigidity, hyperthermia and ETCO2 85 support malignant hyperthermia over the medication distractors. The specific anesthetic is correctly acknowledged as unknown, rather than invented. The answer omits explicit acknowledgment of no external verification; it is not a complete resuscitation protocol.",
+      "reference_sources": []
+    },
+    "BM18": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "consistent"
+      },
+      "notes": "Correct B. Groin/perineal distribution, scrotal sparing and wrestling context support tinea cruris among the choices. No obtained fungal test or reference is invented; absent verification is explicit.",
+      "reference_sources": []
+    },
+    "BM19": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "minor_limitation"
+      },
+      "notes": "Correct B. The actually read 2002 review explicitly links carbamazepine to neural-tube defects, supporting the meningocele association. It does not quantify comparative absolute risk for this patient. Only that association is credited; the old review's broader pregnancy-treatment recommendations are not validated or adopted.",
+      "reference_sources": []
+    },
+    "BM20": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "minor_limitation"
+      },
+      "notes": "Correct A. Distinguishes initial obstruction imaging from a later cause-specific workup; ACR's indexed primary guidance supports initial radiography for poor feeding/no meconium. Retrieved excerpts describe neonatal differentials but not this imaging sequence. Must-precede wording is broader than all possible clinical pathways; no retrieved trial is falsely cited.",
+      "reference_sources": [
+        "R4-CL07"
+      ]
+    },
+    "BM21": {
+      "ratings": {
+        "case_reasoning": "minor_limitation",
+        "reference_concordance": "material_issue",
+        "calibration_and_provenance": "minor_limitation"
+      },
+      "notes": "Correct D but the explanation weakly addresses the IBD/polypharmacy clue and dismisses colchicine marrow toxicity too broadly. Its official label explicitly reports pancytopenia at therapeutic doses. Allopurinol labeling documents myelosuppression and increased thiopurine exposure; a possible IBD-related azathioprine/mercaptopurine interaction is relevant but not a proven exposure in this stem. DRESS is not established by the supplied facts. Preserve correct key alongside this material explanation issue.",
+      "reference_sources": [
+        "R4-CL08",
+        "R4-CL09"
+      ]
+    },
+    "BM22": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "consistent"
+      },
+      "notes": "Correct A. Identifies DPP-4 inhibition and incretin preservation and distinguishes the alternative mechanisms. No dose, patient recommendation or source verification is invented.",
+      "reference_sources": []
+    },
+    "BM23": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "consistent"
+      },
+      "notes": "Correct C. The independent LEUKINE label supports first-administration infusion reactions with respiratory/hemodynamic features; not proof that every symptom in this vignette uniquely diagnoses the drug. Three near-equivalent restrictive queries all return zero. The reserved fourth call produces an honest knowledge-based answer, demonstrating bounded finalization without fabricated references.",
+      "reference_sources": [
+        "R4-CL10"
+      ]
+    },
+    "BM24": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "minor_limitation",
+        "calibration_and_provenance": "consistent"
+      },
+      "notes": "Correct A. Recognizes current primary-hypothyroid features and appropriately leaves thyroiditis subtype uncertain. The supplied review excerpt supports general thyroiditis/initial hormone release, but stops before the later hypothyroid phase or TSH finding. Calling the two described states triphasic is loose; complete course is not observed.",
+      "reference_sources": []
+    },
+    "BM25": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "consistent"
+      },
+      "notes": "Correct D. Male infant, age after maternal IgG wanes and recurrent encapsulated bacterial infections support X-linked agammaglobulinemia; the distractor distinctions are coherent. Empty search is acknowledged, with no fabricated laboratory results or references.",
+      "reference_sources": []
+    },
+    "BM26": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "minor_limitation",
+        "calibration_and_provenance": "material_issue"
+      },
+      "notes": "Correct C with correct 1900*0.60=1140 ascitic neutrophil calculation. Two papers actually returned directly support bacterial translocation, but the model cites raw P-prefixed PMIDs rather than the exact registered view IDs. Host flags both unknown citations. Separate unique-PMID diagnostics confirm real papers/content without repairing the primary response. PMN threshold alone does not exclude secondary peritonitis; confirms is stronger than the limited stem/evidence.",
+      "reference_sources": []
+    },
+    "BM27": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "consistent"
+      },
+      "notes": "Correct B. Actual delivered clinical-study excerpt explicitly supports the long-face/large-ear phenotype and expanded FMR1 CGG repeat association. Historical terminology in the source is not adopted as a modern clinical recommendation.",
+      "reference_sources": []
+    },
+    "BM28": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "minor_limitation",
+        "calibration_and_provenance": "minor_limitation"
+      },
+      "notes": "Correct B. Plausible NMS after a dopamine-antagonist antiemetic; exact drug/exposure is explicitly unknown. A returned case excerpt supports syndrome/antiemetic association, but neither successful query nor failed follow-up supplies dantrolene outcome evidence. FDA supports metoclopramide as a possible NMS trigger, not proof of this patient's drug. Calling dantrolene the specific NMS treatment is stronger than the evidence obtained.",
+      "reference_sources": [
+        "R4-CL12"
+      ]
+    },
+    "BM29": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "minor_limitation",
+        "calibration_and_provenance": "consistent"
+      },
+      "notes": "Correct A. Actual lamotrigine/SJS psychiatric-case excerpt and independent boxed warning support the drug association. A single case does not establish comparative psychiatric-population risk; mucosal involvement or skin detachment is not supplied, so the vignette's exact rash syndrome is not proven. The model appropriately notes absent direct confirmation.",
+      "reference_sources": [
+        "R4-CL11"
+      ]
+    },
+    "BM30": {
+      "ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "consistent"
+      },
+      "notes": "Correct C. Sympathetic activation coherently explains increased heart rate/systolic pressure during exercise. The baroreflex contrast is simplified and does not discuss exercise-related resetting, but the selected mechanism is consistent. Knowledge-based explanation explicitly lacks external verification.",
+      "reference_sources": []
+    }
+  },
+  "queries": {
+    "BM01": [],
+    "BM02": [
+      {
+        "rating": "partially_appropriate",
+        "notes": "Correct heart-failure topic, but combines BNP, ADH, sodium, potassium and abnormalities in one restrictive query; no reformulation."
+      }
+    ],
+    "BM03": [
+      {
+        "rating": "partially_appropriate",
+        "notes": "Correct Lambert-Eaton/SCLC topic, but combines the full symptom list including bladder incontinence; no broader query after the empty result."
+      }
+    ],
+    "BM04": [
+      {
+        "rating": "appropriate",
+        "notes": "Directly targets fetal female meiosis and arrest stage."
+      }
+    ],
+    "BM05": [
+      {
+        "rating": "partially_appropriate",
+        "notes": "Conjoins four separate drugs with a liver-adverse-effect topic, rather than checking a likely candidate or each alternative."
+      }
+    ],
+    "BM06": [],
+    "BM07": [
+      {
+        "rating": "appropriate",
+        "notes": "Directly targets the named burn-related ulcer and its pathophysiology; imperfect returned papers do not invalidate that topic choice."
+      }
+    ],
+    "BM08": [],
+    "BM09": [],
+    "BM10": [],
+    "BM11": [],
+    "BM12": [
+      {
+        "rating": "partially_appropriate",
+        "notes": "Combines nearly every vignette feature with TRAP and hairy-cell leukemia; no simpler disease/stain query follows."
+      }
+    ],
+    "BM13": [],
+    "BM14": [],
+    "BM15": [
+      {
+        "rating": "partially_appropriate",
+        "notes": "Combines etoposide, chemotherapy vomiting, area postrema and metoclopramide; narrower than a general mechanism check."
+      },
+      {
+        "rating": "appropriate",
+        "notes": "Broadens from etoposide to chemotherapy emesis/area postrema; relevance and drug-specific support remain separate."
+      }
+    ],
+    "BM16": [
+      {
+        "rating": "appropriate",
+        "notes": "Targets GOLD/AECOPD antibiotic treatment, the correct clinical decision topic."
+      }
+    ],
+    "BM17": [],
+    "BM18": [],
+    "BM19": [
+      {
+        "rating": "appropriate",
+        "notes": "Directly targets carbamazepine, pregnancy and neural-tube-defect risk."
+      }
+    ],
+    "BM20": [
+      {
+        "rating": "partially_appropriate",
+        "notes": "Neonatal delayed-meconium management is related, but omits the decisive initial-imaging/workup question."
+      }
+    ],
+    "BM21": [],
+    "BM22": [],
+    "BM23": [
+      {
+        "rating": "partially_appropriate",
+        "notes": "Correct drug/reaction topic, but conjunctive symptom terms narrow retrieval excessively."
+      },
+      {
+        "rating": "partially_appropriate",
+        "notes": "Near-equivalent symptom query; little substantive broadening or GM-CSF synonym use."
+      },
+      {
+        "rating": "partially_appropriate",
+        "notes": "Removes one symptom but retains the same narrow approach; no broader drug/infusion-reaction query."
+      }
+    ],
+    "BM24": [
+      {
+        "rating": "appropriate",
+        "notes": "Targets the hyper-to-hypothyroid clinical sequence directly."
+      }
+    ],
+    "BM25": [
+      {
+        "rating": "partially_appropriate",
+        "notes": "Correct X-linked agammaglobulinemia topic, but adds several literal phenotype terms rather than a simpler disorder/presentation query."
+      }
+    ],
+    "BM26": [
+      {
+        "rating": "appropriate",
+        "notes": "Directly targets SBP/cirrhosis bacterial-translocation mechanism."
+      }
+    ],
+    "BM27": [
+      {
+        "rating": "appropriate",
+        "notes": "Directly targets the requested fragile-X physical phenotype."
+      }
+    ],
+    "BM28": [
+      {
+        "rating": "partially_appropriate",
+        "notes": "Targets plausible NMS/MH differential but uses both acronyms and lacks a specific treatment term."
+      },
+      {
+        "rating": "partially_appropriate",
+        "notes": "Adds the MDMA differential while retaining a conjunctive acronym query; does not focus on a named intervention."
+      }
+    ],
+    "BM29": [
+      {
+        "rating": "partially_appropriate",
+        "notes": "Targets lamotrigine rash/bipolar disorder but uses a narrow lesion-description combination."
+      },
+      {
+        "rating": "appropriate",
+        "notes": "Reformulates toward the named SJS drug association; evidence strength of a case report is separately graded."
+      }
+    ],
+    "BM30": []
+  },
+  "papers": {
+    "BM04:37784186": {
+      "rating": "directly_relevant",
+      "notes": "Human fetal meiosis and diplotene/prophase-I arrest are explicit in the delivered excerpt."
+    },
+    "BM04:25652637": {
+      "rating": "partially_relevant",
+      "notes": "Human germ-cell development context; excerpt stops before female meiotic stage."
+    },
+    "BM04:29544632": {
+      "rating": "directly_relevant",
+      "notes": "Primordial-follicle excerpt explicitly states an oocyte arrested at diplotene."
+    },
+    "BM04:30611263": {
+      "rating": "directly_relevant",
+      "notes": "Oocyte meiotic-arrest regulation and fetal meiosis directly address the developmental topic."
+    },
+    "BM04:24806359": {
+      "rating": "partially_relevant",
+      "notes": "Age/cohesin/aneuploidy topic rather than newborn arrest stage."
+    },
+    "BM07:4567321": {
+      "rating": "not_assessable",
+      "notes": "Generic Burns title with no abstract cannot establish its stress-ulcer mechanism coverage."
+    },
+    "BM07:27048251": {
+      "rating": "irrelevant",
+      "notes": "Functional dyspepsia differs from acute burn-related stress bleeding."
+    },
+    "BM07:4053922": {
+      "rating": "partially_relevant",
+      "notes": "General acute ulcer defense/ischemia context; not burn-specific."
+    },
+    "BM07:497665": {
+      "rating": "directly_relevant",
+      "notes": "Title explicitly addresses gastric/duodenal ulceration after burns; no mechanism text supplied."
+    },
+    "BM07:8821097": {
+      "rating": "partially_relevant",
+      "notes": "Burn hypovolemia/fluid physiology, not a delivered ulcer-mechanism account."
+    },
+    "BM15:1485177": {
+      "rating": "directly_relevant",
+      "notes": "Area-postrema/chemotherapy emesis mechanisms directly address the target organ; scope is not all circulating-toxin claims."
+    },
+    "BM15:25295673": {
+      "rating": "partially_relevant",
+      "notes": "Cisplatin/Bacopa animal emesis work, not etoposide or metoclopramide mechanism."
+    },
+    "BM15:29615907": {
+      "rating": "partially_relevant",
+      "notes": "Cisplatin/cannabis pigeon emesis work; indirect relevance only."
+    },
+    "BM15:1838490": {
+      "rating": "partially_relevant",
+      "notes": "Ondansetron/5-HT3 emesis article, not evidence for metoclopramide/D2."
+    },
+    "BM15:31768887": {
+      "rating": "partially_relevant",
+      "notes": "Gingerol/cisplatin animal studies rather than this clinical drug/structure question."
+    },
+    "BM16:34353802": {
+      "rating": "partially_relevant",
+      "notes": "Antibiotic initiation protocol mentions GOLD/Anthonisen but does not supply doxycycline selection evidence."
+    },
+    "BM16:40898355": {
+      "rating": "irrelevant",
+      "notes": "Chronic eosinophil/ICS reduction and prophylactic azithromycin protocol, not this acute antibiotic decision."
+    },
+    "BM16:41844237": {
+      "rating": "directly_relevant",
+      "notes": "AECOPD pharmacological-treatment review directly concerns the clinical management topic; excerpt lacks exact drug recommendation."
+    },
+    "BM16:15293621": {
+      "rating": "partially_relevant",
+      "notes": "Broader atypical respiratory-infection topic; no direct COPD drug choice in the view."
+    },
+    "BM16:35321460": {
+      "rating": "partially_relevant",
+      "notes": "COPD hospital-care audit/GOLD comparison rather than this specific antibiotic decision."
+    },
+    "BM19:8419718": {
+      "rating": "partially_relevant",
+      "notes": "General epilepsy/AED treatment context; delivered excerpt lacks pregnancy/NTD data."
+    },
+    "BM19:8400940": {
+      "rating": "partially_relevant",
+      "notes": "Epilepsy/pregnancy title only, no carbamazepine outcome text."
+    },
+    "BM19:19330496": {
+      "rating": "partially_relevant",
+      "notes": "Antibipolar teratogenesis review methods; no risk finding appears in the excerpt."
+    },
+    "BM19:235422": {
+      "rating": "partially_relevant",
+      "notes": "Old AED-teratogenicity title only, without the needed drug association."
+    },
+    "BM19:11734102": {
+      "rating": "directly_relevant",
+      "notes": "Actual read explicitly links carbamazepine/valproate to neural-tube defects; historical review, not current regimen advice."
+    },
+    "BM20:37828049": {
+      "rating": "partially_relevant",
+      "notes": "Hirschsprung/neonatal obstruction signs; excerpt lacks initial imaging sequence."
+    },
+    "BM20:20714730": {
+      "rating": "partially_relevant",
+      "notes": "Neonatal anorectal-obstruction differential/diagnostic delay, not the requested first imaging step."
+    },
+    "BM20:32152637": {
+      "rating": "irrelevant",
+      "notes": "Older-child chronic constipation differs from acute neonatal obstruction."
+    },
+    "BM20:10807228": {
+      "rating": "partially_relevant",
+      "notes": "Meconium obstruction in very-low-birth-weight infants; different population and no initial radiograph in excerpt."
+    },
+    "BM20:35313185": {
+      "rating": "partially_relevant",
+      "notes": "Syndromic Hirschsprung case, not the nondysmorphic newborn's initial imaging decision."
+    },
+    "BM24:35604323": {
+      "rating": "irrelevant",
+      "notes": "Graves orbitopathy does not address this hyper-to-hypothyroid clinical sequence."
+    },
+    "BM24:34913664": {
+      "rating": "directly_relevant",
+      "notes": "Thyroiditis phases address the diagnostic topic; truncated excerpt does not verify final TSH."
+    },
+    "BM24:28351085": {
+      "rating": "partially_relevant",
+      "notes": "Subclinical thyroid/metabolic-syndrome study, not this overt clinical sequence; supplied title unavailable."
+    },
+    "BM24:17080266": {
+      "rating": "partially_relevant",
+      "notes": "Pituitary TSH-adenoma differential, not evidence for the specific primary-thyroid course."
+    },
+    "BM26:38936554": {
+      "rating": "directly_relevant",
+      "notes": "Gut bacterial translocation/SBP mechanism is explicit in the first delivered sentence."
+    },
+    "BM26:19266595": {
+      "rating": "directly_relevant",
+      "notes": "SBP review explicitly identifies bacterial translocation as the key pathogenesis mechanism."
+    },
+    "BM26:30930689": {
+      "rating": "partially_relevant",
+      "notes": "General cirrhosis immune dysfunction; excerpt does not identify the decisive mechanism."
+    },
+    "BM26:8728196": {
+      "rating": "irrelevant",
+      "notes": "Peritoneal dialysis/liver-virus barriers differ from spontaneous infection in this nondialysis patient."
+    },
+    "BM26:31324695": {
+      "rating": "partially_relevant",
+      "notes": "Cirrhotic infection/endotoxemia renal context rather than the specific ascites mechanism."
+    },
+    "BM27:10874635": {
+      "rating": "directly_relevant",
+      "notes": "Actual excerpt explicitly supplies FMR1/CGG and long-face/protruding-ear features."
+    },
+    "BM28:22101771": {
+      "rating": "directly_relevant",
+      "notes": "NMS phenotype and antiemetic association are explicit; excerpt does not supply dantrolene treatment evidence."
+    },
+    "BM29:40078262": {
+      "rating": "directly_relevant",
+      "notes": "Lamotrigine/SJS psychiatric case directly supports the drug association; not comparative-risk evidence."
+    }
+  },
+  "citations": {
+    "BM04:P37784186_search_6611bee90539": {
+      "rating": "supported",
+      "notes": "Delivered text explicitly states fetal meiosis initiation and diplotene/prophase-I arrest; that is the assessed central claim."
+    },
+    "BM04:P29544632_search_1e2ce3fc8f31": {
+      "rating": "supported",
+      "notes": "Delivered text explicitly states primordial follicles contain a diplotene-arrested oocyte. Later hormonal-resumption detail is not independently verified by this view."
+    },
+    "BM15:P1485177_search_bcfefe9224ee": {
+      "rating": "partially_supported",
+      "notes": "Supports area-postrema involvement in chemotherapy emesis, not the BBB/circulating-toxin assertion. The supplied dog-experiment text questions a circulating-substance role."
+    },
+    "BM15:P1838490_search_5ba59cfba4c3": {
+      "rating": "unsupported",
+      "notes": "The cited view discusses ondansetron and 5-HT3, not metoclopramide or D2-receptor blockade. The D2 fact is independently true but unsupported by this citation."
+    },
+    "BM19:P11734102_read_54fe4a85ad13": {
+      "rating": "supported",
+      "notes": "Actual read explicitly states carbamazepine is associated with neural-tube defects. Does not quantify this patient's comparative risk or validate all historical treatment advice."
+    },
+    "BM24:P34913664_search_72b87d389a54": {
+      "rating": "partially_supported",
+      "notes": "Excerpt supports thyroiditis and initial hormone release; stops before hypothyroid phase/elevated TSH, so complete asserted sequence exceeds the view."
+    },
+    "BM26:P19266595": {
+      "rating": "not_assessable",
+      "notes": "Primary cited ID is not registered. Separate unique-PMID diagnostic maps to a real supplied view supporting bacterial translocation; no primary repair/reclassification."
+    },
+    "BM26:P38936554": {
+      "rating": "not_assessable",
+      "notes": "Primary cited ID is not registered. Separate unique-PMID diagnostic maps to a real supplied view supporting gut translocation/SBP; not a fabricated paper and not a repaired primary citation."
+    },
+    "BM27:P10874635_search_82720c1a830a": {
+      "rating": "supported",
+      "notes": "Actual excerpt directly supplies the cited long-face/large-protruding-ear and expanded CGG/FMR1 phenotype association."
+    },
+    "BM29:P40078262_search_87b2fbcda5d8": {
+      "rating": "partially_supported",
+      "notes": "Supports lamotrigine/SJS association in a psychiatric case, not population-level preferential risk or proof that this vignette's exact rash is SJS."
+    }
+  },
+  "revision_note": "V2 replaces the initial draft's result-count-derived query grades with explicit wording/clinical-target grades. Keys, raw answers, paper relevance and citation grades are unchanged. Empty retrieval alone does not establish an inappropriate query."
+}

@@ -1,0 +1,100 @@
+{
+  "passed": true,
+  "runs": [
+    {
+      "run_id": "gemma-pdf-application-demo-20261012",
+      "stage": "ask",
+      "saved_provider_requests": 2,
+      "known_cost_usd": 0.00107484,
+      "unknown_request_reserve_usd": 0,
+      "manifest_sha256": "55506419fcf216fa55478ddb66addc2a526484f5a54bd372ff711105cbca607a"
+    },
+    {
+      "run_id": "gemma-pdf-main-20261012",
+      "stage": "main",
+      "saved_provider_requests": 29,
+      "known_cost_usd": 0.035423869999999996,
+      "unknown_request_reserve_usd": 0,
+      "manifest_sha256": "f0086d4add624a9e207e0f13688cf6697c3f189be1e43da42411cf3fbaf72ec1"
+    },
+    {
+      "run_id": "gemma-pdf-native-probe-20261012",
+      "stage": "probe",
+      "saved_provider_requests": 1,
+      "known_cost_usd": 0.00309507,
+      "unknown_request_reserve_usd": 0,
+      "manifest_sha256": "64d8fc94184c458f8843fa5c961601887f157ed9dee3f5297914933a4af5515e"
+    },
+    {
+      "run_id": "gemma-pdf-native-probe-v2-20261012",
+      "stage": "probe",
+      "saved_provider_requests": 1,
+      "known_cost_usd": 0.00323514,
+      "unknown_request_reserve_usd": 0,
+      "manifest_sha256": "d261fdebbdfda09fc9481377c5ed38905d49f26a9c9a2a1605fd2425303095f7"
+    },
+    {
+      "run_id": "gemma-pdf-native-probe-v3-20261012",
+      "stage": "probe",
+      "saved_provider_requests": 1,
+      "known_cost_usd": 0.00315057,
+      "unknown_request_reserve_usd": 0,
+      "manifest_sha256": "86562d16cd0dfd5ab243bbf637c14359f9531620e8d3e705fe1e04e2fec0f788"
+    },
+    {
+      "run_id": "gemma-pdf-pilot-20261012",
+      "stage": "pilot",
+      "saved_provider_requests": 5,
+      "known_cost_usd": 0.00443358,
+      "unknown_request_reserve_usd": 0.006398599999999999,
+      "manifest_sha256": "1aaee671e0bfe2ba2212dacbcf2d301d24531dfcf7c60a1d10d2a6916cd2179c"
+    },
+    {
+      "run_id": "gemma-pdf-pilot-v2-20261012",
+      "stage": "pilot",
+      "saved_provider_requests": 7,
+      "known_cost_usd": 0.00588601,
+      "unknown_request_reserve_usd": 0,
+      "manifest_sha256": "264150336141ce25dcb46268421572fcb2d387ecaed1abb8ff5411e110686860"
+    },
+    {
+      "run_id": "gemma-pdf-pilot-v3-20261012",
+      "stage": "pilot",
+      "saved_provider_requests": 5,
+      "known_cost_usd": 0.0047322300000000005,
+      "unknown_request_reserve_usd": 0,
+      "manifest_sha256": "0fb4a838f7402d61b78d9ffce1d4c79a5bfa74ba68e2823baa1d427f6249dc6a"
+    }
+  ],
+  "saved_provider_requests": 51,
+  "known_cost_usd": 0.061031310000000005,
+  "unknown_request_reserve_usd": 0.006398599999999999,
+  "unknown_charge_records": 1,
+  "unknown_requests": [
+    {
+      "run": "gemma-pdf-pilot-20261012",
+      "question_id": "DOC-PILOT",
+      "error_type": "LengthFinishReasonError",
+      "estimated_maximum_usd": 0.006398599999999999,
+      "private_error_content_saved": false
+    }
+  ],
+  "latest_ledger_usage_usd": 4.867367959,
+  "latest_authenticated_observation": {
+    "checked_at_utc": "2026-10-12T09:34:45+00:00",
+    "credential_source": "file",
+    "total_usage": 4.867367959,
+    "total_credits": 10,
+    "interpretation": "Account-wide observation; delayed billing or other account activity remains possible.",
+    "artifact": "data/evaluation/pdf-runs/gemma-pdf-application-demo-20261012/final-ledger.json",
+    "artifact_sha256": "4352f744df04b37eea461415bcefc7db6d7ed0e45c669001875a9ec7f5c0919a"
+  },
+  "account_anchor_usd": 4.802368939,
+  "observed_account_increase_usd": 0.06499902000000013,
+  "account_increase_minus_saved_known_cost_usd": 0.003967710000000124,
+  "historical_uncertainty_headroom_usd": 0.15,
+  "account_limit_usd": 6,
+  "new_model_requests": 0,
+  "credentials_read": 0,
+  "interpretation": "Covers all saved PDF probes/pilots, primary episodes and application demo. One unreported failed length request remains reserved; ledger residual is not an independently attributable bill. Historical point-4 in-flight uncertainty is still retained. Account observations may lag or include other activity."
+}

@@ -1,0 +1,148 @@
+{
+  "reviewer": "Unblinded implementation assistant; explicit post-generation notes, no paid judge or independent clinician",
+  "rubric_sha256": "fbb86bb32a2234ae9a3866722b5dbb61f79eb3474e123d9d36fef1c9ef11df51",
+  "reviews": [
+    {
+      "question_id": "IC01",
+      "answer_sha256": "f6eda997bde5ec050a81e00a0402464ffdad83e2d6d72e1c5adf73c8554ab9d2",
+      "option_score_unchanged": true,
+      "dimension_ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "minor_limitation"
+      },
+      "brief_observed_notes": "Correct B, uses antibiotic exposure, watery diarrhea and supplied inflammatory findings. Direct knowledge-based answer; no source obtained. Its limitation says no registry was provided rather than clearly saying it chose not to verify with the available tools; no fabricated citation. Most-likely diagnosis is not a confirmed stool result.",
+      "reference_source_ids": [
+        "CL01"
+      ]
+    },
+    {
+      "question_id": "IC02",
+      "answer_sha256": "8c1b0848a5b219dbd95f529da30c52ea3a63342f75c588b7d6516c03940d7a96",
+      "option_score_unchanged": true,
+      "dimension_ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "minor_limitation",
+        "calibration_and_provenance": "consistent"
+      },
+      "brief_observed_notes": "Correct B and decisive positional pain/rub. Retains a pleuritic descriptor not specified by the stem. Explicitly acknowledges no PubMed verification; no invented ECG/echo or citation.",
+      "reference_source_ids": [
+        "CL02"
+      ]
+    },
+    {
+      "question_id": "IC03",
+      "answer_sha256": "e5e028fcca9bd4b2d6174e6c1a3ee66d05e6d796b32117ce9b0884691589f45a",
+      "option_score_unchanged": true,
+      "dimension_ratings": {
+        "case_reasoning": "minor_limitation",
+        "reference_concordance": "minor_limitation",
+        "calibration_and_provenance": "consistent"
+      },
+      "brief_observed_notes": "Correct A and coherent hypothyroidism/TRH explanation. Now mentions clozapine and pituitary alternatives, but normal visual fields alone cannot exclude a small prolactinoma; the untreated hypothyroidism is the stronger supplied clue. Length/repetition exceeds the normal concise target. Acknowledges unverified evidence. The clozapine attribution is not externally checked by this agent.",
+      "reference_source_ids": [
+        "CL03",
+        "CL03B"
+      ]
+    },
+    {
+      "question_id": "IC04",
+      "answer_sha256": "e31461a47d423a93e3050588f199b1dbe8b1399f373daccf8c70c73dd11cd280",
+      "option_score_unchanged": true,
+      "dimension_ratings": {
+        "case_reasoning": "minor_limitation",
+        "reference_concordance": "material_issue",
+        "calibration_and_provenance": "consistent"
+      },
+      "brief_observed_notes": "C still differs from released B. Recognizes limb-threatening ischemia, but mentions possible Rutherford III alongside IIb without distinguishing the nonsalvageable category's different management. The guideline supports immediate UFH and emergency viability/revascularization assessment for salvageable ischemia; no Doppler findings establish a complete stage here. Urgent rescue can be clinically appropriate for IIb, while the unexplained III alternative is a material imprecision. No PubMed search was chosen; original key/prioritization ambiguity remains.",
+      "reference_source_ids": [
+        "CL05"
+      ]
+    },
+    {
+      "question_id": "IC05",
+      "answer_sha256": "8dc6f350ff95d0e507a377de6cd6de0a4d28d674ca82c0d835078b9ff2d8e623",
+      "option_score_unchanged": true,
+      "dimension_ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "minor_limitation",
+        "calibration_and_provenance": "consistent"
+      },
+      "brief_observed_notes": "Correct B based on previous newborn invasive GBS disease; avoids delaying prophylaxis. Introduces term for the previous infant although its gestational age is not supplied and is not needed for the indication. ACOG/CDC attribution remains knowledge-based, explicitly unverified by PubMed.",
+      "reference_source_ids": [
+        "CL06"
+      ]
+    },
+    {
+      "question_id": "IC06",
+      "answer_sha256": "5846f56ec4234e7477d033efc0345929963a9380ae5ef926b68c582d06c22fb7",
+      "option_score_unchanged": true,
+      "dimension_ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "consistent"
+      },
+      "brief_observed_notes": "Correct A, uses severe hypertension/thrombocytopenia and distinguishes stabilization from delivery. No invented elevated liver enzymes, dose or full delivery plan. Explicitly states absent PubMed verification; no retrieved guideline citation.",
+      "reference_source_ids": [
+        "CL07"
+      ]
+    },
+    {
+      "question_id": "IC07",
+      "answer_sha256": "e165e218211ade788f8d3ac62f5182e4b6cfeef847cc06583e393fdd9f29873b",
+      "option_score_unchanged": true,
+      "dimension_ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "consistent"
+      },
+      "brief_observed_notes": "Correct D and neutralization mechanism; contrasts alternatives without inventing a reversal dose. Explicitly states no PubMed verification; no source obtained.",
+      "reference_source_ids": [
+        "CL08"
+      ]
+    },
+    {
+      "question_id": "IC08",
+      "answer_sha256": "ecced9c865cfaa7f519b7ff345fad1fd46fa764e2e2ecd19d7b8af45945a8c0e",
+      "option_score_unchanged": true,
+      "dimension_ratings": {
+        "case_reasoning": "not_evaluable",
+        "reference_concordance": "not_evaluable",
+        "calibration_and_provenance": "not_evaluable"
+      },
+      "brief_observed_notes": "No final answer: after a successful search, a nested action object violates the unchanged JSON contract. Its attempted read targets a secondary BALANCE analysis; it is not executed. The original main trial was not among these five results. This is an operational failure and a retrieval-selection limitation, not an observed wrong medical option.",
+      "reference_source_ids": [
+        "BALANCE"
+      ]
+    },
+    {
+      "question_id": "IC09",
+      "answer_sha256": "1595851286b3bc5ca8e72027bc6c6260787be2f7204485b322ac5eef49f2b60d",
+      "option_score_unchanged": true,
+      "dimension_ratings": {
+        "case_reasoning": "consistent",
+        "reference_concordance": "consistent",
+        "calibration_and_provenance": "consistent"
+      },
+      "brief_observed_notes": "Correct D with DVT/PE rates supported by the actually supplied original-trial abstract and a valid read-view citation. Does not repeat baseline's hip-fracture-only population description; it does not explicitly discuss eligibility either. The key was already correct, so this is better observable evidence support, not an accuracy gain.",
+      "reference_source_ids": [
+        "PREVENT_CLOT"
+      ]
+    },
+    {
+      "question_id": "IC10",
+      "answer_sha256": "09a999013f64993ea49297c150ae2dd6cbffc817cff687d8947c1470a7752ffc",
+      "option_score_unchanged": true,
+      "dimension_ratings": {
+        "case_reasoning": "not_evaluable",
+        "reference_concordance": "not_evaluable",
+        "calibration_and_provenance": "not_evaluable"
+      },
+      "brief_observed_notes": "No final answer: two near-equivalent searches return the same two related nonprimary papers. At the last permitted turn, tools are absent but Gemma requests another search; the graph stops without an additional operation or model call. No primary SOUL result is retrieved; no incorrect final medical belief is scored.",
+      "reference_source_ids": [
+        "SOUL"
+      ]
+    }
+  ],
+  "keys_changed": 0
+}

@@ -1,0 +1,48 @@
+{
+  "question_id": "BM25",
+  "model_profile": "kimi-k3",
+  "answer_sha256": "edff518f76f81728906995b3c271d63a9bee224d2385da34a1ac17e8ab444529",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "consistent"
+  },
+  "answer_notes": "Correct XLA presentation and plausible contrasts with ataxia-telangiectasia/DiGeorge/T-cell disorders. Citation scope is accurately limited to B-cell defects and respiratory infections; the age/pathogen detail is not falsely represented as present in excerpts.",
+  "researcher_reference_ids": [],
+  "queries": [
+    {
+      "rating": "appropriate",
+      "notes": "Direct Bruton/otitis/pneumonia/boy query despite zero matches."
+    },
+    {
+      "rating": "appropriate",
+      "notes": "Broader XLA respiratory-infection wording retrieves reviews/cohort."
+    }
+  ],
+  "papers": {
+    "7838240": {
+      "rating": "partially_relevant",
+      "notes": "General agammaglobulinemia types/genetics, not the specific infant phenotype in delivered text."
+    },
+    "31464718": {
+      "rating": "directly_relevant",
+      "notes": "Review opening explicitly describes congenital B-cell developmental defect."
+    },
+    "32058651": {
+      "rating": "directly_relevant",
+      "notes": "Opening explicitly describes recurrent predominantly respiratory infections and low immunoglobulins."
+    }
+  },
+  "citations": {
+    "P31464718_search_70462938c1e6": {
+      "rating": "supported",
+      "notes": "Supports the explicitly limited congenital B-cell defect claim."
+    },
+    "P32058651_search_a41f73eef805": {
+      "rating": "supported",
+      "notes": "Supports the explicitly limited recurrent respiratory-infection claim."
+    }
+  },
+  "inline_citations": {}
+}

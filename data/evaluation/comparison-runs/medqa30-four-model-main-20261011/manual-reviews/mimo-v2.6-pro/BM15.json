@@ -1,0 +1,50 @@
+{
+  "question_id": "BM15",
+  "model_profile": "mimo-v2.6-pro",
+  "answer_sha256": "88b8edcf2d21f19701339364303b404517ea964fabef479deff01f700406407d",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "material_issue"
+  },
+  "answer_notes": "Correct D, but its justification says AP essentiality supports direct chemotherapy activation, which does not follow from the cited snippet. That same snippet questions circulating substances in dog experiments and allows neurally mediated stimuli. The actor acknowledges missing drug-specific pharmacology sources, yet asserts a stronger evidentiary localization than delivered text warrants. REGLAN independently supports the D2 fact, not this citation inference.",
+  "researcher_reference_ids": [
+    "R4-CL12"
+  ],
+  "queries": [
+    {
+      "rating": "appropriate",
+      "notes": "Targets the relevant metoclopramide/chemo-emesis CTZ/AP topic."
+    }
+  ],
+  "papers": {
+    "1485177": {
+      "rating": "directly_relevant",
+      "notes": "Explicit AP role and circulating versus neurally mediated hypotheses directly address the site; dog experiments in the excerpt do not support a circulating-substance role."
+    },
+    "25295673": {
+      "rating": "partially_relevant",
+      "notes": "Bacopa/cisplatin pigeon neurochemical work is related emesis physiology, not metoclopramide/etoposide site verification."
+    },
+    "29615907": {
+      "rating": "partially_relevant",
+      "notes": "Cannabis/cisplatin pigeon antiemetic study is related but different intervention/species, not this drug/site mechanism."
+    },
+    "1838490": {
+      "rating": "partially_relevant",
+      "notes": "5-HT3/ondansetron receptors in GI/AP are related localization evidence but a different receptor/drug from metoclopramide D2."
+    },
+    "25888212": {
+      "rating": "partially_relevant",
+      "notes": "Ginger/cisplatin pigeon antiemesis neurotransmitter study is related background, not this metoclopramide localization."
+    }
+  },
+  "citations": {
+    "P1485177_search_bcfefe9224ee": {
+      "rating": "partially_supported",
+      "notes": "Supports AP involvement/essentiality, not the asserted direct circulating-chemotherapy mechanism; actual dog data in the excerpt do not support circulating substances."
+    }
+  },
+  "inline_citations": {}
+}

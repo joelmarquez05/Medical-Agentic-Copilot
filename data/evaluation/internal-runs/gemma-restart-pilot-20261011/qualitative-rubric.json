@@ -1,0 +1,26 @@
+{
+  "version": "requirement-2-restart-baseline-v1",
+  "evaluation": "Separate qualitative justification appraisal after exact-key scoring",
+  "reviewer": "Unblinded implementation assistant; no independent clinician or paid LLM judge",
+  "key_policy": "Only exact unchanged answer-key option determines correctness. Review cannot replace keys.",
+  "dimensions": {
+    "case_reasoning": "Does the explanation identify decisive case/study facts and logically support the selected option?",
+    "reference_concordance": "Does the visible explanation agree with the published facts or documented clinical context, without invented findings?",
+    "calibration_and_provenance": "Does it acknowledge no supplied external evidence, avoid a false search/reading claim, and distinguish relevant study/population/outcome limits?"
+  },
+  "ratings": ["consistent", "minor_limitation", "material_issue", "not_evaluable"],
+  "case_notes": {
+    "IC01": "Antibiotic-associated watery diarrhea; C. difficile is a likely examination diagnosis, not confirmed infection without diagnostic testing.",
+    "IC02": "Positional pain and friction rub support acute pericarditis; no invented ECG, echo or hemodynamic finding.",
+    "IC03": "Untreated hypothyroidism/elevated TSH supports hyperprolactinemia; consider the medication distractor and avoid an unsupported pituitary diagnosis.",
+    "IC04": "Immediate unfractionated heparin while arranging urgent revascularization assessment; anticoagulation alone is not definitive treatment of a threatened limb.",
+    "IC05": "Prior newborn with invasive GBS disease supports intrapartum antibiotic prophylaxis, with penicillin when appropriate; avoid delaying prophylaxis for screening.",
+    "IC06": "Severe hypertension with headaches/low platelets supports immediate stabilization and magnesium consideration; do not imply stabilization settles delivery timing.",
+    "IC07": "Protamine reverses unfractionated heparin; do not invent a dose absent infusion/time information.",
+    "IC08": "BALANCE primary all-cause 90-day mortality: 14.5% for 7 days versus 16.1% for 14 days; noninferiority is not superiority. Do not generalize to excluded S. aureus/severely immunosuppressed groups.",
+    "IC09": "PREVENT CLOT DVT: 2.51% aspirin versus 1.71% LMWH; primary mortality noninferiority does not establish equal DVT. Do not confuse DVT with equal PE incidence.",
+    "IC10": "SOUL oral semaglutide: primary MACE HR 0.86, CI 0.77-0.96, events 12.0% versus 13.8%; avoid substituting subcutaneous SELECT/FLOW or inferring every secondary outcome improved."
+  },
+  "artifact_requirements": ["question_id", "answer_sha256", "option_score_unchanged", "dimension_ratings", "brief_observed_notes", "reference_source_ids"],
+  "limitations": "Small selected internal set; possible memorization, subjective/unblinded explanation review and no clinical validation. No retrieval support is supplied in baseline."
+}

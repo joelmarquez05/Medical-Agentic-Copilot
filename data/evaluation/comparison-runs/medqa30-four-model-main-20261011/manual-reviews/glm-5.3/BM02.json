@@ -1,0 +1,16 @@
+{
+  "question_id": "BM02",
+  "model_profile": "glm-5.3",
+  "answer_sha256": "7a50719010d82a67c9f28dac8ba3d6ebec16ad1051a764252400b5a233ea44e9",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "minor_limitation"
+  },
+  "answer_notes": "Correct C. Applies the supplied S3/congestion/edema pattern to BNP, RAAS and non-osmotic ADH physiology. It honestly states that no external reference was verified, but phrases aldosterone activation as producing hypokalemia without acknowledging that potassium varies with renal function and treatments not supplied in this case.",
+  "researcher_reference_ids": [],
+  "queries": [],
+  "papers": {},
+  "citations": {}
+}

@@ -1,0 +1,96 @@
+{
+  "method": "Unblinded assistant review of actual public responses, supplied facts/history and delivered sources. No independent clinical reviewer or paid judge.",
+  "cases": [
+    {
+      "question_id": "PM01",
+      "answer_file": "../gemma-patient-main-20261014-pm01/answers/PM01.json",
+      "answer_sha256": "ca93d75094f1c917268a23e0a8c55af6642e4bf8287c706f19dc49c8789a9866",
+      "note": "Original memory-off control has a provider connection failure, not a model answer. No accuracy or abstention credit; no interaction saved.",
+      "cited_view_assessments": []
+    },
+    {
+      "question_id": "PM02",
+      "answer_file": "../gemma-patient-main-20261014-pm02/answers/PM02.json",
+      "answer_sha256": "45a242a9c896b58aeec923a53628f29af60310701d6695cf39f7656d4dfd06dc",
+      "note": "Initial alpha value matches the explicitly supplied dated fact. Case recall does not require a publication citation.",
+      "cited_view_assessments": []
+    },
+    {
+      "question_id": "PM03",
+      "answer_file": "../gemma-patient-main-20261014-pm03/answers/PM03.json",
+      "answer_sha256": "387c301f511995fefe8091a9e5e1be856be50a67500ffcedf08021e29543d40c",
+      "note": "Beta value matches its own fact and a real read_patient_facts result. No alpha value or file was delivered.",
+      "cited_view_assessments": []
+    },
+    {
+      "question_id": "PM04",
+      "answer_file": "../gemma-patient-main-20261014-pm04/answers/PM04.json",
+      "answer_sha256": "d0a0840ed16592cb5d573a280cf860e463eb90707cc192ebbf999f4a3ca8f997",
+      "note": "Search and exact interaction reading recover the user's old snack statement, excluded from the recent-three context. The seed acknowledgment is an application fixture, not a generated medical answer.",
+      "cited_view_assessments": []
+    },
+    {
+      "question_id": "PM05",
+      "answer_file": "../gemma-patient-main-20261014-pm05/answers/PM05.json",
+      "answer_sha256": "5486d5ca1c591023d6d7833fb9fbe270f67c2842a20a28ecdd82d66301da4f52",
+      "note": "Own alpha PDF passage explicitly records two cartons. Cited page/chunk view was actually delivered. This fictional count is not a prescribing recommendation.",
+      "cited_view_assessments": [
+        {
+          "source_id": "D1d8af327ecd8_p1_c1_a64814a38cd1",
+          "support": "supports_requested_claim",
+          "view_sha256": "433614c937654b6cd3cd1052bfc2b818412752ef35105e4ae86be6dec317c83a",
+          "support_basis": "Explicit own PDF count"
+        }
+      ]
+    },
+    {
+      "question_id": "PM06",
+      "answer_file": "../gemma-patient-main-20261014-pm06/answers/PM06.json",
+      "answer_sha256": "4a0948bd64d928c9690da994811f3684b7d428a57f3b07fc369df7211e162a8e",
+      "note": "Own beta PDF passage explicitly records one carton. Its delivered source and citation are different from alpha's.",
+      "cited_view_assessments": [
+        {
+          "source_id": "Dda77bc228c5f_p1_c1_e99b56930847",
+          "support": "supports_requested_claim",
+          "view_sha256": "e699e7f34d152c0a7260f5c5684b0e733251560a450f445d18b672f46a119680",
+          "support_basis": "Explicit own PDF count"
+        }
+      ]
+    },
+    {
+      "question_id": "PM07",
+      "answer_file": "../gemma-patient-main-20261014-pm07/answers/PM07.json",
+      "answer_sha256": "79d2e9eda2e57049b1e4b20608189c8d6b922ab11433065ef4f21f2a48cf1409",
+      "note": "Uses the latest observation, not a later-entered older observation. Matching the scripted chronological state is functional validation, not clinical verification.",
+      "cited_view_assessments": []
+    },
+    {
+      "question_id": "PM08",
+      "answer_file": "../gemma-patient-main-20261014-pm08/answers/PM08.json",
+      "answer_sha256": "06c21649c80570f01f0e2f05031470e4395ed1a735a8c62baa0578caf1d4a7d4",
+      "note": "Current and superseded values match the explicit correction chain; the old observation remains available and is correctly identified as superseded.",
+      "cited_view_assessments": []
+    },
+    {
+      "question_id": "PM09",
+      "answer_file": "../gemma-patient-main-20261014-pm09/answers/PM09.json",
+      "answer_sha256": "3fc773a783bbb4d7d24b9581724e6a2156bf14e1c6d1a207bd48831db3447028",
+      "note": "Returns null rather than inventing an albumin value. The explanation reports searches of facts, one case PDF and history; lexical zero-hit results do not exhaustively establish absence from all possible documents.",
+      "cited_view_assessments": []
+    },
+    {
+      "question_id": "PM10",
+      "answer_file": "../gemma-patient-main-20261014-pm10/answers/PM10.json",
+      "answer_sha256": "eb05392c3e51bbb833aec321666b09bcb925f8f5141bc899c59d2e47244255fe",
+      "note": "One actual PubMed search supplies the matching title, PMID and year. Citation supports these bibliographic claims; no separate abstract-reading call or full-text clinical recommendation is claimed. Four other returned records are not needed for this exact-title task.",
+      "cited_view_assessments": [
+        {
+          "source_id": "P33946039_search_9a2c55cb74c8",
+          "support": "supports_requested_claim",
+          "view_sha256": "91a66d7fbdcc5fdca998f3bdc987623afa112ec8a4380ab8b4dde703bb08ba5d",
+          "support_basis": "Matching delivered title, PMID and year metadata"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,524 @@
+{
+  "scores": [
+    {
+      "question_id": "MQ01",
+      "profile": "glm-5.3",
+      "mode": "direct",
+      "reference_option": "B",
+      "selected_option": "B",
+      "correct": true
+    },
+    {
+      "question_id": "MQ02",
+      "profile": "glm-5.3",
+      "mode": "direct",
+      "reference_option": "B",
+      "selected_option": "B",
+      "correct": true
+    },
+    {
+      "question_id": "MQ03",
+      "profile": "glm-5.3",
+      "mode": "direct",
+      "reference_option": "A",
+      "selected_option": "A",
+      "correct": true
+    },
+    {
+      "question_id": "MQ04",
+      "profile": "glm-5.3",
+      "mode": "direct",
+      "reference_option": "A",
+      "selected_option": null,
+      "correct": false
+    },
+    {
+      "question_id": "MQ05",
+      "profile": "glm-5.3",
+      "mode": "direct",
+      "reference_option": "D",
+      "selected_option": "D",
+      "correct": true
+    },
+    {
+      "question_id": "MQ06",
+      "profile": "glm-5.3",
+      "mode": "direct",
+      "reference_option": "A",
+      "selected_option": "A",
+      "correct": true
+    },
+    {
+      "question_id": "MQ07",
+      "profile": "glm-5.3",
+      "mode": "direct",
+      "reference_option": "A",
+      "selected_option": "A",
+      "correct": true
+    },
+    {
+      "question_id": "MQ08",
+      "profile": "glm-5.3",
+      "mode": "direct",
+      "reference_option": "C",
+      "selected_option": "C",
+      "correct": true
+    },
+    {
+      "question_id": "MQ09",
+      "profile": "glm-5.3",
+      "mode": "direct",
+      "reference_option": "A",
+      "selected_option": "A",
+      "correct": true
+    },
+    {
+      "question_id": "MQ10",
+      "profile": "glm-5.3",
+      "mode": "direct",
+      "reference_option": "C",
+      "selected_option": "C",
+      "correct": true
+    },
+    {
+      "question_id": "MQ01",
+      "profile": "glm-5.3",
+      "mode": "agent",
+      "reference_option": "B",
+      "selected_option": "B",
+      "correct": true
+    },
+    {
+      "question_id": "MQ02",
+      "profile": "glm-5.3",
+      "mode": "agent",
+      "reference_option": "B",
+      "selected_option": "B",
+      "correct": true
+    },
+    {
+      "question_id": "MQ03",
+      "profile": "glm-5.3",
+      "mode": "agent",
+      "reference_option": "A",
+      "selected_option": "A",
+      "correct": true
+    },
+    {
+      "question_id": "MQ01",
+      "profile": "kimi-k3",
+      "mode": "direct",
+      "reference_option": "B",
+      "selected_option": "B",
+      "correct": true
+    },
+    {
+      "question_id": "MQ02",
+      "profile": "kimi-k3",
+      "mode": "direct",
+      "reference_option": "B",
+      "selected_option": "B",
+      "correct": true
+    },
+    {
+      "question_id": "MQ03",
+      "profile": "kimi-k3",
+      "mode": "direct",
+      "reference_option": "A",
+      "selected_option": "A",
+      "correct": true
+    },
+    {
+      "question_id": "MQ04",
+      "profile": "kimi-k3",
+      "mode": "direct",
+      "reference_option": "A",
+      "selected_option": "A",
+      "correct": true
+    },
+    {
+      "question_id": "MQ05",
+      "profile": "kimi-k3",
+      "mode": "direct",
+      "reference_option": "D",
+      "selected_option": "D",
+      "correct": true
+    },
+    {
+      "question_id": "MQ06",
+      "profile": "kimi-k3",
+      "mode": "direct",
+      "reference_option": "A",
+      "selected_option": "A",
+      "correct": true
+    },
+    {
+      "question_id": "MQ07",
+      "profile": "kimi-k3",
+      "mode": "direct",
+      "reference_option": "A",
+      "selected_option": "A",
+      "correct": true
+    },
+    {
+      "question_id": "MQ08",
+      "profile": "kimi-k3",
+      "mode": "direct",
+      "reference_option": "C",
+      "selected_option": "C",
+      "correct": true
+    },
+    {
+      "question_id": "MQ09",
+      "profile": "kimi-k3",
+      "mode": "direct",
+      "reference_option": "A",
+      "selected_option": "A",
+      "correct": true
+    },
+    {
+      "question_id": "MQ10",
+      "profile": "kimi-k3",
+      "mode": "direct",
+      "reference_option": "C",
+      "selected_option": "C",
+      "correct": true
+    },
+    {
+      "question_id": "MQ01",
+      "profile": "kimi-k3",
+      "mode": "agent",
+      "reference_option": "B",
+      "selected_option": "B",
+      "correct": true
+    },
+    {
+      "question_id": "MQ02",
+      "profile": "kimi-k3",
+      "mode": "agent",
+      "reference_option": "B",
+      "selected_option": "B",
+      "correct": true
+    },
+    {
+      "question_id": "MQ03",
+      "profile": "kimi-k3",
+      "mode": "agent",
+      "reference_option": "A",
+      "selected_option": "A",
+      "correct": true
+    },
+    {
+      "question_id": "MQ01",
+      "profile": "mimo-v2.6-pro",
+      "mode": "direct",
+      "reference_option": "B",
+      "selected_option": "B",
+      "correct": true
+    },
+    {
+      "question_id": "MQ02",
+      "profile": "mimo-v2.6-pro",
+      "mode": "direct",
+      "reference_option": "B",
+      "selected_option": "B",
+      "correct": true
+    },
+    {
+      "question_id": "MQ03",
+      "profile": "mimo-v2.6-pro",
+      "mode": "direct",
+      "reference_option": "A",
+      "selected_option": "A",
+      "correct": true
+    },
+    {
+      "question_id": "MQ04",
+      "profile": "mimo-v2.6-pro",
+      "mode": "direct",
+      "reference_option": "A",
+      "selected_option": "B",
+      "correct": false
+    },
+    {
+      "question_id": "MQ05",
+      "profile": "mimo-v2.6-pro",
+      "mode": "direct",
+      "reference_option": "D",
+      "selected_option": "D",
+      "correct": true
+    },
+    {
+      "question_id": "MQ06",
+      "profile": "mimo-v2.6-pro",
+      "mode": "direct",
+      "reference_option": "A",
+      "selected_option": "A",
+      "correct": true
+    },
+    {
+      "question_id": "MQ07",
+      "profile": "mimo-v2.6-pro",
+      "mode": "direct",
+      "reference_option": "A",
+      "selected_option": "A",
+      "correct": true
+    },
+    {
+      "question_id": "MQ08",
+      "profile": "mimo-v2.6-pro",
+      "mode": "direct",
+      "reference_option": "C",
+      "selected_option": "C",
+      "correct": true
+    },
+    {
+      "question_id": "MQ09",
+      "profile": "mimo-v2.6-pro",
+      "mode": "direct",
+      "reference_option": "A",
+      "selected_option": "A",
+      "correct": true
+    },
+    {
+      "question_id": "MQ10",
+      "profile": "mimo-v2.6-pro",
+      "mode": "direct",
+      "reference_option": "C",
+      "selected_option": "C",
+      "correct": true
+    },
+    {
+      "question_id": "MQ01",
+      "profile": "mimo-v2.6-pro",
+      "mode": "agent",
+      "reference_option": "B",
+      "selected_option": "B",
+      "correct": true
+    },
+    {
+      "question_id": "MQ02",
+      "profile": "mimo-v2.6-pro",
+      "mode": "agent",
+      "reference_option": "B",
+      "selected_option": "B",
+      "correct": true
+    },
+    {
+      "question_id": "MQ03",
+      "profile": "mimo-v2.6-pro",
+      "mode": "agent",
+      "reference_option": "A",
+      "selected_option": "A",
+      "correct": true
+    },
+    {
+      "question_id": "MQ01",
+      "profile": "qwen3.8-27b",
+      "mode": "direct",
+      "reference_option": "B",
+      "selected_option": "B",
+      "correct": true
+    },
+    {
+      "question_id": "MQ02",
+      "profile": "qwen3.8-27b",
+      "mode": "direct",
+      "reference_option": "B",
+      "selected_option": "B",
+      "correct": true
+    },
+    {
+      "question_id": "MQ03",
+      "profile": "qwen3.8-27b",
+      "mode": "direct",
+      "reference_option": "A",
+      "selected_option": "A",
+      "correct": true
+    },
+    {
+      "question_id": "MQ04",
+      "profile": "qwen3.8-27b",
+      "mode": "direct",
+      "reference_option": "A",
+      "selected_option": "A",
+      "correct": true
+    },
+    {
+      "question_id": "MQ05",
+      "profile": "qwen3.8-27b",
+      "mode": "direct",
+      "reference_option": "D",
+      "selected_option": "D",
+      "correct": true
+    },
+    {
+      "question_id": "MQ06",
+      "profile": "qwen3.8-27b",
+      "mode": "direct",
+      "reference_option": "A",
+      "selected_option": "A",
+      "correct": true
+    },
+    {
+      "question_id": "MQ07",
+      "profile": "qwen3.8-27b",
+      "mode": "direct",
+      "reference_option": "A",
+      "selected_option": "A",
+      "correct": true
+    },
+    {
+      "question_id": "MQ08",
+      "profile": "qwen3.8-27b",
+      "mode": "direct",
+      "reference_option": "C",
+      "selected_option": "C",
+      "correct": true
+    },
+    {
+      "question_id": "MQ09",
+      "profile": "qwen3.8-27b",
+      "mode": "direct",
+      "reference_option": "A",
+      "selected_option": "A",
+      "correct": true
+    },
+    {
+      "question_id": "MQ10",
+      "profile": "qwen3.8-27b",
+      "mode": "direct",
+      "reference_option": "C",
+      "selected_option": "C",
+      "correct": true
+    },
+    {
+      "question_id": "MQ01",
+      "profile": "qwen3.8-27b",
+      "mode": "agent",
+      "reference_option": "B",
+      "selected_option": "B",
+      "correct": true
+    },
+    {
+      "question_id": "MQ02",
+      "profile": "qwen3.8-27b",
+      "mode": "agent",
+      "reference_option": "B",
+      "selected_option": "B",
+      "correct": true
+    },
+    {
+      "question_id": "MQ03",
+      "profile": "qwen3.8-27b",
+      "mode": "agent",
+      "reference_option": "A",
+      "selected_option": "A",
+      "correct": true
+    },
+    {
+      "question_id": "MQ01",
+      "profile": "gemma-4-26b-a4b",
+      "mode": "direct",
+      "reference_option": "B",
+      "selected_option": "B",
+      "correct": true
+    },
+    {
+      "question_id": "MQ02",
+      "profile": "gemma-4-26b-a4b",
+      "mode": "direct",
+      "reference_option": "B",
+      "selected_option": "B",
+      "correct": true
+    },
+    {
+      "question_id": "MQ03",
+      "profile": "gemma-4-26b-a4b",
+      "mode": "direct",
+      "reference_option": "A",
+      "selected_option": "A",
+      "correct": true
+    },
+    {
+      "question_id": "MQ04",
+      "profile": "gemma-4-26b-a4b",
+      "mode": "direct",
+      "reference_option": "A",
+      "selected_option": null,
+      "correct": false
+    },
+    {
+      "question_id": "MQ05",
+      "profile": "gemma-4-26b-a4b",
+      "mode": "direct",
+      "reference_option": "D",
+      "selected_option": "D",
+      "correct": true
+    },
+    {
+      "question_id": "MQ06",
+      "profile": "gemma-4-26b-a4b",
+      "mode": "direct",
+      "reference_option": "A",
+      "selected_option": null,
+      "correct": false
+    },
+    {
+      "question_id": "MQ07",
+      "profile": "gemma-4-26b-a4b",
+      "mode": "direct",
+      "reference_option": "A",
+      "selected_option": "A",
+      "correct": true
+    },
+    {
+      "question_id": "MQ08",
+      "profile": "gemma-4-26b-a4b",
+      "mode": "direct",
+      "reference_option": "C",
+      "selected_option": "C",
+      "correct": true
+    },
+    {
+      "question_id": "MQ09",
+      "profile": "gemma-4-26b-a4b",
+      "mode": "direct",
+      "reference_option": "A",
+      "selected_option": "A",
+      "correct": true
+    },
+    {
+      "question_id": "MQ10",
+      "profile": "gemma-4-26b-a4b",
+      "mode": "direct",
+      "reference_option": "C",
+      "selected_option": "C",
+      "correct": true
+    },
+    {
+      "question_id": "MQ01",
+      "profile": "gemma-4-26b-a4b",
+      "mode": "agent",
+      "reference_option": "B",
+      "selected_option": "B",
+      "correct": true
+    },
+    {
+      "question_id": "MQ02",
+      "profile": "gemma-4-26b-a4b",
+      "mode": "agent",
+      "reference_option": "B",
+      "selected_option": "B",
+      "correct": true
+    },
+    {
+      "question_id": "MQ03",
+      "profile": "gemma-4-26b-a4b",
+      "mode": "agent",
+      "reference_option": "A",
+      "selected_option": "A",
+      "correct": true
+    }
+  ]
+}

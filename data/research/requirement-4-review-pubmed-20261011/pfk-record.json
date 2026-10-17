@@ -1,0 +1,70 @@
+{
+  "role": "Post-generation researcher check only; correct title/PMID verified. Never model input.",
+  "papers": [
+    {
+      "id": "P15170386",
+      "pmid": "15170386",
+      "title": "6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase: head-to-head with a bifunctional enzyme that controls glycolysis.",
+      "authors": "Mark H Rider, Luc Bertrand, Didier Vertommen, Paul A Michels, Guy G Rousseau, Louis Hue",
+      "author_list": [
+        "Mark H Rider",
+        "Luc Bertrand",
+        "Didier Vertommen",
+        "Paul A Michels",
+        "Guy G Rousseau",
+        "Louis Hue"
+      ],
+      "year": "2004",
+      "publication_date": "2004 Aug 01",
+      "journal": "The Biochemical journal",
+      "doi": "10.1042/BJ20040752",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15170386/",
+      "pmcid": "PMC1133864",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Review"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Fru-2,6-P2 (fructose 2,6-bisphosphate) is a signal molecule that controls glycolysis. Since its discovery more than 20 years ago, inroads have been made towards the understanding of the structure-function relationships in PFK-2 (6-phosphofructo-2-kinase)/FBPase-2 (fructose-2,6-bisphosphatase), the homodimeric bifunctional enzyme that catalyses the synthesis and degradation of Fru-2,6-P2. The FBPase-2 domain of the enzyme subunit bears sequence, mechanistic and structural similarity to the histidine phosphatase family of enzymes. The PFK-2 domain was originally thought to resemble bacterial PFK-1 (6-phosphofructo-1-kinase), but this proved not to be correct. Molecular modelling of the PFK-2 domain revealed that, instead, it has the same fold as adenylate kinase. This was confirmed by X-ray crystallography. A PFK-2/FBPase-2 sequence in the genome of one prokaryote, the proteobacterium Desulfovibrio desulfuricans, could be the result of horizontal gene transfer from a eukaryote distantly related to all other organisms, possibly a protist. This, together with the presence of PFK-2/FBPase-2 genes in trypanosomatids (albeit with possibly only one of the domains active), indicates that fusion of genes initially coding for separate PFK-2 and FBPase-2 domains might have occurred early in evolution. In the enzyme homodimer, the PFK-2 domains come together in a head-to-head like fashion, whereas the FBPase-2 domains can function as monomers. There are four PFK-2/FBPase-2 isoenzymes in mammals, each coded by a different gene that expresses several isoforms of each isoenzyme. In these genes, regulatory sequences have been identified which account for their long-term control by hormones and tissue-specific transcription factors. One of these, HNF-6 (hepatocyte nuclear factor-6), was discovered in this way. As to short-term control, the liver isoenzyme is phosphorylated at the N-terminus, adjacent to the PFK-2 domain, by PKA (cAMP-dependent protein kinase), leading to PFK-2 inactivation and FBPase-2 activation. In contrast, the heart isoenzyme is phosphorylated at the C-terminus by several protein kinases in different signalling pathways, resulting in PFK-2 activation.",
+      "abstract_present": true,
+      "abstract_truncated": false,
+      "abstract_original_characters": 2192,
+      "copyright_information": null,
+      "read_level": "PubMed title and abstract",
+      "preprint": false,
+      "retracted": false,
+      "retraction_notice": false,
+      "expression_of_concern": false,
+      "corrections": [],
+      "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract."
+    }
+  ],
+  "http_requests": [
+    {
+      "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+      "parameters": {
+        "db": "pubmed",
+        "id": "15170386",
+        "retmode": "xml"
+      },
+      "started_at_utc": "2026-10-11T18:23:32+00:00",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "ok",
+          "http_status": 200,
+          "elapsed_seconds": 0.711
+        }
+      ],
+      "cache_hit": false,
+      "status": "ok",
+      "response_sha256": "5b70fd948a208909c0822c1f1ae27e1adb048dedc63e9160d9b8d73d627f0b12",
+      "response_bytes": 80878,
+      "snapshot_file": "5b70fd948a208909c0822c1f1ae27e1adb048dedc63e9160d9b8d73d627f0b12..xml",
+      "retrieved_at_utc": "2026-10-11T18:23:32+00:00"
+    }
+  ]
+}

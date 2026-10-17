@@ -1,0 +1,54 @@
+{
+  "question_id": "BM20",
+  "model_profile": "kimi-k3",
+  "answer_sha256": "99002703172700d148a3f48f0f576b65acd455799685f38d28123405a31798d5",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "material_concern",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "material_concern"
+  },
+  "answer_notes": "Released-key mismatch: selects contrast enema before any initial radiograph is provided. The read imaging review explicitly places radiography before classifying obstruction; the other reads support enema therapy once uncomplicated meconium ileus is established. Relevant retrieval does not establish that this distressed infant has already reached that stage.",
+  "researcher_reference_ids": [
+    "R4-CL07"
+  ],
+  "queries": [
+    {
+      "rating": "partially_appropriate",
+      "notes": "Clinically relevant concepts but too many simultaneous terms; zero records."
+    },
+    {
+      "rating": "appropriate",
+      "notes": "Broader meconium-ileus imaging/management query retrieves usable abstracts."
+    }
+  ],
+  "papers": {
+    "8337877": {
+      "rating": "directly_relevant",
+      "notes": "Read series includes clinical presentation, radiograph/enema diagnosis and subsequent therapy."
+    },
+    "10489177": {
+      "rating": "directly_relevant",
+      "notes": "Read review directly describes radiography followed by lesion-specific contrast studies."
+    },
+    "40068907": {
+      "rating": "directly_relevant",
+      "notes": "Read neonatal MI case/review distinguishes simple-enema versus complex-surgical management."
+    }
+  },
+  "citations": {
+    "P10489177_read_2a7897275da5": {
+      "rating": "partially_supported",
+      "notes": "Supports contrast enema for classified low obstruction, explicitly after radiography; does not support skipping initial imaging."
+    },
+    "P40068907_read_c5e2939f563b": {
+      "rating": "partially_supported",
+      "notes": "Supports enema for simple MI, not its establishment or first-step sequencing in this vignette."
+    },
+    "P8337877_read_6f24d465c507": {
+      "rating": "partially_supported",
+      "notes": "Supports diagnostic imaging and enema therapy for uncomplicated MI, not choosing enema before any plain imaging."
+    }
+  },
+  "inline_citations": {}
+}

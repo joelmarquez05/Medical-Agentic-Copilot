@@ -1,0 +1,47 @@
+{
+  "question_id": "BM10",
+  "model_profile": "mimo-v2.6-pro",
+  "answer_sha256": "24de31476edc7d22b6c8be6d7292aecab923cf35fca189346965a6754122ff75",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "consistent"
+  },
+  "answer_notes": "Correct C. Coherent celiac phenotype and expected biopsy rather than observed patient histology. Both cited excerpts explicitly contain villous atrophy, crypt hyperplasia and intraepithelial lymphocytosis, so the stated citation scope matches delivered evidence. No full-text reading is claimed.",
+  "researcher_reference_ids": [],
+  "queries": [
+    {
+      "rating": "appropriate",
+      "notes": "Targets duodenal celiac histology and pediatric context without a full symptom conjunction."
+    }
+  ],
+  "papers": {
+    "25231910": {
+      "rating": "partially_relevant",
+      "notes": "Celiac disease in portal-hypertension/cirrhosis patients differs from this child, with no specific histologic result in the view."
+    },
+    "21369836": {
+      "rating": "partially_relevant",
+      "notes": "Adult/older-child Indian malabsorption spectrum is related differential context, not the exact pediatric celiac biopsy description in the excerpt."
+    },
+    "41640797": {
+      "rating": "directly_relevant",
+      "notes": "Explicit villous atrophy, crypt hyperplasia and intraepithelial lymphocytosis match the asked pattern."
+    },
+    "42508936": {
+      "rating": "directly_relevant",
+      "notes": "Explicit characteristic duodenal celiac histology and diagnostic integration match the question."
+    }
+  },
+  "citations": {
+    "P41640797_search_66deebf75497": {
+      "rating": "supported",
+      "notes": "The delivered excerpt explicitly names all three stated histologic changes; no unobserved patient biopsy is asserted."
+    },
+    "P42508936_search_7ef4b99c1da0": {
+      "rating": "supported",
+      "notes": "The delivered excerpt explicitly names villous atrophy, crypt hyperplasia and intraepithelial lymphocytosis, matching the answer."
+    }
+  }
+}

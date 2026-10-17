@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "date": "2026-10-11",
+  "cases": 10,
+  "key_types": {
+    "released_medqa_label": 7,
+    "published_trial_fact": 3
+  },
+  "question_inputs_schema_valid": true,
+  "hashes_and_published_support_verified": true,
+  "reference_config_schema_valid": true,
+  "reasoning_enabled": true,
+  "local_links_checked": 93,
+  "hosted_inference_requests": 0,
+  "scope": "Prepared inputs/profile verification; no real-model or tool-benefit evaluation"
+}

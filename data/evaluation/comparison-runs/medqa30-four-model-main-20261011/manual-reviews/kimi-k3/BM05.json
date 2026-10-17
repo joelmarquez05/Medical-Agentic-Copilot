@@ -1,0 +1,47 @@
+{
+  "question_id": "BM05",
+  "model_profile": "kimi-k3",
+  "answer_sha256": "3837e23e7a78b1eb3fd4daa49eee882c0e388da6ed6486d9849584fae348c22e",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "material_issue"
+  },
+  "answer_notes": "Correct B, but says the 20,536-person randomized trial confirmed a liver-enzyme association when its delivered excerpt contains background/methods only. The independent full abstract instead reports no significant serious hepatobiliary difference and undetectable hepatitis risk; it does not quantify all mild elevations. Also calls metformin non-hepatotoxic absolutely despite rare documented injury. The real simvastatin case supports the central adverse-effect option, without rescuing these overstatements.",
+  "researcher_reference_ids": [
+    "R4-CL02",
+    "R5-CL02",
+    "R5-CL03"
+  ],
+  "queries": [
+    {
+      "rating": "appropriate",
+      "notes": "Directly targets simvastatin/statin transaminase elevation and liver tests."
+    }
+  ],
+  "papers": {
+    "17679130": {
+      "rating": "directly_relevant",
+      "notes": "Statin dosing intensity and liver/transaminase safety directly address the drug-class adverse-effect question, although the excerpt is methods only."
+    },
+    "19442259": {
+      "rating": "directly_relevant",
+      "notes": "Specific simvastatin muscle/liver safety trial with explicit background transaminase association; delivered text lacks trial results."
+    },
+    "1857844": {
+      "rating": "directly_relevant",
+      "notes": "Explicit minor reversible simvastatin transaminase elevations and a cholestatic hepatitis case address the chosen drug."
+    }
+  },
+  "citations": {
+    "P19442259_search_23bb04986137": {
+      "rating": "partially_supported",
+      "notes": "Title/background verify the drug, 40-mg dose, trial size and a known association; the excerpt contains no results that confirm the agent-attributed trial finding."
+    },
+    "P1857844_search_f2338206f7c4": {
+      "rating": "supported",
+      "notes": "Explicitly describes minor reversible simvastatin transaminase elevations and a simvastatin hepatitis case; this supports the chosen adverse effect, not the unrelated metformin assertion."
+    }
+  }
+}

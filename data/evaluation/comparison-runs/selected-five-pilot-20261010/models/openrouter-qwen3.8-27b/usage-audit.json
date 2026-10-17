@@ -1,0 +1,181 @@
+{
+  "records": [
+    {
+      "question_id": "ON02",
+      "started_at_utc": "2026-10-10T16:23:12+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.180276,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 757,
+        "output_tokens": 601,
+        "total_tokens": 1358,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 316
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 601,
+        "prompt_tokens": 757,
+        "total_tokens": 1358,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 316,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.00084163,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.00084163,
+          "upstream_inference_prompt_cost": 3.028e-05,
+          "upstream_inference_completions_cost": 0.00081135
+        }
+      },
+      "cost_usd": 0.00084163,
+      "model_name": "qwen/qwen3.8-27b",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 8.479
+    },
+    {
+      "question_id": "ON02",
+      "started_at_utc": "2026-10-10T16:23:21+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.290864,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 8350,
+        "output_tokens": 6679,
+        "total_tokens": 15029,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 5990
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 6679,
+        "prompt_tokens": 8350,
+        "total_tokens": 15029,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 5990,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.00935065,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.00935065,
+          "upstream_inference_prompt_cost": 0.000334,
+          "upstream_inference_completions_cost": 0.00901665
+        }
+      },
+      "cost_usd": 0.00935065,
+      "model_name": "qwen/qwen3.8-27b",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 102.613
+    },
+    {
+      "question_id": "ON02",
+      "started_at_utc": "2026-10-10T16:25:03+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.303128,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 9258,
+        "output_tokens": 8192,
+        "total_tokens": 17450,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 8192
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 8192,
+        "prompt_tokens": 9258,
+        "total_tokens": 17450,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 8192,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.01142952,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.01142952,
+          "upstream_inference_prompt_cost": 0.00037032,
+          "upstream_inference_completions_cost": 0.0110592
+        }
+      },
+      "cost_usd": 0.01142952,
+      "model_name": "qwen/qwen3.8-27b",
+      "model_version": null,
+      "finish_reason": "length",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 131.199
+    }
+  ],
+  "budget": {
+    "limit_usd": 8.0,
+    "reported_or_estimated_spend_usd": 0.44455953,
+    "unreported_charge_reserve_usd": 0.0,
+    "policy": "Before each paid request, reserve a conservative prompt-byte estimate plus the full output cap at configured provider price ceilings. Failed requests without usage retain that reserve. This is a local guard, not a provider billing guarantee."
+  }
+}

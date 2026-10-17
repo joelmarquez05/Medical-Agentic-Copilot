@@ -1,0 +1,320 @@
+{
+  "run_id": "gemini-internal-final-20261010",
+  "rubric_id": "oncology-nutrition-qualitative-v1",
+  "assessor": "Codex implementation assistant: separate review of saved answers against prespecified criteria and reference snapshots; not a clinician",
+  "blinded": false,
+  "clinician_review": false,
+  "limitations": [
+    "Ten project-authored convenience cases; no representative sampling or validated clinical instrument.",
+    "Assessment is performed by the same AI coding assistant that implemented the workflow; it is not independent human or clinician adjudication.",
+    "The agent's local guidance and assessment expectations use overlapping selected sources, creating favorable source-assistance and construction bias.",
+    "One final Gemini run; repeated earlier engineering runs are preserved but are not replicates in a statistical study.",
+    "Ratings are qualitative ordinal judgments, not medical accuracy or a quantified safety guarantee.",
+    "Citation availability does not establish complete sentence-level support; guideline read levels and extrapolations remain material limits.",
+    "No literature-retrieval relevance study, external benchmark, or full model comparison is included in these findings."
+  ],
+  "assessments": [
+    {
+      "question_id": "ON01",
+      "answer_file_sha256": "2ae0281ffba1af4a1ef4f9cd6ada0f14c638f46c659c33d6863a999a712b4a80",
+      "ratings": {
+        "relevance": 2,
+        "correctness": 1,
+        "evidence_support": 1,
+        "actionability": 1,
+        "safety_uncertainty": 2
+      },
+      "rationales": {
+        "relevance": "Directly rejects reassurance based on BMI and addresses weight, intake, muscle, function, and assessment in the stated cancer setting.",
+        "correctness": "The central screening advice agrees with S01, but the statement that malnutrition and cachexia are driven by inflammation rather than simple caloric starvation blurs distinct conditions. Cachexia need not be inferred from this limited screen alone.",
+        "evidence_support": "Screening recommendations have valid S01 support, but the final answer repeatedly uses unavailable S05 for cachexia/counseling. S05 actually concerns exercise/diet during treatment and was not returned in this case. The application correctly retains a review flag.",
+        "actionability": "Dietitian referral and useful assessment domains are present. The expected repeat assessment during treatment is not made explicit, and appetite-drug discussion distracts from the screening task.",
+        "safety_uncertainty": "The answer does not dismiss nutritional risk or give a personalized prescription, identifies missing information, and carries a needs_human_review status."
+      },
+      "overall_finding": "Useful screening principles with a meaningful cachexia/malnutrition conflation and unresolved reference attribution; suitable as a flagged educational draft rather than a trusted completed synthesis.",
+      "observed_excerpts": [
+        "does **not** rule out a nutrition problem or cancer cachexia [S01]",
+        "rather than simple caloric starvation [S05]",
+        "prompt referral to a registered dietitian"
+      ],
+      "missing_or_weak_points": [
+        "Repeat screening/assessment during chemotherapy is not explicitly scheduled.",
+        "Unavailable S05 appears repeatedly.",
+        "Nutritional screening is expanded into cachexia pharmacotherapy without case-specific justification."
+      ],
+      "critical_failures_observed": [],
+      "suggested_improvement": "Keep the response focused on risk identification and repeated assessment; distinguish possible cachexia from malnutrition and replace unsupported source attributions with correctly returned guideline IDs."
+    },
+    {
+      "question_id": "ON02",
+      "answer_file_sha256": "c890b2b242ca0d4ae87e94c180789c5693b637b075a141a3810dc438b770fe15",
+      "ratings": {
+        "relevance": 2,
+        "correctness": 1,
+        "evidence_support": 2,
+        "actionability": 2,
+        "safety_uncertainty": 2
+      },
+      "rationales": {
+        "relevance": "Answers the requested 60 kg calculation, with energy and protein units and assumptions.",
+        "correctness": "Energy arithmetic and the greater-than-60-g protein wording match the calculator and S01. The statement that indirect calorimetry measures exact energy expenditure is imprecise: the cited commentary concerns measured resting expenditure, with total needs also depending on activity and other components.",
+        "evidence_support": "The central numerical recommendations are tied to the returned ESPEN reference and deterministic tool output; no unavailable source IDs remain.",
+        "actionability": "Shows both multiplication steps, clinical adjustments, and the need for reassessment without inventing another patient value.",
+        "safety_uncertainty": "Treats the figures as estimates and explicitly separates maintenance goals from initial feeding in refeeding risk."
+      },
+      "overall_finding": "The core calculation succeeds, including the strict protein lower-bound nuance; a measurement-description imprecision limits the otherwise strong answer.",
+      "observed_excerpts": [
+        "**1,500 to 1,800 kcal/day**",
+        "**>60 to up to 90 g/day**",
+        "gold standard for measuring exact energy expenditure"
+      ],
+      "missing_or_weak_points": [
+        "Indirect calorimetry is described as exact total expenditure rather than a measurement of resting expenditure with further clinical interpretation."
+      ],
+      "critical_failures_observed": [],
+      "suggested_improvement": "Retain the arithmetic and clarify resting versus total energy expenditure and the uncertainty in measured/predicted requirements."
+    },
+    {
+      "question_id": "ON03",
+      "answer_file_sha256": "89776cfdc4b4d7a57ee8ad5fdd3a9cbc96bc981c8da46da7bed55e3afa725998",
+      "ratings": {
+        "relevance": 2,
+        "correctness": 2,
+        "evidence_support": 1,
+        "actionability": 1,
+        "safety_uncertainty": 1
+      },
+      "rationales": {
+        "relevance": "Addresses escalation from inadequate oral intake to enteral support with a functioning intestine, and states when PN becomes relevant.",
+        "correctness": "Central route selection agrees with S01/S08 and does not default to PN for dysphagia.",
+        "evidence_support": "Valid grouped source markers are linked to returned references. Additional assertions about mucosal integrity and reduced infectious complications go beyond the short supplied cards and are not independently verified in this assessment.",
+        "actionability": "Multidisciplinary and swallowing assessment are useful, but the response does not explicitly include immediate symptom control and hydration assessment while support is arranged.",
+        "safety_uncertainty": "Missing duration/weight and refeeding context are acknowledged. Urgency and hydration/symptom management in severe mucositis with inadequate intake remain underemphasized."
+      },
+      "overall_finding": "Appropriate route escalation, with useful source provenance, but incomplete immediate supportive-care detail and some expanded claims beyond the supplied summaries.",
+      "observed_excerpts": [
+        "**enteral nutrition (tube feeding)**",
+        "enteral support is infeasible, unsafe, or insufficient",
+        "speech-language pathologists for swallowing safety"
+      ],
+      "missing_or_weak_points": [
+        "Explicit hydration assessment, mucositis symptom treatment, and urgency are missing.",
+        "Comparative route-benefit claims are broader than the selected guidance card."
+      ],
+      "critical_failures_observed": [],
+      "suggested_improvement": "Add prompt assessment of dehydration, symptom control, and swallowing safety; keep route-benefit claims proportional to the available guidance."
+    },
+    {
+      "question_id": "ON04",
+      "answer_file_sha256": "f24761b4cf153eacce96383593bc4222beb49810aca7d1405737bb760e93af91",
+      "ratings": {
+        "relevance": 2,
+        "correctness": 1,
+        "evidence_support": 1,
+        "actionability": 2,
+        "safety_uncertainty": 1
+      },
+      "rationales": {
+        "relevance": "Distinguishes intestinal failure from cachexia and addresses prognosis, burdens, goals, and specialist discussion.",
+        "correctness": "Most principles match S02/S09, but limiting consideration to irreversible intestinal failure is too narrow; S02 includes selected reversible obstruction/malabsorption exceptions. The categorical statement that artificial calories do not reverse the catabolic state needs qualification.",
+        "evidence_support": "Sources are available and relevant. Their recommendations do not establish the answer's stronger irreversible-failure restriction.",
+        "actionability": "Explains reversibility assessment, performance/prognosis review, oncology/palliative/nutrition involvement, and shared discussion of burdens and personal values.",
+        "safety_uncertainty": "Acknowledges uncertainty and end-of-life goals, but overly rigid eligibility language could mislead a reader about selected short-term PN situations."
+      },
+      "overall_finding": "A useful shared-decision framework with a substantive overrestriction that the internal self-review missed.",
+      "observed_excerpts": [
+        "selected patients who develop irreversible intestinal failure",
+        "assess whether reversible causes of the obstruction can be addressed",
+        "comfort and symptom relief take priority"
+      ],
+      "missing_or_weak_points": [
+        "Irreversible intestinal failure is stated too strongly as the qualifying PN context.",
+        "The cachexia response to nutritional support is expressed categorically rather than as limited/uncertain benefit."
+      ],
+      "critical_failures_observed": [],
+      "suggested_improvement": "State that PN may be considered for selected intestinal-failure situations, including potentially reversible causes, and describe uncertainty in cachexia benefit without absolute statements."
+    },
+    {
+      "question_id": "ON05",
+      "answer_file_sha256": "85bbeadd940abe7bf924436e16e88f0fb6327d226bc2a5f462f5b84457e0ec3c",
+      "ratings": {
+        "relevance": 2,
+        "correctness": 1,
+        "evidence_support": 1,
+        "actionability": 2,
+        "safety_uncertainty": 1
+      },
+      "rationales": {
+        "relevance": "Answers the calorie-only question and covers counseling, symptoms, approximate targets, and selected appetite support.",
+        "correctness": "Multifactorial cachexia and nonroutine artificial nutrition agree with S02/S09, and the 2023 olanzapine update is recognized. Statements that artificial support cannot overcome catabolic drivers or improve survival with uncorrected inflammation are broader than the selected guidance establishes.",
+        "evidence_support": "Several central points have relevant citations, but the final text retains '[S05 is invalid; omitted]' inside citation brackets. The last model review passes despite this unresolved attribution; the host correctly keeps needs_human_review.",
+        "actionability": "Includes dietitian counseling, nutrient-dense food, symptom management, realistic individual goals, and clinician oversight.",
+        "safety_uncertainty": "No calorie-only cure or routine tube/PN prescription is offered, but categorical benefit claims and the unresolved reference undermine appropriate uncertainty."
+      },
+      "overall_finding": "Clinically relevant supportive-care content with visible failed citation repair and overly categorical claims; demonstrates why model self-review cannot replace external assessment.",
+      "observed_excerpts": [
+        "Increasing calories alone does not reliably reverse cancer cachexia.",
+        "[S05 is invalid; omitted]",
+        "selected, clinician-supervised low-dose olanzapine"
+      ],
+      "missing_or_weak_points": [
+        "Invalid source tags are annotated rather than actually removed or corrected.",
+        "Survival and irreversible-catabolism claims exceed the limited supplied evidence.",
+        "The olanzapine evidence-population qualification could be more explicit."
+      ],
+      "critical_failures_observed": [],
+      "suggested_improvement": "Correct source IDs with true replacements, keep the clinician-supervised update, and use evidence-proportional wording about response, survival, and selected artificial-nutrition indications."
+    },
+    {
+      "question_id": "ON06",
+      "answer_file_sha256": "fc589f1f8144c1a2737c78bcdbfe038b303769eb93ba4f3a035e4d6b388c076f",
+      "ratings": {
+        "relevance": 2,
+        "correctness": 2,
+        "evidence_support": 2,
+        "actionability": 2,
+        "safety_uncertainty": 2
+      },
+      "rationales": {
+        "relevance": "Directly rejects immediate full maintenance feeding in the stated high-risk case.",
+        "correctness": "Recognizes BMI/low-phosphate risk, cautious initiation at the NICE high-risk ceiling, thiamine, electrolyte management, and fluid/glucose monitoring.",
+        "evidence_support": "Central risk and restart recommendations are tied to the returned S04 reference, with no unavailable marker remaining.",
+        "actionability": "Lists practical supervision and monitoring domains without inventing an individualized electrolyte dose.",
+        "safety_uncertainty": "Acknowledges missing electrolyte, cardiac, and renal context and separates maintenance targets from initial refeeding."
+      },
+      "overall_finding": "All prespecified core principles are addressed. The reviewer unnecessarily requested the same topic once, producing an additional lookup and revision without a clear new evidence need.",
+      "observed_excerpts": [
+        "Full maintenance calories should not be started immediately",
+        "maximum of 10 kcal/kg/day",
+        "Administer prophylactic thiamine immediately before"
+      ],
+      "missing_or_weak_points": [
+        "If the 5 kcal/kg/day extreme-case rate is mentioned, specifying the NICE extreme-case criteria would improve precision.",
+        "The extra refeeding lookup repeated evidence already supplied; it did not establish independent validation."
+      ],
+      "critical_failures_observed": [],
+      "suggested_improvement": "Clarify extreme-case thresholds and suppress redundant reviewer topic requests after evidence has already been provided."
+    },
+    {
+      "question_id": "ON07",
+      "answer_file_sha256": "f2203e01f7af2c77722eaad8f9f5662693a7491d9b0da8452bb32b4f9e3be9f9",
+      "ratings": {
+        "relevance": 2,
+        "correctness": 2,
+        "evidence_support": 1,
+        "actionability": 2,
+        "safety_uncertainty": 2
+      },
+      "rationales": {
+        "relevance": "Addresses the blanket produce restriction and explains an appropriate food-safety focus.",
+        "correctness": "No routine infection-prevention benefit is promised for a neutropenic diet, and practical hygiene/unsafe-food precautions agree with the guidance.",
+        "evidence_support": "The central dietary conclusion has S05/S08 citations, but several practical sections cite only internal card G07 rather than the primary source, weakening answer-level bibliographic clarity.",
+        "actionability": "Provides washing, storage, cooking, hand hygiene, and unsafe raw/unpasteurized-food advice.",
+        "safety_uncertainty": "Preserves institutional/transplant exceptions, protects intake, and does not claim ordinary food safety can be disregarded."
+      },
+      "overall_finding": "The core advice is appropriate against the limited references, with a citation-granularity weakness despite a passing structural check.",
+      "observed_excerpts": [
+        "does not clearly prevent infection",
+        "Wash all fresh fruits and vegetables thoroughly",
+        "specific transplant-center guidelines should be followed"
+      ],
+      "missing_or_weak_points": [
+        "Practical advice mostly uses internal G07 markers; users need primary-source markers next to those claims."
+      ],
+      "critical_failures_observed": [],
+      "suggested_improvement": "Attach S08 to food-handling claims and make card IDs internal metadata rather than reader-facing references."
+    },
+    {
+      "question_id": "ON08",
+      "answer_file_sha256": "7805569b0eecf20ccc15448ab20378b093aee3bfe493abffb880610f92956174",
+      "ratings": {
+        "relevance": 2,
+        "correctness": 2,
+        "evidence_support": 2,
+        "actionability": 2,
+        "safety_uncertainty": 2
+      },
+      "rationales": {
+        "relevance": "Directly distinguishes high-dose supplements from ordinary food intake during chemotherapy.",
+        "correctness": "Avoids claiming proven benefit or universal harmlessness, describes interaction uncertainty, and separates documented deficiency correction from unmonitored megadoses.",
+        "evidence_support": "Central supplement recommendations are linked to returned ESPEN and NCI sources; the mechanistic explanation is explicitly qualified as theoretical.",
+        "actionability": "Suggests a complete supplement list and review with the oncology team, with dietary and laboratory context rather than a personalized regimen.",
+        "safety_uncertainty": "Identifies missing treatment/deficiency information and recommends clinician-guided decisions."
+      },
+      "overall_finding": "Meets the prespecified core expectations for a cautious supplement discussion; the small evidence snapshot does not establish safety for any particular product/regimen.",
+      "observed_excerpts": [
+        "routine high-dose supplementation should generally be avoided",
+        "safety and efficacy evidence for antioxidant supplements during treatment remains uncertain",
+        "bring this list to the oncology team for review"
+      ],
+      "missing_or_weak_points": [
+        "A future interaction tool would need exact product, dose, and regimen information; this answer is deliberately general."
+      ],
+      "critical_failures_observed": [],
+      "suggested_improvement": "Retain the qualified language and request exact products/doses and chemotherapy details before discussing any specific interaction."
+    },
+    {
+      "question_id": "ON09",
+      "answer_file_sha256": "967dfdd5db7602fbbfbf49fb1dfca61d20be3f27ebfedc555bbc53aaee34f61c",
+      "ratings": {
+        "relevance": 2,
+        "correctness": 1,
+        "evidence_support": 1,
+        "actionability": 1,
+        "safety_uncertainty": 1
+      },
+      "rationales": {
+        "relevance": "Identifies maldigestion/PEI and NICE-recommended enteric-coated pancreatin rather than calorie advice alone.",
+        "correctness": "The central problem/intervention is consistent with S07. The wording that a clinician or registered dietitian must prescribe enzyme capsules asserts a prescribing role not established by these sources, and the contrast with inadequate intake is too exclusive.",
+        "evidence_support": "S07 supports pancreatin in unresectable pancreatic cancer, but the answer expands its short recommendation into mechanisms, role allocation, and dosing claims without establishing all those details.",
+        "actionability": "Suggests clinician-guided therapy and meal-time use but does not explicitly consider other/concurrent causes of weight loss or provide a clear response-monitoring/follow-up plan.",
+        "safety_uncertainty": "Avoids a universal dose and mentions individualized response. Prescriber-role ambiguity and insufficient attention to concurrent causes require correction before practical use."
+      },
+      "overall_finding": "Correct core intervention with clinically meaningful role and follow-up omissions that the internal self-review did not detect.",
+      "observed_excerpts": [
+        "**pancreatic exocrine insufficiency (PEI)**",
+        "**Pancreatic Enzyme Replacement Therapy (PERT)** using enteric-coated pancreatin",
+        "a clinician or registered dietitian must evaluate the patient and prescribe appropriate enzyme capsules"
+      ],
+      "missing_or_weak_points": [
+        "Prescribing responsibility is not established and should be assigned to an appropriate responsible prescriber in the treating team.",
+        "Other/concurrent causes of weight loss and malabsorption are not explicitly assessed.",
+        "Ongoing response review is less concrete than expected."
+      ],
+      "critical_failures_observed": [],
+      "suggested_improvement": "Describe PEI as a treatable possibility, coordinate prescribing with the responsible clinician and dietetic counseling, and explicitly assess other causes and follow stool/weight response."
+    },
+    {
+      "question_id": "ON10",
+      "answer_file_sha256": "2c2ef161320c5b6b63ddc540bfd357463a6fa9419b2e69b29e47a5138e3c3e16",
+      "ratings": {
+        "relevance": 2,
+        "correctness": 2,
+        "evidence_support": 1,
+        "actionability": 1,
+        "safety_uncertainty": 2
+      },
+      "rationales": {
+        "relevance": "Directly advises against routine fasting/ketogenic restriction in the already weight-losing case.",
+        "correctness": "Central guidance prioritizes adequate intake and does not promise that diet cures or starves cancer; the recommendation agrees with the frozen S01/S05 sources.",
+        "evidence_support": "Only internal G-card markers appear in the final answer, so no primary-source bibliography is attached. Relevant guidance was actually provided, but the answer fails to close the bibliographic link for readers.",
+        "actionability": "Discusses energy/protein and assessment but does not clearly spell out dietitian-led symptom management or the distinction between routine care and supervised investigational approaches.",
+        "safety_uncertainty": "Avoids caloric restriction and immediate full feeding in refeeding risk, states missing context, and remains visibly flagged for unresolved issues."
+      },
+      "overall_finding": "The basic nutrition recommendation matches the internal expectations, but missing primary-source markers and limited practical follow-through prevent a clean completed synthesis.",
+      "observed_excerpts": [
+        "starting fasting regimens or a strict ketogenic diet is not recommended [G10]",
+        "general adult energy targets are estimated at 25–30 kcal/kg/day [G02]",
+        "formal expert nutritional assessment"
+      ],
+      "missing_or_weak_points": [
+        "No S-source markers or primary-source bibliography in the final answer.",
+        "Symptom-directed dietitian support and investigational-versus-established treatment distinction are not explicit.",
+        "The final reviewer requests extra refeeding guidance after the revision limit is reached."
+      ],
+      "critical_failures_observed": [],
+      "suggested_improvement": "Attach S01/S05 citations, add a concrete dietitian/symptom-management plan, and clearly frame any investigational diet research as distinct from routine care."
+    }
+  ],
+  "assessed_at_utc": "2026-10-10T08:24:05+00:00"
+}

@@ -1,0 +1,43 @@
+{
+  "question_id": "BM08",
+  "model_profile": "kimi-k3",
+  "answer_sha256": "82239ee710b3960844588e34caa610ead908719041e6cc085d134ab11112ec43",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "consistent"
+  },
+  "answer_notes": "Correct B. Direct excerpts support OA symptoms and obesity as a major modifiable risk factor, while OSA/diabetes associations are explicitly left as existing knowledge. Does not claim that OA papers independently verify all comorbidities or this individual diagnosis.",
+  "researcher_reference_ids": [],
+  "queries": [
+    {
+      "rating": "appropriate",
+      "notes": "Concise obesity/knee-OA risk formulation retrieves direct risk-factor evidence."
+    }
+  ],
+  "papers": {
+    "39250809": {
+      "rating": "directly_relevant",
+      "notes": "Explicit knee OA symptom pattern and overweight/obesity as leading modifiable risk factors match the case."
+    },
+    "40174718": {
+      "rating": "directly_relevant",
+      "notes": "Knee-OA incident risk-factor systematic review directly addresses the etiologic topic, but its delivered text is methods rather than obesity results."
+    },
+    "27180156": {
+      "rating": "directly_relevant",
+      "notes": "Explicit proven obesity/knee-OA association and major modifiable risk factor match the causal-risk question."
+    }
+  },
+  "citations": {
+    "P39250809_search_319a1551bf8e": {
+      "rating": "supported",
+      "notes": "Explicit use-related pain, brief stiffness and obesity/overweight modifiable risk match the attributed OA claim."
+    },
+    "P27180156_search_ba7844ca5e0f": {
+      "rating": "supported",
+      "notes": "Explicit proven obesity-knee-OA association and main modifiable risk factor support the statement; OSA is not attributed to this paper."
+    }
+  }
+}

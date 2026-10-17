@@ -1,0 +1,60 @@
+{
+  "records": [
+    {
+      "question_id": "PM06",
+      "started_at_utc": "2026-10-14T14:25:14+00:00",
+      "estimated_maximum_usd": 0.0073409,
+      "request_sent": true,
+      "status": "ok",
+      "usage": {
+        "input_tokens": 3848,
+        "output_tokens": 211,
+        "total_tokens": 4059
+      },
+      "provider_usage": {
+        "prompt_tokens": 3848,
+        "completion_tokens": 211,
+        "total_tokens": 4059,
+        "cost": 0.00040962,
+        "reasoning_tokens": 166
+      },
+      "cost_usd": 0.00040962,
+      "cost_basis": "Provider-reported usage.cost.",
+      "finish_reason": "stop",
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "provider_route": "Configured pin; actual route not independently exposed by this response.",
+      "elapsed_seconds": 8.443
+    },
+    {
+      "question_id": "PM06",
+      "started_at_utc": "2026-10-14T14:25:23+00:00",
+      "estimated_maximum_usd": 0.0074862,
+      "request_sent": true,
+      "status": "ok",
+      "usage": {
+        "input_tokens": 4386,
+        "output_tokens": 333,
+        "total_tokens": 4719
+      },
+      "provider_usage": {
+        "prompt_tokens": 4386,
+        "completion_tokens": 333,
+        "total_tokens": 4719,
+        "cost": 0.00049464,
+        "reasoning_tokens": 189
+      },
+      "cost_usd": 0.00049464,
+      "cost_basis": "Provider-reported usage.cost.",
+      "finish_reason": "stop",
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "provider_route": "Configured pin; actual route not independently exposed by this response.",
+      "elapsed_seconds": 12.04
+    }
+  ],
+  "budget": {
+    "limit_usd": 6.0,
+    "reported_or_estimated_spend_usd": 4.91575787,
+    "unreported_charge_reserve_usd": 0.163192,
+    "policy": "Before each paid request, reserve a conservative prompt-byte estimate plus the full output cap at configured provider price ceilings. Failed requests without usage retain that reserve. This is a local guard, not a provider billing guarantee."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "stage": "baseline",
+  "planned": 10,
+  "recorded": 10,
+  "statuses": {
+    "completed": 10
+  },
+  "provider_requests": 10,
+  "reported_or_estimated_cost_usd": 0.00340734,
+  "unknown_charge_records": 0,
+  "tool_execution_attempts": 0,
+  "input_tokens": 10184,
+  "output_tokens": 12208,
+  "reasoning_tokens": 10802,
+  "correct": 9,
+  "valid_completed": 10,
+  "incorrect_completed": 1,
+  "by_key_type": {
+    "published_trial_fact": {
+      "planned": 3,
+      "correct": 3
+    },
+    "released_medqa_label": {
+      "planned": 7,
+      "correct": 6
+    }
+  }
+}

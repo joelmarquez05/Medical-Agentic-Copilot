@@ -1,0 +1,71 @@
+{
+  "purpose": "User-authorized robustness v3 probe, pilot and complete new ten-case cohort",
+  "runs": [
+    {
+      "run_id": "gemma-resilient-probe-20261011",
+      "stage": "probe",
+      "requests": 1,
+      "provider_reported_usd": 0.00024417,
+      "unknown_charge_records": 0,
+      "immediate_final_ledger": {
+        "checked_at_utc": "2026-10-11T17:08:29+00:00",
+        "credential_source": "file",
+        "total_usage": 3.876777179,
+        "total_credits": 10,
+        "interpretation": "Account-wide observation; delayed billing or other account activity remains possible."
+      }
+    },
+    {
+      "run_id": "gemma-resilient-pilot-20261011",
+      "stage": "pilot",
+      "requests": 1,
+      "provider_reported_usd": 0.0003348225,
+      "unknown_charge_records": 0,
+      "immediate_final_ledger": {
+        "checked_at_utc": "2026-10-11T17:09:01+00:00",
+        "credential_source": "file",
+        "total_usage": 3.877021349,
+        "total_credits": 10,
+        "interpretation": "Account-wide observation; delayed billing or other account activity remains possible."
+      }
+    },
+    {
+      "run_id": "gemma-resilient-main-20261011",
+      "stage": "autonomous",
+      "requests": 22,
+      "provider_reported_usd": 0.0087362775,
+      "unknown_charge_records": 0,
+      "immediate_final_ledger": {
+        "checked_at_utc": "2026-10-11T17:13:13+00:00",
+        "credential_source": "file",
+        "total_usage": 3.88413438,
+        "total_credits": 10,
+        "interpretation": "Account-wide observation; delayed billing or other account activity remains possible."
+      }
+    }
+  ],
+  "initial_ledger": {
+    "checked_at_utc": "2026-10-11T17:08:20+00:00",
+    "credential_source": "file",
+    "total_usage": 3.876777179,
+    "total_credits": 10,
+    "interpretation": "Account-wide observation; delayed billing or other account activity remains possible."
+  },
+  "latest_ledger": {
+    "checked_at_utc": "2026-10-11T17:20:49+00:00",
+    "credential_source": "file",
+    "total_usage": 3.886092441,
+    "total_credits": 10,
+    "interpretation": "Account-wide observation; delayed billing or other account activity remains possible."
+  },
+  "provider_reported_total_usd": 0.00931527,
+  "account_observed_delta_usd": 0.009315262000000324,
+  "provider_minus_ledger_delta_usd": 7.999999676600034e-09,
+  "agreement_within_1e_7_usd": true,
+  "requests_total": 24,
+  "unknown_charge_records": 0,
+  "standing_account_limit_usd": 6,
+  "unknown_charge_headroom_usd": 0.15,
+  "inference_requests_during_this_audit": 0,
+  "interpretation": "Account totals may lag or include other activity; reported request charges and account observation remain separate."
+}

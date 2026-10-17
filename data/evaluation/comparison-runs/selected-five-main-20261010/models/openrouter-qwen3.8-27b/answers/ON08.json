@@ -1,0 +1,23 @@
+{
+  "question": "A synthetic adult receiving chemotherapy wants to start high-dose antioxidant vitamins to protect healthy cells and asks whether these are equivalent to getting vitamins from food. What should the nutrition discussion cover?",
+  "status": "not_run_provider_unavailable",
+  "answer": "",
+  "model_calls": [],
+  "tool_results": [],
+  "trace": [],
+  "elapsed_seconds": 0,
+  "usage": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "live_pubmed_requests": 0,
+  "prompt_version": "requirement-5-fixed-evidence-v2",
+  "evidence_mode": "fixed_previously_retrieved_pubmed_plus_guidance",
+  "reason": "No request sent after 3 consecutive model-question failures ending in a provider request error. Not a measured medical response.",
+  "consecutive_provider_failures": 3,
+  "question_id": "ON08",
+  "profile": "openrouter-qwen3.8-27b",
+  "evidence_sha256": "c9a4b4df475d6f2c6a989c0c3a5b2db5f620ab22253a89fb2d1a737c79709111",
+  "response_audit": []
+}

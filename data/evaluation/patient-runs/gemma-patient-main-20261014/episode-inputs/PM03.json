@@ -1,0 +1,5 @@
+{
+  "question_id": "PM03",
+  "question": "What is my registered weight? Return a JSON object with weight_kg. Use only my own patient record.",
+  "options": null
+}

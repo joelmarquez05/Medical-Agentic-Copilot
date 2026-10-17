@@ -1,0 +1,114 @@
+{
+  "questions": [
+    {
+      "patient_id": "alpha",
+      "conversation_id": "control",
+      "memory_enabled": false,
+      "require_reference": false,
+      "question": {
+        "question_id": "PM01",
+        "question": "What is my registered weight? Return the answer as a JSON object with the single field weight_kg. Use null if it is not recorded in the supplied patient context.",
+        "options": null
+      }
+    },
+    {
+      "patient_id": "alpha",
+      "conversation_id": "alpha-session-1",
+      "memory_enabled": true,
+      "require_reference": false,
+      "question": {
+        "question_id": "PM02",
+        "question": "What is my registered weight? Return the answer as a JSON object with the single field weight_kg. Use null if it is not recorded in the supplied patient context.",
+        "options": null
+      }
+    },
+    {
+      "patient_id": "beta",
+      "conversation_id": "beta-session-1",
+      "memory_enabled": true,
+      "require_reference": false,
+      "question": {
+        "question_id": "PM03",
+        "question": "What is my registered weight? Return a JSON object with weight_kg. Use only my own patient record.",
+        "options": null
+      }
+    },
+    {
+      "patient_id": "alpha",
+      "conversation_id": "alpha-session-2",
+      "memory_enabled": true,
+      "require_reference": false,
+      "question": {
+        "question_id": "PM04",
+        "question": "What preferred snack did I state in an earlier conversation? Recover my older history if needed. Return a JSON object with snack containing my exact original wording, or null if unavailable.",
+        "options": null
+      }
+    },
+    {
+      "patient_id": "alpha",
+      "conversation_id": "alpha-session-2",
+      "memory_enabled": true,
+      "require_reference": true,
+      "question": {
+        "question_id": "PM05",
+        "question": "According to my registered synthetic case PDF, how many supplement cartons per day were recorded? Read its actual text and cite the exact source view. Return a JSON object with cartons_per_day.",
+        "options": null
+      }
+    },
+    {
+      "patient_id": "beta",
+      "conversation_id": "beta-session-2",
+      "memory_enabled": true,
+      "require_reference": true,
+      "question": {
+        "question_id": "PM06",
+        "question": "According to my registered synthetic case PDF, how many supplement cartons per day were recorded? Read its actual text and cite the exact source view. Return a JSON object with cartons_per_day.",
+        "options": null
+      }
+    },
+    {
+      "patient_id": "alpha",
+      "conversation_id": "alpha-session-3",
+      "memory_enabled": true,
+      "require_reference": false,
+      "question": {
+        "question_id": "PM07",
+        "question": "What is my latest observed weight, based on observation date rather than the last entry time? Return a JSON object with weight_kg.",
+        "options": null
+      }
+    },
+    {
+      "patient_id": "alpha",
+      "conversation_id": "alpha-session-4",
+      "memory_enabled": true,
+      "require_reference": false,
+      "question": {
+        "question_id": "PM08",
+        "question": "Use my dated fact records to check the correction to my most recent weight observation. Return a JSON object with current_weight_kg and superseded_weight_kg. Inspect the factual history if the earlier value is not in the current profile.",
+        "options": null
+      }
+    },
+    {
+      "patient_id": "alpha",
+      "conversation_id": "alpha-session-4",
+      "memory_enabled": true,
+      "require_reference": false,
+      "question": {
+        "question_id": "PM09",
+        "question": "What is my measured serum albumin in g/dL? Return a JSON object with albumin_g_dl. Give null if no result is recorded; do not substitute a normal reference range.",
+        "options": null
+      }
+    },
+    {
+      "patient_id": "alpha",
+      "conversation_id": "alpha-session-5",
+      "memory_enabled": true,
+      "require_reference": true,
+      "question": {
+        "question_id": "PM10",
+        "question": "Find the PubMed record for the ESPEN practical guideline Clinical Nutrition in cancer. Return a JSON object with pmid as a string and year as an integer, and cite an actual PubMed source returned during this episode.",
+        "options": null
+      }
+    }
+  ]
+}

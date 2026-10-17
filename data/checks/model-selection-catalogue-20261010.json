@@ -1,0 +1,361 @@
+{
+  "checked_at_utc": "2026-10-10T10:38:17+00:00",
+  "scope": "Read-only authenticated model catalogue audit for collaborative model selection; no new inference requests. Listing does not confirm generation or free-tier entitlement.",
+  "credentials_saved": false,
+  "providers": [
+    {
+      "profile": "gemini.json",
+      "http_status": 200,
+      "advertised_model_count": 62,
+      "candidate_models": [
+        {
+          "id": "gemini-2.5-flash",
+          "supported_methods": [
+            "generateContent",
+            "countTokens",
+            "createCachedContent",
+            "batchGenerateContent"
+          ],
+          "display_name": "Gemini 2.5 Flash"
+        },
+        {
+          "id": "gemini-2.5-pro",
+          "supported_methods": [
+            "generateContent",
+            "countTokens",
+            "createCachedContent",
+            "batchGenerateContent"
+          ],
+          "display_name": "Gemini 2.5 Pro"
+        },
+        {
+          "id": "gemini-flash-latest",
+          "supported_methods": [
+            "generateContent",
+            "countTokens",
+            "createCachedContent",
+            "batchGenerateContent"
+          ],
+          "display_name": "Gemini Flash Latest"
+        },
+        {
+          "id": "gemini-flash-lite-latest",
+          "supported_methods": [
+            "generateContent",
+            "countTokens",
+            "createCachedContent",
+            "batchGenerateContent"
+          ],
+          "display_name": "Gemini Flash-Lite Latest"
+        },
+        {
+          "id": "gemini-pro-latest",
+          "supported_methods": [
+            "generateContent",
+            "countTokens",
+            "createCachedContent",
+            "batchGenerateContent"
+          ],
+          "display_name": "Gemini Pro Latest"
+        },
+        {
+          "id": "gemini-2.5-flash-lite",
+          "supported_methods": [
+            "generateContent",
+            "countTokens",
+            "createCachedContent",
+            "batchGenerateContent"
+          ],
+          "display_name": "Gemini 2.5 Flash-Lite"
+        },
+        {
+          "id": "gemini-3-flash-preview",
+          "supported_methods": [
+            "generateContent",
+            "countTokens",
+            "createCachedContent",
+            "batchGenerateContent"
+          ],
+          "display_name": "Gemini 3 Flash Preview"
+        },
+        {
+          "id": "gemini-3.1-pro-preview",
+          "supported_methods": [
+            "generateContent",
+            "countTokens",
+            "createCachedContent",
+            "batchGenerateContent"
+          ],
+          "display_name": "Gemini 3.1 Pro Preview"
+        },
+        {
+          "id": "gemini-3.1-pro-preview-customtools",
+          "supported_methods": [
+            "generateContent",
+            "countTokens",
+            "createCachedContent",
+            "batchGenerateContent"
+          ],
+          "display_name": "Gemini 3.1 Pro Preview Custom Tools"
+        },
+        {
+          "id": "gemini-3.1-flash-lite-preview",
+          "supported_methods": [
+            "generateContent",
+            "countTokens",
+            "createCachedContent",
+            "batchGenerateContent"
+          ],
+          "display_name": "Gemini 3.1 Flash Lite Preview"
+        },
+        {
+          "id": "gemini-3.1-flash-lite",
+          "supported_methods": [
+            "generateContent",
+            "countTokens",
+            "createCachedContent",
+            "batchGenerateContent"
+          ],
+          "display_name": "Gemini 3.1 Flash Lite"
+        },
+        {
+          "id": "gemini-nano-banana-2.1",
+          "supported_methods": [
+            "generateContent",
+            "countTokens",
+            "batchGenerateContent"
+          ],
+          "display_name": "Nano Banana 2.1"
+        },
+        {
+          "id": "gemini-3.5-flash",
+          "supported_methods": [
+            "generateContent",
+            "countTokens",
+            "createCachedContent",
+            "batchGenerateContent"
+          ],
+          "display_name": "Gemini 3.5 Flash"
+        },
+        {
+          "id": "gemini-3.5-flash-lite",
+          "supported_methods": [
+            "generateContent",
+            "countTokens",
+            "createCachedContent",
+            "batchGenerateContent"
+          ],
+          "display_name": "Gemini 3.5 Flash Lite"
+        },
+        {
+          "id": "gemini-omni-flash-preview",
+          "supported_methods": [
+            "generateContent",
+            "countTokens"
+          ],
+          "display_name": "Gemini Omni Flash Preview"
+        },
+        {
+          "id": "gemini-omni-1.1-flash",
+          "supported_methods": [
+            "generateContent",
+            "countTokens"
+          ],
+          "display_name": "Gemini Omni 1.1 Flash"
+        },
+        {
+          "id": "gemini-3.5-transcribe",
+          "supported_methods": [
+            "generateContent",
+            "countTokens"
+          ],
+          "display_name": "Gemini 3.5 Transcribe"
+        },
+        {
+          "id": "gemini-3.6-flash",
+          "supported_methods": [
+            "generateContent",
+            "countTokens",
+            "createCachedContent",
+            "batchGenerateContent"
+          ],
+          "display_name": "Gemini 3.6 Flash"
+        },
+        {
+          "id": "gemini-3.7-flash",
+          "supported_methods": [
+            "generateContent",
+            "countTokens",
+            "createCachedContent",
+            "batchGenerateContent"
+          ],
+          "display_name": "Gemini 3.7 Flash"
+        },
+        {
+          "id": "gemini-3.8-flash",
+          "supported_methods": [
+            "generateContent",
+            "countTokens",
+            "createCachedContent",
+            "batchGenerateContent"
+          ],
+          "display_name": "Gemini 3.8 Flash"
+        },
+        {
+          "id": "gemini-2.5-computer-use-preview-10-2025",
+          "supported_methods": [
+            "generateContent",
+            "countTokens"
+          ],
+          "display_name": "Gemini 2.5 Computer Use Preview 10-2025"
+        },
+        {
+          "id": "gemini-3.5-transcribe-live",
+          "supported_methods": [
+            "bidiGenerateContent"
+          ],
+          "display_name": "Gemini 3.5 Transcribe Live"
+        },
+        {
+          "id": "gemini-3.1-flash-live-preview",
+          "supported_methods": [
+            "bidiGenerateContent"
+          ],
+          "display_name": "Gemini 3.1 Flash Live Preview"
+        },
+        {
+          "id": "gemini-3.8-live",
+          "supported_methods": [
+            "bidiGenerateContent"
+          ],
+          "display_name": "Gemini 3.8 Live"
+        },
+        {
+          "id": "gemini-3.8-live-extended-thinking",
+          "supported_methods": [
+            "bidiGenerateContent"
+          ],
+          "display_name": "Gemini 3.8 Live Extended Thinking"
+        },
+        {
+          "id": "gemini-3.5-live-translate-preview",
+          "supported_methods": [
+            "bidiGenerateContent"
+          ],
+          "display_name": "Gemini 3.5 Live Translate Preview"
+        }
+      ],
+      "next_page_present": false,
+      "inference_tested_in_this_audit": false
+    },
+    {
+      "profile": "nvidia-gpt-oss-20b.json",
+      "http_status": 200,
+      "advertised_model_count": 80,
+      "candidate_models": [
+        {
+          "id": "deepseek-ai/deepseek-coder-6.7b-instruct",
+          "supported_methods": null,
+          "display_name": null
+        },
+        {
+          "id": "deepseek-ai/deepseek-v4.1-flash",
+          "supported_methods": null,
+          "display_name": null
+        },
+        {
+          "id": "meta/codellama-70b",
+          "supported_methods": null,
+          "display_name": null
+        },
+        {
+          "id": "meta/llama-3.2-11b-vision-instruct",
+          "supported_methods": null,
+          "display_name": null
+        },
+        {
+          "id": "meta/llama-3.2-90b-vision-instruct",
+          "supported_methods": null,
+          "display_name": null
+        },
+        {
+          "id": "meta/llama-guard-4-12b",
+          "supported_methods": null,
+          "display_name": null
+        },
+        {
+          "id": "meta/llama2-70b",
+          "supported_methods": null,
+          "display_name": null
+        },
+        {
+          "id": "moonshotai/kimi-k2.6",
+          "supported_methods": null,
+          "display_name": null
+        },
+        {
+          "id": "moonshotai/kimi-k3",
+          "supported_methods": null,
+          "display_name": null
+        },
+        {
+          "id": "nvidia/llama-3.1-nemoguard-8b-content-safety",
+          "supported_methods": null,
+          "display_name": null
+        },
+        {
+          "id": "nvidia/llama-3.1-nemoguard-8b-topic-control",
+          "supported_methods": null,
+          "display_name": null
+        },
+        {
+          "id": "nvidia/llama-3.1-nemotron-51b-instruct",
+          "supported_methods": null,
+          "display_name": null
+        },
+        {
+          "id": "nvidia/llama-3.1-nemotron-70b-instruct",
+          "supported_methods": null,
+          "display_name": null
+        },
+        {
+          "id": "nvidia/llama-3.1-nemotron-safety-guard-8b-v3",
+          "supported_methods": null,
+          "display_name": null
+        },
+        {
+          "id": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
+          "supported_methods": null,
+          "display_name": null
+        },
+        {
+          "id": "nvidia/llama-3.2-nemoretriever-1b-vlm-embed-v1",
+          "supported_methods": null,
+          "display_name": null
+        },
+        {
+          "id": "nvidia/llama-3.2-nv-embedqa-1b-v1",
+          "supported_methods": null,
+          "display_name": null
+        },
+        {
+          "id": "nvidia/llama-nemotron-embed-vl-1b-v2",
+          "supported_methods": null,
+          "display_name": null
+        },
+        {
+          "id": "nvidia/llama3-chatqa-1.5-70b",
+          "supported_methods": null,
+          "display_name": null
+        },
+        {
+          "id": "openai/gpt-oss-20b",
+          "supported_methods": null,
+          "display_name": null
+        }
+      ],
+      "next_page_present": false,
+      "inference_tested_in_this_audit": false
+    }
+  ]
+}

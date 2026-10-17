@@ -1,0 +1,27 @@
+{
+  "episodes": [
+    {
+      "patient_id": "alpha",
+      "conversation_id": "alpha-pilot",
+      "memory_enabled": true,
+      "require_reference": true,
+      "question": {
+        "question_id": "PILOT-alpha",
+        "question": "Read my registered synthetic case PDF and report its exact record marker in a JSON object with marker. Cite an actual source view.",
+        "options": null
+      }
+    },
+    {
+      "patient_id": "beta",
+      "conversation_id": "beta-pilot",
+      "memory_enabled": true,
+      "require_reference": true,
+      "question": {
+        "question_id": "PILOT-beta",
+        "question": "Read my registered synthetic case PDF and report its exact record marker in a JSON object with marker. Cite an actual source view.",
+        "options": null
+      }
+    }
+  ],
+  "process_restart": "Every episode runs ask_patient.py in a separate fresh Python process."
+}

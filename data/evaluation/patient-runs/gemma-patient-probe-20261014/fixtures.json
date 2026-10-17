@@ -1,0 +1,24 @@
+{
+  "patients": [
+    {
+      "patient_id": "alpha",
+      "display_name": "Synthetic Alpha",
+      "weight_kg": 64.2,
+      "cartons": 2,
+      "marker": "ALPHA-NUTRITION-47"
+    },
+    {
+      "patient_id": "beta",
+      "display_name": "Synthetic Beta",
+      "weight_kg": 81.7,
+      "cartons": 1,
+      "marker": "BETA-NUTRITION-93"
+    }
+  ],
+  "alpha_snack": "toasted sesame crackers",
+  "filler_turns": 5,
+  "new_alpha_weight": 62.4,
+  "corrected_alpha_weight": 62.1,
+  "late_old_alpha_weight": 70.3,
+  "source": "Entirely authored synthetic records; not patients, MedQA or an LLM-assigned reference."
+}

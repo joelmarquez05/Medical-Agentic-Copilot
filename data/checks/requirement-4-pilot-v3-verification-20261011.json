@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "run_id": "gemma-full-agent-pilot-v3-20261011",
+  "cases": [
+    {
+      "question_id": "PILOT-01",
+      "answer_sha256": "fdf54e56475e00ac8d049097dbf9749d5bef30e766cf9faa8a63a9ffee637467",
+      "status": "completed",
+      "replayed_model_responses": 1,
+      "replayed_http_responses": 0,
+      "native_final_calls": 0
+    }
+  ],
+  "active_v3_graph_prompt_profile_unchanged": true,
+  "sampling_keys_and_wording_verified": true,
+  "new_model_requests": 0,
+  "new_pubmed_requests": 0,
+  "credential_files_read": 0,
+  "interpretation": "Exact operational replay and objective scoring; substantive answer/source appraisal remains separate."
+}

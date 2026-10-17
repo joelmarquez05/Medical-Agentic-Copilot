@@ -1,0 +1,18 @@
+{
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "consistent"
+  },
+  "answer_notes": "Correct D. Uses supplied peritonitis, hemoperitoneum and refractory shock to prioritize operative control over CT or additional fluids alone. Does not invent an injury grade. Explicitly identifies its answer as unverified established trauma knowledge; WSES independently supports the operative priority.",
+  "researcher_reference_ids": [
+    "R4-CL01"
+  ],
+  "queries": [],
+  "papers": {},
+  "citations": {},
+  "question_id": "BM01",
+  "model_profile": "glm-5.3",
+  "answer_sha256": "50544b088238813ac12eae27b76efcae66d81fa597cb9202e74b74d6ff5ede98",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician"
+}

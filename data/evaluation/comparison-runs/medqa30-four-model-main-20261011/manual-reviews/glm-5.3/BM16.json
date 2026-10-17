@@ -1,0 +1,50 @@
+{
+  "question_id": "BM16",
+  "model_profile": "glm-5.3",
+  "answer_sha256": "092dd04b250754990d0eb9727faf5ac74d61205c7a64cea1141ab911d35f5ec5",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "minor_limitation"
+  },
+  "answer_notes": "Correct A. Actually reads the older randomized trial and accurately reports 68 versus 55 percent successes and 10 versus 19 percent deterioration with antibiotics, matching the cardinal symptoms. It leaves modern doxycycline selection unverified. The abstract does not name antibiotic agents, so saying the trial did not test doxycycline is not established by the available text; that should instead be a missing-agent-verification limitation.",
+  "researcher_reference_ids": [
+    "R5-CL06"
+  ],
+  "queries": [
+    {
+      "rating": "appropriate",
+      "notes": "Targets antibiotics/doxycycline in an acute COPD exacerbation."
+    }
+  ],
+  "papers": {
+    "33448349": {
+      "rating": "partially_relevant",
+      "notes": "Long-term prophylactic-antibiotic network meta-analysis is a different allocation from treating this acute exacerbation."
+    },
+    "31125127": {
+      "rating": "partially_relevant",
+      "notes": "Head-to-head prophylactic/long-term COPD antibiotics are related background, not acute-course agent selection."
+    },
+    "12084002": {
+      "rating": "directly_relevant",
+      "notes": "AECB antimicrobial treatment directly addresses the question; actual reads give cardinal symptoms, doxycycline efficacy and severe-disease/resistance limits, while search-only text is generic rationale."
+    },
+    "15521160": {
+      "rating": "directly_relevant",
+      "notes": "AECB primary-care treatment guideline directly addresses management; actual read includes doxycycline and indication/risk criteria, not all of which this patient explicitly meets."
+    },
+    "3492164": {
+      "rating": "directly_relevant",
+      "notes": "Actual randomized crossover read reports antibiotic benefit and the exact dyspnea/sputum/purulence triad; it does not name the antibiotic regimens in its abstract."
+    }
+  },
+  "citations": {
+    "P3492164_read_2ce52ed5b715": {
+      "rating": "supported",
+      "notes": "Actual read directly supports the triad, antibiotic success/deterioration percentages and significant benefit; it does not isolate doxycycline choice or justify absence of that drug from the original trial."
+    }
+  },
+  "inline_citations": {}
+}

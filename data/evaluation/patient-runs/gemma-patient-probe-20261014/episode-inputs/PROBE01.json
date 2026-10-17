@@ -1,0 +1,5 @@
+{
+  "question_id": "PROBE01",
+  "question": "Give my registered display name as a JSON object with display_name. Use the supplied patient context.",
+  "options": null
+}

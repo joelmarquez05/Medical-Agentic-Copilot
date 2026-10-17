@@ -1,0 +1,22 @@
+{
+  "records": [
+    {
+      "question_id": "PM01",
+      "started_at_utc": "2026-10-14T14:24:05+00:00",
+      "estimated_maximum_usd": 0.0067934,
+      "request_sent": true,
+      "status": "error",
+      "cost_usd": null,
+      "cost_basis": "Failed request retains full unknown-charge allowance.",
+      "error_type": "OpenAIConnectionError",
+      "http_status": null,
+      "elapsed_seconds": 10.886
+    }
+  ],
+  "budget": {
+    "limit_usd": 6.0,
+    "reported_or_estimated_spend_usd": 4.91350817,
+    "unreported_charge_reserve_usd": 0.163192,
+    "policy": "Before each paid request, reserve a conservative prompt-byte estimate plus the full output cap at configured provider price ceilings. Failed requests without usage retain that reserve. This is a local guard, not a provider billing guarantee."
+  }
+}

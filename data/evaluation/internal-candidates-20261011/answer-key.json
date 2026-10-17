@@ -1,0 +1,107 @@
+{
+  "status": "Candidate selection for discussion; not approved/frozen as a scored run",
+  "generation_access": "Evaluator only; never include in model prompts or tool catalog",
+  "keys": [
+    {
+      "question_id": "CP01",
+      "answer_idx": "B",
+      "answer": "C. difficile colitis",
+      "reference_source_ids": [
+        "CL01"
+      ],
+      "reference_locator": "Antibiotic exposure and compatible diarrhea; supports the differential, not a confirmed diagnosis without testing.",
+      "key_origin": "Unchanged answer_idx/answer in released training row; reference sources do not replace the key"
+    },
+    {
+      "question_id": "CP02",
+      "answer_idx": "B",
+      "answer": "Acute pericarditis",
+      "reference_source_ids": [
+        "CL02"
+      ],
+      "reference_locator": "Classic pericarditis findings; the older guideline supports these findings, not a claim to current comprehensive management.",
+      "key_origin": "Unchanged answer_idx/answer in released training row; reference sources do not replace the key"
+    },
+    {
+      "question_id": "CP03",
+      "answer_idx": "A",
+      "answer": "Hypothyroidism",
+      "reference_source_ids": [
+        "CL03",
+        "CL03B"
+      ],
+      "reference_locator": "Supports hypothyroidism-associated hyperprolactinemia; also inspect the medication distractor rather than ignoring it.",
+      "key_origin": "Unchanged answer_idx/answer in released training row; reference sources do not replace the key"
+    },
+    {
+      "question_id": "CP04",
+      "answer_idx": "C",
+      "answer": "Celiac disease",
+      "reference_source_ids": [
+        "CL04"
+      ],
+      "reference_locator": "Supports the dermatitis-herpetiformis/celiac association; do not treat a vignette as biopsy-proven disease.",
+      "key_origin": "Unchanged answer_idx/answer in released training row; reference sources do not replace the key"
+    },
+    {
+      "question_id": "CP05",
+      "answer_idx": "B",
+      "answer": "Heparin drip",
+      "reference_source_ids": [
+        "CL05"
+      ],
+      "reference_locator": "Supports immediate unfractionated heparin while urgent revascularization is assessed; heparin alone is not definitive limb rescue.",
+      "key_origin": "Unchanged answer_idx/answer in released training row; reference sources do not replace the key"
+    },
+    {
+      "question_id": "CP06",
+      "answer_idx": "B",
+      "answer": "Administer intrapartum intravenous penicillin",
+      "reference_source_ids": [
+        "CL06"
+      ],
+      "reference_locator": "Previous GBS-infected newborn is an indication for intrapartum prophylaxis; penicillin is the preferred agent when applicable.",
+      "key_origin": "Unchanged answer_idx/answer in released training row; reference sources do not replace the key"
+    },
+    {
+      "question_id": "CP07",
+      "answer_idx": "A",
+      "answer": "Magnesium sulfate and labetalol therapy",
+      "reference_source_ids": [
+        "CL07"
+      ],
+      "reference_locator": "Supports magnesium sulfate consideration and immediate antihypertensive therapy; stabilization does not settle delivery timing.",
+      "key_origin": "Unchanged answer_idx/answer in released training row; reference sources do not replace the key"
+    },
+    {
+      "question_id": "CP08",
+      "answer_idx": "D",
+      "answer": "Protamine sulfate",
+      "reference_source_ids": [
+        "CL08"
+      ],
+      "reference_locator": "Label indication supports protamine for heparin overdose; no dose is derived from the vignette.",
+      "key_origin": "Unchanged answer_idx/answer in released training row; reference sources do not replace the key"
+    },
+    {
+      "question_id": "CP09",
+      "answer_idx": "D",
+      "answer": "Gentamicin",
+      "reference_source_ids": [
+        "CL09"
+      ],
+      "reference_locator": "Aminoglycoside review supports gentamicin-related proximal tubular toxicity; source is explicitly historical.",
+      "key_origin": "Unchanged answer_idx/answer in released training row; reference sources do not replace the key"
+    },
+    {
+      "question_id": "CP10",
+      "answer_idx": "B",
+      "answer": "Increased confidence interval range",
+      "reference_source_ids": [
+        "CL10"
+      ],
+      "reference_locator": "Supports reduced precision with a smaller sample under comparable assumptions; it does not reproduce the trial or prove a fixed hazard ratio.",
+      "key_origin": "Unchanged answer_idx/answer in released training row; reference sources do not replace the key"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "date": "2026-10-11",
+  "scope": "Requirements 2 and 3; new slide images 8?14 and spoken script from [Slide 8] onward",
+  "generation_mode": "built-in image_gen; no pixel editing or upscaling",
+  "earlier_script_unchanged": true,
+  "preserved_prefix_sha256": "08c40014aa55353ea3b5925bfd8d0a4c63a15abacb20b6bad53847ee4808b03c",
+  "preserved_prefix_bytes": 8854,
+  "earlier_slide_hashes_unchanged": {
+    "diapositiva_0.png": true,
+    "diapositiva_1.png": true,
+    "diapositiva_2.png": true,
+    "diapositiva_3.png": true,
+    "diapositiva_4.png": true,
+    "diapositiva_5.png": true,
+    "diapositiva_6.png": true,
+    "diapositiva_7.png": true
+  },
+  "slide_markers": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "new_slides": [
+    {
+      "slide": 8,
+      "path": "slides\\diapositiva_8.png",
+      "sha256": "da093a7c8d8d32ecdac78e00b7bd163456d6c6ade372b17e9187c580d88eda58",
+      "size_bytes": 1299804,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "matches_selected_generator_output": true,
+      "visual_review": "Reviewed rendered image for text, layout, reported counts and flow direction; slide 12 uses explicit alternative route lanes."
+    },
+    {
+      "slide": 9,
+      "path": "slides\\diapositiva_9.png",
+      "sha256": "ce425aeb567f32dd3be9c51a7c8f7e7f2b11f4c4dc71a853659a4206169adb7e",
+      "size_bytes": 1717989,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "matches_selected_generator_output": true,
+      "visual_review": "Reviewed rendered image for text, layout, reported counts and flow direction; slide 12 uses explicit alternative route lanes."
+    },
+    {
+      "slide": 10,
+      "path": "slides\\diapositiva_10.png",
+      "sha256": "88bbfc69dd01d420b1e7cdb50228eb6421d0cba05aa7cb3ba42e9a0b187e0870",
+      "size_bytes": 1394259,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "matches_selected_generator_output": true,
+      "visual_review": "Reviewed rendered image for text, layout, reported counts and flow direction; slide 12 uses explicit alternative route lanes."
+    },
+    {
+      "slide": 11,
+      "path": "slides\\diapositiva_11.png",
+      "sha256": "e958839616f405de6dc38da330b59c2efacf8a09f905cb4db42cb1f6cae38e5b",
+      "size_bytes": 1260228,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "matches_selected_generator_output": true,
+      "visual_review": "Reviewed rendered image for text, layout, reported counts and flow direction; slide 12 uses explicit alternative route lanes."
+    },
+    {
+      "slide": 12,
+      "path": "slides\\diapositiva_12.png",
+      "sha256": "714200d457617d36220c1c9df23535c2098a64c66f22f2fa6705326a76620346",
+      "size_bytes": 1382997,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "matches_selected_generator_output": true,
+      "visual_review": "Reviewed rendered image for text, layout, reported counts and flow direction; slide 12 uses explicit alternative route lanes."
+    },
+    {
+      "slide": 13,
+      "path": "slides\\diapositiva_13.png",
+      "sha256": "e982756a607caf362b74d11b6e60eb17710d027df43a5b91b069bbdec1dfd2b3",
+      "size_bytes": 1287601,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "matches_selected_generator_output": true,
+      "visual_review": "Reviewed rendered image for text, layout, reported counts and flow direction; slide 12 uses explicit alternative route lanes."
+    },
+    {
+      "slide": 14,
+      "path": "slides\\diapositiva_14.png",
+      "sha256": "18c1262e6a31c4d25d840974014be946027b38e7cbfbad7fda42426d4e330d97",
+      "size_bytes": 1293689,
+      "dimensions": [
+        1672,
+        941
+      ],
+      "matches_selected_generator_output": true,
+      "visual_review": "Reviewed rendered image for text, layout, reported counts and flow direction; slide 12 uses explicit alternative route lanes."
+    }
+  ],
+  "diagram_links": [
+    {
+      "link": "../../slides/",
+      "exists": true
+    },
+    {
+      "link": "../../guion.md",
+      "exists": true
+    },
+    {
+      "link": "../../handoff.md",
+      "exists": true
+    },
+    {
+      "link": "../../data/evaluation/internal-runs/gemma-baseline-restart-20261011/results.md",
+      "exists": true
+    },
+    {
+      "link": "../../data/evaluation/retrieval-runs/gemma-resilient-main-20261011/results.md",
+      "exists": true
+    },
+    {
+      "link": "../../src/medical_copilot/clinical_graph.py",
+      "exists": true
+    },
+    {
+      "link": "../../src/medical_copilot/clinical_resilient.py",
+      "exists": true
+    },
+    {
+      "link": "../../src/medical_copilot/clinical_literature.py",
+      "exists": true
+    }
+  ],
+  "technical_data_checks": "Cross-checked local source code, frozen profile, baseline results and v3 results. No new clinical answer generation, PubMed requests or evaluation runs; image-generation inference was used for the requested slides.",
+  "limitations": "Generated raster text and charts were visually inspected; relevance bar lengths are illustrative and the displayed counts are authoritative. New slides are native 1672?941 outputs; earlier PNGs remain 3000?1688.",
+  "script_sha256": "10b3597cabfc43fbd1bcc3dd7ecc50095f13e6ff1560eb0878f0948d35ae6fa2"
+}

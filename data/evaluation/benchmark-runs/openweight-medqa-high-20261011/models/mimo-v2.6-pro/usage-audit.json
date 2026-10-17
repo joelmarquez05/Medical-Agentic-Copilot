@@ -1,0 +1,922 @@
+{
+  "records": [
+    {
+      "question_id": "direct:MQ01",
+      "started_at_utc": "2026-10-11T10:08:42+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0071025,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 218,
+        "output_tokens": 352,
+        "total_tokens": 570,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 238
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 352,
+        "prompt_tokens": 218,
+        "total_tokens": 570,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 238,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.00039998,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.00039998,
+          "upstream_inference_prompt_cost": 9.374e-05,
+          "upstream_inference_completions_cost": 0.00030624
+        }
+      },
+      "cost_usd": 0.00039998,
+      "model_name": "xiaomi/mimo-v2.6-pro",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 9.299
+    },
+    {
+      "question_id": "direct:MQ02",
+      "started_at_utc": "2026-10-11T10:09:15+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0071145,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 222,
+        "output_tokens": 264,
+        "total_tokens": 486,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 153
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 264,
+        "prompt_tokens": 222,
+        "total_tokens": 486,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 153,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.00032514,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.00032514,
+          "upstream_inference_prompt_cost": 9.546e-05,
+          "upstream_inference_completions_cost": 0.00022968
+        }
+      },
+      "cost_usd": 0.00032514,
+      "model_name": "xiaomi/mimo-v2.6-pro",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 7.768
+    },
+    {
+      "question_id": "direct:MQ03",
+      "started_at_utc": "2026-10-11T10:10:03+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0073275,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 296,
+        "output_tokens": 187,
+        "total_tokens": 483,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 64,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 112
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 187,
+        "prompt_tokens": 296,
+        "total_tokens": 483,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 112,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 64,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.0002626804,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.0002626804,
+          "upstream_inference_prompt_cost": 9.99904e-05,
+          "upstream_inference_completions_cost": 0.00016269
+        }
+      },
+      "cost_usd": 0.0002626804,
+      "model_name": "xiaomi/mimo-v2.6-pro",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 10.634
+    },
+    {
+      "question_id": "direct:MQ04",
+      "started_at_utc": "2026-10-11T10:10:42+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0073655,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 365,
+        "output_tokens": 507,
+        "total_tokens": 872,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 64,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 410
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 507,
+        "prompt_tokens": 365,
+        "total_tokens": 872,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 410,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 64,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.0005707504,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.0005707504,
+          "upstream_inference_prompt_cost": 0.0001296604,
+          "upstream_inference_completions_cost": 0.00044109
+        }
+      },
+      "cost_usd": 0.0005707504,
+      "model_name": "xiaomi/mimo-v2.6-pro",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 19.573
+    },
+    {
+      "question_id": "direct:MQ05",
+      "started_at_utc": "2026-10-11T10:16:10+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.007204,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 250,
+        "output_tokens": 363,
+        "total_tokens": 613,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 64,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 257
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 363,
+        "prompt_tokens": 250,
+        "total_tokens": 613,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 257,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 64,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.0003960204,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.0003960204,
+          "upstream_inference_prompt_cost": 8.02104e-05,
+          "upstream_inference_completions_cost": 0.00031581
+        }
+      },
+      "cost_usd": 0.0003960204,
+      "model_name": "xiaomi/mimo-v2.6-pro",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 33.238
+    },
+    {
+      "question_id": "direct:MQ06",
+      "started_at_utc": "2026-10-11T10:18:12+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0072915,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 328,
+        "output_tokens": 580,
+        "total_tokens": 908,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 64,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 506
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 580,
+        "prompt_tokens": 328,
+        "total_tokens": 908,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 506,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 64,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.0006183504,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.0006183504,
+          "upstream_inference_prompt_cost": 0.0001137504,
+          "upstream_inference_completions_cost": 0.0005046
+        }
+      },
+      "cost_usd": 0.0006183504,
+      "model_name": "xiaomi/mimo-v2.6-pro",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 25.561
+    },
+    {
+      "question_id": "direct:MQ07",
+      "started_at_utc": "2026-10-11T10:20:08+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.007263,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 358,
+        "output_tokens": 161,
+        "total_tokens": 519,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 64,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 73
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 161,
+        "prompt_tokens": 358,
+        "total_tokens": 519,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 73,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 64,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.0002667204,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.0002667204,
+          "upstream_inference_prompt_cost": 0.0001266504,
+          "upstream_inference_completions_cost": 0.00014007
+        }
+      },
+      "cost_usd": 0.0002667204,
+      "model_name": "xiaomi/mimo-v2.6-pro",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 5.767
+    },
+    {
+      "question_id": "direct:MQ08",
+      "started_at_utc": "2026-10-11T10:20:42+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.007151,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 235,
+        "output_tokens": 177,
+        "total_tokens": 412,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 64,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 79
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 177,
+        "prompt_tokens": 235,
+        "total_tokens": 412,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 79,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 64,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.0002277504,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.0002277504,
+          "upstream_inference_prompt_cost": 7.37604e-05,
+          "upstream_inference_completions_cost": 0.00015399
+        }
+      },
+      "cost_usd": 0.0002277504,
+      "model_name": "xiaomi/mimo-v2.6-pro",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 4.304
+    },
+    {
+      "question_id": "direct:MQ09",
+      "started_at_utc": "2026-10-11T10:21:09+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.007147,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 233,
+        "output_tokens": 132,
+        "total_tokens": 365,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 64,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 46
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 132,
+        "prompt_tokens": 233,
+        "total_tokens": 365,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 46,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 64,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.0001877404,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.0001877404,
+          "upstream_inference_prompt_cost": 7.29004e-05,
+          "upstream_inference_completions_cost": 0.00011484
+        }
+      },
+      "cost_usd": 0.0001877404,
+      "model_name": "xiaomi/mimo-v2.6-pro",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 4.022
+    },
+    {
+      "question_id": "direct:MQ10",
+      "started_at_utc": "2026-10-11T10:21:56+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.007327,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 300,
+        "output_tokens": 171,
+        "total_tokens": 471,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 64,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 83
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 171,
+        "prompt_tokens": 300,
+        "total_tokens": 471,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 83,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 64,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.0002504804,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.0002504804,
+          "upstream_inference_prompt_cost": 0.0001017104,
+          "upstream_inference_completions_cost": 0.00014877
+        }
+      },
+      "cost_usd": 0.0002504804,
+      "model_name": "xiaomi/mimo-v2.6-pro",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 5.353
+    },
+    {
+      "question_id": "agent:MQ01",
+      "started_at_utc": "2026-10-11T10:22:41+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0070995,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 224,
+        "output_tokens": 85,
+        "total_tokens": 309,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 39
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 85,
+        "prompt_tokens": 224,
+        "total_tokens": 309,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 39,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.00017027,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.00017027,
+          "upstream_inference_prompt_cost": 9.632e-05,
+          "upstream_inference_completions_cost": 7.395e-05
+        }
+      },
+      "cost_usd": 0.00017027,
+      "model_name": "xiaomi/mimo-v2.6-pro",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 2.804
+    },
+    {
+      "question_id": "agent:MQ01",
+      "started_at_utc": "2026-10-11T10:22:44+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0074435,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 353,
+        "output_tokens": 1613,
+        "total_tokens": 1966,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 48,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 1542
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 1613,
+        "prompt_tokens": 353,
+        "total_tokens": 1966,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1542,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 48,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.0015346328,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.0015346328,
+          "upstream_inference_prompt_cost": 0.0001313228,
+          "upstream_inference_completions_cost": 0.00140331
+        }
+      },
+      "cost_usd": 0.0015346328,
+      "model_name": "xiaomi/mimo-v2.6-pro",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 38.319
+    },
+    {
+      "question_id": "agent:MQ02",
+      "started_at_utc": "2026-10-11T10:24:34+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0071115,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 228,
+        "output_tokens": 256,
+        "total_tokens": 484,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 205
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 256,
+        "prompt_tokens": 228,
+        "total_tokens": 484,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 205,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.00032076,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.00032076,
+          "upstream_inference_prompt_cost": 9.804e-05,
+          "upstream_inference_completions_cost": 0.00022272
+        }
+      },
+      "cost_usd": 0.00032076,
+      "model_name": "xiaomi/mimo-v2.6-pro",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 7.98
+    },
+    {
+      "question_id": "agent:MQ02",
+      "started_at_utc": "2026-10-11T10:24:42+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.007469,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 362,
+        "output_tokens": 310,
+        "total_tokens": 672,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 48,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 200
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 310,
+        "prompt_tokens": 362,
+        "total_tokens": 672,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 200,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 48,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.0004048928,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.0004048928,
+          "upstream_inference_prompt_cost": 0.0001351928,
+          "upstream_inference_completions_cost": 0.0002697
+        }
+      },
+      "cost_usd": 0.0004048928,
+      "model_name": "xiaomi/mimo-v2.6-pro",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 13.256
+    },
+    {
+      "question_id": "agent:MQ03",
+      "started_at_utc": "2026-10-11T10:25:46+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0073245,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 302,
+        "output_tokens": 169,
+        "total_tokens": 471,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 64,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 122
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 169,
+        "prompt_tokens": 302,
+        "total_tokens": 471,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 122,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 64,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.0002496004,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.0002496004,
+          "upstream_inference_prompt_cost": 0.0001025704,
+          "upstream_inference_completions_cost": 0.00014703
+        }
+      },
+      "cost_usd": 0.0002496004,
+      "model_name": "xiaomi/mimo-v2.6-pro",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 5.168
+    },
+    {
+      "question_id": "agent:MQ03",
+      "started_at_utc": "2026-10-11T10:25:52+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0076805,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 432,
+        "output_tokens": 218,
+        "total_tokens": 650,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 128,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 139
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 218,
+        "prompt_tokens": 432,
+        "total_tokens": 650,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 139,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 128,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.0003208408,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.0003208408,
+          "upstream_inference_prompt_cost": 0.0001311808,
+          "upstream_inference_completions_cost": 0.00018966
+        }
+      },
+      "cost_usd": 0.0003208408,
+      "model_name": "xiaomi/mimo-v2.6-pro",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 11.825
+    }
+  ],
+  "budget": {
+    "limit_usd": 6.0,
+    "reported_or_estimated_spend_usd": 3.85579666,
+    "unreported_charge_reserve_usd": 0.15,
+    "policy": "Before each paid request, reserve a conservative prompt-byte estimate plus the full output cap at configured provider price ceilings. Failed requests without usage retain that reserve. This is a local guard, not a provider billing guarantee."
+  }
+}

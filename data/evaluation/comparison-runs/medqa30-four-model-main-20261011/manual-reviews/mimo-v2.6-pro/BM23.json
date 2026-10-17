@@ -1,0 +1,28 @@
+{
+  "question_id": "BM23",
+  "model_profile": "mimo-v2.6-pro",
+  "answer_sha256": "2250582e993fc3a9ea485e590e9ca9f6df71aa75ddd23744683a7d8b0c97c1ef",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "consistent"
+  },
+  "answer_notes": "Correct sargramostim reaction with explicit acknowledgment that both PubMed attempts were empty. The described immediate supportive response is consistent with label reaction management; an exact 30-minute onset and complete cytopenia correction were not independently verified from a retrieved paper.",
+  "researcher_reference_ids": [
+    "R4-CL10"
+  ],
+  "queries": [
+    {
+      "rating": "appropriate",
+      "notes": "Drug and characteristic first-dose respiratory/hemodynamic terms."
+    },
+    {
+      "rating": "partially_appropriate",
+      "notes": "Adds several simultaneous symptom terms after an empty result, rather than simplifying; still clinically relevant."
+    }
+  ],
+  "papers": {},
+  "citations": {},
+  "inline_citations": {}
+}

@@ -1,0 +1,113 @@
+{
+  "answer_key_sha256": "35e7cdf8105cda7e2db5df43749e3a785c6ea1d07ed3ba656feee6ab0d75ab0c",
+  "verified_before_generation": true,
+  "keys": [
+    {
+      "question_id": "ART01",
+      "field_support": {
+        "weight_losing_hypermetabolic_percent": [
+          "D01454b384c55_p2_c2_1f86e2571dc9"
+        ],
+        "newly_diagnosed_hypermetabolic_percent": [
+          "D01454b384c55_p2_c2_1f86e2571dc9"
+        ],
+        "tee_lower_kcal_kg_day": [
+          "D01454b384c55_p2_c2_1f86e2571dc9"
+        ],
+        "tee_upper_kcal_kg_day": [
+          "D01454b384c55_p2_c2_1f86e2571dc9"
+        ]
+      }
+    },
+    {
+      "question_id": "ART02",
+      "field_support": {
+        "physicians_count": [
+          "D01454b384c55_p4_c1_5bbc8c2a27bb"
+        ],
+        "vitamin_e_iu_per_day": [
+          "D01454b384c55_p4_c1_5bbc8c2a27bb"
+        ],
+        "vitamin_c_mg_per_day": [
+          "D01454b384c55_p4_c1_5bbc8c2a27bb"
+        ],
+        "average_followup_years": [
+          "D01454b384c55_p4_c1_5bbc8c2a27bb"
+        ]
+      }
+    },
+    {
+      "question_id": "ART03",
+      "field_support": {
+        "patients_count": [
+          "D01454b384c55_p7_c1_931b00ff6761"
+        ],
+        "protocol_weeks": [
+          "D01454b384c55_p7_c1_931b00ff6761"
+        ],
+        "completion_percent": [
+          "D01454b384c55_p7_c1_931b00ff6761"
+        ],
+        "significant_between_group_difference": [
+          "D01454b384c55_p7_c1_931b00ff6761"
+        ]
+      }
+    },
+    {
+      "question_id": "ART04",
+      "field_support": {
+        "multicenter_patients_count": [
+          "D01454b384c55_p7_c2_b7b00271541e"
+        ],
+        "multicenter_daily_dose_mg": [
+          "D01454b384c55_p7_c2_b7b00271541e"
+        ],
+        "pilot_dose_per_administration_mg": [
+          "D01454b384c55_p7_c2_b7b00271541e"
+        ],
+        "pilot_duration_days": [
+          "D01454b384c55_p7_c2_b7b00271541e"
+        ]
+      }
+    },
+    {
+      "question_id": "ART05",
+      "field_support": {
+        "patients_count": [
+          "D01454b384c55_p7_c2_b7b00271541e"
+        ],
+        "fluoxymesterone_mg_per_day": [
+          "D01454b384c55_p7_c2_b7b00271541e"
+        ],
+        "megestrol_acetate_mg_per_day": [
+          "D01454b384c55_p7_c2_b7b00271541e"
+        ],
+        "dexamethasone_mg_per_day": [
+          "D01454b384c55_p8_c1_461e28dfc4f4"
+        ]
+      }
+    },
+    {
+      "question_id": "ART06",
+      "field_support": {
+        "all_trials_count": [
+          "D01454b384c55_p10_c1_01dabd8547ec",
+          "D01454b384c55_p10_c2_dccfbf19e922"
+        ],
+        "all_trials_with_positive_mucositis_effect_count": [
+          "D01454b384c55_p10_c1_01dabd8547ec",
+          "D01454b384c55_p10_c2_dccfbf19e922"
+        ],
+        "placebo_controlled_trials_with_benefit_count": [
+          "D01454b384c55_p10_c1_01dabd8547ec",
+          "D01454b384c55_p10_c2_dccfbf19e922"
+        ],
+        "placebo_controlled_trials_with_no_effect_count": [
+          "D01454b384c55_p10_c1_01dabd8547ec",
+          "D01454b384c55_p10_c2_dccfbf19e922"
+        ]
+      }
+    }
+  ],
+  "criterion": "Report exact value match separately from a match whose independently identified supporting passage is actually cited. Registry membership alone is not sufficient evidence support; additional manual review inspects text/qualifiers."
+}

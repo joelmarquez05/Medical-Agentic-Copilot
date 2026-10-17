@@ -1,0 +1,96 @@
+{
+  "passed": true,
+  "run_id": "gemma-article-efficiency-main-20261012",
+  "episodes": [
+    {
+      "condition": "B-full-context",
+      "question_id": "ART01",
+      "model_responses": 1,
+      "pdf_operations": 0,
+      "answer_sha256": "0b1df4e7b532394655b9f07b8f307e6a4fe77aacdd438e41d3cdfa6e630ba682"
+    },
+    {
+      "condition": "B-full-context",
+      "question_id": "ART02",
+      "model_responses": 1,
+      "pdf_operations": 0,
+      "answer_sha256": "03217841f678330da575d56cb40140fe640ce95fdd3891f87b4c75d129e1f25b"
+    },
+    {
+      "condition": "B-full-context",
+      "question_id": "ART03",
+      "model_responses": 1,
+      "pdf_operations": 0,
+      "answer_sha256": "e1ff71a0dd8df9110fbde958292d79cfde57024971fbb1825f835b12a5ec1563"
+    },
+    {
+      "condition": "B-full-context",
+      "question_id": "ART04",
+      "model_responses": 1,
+      "pdf_operations": 0,
+      "answer_sha256": "1393779c532d5b76f80c70d79d4aa47d5a5c46c0db674095c1640d1bd759a0a0"
+    },
+    {
+      "condition": "B-full-context",
+      "question_id": "ART05",
+      "model_responses": 1,
+      "pdf_operations": 0,
+      "answer_sha256": "0e894c62939dea8d3db9c20fdd8d1d2f9734119ecf9f449b1eac53ef2d0928d5"
+    },
+    {
+      "condition": "B-full-context",
+      "question_id": "ART06",
+      "model_responses": 1,
+      "pdf_operations": 0,
+      "answer_sha256": "8d0aedd06be7dc6e56edeecdc2bac4443d51110f972fe3d267f5bc0fcf3681e3"
+    },
+    {
+      "condition": "C-pdf-tools",
+      "question_id": "ART01",
+      "model_responses": 2,
+      "pdf_operations": 1,
+      "answer_sha256": "7f6cd7e25a470ab3fa92a5308795f8504958e5e5af631790706ff34138368b23"
+    },
+    {
+      "condition": "C-pdf-tools",
+      "question_id": "ART02",
+      "model_responses": 2,
+      "pdf_operations": 1,
+      "answer_sha256": "a77f19567a37ab221d5d6e7afad3af1d6819e2402455a957e36d5c6e59b044d7"
+    },
+    {
+      "condition": "C-pdf-tools",
+      "question_id": "ART03",
+      "model_responses": 2,
+      "pdf_operations": 1,
+      "answer_sha256": "d6004bd43f6506db1974c668d3fabcc5f0feab191158d560cd65cea0dfbacc88"
+    },
+    {
+      "condition": "C-pdf-tools",
+      "question_id": "ART04",
+      "model_responses": 2,
+      "pdf_operations": 1,
+      "answer_sha256": "9b416238104d13d9f1e346a2559045a6f8a8d69135c2c2a9c01833ea2e60ee5c"
+    },
+    {
+      "condition": "C-pdf-tools",
+      "question_id": "ART05",
+      "model_responses": 4,
+      "pdf_operations": 2,
+      "answer_sha256": "6348d08651f022fc70abe6e81a40c1e5bb897fa366b6a144de66289346dc49c8"
+    },
+    {
+      "condition": "C-pdf-tools",
+      "question_id": "ART06",
+      "model_responses": 4,
+      "pdf_operations": 3,
+      "answer_sha256": "00abfb445aec5409d2013e6bc4a56169e1d81fba2598ad94ce9cbaee7087c0aa"
+    }
+  ],
+  "new_model_requests": 0,
+  "credentials_read": 0,
+  "no_knowledge_only_condition": true,
+  "identical_complete_B_and_delivered_C_views": true,
+  "no_gold_answer_fields_in_requests": true,
+  "interpretation": "Exact saved operational replay and code-based field checks, not independent clinical validation."
+}

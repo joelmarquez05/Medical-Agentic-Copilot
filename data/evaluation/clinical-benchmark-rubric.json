@@ -1,0 +1,22 @@
+{
+  "version": "requirement-4-gemma-full-agent-v1",
+  "objective": "Exact selected-option agreement with unchanged released MedQA labels; no LLM assigns or alters correctness.",
+  "primary_denominator": "All 30 planned questions; failures remain explicit. Also report completion and accuracy among completed answers.",
+  "reviewer": "Unblinded implementation assistant, no independent clinician and no paid judge",
+  "answer_dimensions": {
+    "case_reasoning": "Decisive supplied facts, logical support for the choice, contradictions and invented case details.",
+    "reference_concordance": "Explanation agreement with released key/topic and consulted primary context; preserve key disagreement or possible key ambiguity.",
+    "calibration_and_provenance": "Honest knowledge-versus-source attribution, missing evidence, certainty and medical/study limitations."
+  },
+  "answer_ratings": ["consistent", "minor_limitation", "material_issue", "not_evaluable"],
+  "citation_checks": [
+    "Source ID exists in that episode's model-visible registry.",
+    "Source bibliography and actual PMID correspond to the retrieved record.",
+    "Delivered text supports the associated claim; do not credit unseen host text or a later researcher lookup.",
+    "Population, intervention, outcome and study type match; assess all citations, including irrelevant or invented ones.",
+    "No citation is a missing verification observation, not an invented citation or automatically wrong option."
+  ],
+  "review_coverage": "Review all 30 final responses, all cited views and every returned question-paper pair. Preserve ratings and concise explicit reasons with answer/view hashes.",
+  "support_ratings": ["supported", "partially_supported", "unsupported", "not_assessable"],
+  "limits": "Exam benchmark, small filtered random subset, possible memorization, no full-text review or clinical validation. Qualitative findings are separate from option scoring."
+}

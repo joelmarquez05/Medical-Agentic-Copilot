@@ -1,0 +1,40 @@
+{
+  "question_id": "BM27",
+  "model_profile": "kimi-k3",
+  "answer_sha256": "81a4d9c8ac564d3dc9f3e59eb6994c9804fe56c0e2a00c1e0ef2665bcf27692c",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "consistent"
+  },
+  "answer_notes": "Correct fragile-X option with two pertinent excerpts, one supplying the repeat expansion and both the long-face/prominent-ear phenotype. No unsupported numerical prevalence or patient-specific genetic confirmation is added.",
+  "researcher_reference_ids": [],
+  "queries": [
+    {
+      "rating": "appropriate",
+      "notes": "Direct fragile-X clinical phenotype and repeat query."
+    }
+  ],
+  "papers": {
+    "9678703": {
+      "rating": "directly_relevant",
+      "notes": "Excerpt explicitly describes the chosen facial/ear phenotype and macro-orchidism."
+    },
+    "10710872": {
+      "rating": "directly_relevant",
+      "notes": "Excerpt explicitly includes CGG expansion plus the exact chosen physical phenotype."
+    }
+  },
+  "citations": {
+    "P9678703_search_9b21108c4ed7": {
+      "rating": "supported",
+      "notes": "Long face, protruding ears and macro-orchidism are explicit in this actual search excerpt."
+    },
+    "P10710872_search_8b22cd7fd0e6": {
+      "rating": "supported",
+      "notes": "CGG expansion and exact facial/ear phenotype are explicit in the delivered excerpt."
+    }
+  },
+  "inline_citations": {}
+}

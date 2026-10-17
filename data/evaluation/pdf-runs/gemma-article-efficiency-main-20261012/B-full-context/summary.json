@@ -1,0 +1,24 @@
+{
+  "recorded": 6,
+  "planned": 6,
+  "valid_model_answers": 6,
+  "terminal_messages": 6,
+  "statuses": {
+    "completed": 6
+  },
+  "provider_requests": 6,
+  "cost_usd": 0.01964547,
+  "unknown_charge_records": 0,
+  "input_tokens": 188685,
+  "output_tokens": 9033,
+  "reasoning_tokens": 6270,
+  "total_episode_seconds": 203.8364,
+  "median_episode_seconds": 32.9488,
+  "successful_pdf_operations": {},
+  "max_input_bytes": 110292,
+  "structured_citations": 8,
+  "correct_fields": 24,
+  "correct_fields_with_cited_reference_passage": 24,
+  "all_fields_correct_cases": 6,
+  "recorded_fields": 24
+}

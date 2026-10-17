@@ -1,0 +1,62 @@
+{
+  "purpose": "All newly authorized requirement-4 Gemma work, including both pilots and the interrupted first integration cohort",
+  "runs": [
+    {
+      "run_id": "gemma-full-agent-pilot-20261011",
+      "saved_provider_requests": 1,
+      "provider_reported_usd": 0.0003566475,
+      "unknown_cost_audit_records": 0,
+      "interrupted": false,
+      "completed_episode_records": 1
+    },
+    {
+      "run_id": "gemma-full-agent-medqa30-20261011",
+      "saved_provider_requests": 4,
+      "provider_reported_usd": 0.0016608225,
+      "unknown_cost_audit_records": 0,
+      "interrupted": true,
+      "completed_episode_records": 2
+    },
+    {
+      "run_id": "gemma-full-agent-pilot-v3-20261011",
+      "saved_provider_requests": 1,
+      "provider_reported_usd": 0.0002715975,
+      "unknown_cost_audit_records": 0,
+      "interrupted": false,
+      "completed_episode_records": 1
+    },
+    {
+      "run_id": "gemma-full-agent-medqa30-v3-20261011",
+      "saved_provider_requests": 53,
+      "provider_reported_usd": 0.0209886375,
+      "unknown_cost_audit_records": 0,
+      "interrupted": false,
+      "completed_episode_records": 30
+    }
+  ],
+  "initial_ledger": {
+    "checked_at_utc": "2026-10-11T17:54:18+00:00",
+    "credential_source": "file",
+    "total_usage": 3.886092441,
+    "total_credits": 10,
+    "interpretation": "Account-wide observation; delayed billing or other account activity remains possible."
+  },
+  "latest_ledger": {
+    "checked_at_utc": "2026-10-11T18:33:48+00:00",
+    "credential_source": "file",
+    "total_usage": 3.909370129,
+    "total_credits": 10,
+    "interpretation": "Account-wide observation; delayed billing or other account activity remains possible."
+  },
+  "provider_reported_known_total_usd": 0.023277705,
+  "account_observed_delta_usd": 0.023277687999999852,
+  "ledger_minus_known_reported_usd": -1.7000000147177063e-08,
+  "agreement_within_1e_7_usd": true,
+  "saved_provider_requests": 59,
+  "possible_unrecorded_inflight_requests": 1,
+  "interrupted_inflight_maximum_allowance_usd": 0.0128,
+  "standing_account_limit_usd": 6,
+  "uncertainty_headroom_usd": 0.15,
+  "inference_requests_during_audit": 0,
+  "interpretation": "Interrupted BM03 has one saved response charge without a completed episode, plus a possible unrecorded in-flight request. Account delta is aggregate and may lag/include other activity; do not invent an individual pending bill or treat it as zero. Known charges remain separate from any unattributed ledger difference."
+}

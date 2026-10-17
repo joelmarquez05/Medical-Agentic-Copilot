@@ -1,0 +1,203 @@
+{
+  "role": "Post-generation researcher reference check; never answering-agent retrieval or input.",
+  "papers": [
+    {
+      "id": "P15228794",
+      "pmid": "15228794",
+      "title": "Using an empirical method for establishing clinical outcome targets in disease management programs.",
+      "authors": "Ariel Linden, John L Adams, Nancy Roberts",
+      "author_list": [
+        "Ariel Linden",
+        "John L Adams",
+        "Nancy Roberts"
+      ],
+      "year": "2004",
+      "publication_date": "2004 Summer",
+      "journal": "Disease management : DM",
+      "doi": "10.1089/1093507041253280",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15228794/",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "abstract": "The disease management (DM) industry is being scrutinized now more than ever before, with programs being asked to demonstrate improvement in clinical quality in addition to the expected reduction in medical costs. In healthcare, clinical improvement targets are often set at levels considered to be clinically meaningful. This difference may or may not be statistically significant. The term \"effect size\" refers to the smallest difference that could be detected statistically. This paper proposes a simple empirical method for determining the minimum expected improvement level for DM clinical outcome measures in which two proportions are being compared. This method is useful in situations where the outcome measure does not lend itself to be determined by the subjective judgment of medical expertise. Graphical displays are provided for the reader to use to help determine appropriate effect sizes for studies in lieu of, or in addition to, the statistical calculations.",
+      "abstract_present": true,
+      "abstract_truncated": false,
+      "abstract_original_characters": 975,
+      "copyright_information": null,
+      "read_level": "PubMed title and abstract",
+      "preprint": false,
+      "retracted": false,
+      "retraction_notice": false,
+      "expression_of_concern": false,
+      "corrections": [],
+      "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract."
+    },
+    {
+      "id": "P28828034",
+      "pmid": "28828034",
+      "title": "Splenic trauma: WSES classification and guidelines for adult and pediatric patients.",
+      "authors": "Federico Coccolini, Giulia Montori, Fausto Catena, Yoram Kluger, Walter Biffl, Ernest E Moore, Viktor Reva, Camilla Bing, Miklosh Bala, Paola Fugazzola, Hany Bahouth, Ingo Marzi, George Velmahos, Rao Ivatury, Kjetil Soreide, Tal Horer, Richard Ten Broek, Bruno M Pereira, Gustavo P Fraga, Kenji Inaba, Joseph Kashuk, Neil Parry, Peter T Masiakos, Konstantinos S Mylonas, Andrew Kirkpatrick, Fikri Abu-Zidan, Carlos Augusto Gomes, Simone Vasilij Benatti, Noel Naidoo, Francesco Salvetti, Stefano Maccatrozzo, Vanni Agnoletti, Emiliano Gamberini, Leonardo Solaini, Antonio Costanzo, Andrea Celotti, Matteo Tomasoni, Vladimir Khokha, Catherine Arvieux, Lena Napolitano, Lauri Handolin, Michele Pisano, Stefano Magnone, David A Spain, Marc de Moya, Kimberly A Davis, Nicola De Angelis, Ari Leppaniemi, Paula Ferrada, Rifat Latifi, David Costa Navarro, Yashuiro Otomo, Raul Coimbra, Ronald V Maier, Frederick Moore, Sandro Rizoli, Boris Sakakushev, Joseph M Galante, Osvaldo Chiara, Stefania Cimbanassi, Alain Chichom Mefire, Dieter Weber, Marco Ceresoli, Andrew B Peitzman, Liban Wehlie, Massimo Sartelli, Salomone Di Saverio, Luca Ansaloni",
+      "author_list": [
+        "Federico Coccolini",
+        "Giulia Montori",
+        "Fausto Catena",
+        "Yoram Kluger",
+        "Walter Biffl",
+        "Ernest E Moore",
+        "Viktor Reva",
+        "Camilla Bing",
+        "Miklosh Bala",
+        "Paola Fugazzola",
+        "Hany Bahouth",
+        "Ingo Marzi",
+        "George Velmahos",
+        "Rao Ivatury",
+        "Kjetil Soreide",
+        "Tal Horer",
+        "Richard Ten Broek",
+        "Bruno M Pereira",
+        "Gustavo P Fraga",
+        "Kenji Inaba",
+        "Joseph Kashuk",
+        "Neil Parry",
+        "Peter T Masiakos",
+        "Konstantinos S Mylonas",
+        "Andrew Kirkpatrick",
+        "Fikri Abu-Zidan",
+        "Carlos Augusto Gomes",
+        "Simone Vasilij Benatti",
+        "Noel Naidoo",
+        "Francesco Salvetti",
+        "Stefano Maccatrozzo",
+        "Vanni Agnoletti",
+        "Emiliano Gamberini",
+        "Leonardo Solaini",
+        "Antonio Costanzo",
+        "Andrea Celotti",
+        "Matteo Tomasoni",
+        "Vladimir Khokha",
+        "Catherine Arvieux",
+        "Lena Napolitano",
+        "Lauri Handolin",
+        "Michele Pisano",
+        "Stefano Magnone",
+        "David A Spain",
+        "Marc de Moya",
+        "Kimberly A Davis",
+        "Nicola De Angelis",
+        "Ari Leppaniemi",
+        "Paula Ferrada",
+        "Rifat Latifi",
+        "David Costa Navarro",
+        "Yashuiro Otomo",
+        "Raul Coimbra",
+        "Ronald V Maier",
+        "Frederick Moore",
+        "Sandro Rizoli",
+        "Boris Sakakushev",
+        "Joseph M Galante",
+        "Osvaldo Chiara",
+        "Stefania Cimbanassi",
+        "Alain Chichom Mefire",
+        "Dieter Weber",
+        "Marco Ceresoli",
+        "Andrew B Peitzman",
+        "Liban Wehlie",
+        "Massimo Sartelli",
+        "Salomone Di Saverio",
+        "Luca Ansaloni"
+      ],
+      "year": "2017",
+      "publication_date": "2017",
+      "journal": "World journal of emergency surgery : WJES",
+      "doi": "10.1186/s13017-017-0151-4",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28828034/",
+      "pmcid": "PMC5562999",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Spleen injuries are among the most frequent trauma-related injuries. At present, they are classified according to the anatomy of the injury. The optimal treatment strategy, however, should keep into consideration the hemodynamic status, the anatomic derangement, and the associated injuries. The management of splenic trauma patients aims to restore the homeostasis and the normal physiopathology especially considering the modern tools for bleeding management. Thus, the management of splenic trauma should be ultimately multidisciplinary and based on the physiology of the patient, the anatomy of the injury, and the associated lesions. Lastly, as the management of adults and children must be different, children should always be treated in dedicated pediatric trauma centers. In fact, the vast majority of pediatric patients with blunt splenic trauma can be managed non-operatively. This paper presents the World Society of Emergency Surgery (WSES) classification of splenic trauma and the management guidelines.",
+      "abstract_present": true,
+      "abstract_truncated": false,
+      "abstract_original_characters": 1016,
+      "copyright_information": null,
+      "read_level": "PubMed title and abstract",
+      "preprint": false,
+      "retracted": false,
+      "retraction_notice": false,
+      "expression_of_concern": false,
+      "corrections": [],
+      "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract."
+    },
+    {
+      "id": "P22101771",
+      "pmid": "22101771",
+      "title": "Anesthetic management of a pediatric patient with neuroleptic malignant syndrome.",
+      "authors": "Tarun Bhalla, Douglas Maxey, Amod Sawardekar, Joseph D Tobias",
+      "author_list": [
+        "Tarun Bhalla",
+        "Douglas Maxey",
+        "Amod Sawardekar",
+        "Joseph D Tobias"
+      ],
+      "year": "2012",
+      "publication_date": "2012 Apr",
+      "journal": "Journal of anesthesia",
+      "doi": "10.1007/s00540-011-1269-2",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22101771/",
+      "pmcid": null,
+      "publication_types": [
+        "Case Reports",
+        "Journal Article"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Neuroleptic malignant syndrome (NMS) is a rare disorder which is clinically similar to malignant hyperthermia (MH). It is characterized by hyperthermia, autonomic instability, muscle rigidity, coma, rhabdomyolysis, and acidosis. Without immediate and appropriate therapy, mortality may result. NMS is associated with administration of antipsychotic medications, anti-emetic medications, and changes in the dosage of anti-parkinsonian drugs. As several similarities exist between NMS and MH, differentiating between them can be a challenge for the clinician. We report anesthetic care during magnetic resonance imaging of the brain of a 14-year-old female with bipolar and schizoaffective disorders and the recent onset of NMS.",
+      "abstract_present": true,
+      "abstract_truncated": false,
+      "abstract_original_characters": 726,
+      "copyright_information": null,
+      "read_level": "PubMed title and abstract",
+      "preprint": false,
+      "retracted": false,
+      "retraction_notice": false,
+      "expression_of_concern": false,
+      "corrections": [],
+      "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract."
+    }
+  ],
+  "http_requests": [
+    {
+      "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+      "parameters": {
+        "db": "pubmed",
+        "id": "15228794,28828034,22101771",
+        "retmode": "xml"
+      },
+      "started_at_utc": "2026-10-11T18:22:10+00:00",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "ok",
+          "http_status": 200,
+          "elapsed_seconds": 0.954
+        }
+      ],
+      "cache_hit": false,
+      "status": "ok",
+      "response_sha256": "8ef6398dc859e7d53180649cc3d37af6e3e3c2c3658be7651bbc53165d9b4d12",
+      "response_bytes": 120499,
+      "snapshot_file": "8ef6398dc859e7d53180649cc3d37af6e3e3c2c3658be7651bbc53165d9b4d12..xml",
+      "retrieved_at_utc": "2026-10-11T18:22:11+00:00"
+    }
+  ]
+}

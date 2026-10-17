@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "run_id": "gemma-pdf-application-demo-20261012",
+  "episodes": [
+    {
+      "condition": "C-pdf-tools",
+      "question_id": "MY-PDF-01",
+      "model_responses": 2,
+      "native_final_calls": 0,
+      "pdf_operations": 1,
+      "answer_sha256": "b7ca011f0a9e1d164dd9cfc2c8104614a95bbfcf281c72dd20507a84ede004ad"
+    }
+  ],
+  "new_provider_requests": 0,
+  "credentials_read": 0,
+  "all_initial_and_delivered_contexts_replayed": true,
+  "no_pubmed_tools_or_gold_fields_in_requests": true,
+  "interpretation": "Offline operational provenance, not clinical quality or an independent factual judge."
+}

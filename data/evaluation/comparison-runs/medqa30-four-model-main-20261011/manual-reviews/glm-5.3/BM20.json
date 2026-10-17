@@ -1,0 +1,19 @@
+{
+  "question_id": "BM20",
+  "model_profile": "glm-5.3",
+  "answer_sha256": "a126256ed774c1cba977a7e910ee0336311965fc4e0ec270b86264d893028728",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "minor_limitation",
+    "calibration_and_provenance": "consistent"
+  },
+  "answer_notes": "Correct initial abdominal radiograph, preceding lesion-specific contrast studies. Hirschsprung is not the only obstruction possibility, and a radiograph cannot categorically exclude perforation when negative; the ancillary age cutoff for sweat testing is not verified. Knowledge provenance is explicit.",
+  "researcher_reference_ids": [
+    "R4-CL07"
+  ],
+  "queries": [],
+  "papers": {},
+  "citations": {},
+  "inline_citations": {}
+}

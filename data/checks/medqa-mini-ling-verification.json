@@ -1,0 +1,16 @@
+{
+  "run_id": "ling-sante-medqa-extension-20261011",
+  "passed": true,
+  "questions": 10,
+  "case_records": 13,
+  "provider_requests": 16,
+  "pubmed_unique_papers": 0,
+  "objective_scores_match_released_keys": true,
+  "unchanged_original_stems_options": true,
+  "generation_labels_excluded": true,
+  "source_snapshot_hashes_match": true,
+  "request_and_prompt_bounds_hold": true,
+  "cumulative_budget_guard_holds": true,
+  "artifacts_scanned_without_credentials_or_reasoning_bodies": 45,
+  "new_model_calls_for_verification": 0
+}

@@ -1,0 +1,23 @@
+{
+  "question": "A synthetic adult receiving chemotherapy is already losing weight and asks whether fasting around each cycle or starting a strict ketogenic diet will improve the cancer outcome. What evidence-sensitive nutrition advice is appropriate?",
+  "status": "not_run_provider_unavailable",
+  "answer": "",
+  "model_calls": [],
+  "tool_results": [],
+  "trace": [],
+  "elapsed_seconds": 0,
+  "usage": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "live_pubmed_requests": 0,
+  "prompt_version": "requirement-5-fixed-evidence-v2",
+  "evidence_mode": "fixed_previously_retrieved_pubmed_plus_guidance",
+  "reason": "No request sent after 3 consecutive model-question failures ending in a provider request error. Not a measured medical response.",
+  "consecutive_provider_failures": 3,
+  "question_id": "ON10",
+  "profile": "openrouter-qwen3.8-27b",
+  "evidence_sha256": "02c082f8e985fadc048191a4ed90a9410c8710f5fa95c01f884577d360545d99",
+  "response_audit": []
+}

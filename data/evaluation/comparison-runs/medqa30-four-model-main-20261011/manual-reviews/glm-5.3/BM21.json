@@ -1,0 +1,20 @@
+{
+  "question_id": "BM21",
+  "model_profile": "glm-5.3",
+  "answer_sha256": "a3e93564053107b35bc111e70d1c52a8287cdbb786b69c05bad03337fde910a3",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "minor_limitation",
+    "reference_concordance": "minor_limitation",
+    "calibration_and_provenance": "consistent"
+  },
+  "answer_notes": "Released-key mismatch (B versus D), but colchicine prophylaxis and even therapeutic-dose marrow toxicity are real label-described possibilities. The explanation underweights the IBD/unknown-medication clue to allopurinol-thiopurine interaction and dismisses allopurinol cytopenia too readily. The actual drug list is absent, so this is a genuine vignette limitation rather than proof that colchicine cannot cause the finding.",
+  "researcher_reference_ids": [
+    "R4-CL08",
+    "R4-CL09"
+  ],
+  "queries": [],
+  "papers": {},
+  "citations": {},
+  "inline_citations": {}
+}

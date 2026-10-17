@@ -1,0 +1,60 @@
+{
+  "records": [
+    {
+      "question_id": "PM05",
+      "started_at_utc": "2026-10-14T14:25:02+00:00",
+      "estimated_maximum_usd": 0.007538899999999999,
+      "request_sent": true,
+      "status": "ok",
+      "usage": {
+        "input_tokens": 4523,
+        "output_tokens": 165,
+        "total_tokens": 4688
+      },
+      "provider_usage": {
+        "prompt_tokens": 4523,
+        "completion_tokens": 165,
+        "total_tokens": 4688,
+        "cost": 0.00041433,
+        "reasoning_tokens": 121
+      },
+      "cost_usd": 0.00041433,
+      "cost_basis": "Provider-reported usage.cost.",
+      "finish_reason": "stop",
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "provider_route": "Configured pin; actual route not independently exposed by this response.",
+      "elapsed_seconds": 2.792
+    },
+    {
+      "question_id": "PM05",
+      "started_at_utc": "2026-10-14T14:25:05+00:00",
+      "estimated_maximum_usd": 0.0076845,
+      "request_sent": true,
+      "status": "ok",
+      "usage": {
+        "input_tokens": 5049,
+        "output_tokens": 357,
+        "total_tokens": 5406
+      },
+      "provider_usage": {
+        "prompt_tokens": 5049,
+        "completion_tokens": 357,
+        "total_tokens": 5406,
+        "cost": 0.00056151,
+        "reasoning_tokens": 256
+      },
+      "cost_usd": 0.00056151,
+      "cost_basis": "Provider-reported usage.cost.",
+      "finish_reason": "stop",
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "provider_route": "Configured pin; actual route not independently exposed by this response.",
+      "elapsed_seconds": 5.931
+    }
+  ],
+  "budget": {
+    "limit_usd": 6.0,
+    "reported_or_estimated_spend_usd": 4.91582945,
+    "unreported_charge_reserve_usd": 0.163192,
+    "policy": "Before each paid request, reserve a conservative prompt-byte estimate plus the full output cap at configured provider price ceilings. Failed requests without usage retain that reserve. This is a local guard, not a provider billing guarantee."
+  }
+}

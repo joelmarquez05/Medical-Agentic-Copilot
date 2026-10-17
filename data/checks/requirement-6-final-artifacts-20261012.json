@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "primary_episodes": 18,
+  "reviewed_explanations": 18,
+  "structured_cited_views": 12,
+  "additional_inline_only_cited_views": 2,
+  "unique_retrieval_pairs": 21,
+  "questions_and_keys_unchanged": true,
+  "earlier_operational_sources_and_gemma_profile_unchanged": true,
+  "saved_active_replay_episodes": 23,
+  "saved_active_replay_model_responses": 37,
+  "compiled_scripts": 12,
+  "local_links_checked": 448,
+  "privacy_scanned_files": 320,
+  "historical_missing_journal_links_preserved": [],
+  "observed_full_test_suite": "218 passed before excluded-pilot free-form revision; 11 targeted runner tests passed after that revision",
+  "new_model_or_network_requests": 0,
+  "patient_memory_implemented": false,
+  "report_sha256": "a415ae544d396873029d527495cc63e7832fd2ef5e3c8094829615a6c12da4e4",
+  "manual_reviews_sha256": "86805dbaa29a75f65e2118917399028bb258422be3b69281632a383fea2d6522",
+  "cost_audit_sha256": "020980e59e382f0c548ff43de7a26178336d59ac873565a7849d305fb772fdf2"
+}

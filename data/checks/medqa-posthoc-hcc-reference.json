@@ -1,0 +1,127 @@
+{
+  "use": "Post hoc justification appraisal of categorical imaging/biopsy claims; no model input or answer-key alteration",
+  "mode": "live_pubmed_title_abstract",
+  "client_version": "requirement-3-v1",
+  "query": "37199193[uid]",
+  "effective_query": "(37199193[uid]) NOT (retracted publication[pt] OR retraction notice[pt] OR hasretractionin OR hasretractionof)",
+  "sort": "relevance",
+  "max_results": 1,
+  "total_matches": 1,
+  "query_translation": "37199193[UID] NOT (\"retracted publication\"[Publication Type] OR \"retraction notice\"[Publication Type] OR \"hasretractionin\"[All Fields] OR \"hasretractionof\"[All Fields])",
+  "warnings": {},
+  "esearch_pmids": [
+    "37199193"
+  ],
+  "sources": [
+    {
+      "id": "P37199193",
+      "pmid": "37199193",
+      "title": "AASLD Practice Guidance on prevention, diagnosis, and treatment of hepatocellular carcinoma.",
+      "authors": "Amit G Singal, Josep M Llovet, Mark Yarchoan, Neil Mehta, Julie K Heimbach, Laura A Dawson, Janice H Jou, Laura M Kulik, Vatche G Agopian, Jorge A Marrero, Mishal Mendiratta-Lala, Daniel B Brown, William S Rilling, Lipika Goyal, Alice C Wei, Tamar H Taddei",
+      "author_list": [
+        "Amit G Singal",
+        "Josep M Llovet",
+        "Mark Yarchoan",
+        "Neil Mehta",
+        "Julie K Heimbach",
+        "Laura A Dawson",
+        "Janice H Jou",
+        "Laura M Kulik",
+        "Vatche G Agopian",
+        "Jorge A Marrero",
+        "Mishal Mendiratta-Lala",
+        "Daniel B Brown",
+        "William S Rilling",
+        "Lipika Goyal",
+        "Alice C Wei",
+        "Tamar H Taddei"
+      ],
+      "year": "2023",
+      "publication_date": "2023 Dec 01",
+      "journal": "Hepatology (Baltimore, Md.)",
+      "doi": "10.1097/HEP.0000000000000466",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37199193/",
+      "pmcid": "PMC10663390",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "abstract": null,
+      "abstract_present": false,
+      "abstract_truncated": false,
+      "abstract_original_characters": 0,
+      "copyright_information": null,
+      "read_level": "PubMed bibliographic metadata only",
+      "preprint": false,
+      "retracted": false,
+      "retraction_notice": false,
+      "expression_of_concern": false,
+      "corrections": [
+        {
+          "type": "ErratumIn",
+          "pmid": "37843497",
+          "reference": "Hepatology. 2023 Dec 1;78(6):E105. doi: 10.1097/HEP.0000000000000621."
+        }
+      ],
+      "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+      "retrieval_rank": 1,
+      "retrieved_at_utc": "2026-10-11T10:19:44+00:00"
+    }
+  ],
+  "excluded_records": [],
+  "http_requests": [
+    {
+      "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+      "parameters": {
+        "db": "pubmed",
+        "term": "(37199193[uid]) NOT (retracted publication[pt] OR retraction notice[pt] OR hasretractionin OR hasretractionof)",
+        "retmode": "json",
+        "retmax": 1,
+        "sort": "relevance"
+      },
+      "started_at_utc": "2026-10-11T10:19:42+00:00",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "ok",
+          "http_status": 200,
+          "elapsed_seconds": 0.582
+        }
+      ],
+      "cache_hit": false,
+      "status": "ok",
+      "response_sha256": "9eed78ea8525ec1c76c3aabb33a043c9d71e726cc933612b18e4ee3b212e6562",
+      "response_bytes": 344,
+      "snapshot_file": "9eed78ea8525ec1c76c3aabb33a043c9d71e726cc933612b18e4ee3b212e6562.json",
+      "retrieved_at_utc": "2026-10-11T10:19:43+00:00"
+    },
+    {
+      "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+      "parameters": {
+        "db": "pubmed",
+        "id": "37199193",
+        "retmode": "xml"
+      },
+      "started_at_utc": "2026-10-11T10:19:43+00:00",
+      "attempts": [
+        {
+          "attempt": 1,
+          "status": "ok",
+          "http_status": 200,
+          "elapsed_seconds": 0.67
+        }
+      ],
+      "cache_hit": false,
+      "status": "ok",
+      "response_sha256": "76318ca04d297f248a3344a12e4f520e0c6f9f699fb8bd215b7f953e8d64ceeb",
+      "response_bytes": 134855,
+      "snapshot_file": "76318ca04d297f248a3344a12e4f520e0c6f9f699fb8bd215b7f953e8d64ceeb.xml",
+      "retrieved_at_utc": "2026-10-11T10:19:44+00:00"
+    }
+  ],
+  "retrieved_at_utc": "2026-10-11T10:19:44+00:00",
+  "limitation": "A small ranked search, not a systematic review. No full text, citation-network search, clinical appraisal, or medRxiv-specific integration. No persistent cache is used."
+}

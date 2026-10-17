@@ -1,0 +1,112 @@
+{
+  "status": "completed",
+  "answer": {
+    "selected_option": "A",
+    "justification": "The patient meets the DSM-5 criteria for Generalized Anxiety Disorder (GAD). He has experienced excessive worry regarding multiple domains (health and finances) for at least 6 months. His symptoms include insomnia, irritability, muscle tension (being tense), and difficulty concentrating (inattentiveness), which are key diagnostic criteria for GAD when occurring more days than not."
+  },
+  "trace": [
+    "answer"
+  ],
+  "elapsed_seconds": 15.94,
+  "mode": "direct",
+  "question_id": "MQ03",
+  "profile": "gemma-4-26b-a4b",
+  "question_sha256": "ffa302ddc772fd44089efa93ca13132983a7a0f1a1fece6bcd13d44912cc1752",
+  "model_calls": [
+    {
+      "stage": "final_answer",
+      "started_at_utc": "2026-10-11T10:10:26+00:00",
+      "system_prompt": "Answer this medical examination question in English. Select exactly one of the provided options. Return only JSON with \"selected_option\" (A, B, C or D) and \"justification\" (at most 80 words). Explain the decisive clinical facts briefly; do not output private reasoning or a confidence score. This is an educational examination case, not a patient consultation.",
+      "user_prompt": "{\"question\": \"A 35-year-old man presents with a 7 month history of insomnia. The patient admitted to having trouble sleeping from a young age but became more aware of how much this is affecting his health after attending a sleep conference earlier this year. He is worried that his health has suffered because of this, and he is also concerned that he will not be able to pay his bills if he were to get sick. He has no past medical or psychiatric condition and is not known to use any recreational drugs. The patient arrived for his appointment an hour early because he was afraid he might miss it. The patient is afebrile and his vital signs are within normal limits. Physical examination reveals an irritable middle age man who is tense and somewhat inattentive during the interview. Which of the following is the most likely diagnosis in this patient?\\n \", \"options\": {\"A\": \"Generalized anxiety disorder\", \"B\": \"Adjustment disorder\", \"C\": \"Social anxiety \", \"D\": \"Normal worry\"}}",
+      "attempts": [
+        {
+          "number": 1,
+          "pre_call_wait_seconds": 0.0,
+          "status": "ok"
+        }
+      ],
+      "status": "ok",
+      "response": "```json\n{\"selected_option\": \"A\", \"justification\": \"The patient meets the DSM-5 criteria for Generalized Anxiety Disorder (GAD). He has experienced excessive worry regarding multiple domains (health and finances) for at least 6 months. His symptoms include insomnia, irritability, muscle tension (being tense), and difficulty concentrating (inattentiveness), which are key diagnostic criteria for GAD when occurring more days than not.\"}\n```",
+      "usage": {
+        "input_tokens": 299,
+        "output_tokens": 1266,
+        "total_tokens": 1565,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 1170
+        }
+      },
+      "response_metadata": {
+        "finish_reason": "stop",
+        "model_name": "google/gemma-4-26b-a4b-it",
+        "model_provider": "openai"
+      },
+      "elapsed_seconds": 15.936
+    }
+  ],
+  "pubmed_requests": [],
+  "audit_records": [
+    {
+      "question_id": "direct:MQ03",
+      "started_at_utc": "2026-10-11T10:10:26+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0020799,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 299,
+        "output_tokens": 1266,
+        "total_tokens": 1565,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 1170
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 1266,
+        "prompt_tokens": 299,
+        "total_tokens": 1565,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1170,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.000291078,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.000291078,
+          "upstream_inference_prompt_cost": 1.2558e-05,
+          "upstream_inference_completions_cost": 0.00027852
+        }
+      },
+      "cost_usd": 0.000291078,
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 15.93
+    }
+  ]
+}

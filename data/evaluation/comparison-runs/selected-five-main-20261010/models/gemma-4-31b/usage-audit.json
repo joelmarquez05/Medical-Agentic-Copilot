@@ -1,0 +1,127 @@
+{
+  "records": [
+    {
+      "question_id": "ON01",
+      "started_at_utc": "2026-10-10T16:33:15+00:00",
+      "paid_request": false,
+      "estimated_maximum_usd": 0.0,
+      "request_sent": true,
+      "cost_basis": "No monetary cost reported by Google; zero USD is not asserted.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 724,
+        "output_tokens": 204,
+        "total_tokens": 928,
+        "input_token_details": {
+          "cache_read": 0
+        },
+        "output_token_details": {
+          "reasoning": 137
+        }
+      },
+      "provider_usage": {},
+      "cost_usd": null,
+      "model_name": "gemma-4-31b-it",
+      "model_version": null,
+      "finish_reason": "STOP",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 16.219
+    },
+    {
+      "question_id": "ON01",
+      "started_at_utc": "2026-10-10T16:33:35+00:00",
+      "paid_request": false,
+      "estimated_maximum_usd": 0.0,
+      "request_sent": true,
+      "status": "error",
+      "error_type": "GoogleAPIError",
+      "error_http_status": 500,
+      "cause_type": "ServerError",
+      "elapsed_seconds": 0.925
+    },
+    {
+      "question_id": "ON02",
+      "started_at_utc": "2026-10-10T16:41:25+00:00",
+      "paid_request": false,
+      "estimated_maximum_usd": 0.0,
+      "request_sent": true,
+      "status": "error",
+      "error_type": "GoogleAPIError",
+      "error_http_status": 500,
+      "cause_type": "ServerError",
+      "elapsed_seconds": 0.84
+    },
+    {
+      "question_id": "ON03",
+      "started_at_utc": "2026-10-10T16:48:11+00:00",
+      "paid_request": false,
+      "estimated_maximum_usd": 0.0,
+      "request_sent": true,
+      "cost_basis": "No monetary cost reported by Google; zero USD is not asserted.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 718,
+        "output_tokens": 284,
+        "total_tokens": 1002,
+        "input_token_details": {
+          "cache_read": 0
+        },
+        "output_token_details": {
+          "reasoning": 206
+        }
+      },
+      "provider_usage": {},
+      "cost_usd": null,
+      "model_name": "gemma-4-31b-it",
+      "model_version": null,
+      "finish_reason": "STOP",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 38.441
+    },
+    {
+      "question_id": "ON03",
+      "started_at_utc": "2026-10-10T16:48:50+00:00",
+      "paid_request": false,
+      "estimated_maximum_usd": 0.0,
+      "request_sent": true,
+      "cost_basis": "No monetary cost reported by Google; zero USD is not asserted.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 7207,
+        "output_tokens": 1328,
+        "total_tokens": 8535,
+        "input_token_details": {
+          "cache_read": 0
+        },
+        "output_token_details": {
+          "reasoning": 757
+        }
+      },
+      "provider_usage": {},
+      "cost_usd": null,
+      "model_name": "gemma-4-31b-it",
+      "model_version": null,
+      "finish_reason": "STOP",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 99.11
+    },
+    {
+      "question_id": "ON03",
+      "started_at_utc": "2026-10-10T16:50:29+00:00",
+      "paid_request": false,
+      "estimated_maximum_usd": 0.0,
+      "request_sent": true,
+      "status": "error",
+      "error_type": "GoogleAPIError",
+      "error_http_status": 500,
+      "cause_type": "ServerError",
+      "elapsed_seconds": 0.84
+    }
+  ],
+  "budget": {
+    "limit_usd": 8.0,
+    "reported_or_estimated_spend_usd": 1.46036506,
+    "unreported_charge_reserve_usd": 0.0,
+    "policy": "Before each paid request, reserve a conservative prompt-byte estimate plus the full output cap at configured provider price ceilings. Failed requests without usage retain that reserve. This is a local guard, not a provider billing guarantee."
+  }
+}

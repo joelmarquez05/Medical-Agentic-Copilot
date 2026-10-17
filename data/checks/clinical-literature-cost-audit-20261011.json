@@ -1,0 +1,80 @@
+{
+  "purpose": "All newly authorized point-3 cohorts, including preserved first cohort and both pilots",
+  "runs": [
+    {
+      "run_id": "gemma-autonomous-pilot-20261011",
+      "stage": "pilot",
+      "requests": 1,
+      "provider_reported_usd": 0.00021879,
+      "immediate_final_ledger": {
+        "checked_at_utc": "2026-10-11T16:15:45+00:00",
+        "credential_source": "file",
+        "total_usage": 3.866958642,
+        "total_credits": 10,
+        "interpretation": "Account-wide observation; delayed billing or other account activity remains possible."
+      }
+    },
+    {
+      "run_id": "gemma-autonomous-main-20261011",
+      "stage": "autonomous",
+      "requests": 13,
+      "provider_reported_usd": 0.0040004775,
+      "immediate_final_ledger": {
+        "checked_at_utc": "2026-10-11T16:18:47+00:00",
+        "credential_source": "file",
+        "total_usage": 3.870349368,
+        "total_credits": 10,
+        "interpretation": "Account-wide observation; delayed billing or other account activity remains possible."
+      }
+    },
+    {
+      "run_id": "gemma-evidence-pilot-20261011",
+      "stage": "pilot",
+      "requests": 1,
+      "provider_reported_usd": 0.000262305,
+      "immediate_final_ledger": {
+        "checked_at_utc": "2026-10-11T16:22:28+00:00",
+        "credential_source": "file",
+        "total_usage": 3.871177907,
+        "total_credits": 10,
+        "interpretation": "Account-wide observation; delayed billing or other account activity remains possible."
+      }
+    },
+    {
+      "run_id": "gemma-evidence-main-20261011",
+      "stage": "autonomous",
+      "requests": 15,
+      "provider_reported_usd": 0.00533697,
+      "immediate_final_ledger": {
+        "checked_at_utc": "2026-10-11T16:25:35+00:00",
+        "credential_source": "file",
+        "total_usage": 3.875817277,
+        "total_credits": 10,
+        "interpretation": "Account-wide observation; delayed billing or other account activity remains possible."
+      }
+    }
+  ],
+  "initial_ledger": {
+    "checked_at_utc": "2026-10-11T16:15:37+00:00",
+    "credential_source": "file",
+    "total_usage": 3.866958642,
+    "total_credits": 10,
+    "interpretation": "Account-wide observation; delayed billing or other account activity remains possible."
+  },
+  "latest_ledger": {
+    "checked_at_utc": "2026-10-11T16:31:35+00:00",
+    "credential_source": "file",
+    "total_usage": 3.876777179,
+    "total_credits": 10,
+    "interpretation": "Account-wide observation; delayed billing or other account activity remains possible."
+  },
+  "provider_reported_total_usd": 0.009818542500000001,
+  "account_observed_delta_usd": 0.009818536999999683,
+  "provider_minus_ledger_delta_usd": 5.500000318028886e-09,
+  "agreement_within_1e_7_usd": true,
+  "requests_total": 30,
+  "inference_requests_during_this_audit": 0,
+  "unknown_charge_records": 0,
+  "standing_account_limit_usd": 6,
+  "interpretation": "Account-wide ledger may lag/include other activity. Immediate snapshots are preserved; response charges remain separate. Differences below 1e-7 USD are reported as rounding-level agreement, not hidden."
+}

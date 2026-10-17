@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "question_id": "PDF01",
+      "question": "According to recommendation 1 (B1-1) in the 2021 ESPEN practical guideline Clinical Nutrition in cancer, which nutritional screening items should be evaluated, when should screening begin, and how should repeat assessment be timed?",
+      "options": {
+        "A": "Serum albumin, lymphocyte count and hemoglobin; begin only when chemotherapy starts and repeat once yearly.",
+        "B": "Muscle mass, physical performance and inflammation only; begin after severe malnutrition develops and repeat at a fixed monthly interval.",
+        "C": "Nutritional intake, weight change and BMI; begin at cancer diagnosis and repeat according to the stability of the clinical situation.",
+        "D": "Calorie expenditure and micronutrient concentrations only; begin after treatment ends and repeat only on patient request."
+      }
+    },
+    {
+      "question_id": "PDF02",
+      "question": "In the commentary accompanying recommendation 7 (B3-1) of this PDF, which pair correctly states BOTH examples of inadequate intake indicating medical nutrition, including their duration qualifiers?",
+      "options": {
+        "A": "Less than 50% of requirements for more than one week, or only 50-75% of requirements for more than two weeks.",
+        "B": "Less than 50% of requirements for more than one day, or only 50-75% for more than two days.",
+        "C": "Less than 75% of requirements for more than one week, or 75-100% for more than two weeks.",
+        "D": "Exactly 50% of requirements for exactly one week, or exactly 75% for exactly two weeks; no range or longer-duration condition is given."
+      }
+    },
+    {
+      "question_id": "PDF03",
+      "question": "Compare the strength, evidence level and consensus labels explicitly attached to recommendation 12 (B4-1, physical activity) and recommendation 13 (B4-2, individualized resistance exercise added to aerobic exercise). Which pairing matches this PDF?",
+      "options": {
+        "A": "Both have strong recommendation strength, high evidence and strong consensus.",
+        "B": "Recommendation 12: weak strength, low evidence, consensus. Recommendation 13: strong strength, high evidence, consensus.",
+        "C": "Recommendation 12: strong strength, low evidence, strong consensus. Recommendation 13: weak strength, high evidence, consensus.",
+        "D": "Recommendation 12: strong strength, high evidence, consensus. Recommendation 13: weak strength, low evidence, strong consensus."
+      }
+    },
+    {
+      "question_id": "PDF04",
+      "question": "Read recommendations 42 (C6-2) and 43 (C6-3) together. Which answer correctly distinguishes advanced-cancer nutritional decisions from care of dying patients AND preserves the hydration exception stated in the PDF?",
+      "options": {
+        "A": "Start nutrition in every advanced-cancer patient regardless of prognosis or burden. In dying patients, routine parenteral nutrition and hydration reliably improve survival; confusion is not discussed.",
+        "B": "In advanced cancer, consider prognosis, potential quality-of-life/survival benefit and burden together with the patient. In dying patients, prioritize comfort; parenteral nutrition/hydration are unlikely to benefit most. A short limited hydration trial may assess dehydration as a cause of acute confusion.",
+        "C": "Avoid nutrition in every advanced-cancer patient regardless of prognosis. In dying patients, never consider hydration, including when acute confusion might result from dehydration.",
+        "D": "Base advanced-cancer nutrition solely on calorie targets without patient discussion. In dying patients, administer prolonged high-volume hydration to all patients with any confusion, without assessing dehydration."
+      }
+    },
+    {
+      "question_id": "PDF05",
+      "question": "According to recommendation 17 (B5-8), what should precede considering prokinetics for early satiety, and which adverse-effect domains are specifically associated with metoclopramide and domperidone?",
+      "options": {
+        "A": "Give prokinetics before assessing constipation; metoclopramide and domperidone are described as free from major adverse effects.",
+        "B": "Diagnose and treat constipation first; metoclopramide affects cardiac rhythm and domperidone affects the central nervous system.",
+        "C": "Treat diarrhea first; the named concerns are renal injury with metoclopramide and bone marrow suppression with domperidone.",
+        "D": "Diagnose and treat constipation first; be aware of metoclopramide adverse effects on the central nervous system and domperidone adverse effects on cardiac rhythm."
+      }
+    },
+    {
+      "question_id": "PDF06",
+      "question": "Which exact pembrolizumab dose and administration interval is recommended by this specific 2021 ESPEN cancer-nutrition PDF? Answer about the contents of this document, not a regimen known from other sources.",
+      "options": {
+        "A": "200 mg intravenously every three weeks.",
+        "B": "400 mg intravenously every six weeks.",
+        "C": "The PDF does not specify a pembrolizumab dose or administration interval.",
+        "D": "2 mg/kg intravenously every week."
+      }
+    }
+  ]
+}

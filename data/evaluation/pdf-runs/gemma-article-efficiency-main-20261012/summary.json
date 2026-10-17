@@ -1,0 +1,59 @@
+{
+  "stage": "main",
+  "conditions": {
+    "B-full-context": {
+      "recorded": 6,
+      "planned": 6,
+      "valid_model_answers": 6,
+      "terminal_messages": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "provider_requests": 6,
+      "cost_usd": 0.01964547,
+      "unknown_charge_records": 0,
+      "input_tokens": 188685,
+      "output_tokens": 9033,
+      "reasoning_tokens": 6270,
+      "total_episode_seconds": 203.8364,
+      "median_episode_seconds": 32.9488,
+      "successful_pdf_operations": {},
+      "max_input_bytes": 110292,
+      "structured_citations": 8,
+      "correct_fields": 24,
+      "correct_fields_with_cited_reference_passage": 24,
+      "all_fields_correct_cases": 6,
+      "recorded_fields": 24
+    },
+    "C-pdf-tools": {
+      "recorded": 6,
+      "planned": 6,
+      "valid_model_answers": 6,
+      "terminal_messages": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "provider_requests": 16,
+      "cost_usd": 0.01504023,
+      "unknown_charge_records": 0,
+      "input_tokens": 93811,
+      "output_tokens": 23130,
+      "reasoning_tokens": 16812,
+      "total_episode_seconds": 390.8324,
+      "median_episode_seconds": 23.5451,
+      "successful_pdf_operations": {
+        "search_pdf": 7,
+        "read_pdf_page": 2
+      },
+      "max_input_bytes": 35890,
+      "structured_citations": 6,
+      "correct_fields": 21,
+      "correct_fields_with_cited_reference_passage": 21,
+      "all_fields_correct_cases": 4,
+      "recorded_fields": 24
+    }
+  },
+  "provider_requests": 22,
+  "cost_usd": 0.0346857,
+  "interpretation": "Efficiency experiment with exact extracted-field and actual cited-passage quality checks; no no-document arm."
+}

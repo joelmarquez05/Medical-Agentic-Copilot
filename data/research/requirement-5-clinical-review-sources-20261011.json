@@ -1,0 +1,107 @@
+{
+  "sources": [
+    {
+      "title": "Meiosis in oocytes: predisposition to aneuploidy and its increased incidence with age.",
+      "year": "2008",
+      "doi": "10.1093/humupd/dmm043",
+      "pmid": "18084010",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18084010/",
+      "preprint": false,
+      "id": "R5-CL01",
+      "authors_or_organization": "Keith T Jones",
+      "read_level": "Actual original PubMed EFetch full abstract; not full text. Researcher read occurred after model generation.",
+      "supports": "BM04 distinguishes prophase-I arrest from whole-meiosis completion and the second metaphase-II arrest resolved by fertilization.",
+      "role": "Researcher appraisal only; never answering-agent evidence or a substitute key.",
+      "accessed": "2026-10-11"
+    },
+    {
+      "title": "Effects of simvastatin 40 mg daily on muscle and liver adverse effects in a 5-year randomized placebo-controlled trial in 20,536 high-risk people.",
+      "year": "2009",
+      "doi": "10.1186/1472-6904-9-6",
+      "pmid": "19442259",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19442259/",
+      "preprint": false,
+      "id": "R5-CL02",
+      "authors_or_organization": "MRC/BHF Heart Protection Study Collaborative Group, Jane Armitage, Louise Bowman, Rory Collins, Sarah Parish, Jonathan Tobert",
+      "read_level": "Actual PubMed EFetch full abstract after generation; not full text or agent evidence.",
+      "supports": "BM05 distinguishes the HPS background association from actual trial results: no significant serious hepatobiliary difference and undetectable hepatitis risk. Does not establish the rate of all mild transaminase elevations.",
+      "role": "Researcher appraisal only; not a scoring-key replacement.",
+      "accessed": "2026-10-11"
+    },
+    {
+      "id": "R5-CL03",
+      "title": "Metformin - LiverTox: Clinical and Research Information on Drug-Induced Liver Injury",
+      "authors_or_organization": "National Institute of Diabetes and Digestive and Kidney Diseases / National Library of Medicine",
+      "year": "2020, updated January 21",
+      "pmid": "31644035",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK548726/",
+      "preprint": false,
+      "accessed": "2026-10-11",
+      "read_level": "Indexed official NCBI introduction/hepatotoxicity excerpt and PubMed book record; direct Bookshelf open was blocked by a browser check. No full direct page read claimed.",
+      "supports": "BM05: extremely rare but documented metformin liver injury means an absolute non-hepatotoxic claim is too broad. Not a dose/treatment recommendation.",
+      "role": "Researcher appraisal only; never supplied to the answering agent."
+    },
+    {
+      "id": "R5-CL04",
+      "title": "Schistosomiasis - CDC Yellow Book: Health Information for International Travel",
+      "authors_or_organization": "Anne Straily and W. Evan Secor / Centers for Disease Control and Prevention",
+      "year": "2026 edition; published April 23, 2025",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/schistosomiasis.html",
+      "preprint": false,
+      "accessed": "2026-10-11",
+      "read_level": "Direct official chapter, epidemiology and clinical-presentation sections.",
+      "supports": "BM13: acute schistosomiasis can include fever, diarrhea and hepatosplenomegaly; it is not exclusively chronic. S. japonicum rather than S. mansoni is the named Indonesian endemic species. Does not replace the released Typhi key.",
+      "role": "Post-generation researcher differential check; not model evidence."
+    },
+    {
+      "id": "R5-CL05",
+      "title": "Outpatient Clinical Care for Adults - Antibiotic Prescribing and Use",
+      "authors_or_organization": "Centers for Disease Control and Prevention / National Center for Emerging and Zoonotic Infectious Diseases",
+      "year": "2024, April 16",
+      "url": "https://www.cdc.gov/antibiotic-use/hcp/clinical-care/adult-outpatient.html",
+      "preprint": false,
+      "accessed": "2026-10-12",
+      "read_level": "Direct official adult-outpatient table, acute uncomplicated bronchitis section.",
+      "supports": "BM16: uncomplicated acute bronchitis should not be conflated with antibiotic-eligible COPD/chronic-bronchitis exacerbation. Does not deny the selected antibiotic option for the COPD vignette.",
+      "role": "Post-generation researcher terminology/scope check, not agent evidence."
+    },
+    {
+      "id": "R5-CL06",
+      "title": "Chronic obstructive pulmonary disease (acute exacerbation): antimicrobial prescribing - NG114 recommendations",
+      "authors_or_organization": "National Institute for Health and Care Excellence",
+      "year": "2018 guideline; indexed recommendations include 2024 updates",
+      "url": "https://www.nice.org.uk/guidance/ng114/chapter/recommendations",
+      "preprint": false,
+      "accessed": "2026-10-12",
+      "read_level": "Indexed official recommendation/table excerpt and evidence-summary excerpt; direct page open was blocked with 403. No direct full-guideline/PDF read claimed.",
+      "supports": "BM16: doxycycline is among first-choice oral options when an adult COPD exacerbation merits antibiotics; individual indication/severity/susceptibility matters. No dosing advice is given in this appraisal.",
+      "role": "Researcher context only, not model-delivered evidence or a replacement key."
+    },
+    {
+      "id": "R5-CL07",
+      "title": "Glossary - Birth Defects Surveillance Toolkit",
+      "authors_or_organization": "Centers for Disease Control and Prevention / Division of Birth Defects and Developmental Disabilities",
+      "year": "2020, reviewed November 24",
+      "url": "https://archive.cdc.gov/www_cdc_gov/ncbddd/birthdefects/surveillancemanual/resource-library/glossary.html",
+      "preprint": false,
+      "accessed": "2026-10-12",
+      "read_level": "Direct archived official definitions of embryo, gestational age, meningocele and neural tube closure.",
+      "supports": "BM19: closure is within 28 days after conception; distinguish embryonic dating from usual menstrual gestational dating. Meningocele is a spina-bifida form.",
+      "role": "Post-generation researcher terminology check; never model evidence or key replacement."
+    },
+    {
+      "id": "R5-CL08",
+      "title": "Diagnosis, Evaluation, and Management of Ascites, Spontaneous Bacterial Peritonitis and Hepatorenal Syndrome: 2021 Practice Guidance by the American Association for the Study of Liver Diseases",
+      "authors_or_organization": "Scott W. Biggins, Paulo Angeli, Guadalupe Garcia-Tsao, Pere Gines, Simon C. Ling, Mitra K. Nadim, Florence Wong, W. Ray Kim / AASLD",
+      "year": "2021",
+      "doi": "10.1002/hep.31884",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/hep.31884",
+      "preprint": false,
+      "accessed": "2026-10-12",
+      "read_level": "Direct original publisher SBP diagnostic/management sections, including focal inflammation differential; not a full-article appraisal. PMID not verified and not asserted.",
+      "supports": "BM26: the neutrophil threshold supports presumptive infection management, but focal intra-abdominal inflammatory sources may also exceed it; do not infer cultures or exclude secondary peritonitis from the count alone.",
+      "role": "Post-generation researcher calibration check; never answering-agent evidence."
+    }
+  ],
+  "reuse": "Also uses the twelve requirement-4 clinical references; their original metadata/read limits remain unchanged."
+}

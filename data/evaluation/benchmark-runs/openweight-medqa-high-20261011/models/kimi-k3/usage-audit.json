@@ -1,0 +1,922 @@
+{
+  "records": [
+    {
+      "question_id": "direct:MQ01",
+      "started_at_utc": "2026-10-11T10:08:40+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.069501,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 303,
+        "output_tokens": 134,
+        "total_tokens": 437,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 44
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 134,
+        "prompt_tokens": 303,
+        "total_tokens": 437,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 44,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.0015824,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.0015824,
+          "upstream_inference_prompt_cost": 0.0002424,
+          "upstream_inference_completions_cost": 0.00134
+        }
+      },
+      "cost_usd": 0.0015824,
+      "model_name": "moonshotai/kimi-k3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 1.664
+    },
+    {
+      "question_id": "direct:MQ02",
+      "started_at_utc": "2026-10-11T10:09:08+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.069525,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 306,
+        "output_tokens": 462,
+        "total_tokens": 768,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 367
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 462,
+        "prompt_tokens": 306,
+        "total_tokens": 768,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 367,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.0048648,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.0048648,
+          "upstream_inference_prompt_cost": 0.0002448,
+          "upstream_inference_completions_cost": 0.00462
+        }
+      },
+      "cost_usd": 0.0048648,
+      "model_name": "moonshotai/kimi-k3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 7.425
+    },
+    {
+      "question_id": "direct:MQ03",
+      "started_at_utc": "2026-10-11T10:09:56+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.069951,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 378,
+        "output_tokens": 663,
+        "total_tokens": 1041,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 576
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 663,
+        "prompt_tokens": 378,
+        "total_tokens": 1041,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 576,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.0069324,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.0069324,
+          "upstream_inference_prompt_cost": 0.0003024,
+          "upstream_inference_completions_cost": 0.00663
+        }
+      },
+      "cost_usd": 0.0069324,
+      "model_name": "moonshotai/kimi-k3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 7.332
+    },
+    {
+      "question_id": "direct:MQ04",
+      "started_at_utc": "2026-10-11T10:15:34+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.070027,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 443,
+        "output_tokens": 639,
+        "total_tokens": 1082,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 538
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 639,
+        "prompt_tokens": 443,
+        "total_tokens": 1082,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 538,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.0067444,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.0067444,
+          "upstream_inference_prompt_cost": 0.0003544,
+          "upstream_inference_completions_cost": 0.00639
+        }
+      },
+      "cost_usd": 0.0067444,
+      "model_name": "moonshotai/kimi-k3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 8.078
+    },
+    {
+      "question_id": "direct:MQ05",
+      "started_at_utc": "2026-10-11T10:16:07+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.069704,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 333,
+        "output_tokens": 140,
+        "total_tokens": 473,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 70
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 140,
+        "prompt_tokens": 333,
+        "total_tokens": 473,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 70,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.0016664,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.0016664,
+          "upstream_inference_prompt_cost": 0.0002664,
+          "upstream_inference_completions_cost": 0.0014
+        }
+      },
+      "cost_usd": 0.0016664,
+      "model_name": "moonshotai/kimi-k3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 2.929
+    },
+    {
+      "question_id": "direct:MQ06",
+      "started_at_utc": "2026-10-11T10:17:47+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.069879,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 405,
+        "output_tokens": 1437,
+        "total_tokens": 1842,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 1351
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 1437,
+        "prompt_tokens": 405,
+        "total_tokens": 1842,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 1351,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.014694,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.014694,
+          "upstream_inference_prompt_cost": 0.000324,
+          "upstream_inference_completions_cost": 0.01437
+        }
+      },
+      "cost_usd": 0.014694,
+      "model_name": "moonshotai/kimi-k3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 25.821
+    },
+    {
+      "question_id": "direct:MQ07",
+      "started_at_utc": "2026-10-11T10:19:58+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.069822,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 420,
+        "output_tokens": 603,
+        "total_tokens": 1023,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 514
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 603,
+        "prompt_tokens": 420,
+        "total_tokens": 1023,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 514,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.006366,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.006366,
+          "upstream_inference_prompt_cost": 0.000336,
+          "upstream_inference_completions_cost": 0.00603
+        }
+      },
+      "cost_usd": 0.006366,
+      "model_name": "moonshotai/kimi-k3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 10.347
+    },
+    {
+      "question_id": "direct:MQ08",
+      "started_at_utc": "2026-10-11T10:20:36+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.069598,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 317,
+        "output_tokens": 366,
+        "total_tokens": 683,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 265
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 366,
+        "prompt_tokens": 317,
+        "total_tokens": 683,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 265,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.0039136,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.0039136,
+          "upstream_inference_prompt_cost": 0.0002536,
+          "upstream_inference_completions_cost": 0.00366
+        }
+      },
+      "cost_usd": 0.0039136,
+      "model_name": "moonshotai/kimi-k3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 6.039
+    },
+    {
+      "question_id": "direct:MQ09",
+      "started_at_utc": "2026-10-11T10:21:29+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.06959,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 315,
+        "output_tokens": 236,
+        "total_tokens": 551,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 144
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 236,
+        "prompt_tokens": 315,
+        "total_tokens": 551,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 144,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.002612,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.002612,
+          "upstream_inference_prompt_cost": 0.000252,
+          "upstream_inference_completions_cost": 0.00236
+        }
+      },
+      "cost_usd": 0.002612,
+      "model_name": "moonshotai/kimi-k3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 4.306
+    },
+    {
+      "question_id": "direct:MQ10",
+      "started_at_utc": "2026-10-11T10:21:53+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.06995,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 383,
+        "output_tokens": 141,
+        "total_tokens": 524,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 64
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 141,
+        "prompt_tokens": 383,
+        "total_tokens": 524,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 64,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.0017164,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.0017164,
+          "upstream_inference_prompt_cost": 0.0003064,
+          "upstream_inference_completions_cost": 0.00141
+        }
+      },
+      "cost_usd": 0.0017164,
+      "model_name": "moonshotai/kimi-k3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 3.433
+    },
+    {
+      "question_id": "agent:MQ01",
+      "started_at_utc": "2026-10-11T10:22:31+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.069495,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 310,
+        "output_tokens": 445,
+        "total_tokens": 755,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 394
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 445,
+        "prompt_tokens": 310,
+        "total_tokens": 755,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 394,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.004698,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.004698,
+          "upstream_inference_prompt_cost": 0.000248,
+          "upstream_inference_completions_cost": 0.00445
+        }
+      },
+      "cost_usd": 0.004698,
+      "model_name": "moonshotai/kimi-k3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 6.354
+    },
+    {
+      "question_id": "agent:MQ01",
+      "started_at_utc": "2026-10-11T10:22:37+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.070183,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 437,
+        "output_tokens": 183,
+        "total_tokens": 620,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 107
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 183,
+        "prompt_tokens": 437,
+        "total_tokens": 620,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 107,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.0021796,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.0021796,
+          "upstream_inference_prompt_cost": 0.0003496,
+          "upstream_inference_completions_cost": 0.00183
+        }
+      },
+      "cost_usd": 0.0021796,
+      "model_name": "moonshotai/kimi-k3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 3.917
+    },
+    {
+      "question_id": "agent:MQ02",
+      "started_at_utc": "2026-10-11T10:24:20+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.069519,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 313,
+        "output_tokens": 331,
+        "total_tokens": 644,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 276
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 331,
+        "prompt_tokens": 313,
+        "total_tokens": 644,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 276,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.0035604,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.0035604,
+          "upstream_inference_prompt_cost": 0.0002504,
+          "upstream_inference_completions_cost": 0.00331
+        }
+      },
+      "cost_usd": 0.0035604,
+      "model_name": "moonshotai/kimi-k3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 4.172
+    },
+    {
+      "question_id": "agent:MQ02",
+      "started_at_utc": "2026-10-11T10:24:24+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.07023,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 447,
+        "output_tokens": 723,
+        "total_tokens": 1170,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 626
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 723,
+        "prompt_tokens": 447,
+        "total_tokens": 1170,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 626,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.0075876,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.0075876,
+          "upstream_inference_prompt_cost": 0.0003576,
+          "upstream_inference_completions_cost": 0.00723
+        }
+      },
+      "cost_usd": 0.0075876,
+      "model_name": "moonshotai/kimi-k3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 9.765
+    },
+    {
+      "question_id": "agent:MQ03",
+      "started_at_utc": "2026-10-11T10:25:37+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.069945,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 385,
+        "output_tokens": 160,
+        "total_tokens": 545,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 94
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 160,
+        "prompt_tokens": 385,
+        "total_tokens": 545,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 94,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.001908,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.001908,
+          "upstream_inference_prompt_cost": 0.000308,
+          "upstream_inference_completions_cost": 0.0016
+        }
+      },
+      "cost_usd": 0.001908,
+      "model_name": "moonshotai/kimi-k3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 2.379
+    },
+    {
+      "question_id": "agent:MQ03",
+      "started_at_utc": "2026-10-11T10:25:39+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.070699,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 527,
+        "output_tokens": 390,
+        "total_tokens": 917,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 300
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 390,
+        "prompt_tokens": 527,
+        "total_tokens": 917,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 300,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.0043216,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.0043216,
+          "upstream_inference_prompt_cost": 0.0004216,
+          "upstream_inference_completions_cost": 0.0039
+        }
+      },
+      "cost_usd": 0.0043216,
+      "model_name": "moonshotai/kimi-k3",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 7.198
+    }
+  ],
+  "budget": {
+    "limit_usd": 6.0,
+    "reported_or_estimated_spend_usd": 3.85522622,
+    "unreported_charge_reserve_usd": 0.15,
+    "policy": "Before each paid request, reserve a conservative prompt-byte estimate plus the full output cap at configured provider price ceilings. Failed requests without usage retain that reserve. This is a local guard, not a provider billing guarantee."
+  }
+}

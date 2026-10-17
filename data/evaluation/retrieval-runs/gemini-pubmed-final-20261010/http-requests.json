@@ -1,0 +1,489 @@
+[
+  {
+    "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "parameters": {
+      "db": "pubmed",
+      "term": "(colorectal neoplasms AND (nutrition assessment OR nutritional screening) AND weight loss) NOT (retracted publication[pt] OR retraction notice[pt] OR hasretractionin OR hasretractionof)",
+      "retmode": "json",
+      "retmax": 5,
+      "sort": "relevance"
+    },
+    "started_at_utc": "2026-10-10T09:39:16+00:00",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": "ok",
+        "http_status": 200,
+        "elapsed_seconds": 0.664
+      }
+    ],
+    "cache_hit": false,
+    "status": "ok",
+    "response_sha256": "2fd589c7d17a1539a49074ac842026654add5a728b99907620f5c68bf0134d83",
+    "response_bytes": 3255,
+    "snapshot_file": "2fd589c7d17a1539a49074ac842026654add5a728b99907620f5c68bf0134d83.json",
+    "retrieved_at_utc": "2026-10-10T09:39:16+00:00"
+  },
+  {
+    "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+    "parameters": {
+      "db": "pubmed",
+      "id": "34207529,37902006,32019626,32563599,19524333",
+      "retmode": "xml"
+    },
+    "started_at_utc": "2026-10-10T09:39:16+00:00",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": "ok",
+        "http_status": 200,
+        "elapsed_seconds": 0.516
+      }
+    ],
+    "cache_hit": false,
+    "status": "ok",
+    "response_sha256": "6c4f0e6abf3a79461c6db8f3872991f9499d3aca7fa044a1fadfdb2644528b63",
+    "response_bytes": 115743,
+    "snapshot_file": "6c4f0e6abf3a79461c6db8f3872991f9499d3aca7fa044a1fadfdb2644528b63.xml",
+    "retrieved_at_utc": "2026-10-10T09:39:17+00:00"
+  },
+  {
+    "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "parameters": {
+      "db": "pubmed",
+      "term": "((cancer cachexia[tiab] OR neoplastic disorders[MeSH Terms]) AND (energy expenditure[tiab] OR protein requirements[tiab]) AND (indirect calorimetry[tiab] OR predictive equations[tiab])) NOT (retracted publication[pt] OR retraction notice[pt] OR hasretractionin OR hasretractionof)",
+      "retmode": "json",
+      "retmax": 5,
+      "sort": "relevance"
+    },
+    "started_at_utc": "2026-10-10T09:39:40+00:00",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": "ok",
+        "http_status": 200,
+        "elapsed_seconds": 0.265
+      }
+    ],
+    "cache_hit": false,
+    "status": "ok",
+    "response_sha256": "5949488ec7a8f75c62257be1fcf7f34d36726505f602234d8783b0145c2fe8d1",
+    "response_bytes": 905,
+    "snapshot_file": "5949488ec7a8f75c62257be1fcf7f34d36726505f602234d8783b0145c2fe8d1.json",
+    "retrieved_at_utc": "2026-10-10T09:39:41+00:00"
+  },
+  {
+    "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+    "parameters": {
+      "db": "pubmed",
+      "id": "28143668,33369797,2105475,19647909,18359195",
+      "retmode": "xml"
+    },
+    "started_at_utc": "2026-10-10T09:39:41+00:00",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": "ok",
+        "http_status": 200,
+        "elapsed_seconds": 0.587
+      }
+    ],
+    "cache_hit": false,
+    "status": "ok",
+    "response_sha256": "3e53a82c5e200280e88bdc420dbae02be5054005ce5abf80c972ab8506bd0c88",
+    "response_bytes": 69458,
+    "snapshot_file": "3e53a82c5e200280e88bdc420dbae02be5054005ce5abf80c972ab8506bd0c88.xml",
+    "retrieved_at_utc": "2026-10-10T09:39:41+00:00"
+  },
+  {
+    "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "parameters": {
+      "db": "pubmed",
+      "term": "((head and neck neoplasms[MeSH Terms]) AND (enteral nutrition[MeSH Terms] OR tube feeding) AND (parenteral nutrition[MeSH Terms])) NOT (retracted publication[pt] OR retraction notice[pt] OR hasretractionin OR hasretractionof)",
+      "retmode": "json",
+      "retmax": 5,
+      "sort": "relevance"
+    },
+    "started_at_utc": "2026-10-10T09:39:54+00:00",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": "ok",
+        "http_status": 200,
+        "elapsed_seconds": 0.497
+      }
+    ],
+    "cache_hit": false,
+    "status": "ok",
+    "response_sha256": "f865b8fd7e9973188c5aac26e56a6d15003cb8960ff779473ff7cac837964bb3",
+    "response_bytes": 1228,
+    "snapshot_file": "f865b8fd7e9973188c5aac26e56a6d15003cb8960ff779473ff7cac837964bb3.json",
+    "retrieved_at_utc": "2026-10-10T09:39:54+00:00"
+  },
+  {
+    "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+    "parameters": {
+      "db": "pubmed",
+      "id": "29016197,15044652,11564312,6186877,6774119",
+      "retmode": "xml"
+    },
+    "started_at_utc": "2026-10-10T09:39:54+00:00",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": "ok",
+        "http_status": 200,
+        "elapsed_seconds": 0.569
+      }
+    ],
+    "cache_hit": false,
+    "status": "ok",
+    "response_sha256": "f99793eb8fa60909f541e4a79e19f2c574a1d9465ba1bf8d2871f5d431fb70db",
+    "response_bytes": 25192,
+    "snapshot_file": "f99793eb8fa60909f541e4a79e19f2c574a1d9465ba1bf8d2871f5d431fb70db.xml",
+    "retrieved_at_utc": "2026-10-10T09:39:55+00:00"
+  },
+  {
+    "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "parameters": {
+      "db": "pubmed",
+      "term": "(parenteral nutrition AND (malignant bowel obstruction OR advanced cancer) AND (prognosis OR goals of care)) NOT (retracted publication[pt] OR retraction notice[pt] OR hasretractionin OR hasretractionof)",
+      "retmode": "json",
+      "retmax": 5,
+      "sort": "relevance"
+    },
+    "started_at_utc": "2026-10-10T09:40:07+00:00",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": "ok",
+        "http_status": 200,
+        "elapsed_seconds": 0.449
+      }
+    ],
+    "cache_hit": false,
+    "status": "ok",
+    "response_sha256": "3d78a401e028dae4d509eeb3d6759c7c9b2d54b9e72e8efc0f3dbf889d02d280",
+    "response_bytes": 3804,
+    "snapshot_file": "3d78a401e028dae4d509eeb3d6759c7c9b2d54b9e72e8efc0f3dbf889d02d280.json",
+    "retrieved_at_utc": "2026-10-10T09:40:07+00:00"
+  },
+  {
+    "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+    "parameters": {
+      "db": "pubmed",
+      "id": "32432946,36377820,27885969,16462173,16500444",
+      "retmode": "xml"
+    },
+    "started_at_utc": "2026-10-10T09:40:07+00:00",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": "ok",
+        "http_status": 200,
+        "elapsed_seconds": 2.312
+      }
+    ],
+    "cache_hit": false,
+    "status": "ok",
+    "response_sha256": "234eacbfee593e73ffa9f90ccb6768c560b74fe3481bbd9954dac4ee25b9eba2",
+    "response_bytes": 827150,
+    "snapshot_file": "234eacbfee593e73ffa9f90ccb6768c560b74fe3481bbd9954dac4ee25b9eba2.xml",
+    "retrieved_at_utc": "2026-10-10T09:40:10+00:00"
+  },
+  {
+    "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "parameters": {
+      "db": "pubmed",
+      "term": "(cancer cachexia nutrition intervention multimodal therapy OR treatment) NOT (retracted publication[pt] OR retraction notice[pt] OR hasretractionin OR hasretractionof)",
+      "retmode": "json",
+      "retmax": 5,
+      "sort": "relevance"
+    },
+    "started_at_utc": "2026-10-10T09:40:21+00:00",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": "ok",
+        "http_status": 200,
+        "elapsed_seconds": 0.824
+      }
+    ],
+    "cache_hit": false,
+    "status": "ok",
+    "response_sha256": "7b570047d5e628d464864f05d30962e29fcce4549379481f728f98e5e138b12b",
+    "response_bytes": 2710,
+    "snapshot_file": "7b570047d5e628d464864f05d30962e29fcce4549379481f728f98e5e138b12b.json",
+    "retrieved_at_utc": "2026-10-10T09:40:21+00:00"
+  },
+  {
+    "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+    "parameters": {
+      "db": "pubmed",
+      "id": "28689670,31916411,34813576,32002684,33841322",
+      "retmode": "xml"
+    },
+    "started_at_utc": "2026-10-10T09:40:21+00:00",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": "ok",
+        "http_status": 200,
+        "elapsed_seconds": 0.661
+      }
+    ],
+    "cache_hit": false,
+    "status": "ok",
+    "response_sha256": "bb460f40ab51d3ee53cb491fcae0b42b047b6f9c59648b9caf95aa2a952f993d",
+    "response_bytes": 197167,
+    "snapshot_file": "bb460f40ab51d3ee53cb491fcae0b42b047b6f9c59648b9caf95aa2a952f993d.xml",
+    "retrieved_at_utc": "2026-10-10T09:40:22+00:00"
+  },
+  {
+    "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "parameters": {
+      "db": "pubmed",
+      "term": "(refeeding syndrome cancer malnutrition management guidelines) NOT (retracted publication[pt] OR retraction notice[pt] OR hasretractionin OR hasretractionof)",
+      "retmode": "json",
+      "retmax": 5,
+      "sort": "relevance"
+    },
+    "started_at_utc": "2026-10-10T09:40:46+00:00",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": "ok",
+        "http_status": 200,
+        "elapsed_seconds": 0.295
+      }
+    ],
+    "cache_hit": false,
+    "status": "ok",
+    "response_sha256": "b37c500696bdc6b994f722f74f6d28b48a0112ad9d71b3844cb7f9a7a175e5a9",
+    "response_bytes": 3158,
+    "snapshot_file": "b37c500696bdc6b994f722f74f6d28b48a0112ad9d71b3844cb7f9a7a175e5a9.json",
+    "retrieved_at_utc": "2026-10-10T09:40:46+00:00"
+  },
+  {
+    "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+    "parameters": {
+      "db": "pubmed",
+      "id": "32384662,38732574,27885969,19284691,32028807",
+      "retmode": "xml"
+    },
+    "started_at_utc": "2026-10-10T09:40:46+00:00",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": "ok",
+        "http_status": 200,
+        "elapsed_seconds": 2.891
+      }
+    ],
+    "cache_hit": false,
+    "status": "ok",
+    "response_sha256": "302aa0e2bd7bb616b463ef8c396181e23eae2f916f0459087cafc1547a73867d",
+    "response_bytes": 877842,
+    "snapshot_file": "302aa0e2bd7bb616b463ef8c396181e23eae2f916f0459087cafc1547a73867d.xml",
+    "retrieved_at_utc": "2026-10-10T09:40:49+00:00"
+  },
+  {
+    "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "parameters": {
+      "db": "pubmed",
+      "term": "((neutropenic diet OR low microbial diet) AND (cancer OR chemotherapy) AND (infection OR fresh fruit vegetable)) NOT (retracted publication[pt] OR retraction notice[pt] OR hasretractionin OR hasretractionof)",
+      "retmode": "json",
+      "retmax": 5,
+      "sort": "relevance"
+    },
+    "started_at_utc": "2026-10-10T09:41:00+00:00",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": "ok",
+        "http_status": 200,
+        "elapsed_seconds": 0.358
+      }
+    ],
+    "cache_hit": false,
+    "status": "ok",
+    "response_sha256": "42b6e38ee590f734d020116368c6c10590e1a8728c2ae5ec7d95f6ceb931d6f3",
+    "response_bytes": 4081,
+    "snapshot_file": "42b6e38ee590f734d020116368c6c10590e1a8728c2ae5ec7d95f6ceb931d6f3.json",
+    "retrieved_at_utc": "2026-10-10T09:41:00+00:00"
+  },
+  {
+    "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+    "parameters": {
+      "db": "pubmed",
+      "id": "35576506,38762324,8143100,40307551,27409075",
+      "retmode": "xml"
+    },
+    "started_at_utc": "2026-10-10T09:41:00+00:00",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": "ok",
+        "http_status": 200,
+        "elapsed_seconds": 2.534
+      }
+    ],
+    "cache_hit": false,
+    "status": "ok",
+    "response_sha256": "0fb11fdf89b6bc3dd6a8071d81bdd1ebcff4d7733b3dcc8add5047613fbe3d72",
+    "response_bytes": 935673,
+    "snapshot_file": "0fb11fdf89b6bc3dd6a8071d81bdd1ebcff4d7733b3dcc8add5047613fbe3d72.xml",
+    "retrieved_at_utc": "2026-10-10T09:41:03+00:00"
+  },
+  {
+    "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "parameters": {
+      "db": "pubmed",
+      "term": "(antioxidant supplements chemotherapy efficacy safety cancer nutrition) NOT (retracted publication[pt] OR retraction notice[pt] OR hasretractionin OR hasretractionof)",
+      "retmode": "json",
+      "retmax": 5,
+      "sort": "relevance"
+    },
+    "started_at_utc": "2026-10-10T09:41:13+00:00",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": "ok",
+        "http_status": 200,
+        "elapsed_seconds": 0.31
+      }
+    ],
+    "cache_hit": false,
+    "status": "ok",
+    "response_sha256": "c4cf2ce65aba6bbb8526802de94bddc5b8b5328c7e1b6b9b1f5973050232b568",
+    "response_bytes": 4477,
+    "snapshot_file": "c4cf2ce65aba6bbb8526802de94bddc5b8b5328c7e1b6b9b1f5973050232b568.json",
+    "retrieved_at_utc": "2026-10-10T09:41:14+00:00"
+  },
+  {
+    "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+    "parameters": {
+      "db": "pubmed",
+      "id": "36561763,40362760,38718638,18064645,40563519",
+      "retmode": "xml"
+    },
+    "started_at_utc": "2026-10-10T09:41:14+00:00",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": "ok",
+        "http_status": 200,
+        "elapsed_seconds": 1.006
+      }
+    ],
+    "cache_hit": false,
+    "status": "ok",
+    "response_sha256": "aedd50f94241cc1d8989617f3293a047a28ee2c3ae37e66196f2d232988969e4",
+    "response_bytes": 221914,
+    "snapshot_file": "aedd50f94241cc1d8989617f3293a047a28ee2c3ae37e66196f2d232988969e4.xml",
+    "retrieved_at_utc": "2026-10-10T09:41:15+00:00"
+  },
+  {
+    "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "parameters": {
+      "db": "pubmed",
+      "term": "(pancreatic cancer exocrine insufficiency enzyme replacement therapy steatorrhea) NOT (retracted publication[pt] OR retraction notice[pt] OR hasretractionin OR hasretractionof)",
+      "retmode": "json",
+      "retmax": 5,
+      "sort": "relevance"
+    },
+    "started_at_utc": "2026-10-10T09:41:27+00:00",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": "ok",
+        "http_status": 200,
+        "elapsed_seconds": 0.308
+      }
+    ],
+    "cache_hit": false,
+    "status": "ok",
+    "response_sha256": "ec5df29a300f651a9abc1c1c48679a5c3e2f6d5688cbae6f1cd549db34109292",
+    "response_bytes": 2004,
+    "snapshot_file": "ec5df29a300f651a9abc1c1c48679a5c3e2f6d5688cbae6f1cd549db34109292.json",
+    "retrieved_at_utc": "2026-10-10T09:41:27+00:00"
+  },
+  {
+    "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+    "parameters": {
+      "db": "pubmed",
+      "id": "39639485,32745358,34916141,42011215,22379635",
+      "retmode": "xml"
+    },
+    "started_at_utc": "2026-10-10T09:41:27+00:00",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": "error",
+        "http_status": 502,
+        "error_type": "HTTPError",
+        "elapsed_seconds": 0.106
+      },
+      {
+        "attempt": 2,
+        "status": "ok",
+        "http_status": 200,
+        "elapsed_seconds": 1.685
+      }
+    ],
+    "cache_hit": false,
+    "status": "ok",
+    "response_sha256": "ccae899611bfa56c81187dedd6cb0a05948adf9a19c375fb76ff7ecccdb32cd7",
+    "response_bytes": 308867,
+    "snapshot_file": "ccae899611bfa56c81187dedd6cb0a05948adf9a19c375fb76ff7ecccdb32cd7.xml",
+    "retrieved_at_utc": "2026-10-10T09:41:30+00:00"
+  },
+  {
+    "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "parameters": {
+      "db": "pubmed",
+      "term": "((ketogenic diet OR fasting) AND (neoplasms OR chemotherapy) AND (weight loss OR cachexia)) NOT (retracted publication[pt] OR retraction notice[pt] OR hasretractionin OR hasretractionof)",
+      "retmode": "json",
+      "retmax": 5,
+      "sort": "relevance"
+    },
+    "started_at_utc": "2026-10-10T09:41:44+00:00",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": "ok",
+        "http_status": 200,
+        "elapsed_seconds": 0.632
+      }
+    ],
+    "cache_hit": false,
+    "status": "ok",
+    "response_sha256": "83847320e3b417277c57ef41bcb5f3efe02b0d2fef9380a2249caf8b57ccd0d6",
+    "response_bytes": 2311,
+    "snapshot_file": "83847320e3b417277c57ef41bcb5f3efe02b0d2fef9380a2249caf8b57ccd0d6.json",
+    "retrieved_at_utc": "2026-10-10T09:41:44+00:00"
+  },
+  {
+    "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+    "parameters": {
+      "db": "pubmed",
+      "id": "35015037,33274644,38176412,28266779,34610596",
+      "retmode": "xml"
+    },
+    "started_at_utc": "2026-10-10T09:41:44+00:00",
+    "attempts": [
+      {
+        "attempt": 1,
+        "status": "ok",
+        "http_status": 200,
+        "elapsed_seconds": 1.024
+      }
+    ],
+    "cache_hit": false,
+    "status": "ok",
+    "response_sha256": "56f554dc557e114b75810f79914383e3c3d0f7c35d9a981099f70c0767be603d",
+    "response_bytes": 108193,
+    "snapshot_file": "56f554dc557e114b75810f79914383e3c3d0f7c35d9a981099f70c0767be603d.xml",
+    "retrieved_at_utc": "2026-10-10T09:41:46+00:00"
+  }
+]

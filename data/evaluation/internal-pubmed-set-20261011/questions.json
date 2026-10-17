@@ -1,0 +1,105 @@
+{
+  "status": "Prepared internal set after user request for some PubMed-data questions; not yet evaluated",
+  "questions": [
+    {
+      "question_id": "IC01",
+      "question": "A 58-year-old female, being treated on the medical floor for community-acquired pneumonia with levofloxacin, develops watery diarrhea. She reports at least 9 episodes of diarrhea within the last two days, with lower abdominal discomfort and cramping. Her temperature is 98.6° F (37° C), respiratory rate is 15/min, pulse is 67/min, and blood pressure is 122/98 mm Hg. Her physical examination is unremarkable. Laboratory testing shows:\nHb%   13 gm/dL\nTotal count (WBC):   13,400/mm3\nDifferential count:    \n  Neutrophils: 80%\n  Lymphocytes: 15%\n  Monocytes: 5%\nESR:   33 mm/hr\nWhat is the most likely diagnosis?",
+      "options": {
+        "A": "Ulcerative colitis",
+        "B": "C. difficile colitis",
+        "C": "Irritable bowel syndrome",
+        "D": "Giardiasis"
+      }
+    },
+    {
+      "question_id": "IC02",
+      "question": "A 45-year-old African-American woman presents with dyspnea, cough, and non-radiating chest pain. Her chest pain is relieved by leaning forward and worsens upon leaning backwards. A scratchy rub is heard best with the patient leaning forward. Physical examination did not elucidate evidence of a positive Kussmaul's sign, pulsus paradoxus, or pericardial knock. The patient most likely is suffering from which of the following?",
+      "options": {
+        "A": "Constrictive pericarditis",
+        "B": "Acute pericarditis",
+        "C": "Libman-Sacks endocarditis",
+        "D": "Acute myocardial infarction"
+      }
+    },
+    {
+      "question_id": "IC03",
+      "question": "A 32-year-old woman comes to the physician because of a 3-month history of irregular menses, milky discharge from her nipples, fatigue, and weight gain. Menses occur at irregular 25–40-day intervals and last 1–2 days with minimal flow. 5 months ago, she was started on clozapine for treatment of schizophrenia. She has hypothyroidism but has not been taking levothyroxine over the past 6 months. Visual field examination show no abnormalities. Her serum thyroid-stimulating hormone is 17.0 μU/mL and serum prolactin is 85 ng/mL. Which of the following is the most likely explanation for the nipple discharge in this patient?",
+      "options": {
+        "A": "Hypothyroidism",
+        "B": "Prolactinoma",
+        "C": "Thyrotropic pituitary adenoma",
+        "D": "Ectopic prolactin production"
+      }
+    },
+    {
+      "question_id": "IC04",
+      "question": "A 68-year-old man presents to the emergency department with leg pain. He states that the pain started suddenly while he was walking outside. The patient has a past medical history of diabetes, hypertension, obesity, and atrial fibrillation. His temperature is 99.3°F (37.4°C), blood pressure is 152/98 mmHg, pulse is 97/min, respirations are 15/min, and oxygen saturation is 99% on room air. Physical exam is notable for a cold and pale left leg. The patient’s sensation is markedly diminished in the left leg when compared to the right, and his muscle strength is 1/5 in his left leg. Which of the following is the best next step in management?",
+      "options": {
+        "A": "Graded exercise and aspirin",
+        "B": "Heparin drip",
+        "C": "Surgical thrombectomy",
+        "D": "Tissue plasminogen activator"
+      }
+    },
+    {
+      "question_id": "IC05",
+      "question": "A 27-year-old woman, gravida 2, para 1, at 37 weeks' gestation is admitted to the hospital in active labor. She has received routine prenatal care, but she has not been tested for group B streptococcal (GBS) colonization. Pregnancy and delivery of her first child were complicated by an infection with GBS that resulted in sepsis in the newborn. Current medications include folic acid and a multivitamin. Vital signs are within normal limits. The abdomen is nontender and contractions are felt every 4 minutes. There is clear amniotic fluid pooling in the vagina. The fetus is in a cephalic presentation. The fetal heart rate is 140/min. Which of the following is the most appropriate next step in management?",
+      "options": {
+        "A": "Obtain vaginal-rectal swab for GBS culture",
+        "B": "Administer intrapartum intravenous penicillin",
+        "C": "Obtain vaginal-rectal swab for GBS culture and nucleic acid amplification testing",
+        "D": "Obtain vaginal-rectal swab for nucleic acid amplification testing"
+      }
+    },
+    {
+      "question_id": "IC06",
+      "question": "A 32-year-old woman, gravida 2, para 1, at 32 weeks' gestation comes to the physician for a prenatal visit. She reports that she has had frequent headaches and dizziness recently. Pregnancy and delivery of her first child were uncomplicated. There is no personal or family history of serious illness. Medications include folic acid and a multivitamin. Her temperature is 37°C (98.6°F), pulse is 90/min, and blood pressure is 170/100 mm Hg. Pelvic examination shows a uterus consistent in size with a 32-week gestation. Physical examination shows 2+ edema in the lower extremities. Laboratory studies show:\nHematocrit 37%\nLeukocyte count 9000/mm3\nPlatelet count 60,000/mm3\nSerum\nNa+ 140 mEq/L\nCl- 104 mEq/L\nK+ 4.4 mEq/L\nCreatinine 1.0 mg/dL\nAspartate aminotransferase 20 U/L\nAlanine aminotransferase 20 U/L\nWhich of the following is the most appropriate next step in management?\"",
+      "options": {
+        "A": "Magnesium sulfate and labetalol therapy",
+        "B": "Platelet transfusion",
+        "C": "Admit the patient to the ICU",
+        "D": "Perform C-section\n\""
+      }
+    },
+    {
+      "question_id": "IC07",
+      "question": "A 52-year-old man who was recently hospitalized with a pulmonary embolism is put on an unfractionated heparin drip as a bridge to chronic warfarin therapy. During morning rounds, he is found to have diffuse bruising despite minimal trauma, and his heparin infusion rate is found to be faster than prescribed. A coagulation panel is obtained, which shows a aPTT of 130 seconds (therapeutic 70-120 seconds), and the decision is made to reverse the effects of heparin. Which of the following would most likely be administered in order to do this?",
+      "options": {
+        "A": "Aminocaproic acid",
+        "B": "Fresh frozen plasma",
+        "C": "Platelets",
+        "D": "Protamine sulfate"
+      }
+    },
+    {
+      "question_id": "IC08",
+      "question": "In the main BALANCE randomized trial of hospitalized patients with bloodstream infections (published online in 2024 and in NEJM in 2025), which statement correctly reports 90-day all-cause mortality in the 7-day versus 14-day antibiotic groups and the trial conclusion?",
+      "options": {
+        "A": "Mortality was 16.1% versus 14.5%; 7 days was superior.",
+        "B": "Mortality was 14.5% versus 16.1%; 7 days was noninferior to 14 days.",
+        "C": "Mortality was 14.5% versus 16.1%; 7 days was proved superior to 14 days.",
+        "D": "Mortality was 7.0% versus 14.0%; 7 days was proved superior."
+      }
+    },
+    {
+      "question_id": "IC09",
+      "question": "In the original PREVENT CLOT randomized trial of aspirin versus low-molecular-weight heparin after fractures, aspirin was noninferior for the primary mortality outcome. Which reported secondary-outcome finding is correct?",
+      "options": {
+        "A": "Deep-vein thrombosis was 1.71% with aspirin and 2.51% with low-molecular-weight heparin.",
+        "B": "Pulmonary embolism was 2.51% with aspirin and 1.71% with low-molecular-weight heparin.",
+        "C": "Deep-vein thrombosis was 1.49% in both groups.",
+        "D": "Deep-vein thrombosis was 2.51% with aspirin and 1.71% with low-molecular-weight heparin."
+      }
+    },
+    {
+      "question_id": "IC10",
+      "question": "In the SOUL randomized trial of oral semaglutide versus placebo in high-risk type 2 diabetes, which result was reported for the primary major adverse cardiovascular event outcome?",
+      "options": {
+        "A": "Hazard ratio 0.80 (95% CI 0.72-0.90); events in 6.5% versus 8.0%.",
+        "B": "Hazard ratio 1.00 (95% CI 0.90-1.10); events in 12.0% versus 12.0%.",
+        "C": "Hazard ratio 0.86 (95% CI 0.77-0.96); events in 12.0% versus 13.8%.",
+        "D": "Hazard ratio 0.86 (95% CI 0.77-0.96); events in 13.8% versus 12.0%."
+      }
+    }
+  ]
+}

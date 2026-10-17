@@ -1,0 +1,38 @@
+{
+  "checked_at_utc": "2026-10-10T08:09:17+00:00",
+  "credential_source": "file",
+  "credential_contents_saved": false,
+  "provider": "NVIDIA hosted API",
+  "endpoint": "https://integrate.api.nvidia.com/v1/chat/completions",
+  "models": [
+    {
+      "model": "moonshotai/kimi-k3",
+      "prompt": "Reply with exactly: OK",
+      "max_tokens": 1024,
+      "error_type": "ReadTimeout",
+      "elapsed_seconds": 120.241
+    },
+    {
+      "model": "deepseek-ai/deepseek-v4.1-flash",
+      "prompt": "Reply with exactly: OK",
+      "max_tokens": 1024,
+      "error_type": "ReadTimeout",
+      "elapsed_seconds": 120.434
+    },
+    {
+      "model": "openai/gpt-oss-20b",
+      "prompt": "Reply with exactly: OK",
+      "max_tokens": 1024,
+      "http_status": 200,
+      "output_text": "OK",
+      "expected_output_observed": true,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 70,
+        "total_tokens": 149,
+        "completion_tokens": 79
+      },
+      "elapsed_seconds": 2.399
+    }
+  ]
+}

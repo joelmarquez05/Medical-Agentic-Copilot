@@ -1,0 +1,147 @@
+{
+  "live_model_calls": 0,
+  "live_pubmed_requests": 0,
+  "cases": [
+    {
+      "run_id": "gemini-pubmed-internal-20261010",
+      "question_id": "ON01",
+      "archived_prompt_version": "requirement-3-v1",
+      "model_inputs_matched": true,
+      "answer_and_flags_unchanged": true
+    },
+    {
+      "run_id": "gemini-pubmed-internal-20261010",
+      "question_id": "ON02",
+      "archived_prompt_version": "requirement-3-v1",
+      "model_inputs_matched": true,
+      "answer_and_flags_unchanged": true
+    },
+    {
+      "run_id": "gemini-pubmed-internal-20261010",
+      "question_id": "ON03",
+      "archived_prompt_version": "requirement-3-v1",
+      "model_inputs_matched": true,
+      "answer_and_flags_unchanged": true
+    },
+    {
+      "run_id": "gemini-pubmed-internal-20261010",
+      "question_id": "ON04",
+      "archived_prompt_version": "requirement-3-v1",
+      "model_inputs_matched": true,
+      "answer_and_flags_unchanged": true
+    },
+    {
+      "run_id": "gemini-pubmed-internal-20261010",
+      "question_id": "ON05",
+      "archived_prompt_version": "requirement-3-v1",
+      "model_inputs_matched": true,
+      "answer_and_flags_unchanged": true
+    },
+    {
+      "run_id": "gemini-pubmed-internal-20261010",
+      "question_id": "ON06",
+      "archived_prompt_version": "requirement-3-v1",
+      "model_inputs_matched": true,
+      "answer_and_flags_unchanged": true
+    },
+    {
+      "run_id": "gemini-pubmed-internal-20261010",
+      "question_id": "ON07",
+      "archived_prompt_version": "requirement-3-v1",
+      "model_inputs_matched": true,
+      "answer_and_flags_unchanged": true
+    },
+    {
+      "run_id": "gemini-pubmed-internal-20261010",
+      "question_id": "ON08",
+      "archived_prompt_version": "requirement-3-v1",
+      "model_inputs_matched": true,
+      "answer_and_flags_unchanged": true
+    },
+    {
+      "run_id": "gemini-pubmed-internal-20261010",
+      "question_id": "ON09",
+      "archived_prompt_version": "requirement-3-v1",
+      "model_inputs_matched": true,
+      "answer_and_flags_unchanged": true
+    },
+    {
+      "run_id": "gemini-pubmed-internal-20261010",
+      "question_id": "ON10",
+      "archived_prompt_version": "requirement-3-v1",
+      "model_inputs_matched": true,
+      "answer_and_flags_unchanged": true
+    },
+    {
+      "run_id": "gemini-pubmed-final-20261010",
+      "question_id": "ON01",
+      "archived_prompt_version": "requirement-3-v2",
+      "model_inputs_matched": true,
+      "answer_and_flags_unchanged": true
+    },
+    {
+      "run_id": "gemini-pubmed-final-20261010",
+      "question_id": "ON02",
+      "archived_prompt_version": "requirement-3-v2",
+      "model_inputs_matched": true,
+      "answer_and_flags_unchanged": true
+    },
+    {
+      "run_id": "gemini-pubmed-final-20261010",
+      "question_id": "ON03",
+      "archived_prompt_version": "requirement-3-v2",
+      "model_inputs_matched": true,
+      "answer_and_flags_unchanged": true
+    },
+    {
+      "run_id": "gemini-pubmed-final-20261010",
+      "question_id": "ON04",
+      "archived_prompt_version": "requirement-3-v2",
+      "model_inputs_matched": true,
+      "answer_and_flags_unchanged": true
+    },
+    {
+      "run_id": "gemini-pubmed-final-20261010",
+      "question_id": "ON05",
+      "archived_prompt_version": "requirement-3-v2",
+      "model_inputs_matched": true,
+      "answer_and_flags_unchanged": true
+    },
+    {
+      "run_id": "gemini-pubmed-final-20261010",
+      "question_id": "ON06",
+      "archived_prompt_version": "requirement-3-v2",
+      "model_inputs_matched": true,
+      "answer_and_flags_unchanged": true
+    },
+    {
+      "run_id": "gemini-pubmed-final-20261010",
+      "question_id": "ON07",
+      "archived_prompt_version": "requirement-3-v2",
+      "model_inputs_matched": true,
+      "answer_and_flags_unchanged": true
+    },
+    {
+      "run_id": "gemini-pubmed-final-20261010",
+      "question_id": "ON08",
+      "archived_prompt_version": "requirement-3-v2",
+      "model_inputs_matched": true,
+      "answer_and_flags_unchanged": true
+    },
+    {
+      "run_id": "gemini-pubmed-final-20261010",
+      "question_id": "ON09",
+      "archived_prompt_version": "requirement-3-v2",
+      "model_inputs_matched": true,
+      "answer_and_flags_unchanged": true
+    },
+    {
+      "run_id": "gemini-pubmed-final-20261010",
+      "question_id": "ON10",
+      "archived_prompt_version": "requirement-3-v2",
+      "model_inputs_matched": true,
+      "answer_and_flags_unchanged": true
+    }
+  ],
+  "interpretation": "Engineering replay of recorded outputs with each archived prompt version. It is not a new clinical evaluation, new literature retrieval, or validation of source attribution."
+}

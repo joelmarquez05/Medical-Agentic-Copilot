@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "requirement": 7,
+  "frozen_earlier_application_files": 5,
+  "source_snapshots_checked": 238,
+  "historical_generation_runtime_hashes": [
+    "520e26838cbf6ed46df11a9c4305adeeff55036391b6664c44642ceec4d7f1e4",
+    "7f9c215bc3df8b37b0ba7cf79eaab18cd04ad7ba603efb7c5e38d5b56a926d74"
+  ],
+  "episodes": 14,
+  "replayed_responses": 27,
+  "replayed_http_requests": 2,
+  "primary_scores": {
+    "planned_episodes": 10,
+    "terminal_messages": 10,
+    "valid_model_answers": 9,
+    "matched_fields": 11,
+    "total_fields": 12,
+    "memory_on_episodes": 9,
+    "memory_on_all_fields_matched": 9,
+    "memory_on_matched_fields": 11,
+    "memory_on_total_fields": 11,
+    "required_tool_cases": 5,
+    "required_tool_cases_passed": 5
+  },
+  "supported_structured_citations": 3,
+  "requests_isolation_audited": 27,
+  "offline_tests_passed": 262,
+  "new_patient_memory_runtime_test_cases": 32,
+  "test_log_sha256": "397c4c3badac2551751578b543949178f385d0cfaaa13e4010e7c9a9cbafd3c0",
+  "syntactically_valid_python_files": 11,
+  "validated_local_document_links": 278,
+  "generated_text_artifacts_scanned": 219,
+  "example_input_contracts_valid": true,
+  "new_inference_requests": 0,
+  "credential_files_read": 0,
+  "interpretation": "Artifact/provenance verification and recorded checks; not an independent clinical judgment or universal security proof."
+}

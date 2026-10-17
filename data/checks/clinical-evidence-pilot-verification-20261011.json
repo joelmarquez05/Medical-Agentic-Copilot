@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "run_id": "gemma-evidence-pilot-20261011",
+  "stage": "pilot",
+  "cases": [
+    {
+      "question_id": "PILOT-01",
+      "answer_sha256": "a4bc2356f76985fdfd2d3aa14747438f99a4fdbb0e0c6362074d327b150ee5fb",
+      "replayed_model_responses": 1,
+      "replayed_logical_http_requests": 0,
+      "status": "completed",
+      "tool_actions": 0
+    }
+  ],
+  "baseline_core_source_unchanged": true,
+  "question_key_profile_unchanged": true,
+  "current_extension_source_matches_snapshot": {
+    "clinical_graph.py": true,
+    "clinical_evaluation.py": true,
+    "clinical_literature.py": true,
+    "clinical_literature_evaluation.py": true,
+    "pubmed.py": true,
+    "models.py": true,
+    "config.py": true,
+    "comparison_evaluation.py": true,
+    "evaluation.py": true
+  },
+  "new_provider_requests": 0,
+  "new_pubmed_requests": 0,
+  "credential_files_read": 0,
+  "interpretation": "Exact saved-prompt/action/source/HTTP replay plus hashes and input isolation; not medical correctness or substantive citation support validation."
+}

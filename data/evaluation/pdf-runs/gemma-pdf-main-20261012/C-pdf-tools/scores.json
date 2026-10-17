@@ -1,0 +1,64 @@
+{
+  "scores": [
+    {
+      "question_id": "PDF01",
+      "key_type": "project-authored-official-document-fact",
+      "reference_option": "C",
+      "selected_option": "C",
+      "valid_completed_answer": true,
+      "correct": true,
+      "status": "completed",
+      "explanation_appraisal": "Separate; never determines the option key."
+    },
+    {
+      "question_id": "PDF02",
+      "key_type": "project-authored-official-document-fact",
+      "reference_option": "A",
+      "selected_option": "A",
+      "valid_completed_answer": true,
+      "correct": true,
+      "status": "completed",
+      "explanation_appraisal": "Separate; never determines the option key."
+    },
+    {
+      "question_id": "PDF03",
+      "key_type": "project-authored-official-document-fact",
+      "reference_option": "D",
+      "selected_option": "D",
+      "valid_completed_answer": true,
+      "correct": true,
+      "status": "completed",
+      "explanation_appraisal": "Separate; never determines the option key."
+    },
+    {
+      "question_id": "PDF04",
+      "key_type": "project-authored-official-document-fact",
+      "reference_option": "B",
+      "selected_option": "B",
+      "valid_completed_answer": true,
+      "correct": true,
+      "status": "completed",
+      "explanation_appraisal": "Separate; never determines the option key."
+    },
+    {
+      "question_id": "PDF05",
+      "key_type": "project-authored-official-document-fact",
+      "reference_option": "D",
+      "selected_option": "D",
+      "valid_completed_answer": true,
+      "correct": true,
+      "status": "completed",
+      "explanation_appraisal": "Separate; never determines the option key."
+    },
+    {
+      "question_id": "PDF06",
+      "key_type": "project-authored-official-document-fact",
+      "reference_option": "C",
+      "selected_option": "C",
+      "valid_completed_answer": true,
+      "correct": true,
+      "status": "completed",
+      "explanation_appraisal": "Separate; never determines the option key."
+    }
+  ]
+}

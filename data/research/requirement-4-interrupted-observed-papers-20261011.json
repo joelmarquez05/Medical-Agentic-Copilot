@@ -1,0 +1,81 @@
+{
+  "sources": [
+    {
+      "id": "PMID14727122",
+      "pmid": "14727122",
+      "title": "Evaluation of the Reid index in infants and cases of SIDS.",
+      "authors_or_organization": "B Karger, T Fracasso, B Brinkmann, T Bajanowski",
+      "year": "2004",
+      "doi": "10.1007/s00414-003-0425-0",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14727122/",
+      "preprint": false,
+      "read_level": [
+        "abstract_excerpt"
+      ],
+      "supports": "Observed completed-prefix record in interrupted technical integration; excluded from primary benchmark scores/appraisal.",
+      "origin": "data/evaluation/benchmark-runs/gemma-full-agent-medqa30-20261011/answers/BM01.json"
+    },
+    {
+      "id": "PMID6721270",
+      "pmid": "6721270",
+      "title": "Chronic bronchitis. Correlation of morphologic findings to sputum production and flow rates.",
+      "authors_or_organization": "K Jamal, T P Cooney, J A Fleetham, W M Thurlbeck",
+      "year": "1984",
+      "doi": "10.1164/arrd.1984.129.5.719",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6721270/",
+      "preprint": false,
+      "read_level": [
+        "abstract_excerpt"
+      ],
+      "supports": "Observed completed-prefix record in interrupted technical integration; excluded from primary benchmark scores/appraisal.",
+      "origin": "data/evaluation/benchmark-runs/gemma-full-agent-medqa30-20261011/answers/BM01.json"
+    },
+    {
+      "id": "PMID3577251",
+      "pmid": "3577251",
+      "title": "[Morphometric picture of chronic bronchitis in bronchiectases--morphologic and morphometric changes in the proximal and distal bronchi and bronchioles].",
+      "authors_or_organization": "N A Rjabucha",
+      "year": "1987",
+      "doi": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3577251/",
+      "preprint": false,
+      "read_level": [
+        "abstract_excerpt"
+      ],
+      "supports": "Observed completed-prefix record in interrupted technical integration; excluded from primary benchmark scores/appraisal.",
+      "origin": "data/evaluation/benchmark-runs/gemma-full-agent-medqa30-20261011/answers/BM01.json"
+    },
+    {
+      "id": "PMID5821621",
+      "pmid": "5821621",
+      "title": "Acomparison of changes in the mucous glands and goblet cells of nasal, sinus, and bronchial mucosa.",
+      "authors_or_organization": "P A Burton, M F Dixon",
+      "year": "1969",
+      "doi": "10.1136/thx.24.2.180",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/5821621/",
+      "preprint": false,
+      "read_level": [
+        "abstract_excerpt"
+      ],
+      "supports": "Observed completed-prefix record in interrupted technical integration; excluded from primary benchmark scores/appraisal.",
+      "origin": "data/evaluation/benchmark-runs/gemma-full-agent-medqa30-20261011/answers/BM01.json"
+    },
+    {
+      "id": "PMID5348318",
+      "pmid": "5348318",
+      "title": "Chronic bronchitis in coal miners: ante-mortem-post-mortem comparisons.",
+      "authors_or_organization": "H I McKenzie, M Glick, K G Outhred",
+      "year": "1969",
+      "doi": "10.1136/thx.24.5.527",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/5348318/",
+      "preprint": false,
+      "read_level": [
+        "abstract_excerpt"
+      ],
+      "supports": "Observed completed-prefix record in interrupted technical integration; excluded from primary benchmark scores/appraisal.",
+      "origin": "data/evaluation/benchmark-runs/gemma-full-agent-medqa30-20261011/answers/BM01.json"
+    }
+  ],
+  "count": 5,
+  "interpretation": "Separate interrupted cohort; do not pool with primary 42 question-paper pairs. Pending episode literature/model content is not invented."
+}

@@ -1,0 +1,47 @@
+{
+  "question_id": "BM10",
+  "model_profile": "qwen3.8-27b",
+  "answer_sha256": "1e45e1cec803bb2fbb27b338eee453599300107698d4aafb933b2f378914e2ac",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "consistent"
+  },
+  "answer_notes": "Correct C. Actually reads the found guideline/review and cites explicit histologic descriptions rather than the short initial snippets. The adult guideline is used for shared celiac histology, not transferred pediatric treatment thresholds; the general review also covers any-age disease and dermatitis association.",
+  "researcher_reference_ids": [],
+  "queries": [
+    {
+      "rating": "appropriate",
+      "notes": "Targets duodenal biopsy and the defining villous/crypt pattern."
+    }
+  ],
+  "papers": {
+    "17075969": {
+      "rating": "directly_relevant",
+      "notes": "Actual read explicitly links active celiac disease, positive tTG, villous atrophy and crypt hyperplasia, including systemic/rash associations."
+    },
+    "31404667": {
+      "rating": "partially_relevant",
+      "notes": "Marsh-1 intraepithelial lymphocytosis with normal architecture is related staging background, not the expected classic atrophy/hyperplasia phenotype."
+    },
+    "32350146": {
+      "rating": "partially_relevant",
+      "notes": "Celiac/gluten autoimmune background is related, but this delivered excerpt does not describe the asked histology."
+    },
+    "25872537": {
+      "rating": "directly_relevant",
+      "notes": "Actual adult guideline abstract explicitly gives lymphocyte infiltration, crypt hyperplasia and villous atrophy; age-specific management is not inferred."
+    }
+  },
+  "citations": {
+    "P25872537_read_b12128245948": {
+      "rating": "supported",
+      "notes": "Actual read explicitly lists the three histologic changes, supporting this limited shared pathology claim rather than pediatric diagnostic thresholds."
+    },
+    "P17075969_read_c1d0a6d69a52": {
+      "rating": "supported",
+      "notes": "Actual read explicitly characterizes active disease with villous atrophy/crypt hyperplasia/positive tTG, matching the attributed pattern."
+    }
+  }
+}

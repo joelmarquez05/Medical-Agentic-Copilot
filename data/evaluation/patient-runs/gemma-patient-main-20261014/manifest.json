@@ -1,0 +1,109 @@
+{
+  "requirement": 7,
+  "version": "patient-agent-v1",
+  "stage": "main",
+  "started_at_utc": "2026-10-14T14:23:58.800618+00:00",
+  "source_hashes": {
+    "patient_memory.py": "6430b28a60047a625d9c958acc3cf75c3d3aab6d4b2adc44de272a4677e2f66c",
+    "patient_tools.py": "0d3d46462ddb2a4aa1d0313b421b07f543f02d8b7ab6d202762f5767a3960d00",
+    "patient_agent.py": "7c651b3521007742bb367a7299e11d5e06b3bbba7d406c82cdeaa6791a2985d9",
+    "patient_runtime.py": "520e26838cbf6ed46df11a9c4305adeeff55036391b6664c44642ceec4d7f1e4"
+  },
+  "selection_manifest_sha256": "7400c0dc0862dfb513f76fff1e35f6d8fa262ac9a50154c545eeaee7869a8796",
+  "aggregate_only": true,
+  "subruns": [
+    {
+      "question_id": "PM01",
+      "run_dir": "data/evaluation/patient-runs/gemma-patient-main-20261014-pm01",
+      "returncode": 0,
+      "stderr_withheld": true,
+      "fresh_python_process": true,
+      "status": "operationally_unanswered",
+      "answer_sha256": "ca93d75094f1c917268a23e0a8c55af6642e4bf8287c706f19dc49c8789a9866"
+    },
+    {
+      "question_id": "PM02",
+      "run_dir": "data/evaluation/patient-runs/gemma-patient-main-20261014-pm02",
+      "returncode": 0,
+      "stderr_withheld": true,
+      "fresh_python_process": true,
+      "status": "completed",
+      "answer_sha256": "45a242a9c896b58aeec923a53628f29af60310701d6695cf39f7656d4dfd06dc"
+    },
+    {
+      "question_id": "PM03",
+      "run_dir": "data/evaluation/patient-runs/gemma-patient-main-20261014-pm03",
+      "returncode": 0,
+      "stderr_withheld": true,
+      "fresh_python_process": true,
+      "status": "completed",
+      "answer_sha256": "387c301f511995fefe8091a9e5e1be856be50a67500ffcedf08021e29543d40c"
+    },
+    {
+      "question_id": "PM04",
+      "run_dir": "data/evaluation/patient-runs/gemma-patient-main-20261014-pm04",
+      "returncode": 0,
+      "stderr_withheld": true,
+      "fresh_python_process": true,
+      "status": "completed",
+      "answer_sha256": "d0a0840ed16592cb5d573a280cf860e463eb90707cc192ebbf999f4a3ca8f997"
+    },
+    {
+      "question_id": "PM05",
+      "run_dir": "data/evaluation/patient-runs/gemma-patient-main-20261014-pm05",
+      "returncode": 0,
+      "stderr_withheld": true,
+      "fresh_python_process": true,
+      "status": "completed",
+      "answer_sha256": "5486d5ca1c591023d6d7833fb9fbe270f67c2842a20a28ecdd82d66301da4f52"
+    },
+    {
+      "question_id": "PM06",
+      "run_dir": "data/evaluation/patient-runs/gemma-patient-main-20261014-pm06",
+      "returncode": 0,
+      "stderr_withheld": true,
+      "fresh_python_process": true,
+      "status": "completed",
+      "answer_sha256": "4a0948bd64d928c9690da994811f3684b7d428a57f3b07fc369df7211e162a8e"
+    },
+    {
+      "question_id": "PM07",
+      "run_dir": "data/evaluation/patient-runs/gemma-patient-main-20261014-pm07",
+      "returncode": 0,
+      "stderr_withheld": true,
+      "fresh_python_process": true,
+      "status": "completed",
+      "answer_sha256": "79d2e9eda2e57049b1e4b20608189c8d6b922ab11433065ef4f21f2a48cf1409"
+    },
+    {
+      "question_id": "PM08",
+      "run_dir": "data/evaluation/patient-runs/gemma-patient-main-20261014-pm08",
+      "returncode": 0,
+      "stderr_withheld": true,
+      "fresh_python_process": true,
+      "status": "completed",
+      "answer_sha256": "06c21649c80570f01f0e2f05031470e4395ed1a735a8c62baa0578caf1d4a7d4"
+    },
+    {
+      "question_id": "PM09",
+      "run_dir": "data/evaluation/patient-runs/gemma-patient-main-20261014-pm09",
+      "returncode": 0,
+      "stderr_withheld": true,
+      "fresh_python_process": true,
+      "status": "completed",
+      "answer_sha256": "3fc773a783bbb4d7d24b9581724e6a2156bf14e1c6d1a207bd48831db3447028"
+    },
+    {
+      "question_id": "PM10",
+      "run_dir": "data/evaluation/patient-runs/gemma-patient-main-20261014-pm10",
+      "returncode": 0,
+      "stderr_withheld": true,
+      "fresh_python_process": true,
+      "status": "completed",
+      "answer_sha256": "eb05392c3e51bbb833aec321666b09bcb925f8f5141bc899c59d2e47244255fe"
+    }
+  ],
+  "probe_manifest_sha256": "6315419992941dbf80e83aa7287bf87d30aa85bf570463638c317bda8f1b9618",
+  "pilot_manifest_sha256": "e5fdace11d968c07ef002f8c8e29bbbef424b45b0c3609fe9c92ef97c40fc092",
+  "finished_at_utc": "2026-10-14T14:27:08.454598+00:00"
+}

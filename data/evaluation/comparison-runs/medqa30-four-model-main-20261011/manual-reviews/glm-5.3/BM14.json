@@ -1,0 +1,58 @@
+{
+  "question_id": "BM14",
+  "model_profile": "glm-5.3",
+  "answer_sha256": "b77cc0e24f3643139dd596350aa0bddb11265a81a002b52a4055d1979204cf59",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "minor_limitation"
+  },
+  "answer_notes": "Correct D. Recognizes palpable inguinal cryptorchidism and appropriate early fixation, broadening after an empty first search. The age/descent/development rationale is actually present in its timing snippet. The guideline snippet itself is only objective/methods and cannot confirm surgical recommendations; the response acknowledges that exact palpable-management guidance was not read.",
+  "researcher_reference_ids": [
+    "R4-CL06"
+  ],
+  "queries": [
+    {
+      "rating": "partially_appropriate",
+      "notes": "Correct condition/operation but simultaneously requires palpability, inguinal site, timing and guideline terms."
+    },
+    {
+      "rating": "appropriate",
+      "notes": "Changes to the condition and early-age operative timing rather than retaining all anatomical descriptors."
+    }
+  ],
+  "papers": {
+    "27117442": {
+      "rating": "irrelevant",
+      "notes": "Fertility after acute torsion in a different population does not address elective infant cryptorchidism timing/indication."
+    },
+    "26087417": {
+      "rating": "partially_relevant",
+      "notes": "Infant cryptorchidism developmental mechanisms are related; the excerpt omits the operative timing/route recommendation."
+    },
+    "31713875": {
+      "rating": "partially_relevant",
+      "notes": "Torsion-orchiopexy atrophy and cryptorchid torsion factors are related complication background, not this uncomplicated elective decision."
+    },
+    "18726735": {
+      "rating": "directly_relevant",
+      "notes": "Clinical cryptorchidism-management guideline directly targets the question, but the delivered view only describes its objective/methods."
+    },
+    "24517905": {
+      "rating": "directly_relevant",
+      "notes": "Explicit 6-12-month target and developmental/descent rationale address the infant timing decision."
+    }
+  },
+  "citations": {
+    "P24517905_search_d000b7d78d80": {
+      "rating": "supported",
+      "notes": "Explicitly supports the 6-12-month timing, unlikely descent after three months and early gonadocyte-development rationale; not every cancer/torsion claim is credited."
+    },
+    "P18726735_search_36f520338c72": {
+      "rating": "partially_supported",
+      "notes": "Confirms that cryptorchidism-management guidelines were developed, but the delivered methods text does not give their surgical recommendation."
+    }
+  },
+  "inline_citations": {}
+}

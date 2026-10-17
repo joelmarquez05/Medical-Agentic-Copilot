@@ -1,0 +1,143 @@
+{
+  "version": "page-aware-pdf-v2",
+  "document_id": "D1d8af327ecd8",
+  "title": "Synthetic alpha case",
+  "url": null,
+  "year": null,
+  "pdf_sha256": "1d8af327ecd8c4211d5aeade6f3b0ae4f02199cd82d474d85a3878a6735289a0",
+  "page_count": 1,
+  "parser": "PyMuPDF",
+  "parser_version": "1.28.2",
+  "pages": [
+    {
+      "pdf_page": 1,
+      "printed_page": null,
+      "text": "SYNTHETIC PATIENT CASE FILE\n\nPatient: alpha\nRecord marker: ALPHA-NUTRITION-47\nRecorded supplement cartons per day: 2\nThis is a fictional record for software testing, not a prescribing recommendation.",
+      "blocks": [
+        {
+          "block_number": 0,
+          "original_block_number": 0,
+          "bbox": [
+            40.0,
+            53.875,
+            273.3850402832031,
+            74.48500061035156
+          ],
+          "raw_text": "SYNTHETIC PATIENT CASE FILE",
+          "text": "SYNTHETIC PATIENT CASE FILE"
+        },
+        {
+          "block_number": 1,
+          "original_block_number": 1,
+          "bbox": [
+            40.0,
+            98.17500305175781,
+            426.97991943359375,
+            158.63104248046875
+          ],
+          "raw_text": "Patient: alpha\nRecord marker: ALPHA-NUTRITION-47\nRecorded supplement cartons per day: 2\nThis is a fictional record for software testing, not a prescribing recommendation.",
+          "text": "Patient: alpha\nRecord marker: ALPHA-NUTRITION-47\nRecorded supplement cartons per day: 2\nThis is a fictional record for software testing, not a prescribing recommendation."
+        }
+      ],
+      "original_blocks": [
+        {
+          "block_number": 0,
+          "bbox": [
+            40.0,
+            53.875,
+            273.3850402832031,
+            74.48500061035156
+          ],
+          "lines": [
+            {
+              "bbox": [
+                40.0,
+                53.875,
+                273.3850402832031,
+                74.48500061035156
+              ],
+              "raw_text": "SYNTHETIC PATIENT CASE FILE"
+            }
+          ]
+        },
+        {
+          "block_number": 1,
+          "bbox": [
+            40.0,
+            98.17500305175781,
+            426.97991943359375,
+            158.63104248046875
+          ],
+          "lines": [
+            {
+              "bbox": [
+                40.0,
+                98.17500305175781,
+                107.26498413085938,
+                113.28900146484375
+              ],
+              "raw_text": "Patient: alpha"
+            },
+            {
+              "bbox": [
+                40.0,
+                113.28901672363281,
+                234.35897827148438,
+                128.40301513671875
+              ],
+              "raw_text": "Record marker: ALPHA-NUTRITION-47"
+            },
+            {
+              "bbox": [
+                40.0,
+                128.4030303955078,
+                238.7039337158203,
+                143.51702880859375
+              ],
+              "raw_text": "Recorded supplement cartons per day: 2"
+            },
+            {
+              "bbox": [
+                40.0,
+                143.5170440673828,
+                426.97991943359375,
+                158.63104248046875
+              ],
+              "raw_text": "This is a fictional record for software testing, not a prescribing recommendation."
+            }
+          ]
+        }
+      ],
+      "chunk_ids": [
+        "D1d8af327ecd8_p1_c1_a64814a38cd1"
+      ],
+      "text_sha256": "33e6eff380988d848741e4188daca6dcdc1bb7a2965729c58143d457f566849d",
+      "embedded_image_count": 0,
+      "no_selectable_text": false
+    }
+  ],
+  "views": {
+    "D1d8af327ecd8_p1_c1_a64814a38cd1": {
+      "id": "D1d8af327ecd8_p1_c1_a64814a38cd1",
+      "title": "Synthetic alpha case | PDF page 1",
+      "text": "SYNTHETIC PATIENT CASE FILE\n\nPatient: alpha\nRecord marker: ALPHA-NUTRITION-47\nRecorded supplement cartons per day: 2\nThis is a fictional record for software testing, not a prescribing recommendation.",
+      "text_kind": "pdf_excerpt",
+      "truncated": false,
+      "url": null,
+      "pmid": null,
+      "year": null
+    }
+  },
+  "locators": {
+    "D1d8af327ecd8_p1_c1_a64814a38cd1": {
+      "document_id": "D1d8af327ecd8",
+      "pdf_page": 1,
+      "printed_page": null,
+      "chunk": 1,
+      "start_character": 0,
+      "end_character": 199
+    }
+  },
+  "extraction": "Merged narrow column lines split using geometry, then blocks grouped into full-width bands and left/right columns; Unicode ligatures and word line-hyphenation normalized. Original lines/blocks/coordinates retained; numeric ranges not rewritten.",
+  "limits": "Text layer only; no OCR, image/flowchart reasoning, table semantics or universal reading-order guarantee. Unknown glyph mappings and cross-page continuations remain visible."
+}

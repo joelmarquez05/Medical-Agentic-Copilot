@@ -1,0 +1,50 @@
+{
+  "question_id": "BM15",
+  "model_profile": "qwen3.8-27b",
+  "answer_sha256": "9a305de3ece8c54895a46751148586899c4940e2aeb89e2651820043bab12a35",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "minor_limitation"
+  },
+  "answer_notes": "Correct D. Properly uses the ondansetron excerpt for emetic-receptor localization in AP rather than explicitly attributing its 5-HT3 findings to D2. The AP snippet supports involvement but not every BBB/metoclopramide or direct-stimulus detail. Independent drug labeling supports pharmacology, without counting as agent retrieval.",
+  "researcher_reference_ids": [
+    "R4-CL12"
+  ],
+  "queries": [
+    {
+      "rating": "appropriate",
+      "notes": "Targets chemotherapy emesis, AP and the responsive drug directly."
+    }
+  ],
+  "papers": {
+    "1485177": {
+      "rating": "directly_relevant",
+      "notes": "Explicit AP role and circulating versus neurally mediated hypotheses directly address the site; dog experiments in the excerpt do not support a circulating-substance role."
+    },
+    "25295673": {
+      "rating": "partially_relevant",
+      "notes": "Bacopa/cisplatin pigeon neurochemical work is related emesis physiology, not metoclopramide/etoposide site verification."
+    },
+    "1838490": {
+      "rating": "partially_relevant",
+      "notes": "5-HT3/ondansetron receptors in GI/AP are related localization evidence but a different receptor/drug from metoclopramide D2."
+    },
+    "31768887": {
+      "rating": "partially_relevant",
+      "notes": "Gingerol/cisplatin rat-mink neurotransmitter experiments are related emesis background, with different intervention/species and no specific metoclopramide site in the view."
+    }
+  },
+  "citations": {
+    "P1485177_search_bcfefe9224ee": {
+      "rating": "partially_supported",
+      "notes": "Supports AP importance but not the full BBB/drug-specific stimulus account; circulating-substance evidence is specifically questioned in dogs."
+    },
+    "P1838490_search_5ba59cfba4c3": {
+      "rating": "supported",
+      "notes": "Explicitly places emetic 5-HT3 receptors in GI tract/AP, matching the limited claim of emetic receptor pathways there. Unlike a D2 attribution, it is not credited as metoclopramide-specific evidence."
+    }
+  },
+  "inline_citations": {}
+}

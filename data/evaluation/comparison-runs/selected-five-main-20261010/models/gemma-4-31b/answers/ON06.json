@@ -1,0 +1,23 @@
+{
+  "question": "A synthetic adult with cancer has a BMI of 15, negligible intake for eight days, and low phosphate before feeding. Should full maintenance calories be started immediately? Outline the safe principles for restarting nutrition and monitoring, without giving an individualized electrolyte prescription.",
+  "status": "not_run_provider_unavailable",
+  "answer": "",
+  "model_calls": [],
+  "tool_results": [],
+  "trace": [],
+  "elapsed_seconds": 0,
+  "usage": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "total_tokens": 0
+  },
+  "live_pubmed_requests": 0,
+  "prompt_version": "requirement-5-fixed-evidence-v2",
+  "evidence_mode": "fixed_previously_retrieved_pubmed_plus_guidance",
+  "reason": "No request sent after 3 consecutive model-question failures ending in a provider request error. Not a measured medical response.",
+  "consecutive_provider_failures": 3,
+  "question_id": "ON06",
+  "profile": "gemma-4-31b",
+  "evidence_sha256": "32f1d9898ec874ad99b60ae54acb31c8b34ff1fb294eae34a2f9185daefe3b14",
+  "response_audit": []
+}

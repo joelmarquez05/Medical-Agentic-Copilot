@@ -1,0 +1,28 @@
+{
+  "stage": "probe",
+  "conditions": {
+    "B-full-context": {
+      "planned": 1,
+      "recorded": 1,
+      "statuses": {
+        "completed": 1
+      },
+      "valid_completed": 1,
+      "terminal_message_coverage": 1,
+      "application_fallbacks": 0,
+      "provider_requests": 1,
+      "cost_usd": 0.00315057,
+      "unknown_charge_records": 0,
+      "input_tokens": 31913,
+      "output_tokens": 928,
+      "reasoning_tokens": 505,
+      "elapsed_provider_seconds": 30.426,
+      "successful_pdf_tool_calls": 0,
+      "max_input_bytes": 109437,
+      "cited_views": 3
+    }
+  },
+  "provider_requests": 1,
+  "cost_usd": 0.00315057,
+  "interpretation": "Exact option score, explanation/citation support and retrieval efficiency remain separate."
+}

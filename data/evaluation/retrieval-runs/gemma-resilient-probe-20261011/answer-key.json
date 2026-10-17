@@ -1,0 +1,151 @@
+{
+  "status": "Prepared internal set after user request for some PubMed-data questions; not yet evaluated",
+  "generation_access": "Evaluator only; keys, fact fields, source IDs and quotes never enter model inputs",
+  "keys": [
+    {
+      "question_id": "IC01",
+      "answer_idx": "B",
+      "answer": "C. difficile colitis",
+      "reference_source_ids": [
+        "CL01"
+      ],
+      "reference_locator": "Antibiotic exposure and compatible diarrhea; supports the differential, not a confirmed diagnosis without testing.",
+      "key_origin": "Unchanged answer_idx/answer in released training row; reference sources do not replace the key",
+      "key_type": "released_medqa_label"
+    },
+    {
+      "question_id": "IC02",
+      "answer_idx": "B",
+      "answer": "Acute pericarditis",
+      "reference_source_ids": [
+        "CL02"
+      ],
+      "reference_locator": "Classic pericarditis findings; the older guideline supports these findings, not a claim to current comprehensive management.",
+      "key_origin": "Unchanged answer_idx/answer in released training row; reference sources do not replace the key",
+      "key_type": "released_medqa_label"
+    },
+    {
+      "question_id": "IC03",
+      "answer_idx": "A",
+      "answer": "Hypothyroidism",
+      "reference_source_ids": [
+        "CL03",
+        "CL03B"
+      ],
+      "reference_locator": "Supports hypothyroidism-associated hyperprolactinemia; also inspect the medication distractor rather than ignoring it.",
+      "key_origin": "Unchanged answer_idx/answer in released training row; reference sources do not replace the key",
+      "key_type": "released_medqa_label"
+    },
+    {
+      "question_id": "IC04",
+      "answer_idx": "B",
+      "answer": "Heparin drip",
+      "reference_source_ids": [
+        "CL05"
+      ],
+      "reference_locator": "Supports immediate unfractionated heparin while urgent revascularization is assessed; heparin alone is not definitive limb rescue.",
+      "key_origin": "Unchanged answer_idx/answer in released training row; reference sources do not replace the key",
+      "key_type": "released_medqa_label"
+    },
+    {
+      "question_id": "IC05",
+      "answer_idx": "B",
+      "answer": "Administer intrapartum intravenous penicillin",
+      "reference_source_ids": [
+        "CL06"
+      ],
+      "reference_locator": "Previous GBS-infected newborn is an indication for intrapartum prophylaxis; penicillin is the preferred agent when applicable.",
+      "key_origin": "Unchanged answer_idx/answer in released training row; reference sources do not replace the key",
+      "key_type": "released_medqa_label"
+    },
+    {
+      "question_id": "IC06",
+      "answer_idx": "A",
+      "answer": "Magnesium sulfate and labetalol therapy",
+      "reference_source_ids": [
+        "CL07"
+      ],
+      "reference_locator": "Supports magnesium sulfate consideration and immediate antihypertensive therapy; stabilization does not settle delivery timing.",
+      "key_origin": "Unchanged answer_idx/answer in released training row; reference sources do not replace the key",
+      "key_type": "released_medqa_label"
+    },
+    {
+      "question_id": "IC07",
+      "answer_idx": "D",
+      "answer": "Protamine sulfate",
+      "reference_source_ids": [
+        "CL08"
+      ],
+      "reference_locator": "Label indication supports protamine for heparin overdose; no dose is derived from the vignette.",
+      "key_origin": "Unchanged answer_idx/answer in released training row; reference sources do not replace the key",
+      "key_type": "released_medqa_label"
+    },
+    {
+      "question_id": "IC08",
+      "answer_idx": "B",
+      "answer": "Mortality was 14.5% versus 16.1%; 7 days was noninferior to 14 days.",
+      "key_type": "published_trial_fact",
+      "key_origin": "Project-authored options; exact published numeric results/conclusion verified against original NCBI PubMed abstract, not a released exam label or LLM judge",
+      "verified_facts": {
+        "mortality_7_days_percent": 14.5,
+        "mortality_14_days_percent": 16.1,
+        "reported_design_conclusion": "noninferiority"
+      },
+      "reference_source_ids": [
+        "BALANCE"
+      ],
+      "support_quote": "261 patients (14.5%) receiving antibiotics for 7 days had died and 286 patients (16.1%) receiving antibiotics for 14 days had died",
+      "quote_word_count": 21,
+      "pmid": "39565030",
+      "doi": "10.1056/nejmoa2404991",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39565030/",
+      "reference_abstract_sha256": "35f619e2c5082d34fb63240e477e1a8be329bccfad8eec7eb02f45c70266bd47",
+      "reference_note": "Main trial, not its pilot or subgroup publications. Noninferiority is not superiority; limits include exclusion of severe immunosuppression and S. aureus bloodstream infection."
+    },
+    {
+      "question_id": "IC09",
+      "answer_idx": "D",
+      "answer": "Deep-vein thrombosis was 2.51% with aspirin and 1.71% with low-molecular-weight heparin.",
+      "key_type": "published_trial_fact",
+      "key_origin": "Project-authored options; exact published numeric results/conclusion verified against original NCBI PubMed abstract, not a released exam label or LLM judge",
+      "verified_facts": {
+        "dvt_aspirin_percent": 2.51,
+        "dvt_lmwh_percent": 1.71
+      },
+      "reference_source_ids": [
+        "PREVENT_CLOT"
+      ],
+      "support_quote": "Deep-vein thrombosis occurred in 2.51% of patients in the aspirin group and 1.71% in the low-molecular-weight-heparin group",
+      "quote_word_count": 17,
+      "pmid": "36652352",
+      "doi": "10.1056/nejmoa2205973",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36652352/",
+      "reference_abstract_sha256": "048eef01bbf8979a0639deec929b8c309ab2ec87a74de8b18653f05712753dfa",
+      "reference_note": "Use the original randomized trial, not later subgroup analyses. Distinguish DVT from pulmonary embolism and noninferior mortality from equality of every outcome."
+    },
+    {
+      "question_id": "IC10",
+      "answer_idx": "C",
+      "answer": "Hazard ratio 0.86 (95% CI 0.77-0.96); events in 12.0% versus 13.8%.",
+      "key_type": "published_trial_fact",
+      "key_origin": "Project-authored options; exact published numeric results/conclusion verified against original NCBI PubMed abstract, not a released exam label or LLM judge",
+      "verified_facts": {
+        "hazard_ratio_mace": 0.86,
+        "ci_lower": 0.77,
+        "ci_upper": 0.96,
+        "semaglutide_events_percent": 12.0,
+        "placebo_events_percent": 13.8
+      },
+      "reference_source_ids": [
+        "SOUL"
+      ],
+      "support_quote": "hazard ratio, 0.86; 95% confidence interval, 0.77 to 0.96",
+      "quote_word_count": 9,
+      "pmid": "40162642",
+      "doi": "10.1056/nejmoa2501006",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40162642/",
+      "reference_abstract_sha256": "fe24869db2888d452ceba0f37af0ebec49c849ca3d4480f93a15760e333d044f",
+      "reference_note": "Oral SOUL trial, not subcutaneous SELECT/FLOW or pooled meta-analysis. Primary cardiovascular result does not establish improvement in every secondary kidney outcome."
+    }
+  ]
+}

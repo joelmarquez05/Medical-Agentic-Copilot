@@ -1,0 +1,39 @@
+{
+  "question_id": "BM07",
+  "model_profile": "qwen3.8-27b",
+  "answer_sha256": "c9d3afbfc1b0b9a86f076512524eb552a071f6988812ce01042c0341923ea00f",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "minor_limitation"
+  },
+  "answer_notes": "Correct D. Appropriate burn-related mucosal hypoperfusion mechanism. The general acute-ulcer review supports ischemia, but the thermal-injury search excerpt contains investigation methods rather than evidence of measured reduction. Acknowledges truncated evidence without resolving that claim gap.",
+  "researcher_reference_ids": [],
+  "queries": [
+    {
+      "rating": "appropriate",
+      "notes": "Targets burn stress ulceration, mucosal flow and ischemia together."
+    }
+  ],
+  "papers": {
+    "4053922": {
+      "rating": "directly_relevant",
+      "notes": "Visible acute-ulcer discussion identifies local ischemia as the earliest recognizable lesion, directly addressing the mechanistic option."
+    },
+    "7095361": {
+      "rating": "directly_relevant",
+      "notes": "Human gastric-hemodynamic study directly examines stress lesions after thermal/head injury; search text is methods only, while a read exposes measured volume reductions and conclusions."
+    }
+  },
+  "citations": {
+    "P4053922_search_2f724eaca4c7": {
+      "rating": "supported",
+      "notes": "Actual acute-ulcer text supports local ischemia as the initial lesion; not every burn-specific fact is independently verified."
+    },
+    "P7095361_search_2b39ea57f652": {
+      "rating": "partially_supported",
+      "notes": "Methods establish that mucosal flow in thermal/head injury was studied, but the agent-attributed reduced-flow finding is outside the delivered excerpt."
+    }
+  }
+}

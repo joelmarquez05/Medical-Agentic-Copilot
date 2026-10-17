@@ -1,0 +1,45 @@
+{
+  "question_id": "BM21",
+  "model_profile": "mimo-v2.6-pro",
+  "answer_sha256": "0d4d52c5bf06cde8ecff366703549fa07060f88aa8cb5b023175ce2c671c2e19",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "minor_limitation",
+    "reference_concordance": "material_issue",
+    "calibration_and_provenance": "minor_limitation"
+  },
+  "answer_notes": "Released-key mismatch, with a medically possible colchicine toxicity alternative. The read search excerpt confirms colchicine-associated myelosuppression but not its mechanism, frequency or proposed azathioprine-colchicine interaction. More consequentially, dismissing XO-inhibitor-associated pancytopenia ignores the IBD thiopurine-interaction clue; patient drugs are unknown and cannot be reconstructed as fact.",
+  "researcher_reference_ids": [
+    "R4-CL08",
+    "R4-CL09"
+  ],
+  "queries": [
+    {
+      "rating": "appropriate",
+      "notes": "Clinically relevant colchicine cytopenia/gout query, despite no results."
+    },
+    {
+      "rating": "appropriate",
+      "notes": "Broader colchicine marrow-suppression search retrieves the specific systematic review."
+    }
+  ],
+  "papers": {
+    "36319015": {
+      "rating": "directly_relevant",
+      "notes": "Excerpt explicitly states colchicine-associated myelosuppression and review objective, not subgroup results or a thiopurine interaction."
+    }
+  },
+  "citations": {
+    "P36319015_search_6dc59f6fc6b8": {
+      "rating": "supported",
+      "notes": "Supports the carefully scoped existence of colchicine-associated myelosuppression, not superiority over the intended allopurinol interaction or the added AZA interaction claim."
+    }
+  },
+  "inline_citations": {},
+  "review_revision": {
+    "reason": "Normalize the accidentally used material_concern label to the frozen rubric material_issue label; no observation or judgment changes.",
+    "prior_note": "manual-review-revisions/20261012-before-rating-name-fix/mimo-v2.6-pro/BM21.json",
+    "prior_note_sha256": "d648d4d4ef3ea1dbb79c6349f8639bb7c33e21c58a8c585acda5e2edfab1941e",
+    "date": "2026-10-12"
+  }
+}

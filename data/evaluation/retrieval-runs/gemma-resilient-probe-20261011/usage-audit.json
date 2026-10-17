@@ -1,0 +1,35 @@
+{
+  "records": [
+    {
+      "question_id": "PILOT-01",
+      "started_at_utc": "2026-10-11T17:08:21+00:00",
+      "estimated_maximum_usd": 0.006328799999999999,
+      "request_sent": true,
+      "status": "ok",
+      "usage": {
+        "input_tokens": 1084,
+        "output_tokens": 760,
+        "total_tokens": 1844
+      },
+      "provider_usage": {
+        "prompt_tokens": 1084,
+        "completion_tokens": 760,
+        "total_tokens": 1844,
+        "cost": 0.00024417,
+        "reasoning_tokens": 623
+      },
+      "cost_usd": 0.00024417,
+      "cost_basis": "Provider-reported usage.cost.",
+      "finish_reason": "stop",
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "provider_route": "Configured pin; actual route not independently exposed by this response.",
+      "elapsed_seconds": 7.467
+    }
+  ],
+  "budget": {
+    "limit_usd": 6.0,
+    "reported_or_estimated_spend_usd": 3.87702135,
+    "unreported_charge_reserve_usd": 0.15,
+    "policy": "Before each paid request, reserve a conservative prompt-byte estimate plus the full output cap at configured provider price ceilings. Failed requests without usage retain that reserve. This is a local guard, not a provider billing guarantee."
+  }
+}

@@ -1,0 +1,868 @@
+{
+  "reviewer": "Unblinded implementation assistant; explicit post-generation notes, no paid judge or independent clinician",
+  "rubric_sha256": "f5b4e5e9887e54a7f6358b9fec4dcf7dea9a8a1f1baf26ff6d90238371c76846",
+  "episodes": [
+    {
+      "question_id": "IC01",
+      "answer_sha256": "2e818929f3e6d4221623bacff1d61adfda60ffa5f80b8007e96b353e3ffaa6a0",
+      "search_decision": "searched",
+      "query_assessments": [
+        {
+          "query": "levofloxacin antibiotic associated C. difficile colitis",
+          "status": "ok",
+          "rating": "appropriate",
+          "brief_reason": "Targets the correct case/trial topic; actual returned coverage is separately graded."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "38387648",
+          "title": "Anaerobic Antibiotic Coverage in Aspiration Pneumonia and the Associated Benefits and Harms: A Retrospective Cohort Study.",
+          "authors": "Anthony D Bai, Siddhartha Srivastava, Geneviève C Digby, Vincent Girard, Fahad Razak, Amol A Verma",
+          "year": "2024",
+          "doi": "10.1016/j.chest.2024.02.025",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38387648/",
+          "generation_view_ids": [
+            "P38387648_search_bcdc786ab5bc"
+          ],
+          "generation_view_sha256": {
+            "P38387648_search_bcdc786ab5bc": "0b6638b34de7d65421ff3893569644eebeee9584211b6b71a97ed21511d47493"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Aspiration-pneumonia antibiotic harms context; visible excerpt does not establish this diarrhea diagnosis."
+        },
+        {
+          "pmid": "18067688",
+          "title": "Do fluoroquinolones predispose patients to Clostridium difficile associated disease? A review of the evidence.",
+          "authors": "Abhishek Deshpande, Chaitanya Pant, Anil Jain, Thomas G Fraser, David D K Rolston",
+          "year": "2008",
+          "doi": "10.1185/030079908x253735",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18067688/",
+          "generation_view_ids": [
+            "P18067688_search_2f4fc88f4adb"
+          ],
+          "generation_view_sha256": {
+            "P18067688_search_2f4fc88f4adb": "d3e65dbaa76d89d8f12696d9db4777b558cf96aa5c2828031ee9b6f101e0d4c0"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Review explicitly addresses fluoroquinolone predisposition to C. difficile disease; visible start establishes antimicrobial exposure generally."
+        },
+        {
+          "pmid": "24907488",
+          "title": "Clostridium difficile infection among immunocompromised patients in Rio de Janeiro, Brazil and detection of moxifloxacin resistance in a ribotype 014 strain.",
+          "authors": "Danielle Angst Secco, Ilana Teruszkin Balassiano, Renata Ferreira Boente, Karla Rodrigues Miranda, Jon Brazier, Val Hall, Joaquim dos Santos-Filho, Leandro Araujo Lobo, Simone Aranha Nouér, Regina Maria Cavalcanti Pilotto Domingues",
+          "year": "2014",
+          "doi": "10.1016/j.anaerobe.2014.05.013",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24907488/",
+          "generation_view_ids": [
+            "P24907488_search_820b3d4319d4"
+          ],
+          "generation_view_sha256": {
+            "P24907488_search_820b3d4319d4": "de0bf9dd13e2295d4985556d669a60c371f96e36f7eb47adcad08d044e871f89"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Immunocompromised-patient microbiology context; excerpt supports flora disruption generally, not levofloxacin-specific risk."
+        },
+        {
+          "pmid": "17620240",
+          "title": "Emergence and control of fluoroquinolone-resistant, toxin A-negative, toxin B-positive Clostridium difficile.",
+          "authors": "Denise Drudy, Norma Harnedy, Seamus Fanning, Margaret Hannan, Lorraine Kyne",
+          "year": "2007",
+          "doi": "10.1086/519181",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17620240/",
+          "generation_view_ids": [
+            "P17620240_search_e6cc1d87c678"
+          ],
+          "generation_view_sha256": {
+            "P17620240_search_e6cc1d87c678": "cbe7790f8fa39473100ac259e6e15ff742414a5b3ee63273db59f3d795584c46"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Fluoroquinolone-resistant C. difficile outbreak; related organism/exposure, not the case's diagnostic discrimination."
+        },
+        {
+          "pmid": "28736259",
+          "title": "Molecular epidemiology and antimicrobial susceptibility of Clostridium difficile isolated from the Chinese People's Liberation Army General Hospital in China.",
+          "authors": "Rui Wang, Lin Suo, Hui Xia Chen, Lin Jian Song, Yue Yun Shen, Yan Ping Luo",
+          "year": "2018",
+          "doi": "10.1016/j.ijid.2017.07.010",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28736259/",
+          "generation_view_ids": [
+            "P28736259_search_679b98f2c3fe"
+          ],
+          "generation_view_sha256": {
+            "P28736259_search_679b98f2c3fe": "fe4f74b695842d5c2ab56b4700545b9216cdd445c6402da3fd2cf5345bdf6df9"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Molecular epidemiology/susceptibility; introductory antibiotic-associated diarrhea context rather than decisive fluoroquinolone evidence."
+        }
+      ],
+      "citation_assessments": [
+        {
+          "source_id": "P18067688_search_2f4fc88f4adb",
+          "pmid": "18067688",
+          "rating": "partially_supported",
+          "brief_reason": "Fluoroquinolone review title and generic antimicrobial risk text support related risk; the short excerpt does not show the full levofloxacin/microbiota claim.",
+          "model_visible_text_sha256": "dce80a086ab432c6cdf90e46c7e5905349f112787d986bc733ba67a75b9fc2e8",
+          "interpretation": "Specific delivered-text support, not medical-key judgment or full-text verification."
+        },
+        {
+          "source_id": "P24907488_search_820b3d4319d4",
+          "pmid": "24907488",
+          "rating": "partially_supported",
+          "brief_reason": "Normal intestinal flora disruption by antibiotics is discussed, but the excerpt does not establish significant fluoroquinolone risk.",
+          "model_visible_text_sha256": "a09dd09b32ed7c08ca66b4b94206c2ff6b9f21eb0ab5fff9ec8f12b264bd54b6",
+          "interpretation": "Specific delivered-text support, not medical-key judgment or full-text verification."
+        },
+        {
+          "source_id": "P28736259_search_679b98f2c3fe",
+          "pmid": "28736259",
+          "rating": "partially_supported",
+          "brief_reason": "Generic antibiotic-associated diarrhea is supported; specific fluoroquinolone predisposition/mechanism exceeds this excerpt.",
+          "model_visible_text_sha256": "06c9f111fa9470a9fdcb93a6aeecb39583bff38763a9f76e7d8aeba7c087c958",
+          "interpretation": "Specific delivered-text support, not medical-key judgment or full-text verification."
+        }
+      ],
+      "reference_example_found": null,
+      "reference_example_pmid": null,
+      "answer_evidence_notes": "Correct B; supplied antibiotic exposure, diarrhea and leukocytosis support the most-likely diagnosis. Three real sources are cited, but their 400-character views do not establish every fluoroquinolone/mechanism claim. No stool result is invented. Citation-array IDs are valid; prose uses shortened PMID-like aliases rather than exact view IDs.",
+      "operational_tool_errors": 0
+    },
+    {
+      "question_id": "IC02",
+      "answer_sha256": "a696462770591da06c35e235324d667ad9f7d06dd54ab451e45bf03b3a8d92cc",
+      "search_decision": "answered_directly",
+      "query_assessments": [],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "reference_example_found": null,
+      "reference_example_pmid": null,
+      "answer_evidence_notes": "Correct B; positional pain and the supplied rub/negative examination findings drive the answer. Pleuritic pain and worsening lying flat are added descriptors rather than exact stem details. Direct knowledge-based answer acknowledges absent verification.",
+      "operational_tool_errors": 0
+    },
+    {
+      "question_id": "IC03",
+      "answer_sha256": "bc1d52db24efdb2cd737563033caf7aa9c40bba8284a302eee28b433484874f8",
+      "search_decision": "searched",
+      "query_assessments": [
+        {
+          "query": "hypothyroidism hyperprolactinemia mechanism TRH",
+          "status": "ok",
+          "rating": "appropriate",
+          "brief_reason": "Targets the correct case/trial topic; actual returned coverage is separately graded."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "39227558",
+          "title": "Traumatic brain injury and prolactin.",
+          "authors": "Aysa Hacioglu, Fatih Tanriverdi",
+          "year": "2024",
+          "doi": "10.1007/s11154-024-09904-x",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39227558/",
+          "generation_view_ids": [
+            "P39227558_search_80d40c161b7d"
+          ],
+          "generation_view_sha256": {
+            "P39227558_search_80d40c161b7d": "b5bbb9d6c187b2f9e3197be59239819c9542af74e49a81d73dc0ac8fed61e01e"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "irrelevant",
+          "brief_reason": "Traumatic-brain-injury pituitary dysfunction differs from this primary untreated hypothyroidism mechanism."
+        },
+        {
+          "pmid": "18996577",
+          "title": "Effects of gonadectomy on prolactin and LH secretion and the pituitary-thyroid axis in male dogs.",
+          "authors": "A-R Günzel-Apel, A Seefeldt, F M Eschricht, C Urhausen, S Kramer, R Mischke, H-O Hoppen, M Beyerbach, M Koivisto, S J Dieleman",
+          "year": "2009",
+          "doi": "10.1016/j.theriogenology.2008.09.047",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18996577/",
+          "generation_view_ids": [
+            "P18996577_search_dd8681fdb952"
+          ],
+          "generation_view_sha256": {
+            "P18996577_search_dd8681fdb952": "d2533277e9dd2a3b08b5509e75b094f73e4f8c8c2757405dd7cdfa85e5e82660"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "irrelevant",
+          "brief_reason": "Gonadectomy/cabergoline/TRH experiments in dogs do not address this human primary-thyroid case."
+        },
+        {
+          "pmid": "3344469",
+          "title": "Combined thyrotroph and lactotroph cell hyperplasia simulating prolactin-secreting pituitary adenoma in long-standing primary hypothyroidism.",
+          "authors": "E P Pioro, B W Scheithauer, E R Laws, R V Randall, K T Kovacs, E Horvath",
+          "year": "1988",
+          "doi": "10.1016/0090-3019(88)90010-9",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/3344469/",
+          "generation_view_ids": [
+            "P3344469_search_e3269d6741fc"
+          ],
+          "generation_view_sha256": {
+            "P3344469_search_e3269d6741fc": "b58431841f601fc5632769e67c45b71f63782f9765b8e8b705b79c5122e2ed55"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Human primary-hypothyroidism/hyperprolactinemia association and pituitary differential; excerpt does not show the complete TRH explanation."
+        },
+        {
+          "pmid": "1832134",
+          "title": "Hormone studies in females with androgenic hairloss.",
+          "authors": "J B Schmidt, A Lindmaier, A Trenz, B Schurz, J Spona",
+          "year": "1991",
+          "doi": "10.1159/000293166",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/1832134/",
+          "generation_view_ids": [
+            "P1832134_search_4be76e3776f3"
+          ],
+          "generation_view_sha256": {
+            "P1832134_search_4be76e3776f3": "0142c2d1ea762d2c510b1566e1147f0210ca4a80ec08b23afee7dc7b71d5f551"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "irrelevant",
+          "brief_reason": "Female androgenic hair-loss hormone testing does not explain this hypothyroid galactorrhea case."
+        },
+        {
+          "pmid": "7753340",
+          "title": "Effect of thyroid status on the prolactin-releasing action of vasoactive intestinal peptide in humans: comparison with the action of thyrotropin-releasing hormone.",
+          "authors": "H Watanobe, S Sasaki",
+          "year": "1995",
+          "doi": "10.1159/000126842",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7753340/",
+          "generation_view_ids": [
+            "P7753340_search_0b832723950c"
+          ],
+          "generation_view_sha256": {
+            "P7753340_search_0b832723950c": "e345e9a9aad1381477e68bb59b89bacdc079494b8b85b8bb078e5d06ecf24a31"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Human thyroid-status/prolactin/TRH mechanism topic; excerpt begins with a related VIP hypothesis and is insufficient to verify all mechanisms."
+        }
+      ],
+      "citation_assessments": [
+        {
+          "source_id": "P3344469_search_e3269d6741fc",
+          "pmid": "3344469",
+          "rating": "partially_supported",
+          "brief_reason": "Hypothyroidism/hyperprolactinemia association is supported; full TRH mechanism is absent and explicitly acknowledged as background knowledge.",
+          "model_visible_text_sha256": "c63ca2aceea2d7a977cde68f91580fdc6fb068d08595c7c2501fcda07025e868",
+          "interpretation": "Specific delivered-text support, not medical-key judgment or full-text verification."
+        }
+      ],
+      "reference_example_found": null,
+      "reference_example_pmid": null,
+      "answer_evidence_notes": "Correct A with untreated hypothyroidism, elevated TSH and hyperprolactinemia. Actual human hypothyroidism excerpt supports the association; the answer explicitly distinguishes the unshown TRH mechanism as background knowledge. Clozapine attribution is not verified by these views. Repetition and stating that TSH alone confirms primary disease reduce precision; option remains unchanged.",
+      "operational_tool_errors": 0
+    },
+    {
+      "question_id": "IC04",
+      "answer_sha256": "c993e011c308c3a56aaf475dcabf4fbe672c8fd30e1a0b12abf850f30827c140",
+      "search_decision": "searched",
+      "query_assessments": [
+        {
+          "query": "acute limb ischemia management Rutherford IIb III surgical thrombectomy vs thrombolysis",
+          "status": "ok",
+          "rating": "partially_appropriate",
+          "brief_reason": "Related topic but restrictive terms or missing decisive guideline wording limit coverage; no external verification follows."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "38871066",
+          "title": "Multilevel thrombotic or embolic burden and its role in sex-related outcomes in acute limb ischemia.",
+          "authors": "Ilse Torres Ruiz, Xin Yee Ooi, Lauren Harry, Cuneyt Koksoy, Zachary S Pallister, Ramyar Gilani, Joseph L Mills, Charles J Bailey, Jayer Chung",
+          "year": "2024",
+          "doi": "10.1016/j.jvs.2024.06.007",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38871066/",
+          "generation_view_ids": [
+            "P38871066_search_48d44d18de88"
+          ],
+          "generation_view_sha256": {
+            "P38871066_search_48d44d18de88": "947e54c734d760539d8b63e9cb73b26e297337aa4db3da9e199f6ab314451c7b"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "ALI percutaneous outcomes and sex differences, not the immediate heparin-versus-rescue management question."
+        },
+        {
+          "pmid": "33068768",
+          "title": "Safety and efficacy of an endovascular-first approach to acute limb ischemia.",
+          "authors": "Olia Poursina, Hector Elizondo-Adamchik, Miguel Montero-Baker, Zachary S Pallister, Joseph L Mills, Jayer Chung",
+          "year": "2021",
+          "doi": "10.1016/j.jvs.2020.10.002",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33068768/",
+          "generation_view_ids": [
+            "P33068768_search_b7a77e0f6e1d"
+          ],
+          "generation_view_sha256": {
+            "P33068768_search_b7a77e0f6e1d": "77912c5fbd0a5ba044c31f8b7f780c1729f2cef5479a64bcd2f37b26dc744c2c"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Endovascular-first ALI management cohort; introductory uncertainty without the decisive next-step recommendation."
+        }
+      ],
+      "citation_assessments": [],
+      "reference_example_found": null,
+      "reference_example_pmid": null,
+      "answer_evidence_notes": "C still differs from released B. The answer recognizes limb-threatening ischemia and acknowledges immediate heparin, but prioritizes definitive thrombectomy over the released initial-treatment choice. This known prioritization ambiguity remains. It calls IIb diagnostic without Doppler/complete viability assessment and labels IIa viable rather than marginally threatened. No current guideline was actually retrieved/read; the two endovascular cohort excerpts cannot validate its preferred next step. Its statement that no evidence was verified is distinct from having performed a search.",
+      "operational_tool_errors": 0
+    },
+    {
+      "question_id": "IC05",
+      "answer_sha256": "3f09947aaf2e49289704e73fef9922de1d48e942d16e7d133bdc042eea4d4ed3",
+      "search_decision": "searched",
+      "query_assessments": [
+        {
+          "query": "GBS prophylaxis previous infant invasive disease",
+          "status": "ok",
+          "rating": "partially_appropriate",
+          "brief_reason": "Related topic but restrictive terms or missing decisive guideline wording limit coverage; no external verification follows."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "35490693",
+          "title": "Group B streptococcus infection during pregnancy and infancy: estimates of regional and global burden.",
+          "authors": "Bronner P Gonçalves, Simon R Procter, Proma Paul, Jaya Chandna, Alexandra Lewin, Farah Seedat, Artemis Koukounari, Ziyaad Dangor, Shannon Leahy, Sridhar Santhanam, Hima B John, Justina Bramugy, Azucena Bardají, Amina Abubakar, Carophine Nasambu, Romina Libster, Clara Sánchez Yanotti, Erzsébet Horváth-Puhó, Henrik T Sørensen, Diederik van de Beek, Merijn W Bijlsma, William M Gardner, Nicholas Kassebaum, Caroline Trotter, Quique Bassat, Shabir A Madhi, Philipp Lambach, Mark Jit, Joy E Lawn, GBS Danish and Dutch collaborative group for long term outcomes, GBS Low and Middle Income Countries collaborative group for long term outcomes, GBS Scientific Advisory Group, epidemiological sub-group, CHAMPS team",
+          "year": "2022",
+          "doi": "10.1016/S2214-109X(22)00093-6",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35490693/",
+          "generation_view_ids": [
+            "P35490693_search_0d50dbe69811"
+          ],
+          "generation_view_sha256": {
+            "P35490693_search_0d50dbe69811": "e65afe49dc492f5607d8901608ebd46d7b51e93aa4dd200dd4b49f0a73250235"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Global GBS burden rather than prior affected infant prophylaxis indication."
+        },
+        {
+          "pmid": "30808831",
+          "title": "Group B Streptococcus Colonization in Late Pregnancy and Invasive Infection in Neonates in China: A Population-Based 3-Year Study.",
+          "authors": "Yao Zhu, Jing Huang, Xin-Zhu Lin, Chao Chen",
+          "year": "2019",
+          "doi": "10.1159/000494133",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30808831/",
+          "generation_view_ids": [
+            "P30808831_search_977116fb6b6f"
+          ],
+          "generation_view_sha256": {
+            "P30808831_search_977116fb6b6f": "3ed71c8743945d15f496013379f427dbb1e09ff06fd19e7306a040e91ae20419"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Late-pregnancy colonization/neonatal infection cohort rather than this immediate guideline indication."
+        },
+        {
+          "pmid": "36917564",
+          "title": "Maternal immunisation against Group B Streptococcus: A global analysis of health impact and cost-effectiveness.",
+          "authors": "Simon R Procter, Bronner P Gonçalves, Proma Paul, Jaya Chandna, Farah Seedat, Artemis Koukounari, Raymond Hutubessy, Caroline Trotter, Joy E Lawn, Mark Jit",
+          "year": "2023",
+          "doi": "10.1371/journal.pmed.1004068",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36917564/",
+          "generation_view_ids": [
+            "P36917564_search_6fb6d86bae5b"
+          ],
+          "generation_view_sha256": {
+            "P36917564_search_6fb6d86bae5b": "76e4e6fdcd3f525d712752d74761eeb323c35b435b57f408da5865e654d6e79c"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "GBS maternal-vaccine impact/cost model, not intrapartum management after a previous affected infant."
+        },
+        {
+          "pmid": "29117326",
+          "title": "Infant Group B Streptococcal Disease Incidence and Serotypes Worldwide: Systematic Review and Meta-analyses.",
+          "authors": "Lola Madrid, Anna C Seale, Maya Kohli-Lynch, Karen M Edmond, Joy E Lawn, Paul T Heath, Shabir A Madhi, Carol J Baker, Linda Bartlett, Clare Cutland, Michael G Gravett, Margaret Ip, Kirsty Le Doare, Craig E Rubens, Samir K Saha, Ajoke Sobanjo-Ter Meulen, Johan Vekemans, Stephanie Schrag, Infant GBS Disease Investigator Group",
+          "year": "2017",
+          "doi": "10.1093/cid/cix656",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29117326/",
+          "generation_view_ids": [
+            "P29117326_search_1fedba3494a8"
+          ],
+          "generation_view_sha256": {
+            "P29117326_search_1fedba3494a8": "a153a7ccbd3c51006ca8e914d3197cef5aa09f50bab8b522393895fd11016bd3"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Infant disease epidemiology mentions IAP but not the decisive prior-infant recommendation."
+        },
+        {
+          "pmid": "31830941",
+          "title": "Changes in incidence and etiology of early-onset neonatal infections 1997-2017 - a retrospective cohort study in western Sweden.",
+          "authors": "Margrét Johansson Gudjónsdóttir, Anders Elfvin, Elisabet Hentz, Ingegerd Adlerberth, Ingemar Tessin, Birger Trollfors",
+          "year": "2019",
+          "doi": "10.1186/s12887-019-1866-z",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31830941/",
+          "generation_view_ids": [
+            "P31830941_search_b4a45857c280"
+          ],
+          "generation_view_sha256": {
+            "P31830941_search_b4a45857c280": "30339122bd0070c57aa9770ea7a4782482c608e64b249ddf8fb5275ab0a1f64d"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Neonatal infection incidence/etiology over time, not the specific prophylaxis decision."
+        }
+      ],
+      "citation_assessments": [],
+      "reference_example_found": null,
+      "reference_example_pmid": null,
+      "answer_evidence_notes": "Correct B: previous infant invasive GBS disease supports prophylaxis without delaying for screening, consistent with the earlier evaluator ACOG reference. Five background records were actually supplied, so the limitation claiming no evidence registry was provided misstates execution. None of these excerpts verifies the decisive prior-infant guideline indication. No citation is fabricated.",
+      "operational_tool_errors": 0
+    },
+    {
+      "question_id": "IC06",
+      "answer_sha256": "cb291301530c3e061d9a3d5f23d9250c6609d8f4ae379b5969688e11927303c1",
+      "search_decision": "searched",
+      "query_assessments": [
+        {
+          "query": "management of preeclampsia with severe features thrombocytopenia next step",
+          "status": "ok",
+          "rating": "partially_appropriate",
+          "brief_reason": "Related topic but restrictive terms or missing decisive guideline wording limit coverage; no external verification follows."
+        }
+      ],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "reference_example_found": null,
+      "reference_example_pmid": null,
+      "answer_evidence_notes": "Correct A with severe hypertension/thrombocytopenia and stabilization before delivery. A restrictive search returns zero papers; the model still answers from knowledge and acknowledges lack of PubMed verification. No falsely elevated liver enzymes, dose or retrieved recommendation is asserted.",
+      "operational_tool_errors": 0
+    },
+    {
+      "question_id": "IC07",
+      "answer_sha256": "614205b425985b5caf38101995fc5baae24c69c3011f3ddccecff5b672db8af4",
+      "search_decision": "answered_directly",
+      "query_assessments": [],
+      "paper_assessments": [],
+      "citation_assessments": [],
+      "reference_example_found": null,
+      "reference_example_pmid": null,
+      "answer_evidence_notes": "Correct D and neutralization mechanism, with no invented reversal dose. Direct answer acknowledges absent verification. The broad description of other therapies does not support a patient-specific regimen.",
+      "operational_tool_errors": 0
+    },
+    {
+      "question_id": "IC08",
+      "answer_sha256": "5a26eb391dedede2ce108ab1174065db9c3e1383a778b912917a645ef14c9ea9",
+      "search_decision": "searched",
+      "query_assessments": [
+        {
+          "query": "BALANCE trial bloodstream infections antibiotic duration 7 days 14 days mortality",
+          "status": "ok",
+          "rating": "appropriate",
+          "brief_reason": "Targets the correct case/trial topic; actual returned coverage is separately graded."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "39565030",
+          "title": "Antibiotic Treatment for 7 versus 14 Days in Patients with Bloodstream Infections.",
+          "authors": "BALANCE Investigators, for the Canadian Critical Care Trials Group, the Association of Medical Microbiology and Infectious Disease Canada Clinical Research Network, the Australian and New Zealand Intensive Care Society Clinical Trials Group, and the Australasian Society for Infectious Diseases Clinical Research Network, Nick Daneman, Asgar Rishu, Ruxandra Pinto, Benjamin A Rogers, Yahya Shehabi, Rachael Parke, Deborah Cook, Yaseen Arabi, John Muscedere, Steven Reynolds, Richard Hall, Dhiraj B Dwivedi, Colin McArthur, Shay McGuinness, Dafna Yahav, Bryan Coburn, Anna Geagea, Pavani Das, Phillip Shin, Michael Detsky, Andrew Morris, Michael Fralick, Jeff E Powis, Christopher Kandel, Wendy Sligl, Sean M Bagshaw, Nishma Singhal, Emilie Belley-Cote, Richard Whitlock, Kosar Khwaja, Susan Morpeth, Alex Kazemi, Anthony Williams, Derek R MacFadden, Lauralyn McIntyre, Jennifer Tsang, Francois Lamontagne, Alex Carignan, John Marshall, Jan O Friedrich, Robert Cirone, Mark Downing, Christopher Graham, Joshua Davis, Erick Duan, John Neary, Gerald Evans, Basem Alraddadi, Sameera Al Johani, Claudio Martin, Sameer Elsayed, Ian Ball, Francois Lauzier, Alexis Turgeon, Henry T Stelfox, John Conly, Emily G McDonald, Todd C Lee, Richard Sullivan, Jennifer Grant, Ilya Kagan, Paul Young, Cassie Lawrence, Kevin O'Callaghan, Matthew Eustace, Keat Choong, Pierre Aslanian, Ulrike Buehner, Tom Havey, Alexandra Binnie, Josef Prazak, Brenda Reeve, Edward Litton, Sylvain Lother, Anand Kumar, Ryan Zarychanski, Tomer Hoffman, David Paterson, Peter Daley, Robert J Commons, Emmanuel Charbonney, Jean-Francois Naud, Sally Roberts, Ravindranath Tiruvoipati, Sachin Gupta, Gordon Wood, Omar Shum, Spiros Miyakis, Peter Dodek, Clement Kwok, Robert A Fowler, The BALANCE Investigators, for the Canadian Critical Care Trials Group, the Association of Medical Microbiology and Infectious Disease Canada Clinical Research Network, the Australian and New Zealand Intensive Care Society Clinical Trials Group, and the Australasian Society for Infectious Diseases Clinical Research Network",
+          "year": "2025",
+          "doi": "10.1056/NEJMoa2404991",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39565030/",
+          "generation_view_ids": [
+            "P39565030_search_c0c9c921ac81",
+            "P39565030_read_a577535a53a0"
+          ],
+          "generation_view_sha256": {
+            "P39565030_search_c0c9c921ac81": "83993e848a3e55dc8f03445faa769b85063889fa5bef1e00c8e5694555ac36a9",
+            "P39565030_read_a577535a53a0": "beaede3e0be9a91884b42f972f7773a3d6a4b806779224e495d70438b7012cb4"
+          },
+          "model_visible_text_kinds": [
+            "abstract",
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Original BALANCE trial; actual read supplies mortality, noninferiority and adjusted confidence level."
+        },
+        {
+          "pmid": "40116824",
+          "title": "Seven vs Fourteen Days of Antibiotics for Gram-Negative Bloodstream Infection: A Systematic Review and Noninferiority Meta-Analysis.",
+          "authors": "Todd C Lee, Connor J Prosty, Michael Fralick, Angela Huttner, Emily G McDonald, José Molina, Mical Paul, Ruxandra Pinto, Asgar Rishu, Elodie von Dach, Dafna Yahav, Rob Fowler, Nick Daneman",
+          "year": "2025",
+          "doi": "10.1001/jamanetworkopen.2025.1421",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40116824/",
+          "generation_view_ids": [
+            "P40116824_search_f51393e55344"
+          ],
+          "generation_view_sha256": {
+            "P40116824_search_f51393e55344": "7604f32b9bd75f4642f635200a17a42dfdcf88178348ba86d261991e5a9af0e0"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Related duration meta-analysis, distinct from requested original BALANCE report."
+        },
+        {
+          "pmid": "27885969",
+          "title": "36th International Symposium on Intensive Care and Emergency Medicine : Brussels, Belgium. 15-18 March 2016.",
+          "authors": "R. M. Bateman, M. D. Sharpe, J. E. Jagger, C. G. Ellis, J. Solé-Violán, M. López-Rodríguez, E. Herrera-Ramos, J. Ruíz-Hernández, L. Borderías, J. Horcajada, N. González-Quevedo, O. Rajas, M. Briones, F. Rodríguez de Castro, C. Rodríguez Gallego, F. Esen, G. Orhun, P. Ergin Ozcan, E. Senturk, C. Ugur Yilmaz, N. Orhan, N. Arican, M. Kaya, M. Kucukerden, M. Giris, U. Akcan, S. Bilgic Gazioglu, E. Tuzun, R. Riff, O. Naamani, A. Douvdevani, R. Takegawa, H. Yoshida, T. Hirose, N. Yamamoto, H. Hagiya, M. Ojima, Y. Akeda, O. Tasaki, K. Tomono, T. Shimazu, S. Ono, T. Kubo, S. Suda, T. Ueno, T. Ikeda, T. Hirose, H. Ogura, H. Takahashi, M. Ojima, J. Kang, Y. Nakamura, T. Kojima, T. Shimazu, T. Ikeda, S. Suda, Y. Izutani, T. Ueno, S. Ono, T. Taniguchi, M. O, C. Dinter, J. Lotz, B. Eilers, C. Wissmann, R. Lott, M. M. Meili, P. S. Schuetz, H. Hawa, M. Sharshir, M. Aburageila, N. Salahuddin, V. Chantziara, S. Georgiou, A. Tsimogianni, P. Alexandropoulos, A. Vassi, F. Lagiou, M. Valta, G. Micha, E. Chinou, G. Michaloudis, A. Kodaira, T. Ikeda, S. Ono, T. Ueno, S. Suda, Y. Izutani, H. Imaizumi, M. V. De la Torre-Prados, A. Garcia-De la Torre, A. Enguix-Armada, A. Puerto-Morlan, V. Perez-Valero, A. Garcia-Alcantara, N. Bolton, J. Dudziak, S. Bonney, A. Tridente, P. Nee, G. Nicolaes, M. Wiewel, M. Schultz, K. Wildhagen, J. Horn, R. Schrijver, T. Van der Poll, C. Reutelingsperger, S. Pillai, G. Davies, G. Mills, R. Aubrey, K. Morris, P. Williams, P. Evans, E. G. Gayat, J. Struck, A. Cariou, N. Deye, B. Guidet, S. Jabert, J. Launay, M. Legrand, M. Léone, M. Resche-Rigon, E. Vicaut, A. Vieillard-Baron, A. Mebazaa, R. Arnold, M. Capan, A. Linder, P. Akesson, M. Popescu, D. Tomescu, C. L. Sprung, R. Calderon Morales, G. Munteanu, E. Orenbuch-Harroch, P. Levin, H. Kasdan, A. Reiter, T. Volker, Y. Himmel, Y. Cohen, J. Meissonnier, L. Girard, F. Rebeaud, I. Herrmann, B. Delwarde, E. Peronnet, E. Cerrato, F. Venet, A. Lepape, T. Rimmelé, G. Monneret, J. Textoris, N. Beloborodova, V. Moroz, A. Osipov, A. Bedova, Y. Sarshor, A. Pautova, A. Sergeev, E. Chernevskaya, J. Odermatt, R. Bolliger, L. Hersberger, M. Ottiger, M. Christ-Crain, B. Mueller, P. Schuetz, N. K. Sharma, A. K. Tashima, M. K. Brunialti, F. R. Machado, M. Assuncao, O. Rigato, R. Salomao, S. C. Cajander, G. Rasmussen, E. Tina, B. Söderquist, J. Källman, K. Strålin, A. L. Lange, J. S. Sundén-Cullberg, A. M. Magnuson, O. H. Hultgren, G. Davies, S. Pillai, G. Mills, R. Aubrey, K. Morris, P. Williams, P. Evans, S. Pillai, G. Davies, G. Mills, R. Aubrey, K. Morris, P. Williams, P. Evans, S. Pillai, G. Davies, G. Mills, R. Aubrey, K. Morris, P. Williams, P. Evans, P. Van der Geest, M. Mohseni, J. Linssen, R. De Jonge, S. Duran, J. Groeneveld, R. Miller, B. K. Lopansri, L. C. McHugh, A. Seldon, J. P. Burke, J. Johnston, R. Reece-Anthony, A. Bond, A. Molokhia, C. Mcgrath, E. Nsutebu, P. Bank Pedersen, D. Pilsgaard Henriksen, S. Mikkelsen, A. Touborg Lassen, R. Tincu, C. Cobilinschi, D. Tomescu, Z. Ghiorghiu, R. Macovei, M. A. Wiewel, M. B. Harmon, L. A. Van Vught, B. P. Scicluna, A. J. Hoogendijk, J. Horn, A. H. Zwinderman, O. L. Cremer, M. J. Bonten, M. J. Schultz, T. Van der Poll, N. P. Juffermans, W. J. Wiersinga, G. Eren, Y. Tekdos, M. Dogan, O. Acicbe, E. Kaya, O. Hergunsel, S. Alsolamy, G. Ghamdi, L. Alswaidan, S. Alharbi, F. Alenezi, Y. Arabi, J. Heaton, A. Boyce, L. Nolan, J. Johnston, A. Dukoff-Gordon, A. Dean, A. Molokhia, T. Mann Ben Yehudah, C. Fleischmann, D. Thomas-Rueddel, C. Haas, U. Dennler, K. Reinhart, O. Suntornlohanakul, B. Khwannimit, F. Breckenridge, A. Puxty, P. Szturz, P. Folwarzcny, J. Svancara, R. Kula, P. Sevcik, L. Caneva, A. Casazza, E. Bellazzi, S. Marra, L. Pagani, M. Vetere, R. Vanzino, D. Ciprandi, R. Preda, R. Boschi, L. Carnevale, V. Lopez, M. Aguilar Arzapalo, L. Barradas, A. Escalante, J. Gongora, M. Cetina, B Adamik, D Jakubczyk, A Kübler, A. Radford, T. Lee, J. Singer, J. Boyd, D. Fineberg, M. Williams, J. Russell, E. Scarlatescu, D. Tomescu, G. Droc, S. Arama, M. Müller, M. Straat, S. S. Zeerleder, N. P. Juffermans, C. F. Fuchs, C. S. Scheer, S. W. Wauschkuhn, M. V. Vollmer, K. M. Meissner, S. K. Kuhn, K. H. Hahnenkamp, S. R. Rehberg, M. G. Gründling, N. Yamamoto, M. Ojima, S. Hamaguchi, T. Hirose, Y. Akeda, R. Takegawa, O. Tasaki, T. Shimazu, K. Tomono, E. Gómez-Sánchez, M. Heredia-Rodríguez, E. Álvarez-Fuente, M. Lorenzo-López, E. Gómez-Pesquera, M. Aragón-Camino, P. Liu-Zhu, A. Sánchez-López, A. Hernández-Lozano, M. T. Peláez-Jareño, E. Tamayo, D. O. Thomas-Rüddel, C. Fleischmann, C. Haas, U. Dennler, K. Reinhart, V. Adora, A. Kar, A. Chakraborty, S. Roy, A. Bandyopadhyay, M. Das, T. Mann Ben Yehudah, G. BenYehudah, M. Salim, N. Kumar, L. Arabi, T. Burger, P. Lephart, E. Toth-martin, C. Valencia, N. Hammami, S. Blot, J. L. Vincent, M. L. Lambert, J. Brunke, T. Riemann, I. Roschke, R. Tincu, C. Cobilinschi, D. Tomescu, Z. Ghiorghiu, R. Macovei, S. Nimitvilai, K. Jintanapramote, S. Jarupongprapa, D. Adukauskiene, D. Valanciene, G. Bose, V. Lostarakos, B. Carr, S. Khedher, A. Maaoui, A. Ezzamouri, M. Salem, J. Chen, D. R. Cranendonk, L. A. Van Vught, M. A. Wiewel, O. L. Cremer, J. Horn, M. J. Bonten, M. J. Schultz, T. Van der Poll, W. J. Wiersinga, M. Day, G. Penrice, K. Roy, P. Robertson, G. Godbole, B. Jones, M. Booth, L. Donaldson, Y. Kawano, H. Ishikura, H. Al-Dorzi, M. Almutairi, B. Alhamadi, A. Crizaldo Toledo, R. Khan, B. Al Raiy, Y. Arabi, H. Talaie, J. A. Van Oers, A. Harts, E. Nieuwkoop, P. Vos, Y. Boussarsar, F. Boutouta, S. Kamoun, I. Mezghani, S. Koubaji, A. Ben Souissi, A. Riahi, M. S. Mebazaa, E. Giamarellos-Bourboulis, N. Tziolos, C. Routsi, C. Katsenos, I. Tsangaris, I. Pneumatikos, G. Vlachogiannis, V. Theodorou, A. Prekates, E. Antypa, V. Koulouras, N. Kapravelos, C. Gogos, E. Antoniadou, K. Mandragos, A. Armaganidis, A. R. Robles Caballero, B. Civantos, J. C. Figueira, J. López, A. Silva-Pinto, F. Ceia, A. Sarmento, L. Santos, G. Almekhlafi, Y. Sakr, H. Al-Dorzi, R. Khan, S. Baharoon, A. Aldawood, A. Matroud, J. Alchin, S. Al Johani, H. Balkhy, Y. Arabi, S. Alsolamy, S. Y. Yousif, B. O. Alotabi, A. S. Alsaawi, J. Ang, M. D. Curran, D. Enoch, V. Navapurkar, A. Morris, R. Sharvill, J. Astin, M. Heredia-Rodríguez, E. Gómez-Sánchez, M. T. Peláez-Jareño, E. Gómez-Pesquera, M. Lorenzo-López, P. Liu-Zhu, M. Aragón-Camino, A. Hernández-Lozano, A. Sánchez-López, E. Álvarez-Fuente, E. Tamayo, J. Patel, C. Kruger, J. O’Neal, H. Rhodes, J. Jancik, B. François, P. F. Laterre, P. Eggimann, A. Torres, M. Sánchez, P. F. Dequin, G. L. Bassi, J. Chastre, H. S. Jafri, M. Ben Romdhane, Z. Douira, S. Kamoun, M. Bousselmi, A. Ben Souissi, Y. Boussarsar, A. Riahi, M. S. Mebazaa, A. Vakalos, V. Avramidis, T. H. Craven, G. Wojcik, K. Kefala, J. McCoubrey, J. Reilly, R. Paterson, D. Inverarity, I. Laurenson, T. S. Walsh, S. Mongodi, B. Bouhemad, A. Orlando, A. Stella, G. Via, G. Iotti, A. Braschi, F. Mojoli, M. Haliloglu, B. Bilgili, U. Kasapoglu, I. Sayan, M. Süzer Aslan, A. Yalcın, I. Cinel, A. Vakalos, V. Avramidis, H. E. Ellis, K. Bauchmuller, D. Miller, A. Temple, J. Chastre, B. François, A. Torres, C. E. Luyt, M. Sánchez, M. Singer, H. S. Jafri, Y. Nassar, M. S. Ayad, A. Trifi, S. Abdellatif, F. Daly, R. Nasri, S. Ben Lakhal, B. Bilgili, M. Haliloglu, F. Gul, I. Cinel, A. Kuzovlev, A. Shabanov, S. Polovnikov, V. Moroz, N. Kadrichu, T. Dang, K. Corkery, P. Challoner, G. Li Bassi, E. Aguilera, C. Chiurazzi, C. Travierso, A. Motos, L. Fernandez, R. Amaro, T. Senussi, F. Idone, J. Bobi, M. Rigol, A. Torres, C. J. Hodiamont, N. P. Juffermans, J. M. Janssen, C. S. Bouman, R. A. Mathôt, M. D. De Jong, R. M. Van Hest, L. Payne, G. L. Fraser, B. Tudor, M. Lahner, G. Roth, C. Krenn, H. Talaie, P. Jault, J. Gabard, T. Leclerc, S. Jennes, Y. Que, A. Rousseau, F. Ravat, H. Al-Dorzi, A. Eissa, S. Al-Harbi, T. Aldabbagh, R. Khan, Y. Arabi, A. Trifi, S. Abdellatif., F. Daly, R. Nasri, S. Ben Lakhal, F. Paramba, N. Purayil, V. Naushad, O. Mohammad, V. Negi, P. Chandra, A. Kleinsasser, M. R. Witrz, J. F. Buchner-Doeven, A. M. Tuip-de Boer, J. C. Goslings, N. P. Juffermans, M. Van Hezel, M. Straat, A Boing, R Van Bruggen, N Juffermans, D. Markopoulou, K. Venetsanou, V. Kaldis, D. Koutete, D. Chroni, I. Alamanos, L. Koch, J. Jancik, H. Rhodes, E. Walter, K. Maekawa, M. Hayakawa, S. Kushimoto, A. Shiraishi, H. Kato, J. Sasaki, H. Ogura, T. Matauoka, T. Uejima, N. Morimura, H. Ishikura, A. Hagiwara, M. Takeda, O. Tarabrin, S. Shcherbakow, D. Gavrychenko, G. Mazurenko, V. Ivanova, O. Chystikov, C. Plourde, J. Lessard, J. Chauny, R. Daoust, S. Shcherbakow, O. Tarabrin, D. Gavrychenko, G. Mazurenko, O. Chystikov, A. Vakalos, V. Avramidis, L. Kropman, L. In het Panhuis, J. Konings, D. Huskens, E. Schurgers, M. Roest, B. De Laat, M. Lance, M. Durila, P. Lukas, M. Astraverkhava, J. Jonas, I. Budnik, B. Shenkman, H. Hayami, Y. Koide, T. Goto, R. Iqbal, Y. Alhamdi, N. Venugopal, S. Abrams, C. Downey, C. H. Toh, I. D. Welters, V. B. Bombay, J. M. Chauny, R. D. Daoust, J. L. Lessard, M. M. Marquis, J. P. Paquet, K. Siemens, D. Sangaran, B. J. Hunt, A. Durward, A. Nyman, I. A. Murdoch, S. M. Tibby, F. Ampatzidou, D. Moisidou, E. Dalampini, M. Nastou, E. Vasilarou, V. Kalaizi, H. Chatzikostenoglou, G. Drossos, S. Spadaro, A. Fogagnolo, T. Fiore, A. Schiavi, V. Fontana, F. Taccone, C. Volta, E. Chochliourou, E. Volakli, A. Violaki, E. Samkinidou, G. Evlavis, V. Panagiotidou, M. Sdougka, R. Mothukuri, C. Battle, K. Guy, G. Mills, P. Evans, J. Wijesuriya, S. Keogh, A. Docherty, R. O’Donnell, S. Brunskill, M. Trivella, C. Doree, L. Holst, M. Parker, M. Gregersen, J. Almeida, T. Walsh, S. Stanworth, S. Moravcova, J. Mansell, A. Rogers, R. A. Smith, C. Hamilton-Davies, A. Omar, M. Allam, O. Bilala, A. Kindawi, H. Ewila, F. Ampatzidou, D. Moisidou, M. Nastou, E. Dalampini, A. Malamas, E. Vasilarou, G. Drossos, G. Ferreira, J. Caldas, J. Fukushima, E. A. Osawa, E. Arita, L. Camara, S. Zeferino, J. Jardim, F. Gaioto, L. Dallan, F. B. Jatene, R. Kalil Filho, F. Galas, L. A. Hajjar, C. Mitaka, T. Ohnuma, T. Murayama, F. Kunimoto, M. Nagashima, T. Takei, M. Tomita, A. Omar, K. Mahmoud, S. Hanoura, S. Sudarsanan, P. Sivadasan, H. Othamn, Y. Shouman, R. Singh, A. Al Khulaifi, I. Mandel, S. Mikheev, I. Suhodolo, V. Kiselev, Y. Svirko, Y. Podoksenov, S. A. Jenkins, R. Griffin, M. S. Tovar Doncel, A. Lima, C. Aldecoa, C. Ince, A. Taha, A. Shafie, M. Mostafa, N. Syed, H. Hon, F. Righetti, E. Colombaroli, G. Castellano, F. Righetti, E. Colombaroli, M. Hravnak, L. C. Chen, A. D. Dubrawski, G. C. Clermont, M. R. Pinsky, S. Gonzalez, D. Macias, J. Acosta, P. Jimenez, A. Loza, A. Lesmes, F. Lucena, C. Leon, M. S. Tovar Doncel, C. Ince, C. Aldecoa, A. Lima, M. Bastide, J. Richecoeur, E. Frenoy, C. Lemaire, B. Sauneuf, F. Tamion, S. Nseir, D. Du Cheyron, H. Dupont, J. Maizel, M. Shaban, R. Kolko, N. Salahuddin, M. Sharshir, M. AbuRageila, A. AlHussain, P. Mercado, J. Maizel, L. Kontar, D. Titeca, F. Brazier, A. Riviere, M. Joris, T. Soupison, B. De Cagny, M. Slama, J. Wagner, A. Körner, M. Kubik, S. Kluge, D. Reuter, B. Saugel, E. Colombaroli, F. Righetti, G. Castellano, T. Tran, D. De Bels, A. Cudia, M. Strachinaru, P. Ghottignies, J. Devriendt, C. Pierrakos, Ó. Martínez González, R. Blancas, J. Luján, D. Ballesteros, C. Martínez Díaz, A. Núñez, C. Martín Parra, B. López Matamala, M. Alonso Fernández, M. Chana, W. Huber, M. Eckmann, F. Elkmann, A. Gruber, I. Klein, R. M. Schmid, T. Lahmer, P. W. Moller, S. Sondergaard, S. M. Jakob, J. Takala, D. Berger, D. Bastoni, H. Aya, L. Toscani, L. Pigozzi, A. Rhodes, M. Cecconi, C. Ostrowska, H. Aya, A. Abbas, J. Mellinghoff, C. Ryan, D. Dawson, A. Rhodes, M. Cecconi, M. Cronhjort, O. Wall, E. Nyberg, R. Zeng, C. Svensen, J. Mårtensson, E. Joelsson-Alm, M. Aguilar Arzapalo, L. Barradas, V. Lopez, M. Cetina, N. Parenti, C. Palazzi, L. A. Amidei, F. B. Borrelli, S. C. Campanale, F. T. Tagliazucchi, G. S. Sedoni, D. L. Lucchesi, E. C. Carella, A. L Luciani, M. Mackovic, N. Maric, M. Bakula, H. Aya, A. Rhodes, R. M. Grounds, N. Fletcher, M. Cecconi, B. Avard, P. Zhang, M. Mezidi, J. Charbit, M. Ould-Chikh, P. Deras, C. Maury, O. Martinez, X. Capdevila, P. Hou, W. Z. Linde-Zwirble, I. D. Douglas, N. S. Shapiro, A. Ben Souissi, I. Mezghani, Y. Ben Aicha, S. Kamoun, B. Laribi, B. Jeribi, A. Riahi, M. S. Mebazaa, C. Pereira, R. Marinho, R. Antunes, A. Marinho, M. Crivits, M. Raes, J. Decruyenaere, E. Hoste, V. Bagin, V. Rudnov, A. Savitsky, M. Astafyeva, I. Korobko, V. Vein, T. Kampmeier, P. Arnemann, M. Hessler, A. Wald, K. Bockbreder, A. Morelli, H. Van Aken, S. Rehberg, C. Ertmer, P. Arnemann, M. Hessler, T. Kampmeier, S. Rehberg, H. Van Aken, C. Ince, C. Ertmer, S. Reddy, M. Bailey, R. Beasley, R. Bellomo, D. Mackle, A. Psirides, P. Young, S. Reddy, M. Bailey, R. Beasley, R. Bellomo, D. Mackle, P. Young, H. Venkatesh, S. Ramachandran, A. Basu, H. Nair, S. Egan, J. Bates, S. Oliveira, N. R. Rangel Neto, F. Q. Reis, C. P. Lee, X. L. Lin, C. Choong, K. M. Eu, W. Y. Sim, K. S. Tee, J. Pau, J. Abisheganaden, K. Maas, H. De Geus, E. Lafuente, R. Marinho, J. Moura, R. Antunes, A. Marinho, T. E. Doris, D. Monkhouse, T. Shipley, S. Kardasz, I Gonzalez, S. Stads, A. J. Groeneveld, I. Elsayed, N. Ward, A. Tridente, A. Raithatha, A. Steuber, C. Pelletier, S. Schroeder, E. Michael, T. Slowinski, D. Kindgen-Milles, S. Ghabina, F. Turani, A. Belli, S. Busatti, G. Barettin, F. Candidi, F. Gargano, R. Barchetta, M. Falco, O. Demirkiran, M. Kosuk, S. Bozbay, V. Weber, J. Hartmann, S. Harm, I. Linsberger, T. Eichhorn, G. Valicek, G. Miestinger, C. Hoermann, S. Faenza, D. Ricci, E. Mancini, C. Gemelli, A. Cuoghi, S. Magnani, M. Atti, T. Laddomada, A. Doronzio, B. Balicco, M. C. Gruda, P. O’Sullivan, V. P. Dan, T. Guliashvili, A. Scheirer, T. D. Golobish, V. J. Capponi, P. P. Chan, K. Kogelmann, M. Drüner, D. Jarczak, F. Turani, A. B. Belli, S. M. Martni, V. C. Cotticelli, F. Mounajergi, R. Barchetta, S. Morimoto, H. Ishikura, I. Hussain, N. Salahuddin, A. Nadeem, K. Ghorab, K. Maghrabi, S. K. Kloesel, C. Goldfuss, A. Stieglitz, A. S. Stieglitz, L. Krstevska, G. Albuszies, M. Aguilar Arzapalo, L. Barradas, V. Lopez, A. Escalante, G. Jimmy, M. Cetina, J. Izawa, T. Iwami, S. Uchino, M. Takinami, T. Kitamura, T. Kawamura, J. G. Powell-Tuck, S. Crichton, M. Raimundo, L. Camporota, D. Wyncoll, M. Ostermann, A. Hana, H. R. De Geus, H. R. De Geus, A. Hana, M. Aydogdu, N. Boyaci, S. Yuksel, G. Gursel, A. B. Cayci Sivri, J. Meza-Márquez, J. Nava-López, R. Carrillo-Esper, A. Dardashti, A. Grubb, J. Maizel, M. Wetzstein, D. Titeca, L. Kontar, F. Brazier, B. De Cagny, A. Riviere, T. Soupison, M. Joris, M. Slama, E. Peters, H. Njimi, P. Pickkers, J. L. Vincent, M. Waraich, J. Doyle, T. Samuels, L. Forni, N. Desai, R. Baumber, P. Gunning, A. Sell, S. Lin, H. Torrence, M. O’Dwyer, C. Kirwan, J. Prowle, T. Kim, M. E. O’Connor, R. W. Hewson, C. J. Kirwan, R. M. Pearse, J. Prowle, S. Hanoura, A. Omar, H. Othamn, S. Sudarsanan, M. Allam, M. Maksoud, R. Singh, A. Al Khulaifi, M. E. O’Connor, R. W. Hewson, C. J. Kirwan, R. M. Pearse, J. Prowle, O. Uzundere, D. Memis, M. Ýnal, A. Gultekin, N. Turan, M. A. Aydin, H. Basar, I. Sencan, A. Kapuagasi, M. Ozturk, Z. Uzundurukan, D. Gokmen, A. Ozcan, C. Kaymak, V. A. Artemenko, A. Budnyuk, R. Pugh, S. Bhandari, T. Mauri, C. Turrini, T. Langer, P. Taccone, C. A. Volta, C. Marenghi, L. Gattinoni, A. Pesenti, L. Sweeney, A. O’Sullivan, P. Kelly, E. Mukeria, R. MacLoughlin, M. Pfeffer, J. T. Thomas, G. B. Bregman, G. K. Karp, E. K. Kishinevsky, D. S. Stavi, N. A. Adi, T. Poropat, R. Knafelj, E. Llopart, M. Batlle, C. De Haro, J. Mesquida, A. Artigas, D. Pavlovic, L. Lewerentz, A. Spassov, R. Schneider, S. De Smet, S. De Raedt, E. Derom, P Depuydt, S. Oeyen, D. Benoit, J. Decruyenaere, A. Gobatto, B. Besen, P. Tierno, L. Melro, P. Mendes, F. Cadamuro, M. Park, L. M. Malbouisson, B. C. Civantos, J. L. Lopez, A. Robles, J. Figueira, S. Yus, A. Garcia, A. Oglinda, G. Ciobanu, C. Oglinda, L. Schirca, T. Sertinean, V. Lupu, P. Kelly, A. O’Sullivan, L. Sweeney, R. MacLoughlin, A. O’Sullivan, P. Kelly, L. Sweeney, E. Mukeria, M. Wolny, R. MacLoughlin, A. Pagano, F. Numis, G. Visone, L. Saldamarco, T. Russo, G. Porta, F. Paladino, C. Bell, J. Liu, J. Debacker, C. Lee, E. Tamberg, V. Campbell, S. Mehta, A. Silva-Pinto, A. Sarmento, L. Santos, Ý. Kara, F. Yýldýrým, A. Zerman, Z. Güllü, N. Boyacý, B. Basarýk Aydogan, Ü. Gaygýsýz, K. Gönderen, G. Arýk, M. Turkoglu, M. Aydogdu, G. Aygencel, Z. Ülger, G. Gursel, N. Boyacý, Z. Isýkdogan, Ö. Özdedeoglu, Z. Güllü, M. Badoglu, U. Gaygýsýz, M. Aydogdu, G. Gursel, N. Kongpolprom, C. Sittipunt, A. Eden, Y. Kokhanovsky, S. Bursztein – De Myttenaere, R. Pizov, L. Neilans, N. MacIntyre, M. Radosevich, B. Wanta, V. Weber, T. Meyer, N. Smischney, D. Brown, D. Diedrich, A. Fuller, P. McLindon, K. Sim, M. Shoaeir, K. Noeam, A. Mahrous, R. Matsa, A. Ali, C. Dridi, S. Koubaji, S. Kamoun, F. Haddad, A. Ben Souissi, B. Laribi, A. Riahi, M. S. Mebazaa, A. Pérez-Calatayud, R. Carrillo-Esper, A. Zepeda-Mendoza, M. Diaz-Carrillo, E. Arch-Tirado, S. Carbognin, L. Pelacani, F. Zannoni, A. Agnoli, G. Gagliardi, R. Cho, A. Adams, S. Lunos, S. Ambur, R. Shapiro, M. Prekker, M. Thijssen, L. Janssen, N. Foudraine, C. J. Voscopoulos, J. Freeman, C. J. Voscopoulos, J. Freeman, E. George, C. J. Voscopoulos, D. Eversole, J. Freeman, E. George, S. Muttini, R. Bigi, G. Villani, N. Patroniti, G. Williams, C. J. Voscopoulos, J. Freeman, E George, A. Waldmann, S. Böhm, W. Windisch, S. Strassmann, C. Karagiannidis, A. Waldmann, S. Böhm, W. Windisch, S. Strassmann, C. Karagiannidis, C. K. Karagiannidis, A. W. Waldmann, S. B. Böhm, S. Strassmann, W. W. Windisch, P. Persson, S. Lundin, O. Stenqvist, G. Porta, F. Numis, C. S. Serra, A. P. Pagano, M. M. Masarone, L. R. Rinaldi, A. A. Amelia, M. F. Fascione, L. A. Adinolfi, E. R. Ruggiero, F. Asota, K. O’Rourke, S. Ranjan, P. Morgan, J. W. DeBacker, E. Tamberg, L. O’Neill, L. Munshi, L. Burry, E. Fan, S. Mehta, S. Poo, K. Mahendran, J. Fowles, C. Gerrard, A. Vuylsteke, R. Loveridge, C. Chaddock, S. Patel, V. Kakar, C. Willars, T. Hurst, C. Park, T. Best, A. Vercueil, G. Auzinger, A. Borgman, A. G. Proudfoot, E. Grins, K. E. Emiley, J. Schuitema, S. J. Fitch, G. Marco, J. Sturgill, M. G. Dickinson, M. Strueber, A. Khaghani, P. Wilton, S. M. Jovinge, C. Sampson, S. Harris-Fox, M. E. Cove, L. H. Vu, A. Sen, W. J. Federspiel, J. A. Kellum, C. Mazo Torre, J. Riera, S. Ramirez, B. Borgatta, L. Lagunes, J. Rello, A. K. Kuzovlev, V. Moroz, A. Goloubev, S. Polovnikov, S. Nenchuk, V. Karavana, C. Glynos, A. Asimakos, K. Pappas, C. Vrettou, M. Magkou, E. Ischaki, G. Stathopoulos, S. Zakynthinos, S. Spadaro, I. Kozhevnikova, F. Dalla Corte, S. Grasso, P. Casolari, G. Caramori, C. Volta, T. Andrianjafiarinoa, T. Randriamandrato, T. Rajaonera, S. El-Dash, E. L. V. Costa, M. R. Tucci, F Leleu, L Kontar, B. De Cagny, F. Brazier, D. Titeca, G. Bacari-Risal, J. Maizel, M. Amato, M. Slama, P. Mercado, J. Maizel, L. Kontar, D. Titeca, F. Brazier, A. Riviere, M. Joris, T. Soupison, B. De Cagny, S. El Dash, M. Slama, Remmington, A. Fischer, S. Squire, M. Boichat, H. Honzawa, H. Yasuda, T. Adati, S. Suzaki, M. Horibe, M. Sasaki, M. Sanui, R. Marinho, J. Daniel, H. Miranda, A. Marinho, K. Milinis, M. Cooper, G. R. Williams, E. McCarron, S. Simants, I. Patanwala, I. Welters, Y. Su, J. Fernández Villanueva, R. Fernández Garda, A. López Lago, E. Rodríguez Ruíz, R. Hernández Vaquero, S. Tomé Martínez de Rituerto, E. Varo Pérez, N. Lefel, F. Schaap, D. Bergmans, S. Olde Damink, M. Van de Poll, K. Tizard, C. Lister, L. Poole, D. Ringaitiene, D. Gineityte, V. Vicka, I. Norkiene, J. Sipylaite, A. O’Loughlin, V. Maraj, J. Dowling, M. B. Velasco, D. M. Dalcomune, E. B. Dias, S. L. Fernandes, T. Oshima, S. Graf, C. Heidegger, L. Genton, V. Karsegard, Y. Dupertuis, C. Pichard, N. Friedli, Z. Stanga, B. Mueller, P. Schuetz, L. Vandersteen, B. Stessel, S. Evers, A. Van Assche, L. Jamaer, J. Dubois, R. Marinho, H. Castro, J. Moura, J. Valente, P. Martins, P. Casteloes, C. Magalhaes, S. Cabral, M. Santos, B. Oliveira, A. Salgueiro, A. Marinho, R. Marinho, M. Santos, E. Lafuente, H. Castro, S. Cabral, J. Moura, P. Martins, B. Oliveira, A. Salgueiro, S. Duarte, S. Castro, M. Melo, P. Casteloes, A. Marinho, S. Gray, K. Maipang, R. Bhurayanontachai, L. G. Grädel, P. Schütz, P. Langlois, W. Manzanares, R. Tincu, C. Cobilinschi, D. Tomescu, Z. Ghiorghiu, R. Macovei, W. Manzanares, P. Langlois, M. Lemieux, G. Elke, F. Bloos, K. Reinhart, D. Heyland, P. Langlois, M. Lemieux, I. Aramendi, D. Heyland, W. Manzanares, Y. Su, R. Marinho, N. Babo, A. Marinho, M. Hoshino, Y. Haraguchi, S. Kajiwara, T. Mitsuhashi, T. Tsubata, M. Aida, T. Rattanapraphat, R. Bhurayanontachai, C. Kongkamol, B. Khwannimit, R. Marinho, M. Santos, H. Castro, E. Lafuente, A. Salgueiro, S. Cabral, P. Martins, J. Moura, B. Oliveira, M. Melo, B. Xavier, J. Valente, C. Magalhaes, P. Casteloes, A. Marinho, D. Moisidou, F. Ampatzidou, C. Koutsogiannidis, M. Moschopoulou, G. Drossos, G. Taskin, M. Çakir, AK Güler, A. Taskin, N. Öcal, S. Özer, L. Yamanel, J. M. Wong, C. Fitton, S. Anwar, S. Stacey, M. Aggou, B. Fyntanidou, S. Patsatzakis, E. Oloktsidou, K. Lolakos, E. Papapostolou, V. Grosomanidis, S. Suda, T. Ikeda, S. Ono, T. Ueno, Y. Izutani, S. Gaudry, V. Desailly, P. Pasquier, PB Brun, AT Tesnieres, JD Ricard, D. Dreyfuss, A. Mignon, J. C White, A. Molokhia, A. Dean, A. Stilwell, G. Friedlaender, M. Peters, S. Stipulante, A. Delfosse, AF Donneau, A. Ghuysen, C. Feldmann, D. Freitag, W. Dersch, M. Irqsusi, D. Eschbach, T. Steinfeldt, H. Wulf, T. Wiesmann, N. Kongpolprom, J. Cholkraisuwat, S. Beitland, E. Nakstad, H. Stær-Jensen, T. Drægni, G. Andersen, D. Jacobsen, C. Brunborg, B. Waldum-Grevbo, K. Sunde, K. Hoyland, D. Pandit, K. Hayakawa, E. Oloktsidou, K. Kotzampassi, B. Fyntanidou, S. Patsatzakis, L. Loukipoudi, E. Doumaki, V. Grosomanidis, H. Yasuda, M. M. Admiraal, M. Van Assen, M. J. Van Putten, M. Tjepkema-Cloostermans, A. F. Van Rootselaar, J. Horn, F. Ragusa, A. Marudi, S. Baroni, A. Gaspari, E. Bertellini, A. Taha, T. Abdullah, S. Abdel Monem, S. Alcorn, S. McNeill, S. Russell, W. Eertmans, C. Genbrugge, I. Meex, J. Dens, F. Jans, C. De Deyne, J. Cholkraisuwat, N. Kongpolprom, B Avard, R Burns, A. Patarchi, T. Spina, H. Tanaka, N. Otani, S. Ode, S. Ishimatsu, J. Cho, J. B. Moon, C. W. Park, T. G. Ohk, M. C. Shin, M. H. Won, S. Dakova, Z. Ramsheva, K. Ramshev, J. Cho, J. B. Moon, C. W. Park, T. G. Ohk, M. C. Shin, J. Cho, J. B. Moon, C. W. Park, T. G. Ohk, M. C. Shin, A Marudi, S Baroni, A Gaspari, E Bertellini, G. Orhun, E. Senturk, P. E. Ozcan, S. Sencer, C. Ulusoy, E. Tuzun, F. Esen, R. Tincu, C. Cobilinschi, D. Tomescu, Z. Ghiorghiu, R. Macovei, M. Van Assen, M. M. Admiraal, M. J. Van Putten, M. Tjepkema-Cloostermans, A. F. Van Rootselaar, J. Horn, M. Fallenius, M. B. Skrifvars, M. Reinikainen, S. Bendel, R. Raj, M. Abu-Habsa, C. Hymers, A. Borowska, H. Sivadhas, S. Sahiba, S. Perkins, J. Rubio, J. A. Rubio, R. Sierra, S. English, M. Chasse, A. Turgeon, F. Lauzier, D. Griesdale, A. Garland, D. Fergusson, R. Zarychanski, A. Tinmouth, C. Van Walraven, K. Montroy, J. Ziegler, R. Dupont Chouinard, R. Carignan, A. Dhaliwal, C. Lum, J. Sinclair, G. Pagliarello, L. McIntyre, S. English, M. Chasse, A. Turgeon, F. Lauzier, D. Griesdale, A. Garland, D. Fergusson, R. Zarychanski, A. Tinmouth, C. Van Walraven, K. Montroy, J. Ziegler, R. Dupont Chouinard, R. Carignan, A. Dhaliwal, C. Lum, J. Sinclair, G. Pagliarello, L. McIntyre, T. Groza, N. Moreau, D. Castanares-Zapatero, P. Hantson, M. Carbonara, F. Ortolano, T. Zoerle, S. Magnoni, S. Pifferi, V. Conte, N. Stocchetti, L. Carteron, T. Suys, C. Patet, H. Quintard, M. Oddo, J. A. Rubio, J. Rubio, R. Sierra, V. Spatenkova, E. Pokorna, P. Suchomel, N. Ebert, J. Jancik, H. Rhodes, T. Bylinski, C. Hawthorne, M. Shaw, I. Piper, J. Kinsella, A. K. Kink, I. R. Rätsep, A. Boutin, L. Moore, M. Chasse, R. Zarychanski, F. Lauzier, S. English, L. McIntyre, J. Lacroix, D. Griesdale, P. Lessard-Bonaventure, A. F. Turgeon, A. Boutin, L. Moore, R. Green, P. Lessard-Bonaventure, M. Erdogan, M. Butler, F. Lauzier, M. Chasse, S. English, L. McIntyre, R. Zarychanski, J. Lacroix, D. Griesdale, P. Desjardins, D. A. Fergusson, A. F. Turgeon, B. Goncalves, B. Vidal, C. Valdez, A. C. Rodrigues, L. Miguez, G. Moralez, T. Hong, A. Kutz, P. Hausfater, D. Amin, T. Struja, S. Haubitz, A. Huber, B. Mueller, P. Schuetz, T. Brown, J. Collinson, C. Pritchett, T. Slade, M. Le Guen, S. Hellings, R. Ramsaran, A. Alsheikhly, T. Abe, L. Kanapeckaite, M. Abu-Habsa, R. Bahl, M. Q. Russell, K. J. Real, M. Abu-Habsa, R. M. Lyon, N. P. Oveland, J. Penketh, M. Mcdonald, F. Kelly, M. Alfafi, S. Alsolamy, W. Almutairi, B. Alotaibi, A. E Van den Berg, Y. Schriel, L. Dawson, I. A. Meynaar, H. Talaie, D. Silva, S. Fernandes, J. Gouveia, J. Santos Silva, J. Foley, A. Kaskovagheorgescu, D. Evoy, J. Cronin, J. Ryan, M. Huck, C. Hoffmann, J. Renner, P. Laitselart, N. Donat, A. Cirodde, J. V. Schaal, Y. Masson, A. Nau, T. Leclerc, O. Howarth, K. Davenport, P. Jeanrenaud, S. Raftery, P. MacTavish, H. Devine, J. McPeake, M. Daniel, J. Kinsella, T. Quasim, S. Alrabiee, A. Alrashid, S. Alsolamy, O. Gundogan, C. Bor, E. Akýn Korhan, K. Demirag, M. Uyar, F. Frame, C. Ashton, L. Bergstrom Niska, P. Dilokpattanamongkol, T. Suansanae, C. Suthisisang, S. Morakul, C. Karnjanarachata, V. Tangsujaritvijit, S. Mahmood, H. Al Thani, A. Almenyar, A. Vakalos, V. Avramidis, R. Sharvill, J. Penketh, S. E. Morton, Y. S. Chiew, C. Pretty, J. G. Chase, G. M. Shaw, R. Knafelj, P. Kordis, S. Patel, V. Grover, I. Kuchyn, K. Bielka, Z. Aidoni, V. Grosomanidis, K. Kotzampassi, G. Stavrou, B. Fyntanidou, S. Patsatzakis, C. Skourtis, S. D. Lee, K. Williams, I. D. Weltes, S. Berhane, C. Arrowsmith, C. Peters, S. Robert, J. Caldas, R. B. Panerai, T. G. Robinson, L. Camara, G. Ferreira, E. Borg-Seng-Shu, M. De Lima Oliveira, N. C. Mian, L. Santos, R. Nogueira, S. P. Zeferino, M. Jacobsen Teixeira, F. Galas, L. A. Hajjar, P. Killeen, M. McPhail, W. Bernal, J. Maggs, J. Wendon, T. Hughes, L. U. Taniguchi, E. M. Siqueira, J. M. Vieira Jr, L. C. Azevedo, A. N. Ahmad, M. Abu-Habsa, R. Bahl, E. Helme, S. Hadfield, R. Loveridge, J. Shak, C. Senver, R. Howard-Griffin, P. Wacharasint, P. Fuengfoo, N. Sukcharoen, R. Rangsin, D. Sbiti-Rohr, P. Schuetz, H. Na, S. Song, S. Lee, E. Jeong, K. Lee, M. Cooper, K. Milinis, G. Williams, E. McCarron, S. Simants, I. Patanwala, I. D. Welters, E. Zoumpelouli, E. A Volakli, V. Chrysohoidou, S. Georgiou, K. Charisopoulou, E. Kotzapanagiotou, V. Panagiotidou, K. Manavidou, Z. Stathi, M. Sdougka, N. Salahuddin, B. AlGhamdi, Q. Marashly, K. Zaza, M. Sharshir, M. Khurshid, Z. Ali, M. Malgapo, M. Jamil, A. Shafquat, M. Shoukri, M. Hijazi, T. Abe, S. Uchino, M. Takinami, N. R. Rangel Neto, S. Oliveira, F. Q. Reis, F. A. Rocha, G. Moralez, K. Ebecken, L. S. Rabello, M. F. Lima, R. Hatum, F. V. De Marco, A. Alves, J. E. Pinto, M. Godoy, P. E. Brasil, F. A. Bozza, J. I. Salluh, M. Soares, J. Krinsley, G. Kang, J. Perry, H. Hines, K. M. Wilkinson, C. Tordoff, B. Sloan, M. C. Bellamy, E. Moreira, F. Verga, M. Barbato, G. Burghi, M Soares, U. V. Silva, L. C. Azevedo, A. P. Torelly, J. M. Kahn, D. C. Angus, M. F. Knibel, P. E. Brasil, F. A. Bozza, J. I. Salluh, M. B. Velasco, D. M. Dalcomune, R. Marshall, T. Gilpin, A. Tridente, A. Raithatha, D. Mota, B. Loureiro, J. Dias, O. Afonso, F. Coelho, A. Martins, F. Faria, H. Al-Dorzi, H. Al Orainni, F. AlEid, H. Tlaygeh, A. Itani, A. Hejazi, Y. Arabi, S. Gaudry, J. Messika, J. D. Ricard, S. Guillo, B. Pasquet, E. Dubief, D. Dreyfuss, F. Tubach, C. Battle, K. James, P. Temblett, L. Davies, C. Battle, C. Lynch, S. Pereira, S. Cavaco, J. Fernandes, I. Moreira, E. Almeida, F. Seabra Pereira, M. Malheiro, F. Cardoso, I. Aragão, T. Cardoso, M. Fister, R. Knafelj, P. Muraray Govind, N. Brahmananda Reddy, R. Pratheema, E. D. Arul, J. Devachandran, M. B. Velasco, D. M. Dalcomune, R. Knafelj, M. Fister, N. Chin-Yee, G. D’Egidio, K. Thavorn, D. Heyland, K. Kyeremanteng, A. G. Murchison, K. Swalwell, J. Mandeville, D. Stott, I. Guerreiro, H. Devine, P. MacTavish, J. McPeake, T. Quasim, J. Kinsella, M. Daniel, C. Goossens, M. B. Marques, S. Derde, S. Vander Perre, T. Dufour, S. E. Thiessen, F. Güiza, T. Janssens, G. Hermans, I. Vanhorebeek, K. De Bock, G. Van den Berghe, L. Langouche, H. Devine, P. MacTavish, T. Quasim, J. Kinsella, M. Daniel, J. McPeake, B. Miles, S. Madden, H. Devine, M. Weiler, P. Marques, C. Rodrigues, M. Boeira, K. Brenner, C. Leães, A. Machado, R. Townsend, J. Andrade, P. MacTavish, J. McPeake, H. Devine, J. Kinsella, M. Daniel, R. Kishore, C. Fenlon, T. Quasim, T. Fiks, A. Ruijter, M. Te Raa, P. Spronk, Y. S. Chiew, P. Docherty, J. Dickson, E. Moltchanova, C. Scarrot, C. Pretty, G. M. Shaw, J. G. Chase, T. Hall, W. C. Ngu, J. M. Jack, P. Morgan, B. Avard, A. Pavli, X. Gee, C. Bor, E. Akin Korhan, K. Demirag, M. Uyar, M. Shirazy, A. Fayed, S. Gupta, A. Kaushal, S. Dewan, A. Varma, E. Ghosh, L. Yang, L. Eshelman, B. Lord, E. Carlson, E. Helme, R. Broderick, S. Hadfield, R. Loveridge, J. Ramos, D. Forte, F. Yang, P. Hou, J. Dudziak, J. Feeney, K. Wilkinson, K. Bauchmuller, K. Shuker, M. Faulds, A. Raithatha, D. Bryden, L. England, N. Bolton, A. Tridente, K. Bauchmuller, K Shuker, A Tridente, M Faulds, A Matheson, J. Gaynor, D Bryden, S South Yorkshire Hospitals Research Collaboration, J. Ramos, B. Peroni, R. Daglius-Dias, L. Miranda, C. Cohen, C. Carvalho, I. Velasco, D. Forte, J. M. Kelly, A. Neill, G. Rubenfeld, N. Masson, A. Min, E. Boezeman, J. Hofhuis, A. Hovingh, R. De Vries, P. Spronk, G. Cabral-Campello, I. Aragão, T. Cardoso, M. Van Mol, M. Nijkamp, E. Kompanje, P. Ostrowski, A. Omar, K. Kiss, B. Köves, V. Csernus, Z. Molnár, Y. Hoydonckx, S. Vanwing, B. Stessel, A. Van Assche, L. Jamaer, J. Dubois, V. Medo, R. Galvez, J. P. Miranda, C. Stone, T. Wigmore, Y. Arunan, A. Wheeler, K. Bauchmuller, D. Bryden, Y. Wong, C. Poi, C. Gu, P. Molmy, N. Van Grunderbeeck, O. Nigeon, M. Lemyze, D. Thevenin, J. Mallat, J. Ramos, M. Correa, R. T. Carvalho, D. Forte, A. Fernandez, C. McBride, E. Koonthalloor, C. Walsh, A. Webber, M. Ashe, K. Smith, P. Jeanrenaud, A. Marudi, S. Baroni, F. Ragusa, E. Bertellini, E. A. Volakli, E. Chochliourou, M. Dimitriadou, A. Violaki, P. Mantzafleri, E. Samkinidou, O. Vrani, A. Arbouti, T. Varsami, M. Sdougka, J. A. Bollen, T. C. Van Smaalen, W. C. De Jongh, M. M. Ten Hoopen, D. Ysebaert, L. W. Van Heurn, W. N. Van Mook, K. Sim, A. Fuller, A. Roze des Ordons, P. Couillard, C. Doig, R. V. Van Keer, R. D. Deschepper, A. F. Francke, L. H. Huyghens, J. B. Bilsen, B. Nyamaizi, C. Dalrymple, A. Molokhia, A. Dobru, E. Marrinan, A. Ankuli, A. Molokhia, J. McPeake, R. Struthers, R. Crawford, H. Devine, P. Mactavish, T. Quasim, P. Morelli, M. Degiovanangelo, F. Lemos, V. MArtinez, F. Verga, J. Cabrera, G. Burghi, A. Rutten, S. Van Ieperen, S. De Geer, M. Van Vugt, E. Der Kinderen, A. Giannini, G Miccinesi, T Marchesi, E Prandi",
+          "year": "2016",
+          "doi": "10.1186/s13054-016-1208-6",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27885969/",
+          "generation_view_ids": [
+            "P27885969_search_4148512f98c5"
+          ],
+          "generation_view_sha256": {
+            "P27885969_search_4148512f98c5": "92d0b32bc9a8e8416fe0a47caef15d4fb8250bd1516f4498bd6360f2c7eba8d0"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "irrelevant",
+          "brief_reason": "2016 conference compilation and sepsis snippets do not address the later original trial result."
+        },
+        {
+          "pmid": "41774760",
+          "title": "Duration of Therapy for Pseudomonas aeruginosa Bacteremia-A Post Hoc Subgroup Analysis From the BALANCE Randomized Controlled Trial.",
+          "authors": "Dafna Yahav, Ruxandra Pinto, Deborah Cook, Joshua Davis, Erick Duan, Tomer Hoffman, Todd C Lee, Emily G McDonald, Susan Morpeth, John Muscedere, Wendy Sligl, Terence Wuerz, Robert A Fowler, Nick Daneman, BALANCE Consortium",
+          "year": "2026",
+          "doi": "10.1093/cid/ciag144",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41774760/",
+          "generation_view_ids": [
+            "P41774760_search_4054bc71627a"
+          ],
+          "generation_view_sha256": {
+            "P41774760_search_4054bc71627a": "24140b41a3d2c9c7e8b3424136fe4b6f8ca5ab94afacb3fc6453eb9a84152a81"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Pseudomonas post hoc BALANCE subgroup, not original aggregate mortality result."
+        },
+        {
+          "pmid": "40754718",
+          "title": "Clinical course of patients with bloodstream infections enrolled in the BALANCE clinical trial.",
+          "authors": "Sean W X Ong, Ruxandra Pinto, Asgar Rishu, Steven Y C Tong, Robert A Fowler, Nick Daneman, BALANCE trial consortium",
+          "year": "2025",
+          "doi": "10.1093/jac/dkaf294",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40754718/",
+          "generation_view_ids": [
+            "P40754718_search_a03a617f7ba3"
+          ],
+          "generation_view_sha256": {
+            "P40754718_search_a03a617f7ba3": "d3a6fe21b938ef65b54953aceaa81a1bc3f08d8aad11f626577ffc79caf45d85"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "BALANCE clinical-course secondary report; search excerpt omits aggregate primary mortality."
+        }
+      ],
+      "citation_assessments": [
+        {
+          "source_id": "P39565030_read_a577535a53a0",
+          "pmid": "39565030",
+          "rating": "partially_supported",
+          "brief_reason": "Mortality 14.5%/16.1%, difference -1.6 points, bounds -4.0/0.8 and noninferiority are supported. The answer's 95% label conflicts with the actual intention-to-treat 95.7% interval.",
+          "model_visible_text_sha256": "2c8b6bd0c07e233b6b70b0c3da81052d6edb44afb44f7d9ff58432b5dd854ceb",
+          "interpretation": "Specific delivered-text support, not medical-key judgment or full-text verification."
+        }
+      ],
+      "reference_example_found": true,
+      "reference_example_pmid": "39565030",
+      "answer_evidence_notes": "Correct B. An actual original BALANCE search and read supply 14.5% versus 16.1% mortality and noninferiority. The explanation accurately gives the -1.6 percentage-point difference and interval bounds but calls the intention-to-treat interval 95% instead of the abstract's 95.7%; the selected option is unaffected. No normalization/retry was needed in this new live episode.",
+      "operational_tool_errors": 0
+    },
+    {
+      "question_id": "IC09",
+      "answer_sha256": "899fac934e0b645076e6aa06eb3343c7af646db652fa7ee800991a7777963603",
+      "search_decision": "searched",
+      "query_assessments": [
+        {
+          "query": "PREVENT CLOT trial aspirin low-molecular-weight heparin fracture",
+          "status": "ok",
+          "rating": "appropriate",
+          "brief_reason": "Targets the correct case/trial topic; actual returned coverage is separately graded."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "36652352",
+          "title": "Aspirin or Low-Molecular-Weight Heparin for Thromboprophylaxis after a Fracture.",
+          "authors": "Major Extremity Trauma Research Consortium (METRC), Robert V O'Toole, Deborah M Stein, Nathan N O'Hara, Katherine P Frey, Tara J Taylor, Daniel O Scharfstein, Anthony R Carlini, Kuladeep Sudini, Yasmin Degani, Gerard P Slobogean, Elliott R Haut, William Obremskey, Reza Firoozabadi, Michael J Bosse, Samuel Z Goldhaber, Debra Marvel, Renan C Castillo",
+          "year": "2023",
+          "doi": "10.1056/NEJMoa2205973",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36652352/",
+          "generation_view_ids": [
+            "P36652352_search_ba18c42daec2",
+            "P36652352_read_0cfd8c743c3a"
+          ],
+          "generation_view_sha256": {
+            "P36652352_search_ba18c42daec2": "c203322ff9738849038f8aeee09cdf0fb824c91e5add0ce5136e343610f2e85d",
+            "P36652352_read_0cfd8c743c3a": "9cd703a001759f6eaf5a61c7e730ab682c257183fc69623d76e3409e75851124"
+          },
+          "model_visible_text_kinds": [
+            "abstract",
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "Original PREVENT CLOT trial; actual read provides requested DVT and distinct PE rates."
+        },
+        {
+          "pmid": "33762229",
+          "title": "PREVENTion of CLots in Orthopaedic Trauma (PREVENT CLOT): a randomised pragmatic trial protocol comparing aspirin versus low-molecular-weight heparin for blood clot prevention in orthopaedic trauma patients.",
+          "authors": "Robert V O'Toole, Deborah M Stein, Katherine P Frey, Nathan N O'Hara, Daniel O Scharfstein, Gerard P Slobogean, Tara J Taylor, Bryce E Haac, Anthony R Carlini, Theodore T Manson, Kuladeep Sudini, C Daniel Mullins, Stephen T Wegener, Reza Firoozabadi, Elliott R Haut, Michael J Bosse, Rachel B Seymour, Martha B Holden, Ida Leah Gitajn, Samuel Z Goldhaber, Alexander L Eastman, Gregory J Jurkovich, Heather A Vallier, Joshua L Gary, Conor P Kleweno, Joseph Cuschieri, Debra Marvel, Renan C Castillo, METRC",
+          "year": "2021",
+          "doi": "10.1136/bmjopen-2020-041845",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33762229/",
+          "generation_view_ids": [
+            "P33762229_search_24ffbec973e1"
+          ],
+          "generation_view_sha256": {
+            "P33762229_search_24ffbec973e1": "95fee2f5aa7b5858481b5e1b2249f19653511b8a1f704423658dea2af7d62f8c"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "PREVENT CLOT protocol, not the published outcomes."
+        },
+        {
+          "pmid": "41056444",
+          "title": "Effect of Aspirin Versus Low-Molecular-Weight Heparin for Thromboprophylaxis in High-Risk and Fracture Location Subpopulations: A Secondary Analysis of the PREVENT CLOT Trial.",
+          "authors": "Sandip P Tarpada, Nathan N O'Hara, Deborah M Stein, Anthony J DeSantis, Renan C Castillo, Katherine P Frey, Gerard P Slobogean, I Leah Gitajn, Greg E Gaski, Laurence B Kempton, Conor P Kleweno, Reza Firoozabadi, Joseph Cuschieri, A Britton Christmas, Jeffery A Claridge, Debra Marvel, Robert V O'Toole, METRC",
+          "year": "2025",
+          "doi": "10.1097/BOT.0000000000003094",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41056444/",
+          "generation_view_ids": [
+            "P41056444_search_4e96744ca86f"
+          ],
+          "generation_view_sha256": {
+            "P41056444_search_4e96744ca86f": "57f1b3944aa30207ba11794916ba31a6fb655b20e88a4f8eb3a0b79b1eae9f07"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Fracture/subpopulation secondary analysis, not original aggregate secondary outcome."
+        },
+        {
+          "pmid": "42355718",
+          "title": "Aspirin for Venous Thromboembolism Prevention in Orthopaedic Surgery with Focus on Trauma and Arthroplasty: A Structured Evidence-Based Review of Randomised Trials, Guidelines, and Contemporary Practice Considerations.",
+          "authors": "Christian Riediger, Mark Ferl, Maria Schönrogge",
+          "year": "2026",
+          "doi": "10.3390/jcm15124550",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42355718/",
+          "generation_view_ids": [
+            "P42355718_search_19e8e0c0b89c"
+          ],
+          "generation_view_sha256": {
+            "P42355718_search_19e8e0c0b89c": "b55af67c3352943d59ca4b8011b61f4b66115b3339fb58b48937bf0dbdeb6705"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "Broader orthopaedic prophylaxis review; visible excerpt does not show specific original DVT rates."
+        },
+        {
+          "pmid": "38079260",
+          "title": "Risk-stratified thromboprophylaxis effects of aspirin versus low-molecular-weight heparin in orthopedic trauma patients: A secondary analysis of the PREVENT CLOT trial.",
+          "authors": "Nathan N O'Hara, Robert V O'Toole, Katherine P Frey, Renan C Castillo, Joseph Cuschieri, Elliott R Haut, Gerard P Slobogean, Reza Firoozabadi, A Britton Christmas, William T Obremskey, Anthony R Carlini, Greg E Gaski, Matthew E Kutcher, Debra Marvel, Deborah M Stein, Major Extremity Trauma Research Consortium (METRC)",
+          "year": "2024",
+          "doi": "10.1097/TA.0000000000004226",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38079260/",
+          "generation_view_ids": [
+            "P38079260_search_c263df43490c"
+          ],
+          "generation_view_sha256": {
+            "P38079260_search_c263df43490c": "00bfe51fb4f9973121606062271e02a1539fac5e4385661de316b2ac18e68e53"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "PREVENT CLOT risk-stratified secondary analysis rather than original aggregate outcomes."
+        }
+      ],
+      "citation_assessments": [
+        {
+          "source_id": "P36652352_read_0cfd8c743c3a",
+          "pmid": "36652352",
+          "rating": "supported",
+          "brief_reason": "Delivered original abstract explicitly reports DVT 2.51%/1.71% and PE 1.49% in each group.",
+          "model_visible_text_sha256": "f25b622829096e2c7346379aab80297aa5ebcc3b85fe16a6700cf3a5cffbf5dc",
+          "interpretation": "Specific delivered-text support, not medical-key judgment or full-text verification."
+        }
+      ],
+      "reference_example_found": true,
+      "reference_example_pmid": "36652352",
+      "answer_evidence_notes": "Correct D, with DVT 2.51% versus 1.71% and PE 1.49% in both groups supported by the actually read original PREVENT CLOT abstract. No hip-fracture-only population description. Correct key and stronger observable attribution, not an option-accuracy gain over baseline.",
+      "operational_tool_errors": 0
+    },
+    {
+      "question_id": "IC10",
+      "answer_sha256": "70bf7a8f73b63a21b5628080c145ad5def3e694957ea3d10bd34833d7ee069f2",
+      "search_decision": "searched",
+      "query_assessments": [
+        {
+          "query": "SOUL trial oral semaglutide MACE primary outcome",
+          "status": "ok",
+          "rating": "appropriate",
+          "brief_reason": "Targets the correct case/trial topic; actual returned coverage is separately graded."
+        }
+      ],
+      "paper_assessments": [
+        {
+          "pmid": "36945734",
+          "title": "Effects of oral semaglutide on cardiovascular outcomes in individuals with type 2 diabetes and established atherosclerotic cardiovascular disease and/or chronic kidney disease: Design and baseline characteristics of SOUL, a randomized trial.",
+          "authors": "Darren K McGuire, Rodica P Busui, John Deanfield, Silvio E Inzucchi, Johannes F E Mann, Nikolaus Marx, Sharon L Mulvagh, Neil Poulter, Mads D M Engelmann, G Kees Hovingh, Maria Sejersten Ripa, Mette Gislum, Kirstine Brown-Frandsen, John B Buse",
+          "year": "2023",
+          "doi": "10.1111/dom.15058",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36945734/",
+          "generation_view_ids": [
+            "P36945734_search_2a003e748d66"
+          ],
+          "generation_view_sha256": {
+            "P36945734_search_2a003e748d66": "e7e5468dc678c89c93794de036ee25fa831cb25803e0dc1ab6a5a80863c239e1"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "SOUL design/baseline report, not observed final outcomes."
+        },
+        {
+          "pmid": "42610271",
+          "title": "Effect of Semaglutide on the Inflammatory Biomarker High-Sensitivity CRP in Patients With Established Cardiovascular Disease and Overweight or Obesity in SELECT: A Prespecified Secondary Analysis.",
+          "authors": "Jorge Plutzky, Paweł Bogdański, Helen M Colhoun, Selçuk Dağdelen, John E Deanfield, Scott S Emerson, G Kees Hovingh, Steven E Kahn, Kathrine Ekström, Gustavs Latkovskis, Michael Lehrke, Søren Hardt-Lindberg, Ildiko Lingvay, Stephen J Nicholls, Tugce Kalayci Oral, Paula P Terns, Søren Rasmussen, Paul M Ridker, Donna H Ryan, A Michael Lincoff",
+          "year": "2026",
+          "doi": "10.1161/CIRCULATIONAHA.125.074482",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42610271/",
+          "generation_view_ids": [
+            "P42610271_search_2217d501e6ac"
+          ],
+          "generation_view_sha256": {
+            "P42610271_search_2217d501e6ac": "0eaf663cc2047e350a60a1cd09945fcc8f39c8ef5c584f2f2a144f727843a668"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "irrelevant",
+          "brief_reason": "SELECT inflammatory biomarker analysis concerns a different trial/population and preparation."
+        },
+        {
+          "pmid": "41370018",
+          "title": "The impact of oral semaglutide on cardiovascular events in patients with type 2 diabetes: review of results from the SOUL trial.",
+          "authors": "Katy S Lehenbauer, Adam J Nelson, Savina Nodari, Aaron L Sverdlov, Josephine Harrington",
+          "year": "2025",
+          "doi": "10.1007/s10741-025-10579-y",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41370018/",
+          "generation_view_ids": [
+            "P41370018_search_2e772dee22ef",
+            "P41370018_read_ae52cccf580c"
+          ],
+          "generation_view_sha256": {
+            "P41370018_search_2e772dee22ef": "1c05639c7f6c44ad83dbdcb2b6f31662a565fb7d6a9271369e160372f5204b8e",
+            "P41370018_read_ae52cccf580c": "bc72bff3b2e28ba0448beb2d8c20c827799064ddd1c6efaec431a916d5510794"
+          },
+          "model_visible_text_kinds": [
+            "abstract",
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "directly_relevant",
+          "brief_reason": "SOUL results review directly provides primary HR/CI in the read abstract; secondary literature, not original trial; crude event rates absent."
+        },
+        {
+          "pmid": "39115619",
+          "title": "Forecasting Trial Milestones: A Predictive Analysis for Early Termination of the SOUL Study.",
+          "authors": "Binayak Sinha, Samit Ghosal",
+          "year": "2024",
+          "doi": "10.1007/s13300-024-01635-1",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39115619/",
+          "generation_view_ids": [
+            "P39115619_search_9e0b38e847aa"
+          ],
+          "generation_view_sha256": {
+            "P39115619_search_9e0b38e847aa": "a798d032c676834de5607ebcdae49d98a6d15aed2c6640f604971f3cac2bc6b1"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "SOUL pre-result forecasting, not the actual primary trial outcome."
+        },
+        {
+          "pmid": "42169198",
+          "title": "Projected reduction in major adverse cardiovascular events among high-risk U.S. adults with type 2 diabetes eligible for oral semaglutide: a SOUL trial-based analysis using NHANES (1988-2018) cycles.",
+          "authors": "Mustafa Al-Jarshawi, Andrew Cole, Rodrigo Bagur, Hao-Yu Wang, Cheng Han Ng, Dahai Yu, Nicholas W S Chew, Mamas A Mamas",
+          "year": "2026",
+          "doi": "10.1186/s40842-026-00299-z",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42169198/",
+          "generation_view_ids": [
+            "P42169198_search_7a585b6a4c44"
+          ],
+          "generation_view_sha256": {
+            "P42169198_search_7a585b6a4c44": "01b5b00b1c658205a0bc92d5951505d96c159e3137e087d7e94419e486f27375"
+          },
+          "model_visible_text_kinds": [
+            "abstract_excerpt"
+          ],
+          "paper_relevance": "partially_relevant",
+          "brief_reason": "SOUL population-impact projection; related results context, not original aggregate trial report."
+        }
+      ],
+      "citation_assessments": [
+        {
+          "source_id": "P41370018_read_ae52cccf580c",
+          "pmid": "41370018",
+          "rating": "partially_supported",
+          "brief_reason": "Read review supports HR 0.86 and CI 0.77-0.96, but supplies neither 12.0% nor 13.8% event rates. A valid source does not verify all answer claims.",
+          "model_visible_text_sha256": "25897009a472e42e2ac7602a6ac121033d81c007cc31ac6ac78b7fe5a300d7be",
+          "interpretation": "Specific delivered-text support, not medical-key judgment or full-text verification."
+        }
+      ],
+      "reference_example_found": false,
+      "reference_example_pmid": "40162642",
+      "answer_evidence_notes": "Correct C after search, a rejected view-ID-instead-of-PMID argument, a corrected read, and reserved fourth-call finalization. The actually read SOUL review supports HR 0.86 and CI 0.77-0.96 but omits 12.0% versus 13.8% rates. The original trial was not found. Event rates in the answer agree with the frozen key but cannot be credited to retrieved evidence; empty limitations overstate complete verification. Its only-choice HR wording is loose since D has the same HR and reverses event rates.",
+      "operational_tool_errors": 1
+    }
+  ],
+  "limitation": "Title/excerpt/abstract review only; incomplete reference examples, no exhaustive recall or full-text validation."
+}

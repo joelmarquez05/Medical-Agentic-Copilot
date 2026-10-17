@@ -1,0 +1,596 @@
+{
+  "run_id": "medqa30-four-model-main-20261011",
+  "stage": "benchmark",
+  "requirement": 5,
+  "agent_version": "clinical-resilient-v3",
+  "started_at_utc": "2026-10-11T20:05:51+00:00",
+  "protocol_origin": "docs/implementation/requirement-5-medqa30-protocol.md",
+  "protocol_sha256": "9df8b86907d100fe759c976b67347d5aa890545409ed182e056a535777e52302",
+  "source_hashes": {
+    "clinical_graph.py": "27011976775a25e276c1db843ee096d891fcd0007f239c8ebe71332e8cc3c953",
+    "clinical_evaluation.py": "40a488a9f653c692a65a117d2b0c6b104dabb68eaadfd6f4a319f3c26f8233d2",
+    "clinical_literature.py": "8259219dadb5994f2c6f7178f5ecbfde062fb26aeb56121ab13b737157cc6a37",
+    "clinical_literature_evaluation.py": "7b520062f11d76aa828997f17885831d74f967c324adabc90635cf4285e67b64",
+    "pubmed.py": "09b97d9ea7583e0edcc870a617ad07b377e98262306a159490dfce9cee5dc6b9",
+    "models.py": "295891cab2537e90645a27d184a8cda6d8d3f0dba32a8359a137c24b12baa0ab",
+    "config.py": "2db95d297d39e34fd8f5142f657e26110cf43b0400d72c97551656a1db24b001",
+    "comparison_evaluation.py": "6e756b3d38452964bfcc7c4475fdff939b75fbe23b4041035cf8e3651083d71c",
+    "evaluation.py": "4f31705581da1313147674ca8e92016bc62bca96e35bb141454334636d0124f6",
+    "clinical_resilient.py": "a13e84bb1b68be60d8d74a16bc70085bd5fd870f63de0ac103c3a6b7b3967642",
+    "clinical_resilient_evaluation.py": "df9b4ac8aa75a7f1a83e400c7a57437025ff8b9d88fb221942f3c5ea862d3916",
+    "clinical_benchmark.py": "13c6e62277b0d1252fb0fa72f6500d9c652b39c996f8b3c9b2c72b5284e2343d",
+    "clinical_model_comparison.py": "be6e7877146df838b7d9ab44a5b48d116e252424785becaaec5f99fd7401498e"
+  },
+  "profile_hashes": {
+    "glm-5.3": "945bb979ae0788c7cabe7ed954a167b8618b9bac23707f6763c04f26dbc24295",
+    "kimi-k3": "19be4e234a5be256979c267125366d22ceb920d770179730dd9572d18495bbd0",
+    "mimo-v2.6-pro": "ba0a0047e801b5e78f1f074ffc9a1cbed0d1237b974003a45a635fe71154f203",
+    "qwen3.8-27b": "dfb34249548242e1eb6b851f7d41d2d4a41f7ea8d1a46024f935e6bf9a459d56"
+  },
+  "selection_manifest_sha256": "70a87f02c7c60b2b95df5fe0edad4c9275fdd20de8dc2ba9963dd01fb3373b25",
+  "questions_sha256": "817416f4cfdae4f9013e0602c204662a57dae15fa8e4b5c6083a28c86f97689c",
+  "answer_key_sha256": "bdfbd4277de48c8e512b2295bc3ff64b6cb2b970e58f94fc3e250656fbfa832b",
+  "rubric_sha256": "fed69330b2eaf185c36c8aebf6b2a3ae1c5ef9a3c64ba98aedbf06f607de6b9c",
+  "retrieval_rubric_sha256": "f5b4e5e9887e54a7f6358b9fec4dcf7dea9a8a1f1baf26ff6d90238371c76846",
+  "policy_sha256": "2af09747e5a4b95325678360fa1e998e586aa5c9dfe9066f0696860250b47bc2",
+  "pubmed_config_sha256": "fab2244eeaa4cc488791c9add4b0974afc5d14a241f4d75539650bee6788b9b7",
+  "effective_system_sha256": "b7089d07738f58d01fceb30fd088876cac63f34a60c4891d2f6240abe14ee208",
+  "reference_origin": "data/evaluation/benchmark-runs/gemma-full-agent-medqa30-v3-20261011",
+  "reference_manifest_sha256": "a82a96040f5b50e7755cd90cea97b6cd56fea68eef771d363ff921151cfcfcca",
+  "probe_origin": "C:\\Users\\gatoj\\OneDrive\\Escritorio\\Stanford\\data\\evaluation\\comparison-runs\\medqa30-native-probes-20261011",
+  "probe_manifest_sha256": "1a6954e8d5871c7a7974c0d5a55c9e03d09517ec9def218ffaf6232418a29858",
+  "pilot_origin": "C:\\Users\\gatoj\\OneDrive\\Escritorio\\Stanford\\data\\evaluation\\comparison-runs\\medqa30-agent-pilots-20261011",
+  "pilot_manifest_sha256": "51704d76e315a375e7260febd68b9ac243d977e08645fab682627375c8ad2611",
+  "question_ids": [
+    "BM01",
+    "BM02",
+    "BM03",
+    "BM04",
+    "BM05",
+    "BM06",
+    "BM07",
+    "BM08",
+    "BM09",
+    "BM10",
+    "BM11",
+    "BM12",
+    "BM13",
+    "BM14",
+    "BM15",
+    "BM16",
+    "BM17",
+    "BM18",
+    "BM19",
+    "BM20",
+    "BM21",
+    "BM22",
+    "BM23",
+    "BM24",
+    "BM25",
+    "BM26",
+    "BM27",
+    "BM28",
+    "BM29",
+    "BM30"
+  ],
+  "models": [
+    "glm-5.3",
+    "kimi-k3",
+    "mimo-v2.6-pro",
+    "qwen3.8-27b"
+  ],
+  "episode_order": [
+    [
+      "BM01",
+      "glm-5.3"
+    ],
+    [
+      "BM01",
+      "kimi-k3"
+    ],
+    [
+      "BM01",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM01",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM02",
+      "kimi-k3"
+    ],
+    [
+      "BM02",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM02",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM02",
+      "glm-5.3"
+    ],
+    [
+      "BM03",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM03",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM03",
+      "glm-5.3"
+    ],
+    [
+      "BM03",
+      "kimi-k3"
+    ],
+    [
+      "BM04",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM04",
+      "glm-5.3"
+    ],
+    [
+      "BM04",
+      "kimi-k3"
+    ],
+    [
+      "BM04",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM05",
+      "glm-5.3"
+    ],
+    [
+      "BM05",
+      "kimi-k3"
+    ],
+    [
+      "BM05",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM05",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM06",
+      "kimi-k3"
+    ],
+    [
+      "BM06",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM06",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM06",
+      "glm-5.3"
+    ],
+    [
+      "BM07",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM07",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM07",
+      "glm-5.3"
+    ],
+    [
+      "BM07",
+      "kimi-k3"
+    ],
+    [
+      "BM08",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM08",
+      "glm-5.3"
+    ],
+    [
+      "BM08",
+      "kimi-k3"
+    ],
+    [
+      "BM08",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM09",
+      "glm-5.3"
+    ],
+    [
+      "BM09",
+      "kimi-k3"
+    ],
+    [
+      "BM09",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM09",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM10",
+      "kimi-k3"
+    ],
+    [
+      "BM10",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM10",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM10",
+      "glm-5.3"
+    ],
+    [
+      "BM11",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM11",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM11",
+      "glm-5.3"
+    ],
+    [
+      "BM11",
+      "kimi-k3"
+    ],
+    [
+      "BM12",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM12",
+      "glm-5.3"
+    ],
+    [
+      "BM12",
+      "kimi-k3"
+    ],
+    [
+      "BM12",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM13",
+      "glm-5.3"
+    ],
+    [
+      "BM13",
+      "kimi-k3"
+    ],
+    [
+      "BM13",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM13",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM14",
+      "kimi-k3"
+    ],
+    [
+      "BM14",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM14",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM14",
+      "glm-5.3"
+    ],
+    [
+      "BM15",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM15",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM15",
+      "glm-5.3"
+    ],
+    [
+      "BM15",
+      "kimi-k3"
+    ],
+    [
+      "BM16",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM16",
+      "glm-5.3"
+    ],
+    [
+      "BM16",
+      "kimi-k3"
+    ],
+    [
+      "BM16",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM17",
+      "glm-5.3"
+    ],
+    [
+      "BM17",
+      "kimi-k3"
+    ],
+    [
+      "BM17",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM17",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM18",
+      "kimi-k3"
+    ],
+    [
+      "BM18",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM18",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM18",
+      "glm-5.3"
+    ],
+    [
+      "BM19",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM19",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM19",
+      "glm-5.3"
+    ],
+    [
+      "BM19",
+      "kimi-k3"
+    ],
+    [
+      "BM20",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM20",
+      "glm-5.3"
+    ],
+    [
+      "BM20",
+      "kimi-k3"
+    ],
+    [
+      "BM20",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM21",
+      "glm-5.3"
+    ],
+    [
+      "BM21",
+      "kimi-k3"
+    ],
+    [
+      "BM21",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM21",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM22",
+      "kimi-k3"
+    ],
+    [
+      "BM22",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM22",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM22",
+      "glm-5.3"
+    ],
+    [
+      "BM23",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM23",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM23",
+      "glm-5.3"
+    ],
+    [
+      "BM23",
+      "kimi-k3"
+    ],
+    [
+      "BM24",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM24",
+      "glm-5.3"
+    ],
+    [
+      "BM24",
+      "kimi-k3"
+    ],
+    [
+      "BM24",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM25",
+      "glm-5.3"
+    ],
+    [
+      "BM25",
+      "kimi-k3"
+    ],
+    [
+      "BM25",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM25",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM26",
+      "kimi-k3"
+    ],
+    [
+      "BM26",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM26",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM26",
+      "glm-5.3"
+    ],
+    [
+      "BM27",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM27",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM27",
+      "glm-5.3"
+    ],
+    [
+      "BM27",
+      "kimi-k3"
+    ],
+    [
+      "BM28",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM28",
+      "glm-5.3"
+    ],
+    [
+      "BM28",
+      "kimi-k3"
+    ],
+    [
+      "BM28",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM29",
+      "glm-5.3"
+    ],
+    [
+      "BM29",
+      "kimi-k3"
+    ],
+    [
+      "BM29",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM29",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM30",
+      "kimi-k3"
+    ],
+    [
+      "BM30",
+      "mimo-v2.6-pro"
+    ],
+    [
+      "BM30",
+      "qwen3.8-27b"
+    ],
+    [
+      "BM30",
+      "glm-5.3"
+    ]
+  ],
+  "limits": {
+    "max_research_turns": 3,
+    "max_tool_actions": 3,
+    "max_final_attempts": 2,
+    "max_model_turns": 5,
+    "max_input_bytes": 65536
+  },
+  "initial_account_usage_or_anchor_usd": 3.927179719,
+  "prior_saved_requests": {
+    "known_cost_usd": 0.017809590000000004,
+    "unknown_request_reserve_usd": 0.0,
+    "saved_requests": 11
+  },
+  "budget": {
+    "limit_usd": 6.0,
+    "reported_or_estimated_spend_usd": 4.80236894,
+    "unreported_charge_reserve_usd": 0.15,
+    "policy": "Before each paid request, reserve a conservative prompt-byte estimate plus the full output cap at configured provider price ceilings. Failed requests without usage retain that reserve. This is a local guard, not a provider billing guarantee."
+  },
+  "package_versions": {
+    "medical-agentic-copilot": "0.1.0",
+    "langchain": "1.4.4",
+    "langchain-core": "1.6.9",
+    "langgraph": "1.2.14",
+    "langchain-google-genai": "4.4.0",
+    "langchain-openai": "1.7.0",
+    "google-genai": "2.29.0",
+    "pydantic": "2.14.0"
+  },
+  "allocation": "Per-request full-cap guard, shared account budget; no entire hypothetical workload reserve.",
+  "condition": "Frozen full agent; autonomous live PubMed; new model profiles only; Gemma not rerun.",
+  "finished_at_utc": "2026-10-11T21:03:30+00:00"
+}

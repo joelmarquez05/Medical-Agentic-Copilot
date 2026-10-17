@@ -1,0 +1,87 @@
+{
+  "keys": [
+    {
+      "question_id": "PM01",
+      "expected_fields": {
+        "weight_kg": null
+      },
+      "key_type": "synthetic-script-state",
+      "required_tool_family": null
+    },
+    {
+      "question_id": "PM02",
+      "expected_fields": {
+        "weight_kg": 64.2
+      },
+      "key_type": "synthetic-script-state",
+      "required_tool_family": null
+    },
+    {
+      "question_id": "PM03",
+      "expected_fields": {
+        "weight_kg": 81.7
+      },
+      "key_type": "synthetic-script-state",
+      "required_tool_family": null
+    },
+    {
+      "question_id": "PM04",
+      "expected_fields": {
+        "snack": "toasted sesame crackers"
+      },
+      "key_type": "synthetic-script-state",
+      "required_tool_family": "history"
+    },
+    {
+      "question_id": "PM05",
+      "expected_fields": {
+        "cartons_per_day": 2
+      },
+      "key_type": "synthetic-script-state",
+      "required_tool_family": "pdf"
+    },
+    {
+      "question_id": "PM06",
+      "expected_fields": {
+        "cartons_per_day": 1
+      },
+      "key_type": "synthetic-script-state",
+      "required_tool_family": "pdf"
+    },
+    {
+      "question_id": "PM07",
+      "expected_fields": {
+        "weight_kg": 62.4
+      },
+      "key_type": "synthetic-script-state",
+      "required_tool_family": null
+    },
+    {
+      "question_id": "PM08",
+      "expected_fields": {
+        "current_weight_kg": 62.1,
+        "superseded_weight_kg": 62.4
+      },
+      "key_type": "synthetic-script-state",
+      "required_tool_family": "facts"
+    },
+    {
+      "question_id": "PM09",
+      "expected_fields": {
+        "albumin_g_dl": null
+      },
+      "key_type": "synthetic-script-state",
+      "required_tool_family": null
+    },
+    {
+      "question_id": "PM10",
+      "expected_fields": {
+        "pmid": "33946039",
+        "year": 2021
+      },
+      "key_type": "official-fixed-article-metadata",
+      "required_tool_family": "pubmed"
+    }
+  ],
+  "provenance": "Synthetic data/updates fixed by script before inference; PM10 uses ESPEN 2021 metadata, DOI 10.1016/j.clnu.2021.02.005, PMID 33946039. No LLM correct-answer assignment."
+}

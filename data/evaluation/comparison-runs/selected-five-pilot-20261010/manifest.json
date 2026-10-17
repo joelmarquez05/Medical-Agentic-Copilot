@@ -1,0 +1,221 @@
+{
+  "run_id": "selected-five-pilot-20261010",
+  "evaluation": "requirement_5_controlled_internal_model_comparison",
+  "started_at_utc": "2026-10-10T16:13:02+00:00",
+  "prompt_version": "requirement-5-fixed-evidence-v1",
+  "dataset_id": "oncology-nutrition-internal-v1",
+  "question_ids": [
+    "ON02"
+  ],
+  "questions_sha256": "4c7e4f22b5856517360274f97062fd0cf4b48e6907a2432e7419a839619db47e",
+  "rubric_sha256": "488a68f31f4fa6faadd8404605f450b8bc1360ca18786e92529b61ec60acb852",
+  "source_code_sha256": {
+    "__init__.py": "a37669912696d5b6f4ddb74125ea779dc60f04ac5c91e004b90bc619446ebf37",
+    "__main__.py": "ab02bd8f13207aab78b32df9d1c3eb2934c4567894fa831da7ff64c3e2b1df02",
+    "cli.py": "682b3591d11de123068090f6af7cbea6d09310cbe0a35691a8b46a38b9e1ce77",
+    "comparison.py": "2c038af04384c858dbecae4c7fc3a65e40e6dcf7808d93ce638645aee6994838",
+    "comparison_evaluation.py": "b912cc661c496ebf26874ec637d5551344740e6247d0478e3cec6fcc8f504731",
+    "config.py": "2db95d297d39e34fd8f5142f657e26110cf43b0400d72c97551656a1db24b001",
+    "evaluation.py": "4f31705581da1313147674ca8e92016bc62bca96e35bb141454334636d0124f6",
+    "evidence.py": "649eb1a2ba2fb73dd8eb0bf5cd2e2d810b5c0dcdcbdc3d2c1f0de5767c2ddefc",
+    "graph.py": "d50ca22363dc57dd1ea94fb3266051d567ad3d53103a191167e35fff050fb4c9",
+    "literature.py": "6a5d3d6736581541193c447302f66f17a87c801a991a02b65497b9891e3a0f29",
+    "models.py": "295891cab2537e90645a27d184a8cda6d8d3f0dba32a8359a137c24b12baa0ab",
+    "prompts.py": "239e032c0a88b8d84cdb9d943d900abb3424a7f7b715464d4371e7b1bcc258b7",
+    "pubmed.py": "09b97d9ea7583e0edcc870a617ad07b377e98262306a159490dfce9cee5dc6b9",
+    "retrieval_evaluation.py": "1fe07ef4e7d627511518260d9cb0db4433b7b961bd40667559f067fc071615b5",
+    "schemas.py": "9b6df18602c295dd5ccb5db8ab4ce14bd22694ac662d7a7b9a17e7099deb0c71",
+    "tools.py": "042e9fe3a102ee904bf9e0357bb10995d397f7e72c7a9a0cbfa44f6a60496790"
+  },
+  "package_versions": {
+    "medical-agentic-copilot": "0.1.0",
+    "langchain": "1.4.4",
+    "langchain-core": "1.6.9",
+    "langgraph": "1.2.14",
+    "langchain-google-genai": "4.4.0",
+    "langchain-openai": "1.7.0",
+    "google-genai": "2.29.0",
+    "pydantic": "2.14.0"
+  },
+  "evidence_manifest_sha256": "2cf33c68f237c956b05cecfc0bc527b37a55a74335cff87bdc24616ec9741f8f",
+  "profiles": [
+    {
+      "id": "openrouter-claude-opus-5.5",
+      "config": {
+        "provider": "openai_compatible",
+        "model": "anthropic/claude-opus-5.5",
+        "api_key_env": "OPENROUTER_API_KEY",
+        "credential_file": "open_router_key.md",
+        "base_url": "https://openrouter.ai/api/v1",
+        "temperature": null,
+        "max_tokens": 8192,
+        "timeout_seconds": 240.0,
+        "max_retries": 0,
+        "min_interval_seconds": 1.0,
+        "rate_limit_retries": 1,
+        "rate_limit_wait_seconds": 30.0,
+        "max_revisions": 1,
+        "json_repair_attempts": 1,
+        "provider_options": {
+          "use_responses_api": false,
+          "extra_body": {
+            "provider": {
+              "require_parameters": true,
+              "sort": "price",
+              "max_price": {
+                "prompt": 4,
+                "completion": 20
+              }
+            }
+          }
+        }
+      },
+      "config_sha256": "31061d5c3658188d8f2157175f9d037cc85956ebcecda91230eb60fb0b5a6d14"
+    },
+    {
+      "id": "openrouter-glm-5.3",
+      "config": {
+        "provider": "openai_compatible",
+        "model": "z-ai/glm-5.3",
+        "api_key_env": "OPENROUTER_API_KEY",
+        "credential_file": "open_router_key.md",
+        "base_url": "https://openrouter.ai/api/v1",
+        "temperature": null,
+        "max_tokens": 8192,
+        "timeout_seconds": 240.0,
+        "max_retries": 0,
+        "min_interval_seconds": 1.0,
+        "rate_limit_retries": 1,
+        "rate_limit_wait_seconds": 30.0,
+        "max_revisions": 1,
+        "json_repair_attempts": 1,
+        "provider_options": {
+          "use_responses_api": false,
+          "extra_body": {
+            "provider": {
+              "require_parameters": true,
+              "sort": "price",
+              "max_price": {
+                "prompt": 4,
+                "completion": 20
+              }
+            }
+          }
+        }
+      },
+      "config_sha256": "ab7f774fce01729fb2b5e0f6e90c2861eef7a313aded463a4f90635e90a75c44"
+    },
+    {
+      "id": "openrouter-qwen3.8-27b",
+      "config": {
+        "provider": "openai_compatible",
+        "model": "qwen/qwen3.8-27b",
+        "api_key_env": "OPENROUTER_API_KEY",
+        "credential_file": "open_router_key.md",
+        "base_url": "https://openrouter.ai/api/v1",
+        "temperature": null,
+        "max_tokens": 8192,
+        "timeout_seconds": 240.0,
+        "max_retries": 0,
+        "min_interval_seconds": 1.0,
+        "rate_limit_retries": 1,
+        "rate_limit_wait_seconds": 30.0,
+        "max_revisions": 1,
+        "json_repair_attempts": 1,
+        "provider_options": {
+          "use_responses_api": false,
+          "extra_body": {
+            "provider": {
+              "require_parameters": true,
+              "sort": "price",
+              "max_price": {
+                "prompt": 4,
+                "completion": 20
+              }
+            }
+          }
+        }
+      },
+      "config_sha256": "bd2044576bb21841a3679679e2bf37790bda167aa722c549ad670c26fe9d5475"
+    },
+    {
+      "id": "gemini-3.8-flash",
+      "config": {
+        "provider": "google_genai",
+        "model": "gemini-3.8-flash",
+        "api_key_env": "GEMINI_API_KEY",
+        "credential_file": "api_key.md",
+        "base_url": null,
+        "temperature": null,
+        "max_tokens": 8192,
+        "timeout_seconds": 240.0,
+        "max_retries": 0,
+        "min_interval_seconds": 20.0,
+        "rate_limit_retries": 1,
+        "rate_limit_wait_seconds": 30.0,
+        "max_revisions": 1,
+        "json_repair_attempts": 1,
+        "provider_options": {
+          "vertexai": false,
+          "include_thoughts": false
+        }
+      },
+      "config_sha256": "1f180a2e17e1c93a2d507442674c16fbf07b5334d9e5af756e2f36ca62b2b420"
+    },
+    {
+      "id": "gemma-4-31b",
+      "config": {
+        "provider": "google_genai",
+        "model": "gemma-4-31b-it",
+        "api_key_env": "GEMINI_API_KEY",
+        "credential_file": "api_key.md",
+        "base_url": null,
+        "temperature": null,
+        "max_tokens": 8192,
+        "timeout_seconds": 240.0,
+        "max_retries": 0,
+        "min_interval_seconds": 20.0,
+        "rate_limit_retries": 1,
+        "rate_limit_wait_seconds": 30.0,
+        "max_revisions": 1,
+        "json_repair_attempts": 1,
+        "provider_options": {
+          "vertexai": false,
+          "include_thoughts": false
+        }
+      },
+      "config_sha256": "1dae8776109b4a15d5cc3a8396550b1de9d16aa294357c15ccbbeb2977c8c670"
+    }
+  ],
+  "case_order": [
+    {
+      "question_id": "ON02",
+      "profile": "gemini-3.8-flash"
+    },
+    {
+      "question_id": "ON02",
+      "profile": "openrouter-claude-opus-5.5"
+    },
+    {
+      "question_id": "ON02",
+      "profile": "gemma-4-31b"
+    },
+    {
+      "question_id": "ON02",
+      "profile": "openrouter-glm-5.3"
+    },
+    {
+      "question_id": "ON02",
+      "profile": "openrouter-qwen3.8-27b"
+    }
+  ],
+  "design": "One fresh graph state per model-question pair; identical fixed evidence for each question. Same system prompts, tools, 8192-token cap and bounded one revision/one JSON repair. Provider-default sampling and reasoning are not equalized. No live search or cross-question clinical memory.",
+  "selection_rationale": "User-selected frontier proprietary and open-weight models plus compact open-weight candidates for potential future local research; selection roles are hypotheses, not proven medical rankings.",
+  "budget": {
+    "limit_usd": 8.0,
+    "reported_or_estimated_spend_usd": 0.44455953,
+    "unreported_charge_reserve_usd": 0.0,
+    "policy": "Before each paid request, reserve a conservative prompt-byte estimate plus the full output cap at configured provider price ceilings. Failed requests without usage retain that reserve. This is a local guard, not a provider billing guarantee."
+  },
+  "completed_at_utc": "2026-10-10T16:27:15+00:00"
+}

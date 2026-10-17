@@ -1,0 +1,922 @@
+{
+  "records": [
+    {
+      "question_id": "direct:MQ01",
+      "started_at_utc": "2026-10-11T10:08:51+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0155517,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 260,
+        "output_tokens": 283,
+        "total_tokens": 543,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 164
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 283,
+        "prompt_tokens": 260,
+        "total_tokens": 543,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 164,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.00039245,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.00039245,
+          "upstream_inference_prompt_cost": 1.04e-05,
+          "upstream_inference_completions_cost": 0.00038205
+        }
+      },
+      "cost_usd": 0.00039245,
+      "model_name": "qwen/qwen3.8-27b",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 8.068
+    },
+    {
+      "question_id": "direct:MQ02",
+      "started_at_utc": "2026-10-11T10:09:23+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0155541,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 264,
+        "output_tokens": 420,
+        "total_tokens": 684,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 311
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 420,
+        "prompt_tokens": 264,
+        "total_tokens": 684,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 311,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.00057756,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.00057756,
+          "upstream_inference_prompt_cost": 1.056e-05,
+          "upstream_inference_completions_cost": 0.000567
+        }
+      },
+      "cost_usd": 0.00057756,
+      "model_name": "qwen/qwen3.8-27b",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 11.405
+    },
+    {
+      "question_id": "direct:MQ03",
+      "started_at_utc": "2026-10-11T10:10:14+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0155967,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 338,
+        "output_tokens": 430,
+        "total_tokens": 768,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 327
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 430,
+        "prompt_tokens": 338,
+        "total_tokens": 768,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 327,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.00059402,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.00059402,
+          "upstream_inference_prompt_cost": 1.352e-05,
+          "upstream_inference_completions_cost": 0.0005805
+        }
+      },
+      "cost_usd": 0.00059402,
+      "model_name": "qwen/qwen3.8-27b",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 9.303
+    },
+    {
+      "question_id": "direct:MQ04",
+      "started_at_utc": "2026-10-11T10:11:01+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0156043,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 406,
+        "output_tokens": 4582,
+        "total_tokens": 4988,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 4492
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 4582,
+        "prompt_tokens": 406,
+        "total_tokens": 4988,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 4492,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.00620194,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.00620194,
+          "upstream_inference_prompt_cost": 1.624e-05,
+          "upstream_inference_completions_cost": 0.0061857
+        }
+      },
+      "cost_usd": 0.00620194,
+      "model_name": "qwen/qwen3.8-27b",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 127.646
+    },
+    {
+      "question_id": "direct:MQ05",
+      "started_at_utc": "2026-10-11T10:15:43+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.015572,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 292,
+        "output_tokens": 343,
+        "total_tokens": 635,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 233
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 343,
+        "prompt_tokens": 292,
+        "total_tokens": 635,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 233,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.00047473,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.00047473,
+          "upstream_inference_prompt_cost": 1.168e-05,
+          "upstream_inference_completions_cost": 0.00046305
+        }
+      },
+      "cost_usd": 0.00047473,
+      "model_name": "qwen/qwen3.8-27b",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 8.532
+    },
+    {
+      "question_id": "direct:MQ06",
+      "started_at_utc": "2026-10-11T10:18:38+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0155895,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 368,
+        "output_tokens": 2554,
+        "total_tokens": 2922,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 2441
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 2554,
+        "prompt_tokens": 368,
+        "total_tokens": 2922,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 2441,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.00346262,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.00346262,
+          "upstream_inference_prompt_cost": 1.472e-05,
+          "upstream_inference_completions_cost": 0.0034479
+        }
+      },
+      "cost_usd": 0.00346262,
+      "model_name": "qwen/qwen3.8-27b",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 58.569
+    },
+    {
+      "question_id": "direct:MQ07",
+      "started_at_utc": "2026-10-11T10:20:14+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0155838,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 398,
+        "output_tokens": 900,
+        "total_tokens": 1298,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 789
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 900,
+        "prompt_tokens": 398,
+        "total_tokens": 1298,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 789,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.00123092,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.00123092,
+          "upstream_inference_prompt_cost": 1.592e-05,
+          "upstream_inference_completions_cost": 0.001215
+        }
+      },
+      "cost_usd": 0.00123092,
+      "model_name": "qwen/qwen3.8-27b",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 19.804
+    },
+    {
+      "question_id": "direct:MQ08",
+      "started_at_utc": "2026-10-11T10:20:47+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0155614,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 276,
+        "output_tokens": 397,
+        "total_tokens": 673,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 293
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 397,
+        "prompt_tokens": 276,
+        "total_tokens": 673,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 293,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.00054699,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.00054699,
+          "upstream_inference_prompt_cost": 1.104e-05,
+          "upstream_inference_completions_cost": 0.00053595
+        }
+      },
+      "cost_usd": 0.00054699,
+      "model_name": "qwen/qwen3.8-27b",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 9.217
+    },
+    {
+      "question_id": "direct:MQ09",
+      "started_at_utc": "2026-10-11T10:21:13+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0155606,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 274,
+        "output_tokens": 376,
+        "total_tokens": 650,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 289
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 376,
+        "prompt_tokens": 274,
+        "total_tokens": 650,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 289,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.00051856,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.00051856,
+          "upstream_inference_prompt_cost": 1.096e-05,
+          "upstream_inference_completions_cost": 0.0005076
+        }
+      },
+      "cost_usd": 0.00051856,
+      "model_name": "qwen/qwen3.8-27b",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 8.367
+    },
+    {
+      "question_id": "direct:MQ10",
+      "started_at_utc": "2026-10-11T10:21:34+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0155966,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 342,
+        "output_tokens": 387,
+        "total_tokens": 729,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 297
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 387,
+        "prompt_tokens": 342,
+        "total_tokens": 729,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 297,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.00053613,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.00053613,
+          "upstream_inference_prompt_cost": 1.368e-05,
+          "upstream_inference_completions_cost": 0.00052245
+        }
+      },
+      "cost_usd": 0.00053613,
+      "model_name": "qwen/qwen3.8-27b",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 8.623
+    },
+    {
+      "question_id": "agent:MQ01",
+      "started_at_utc": "2026-10-11T10:23:22+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0155511,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 266,
+        "output_tokens": 595,
+        "total_tokens": 861,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 535
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 595,
+        "prompt_tokens": 266,
+        "total_tokens": 861,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 535,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.00081389,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.00081389,
+          "upstream_inference_prompt_cost": 1.064e-05,
+          "upstream_inference_completions_cost": 0.00080325
+        }
+      },
+      "cost_usd": 0.00081389,
+      "model_name": "qwen/qwen3.8-27b",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 18.939
+    },
+    {
+      "question_id": "agent:MQ01",
+      "started_at_utc": "2026-10-11T10:23:41+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0156202,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 401,
+        "output_tokens": 860,
+        "total_tokens": 1261,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 752
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 860,
+        "prompt_tokens": 401,
+        "total_tokens": 1261,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 752,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.00117704,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.00117704,
+          "upstream_inference_prompt_cost": 1.604e-05,
+          "upstream_inference_completions_cost": 0.001161
+        }
+      },
+      "cost_usd": 0.00117704,
+      "model_name": "qwen/qwen3.8-27b",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 16.802
+    },
+    {
+      "question_id": "agent:MQ02",
+      "started_at_utc": "2026-10-11T10:24:55+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0155535,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 270,
+        "output_tokens": 237,
+        "total_tokens": 507,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 177
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 237,
+        "prompt_tokens": 270,
+        "total_tokens": 507,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 177,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.00033075,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.00033075,
+          "upstream_inference_prompt_cost": 1.08e-05,
+          "upstream_inference_completions_cost": 0.00031995
+        }
+      },
+      "cost_usd": 0.00033075,
+      "model_name": "qwen/qwen3.8-27b",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 7.515
+    },
+    {
+      "question_id": "agent:MQ02",
+      "started_at_utc": "2026-10-11T10:25:03+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0156241,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 405,
+        "output_tokens": 677,
+        "total_tokens": 1082,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 565
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 677,
+        "prompt_tokens": 405,
+        "total_tokens": 1082,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 565,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.00093015,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.00093015,
+          "upstream_inference_prompt_cost": 1.62e-05,
+          "upstream_inference_completions_cost": 0.00091395
+        }
+      },
+      "cost_usd": 0.00093015,
+      "model_name": "qwen/qwen3.8-27b",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 13.379
+    },
+    {
+      "question_id": "agent:MQ03",
+      "started_at_utc": "2026-10-11T10:26:03+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0155961,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 344,
+        "output_tokens": 736,
+        "total_tokens": 1080,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 682
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 736,
+        "prompt_tokens": 344,
+        "total_tokens": 1080,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 682,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.00100736,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.00100736,
+          "upstream_inference_prompt_cost": 1.376e-05,
+          "upstream_inference_completions_cost": 0.0009936
+        }
+      },
+      "cost_usd": 0.00100736,
+      "model_name": "qwen/qwen3.8-27b",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 14.349
+    },
+    {
+      "question_id": "agent:MQ03",
+      "started_at_utc": "2026-10-11T10:26:18+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0156646,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 473,
+        "output_tokens": 407,
+        "total_tokens": 880,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 305
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 407,
+        "prompt_tokens": 473,
+        "total_tokens": 880,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 305,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.00056837,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.00056837,
+          "upstream_inference_prompt_cost": 1.892e-05,
+          "upstream_inference_completions_cost": 0.00054945
+        }
+      },
+      "cost_usd": 0.00056837,
+      "model_name": "qwen/qwen3.8-27b",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 9.733
+    }
+  ],
+  "budget": {
+    "limit_usd": 6.0,
+    "reported_or_estimated_spend_usd": 3.85737239,
+    "unreported_charge_reserve_usd": 0.15,
+    "policy": "Before each paid request, reserve a conservative prompt-byte estimate plus the full output cap at configured provider price ceilings. Failed requests without usage retain that reserve. This is a local guard, not a provider billing guarantee."
+  }
+}

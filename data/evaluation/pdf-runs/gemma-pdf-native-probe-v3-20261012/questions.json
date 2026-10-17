@@ -1,0 +1,9 @@
+{
+  "questions": [
+    {
+      "question_id": "DOC-PILOT",
+      "question": "How many numbered recommendations does this specific ESPEN 2021 cancer-nutrition PDF contain? Verify against document text where available and acknowledge when unverified.",
+      "options": null
+    }
+  ]
+}

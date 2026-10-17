@@ -1,0 +1,25 @@
+{
+  "scores": [
+    {
+      "question_id": "BM01",
+      "key_type": "released_medqa_label",
+      "reference_option": "B",
+      "selected_option": "B",
+      "valid_completed_answer": true,
+      "correct": true,
+      "status": "completed",
+      "explanation_appraisal": "Separate; never determines the option key."
+    },
+    {
+      "question_id": "BM02",
+      "key_type": "released_medqa_label",
+      "reference_option": "D",
+      "selected_option": "D",
+      "valid_completed_answer": true,
+      "correct": true,
+      "status": "completed",
+      "explanation_appraisal": "Separate; never determines the option key."
+    }
+  ],
+  "key_policy": "Released key only; qualitative appraisal cannot change correctness."
+}

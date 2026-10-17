@@ -1,0 +1,21 @@
+{
+  "planned": 6,
+  "recorded": 6,
+  "statuses": {
+    "completed": 6
+  },
+  "valid_completed": 6,
+  "terminal_message_coverage": 6,
+  "application_fallbacks": 0,
+  "provider_requests": 8,
+  "cost_usd": 0.0062016499999999995,
+  "unknown_charge_records": 0,
+  "input_tokens": 12053,
+  "output_tokens": 17308,
+  "reasoning_tokens": 16052,
+  "elapsed_provider_seconds": 197.007,
+  "successful_pdf_tool_calls": 0,
+  "max_input_bytes": 6729,
+  "cited_views": 0,
+  "correct": 6
+}

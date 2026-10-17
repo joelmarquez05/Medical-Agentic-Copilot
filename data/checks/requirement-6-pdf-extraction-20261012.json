@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "pdf_sha256": "01454b384c55c2d6a8027b081ff7bea4498c7ac75058eb0979156b505b2dfa74",
+  "document_sha256": "c06d0c30dd5d76543bd9a636d95f63095f97152fb2e643b5329470a41ffb90f8",
+  "pre_generation_v1_document_sha256": "ce582d2e1d4a6e05d0a39dca3d2d552ebc606c5286b3183419d95b980497edb8",
+  "original_lines_preserved": true,
+  "nonoverlapping_chunks_cover_every_extracted_page": true,
+  "pages": 16,
+  "chunks": 30,
+  "extracted_text_utf8_bytes": 90660,
+  "v1_v2_question_wording_options_and_keys_identical": true,
+  "numeric_glyphs_not_rewritten": true,
+  "selectable_text_pages": 16,
+  "new_model_requests": 0,
+  "limits": "Text layer only; no OCR, image/flowchart reasoning, table semantics or universal reading-order guarantee. Unknown glyph mappings and cross-page continuations remain visible."
+}

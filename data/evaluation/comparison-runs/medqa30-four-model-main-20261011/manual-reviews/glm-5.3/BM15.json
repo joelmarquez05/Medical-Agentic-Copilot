@@ -1,0 +1,50 @@
+{
+  "question_id": "BM15",
+  "model_profile": "glm-5.3",
+  "answer_sha256": "6104d7a093c78965839ac64ad859d1b9bbde68b75e5d3b08a13ddf7e46c5bb09",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "minor_limitation"
+  },
+  "answer_notes": "Correct D. Standard CTZ/D2 reasoning is plausible and the response admits that exact etoposide/metoclopramide localization was not verified. Its cited AP excerpt supports a central role but explicitly questions circulating substances in dogs, so it cannot establish the asserted blood-mediated mechanism or BBB/D2 detail; the receptor review is also general. Independent REGLAN labeling supports drug pharmacology without repairing the original scope gaps.",
+  "researcher_reference_ids": [
+    "R4-CL12"
+  ],
+  "queries": [
+    {
+      "rating": "partially_appropriate",
+      "notes": "Correct topic but conjoins drug, chemotherapy, nausea/vomiting, dopamine and anatomical site."
+    },
+    {
+      "rating": "appropriate",
+      "notes": "Broadens to metoclopramide antiemetic/CTZ mechanism after an empty first result."
+    }
+  ],
+  "papers": {
+    "1485177": {
+      "rating": "directly_relevant",
+      "notes": "Explicit AP role and circulating versus neurally mediated hypotheses directly address the site; dog experiments in the excerpt do not support a circulating-substance role."
+    },
+    "31768887": {
+      "rating": "partially_relevant",
+      "notes": "Gingerol/cisplatin rat-mink neurotransmitter experiments are related emesis background, with different intervention/species and no specific metoclopramide site in the view."
+    },
+    "1374316": {
+      "rating": "partially_relevant",
+      "notes": "General central/peripheral emetic-receptor review includes dopamine, without D2/CTZ/metoclopramide specifics in the delivered snippet."
+    }
+  },
+  "citations": {
+    "P1485177_search_bcfefe9224ee": {
+      "rating": "partially_supported",
+      "notes": "Supports AP importance, while its actual dog-experiment text does not support circulating substances. BBB and drug-specific direct activation are not established."
+    },
+    "P1374316_search_32ea02cb5c3b": {
+      "rating": "partially_supported",
+      "notes": "Supports general central/peripheral emetic-receptor and dopamine context, not the specific D2/metoclopramide/AP mechanism."
+    }
+  },
+  "inline_citations": {}
+}

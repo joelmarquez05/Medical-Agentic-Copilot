@@ -1,0 +1,36 @@
+{
+  "answer_reviews": 30,
+  "paper_relevance": {
+    "directly_relevant": 13,
+    "partially_relevant": 23,
+    "not_assessable": 1,
+    "irrelevant": 5
+  },
+  "unique_question_paper_pairs": 42,
+  "citation_support": {
+    "supported": 4,
+    "partially_supported": 3,
+    "unsupported": 1,
+    "not_assessable": 2
+  },
+  "citation_view_count": 10,
+  "unknown_citation_ids": 2,
+  "answer_dimension_counts": {
+    "case_reasoning": {
+      "consistent": 29,
+      "minor_limitation": 1
+    },
+    "reference_concordance": {
+      "consistent": 21,
+      "minor_limitation": 8,
+      "material_issue": 1
+    },
+    "calibration_and_provenance": {
+      "consistent": 18,
+      "minor_limitation": 10,
+      "material_issue": 2
+    }
+  },
+  "new_model_requests": 0,
+  "independent_clinician_review": false
+}

@@ -1,0 +1,488 @@
+{
+  "question_id": "ON05",
+  "question": "A synthetic adult with metastatic lung cancer has anorexia, ongoing weight loss, and muscle wasting. Does increasing calories alone reliably reverse cancer cachexia, and what nutritional and supportive-care approach should be discussed?",
+  "answer_status": "self_review_passed",
+  "searches": [
+    {
+      "name": "search_pubmed",
+      "arguments": {
+        "max_results": 5,
+        "query": "cancer cachexia nutritional intervention multimodal management",
+        "sort": "relevance"
+      },
+      "status": "ok",
+      "output": {
+        "mode": "live_pubmed_title_abstract",
+        "client_version": "requirement-3-v1",
+        "query": "cancer cachexia nutritional intervention multimodal management",
+        "effective_query": "(cancer cachexia nutritional intervention multimodal management) NOT (retracted publication[pt] OR retraction notice[pt] OR hasretractionin OR hasretractionof)",
+        "sort": "relevance",
+        "max_results": 5,
+        "total_matches": 73,
+        "query_translation": "((\"cancer s\"[All Fields] OR \"cancerated\"[All Fields] OR \"canceration\"[All Fields] OR \"cancerization\"[All Fields] OR \"cancerized\"[All Fields] OR \"cancerous\"[All Fields] OR \"neoplasms\"[MeSH Terms] OR \"neoplasms\"[All Fields] OR \"cancer\"[All Fields] OR \"cancers\"[All Fields]) AND (\"cachexia\"[MeSH Terms] OR \"cachexia\"[All Fields] OR \"cachexias\"[All Fields]) AND (\"nutrition s\"[All Fields] OR \"nutritional status\"[MeSH Terms] OR (\"nutritional\"[All Fields] AND \"status\"[All Fields]) OR \"nutritional status\"[All Fields] OR \"nutrition\"[All Fields] OR \"nutritional sciences\"[MeSH Terms] OR (\"nutritional\"[All Fields] AND \"sciences\"[All Fields]) OR \"nutritional sciences\"[All Fields] OR \"nutritional\"[All Fields] OR \"nutritionals\"[All Fields] OR \"nutritions\"[All Fields] OR \"nutritive\"[All Fields]) AND (\"intervention s\"[All Fields] OR \"interventions\"[All Fields] OR \"interventive\"[All Fields] OR \"methods\"[MeSH Terms] OR \"methods\"[All Fields] OR \"intervention\"[All Fields] OR \"interventional\"[All Fields]) AND (\"multimodal imaging\"[MeSH Terms] OR (\"multimodal\"[All Fields] AND \"imaging\"[All Fields]) OR \"multimodal imaging\"[All Fields] OR \"multimodality\"[All Fields] OR \"multimodal\"[All Fields] OR \"multimodalities\"[All Fields]) AND (\"manage\"[All Fields] OR \"managed\"[All Fields] OR \"management s\"[All Fields] OR \"managements\"[All Fields] OR \"manager\"[All Fields] OR \"manager s\"[All Fields] OR \"managers\"[All Fields] OR \"manages\"[All Fields] OR \"managing\"[All Fields] OR \"managment\"[All Fields] OR \"organization and administration\"[MeSH Terms] OR (\"organization\"[All Fields] AND \"administration\"[All Fields]) OR \"organization and administration\"[All Fields] OR \"management\"[All Fields] OR \"disease management\"[MeSH Terms] OR (\"disease\"[All Fields] AND \"management\"[All Fields]) OR \"disease management\"[All Fields])) NOT (\"retracted publication\"[Publication Type] OR \"retraction notice\"[Publication Type] OR \"hasretractionin\"[All Fields] OR \"hasretractionof\"[All Fields])",
+        "warnings": {},
+        "esearch_pmids": [
+          "32002684",
+          "31080641",
+          "29369114",
+          "12170570",
+          "34897740"
+        ],
+        "sources": [
+          {
+            "id": "P32002684",
+            "pmid": "32002684",
+            "title": "Chemotherapy-Induced Sarcopenia.",
+            "authors": "Federico Bozzetti",
+            "author_list": [
+              "Federico Bozzetti"
+            ],
+            "year": "2020",
+            "publication_date": "2020 Jan 30",
+            "journal": "Current treatment options in oncology",
+            "doi": "10.1007/s11864-019-0691-9",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32002684/",
+            "pmcid": null,
+            "publication_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "languages": [
+              "eng"
+            ],
+            "abstract": "Sarcopenia is being consistently recognized as a condition not only associated with the presence of a malignancy but also induced by the oncologic therapies. Due to its negative impact on tolerance to chemotherapy and final outcome in both medical and surgical cancer patients, sarcopenia should be always considered and prevented, and, if recognized, should be appropriately treated. A CT scan at the level of the third lumbar vertebra, using an appropriate software, is the more common and easily available way to diagnose sarcopenia. It is now acknowledged that mechanisms involved in iatrogenic sarcopenia are several and depending on the type of molecule included in the regimen of chemotherapy, different pharmacologic antidotes will be required in the future. However, progression of the disease and the associated malnutrition per se are able to progressively erode the muscle mass and since sarcopenia is the hallmark of cachexia, the therapeutic approach to chemotherapy-induced sarcopenia parallels that of cachexia. This approach mainly relies on those strategies which are able to increase the lean body mass and include the use of anabolic/anti-inflammatory agents, nutritional interventions, physical exercise and, even better, a combination of different therapies. There are some phase II studies and some small controlled randomized trials which have validated these treatments using single agents or combined multimodal approaches. While these approaches may require the cooperation of some specialists (nutritionists with a specific knowledge on pathophysiology of catabolic states, accredited exercise physiologists and physiotherapists), the oncologist too should directly enter these issues to coordinate the choice and priority of the treatments. Who better than the oncologist knows the natural history of the disease, its evolution, and the probability of tolerance and response to the oncologic therapy? Only the oncologist knows when it is essential to potentiate any effort to better achieve a control of the disease, using all the available armamentarium, and when the condition is too advanced and hence requires a more palliative than supporting care. The oncologist also knows when to expect a gastrointestinal toxicity (mucositis, nausea, vomiting, and diarrhea) and hence it is more convenient using a parenteral than an enteral nutritional intervention or, on the contrary, when patient is suitable for discharge from hospital and oral supplements should be promptly tested for compliance and then prescribed. When patients are at high risk for malnutrition or if, regardless of their nutritional status, they are candidate to aggressive and potentially toxic treatments, they should undergo a jointed evaluation by the oncologist and the nutritionist and physical therapist to assess together a combined approach. In conclusion, the treatment of both cancer- or chemotherapy-related sarcopenia represents a challenge for the modern oncologist who must be able to coordinate a new panel of specialists with the same skill necessary to decide the priority of different oncologic treatments within a complex multidisciplinary context.",
+            "abstract_present": true,
+            "abstract_truncated": false,
+            "abstract_original_characters": 3167,
+            "copyright_information": null,
+            "read_level": "PubMed title and abstract",
+            "preprint": false,
+            "retracted": false,
+            "retraction_notice": false,
+            "expression_of_concern": false,
+            "corrections": [],
+            "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+            "retrieval_rank": 1,
+            "retrieved_at_utc": "2026-10-10T09:28:44+00:00"
+          },
+          {
+            "id": "P31080641",
+            "pmid": "31080641",
+            "title": "Preoperative nutritional optimization of esophageal cancer patients.",
+            "authors": "Elles Steenhagen",
+            "author_list": [
+              "Elles Steenhagen"
+            ],
+            "year": "2019",
+            "publication_date": "2019 Apr",
+            "journal": "Journal of thoracic disease",
+            "doi": "10.21037/jtd.2018.11.33",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31080641/",
+            "pmcid": "PMC6503268",
+            "publication_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "languages": [
+              "eng"
+            ],
+            "abstract": "Optimization of the nutritional and metabolic state prior to major surgery leads to improved surgical outcomes and is increasingly seen as an important part of oncology disease management. For locally advanced esophageal cancer the treatment is multimodal, including neoadjuvant chemoradiotherapy or perioperative chemotherapy in combination with esophageal resection. Patients undergoing such a multimodal treatment have a higher risk for progressive decline in their nutritional status. Preoperative malnutrition and loss of skeletal muscle mass has been reported to correlate with unfavorable outcomes in patients who undergo esophageal cancer surgery. Decline in nutritional status is most likely caused by insufficient nutritional intake, reduced physical activity, systemic inflammation and the effects of anticancer therapy. To ensure an optimal nutritional status prior to surgery, it is key to assess the nutritional status in all preoperative esophageal cancer patients, preferable early in the treatment trajectory, and to apply nutritional interventions accordingly. Nutritional management of esophageal cancer can be challenging, the optimal nutritional therapy is still under debate, and warrants more nutritional scientific research. In this review, the most recent findings regarding preoperative nutrition associated with outcomes in patients with esophageal cancer will be explored.",
+            "abstract_present": true,
+            "abstract_truncated": false,
+            "abstract_original_characters": 1400,
+            "copyright_information": null,
+            "read_level": "PubMed title and abstract",
+            "preprint": false,
+            "retracted": false,
+            "retraction_notice": false,
+            "expression_of_concern": false,
+            "corrections": [],
+            "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+            "retrieval_rank": 2,
+            "retrieved_at_utc": "2026-10-10T09:28:44+00:00"
+          },
+          {
+            "id": "P29369114",
+            "pmid": "29369114",
+            "title": "Resting energy metabolism and anticancer treatments.",
+            "authors": "Anne Jouinot, Clara Vazeille, François Goldwasser",
+            "author_list": [
+              "Anne Jouinot",
+              "Clara Vazeille",
+              "François Goldwasser"
+            ],
+            "year": "2018",
+            "publication_date": "2018 May",
+            "journal": "Current opinion in clinical nutrition and metabolic care",
+            "doi": "10.1097/MCO.0000000000000457",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29369114/",
+            "pmcid": null,
+            "publication_types": [
+              "Journal Article",
+              "Review"
+            ],
+            "languages": [
+              "eng"
+            ],
+            "abstract": "PURPOSE OF REVIEW: Cachexia is a multifactorial syndrome associated with morbidity and mortality in cancer patients and represents a major challenge in cancer management. Elevated energy expenditure is supposed to contribute to cachexia. The current article presents the recent findings on the resting energy expenditure (REE) in cancer and the clinical implications for anticancer treatments.\nRECENT FINDINGS: Half of cancer patients present with hypermetabolism (measured REE >110% of predicted REE). Hypermetabolism is associated with clinical and biological features of cachexia. Hypermetabolic patients - even those with normal nutritional status - have a high risk of severe acute toxicity and a poor prognosis.\nSUMMARY: Recent discoveries have highlighted the REE as an essential component of nutritional assessment in cancer patients. Multimodal care for cachexia should include REE measurements and dedicated pharmacologic interventions such as adrenoreceptor blockade in case of hypermetabolism.",
+            "abstract_present": true,
+            "abstract_truncated": false,
+            "abstract_original_characters": 1005,
+            "copyright_information": null,
+            "read_level": "PubMed title and abstract",
+            "preprint": false,
+            "retracted": false,
+            "retraction_notice": false,
+            "expression_of_concern": false,
+            "corrections": [],
+            "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+            "retrieval_rank": 3,
+            "retrieved_at_utc": "2026-10-10T09:28:44+00:00"
+          },
+          {
+            "id": "P12170570",
+            "pmid": "12170570",
+            "title": "Update on anorexia and cachexia.",
+            "authors": "Florian Strasser, Eduardo D Bruera",
+            "author_list": [
+              "Florian Strasser",
+              "Eduardo D Bruera"
+            ],
+            "year": "2002",
+            "publication_date": "2002 Jun",
+            "journal": "Hematology/oncology clinics of North America",
+            "doi": "10.1016/s0889-8588(02)00011-4",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12170570/",
+            "pmcid": null,
+            "publication_types": [
+              "Journal Article",
+              "Research Support, Non-U.S. Gov't",
+              "Review"
+            ],
+            "languages": [
+              "eng"
+            ],
+            "abstract": "Declining physical, emotional, and social function as a result of anorexia and cachexia are considerable contributors to discomfort for cancer patients and their families, and they impair the patient's ability to express optimal physical and psychosocial potential as long as possible. This decline no longer has to be accepted as an indispensable sequel to advanced cancer, just as pain is no longer considered to be unavoidable. A routine screening for anorexia and cachexia and associated symptoms is necessary, as is a careful, comprehensive assessment, because the condition is not always obvious. Decisions about anorexia and cachexia treatment are guided by prioritizing the different, concurrent physical, psychosocial, and existential problems and by considering the natural course of the cancer and the effects of antineoplastic therapies. Reversible causes for anorexia and cachexia need to be identified and treated, if appropriate. Nutritional interventions are often indicated; patients with a predominant starvation component and without inflammation may profit the most. New pharmacologic therapies for primary anorexia and cachexia syndrome are expected to enter clinical practice soon; however, until then, treatment with corticosteroids, progestins, or prokinetics may be indicated for some patients. To understand a multicausal syndrome, multimodal and interdisciplinary therapy is required. Specialist palliative care services can be helpful to provide, hand-in-hand with the disease specialists [172], assessment and management of psychophysical symptoms and sociospiritual needs of patients during the course of the illness and at the end of life [173]. Research efforts aim to better characterize subgroups of patients suffering from secondary causes of anorexia and cachexia and to elucidate the mechanisms involved in the primary anorexia and cachexia syndrome. Increasingly individualized treatments are expected with combination treatments that involve different mechanisms including nutrition.",
+            "abstract_present": true,
+            "abstract_truncated": false,
+            "abstract_original_characters": 2022,
+            "copyright_information": null,
+            "read_level": "PubMed title and abstract",
+            "preprint": false,
+            "retracted": false,
+            "retraction_notice": false,
+            "expression_of_concern": false,
+            "corrections": [],
+            "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+            "retrieval_rank": 4,
+            "retrieved_at_utc": "2026-10-10T09:28:44+00:00"
+          },
+          {
+            "id": "P34897740",
+            "pmid": "34897740",
+            "title": "Nutrition challenges of cancer cachexia.",
+            "authors": "Omnia U Gaafer, Teresa A Zimmers",
+            "author_list": [
+              "Omnia U Gaafer",
+              "Teresa A Zimmers"
+            ],
+            "year": "2021",
+            "publication_date": "2021 Nov",
+            "journal": "JPEN. Journal of parenteral and enteral nutrition",
+            "doi": "10.1002/jpen.2287",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34897740/",
+            "pmcid": "PMC8756772",
+            "publication_types": [
+              "Journal Article",
+              "Research Support, N.I.H., Extramural",
+              "Research Support, U.S. Gov't, Non-P.H.S.",
+              "Review"
+            ],
+            "languages": [
+              "eng"
+            ],
+            "abstract": "Cancer cachexia, or progressive weight loss, often despite adequate nutrition contributes greatly to cancer morbidity and mortality. Cachexia is metabolically distinct from starvation or protein malnutrition, although many patients with cancer and cachexia exhibit lowered appetite and food consumption. Tumors affect neural mechanisms that regulate appetite and energy expenditure, while promoting wasting of peripheral tissues via catabolism of cardiac and skeletal muscle, adipose, and bone. These multimodal actions of tumors on the host suggest a need for multimodal interventions. However, multiple recent consensus guidelines for management of cancer cachexia differ in treatment recommendations, highlighting the lack of effective, available therapies. Challenges to defining appropriate nutrition or other interventions for cancer cachexia include lack of consensus on definitions, low strength of evidence from clinical trials, and a scarcity of robust, rigorous, and mechanistic studies. However, efforts to diagnose, stage, and monitor cachexia are increasing along with clinical trial activity. Furthermore, preclinical models for cancer cachexia are growing more sophisticated, encompassing a greater number of tumor types in organ-appropriate contexts and for metastatic disease to model the clinical condition more accurately. It is expected that continued growth, investment, and coordination of research in this topic will ultimately yield robust biomarkers, clinically useful classification and staging algorithms, targetable pathways, pivotal clinical trials, and ultimately, cures. Here, we provide an overview of the clinical and scientific knowledge and its limitations around cancer cachexia.",
+            "abstract_present": true,
+            "abstract_truncated": false,
+            "abstract_original_characters": 1716,
+            "copyright_information": "© 2021 American Society for Parenteral and Enteral Nutrition.",
+            "read_level": "PubMed title and abstract",
+            "preprint": false,
+            "retracted": false,
+            "retraction_notice": false,
+            "expression_of_concern": false,
+            "corrections": [],
+            "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+            "retrieval_rank": 5,
+            "retrieved_at_utc": "2026-10-10T09:28:44+00:00"
+          }
+        ],
+        "excluded_records": [],
+        "http_requests": [
+          {
+            "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+            "parameters": {
+              "db": "pubmed",
+              "term": "(cancer cachexia nutritional intervention multimodal management) NOT (retracted publication[pt] OR retraction notice[pt] OR hasretractionin OR hasretractionof)",
+              "retmode": "json",
+              "retmax": 5,
+              "sort": "relevance"
+            },
+            "started_at_utc": "2026-10-10T09:28:43+00:00",
+            "attempts": [
+              {
+                "attempt": 1,
+                "status": "ok",
+                "http_status": 200,
+                "elapsed_seconds": 0.297
+              }
+            ],
+            "cache_hit": false,
+            "status": "ok",
+            "response_sha256": "333a2c9b46a4487de9c36822b4f6e3709ee0febec47b7323a5b7cbe5cd9ff4f1",
+            "response_bytes": 4365,
+            "snapshot_file": "333a2c9b46a4487de9c36822b4f6e3709ee0febec47b7323a5b7cbe5cd9ff4f1.json",
+            "retrieved_at_utc": "2026-10-10T09:28:43+00:00"
+          },
+          {
+            "endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+            "parameters": {
+              "db": "pubmed",
+              "id": "32002684,31080641,29369114,12170570,34897740",
+              "retmode": "xml"
+            },
+            "started_at_utc": "2026-10-10T09:28:43+00:00",
+            "attempts": [
+              {
+                "attempt": 1,
+                "status": "ok",
+                "http_status": 200,
+                "elapsed_seconds": 0.536
+              }
+            ],
+            "cache_hit": false,
+            "status": "ok",
+            "response_sha256": "44eb5101c7ba6c5f48adbec334ef2a0b28f591dc28080497fedccd4447bbc1a9",
+            "response_bytes": 124335,
+            "snapshot_file": "44eb5101c7ba6c5f48adbec334ef2a0b28f591dc28080497fedccd4447bbc1a9.xml",
+            "retrieved_at_utc": "2026-10-10T09:28:44+00:00"
+          }
+        ],
+        "retrieved_at_utc": "2026-10-10T09:28:44+00:00",
+        "limitation": "A small ranked search, not a systematic review. No full text, citation-network search, clinical appraisal, or medRxiv-specific integration. No persistent cache is used."
+      },
+      "elapsed_seconds": 0.9481
+    }
+  ],
+  "initial_search_succeeded": true,
+  "initial_search_pmids": [
+    "32002684",
+    "31080641",
+    "29369114",
+    "12170570",
+    "34897740"
+  ],
+  "initial_returned_pmids": [
+    "32002684",
+    "31080641",
+    "29369114",
+    "12170570",
+    "34897740"
+  ],
+  "unique_papers": [
+    {
+      "id": "P32002684",
+      "pmid": "32002684",
+      "title": "Chemotherapy-Induced Sarcopenia.",
+      "authors": "Federico Bozzetti",
+      "author_list": [
+        "Federico Bozzetti"
+      ],
+      "year": "2020",
+      "publication_date": "2020 Jan 30",
+      "journal": "Current treatment options in oncology",
+      "doi": "10.1007/s11864-019-0691-9",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32002684/",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Sarcopenia is being consistently recognized as a condition not only associated with the presence of a malignancy but also induced by the oncologic therapies. Due to its negative impact on tolerance to chemotherapy and final outcome in both medical and surgical cancer patients, sarcopenia should be always considered and prevented, and, if recognized, should be appropriately treated. A CT scan at the level of the third lumbar vertebra, using an appropriate software, is the more common and easily available way to diagnose sarcopenia. It is now acknowledged that mechanisms involved in iatrogenic sarcopenia are several and depending on the type of molecule included in the regimen of chemotherapy, different pharmacologic antidotes will be required in the future. However, progression of the disease and the associated malnutrition per se are able to progressively erode the muscle mass and since sarcopenia is the hallmark of cachexia, the therapeutic approach to chemotherapy-induced sarcopenia parallels that of cachexia. This approach mainly relies on those strategies which are able to increase the lean body mass and include the use of anabolic/anti-inflammatory agents, nutritional interventions, physical exercise and, even better, a combination of different therapies. There are some phase II studies and some small controlled randomized trials which have validated these treatments using single agents or combined multimodal approaches. While these approaches may require the cooperation of some specialists (nutritionists with a specific knowledge on pathophysiology of catabolic states, accredited exercise physiologists and physiotherapists), the oncologist too should directly enter these issues to coordinate the choice and priority of the treatments. Who better than the oncologist knows the natural history of the disease, its evolution, and the probability of tolerance and response to the oncologic therapy? Only the oncologist knows when it is essential to potentiate any effort to better achieve a control of the disease, using all the available armamentarium, and when the condition is too advanced and hence requires a more palliative than supporting care. The oncologist also knows when to expect a gastrointestinal toxicity (mucositis, nausea, vomiting, and diarrhea) and hence it is more convenient using a parenteral than an enteral nutritional intervention or, on the contrary, when patient is suitable for discharge from hospital and oral supplements should be promptly tested for compliance and then prescribed. When patients are at high risk for malnutrition or if, regardless of their nutritional status, they are candidate to aggressive and potentially toxic treatments, they should undergo a jointed evaluation by the oncologist and the nutritionist and physical therapist to assess together a combined approach. In conclusion, the treatment of both cancer- or chemotherapy-related sarcopenia represents a challenge for the modern oncologist who must be able to coordinate a new panel of specialists with the same skill necessary to decide the priority of different oncologic treatments within a complex multidisciplinary context.",
+      "abstract_present": true,
+      "abstract_truncated": false,
+      "abstract_original_characters": 3167,
+      "copyright_information": null,
+      "read_level": "PubMed title and abstract",
+      "preprint": false,
+      "retracted": false,
+      "retraction_notice": false,
+      "expression_of_concern": false,
+      "corrections": [],
+      "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+      "retrieval_rank": 1,
+      "retrieved_at_utc": "2026-10-10T09:28:44+00:00"
+    },
+    {
+      "id": "P31080641",
+      "pmid": "31080641",
+      "title": "Preoperative nutritional optimization of esophageal cancer patients.",
+      "authors": "Elles Steenhagen",
+      "author_list": [
+        "Elles Steenhagen"
+      ],
+      "year": "2019",
+      "publication_date": "2019 Apr",
+      "journal": "Journal of thoracic disease",
+      "doi": "10.21037/jtd.2018.11.33",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31080641/",
+      "pmcid": "PMC6503268",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Optimization of the nutritional and metabolic state prior to major surgery leads to improved surgical outcomes and is increasingly seen as an important part of oncology disease management. For locally advanced esophageal cancer the treatment is multimodal, including neoadjuvant chemoradiotherapy or perioperative chemotherapy in combination with esophageal resection. Patients undergoing such a multimodal treatment have a higher risk for progressive decline in their nutritional status. Preoperative malnutrition and loss of skeletal muscle mass has been reported to correlate with unfavorable outcomes in patients who undergo esophageal cancer surgery. Decline in nutritional status is most likely caused by insufficient nutritional intake, reduced physical activity, systemic inflammation and the effects of anticancer therapy. To ensure an optimal nutritional status prior to surgery, it is key to assess the nutritional status in all preoperative esophageal cancer patients, preferable early in the treatment trajectory, and to apply nutritional interventions accordingly. Nutritional management of esophageal cancer can be challenging, the optimal nutritional therapy is still under debate, and warrants more nutritional scientific research. In this review, the most recent findings regarding preoperative nutrition associated with outcomes in patients with esophageal cancer will be explored.",
+      "abstract_present": true,
+      "abstract_truncated": false,
+      "abstract_original_characters": 1400,
+      "copyright_information": null,
+      "read_level": "PubMed title and abstract",
+      "preprint": false,
+      "retracted": false,
+      "retraction_notice": false,
+      "expression_of_concern": false,
+      "corrections": [],
+      "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+      "retrieval_rank": 2,
+      "retrieved_at_utc": "2026-10-10T09:28:44+00:00"
+    },
+    {
+      "id": "P29369114",
+      "pmid": "29369114",
+      "title": "Resting energy metabolism and anticancer treatments.",
+      "authors": "Anne Jouinot, Clara Vazeille, François Goldwasser",
+      "author_list": [
+        "Anne Jouinot",
+        "Clara Vazeille",
+        "François Goldwasser"
+      ],
+      "year": "2018",
+      "publication_date": "2018 May",
+      "journal": "Current opinion in clinical nutrition and metabolic care",
+      "doi": "10.1097/MCO.0000000000000457",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29369114/",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "abstract": "PURPOSE OF REVIEW: Cachexia is a multifactorial syndrome associated with morbidity and mortality in cancer patients and represents a major challenge in cancer management. Elevated energy expenditure is supposed to contribute to cachexia. The current article presents the recent findings on the resting energy expenditure (REE) in cancer and the clinical implications for anticancer treatments.\nRECENT FINDINGS: Half of cancer patients present with hypermetabolism (measured REE >110% of predicted REE). Hypermetabolism is associated with clinical and biological features of cachexia. Hypermetabolic patients - even those with normal nutritional status - have a high risk of severe acute toxicity and a poor prognosis.\nSUMMARY: Recent discoveries have highlighted the REE as an essential component of nutritional assessment in cancer patients. Multimodal care for cachexia should include REE measurements and dedicated pharmacologic interventions such as adrenoreceptor blockade in case of hypermetabolism.",
+      "abstract_present": true,
+      "abstract_truncated": false,
+      "abstract_original_characters": 1005,
+      "copyright_information": null,
+      "read_level": "PubMed title and abstract",
+      "preprint": false,
+      "retracted": false,
+      "retraction_notice": false,
+      "expression_of_concern": false,
+      "corrections": [],
+      "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+      "retrieval_rank": 3,
+      "retrieved_at_utc": "2026-10-10T09:28:44+00:00"
+    },
+    {
+      "id": "P12170570",
+      "pmid": "12170570",
+      "title": "Update on anorexia and cachexia.",
+      "authors": "Florian Strasser, Eduardo D Bruera",
+      "author_list": [
+        "Florian Strasser",
+        "Eduardo D Bruera"
+      ],
+      "year": "2002",
+      "publication_date": "2002 Jun",
+      "journal": "Hematology/oncology clinics of North America",
+      "doi": "10.1016/s0889-8588(02)00011-4",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12170570/",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Review"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Declining physical, emotional, and social function as a result of anorexia and cachexia are considerable contributors to discomfort for cancer patients and their families, and they impair the patient's ability to express optimal physical and psychosocial potential as long as possible. This decline no longer has to be accepted as an indispensable sequel to advanced cancer, just as pain is no longer considered to be unavoidable. A routine screening for anorexia and cachexia and associated symptoms is necessary, as is a careful, comprehensive assessment, because the condition is not always obvious. Decisions about anorexia and cachexia treatment are guided by prioritizing the different, concurrent physical, psychosocial, and existential problems and by considering the natural course of the cancer and the effects of antineoplastic therapies. Reversible causes for anorexia and cachexia need to be identified and treated, if appropriate. Nutritional interventions are often indicated; patients with a predominant starvation component and without inflammation may profit the most. New pharmacologic therapies for primary anorexia and cachexia syndrome are expected to enter clinical practice soon; however, until then, treatment with corticosteroids, progestins, or prokinetics may be indicated for some patients. To understand a multicausal syndrome, multimodal and interdisciplinary therapy is required. Specialist palliative care services can be helpful to provide, hand-in-hand with the disease specialists [172], assessment and management of psychophysical symptoms and sociospiritual needs of patients during the course of the illness and at the end of life [173]. Research efforts aim to better characterize subgroups of patients suffering from secondary causes of anorexia and cachexia and to elucidate the mechanisms involved in the primary anorexia and cachexia syndrome. Increasingly individualized treatments are expected with combination treatments that involve different mechanisms including nutrition.",
+      "abstract_present": true,
+      "abstract_truncated": false,
+      "abstract_original_characters": 2022,
+      "copyright_information": null,
+      "read_level": "PubMed title and abstract",
+      "preprint": false,
+      "retracted": false,
+      "retraction_notice": false,
+      "expression_of_concern": false,
+      "corrections": [],
+      "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+      "retrieval_rank": 4,
+      "retrieved_at_utc": "2026-10-10T09:28:44+00:00"
+    },
+    {
+      "id": "P34897740",
+      "pmid": "34897740",
+      "title": "Nutrition challenges of cancer cachexia.",
+      "authors": "Omnia U Gaafer, Teresa A Zimmers",
+      "author_list": [
+        "Omnia U Gaafer",
+        "Teresa A Zimmers"
+      ],
+      "year": "2021",
+      "publication_date": "2021 Nov",
+      "journal": "JPEN. Journal of parenteral and enteral nutrition",
+      "doi": "10.1002/jpen.2287",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34897740/",
+      "pmcid": "PMC8756772",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Review"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "abstract": "Cancer cachexia, or progressive weight loss, often despite adequate nutrition contributes greatly to cancer morbidity and mortality. Cachexia is metabolically distinct from starvation or protein malnutrition, although many patients with cancer and cachexia exhibit lowered appetite and food consumption. Tumors affect neural mechanisms that regulate appetite and energy expenditure, while promoting wasting of peripheral tissues via catabolism of cardiac and skeletal muscle, adipose, and bone. These multimodal actions of tumors on the host suggest a need for multimodal interventions. However, multiple recent consensus guidelines for management of cancer cachexia differ in treatment recommendations, highlighting the lack of effective, available therapies. Challenges to defining appropriate nutrition or other interventions for cancer cachexia include lack of consensus on definitions, low strength of evidence from clinical trials, and a scarcity of robust, rigorous, and mechanistic studies. However, efforts to diagnose, stage, and monitor cachexia are increasing along with clinical trial activity. Furthermore, preclinical models for cancer cachexia are growing more sophisticated, encompassing a greater number of tumor types in organ-appropriate contexts and for metastatic disease to model the clinical condition more accurately. It is expected that continued growth, investment, and coordination of research in this topic will ultimately yield robust biomarkers, clinically useful classification and staging algorithms, targetable pathways, pivotal clinical trials, and ultimately, cures. Here, we provide an overview of the clinical and scientific knowledge and its limitations around cancer cachexia.",
+      "abstract_present": true,
+      "abstract_truncated": false,
+      "abstract_original_characters": 1716,
+      "copyright_information": "© 2021 American Society for Parenteral and Enteral Nutrition.",
+      "read_level": "PubMed title and abstract",
+      "preprint": false,
+      "retracted": false,
+      "retraction_notice": false,
+      "expression_of_concern": false,
+      "corrections": [],
+      "limitation": "PubMed indexing is not quality appraisal. Full text was not fetched; recommendations, subgroups, and adverse effects may be absent from the abstract.",
+      "retrieval_rank": 5,
+      "retrieved_at_utc": "2026-10-10T09:28:44+00:00"
+    }
+  ],
+  "cited_pubmed_ids": [
+    "P12170570",
+    "P29369114",
+    "P32002684",
+    "P34897740"
+  ],
+  "interpretation": "Retrieval observations only. Relevance ratings are authored separately; citation inclusion and self-review are not quality measures."
+}

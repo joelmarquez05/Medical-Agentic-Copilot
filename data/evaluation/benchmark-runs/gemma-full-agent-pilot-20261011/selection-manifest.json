@@ -1,0 +1,723 @@
+{
+  "prepared_at_utc": "2026-10-11T17:50:04+00:00",
+  "source_revision": "0fb93dd23a7339b6dcd27e241cb9b5eca62d4d18",
+  "source_url": "https://huggingface.co/datasets/GBaker/MedQA-USMLE-4-options/resolve/0fb93dd23a7339b6dcd27e241cb9b5eca62d4d18/phrases_no_exclude_test.jsonl",
+  "source_sha256": "c3b905ccfa66152dc25afbcb2c10e86c0bdb208824f0658fcdb2c040f60a2beb",
+  "source_rows": 1273,
+  "seed": 202610114,
+  "question_count": 30,
+  "eligible_rows": 1192,
+  "excluded_rows": [
+    {
+      "source_row_index": 9,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "c019d6f3a1d79086e082714bdad609a0d0f938271e73e1adb5ff11de32a6e0d5"
+    },
+    {
+      "source_row_index": 26,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "3ca52db084b4482688a571a1db6884588a5f8fb7c59cc86c9d450b275b3bac0c"
+    },
+    {
+      "source_row_index": 34,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "67a0f61ea407f45152e4d504a4c7feab48aa989dc08cbe9167fc1b9cba391157"
+    },
+    {
+      "source_row_index": 45,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "280035bb39de90224951bfd093ee563d566627dd43dc07523ffc2e6d0d1132e4"
+    },
+    {
+      "source_row_index": 49,
+      "reason": "Question text already prepared/used in the project or outside-set pilot.",
+      "question_hash": "2ca670476660f15ef70d9037ebc6845aac0217203c05e5bbdaae9fb96f88ec19"
+    },
+    {
+      "source_row_index": 51,
+      "reason": "Question text already prepared/used in the project or outside-set pilot.",
+      "question_hash": "6e0d245054524669654c7c4f496965d2eb32f5928f1b417500e43e1f5370d0a8"
+    },
+    {
+      "source_row_index": 69,
+      "reason": "Question text already prepared/used in the project or outside-set pilot.",
+      "question_hash": "0a1ceafe7c020d5ddbb1541969b789be124df225f8e622e18bad4453be1af00c"
+    },
+    {
+      "source_row_index": 74,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "6341a11daa92d6832eeb62b59d9d82dcf990d6fdc0363c724976c2bc6fdbf22e"
+    },
+    {
+      "source_row_index": 111,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "f6d36b8e945bd3cb3963c45b8046ba2c2dca5116c85f709b888b244f378b51d5"
+    },
+    {
+      "source_row_index": 114,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "e88240b167dd613a56f3f4dc9daea95e89bd9890da8683c0386fe69dadcbc7b8"
+    },
+    {
+      "source_row_index": 116,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "4454240c7e4a688aa9ad9143246d5d3b943d0f87ca20920974bcedb0b3c70041"
+    },
+    {
+      "source_row_index": 140,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "5fd042f0ad17dd6da0c6ced856521092b583a09ee2ec6bba74425b99cf601668"
+    },
+    {
+      "source_row_index": 146,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "669248486cc01bab0fb0690c072fa9d32c61cb20fc07ecbcce7056e790fbc366"
+    },
+    {
+      "source_row_index": 205,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "5cc50712c184b7682712cfdb26c96a52ff29a62bc02ad1acbc8d159e8a89eeab"
+    },
+    {
+      "source_row_index": 220,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "a1c3163b762c47b4a2286b1ee736570dee20d9a9cce75ff466177174e8ddd244"
+    },
+    {
+      "source_row_index": 233,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "6dc1b23eb7a74c0cb3728b6a684b3e051edd86de3e7c8c18e6c7e6925254c9b6"
+    },
+    {
+      "source_row_index": 251,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "663504dd4570fd892db2c1549c9dd68c432d858549de4cd48e66ba3e69c8b591"
+    },
+    {
+      "source_row_index": 256,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "52401eecb23a3f06f335d4788bef72f601438f7b9223f86efadb228da91d93ae"
+    },
+    {
+      "source_row_index": 264,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "e301701d459111bd51ad2741e702b682a004eee833850f8005e23555754712f4"
+    },
+    {
+      "source_row_index": 270,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "86dac0fb3cba7805dff659e8498ff9a162e389a3ff19506d765deeb1834825ab"
+    },
+    {
+      "source_row_index": 274,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "a33bea640f177c1705cd0c6aeb71ba6c2264e42424322e47ebb0160d635d72ac"
+    },
+    {
+      "source_row_index": 276,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "1bb163924c836b9ad62d6a9a97ce8d753a88f454aecb8ebe568c5793a156c598"
+    },
+    {
+      "source_row_index": 311,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "70ecd0af7374d8a6211d737b2cd582d31a220f6eb5d79e1fae334163e44462e9"
+    },
+    {
+      "source_row_index": 330,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "f88b8a2e444e406d683925dd8db37b5cfcb002c9e8ff214e34230e651c99250e"
+    },
+    {
+      "source_row_index": 336,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "e4072275981bc4642e42484824b654f9059d0dae06de600f3d4cc2d0597e9ca6"
+    },
+    {
+      "source_row_index": 362,
+      "reason": "Question text already prepared/used in the project or outside-set pilot.",
+      "question_hash": "85ccc22f50f2c4237602dbd8f6ea4249031bd49aa7555243665a13f09822b43b"
+    },
+    {
+      "source_row_index": 365,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "10651ffbab5cfd9e932afeb5523c2390ee4b2f5887bf0fddcd6c235da90ba205"
+    },
+    {
+      "source_row_index": 373,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "99460fa63479bb42024fa681a1d9ec5e2a6228e57e212343e76b05f35c8a6144"
+    },
+    {
+      "source_row_index": 406,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "4ae3959bfbc32ad845724c31ae72b457c84bdcd83de08df073ba9304bdd51c66"
+    },
+    {
+      "source_row_index": 439,
+      "reason": "Question text already prepared/used in the project or outside-set pilot.",
+      "question_hash": "ebda56fcab50f43b0c59089357ad9b52e1cc5075b559e0adaec93a5e5a9c73e1"
+    },
+    {
+      "source_row_index": 449,
+      "reason": "Question text already prepared/used in the project or outside-set pilot.",
+      "question_hash": "279552e5eb7f20dac2c428ca4329b331e7489d3f9fa4107eaf5b52d02164b593"
+    },
+    {
+      "source_row_index": 454,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "af890edbe015146f5833ca2a67b4153eaefbf4af49f90790afcb3b9bc52d5b7d"
+    },
+    {
+      "source_row_index": 457,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "c51a9e47548697dacc24b17914de9a1dc03f6195160fc2f3cdc298079921b450"
+    },
+    {
+      "source_row_index": 465,
+      "reason": "Question text already prepared/used in the project or outside-set pilot.",
+      "question_hash": "718504a8fc19b66bfdc06f4b9c5ed348032e3ac6fd5eecad1b1526e18b0ba800"
+    },
+    {
+      "source_row_index": 467,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "e6a72dde2aed7e290e79bb9ee953d354e0400c642c79f240a710662addf8126f"
+    },
+    {
+      "source_row_index": 470,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "00b1d4d1af4192d588519c2897d8e1203565c93dbde45ee5c4a658f24e0b6f4f"
+    },
+    {
+      "source_row_index": 484,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "664707c38da606d2483621255d1d91426e8812d46e85589d015593391b1bfa2b"
+    },
+    {
+      "source_row_index": 485,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "ccffc96410228fef022690d2278ee374c080f0b40fd0c7c64bbaed825ee62503"
+    },
+    {
+      "source_row_index": 518,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "74c386f26e0387f1b1a790a1bd4855befa645f6ee8e486363850fd23731c9011"
+    },
+    {
+      "source_row_index": 521,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "3fd6eb97a5819667bc188d975342449b1876a36e7cd768d993d4ee161a3fea1f"
+    },
+    {
+      "source_row_index": 525,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "1596dd054984eb911252c4c108db2b46721b814dde1e9472bef4b0dde93f2615"
+    },
+    {
+      "source_row_index": 537,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "606f2488298c12fd6a219267d622cfb9ad93a3f2d69ca74deaeba9f4250c0da2"
+    },
+    {
+      "source_row_index": 603,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "67c826c2ded7851cbc3b9adf550d6b459121b2b616ca5af3d30694d1d7906848"
+    },
+    {
+      "source_row_index": 616,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "98d85038562a4f4fef738492afb1e2bac9495ab1e95b60e33c7dbe752ce66441"
+    },
+    {
+      "source_row_index": 633,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "c0539e6aeea33d9d5456d47ec1bf01c5ffbaa411398261ebc91eee1d440d91ca"
+    },
+    {
+      "source_row_index": 638,
+      "reason": "Question text already prepared/used in the project or outside-set pilot.",
+      "question_hash": "e122722792df8d5fa2a9f1e285c20e10e3161c62fad2965c450810d63e41d0cd"
+    },
+    {
+      "source_row_index": 640,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "f690def1d84c2edff0257a1d2b915e73f9b228baf112d0d1dfeef4bbecfd547d"
+    },
+    {
+      "source_row_index": 653,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "611713d545ebb3bafd14eb586e9864ba3bf130fde13db869b9138e531d9bf1f5"
+    },
+    {
+      "source_row_index": 655,
+      "reason": "Question text already prepared/used in the project or outside-set pilot.",
+      "question_hash": "3451457a5cb47941d9992b15a6bece3e59ddb92dbaca622c2feb8d8a2c12d2ac"
+    },
+    {
+      "source_row_index": 657,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "001e77da02bcdfd2d7398ac2017964cf5b306b3145d7755eca5419634e2f7cf7"
+    },
+    {
+      "source_row_index": 660,
+      "reason": "Question text already prepared/used in the project or outside-set pilot.",
+      "question_hash": "e7902c5523605074d6483c7aef6d798f0126124625f5ce626ec4afdd0181a0db"
+    },
+    {
+      "source_row_index": 668,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "2596a26665c9b6282200c09dd3e1111340005e539df2258709125caeb71ae19a"
+    },
+    {
+      "source_row_index": 676,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "e734b20a69fd1dfdab16828165f1cb4af01f52cb905ec11561943fe2087f4991"
+    },
+    {
+      "source_row_index": 682,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "c252ba5efefd6c571c2d85e4daf3f8f9d861adb632f43561f641ab5c549e24aa"
+    },
+    {
+      "source_row_index": 683,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "202e554475b135d9e71f21b8fa5d9a5db376c32a9d356198cb9e4c48321e19af"
+    },
+    {
+      "source_row_index": 709,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "df2270bcb08ba5156def3fff01c55f646b1c3cf72ad4d22f428aa4f684de3586"
+    },
+    {
+      "source_row_index": 711,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "970f89c5b0c9164d36e6077435eddae23fbe2b56c17868b900a7d5eb8b883456"
+    },
+    {
+      "source_row_index": 716,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "4702cc2e54c1465d5a850687e066b1d44da2bf45b739156c21ff51347001d27f"
+    },
+    {
+      "source_row_index": 725,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "df057effe70d87b3eb2a78e15bd936cece39e254f65ae0a10fc0b94dc75f79d3"
+    },
+    {
+      "source_row_index": 727,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "882723c594f27ab9a47a01b99466f41e8fcbc4228beb20e646052901d4892619"
+    },
+    {
+      "source_row_index": 730,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "60137862316ce1345247684640e3f0e7f4f219146518ac898181d42d3182f6c3"
+    },
+    {
+      "source_row_index": 739,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "cc9d0cbbbfd9d75a7d8701ca61381f2e592cfea3358929c2ff0e9be78374ae98"
+    },
+    {
+      "source_row_index": 758,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "5a39772695b1922453a7093836fbcfb47b352447985a5f431042c7d7cc88fa86"
+    },
+    {
+      "source_row_index": 785,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "fa91f44dea6b4fc6aae60b614b3497a11c43db259b44195e5faa6b6b5e32b7d7"
+    },
+    {
+      "source_row_index": 793,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "b026331068c6bab683a7a027cd1d8dfdf35ee251619e0b78ddbc7b12b4301f4e"
+    },
+    {
+      "source_row_index": 821,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "812ac1f7bab89bb7394b38a6350e04dd3730c230d2a55484184ec825e4a156dc"
+    },
+    {
+      "source_row_index": 835,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "2db68261754115f9f6b167da2a3c1352ba72d02807bbd9d35d5676d8b426546f"
+    },
+    {
+      "source_row_index": 838,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "cbedb1437ef49cdff3c758b520067caa21c5c154a40b40aa6c0835b65a0a6221"
+    },
+    {
+      "source_row_index": 910,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "a3ae3b31f8d22a0697d2ad61801d716515f907f8002ef4c14a88fcc8053c656a"
+    },
+    {
+      "source_row_index": 935,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "cf7fadca516f3dc9fe6d8527771245476c4d4fd0046dfe4cef5a87fb2fc3904f"
+    },
+    {
+      "source_row_index": 960,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "c0f4ba44bdb414ed8187eb17e25f674f29fc61c24f63dd581025469dcbf98fac"
+    },
+    {
+      "source_row_index": 977,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "bfe064cd1266c32b8ee1587a6f75d2c3ebb1d8535362f316decc417284baa4c9"
+    },
+    {
+      "source_row_index": 979,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "b7f935cdd733909a61a5a5c461c2a80ed1b061bcd38337ba98b2749ee4d172cd"
+    },
+    {
+      "source_row_index": 989,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "4699edc6ea5dc5f7100146ddb5d5ce02b8b2f994723ac65005c1a3ee3ab1a51e"
+    },
+    {
+      "source_row_index": 1020,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "5cbd0ca4974563116741a00411f840b650f7f3d225b29d2acc18602fe089e396"
+    },
+    {
+      "source_row_index": 1060,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "2a99649301b05c81d4948a10780e13b3601c270005a2727c0ce09d366edc89e4"
+    },
+    {
+      "source_row_index": 1079,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "d3eb8f57b542985fd72b4f5e2204a570482b4514fd77ec3b9fd0dcdfb1b313c3"
+    },
+    {
+      "source_row_index": 1110,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "11a478b351c35347b52a120171ae33f6ef980d17a32f62abe034b4b8ff4d9563"
+    },
+    {
+      "source_row_index": 1186,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "361867fec221f1fc8079068e641a66a453ad712462b25ba258c535527e47153d"
+    },
+    {
+      "source_row_index": 1237,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "4ff04ff1c44c0aae9db0e9f94fe534278c04e747a2dc5264d7ccadc7e33075db"
+    },
+    {
+      "source_row_index": 1239,
+      "reason": "Conservative unavailable-visual reference screen; no image files are supplied.",
+      "question_hash": "62bf655415bdc786a3154f4d5e5d8b5ec043db9a9d0681691d850c9550bc328c"
+    }
+  ],
+  "ordered_candidate_indices": [
+    80,
+    1257,
+    1262,
+    880,
+    1,
+    625,
+    391,
+    300,
+    460,
+    302,
+    441,
+    16,
+    856,
+    512,
+    720,
+    1151,
+    875,
+    575,
+    382,
+    834,
+    827,
+    161,
+    290,
+    82,
+    157,
+    848,
+    442,
+    1108,
+    56,
+    252,
+    208,
+    36,
+    752,
+    1104,
+    887,
+    1161,
+    642,
+    829,
+    1100,
+    426,
+    965,
+    1124,
+    195,
+    228,
+    673,
+    243,
+    126,
+    0,
+    415,
+    889
+  ],
+  "selected_source_row_indices": [
+    80,
+    1257,
+    1262,
+    880,
+    1,
+    625,
+    391,
+    300,
+    460,
+    302,
+    441,
+    16,
+    856,
+    512,
+    720,
+    1151,
+    875,
+    575,
+    382,
+    834,
+    827,
+    161,
+    290,
+    82,
+    157,
+    848,
+    442,
+    1108,
+    56,
+    252
+  ],
+  "selection": [
+    {
+      "question_id": "BM01",
+      "source_zero_based_index": 80,
+      "question_hash": "a6002a866683be96b3c181a1248cfba784a9b9e8ed73fc3cfcb9db7a1cc0198d",
+      "source_meta_info": "step1",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM02",
+      "source_zero_based_index": 1257,
+      "question_hash": "f424f90b848762115571d9b9c268464e8131020b0a9ebb8c6040b7adc9a6bb0c",
+      "source_meta_info": "step2&3",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM03",
+      "source_zero_based_index": 1262,
+      "question_hash": "e3348744f9e2f5ad857ed385b5436f42e8bd25d3af147937f0980e395f4c6bfd",
+      "source_meta_info": "step1",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM04",
+      "source_zero_based_index": 880,
+      "question_hash": "9779c8697b7878eaaa1fd9aeb423ceaea46e0827137fd9c2ae4dbcfd6cc8a32f",
+      "source_meta_info": "step2&3",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM05",
+      "source_zero_based_index": 1,
+      "question_hash": "93d012b0ede59c4d9dfbb500d94e7e910b2d5cf33ea0e1644a0543d55c6d611b",
+      "source_meta_info": "step1",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM06",
+      "source_zero_based_index": 625,
+      "question_hash": "971878e0c3b63f0338044208b8ea8756c9df3cca8ed5310fb6053ecdc831c490",
+      "source_meta_info": "step1",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM07",
+      "source_zero_based_index": 391,
+      "question_hash": "69bdc25363a2ddba0cef056ddebbe8374c36a8cf49d0bfc2b77840358d75bb69",
+      "source_meta_info": "step1",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM08",
+      "source_zero_based_index": 300,
+      "question_hash": "9bcf08c7fa4c4761cb45a7190a2df95f050cbf7b52758d09c9a7cf123845c801",
+      "source_meta_info": "step1",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM09",
+      "source_zero_based_index": 460,
+      "question_hash": "c64af44442c4e80b71716c147fffce3a682d98db3d48630e3543f1afd146c500",
+      "source_meta_info": "step2&3",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM10",
+      "source_zero_based_index": 302,
+      "question_hash": "906641946f9c33453a2ee219ecd95a1c33c3bdefa90a8ce78bae40699ee7cbae",
+      "source_meta_info": "step2&3",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM11",
+      "source_zero_based_index": 441,
+      "question_hash": "395982cc737383157c9954656b2f5b936d7314c624315ffc5c882e1efe00dbf0",
+      "source_meta_info": "step1",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM12",
+      "source_zero_based_index": 16,
+      "question_hash": "7ed9f9657e8520c1d2934ac9447e5ea3c3a93666abd0cbc1867425aebb73d801",
+      "source_meta_info": "step2&3",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM13",
+      "source_zero_based_index": 856,
+      "question_hash": "38694fbed7a58b5f323bab3d06d648c96c7fe7d01a9678572f1b96c7b1abb6aa",
+      "source_meta_info": "step1",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM14",
+      "source_zero_based_index": 512,
+      "question_hash": "4ecee50c6db1517b3bb97f12e58b1001b5cb26ab673c1f24143f505d57a932f4",
+      "source_meta_info": "step2&3",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM15",
+      "source_zero_based_index": 720,
+      "question_hash": "88d106d023d9781f7105ffff67dc7a9111321aaa6e29ebacd763665e51059921",
+      "source_meta_info": "step1",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM16",
+      "source_zero_based_index": 1151,
+      "question_hash": "416a7cf14abbdfee81bf85de9350dc12ecc2da24bdc075c9fd7d67ef1d9a95c9",
+      "source_meta_info": "step2&3",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM17",
+      "source_zero_based_index": 875,
+      "question_hash": "53e5642be1c23a90b84b7d5efcca92538b3f2f5621f82feb606a93f6ce43ed10",
+      "source_meta_info": "step1",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM18",
+      "source_zero_based_index": 575,
+      "question_hash": "c291383591ea0894a91e0af73fcdf063d515e2251ffa519321d8b92be3dab126",
+      "source_meta_info": "step1",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM19",
+      "source_zero_based_index": 382,
+      "question_hash": "02162fec4a8cb8e8c93243d9d4e6c3cd17f1835e8b524d214193125ba66e8d7b",
+      "source_meta_info": "step1",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM20",
+      "source_zero_based_index": 834,
+      "question_hash": "a662e379c3c1cd9dcf644608e9d444925242a380fd98b396e3080a4e4ef8b0fc",
+      "source_meta_info": "step1",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM21",
+      "source_zero_based_index": 827,
+      "question_hash": "dc3b9ca815fbfb62c90d23582e87d8d4f51128b0f53a4167fe51949a6247bc96",
+      "source_meta_info": "step1",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM22",
+      "source_zero_based_index": 161,
+      "question_hash": "7173e14f0a440b4ce6b99325edae0cda22de4b866b81d302f37bd2035a027efc",
+      "source_meta_info": "step2&3",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM23",
+      "source_zero_based_index": 290,
+      "question_hash": "b28cfbb6ac3165c63360c38a50e8eb6a4ee84daf2496d333f1e31c355aeae315",
+      "source_meta_info": "step2&3",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM24",
+      "source_zero_based_index": 82,
+      "question_hash": "821b3f847adc7544614214c9a919caf1f245d8ed59dad14d2edcc6df53a23a90",
+      "source_meta_info": "step1",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM25",
+      "source_zero_based_index": 157,
+      "question_hash": "7592ec1adf9a063fc9e5365940db84dcd19536f75535613022dc989ee4275fdc",
+      "source_meta_info": "step1",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM26",
+      "source_zero_based_index": 848,
+      "question_hash": "aa74a786b339efc449f0b5e11204d811645e9f6dc5939dbd4fc026c42c54fef4",
+      "source_meta_info": "step2&3",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM27",
+      "source_zero_based_index": 442,
+      "question_hash": "4f35d9f5be94d53675dcdc427a7e12db83d748ecb6aa9de279dfdb233a1412b3",
+      "source_meta_info": "step2&3",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM28",
+      "source_zero_based_index": 1108,
+      "question_hash": "5474394f1fdb88bdffee34abdc348104558cc60a88484b3d09cff8589d307d3c",
+      "source_meta_info": "step1",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM29",
+      "source_zero_based_index": 56,
+      "question_hash": "5d0c2a0955aea060c77fc8271d8af3eea6239c9e2a29ec2bbf3424089b8b9244",
+      "source_meta_info": "step1",
+      "wording_options_key_changed": false
+    },
+    {
+      "question_id": "BM30",
+      "source_zero_based_index": 252,
+      "question_hash": "71328452a3063da6e76c5aa38dbebc0357658db2f7596dc306e369de418ffa30",
+      "source_meta_info": "step2&3",
+      "wording_options_key_changed": false
+    }
+  ],
+  "history_exclusions_sha256": "595d1cbcb470776bfd33df8d68c55235c0e76db8d409c9788d9be4cf10c17410",
+  "questions_sha256": "9e04453c9b414ffd6b0be548edc097e5e8200f9b9001f22ed11be434805155b6",
+  "answer_key_sha256": "c96193f1dd60261651fc6914774e50e46d50f0bf78e2ab7dc142afe56411b6fc",
+  "screen": "\\b(?:image|photograph|photomicrograph|micrograph|figure|diagram)\\b|\\bshown\\s+(?:below|above)\\b",
+  "no_length_word_cap": true,
+  "no_difficulty_score_or_answer_position_filter": true,
+  "selection_algorithm": "Filter in original source order, then random.Random(seed).shuffle; first 30 of an independently frozen 50-item candidate order.",
+  "held_out_meaning": "Unused for this project's prior development/answers; benchmark pretraining contamination remains possible.",
+  "requirement_1_entry": "B01",
+  "openevidence_use_source": "https://doi.org/10.1038/s41591-026-04431-5"
+}

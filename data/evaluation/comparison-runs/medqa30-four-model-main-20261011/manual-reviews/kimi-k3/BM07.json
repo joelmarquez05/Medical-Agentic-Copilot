@@ -1,0 +1,55 @@
+{
+  "question_id": "BM07",
+  "model_profile": "kimi-k3",
+  "answer_sha256": "e8eca76cfc1e21c7c39dbe3bc3208c530d8b514a12c0d9701a3fdccea926dfc3",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "minor_limitation"
+  },
+  "answer_notes": "Correct D. Coherent perfusion/ischemia reasoning, with a burn-flow statement directly present in a rat paper background and early-local-ischemia wording in the review. The human hemodynamic search excerpt gives methods, not measured results; all three are cited without reading. Species/read-extent limits constrain clinical corroboration.",
+  "researcher_reference_ids": [],
+  "queries": [
+    {
+      "rating": "appropriate",
+      "notes": "Targets the burn-associated ulcer eponym and gastric blood-flow mechanism."
+    }
+  ],
+  "papers": {
+    "4598968": {
+      "rating": "not_assessable",
+      "notes": "Generic GI-hemorrhage title only, with no abstract; insufficient delivered detail to assess the specific burn-ischemia mechanism."
+    },
+    "4053922": {
+      "rating": "directly_relevant",
+      "notes": "Visible acute-ulcer discussion identifies local ischemia as the earliest recognizable lesion, directly addressing the mechanistic option."
+    },
+    "11521598": {
+      "rating": "partially_relevant",
+      "notes": "Burn-associated GI erosive hemorrhage and rheology/clotting changes are related, without the specific gastric-perfusion conclusion in this view."
+    },
+    "7095361": {
+      "rating": "directly_relevant",
+      "notes": "Human gastric-hemodynamic study directly examines stress lesions after thermal/head injury; search text is methods only, while a read exposes measured volume reductions and conclusions."
+    },
+    "9248637": {
+      "rating": "partially_relevant",
+      "notes": "Rat burn-injury/endothelin experiment is related mechanistic evidence; opening background explicitly mentions reduced gastric flow, but human transfer is limited."
+    }
+  },
+  "citations": {
+    "P9248637_search_7aafb73cebe2": {
+      "rating": "supported",
+      "notes": "Opening background explicitly states reduced gastric mucosal flow contributes to burn stress ulcers; rat experimental results or an exact human effect are not credited."
+    },
+    "P4053922_search_2f724eaca4c7": {
+      "rating": "supported",
+      "notes": "Visible text identifies local ischemia as an early acute-ulcer lesion, supporting the mechanistic statement rather than every burn-specific detail."
+    },
+    "P7095361_search_2b39ea57f652": {
+      "rating": "partially_supported",
+      "notes": "The excerpt verifies that human thermal/head injury hemodynamics were investigated; measured flow/volume reduction and conclusions are not visible without reading."
+    }
+  }
+}

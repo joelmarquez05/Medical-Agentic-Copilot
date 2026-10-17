@@ -1,0 +1,305 @@
+{
+  "dataset_id": "requirement-4-medqa-test-30",
+  "questions": [
+    {
+      "question_id": "BM01",
+      "question": "A post-mortem lung examination of a 68-year-old male overweight male with evidence of chronic lower extremity edema, a 60 pack-year smoking history and daily productive cough would be most likely to reveal:",
+      "options": {
+        "A": "Hypereosinophilia",
+        "B": "Reid Index > 50%",
+        "C": "Non-caseating granulomas",
+        "D": "Evidence of a necrotizing infection"
+      }
+    },
+    {
+      "question_id": "BM02",
+      "question": "A 65-year-old man comes to the physician because of progressively worsening fatigue for 6 months. During this time, he has also had shortness of breath and palpitations on exertion. He has noticed blood in his stools on three separate occasions in the past 4 months. He has type 2 diabetes mellitus and end-stage renal disease. He drinks two to four beers daily. He does not smoke. His pulse is 95/min and blood pressure is 120/70 mm Hg. Examination shows pale conjunctivae. The abdomen is soft with no organomegaly. Rectal examination is unremarkable. His hemoglobin concentration is 7.2 g/dL, hematocrit is 32%, and mean corpuscular volume is 68 μm3. Which of the following is the most likely underlying cause of this patient's bleeding?",
+      "options": {
+        "A": "Inflammation in an outpouching of the colonic wall",
+        "B": "Symptomatic enlargement of hemorrhoidal plexus",
+        "C": "Chronic mucosal and submucosal inflammation of the colon",
+        "D": "Arteriovenous malformation in the colonic wall"
+      }
+    },
+    {
+      "question_id": "BM03",
+      "question": "A 30-year-old man presents to the emergency room complaining of malaise. Two hours prior to presentation, he developed muscle cramps and nausea. He has had 3 episodes of non-bloody watery stools since his symptoms started. He reports that he has experienced similar symptoms multiple times over the past 5 years since he started working at his local zoo as a reptilian caretaker. His medical history is unremarkable. He takes fish oil and a multivitamin daily. His temperature is 101°F (38.3°C), blood pressure is 130/90 mmHg, pulse is 90/min, and respirations are 17/min. On exam, he demonstrates sensitivity to bright light. He is tired-appearing but alert and fully oriented. A stool sample and culture demonstrates abundant non-lactose fermenting, oxidase-negative, and H2S-producing gram-negative bacilli. The pathogen responsible for this patient’s condition relies on a virulence factor with which of the following mechanisms of action?",
+      "options": {
+        "A": "ADP ribosylation of elongation factor 2",
+        "B": "Blocking antibody attack on the O antigen",
+        "C": "Cleaving immunoglobulin A molecules",
+        "D": "Cleaving lecithin"
+      }
+    },
+    {
+      "question_id": "BM04",
+      "question": "A 21-year-old woman presents with sudden onset of high blood pressure. She is concerned about her health especially after her colleagues noticed that her face gets red at times while at work. She has even started to use blankets to cover her feet, even on the warmest days in the summer, even though her hands feel warm to the touch. She is a student who exercises and eats a well-balanced diet every day. There is no family history of hypertension or other metabolic syndromes. On examination, her blood pressure is 145/92 mm Hg, respirations are 19/min, pulse is 64/min, and temperature is 36.7°C (98.0°F). An echocardiogram is ordered for investigation. This patient is likely affected by a condition which is associated with which of the following options?",
+      "options": {
+        "A": "Fibromuscular dysplasia",
+        "B": "Marfan syndrome",
+        "C": "Turner syndrome",
+        "D": "Takayasu's arteritis"
+      }
+    },
+    {
+      "question_id": "BM05",
+      "question": "A 67-year-old man with transitional cell carcinoma of the bladder comes to the physician because of a 2-day history of ringing sensation in his ear. He received this first course of neoadjuvant chemotherapy 1 week ago. Pure tone audiometry shows a sensorineural hearing loss of 45 dB. The expected beneficial effect of the drug that caused this patient's symptoms is most likely due to which of the following actions?",
+      "options": {
+        "A": "Inhibition of proteasome",
+        "B": "Hyperstabilization of microtubules",
+        "C": "Generation of free radicals",
+        "D": "Cross-linking of DNA"
+      }
+    },
+    {
+      "question_id": "BM06",
+      "question": "A 23-year-old woman presents to the hospital for elective surgery. However, due to an unexpected bleeding event, the physician had to order a blood transfusion to replace the blood lost in the surgery. After this, the patient became irritable and had difficulty breathing, suggesting an allergic reaction, which was immediately treated with epinephrine. This patient is otherwise healthy, and her history does not indicate any health conditions or known allergies. The physician suspects an immunodeficiency disorder that was not previously diagnosed. If serum is taken from this patient to analyze her condition further, which of the following would be expected?",
+      "options": {
+        "A": "High IgM, low IgA, and IgE",
+        "B": "Low IgA, normal IgG, and IgM",
+        "C": "High IgE, normal IgA, and IgG",
+        "D": "Normal serum immunoglobulin values"
+      }
+    },
+    {
+      "question_id": "BM07",
+      "question": "A 34-year-old patient is brought to the emergency room after a motor vehicle accident. An EKG shows sinus tachycardia and chest radiograph reveals an enlarged cardiac silhouette. While observing sinus tachycardia on the patient's telemetry, you note that the radial pulse cannot be palpated during inspiration. What should be the next step in management of this patient?",
+      "options": {
+        "A": "Pericardiocentesis",
+        "B": "Chest CT scan",
+        "C": "Pericardial window",
+        "D": "Insert chest tube"
+      }
+    },
+    {
+      "question_id": "BM08",
+      "question": "A 5-year-old boy is brought to the physician because of an irregular gait 3 days after receiving age-appropriate vaccinations. Examination of the lower extremities shows no redness or swelling. When the child stands on his right leg, his left leg drops and his pelvis tilts towards the left. Sensation to light touch is normal in both legs. This patient's symptoms are most likely due to the injection of the vaccine into which of the following locations?",
+      "options": {
+        "A": "Inferolateral quadrant of the right buttock",
+        "B": "Inferomedial quadrant of the right buttock",
+        "C": "Inferomedial quadrant of the left buttock",
+        "D": "Superomedial quadrant of the right buttock"
+      }
+    },
+    {
+      "question_id": "BM09",
+      "question": "A 32-year-old man comes to the physician because of a progressive development of tender breast tissue over the past 18 months. He used to ride his bicycle for exercise 4 times a week but stopped after he had an accident and injured his left testicle 3 months ago. He has gained 5 kg (11 lb) during this period. For the last 10 years, he drinks one to two beers daily and sometimes more on weekends. He occasionally takes pantoprazole for heartburn. He is 171 cm (5 ft 7 in) tall and weighs 87 kg (192 lb); BMI is 30 kg/m2. Vital signs are within normal limits. Examination shows bilaterally symmetrical, mildly tender gynecomastia. A nontender 1.5-cm mass is palpated in the left testis; transillumination test is negative. The remainder of the examination shows no abnormalities. Which of the following is the most likely underlying cause of these findings?",
+      "options": {
+        "A": "Leydig cell tumor",
+        "B": "Obesity",
+        "C": "Klinefelter syndrome",
+        "D": "Trauma to testis"
+      }
+    },
+    {
+      "question_id": "BM10",
+      "question": "A 14-year-old boy is brought to the physician because of an increasing difficulty in hearing over the past several months. His mother says they have to speak at a higher volume for him to understand them. He also complains of having difficulty reading his favorite books because he is not able to see the words clearly. His father received a renal transplant in his 20s. The vital signs are within normal limits. The physical examination shows no abnormalities. Laboratory studies show:\nSerum\nUrea nitrogen 15 mg/dL\nCreatinine 1.0 mg/dL\nUrine\nBlood 1+\nProtein 1+\nRBC 15–17/hpf\nWBC 1–2/hpf\nThe audiometry shows bilateral high-frequency sensorineural hearing loss. The ophthalmologic examination shows anterior lenticonus. Which of the following best explains these findings?",
+      "options": {
+        "A": "Alport syndrome",
+        "B": "Fabry’s disease",
+        "C": "Von Hippel-Lindau disease",
+        "D": "Tuberous sclerosis"
+      }
+    },
+    {
+      "question_id": "BM11",
+      "question": "A 40-year-old female presents to your office complaining of a tender neck and general lethargy. Upon further questioning, she reports decreased appetite, fatigue, constipation, and jaw pain. Her pulse is 60 bpm and her blood pressure is 130/110 mm Hg. Biopsy of her thyroid reveals granulomatous inflammation and multinucleate giant cells surrounding fragmented colloid. Which of the following likely precipitated the patient’s condition:",
+      "options": {
+        "A": "Iodine deficiency",
+        "B": "Thryoglossal duct cyst",
+        "C": "Infection",
+        "D": "Chronic renal disease"
+      }
+    },
+    {
+      "question_id": "BM12",
+      "question": "A 7-year-old boy is brought to his pediatrician’s office for a follow-up visit. He was diagnosed with asthma when he was 3 years old and has since been on treatment for the condition. He is currently on a β-agonist inhaler because of exacerbation of his symptoms. He has observed that his symptoms are more prominent in springtime, especially when the new flowers are blooming. His mother has a backyard garden and whenever he goes out to play there, he experiences chest tightness with associated shortness of breath. He has been advised to take more precaution during this seasonal change and to stay away from pollen. He is also being considered for an experimental therapy, which attenuates the activity of certain mediators which cause his asthmatic attack. The targeted mediator favors the class switching of antibodies. A reduction in this mechanism will eventually reduce the exaggerated response observed during his asthmatic attacks, even when exposed to an allergen. Which of the following mediators is described in this experimental study?",
+      "options": {
+        "A": "IL-2",
+        "B": "IL-10",
+        "C": "IL-13",
+        "D": "IL-4"
+      }
+    },
+    {
+      "question_id": "BM13",
+      "question": "A 45-year-old man presents to his primary care provider for two weeks of low-grade fever and sore throat. Upon further questioning, the patient is found to have unprotected sex with both men and women with 3-5 partners per month. On workup, he is found to have an HIV viral load of 15,000 copies/mL with a CD4+ of 170 cells/mm^3. He is started on medical therapy. What should be included in his medication regimen?",
+      "options": {
+        "A": "Azithromycin",
+        "B": "Fluconazole",
+        "C": "Folinic acid",
+        "D": "Tetrahydrofolic acid"
+      }
+    },
+    {
+      "question_id": "BM14",
+      "question": "A 35-year-old woman presents to her primary care provider concerned that she may be pregnant. She has a history of regular menstruation every 4 weeks that lasts about 4 days with mild to moderate bleeding, but she missed her last period 2 weeks ago. A home pregnancy test was positive. She has a 6-year history of hyperthyroidism that is well-controlled with daily methimazole. She is currently asymptomatic and has no complaints or concerns. A blood specimen is taken and confirms the diagnosis. Additionally, her thyroid-stimulating hormone (TSH) is 2.0 μU/mL. Which of the following is the next best step in the management of this patient?",
+      "options": {
+        "A": "Continue methimazole",
+        "B": "Discontinue methimazole, start propylthiouracil",
+        "C": "Add glucocorticoids",
+        "D": "Refer for radioiodine therapy"
+      }
+    },
+    {
+      "question_id": "BM15",
+      "question": "A 28-year-old woman is brought to the emergency room after a motor vehicle accident. On arrival, she is stable and says that she hit a car at an intersection that \"came out of nowhere\". She states that she had similar close encounters with other cars these past few weeks but was able to avoid collisions with those. She has also had intermittent headaches over the last month and has noticed that her shirts have been getting wet unexpectedly. Blood tests reveal an abnormal elevation of a circulating substance. Which of following changes is also associated with the physiologic function of the most likely substance in this case?",
+      "options": {
+        "A": "Decreased oxytocin",
+        "B": "Decreased progesterone",
+        "C": "Increased follicle stimulating hormone",
+        "D": "Increased progesterone"
+      }
+    },
+    {
+      "question_id": "BM16",
+      "question": "A 1900-g (4-lb 3-oz) newborn is delivered at term to a 36-year-old primigravid woman. Pregnancy was complicated by polyhydramnios. Apgar scores are 7 and 7 at 1 and 5 minutes, respectively. He is at the 2nd percentile for head circumference and 15th percentile for length. Examination shows a prominent posterior part of the head. The ears are low-set and the jaw is small and retracted. The fists are clenched, with overlapping second and third fingers. The calcaneal bones are prominent and the plantar surface of the foot shows a convex deformity. Abdominal examination shows an omphalocele. Further evaluation of this patient is most likely to show which of the following findings?",
+      "options": {
+        "A": "Ventricular septal defect",
+        "B": "Ebstein's anomaly",
+        "C": "Pheochromocytoma",
+        "D": "Holoprosencephaly"
+      }
+    },
+    {
+      "question_id": "BM17",
+      "question": "A 64-year-old man with multiple sclerosis comes to the physician because of a 4-month history of urinary incontinence. The urge to urinate occurs suddenly, and he often is unable to make it to the bathroom before leaking urine. He has no incontinence with coughing or laughing. Digital rectal examination shows no abnormalities. Ultrasonography shows a normal post-void residual volume. Which of the following is the most appropriate pharmacotherapy for this patient's incontinence?",
+      "options": {
+        "A": "Midodrine",
+        "B": "Rivastigmine",
+        "C": "Mirtazapine",
+        "D": "Tolterodine"
+      }
+    },
+    {
+      "question_id": "BM18",
+      "question": "A 48-year-old woman comes to the physician because of intermittent pain in her neck, right shoulder, and arm, as well as a tingling sensation in her right hand. She first noticed her symptoms after she got off a rollercoaster ride 2 months ago. Physical examination shows weakness when extending the right wrist against resistance. An MRI of the head and neck is shown. This patient's condition is most likely the result of nerve root compression by a structure derived from which of the following embryologic layers?",
+      "options": {
+        "A": "Neural crest",
+        "B": "Notochord",
+        "C": "Neural tube",
+        "D": "Surface ectoderm"
+      }
+    },
+    {
+      "question_id": "BM19",
+      "question": "A 32-year-old woman comes to the physician because she feels depressed, has difficulty sleeping, a poor appetite, and low concentration for the past 3 months. During this time, she has also had low energy and lost interest in playing the guitar. During high school, the patient went through similar episodes of low mood and poor sleep. At that time, she would repeatedly engage in binge eating and purging behavior, for which she was referred to therapy. There is no evidence of suicidal ideation. The physician offers to prescribe a medication for her current symptoms. Treatment with which of the following drugs should most be avoided in this patient?",
+      "options": {
+        "A": "Duloxetine",
+        "B": "Trazodone",
+        "C": "Bupropion",
+        "D": "Citalopram"
+      }
+    },
+    {
+      "question_id": "BM20",
+      "question": "While on a teaching sabbatical in Uruguay, a pathologist examined the excised liver of an 18-year-old otherwise healthy female who passed away due to massive hepatic necrosis 5 days after she underwent general anesthesia to repair a fractured femur. Which of the following is a general anesthetic most likely responsible for her death?",
+      "options": {
+        "A": "Lidocaine",
+        "B": "Midazolam",
+        "C": "Halothane",
+        "D": "Desflurane"
+      }
+    },
+    {
+      "question_id": "BM21",
+      "question": "A 28-year-old woman presents to her primary care physician for evaluation of amenorrhea. Her last period occurred 4 months ago but she has not had sex in the last year and home pregnancy tests have come back negative. She first started having periods at age 13 and her periods have been unremarkable up until they stopped 4 months ago. Her past medical history is significant for radius and ulnar forearm fractures that she sustained in a car crash 3 months ago. She didn't see the car coming and has had increasing difficulty noticing objects in her peripheral vision. She also notes having recurrent headaches 5 months ago. Otherwise she has been healthy with no previous pregnancies. Physical exam reveals galactorrhea and temporal field visual defects. Which of the following mechanisms is most likely responsible for this patient's amenorrhea?",
+      "options": {
+        "A": "Inhibition of gonadotropin-releasing hormone release",
+        "B": "Intrauterine scar tissue accumulation",
+        "C": "Nondisjunction of chromosomes",
+        "D": "Nutritional imbalance"
+      }
+    },
+    {
+      "question_id": "BM22",
+      "question": "A 51-year-old woman presents to her primary care physician complaining of months of dry mouth and dry eyes. She says the dryness has become so severe that she has difficulty swallowing food. She has a history of hypertension, for which she takes hydrochlorothiazide (HCTZ), but she has no other medical problems. Family history is significant for her grandmother having systemic lupus erythematosus. The vital signs include: blood pressure 118/76 mm Hg, heart rate 78/min, and respiratory rate 15/min. On physical exam, she has tender parotid glands bilaterally and dries mucous membranes. The presence of serum anti-Ro and anti-La autoantibodies is confirmed at high titers. In addition to her primary diagnosis, which of the following is this patient most at risk for developing in the future?",
+      "options": {
+        "A": "Gastric carcinoma",
+        "B": "Non-Hodgkin lymphoma",
+        "C": "Invasive ductal carcinoma of the breast",
+        "D": "Adenocarcinoma of the lung"
+      }
+    },
+    {
+      "question_id": "BM23",
+      "question": "In a study, 2 groups are placed on different statin medications, statin A and statin B. Baseline LDL levels are drawn for each group and are subsequently measured every 3 months for 1 year. Average baseline LDL levels for each group were identical. The group receiving statin A exhibited an 11 mg/dL greater reduction in LDL in comparison to the statin B group. Statistical analysis reports a p-value of 0.052. Which of the following best describes the meaning of this p-value?",
+      "options": {
+        "A": "If 100 similar experiments were conducted, 5.2 of them would show similar results",
+        "B": "There is a 5.2% chance that A is more effective than B is due to chance",
+        "C": "There is a 94.8% chance that the difference observed reflects a real difference",
+        "D": "This is a statistically significant result"
+      }
+    },
+    {
+      "question_id": "BM24",
+      "question": "A 44-year-old African-American woman comes to the physician for a routine examination. She is concerned about cancer because her uncle died of metastatic melanoma 1 year ago. She has no history of serious illness and does not take any medication. She has been working in a law firm for the past 20 years and travels to the Carribean regularly with her husband. Examination of her skin shows no abnormal moles or warts. This woman is at greatest risk of which of the following types of melanoma?",
+      "options": {
+        "A": "Desmoplastic",
+        "B": "Nodular",
+        "C": "Acral lentiginous",
+        "D": "Superficial spreading"
+      }
+    },
+    {
+      "question_id": "BM25",
+      "question": "A 13-month-old boy is brought to the physician for a well-child examination. Physical examination shows hepatosplenomegaly. A venous blood sample obtained for routine screening tests is milky. After refrigeration, a creamy supernatant layer appears on top of the sample. Genetic analysis shows a mutation in the apolipoprotein C-II gene (APOC2) on chromosome 19. This patient is at greatest risk for developing which of the following complications?",
+      "options": {
+        "A": "Acute pancreatitis",
+        "B": "Myocardial infarction",
+        "C": "Corneal arci",
+        "D": "Cerebrovascular accident"
+      }
+    },
+    {
+      "question_id": "BM26",
+      "question": "A 47-year-old woman comes to the emergency department because of worsening pain, discoloration, and swelling of her right hand. Two days ago, she was camping outdoors in Texas with her two young children. She was awoken in the middle of the night by “something crawling on my hand.” The following morning, she saw a wound on her hand that was initially painless, but over the next several hours she noticed reddening and blistering. Yesterday, the lesion turned blue with a blackish discoloration at the center. Her temperature is 38°C (100.4°F), pulse is 83/min, and blood pressure is 128/84 mm Hg. Physical examination shows a bluish plaque with a central area of necrosis surrounded by a rim of erythema at the dorsum of the right hand. Which of the following animals is most likely responsible for the patient's symptoms?",
+      "options": {
+        "A": "Diamondback rattlesnake",
+        "B": "Brown recluse spider",
+        "C": "Striped bark scorpion",
+        "D": "Deer tick"
+      }
+    },
+    {
+      "question_id": "BM27",
+      "question": "A 24-year-old man is brought to the emergency room by the police after a fall. The patient smells of alcohol and is slurring his words. You find out that he has recently been fired from his job as a salesperson for months of tardiness and poor performance. The police tell you that his girlfriend, who was there at the time of the fall, mentioned that the patient has been struggling with alcohol for at least a year. Upon physical examination, the patient becomes agitated and starts yelling. He accuses his ex-boss of being a cocaine addict and says he couldn’t keep up sales percentages compared to someone using cocaine. Which of the following psychiatric defense mechanisms is the patient demonstrating?",
+      "options": {
+        "A": "Denial",
+        "B": "Displacement",
+        "C": "Projection",
+        "D": "Regression"
+      }
+    },
+    {
+      "question_id": "BM28",
+      "question": "A 32-year-old man jumps off a 3 story building during a suicide attempt. Paramedics arrive quickly, and he is taken to the hospital where several stable lumbar fractures and a shattered right calcaneus are found. He undergoes surgery and his calcaneus is repaired with 11 screws. Which of the following statements best describes the long term post-surgery outcome in this patient?",
+      "options": {
+        "A": "He will not be able to plantar flex his foot.",
+        "B": "He will not be able to point his toe.",
+        "C": "He will have pain with inversion and eversion of his foot.",
+        "D": "He will have pain while dorsiflexing his foot."
+      }
+    },
+    {
+      "question_id": "BM29",
+      "question": "An otherwise healthy 26-year-old man comes to the physician for medication counseling after recently being diagnosed with schizophrenia. Risperidone therapy is initiated. This patient is at increased risk for which of the following adverse effects?",
+      "options": {
+        "A": "Agranulocytosis",
+        "B": "Shortened QT interval",
+        "C": "Gynecomastia",
+        "D": "Weight loss"
+      }
+    },
+    {
+      "question_id": "BM30",
+      "question": "A 30-year-old man presents to his primary care provider complaining of drowsiness at work for the past several months. He finds his work as a computer programmer rewarding and looks forward to coming into the office every day. However, he often falls asleep during meetings even though he usually gets a good night sleep and has limited his exposure to alcohol and caffeine in the evening. His past medical history is noncontributory. His vital signs are within normal limits. Physical examination is unremarkable. The primary care provider recommends keeping a sleep journal and provides a questionnaire for the patient’s wife. The patient returns one month later to report no changes to his condition. The sleep journal reveals that the patient is getting sufficient sleep and wakes up rested. The questionnaire reveals that the patient does not snore nor does he stop breathing during his sleep. A sleep study reveals mean sleep latency of 6 minutes. Which of the following is the best course of treatment for this patient’s condition?",
+      "options": {
+        "A": "Methylphenidate",
+        "B": "Sodium oxybate",
+        "C": "Imipramine",
+        "D": "Increase daytime naps"
+      }
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "requirement": 7,
+  "new_requests": 27,
+  "known_cost_usd": 0.01291831,
+  "unknown_charge_records": 1,
+  "new_unknown_charge_reserve_usd": 0.0067934,
+  "stages": [
+    {
+      "run_id": "gemma-patient-control-check-20261014",
+      "requests": 1,
+      "known_cost_usd": 0.00026265,
+      "unknown_charge_records": 0
+    },
+    {
+      "run_id": "gemma-patient-main-20261014-pm01",
+      "requests": 1,
+      "known_cost_usd": 0,
+      "unknown_charge_records": 1
+    },
+    {
+      "run_id": "gemma-patient-main-20261014-pm02",
+      "requests": 1,
+      "known_cost_usd": 0.00044925,
+      "unknown_charge_records": 0
+    },
+    {
+      "run_id": "gemma-patient-main-20261014-pm03",
+      "requests": 2,
+      "known_cost_usd": 0.00089619,
+      "unknown_charge_records": 0
+    },
+    {
+      "run_id": "gemma-patient-main-20261014-pm04",
+      "requests": 3,
+      "known_cost_usd": 0.001453,
+      "unknown_charge_records": 0
+    },
+    {
+      "run_id": "gemma-patient-main-20261014-pm05",
+      "requests": 2,
+      "known_cost_usd": 0.00097584,
+      "unknown_charge_records": 0
+    },
+    {
+      "run_id": "gemma-patient-main-20261014-pm06",
+      "requests": 2,
+      "known_cost_usd": 0.00090426,
+      "unknown_charge_records": 0
+    },
+    {
+      "run_id": "gemma-patient-main-20261014-pm07",
+      "requests": 2,
+      "known_cost_usd": 0.00112155,
+      "unknown_charge_records": 0
+    },
+    {
+      "run_id": "gemma-patient-main-20261014-pm08",
+      "requests": 2,
+      "known_cost_usd": 0.00130557,
+      "unknown_charge_records": 0
+    },
+    {
+      "run_id": "gemma-patient-main-20261014-pm09",
+      "requests": 4,
+      "known_cost_usd": 0.00184155,
+      "unknown_charge_records": 0
+    },
+    {
+      "run_id": "gemma-patient-main-20261014-pm10",
+      "requests": 2,
+      "known_cost_usd": 0.00130773,
+      "unknown_charge_records": 0
+    },
+    {
+      "run_id": "gemma-patient-pilot-20261014-pilot-alpha",
+      "requests": 2,
+      "known_cost_usd": 0.00110457,
+      "unknown_charge_records": 0
+    },
+    {
+      "run_id": "gemma-patient-pilot-20261014-pilot-beta",
+      "requests": 2,
+      "known_cost_usd": 0.0010038,
+      "unknown_charge_records": 0
+    },
+    {
+      "run_id": "gemma-patient-probe-20261014-probe01",
+      "requests": 1,
+      "known_cost_usd": 0.00029235,
+      "unknown_charge_records": 0
+    }
+  ],
+  "combined_prior_ledger": {
+    "known_cost_usd": 0.11661427000000008,
+    "unknown_reserve_usd": 0.013191999999999999,
+    "account_anchor_usd": 4.802368939,
+    "saved_requests": 105
+  },
+  "latest_saved_account_observation": {
+    "checked_at_utc": "2026-10-14T14:35:42+00:00",
+    "credential_source": "file",
+    "total_usage": 4.923763109,
+    "total_credits": 10,
+    "interpretation": "Account-wide observation; delayed billing or other account activity remains possible."
+  },
+  "historical_uncertainty_headroom_usd": 0.15,
+  "cumulative_limit_usd": 6,
+  "conservative_usage_plus_reserves_usd": 5.086955109,
+  "below_cumulative_limit": true,
+  "new_requests_for_this_audit": 0,
+  "interpretation": "Known request charges and account-wide usage are different quantities. The failed request has no reported price; its reservation is not an observed charge."
+}

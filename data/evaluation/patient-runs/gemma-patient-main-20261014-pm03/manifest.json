@@ -1,0 +1,62 @@
+{
+  "requirement": 7,
+  "version": "patient-agent-v1",
+  "mode": "ask",
+  "started_at_utc": "2026-10-14T14:24:29.009950+00:00",
+  "source_hashes": {
+    "clinical_evaluation.py": "40a488a9f653c692a65a117d2b0c6b104dabb68eaadfd6f4a319f3c26f8233d2",
+    "clinical_graph.py": "27011976775a25e276c1db843ee096d891fcd0007f239c8ebe71332e8cc3c953",
+    "clinical_literature.py": "8259219dadb5994f2c6f7178f5ecbfde062fb26aeb56121ab13b737157cc6a37",
+    "clinical_literature_evaluation.py": "7b520062f11d76aa828997f17885831d74f967c324adabc90635cf4285e67b64",
+    "clinical_resilient.py": "a13e84bb1b68be60d8d74a16bc70085bd5fd870f63de0ac103c3a6b7b3967642",
+    "comparison_evaluation.py": "6e756b3d38452964bfcc7c4475fdff939b75fbe23b4041035cf8e3651083d71c",
+    "config.py": "2db95d297d39e34fd8f5142f657e26110cf43b0400d72c97551656a1db24b001",
+    "evaluation.py": "4f31705581da1313147674ca8e92016bc62bca96e35bb141454334636d0124f6",
+    "models.py": "295891cab2537e90645a27d184a8cda6d8d3f0dba32a8359a137c24b12baa0ab",
+    "patient_agent.py": "7c651b3521007742bb367a7299e11d5e06b3bbba7d406c82cdeaa6791a2985d9",
+    "patient_memory.py": "6430b28a60047a625d9c958acc3cf75c3d3aab6d4b2adc44de272a4677e2f66c",
+    "patient_runtime.py": "520e26838cbf6ed46df11a9c4305adeeff55036391b6664c44642ceec4d7f1e4",
+    "patient_tools.py": "0d3d46462ddb2a4aa1d0313b421b07f543f02d8b7ab6d202762f5767a3960d00",
+    "pdf_documents.py": "5e1fff023a37fa974b3aa591cb3e41fb146107f7a2a367d2d014c4207baa643a",
+    "pdf_efficiency_agent.py": "7177ed53fbf92f5e6968ed2f984f26987a605c3d3dc1373ee0a0b4dcd99a1c72",
+    "pdf_evaluation.py": "ec1363fd9ea3b743fc127e754f558f23adc1f850f06f98bb15d78ef41debe45c",
+    "pubmed.py": "09b97d9ea7583e0edcc870a617ad07b377e98262306a159490dfce9cee5dc6b9"
+  },
+  "config_sha256": "9f1804f88c0338bc2de1be034c24503a9c2557487b4df84063e8459ce6dcf02f",
+  "effective_system_sha256": "74e6eace30363860a19ab186922c34aeb6a10e01218567f8c23d348c713cb69f",
+  "account_anchor_usd": 4.802368939,
+  "prior_saved_usage": {
+    "known_cost_usd": 0.10654593000000001,
+    "unknown_reserve_usd": 0.013191999999999999,
+    "account_anchor_usd": 4.802368939,
+    "saved_requests": 85
+  },
+  "episodes": [
+    {
+      "question_id": "PM03",
+      "patient_id": "beta",
+      "conversation_id": "beta-session-1",
+      "memory_snapshot": "memory-snapshots/PM03.sqlite3",
+      "memory_snapshot_sha256": "0b7edef6227c3a542efc0aa1daa20fd319b477a68201192d3df05973b5db1f87",
+      "document_root": "C:\\Users\\gatoj\\OneDrive\\Escritorio\\Stanford\\data\\evaluation\\patient-runs\\gemma-patient-main-20261014\\memory-files",
+      "interaction_id": "Ia9d71065c40a4adb933999ec648ee3ae",
+      "created_at": "2026-10-14T14:24:31.857006+00:00",
+      "memory_enabled": true,
+      "require_reference": false,
+      "limits": {
+        "max_research_turns": 3,
+        "max_tool_actions": 3,
+        "max_final_attempts": 2,
+        "max_model_turns": 5,
+        "max_input_bytes": 65536
+      }
+    }
+  ],
+  "budget": {
+    "limit_usd": 6.0,
+    "reported_or_estimated_spend_usd": 4.91440436,
+    "unreported_charge_reserve_usd": 0.163192,
+    "policy": "Before each paid request, reserve a conservative prompt-byte estimate plus the full output cap at configured provider price ceilings. Failed requests without usage retain that reserve. This is a local guard, not a provider billing guarantee."
+  },
+  "finished_at_utc": "2026-10-14T14:24:41.863347+00:00"
+}

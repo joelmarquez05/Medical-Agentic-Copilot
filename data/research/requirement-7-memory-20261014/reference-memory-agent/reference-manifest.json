@@ -1,0 +1,46 @@
+{
+  "repository": "https://github.com/langchain-ai/memory-agent",
+  "commit": "adc8f523c98cabc878a7016f2a0aceb8ca6fe694",
+  "commit_date": "2026-10-09T03:35:00Z",
+  "accessed_at_utc": "2026-10-14T13:27:39.483445+00:00",
+  "purpose": "Reference-only research archive; not installed, imported or executed as application memory.",
+  "license": "MIT; upstream LICENSE retained unchanged. Preserve copyright/license on substantial reuse.",
+  "files": [
+    {
+      "file": "README.md",
+      "sha256": "ca6e58e59e1afc06b9bbb0e013a2b8d0f52b75e6eb9cec2d85666de05b8e34aa",
+      "bytes": 5209,
+      "url": "https://raw.githubusercontent.com/langchain-ai/memory-agent/adc8f523c98cabc878a7016f2a0aceb8ca6fe694/README.md"
+    },
+    {
+      "file": "LICENSE",
+      "sha256": "a01dcffdc1291b4043f2a81d249a9f3e45c9036f2308c9cdfeefe18371371e80",
+      "bytes": 1066,
+      "url": "https://raw.githubusercontent.com/langchain-ai/memory-agent/adc8f523c98cabc878a7016f2a0aceb8ca6fe694/LICENSE"
+    },
+    {
+      "file": "pyproject.toml",
+      "sha256": "c35b1778d1e841134a59bfad0c811c6895147988bfa58214217383ad3a26913e",
+      "bytes": 1574,
+      "url": "https://raw.githubusercontent.com/langchain-ai/memory-agent/adc8f523c98cabc878a7016f2a0aceb8ca6fe694/pyproject.toml"
+    },
+    {
+      "file": "src/memory_agent/graph.py",
+      "sha256": "844de38aa1295f6b3dcd5883cff426951f85d6c150163bdd22b3c1ec45f61e9f",
+      "bytes": 3758,
+      "url": "https://raw.githubusercontent.com/langchain-ai/memory-agent/adc8f523c98cabc878a7016f2a0aceb8ca6fe694/src/memory_agent/graph.py"
+    },
+    {
+      "file": "src/memory_agent/tools.py",
+      "sha256": "9aa2757f3c11387ae69d50e9e3dcba4a26cfaab9566760a995483ea663378d8d",
+      "bytes": 1268,
+      "url": "https://raw.githubusercontent.com/langchain-ai/memory-agent/adc8f523c98cabc878a7016f2a0aceb8ca6fe694/src/memory_agent/tools.py"
+    },
+    {
+      "file": "src/memory_agent/context.py",
+      "sha256": "7a67fe56f49908edee83cc865fe513567ddfc9b139fc5e4442746bc95b56d333",
+      "bytes": 1076,
+      "url": "https://raw.githubusercontent.com/langchain-ai/memory-agent/adc8f523c98cabc878a7016f2a0aceb8ca6fe694/src/memory_agent/context.py"
+    }
+  ]
+}

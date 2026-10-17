@@ -1,0 +1,11 @@
+{
+  "version": "requirement-3-restart-autonomous-v1",
+  "reviewer": "Unblinded implementation assistant; no paid judge or clinician adjudication",
+  "search_policy": "Autonomous; no-search is a policy observation, not an automatic medical/retrieval error",
+  "query_ratings": {"appropriate": "Targets the case, population/outcome or correct named study", "partially_appropriate": "Related but misses a decisive aspect or uses restrictive/confusing terms", "inappropriate": "Targets an unrelated or incorrect question/study", "not_applicable": "No query executed"},
+  "paper_relevance": {"directly_relevant": "Returned title/visible text addresses the decisive clinical topic or requested original trial", "partially_relevant": "Related topic but limited matching population, outcome, article type or available detail", "irrelevant": "Does not address the question", "not_assessable": "Insufficient readable metadata/text"},
+  "citation_support": {"supported": "Actual model-visible text substantiates the cited factual claim", "partially_supported": "Some claim content is supported but detail/extent exceeds the view", "unsupported": "Claim conflicts with or is absent from cited visible text", "not_assessable": "No usable claim/text mapping", "not_cited": "Returned paper/view was not cited"},
+  "episode_fields": ["question_id", "answer_sha256", "search_decision", "query_assessments", "paper_assessments", "citation_assessments", "reference_example_found", "answer_evidence_notes"],
+  "paper_fields": ["pmid", "title", "authors", "year", "doi", "url", "generation_view_ids", "model_visible_text_kinds", "paper_relevance", "brief_reason"],
+  "limits": "Nonexclusive evaluator reference examples; no exhaustive recall/full-text claim. Model reading means supplied visible text, not hidden host-fetched abstract. Score keys remain unchanged. Report answer appraisal separately."
+}

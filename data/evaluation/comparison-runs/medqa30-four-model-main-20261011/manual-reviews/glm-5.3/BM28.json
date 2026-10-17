@@ -1,0 +1,64 @@
+{
+  "question_id": "BM28",
+  "model_profile": "glm-5.3",
+  "answer_sha256": "297062c2d5c7c44d3a17e97de9213bfdfdef9a2482ceedc24697907c72cf0caa",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "material_issue",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "material_issue"
+  },
+  "answer_notes": "Matches the released dantrolene key but materially misidentifies the case as proven MDMA toxicity: no party drug is supplied, and rigidity/hyperthermia develops after an antiemetic. Its search excerpts neither establish the trigger nor a general recommendation for refractory MDMA hyperthermia; relevant toxin literature does not fix this causal assumption.",
+  "researcher_reference_ids": [
+    "R4-CL12"
+  ],
+  "queries": [
+    {
+      "rating": "partially_appropriate",
+      "notes": "Dantrolene/hyperthermia is relevant, but MDMA-specific query prematurely assumes the unsupplied exposure and misses antiemetic-associated NMS."
+    }
+  ],
+  "papers": {
+    "12666006": {
+      "rating": "partially_relevant",
+      "notes": "Excerpt establishes anesthetic MH/dantrolene, not this nonoperative antiemetic-associated event."
+    },
+    "16227063": {
+      "rating": "directly_relevant",
+      "notes": "Toxin-induced fever/rigidity differential is directly pertinent, though search opening omits syndrome-specific management."
+    },
+    "7904429": {
+      "rating": "partially_relevant",
+      "notes": "Amphetamine-like intoxication series is related party context, but actual exposure/therapy efficacy not established in this truncated excerpt."
+    },
+    "7675958": {
+      "rating": "partially_relevant",
+      "notes": "MDMA general toxicology background, not the administered antiemetic trigger."
+    },
+    "9059444": {
+      "rating": "partially_relevant",
+      "notes": "Specific dantrolene/ecstasy title is topically related, but supplies no abstract or recommendation."
+    }
+  },
+  "citations": {
+    "P7904429_search_073facd0f738": {
+      "rating": "partially_supported",
+      "notes": "Excerpt discusses severe amphetamine toxicity and investigation of dantrolene, not a positive general treatment recommendation."
+    },
+    "P16227063_search_09290c20b08d": {
+      "rating": "partially_supported",
+      "notes": "Search opening establishes toxin-induced hyperthermia/rigidity differential, not MDMA diagnosis or dantrolene selection."
+    },
+    "P12666006_search_37cc04bf0636": {
+      "rating": "partially_supported",
+      "notes": "Supports dantrolene for anesthetic MH, not the asserted MDMA-specific next step."
+    }
+  },
+  "inline_citations": {},
+  "review_revision": {
+    "reason": "Normalize the accidentally used material_concern label to the frozen rubric material_issue label; no observation or judgment changes.",
+    "prior_note": "manual-review-revisions/20261012-before-rating-name-fix/glm-5.3/BM28.json",
+    "prior_note_sha256": "376aad2d619bdbe3f2a523aefab7e6e6957b96c0b4e71bdb56b0c9721811a8c5",
+    "date": "2026-10-12"
+  }
+}

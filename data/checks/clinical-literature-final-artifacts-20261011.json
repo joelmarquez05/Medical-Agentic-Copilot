@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "date": "2026-10-11",
+  "test_suite": {
+    "passed": 133,
+    "command": "pytest -o addopts= -q",
+    "exit_code": 0
+  },
+  "replayed_literature_episodes": 22,
+  "replayed_model_responses": 30,
+  "replayed_main_logical_pubmed_requests": 14,
+  "separate_smoke_http_replay": 3,
+  "current_answer_reviews": 10,
+  "current_unique_question_paper_pairs": 12,
+  "paper_relevance_counts": {
+    "partially_relevant": 9,
+    "irrelevant": 2,
+    "directly_relevant": 1
+  },
+  "all_observed_unique_paper_sources": 18,
+  "exact_rendered_answer_text_verified": true,
+  "keys_changed": 0,
+  "assessment_fingerprints_valid": true,
+  "baseline_replay_unchanged": true,
+  "local_links_checked": 313,
+  "broken_links": [],
+  "protocol_link_note": "Frozen source-relative snapshot validated against original document location; readable copy resolves those links without changing the snapshot hash.",
+  "effective_evidence_instruction_hash_valid": true,
+  "new_provider_requests": 0,
+  "new_pubmed_requests": 0,
+  "credential_files_read": 0,
+  "review_limit": "Unblinded assistant title/excerpt/abstract appraisal, not clinician review or general performance validation."
+}

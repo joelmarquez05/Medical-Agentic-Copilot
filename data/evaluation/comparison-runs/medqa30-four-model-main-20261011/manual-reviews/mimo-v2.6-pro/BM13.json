@@ -1,0 +1,64 @@
+{
+  "question_id": "BM13",
+  "model_profile": "mimo-v2.6-pro",
+  "answer_sha256": "5c6434a92dfb2da89b7bbfd274930b9cbfb4d5e25df85e09365a21ff2d7c0b8a",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "minor_limitation",
+    "calibration_and_provenance": "consistent"
+  },
+  "answer_notes": "Correct C. Actual excerpts support Typhi/rose-spot/stepwise-fever and travel context; it appropriately states that rose spots are variably present, using the actual older 11-percent series in an inline-only limitation reference. The serpiginous characterization of the schistosomiasis distractor is not established by these sources and overstates a typical differential feature. Typhi/paratyphi similarity limits diagnosis beyond the provided choices.",
+  "researcher_reference_ids": [
+    "R4-CL05",
+    "R5-CL04"
+  ],
+  "queries": [
+    {
+      "rating": "appropriate",
+      "notes": "Targets Typhi/enteric fever, travel and the characteristic rash without requiring a specific country."
+    }
+  ],
+  "papers": {
+    "12864957": {
+      "rating": "directly_relevant",
+      "notes": "Explicit Typhi systemic infection, foreign travel to Asia and classic rose spots/stepwise fever directly match the case."
+    },
+    "11074322": {
+      "rating": "directly_relevant",
+      "notes": "Explicit Typhi, fever/abdominal pain/rose-colored rash and a confirmed case series directly match the syndrome."
+    },
+    "20519611": {
+      "rating": "directly_relevant",
+      "notes": "Returned-traveler enteric-fever cohort directly addresses the scenario; visible Typhi/paratyphi similarity cautions against unique-organism certainty."
+    },
+    "8433774": {
+      "rating": "partially_relevant",
+      "notes": "Culture-positive typhoid/paratyphoid cohort supports organism context; its excerpt cuts before travel/clinical-feature findings."
+    },
+    "743658": {
+      "rating": "directly_relevant",
+      "notes": "Explicit travel history, fever, splenomegaly and rose-spot frequency address the diagnostic pattern and variability."
+    }
+  },
+  "citations": {
+    "P12864957_search_3bd71c7fe74e": {
+      "rating": "supported",
+      "notes": "Explicitly supports systemic Typhi, foreign travel to Asia and the named classic fever/rose features."
+    },
+    "P11074322_search_21d10fc790d9": {
+      "rating": "supported",
+      "notes": "Explicitly supports Typhi fever/abdominal pain/rose-colored rash in a confirmed series, not a uniquely diagnostic patient-level rash."
+    },
+    "P20519611_search_65ffe5bc0ddf": {
+      "rating": "partially_supported",
+      "notes": "Supports returning-traveler enteric context and similar Typhi/paratyphi presentations, but the clipped text does not show the attributed rose-spot feature."
+    }
+  },
+  "inline_citations": {
+    "P743658_search_17fafd9be2c1": {
+      "rating": "supported",
+      "notes": "The additional limitation-only reference is real/registered and explicitly reports rose spots in 11 percent of 27 older cases. It was omitted from the structured citations array, so this supplementary assessment is not pooled into primary citation counts."
+    }
+  }
+}

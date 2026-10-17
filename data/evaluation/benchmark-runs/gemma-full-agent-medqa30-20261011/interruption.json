@@ -1,0 +1,12 @@
+{
+  "interrupted_at_utc": "2026-10-11T17:58:33+00:00",
+  "reason": "Source-only visual screen missed explicit MRI is shown reference in BM18; missing visual is unavailable. Correct general screen before continued primary evaluation.",
+  "completed_cases": 2,
+  "completed_saved_provider_requests": 4,
+  "completed_saved_cost_usd": 0.0016608225,
+  "pending_provider_request_possible": true,
+  "pending_question_id": "BM03",
+  "maximum_unreported_pending_charge_reserve_usd": 0.0128,
+  "score_or_answer_content_used_for_selection": false,
+  "interpretation": "Incomplete technical-development attempt, excluded from the completed primary benchmark. Retain all original records/source snapshots and unknown billing."
+}

@@ -1,0 +1,48 @@
+{
+  "passed": true,
+  "new_stages": [
+    {
+      "stage": "probe",
+      "requests": 1,
+      "reported_cost_usd": 0.00352104,
+      "unknown_charge_records": 0,
+      "manifest_sha256": "e1402c541127e17d1564020801259057a5e092b4db38d0e1a15bc21cb0b4051c"
+    },
+    {
+      "stage": "pilot",
+      "requests": 4,
+      "reported_cost_usd": 0.00445791,
+      "unknown_charge_records": 0,
+      "manifest_sha256": "685e7b7136066fdf5ba3131ab65cc464adef411ecf293486ddb5a56151b4be8f"
+    },
+    {
+      "stage": "main",
+      "requests": 22,
+      "reported_cost_usd": 0.0346857,
+      "unknown_charge_records": 0,
+      "manifest_sha256": "4ead84805624832b6188865d0c8930ddf1eef7c67c54e00618cc810b3f9e0656"
+    }
+  ],
+  "new_provider_requests": 27,
+  "new_reported_cost_usd": 0.04266465,
+  "new_unknown_charge_records": 0,
+  "latest_observed_account_usage_usd": 4.904711329,
+  "ledger_sha256": "b3b5c81202deba132947d3af86c08f273b4dcfd1fa3fc6e9a46ff8dbbc9c6f4a",
+  "ledger": {
+    "checked_at_utc": "2026-10-12T11:06:07+00:00",
+    "credential_source": "file",
+    "total_usage": 4.904711329,
+    "total_credits": 10,
+    "interpretation": "Account-wide observation; delayed billing or other account activity remains possible."
+  },
+  "all_pdf_stages_accounting": {
+    "known_cost_usd": 0.10369596000000002,
+    "unknown_reserve_usd": 0.006398599999999999,
+    "account_anchor_usd": 4.802368939,
+    "saved_requests": 78
+  },
+  "historical_uncertainty_headroom_usd": 0.15,
+  "account_limit_usd": 6,
+  "additional_inference_or_credential_access": 0,
+  "interpretation": "New B/C stages separated from historical ABC; old unreported length charge remains reserved. No attribution of ledger residual as an exact private bill."
+}

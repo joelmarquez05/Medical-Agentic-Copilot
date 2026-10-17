@@ -1,0 +1,19 @@
+{
+  "recorded": 10,
+  "valid_model_answers": 9,
+  "terminal_messages": 10,
+  "saved_interactions": 9,
+  "provider_requests": 21,
+  "reported_or_estimated_cost_usd": 0.01025494,
+  "unknown_charge_records": 1,
+  "input_tokens": 94404,
+  "output_tokens": 6327,
+  "memory_tool_calls": 7,
+  "pdf_tool_calls": 3,
+  "literature_tool_calls": 1,
+  "planned": 10,
+  "stage": "main",
+  "fresh_process_per_episode": true,
+  "storage_checks_passed": true,
+  "interpretation": "Separate process persistence demonstration; primary reference fields and qualitative support are appraised separately."
+}

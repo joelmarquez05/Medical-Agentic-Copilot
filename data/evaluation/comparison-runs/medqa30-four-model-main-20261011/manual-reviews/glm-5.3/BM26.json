@@ -1,0 +1,52 @@
+{
+  "question_id": "BM26",
+  "model_profile": "glm-5.3",
+  "answer_sha256": "7668aac917ce295c42b13987e3edb6e58ce331587eacb34cf7aabeba374b6328",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "material_issue",
+    "calibration_and_provenance": "material_issue"
+  },
+  "answer_notes": "Correct bacterial-translocation choice and correct SAAG/PMN arithmetic. Material explanation problems: treats a monomicrobial pattern as established although no culture is supplied, and categorically excludes sterile inflammation from fever/neutrocytic ascites. The threshold and available glucose/clinical findings do not by themselves exclude a secondary source.",
+  "researcher_reference_ids": [
+    "R5-CL08"
+  ],
+  "queries": [
+    {
+      "rating": "appropriate",
+      "notes": "Direct SBP/translocation/cirrhosis pathogenesis query."
+    }
+  ],
+  "papers": {
+    "30980335": {
+      "rating": "partially_relevant",
+      "notes": "Cirrhosis infection-risk review opening, no SBP-specific translocation or PMN definition."
+    },
+    "28088889": {
+      "rating": "directly_relevant",
+      "notes": "Direct excerpt gives cirrhotic ascites, intestinal translocation and PMN threshold."
+    },
+    "40689908": {
+      "rating": "partially_relevant",
+      "notes": "Carvedilol ascites trial background mentions translocation, not diagnostic SBP/perforation distinction."
+    }
+  },
+  "citations": {
+    "P28088889_search_75da0fcff966": {
+      "rating": "supported",
+      "notes": "Actual excerpt explicitly states intestinal translocation and the equivalent 250/mm3 PMN threshold."
+    },
+    "P30980335_search_6d7381d7feeb": {
+      "rating": "partially_supported",
+      "notes": "Supports general cirrhotic infection susceptibility, not the detailed SBP mechanism/diagnostic exclusions."
+    }
+  },
+  "inline_citations": {},
+  "review_revision": {
+    "reason": "Normalize the accidentally used material_concern label to the frozen rubric material_issue label; no observation or judgment changes.",
+    "prior_note": "manual-review-revisions/20261012-before-rating-name-fix/glm-5.3/BM26.json",
+    "prior_note_sha256": "2b41533f25dacdc87c4bd06d8d41b7c208854b4e01dba847ea1ce97742ea67ce",
+    "date": "2026-10-12"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "run_id": "gemma-evidence-pilot-20261011",
+  "stage": "pilot",
+  "protocol_version": "requirement-3-restart-evidence-encouraged-v2",
+  "started_at_utc": "2026-10-11T16:22:20+00:00",
+  "question_ids": [
+    "PILOT-01"
+  ],
+  "questions_sha256": "470b7d98a72da9fe25a870d2b3e77c5c57a2d8cd0528bb072cc4b930b8b8198e",
+  "answer_key_sha256": "396129ec70bb6d6b3366f7e0b729b67012a8c3760241fcb29d03bada6365ba0d",
+  "config_sha256": "9f1804f88c0338bc2de1be034c24503a9c2557487b4df84063e8459ce6dcf02f",
+  "system_sha256": "c90b8928d586e83c197af95621c7b6d95bd3ebe0b7e96d75eb19db5dfc29da27",
+  "effective_system_sha256": "fdc1ef0e5ba698a9577ccf826b0c3e4fbbd99508f6702584343e92417902c963",
+  "source_hashes": {
+    "clinical_graph.py": "27011976775a25e276c1db843ee096d891fcd0007f239c8ebe71332e8cc3c953",
+    "clinical_evaluation.py": "40a488a9f653c692a65a117d2b0c6b104dabb68eaadfd6f4a319f3c26f8233d2",
+    "clinical_literature.py": "8259219dadb5994f2c6f7178f5ecbfde062fb26aeb56121ab13b737157cc6a37",
+    "clinical_literature_evaluation.py": "7b520062f11d76aa828997f17885831d74f967c324adabc90635cf4285e67b64",
+    "pubmed.py": "09b97d9ea7583e0edcc870a617ad07b377e98262306a159490dfce9cee5dc6b9",
+    "models.py": "295891cab2537e90645a27d184a8cda6d8d3f0dba32a8359a137c24b12baa0ab",
+    "config.py": "2db95d297d39e34fd8f5142f657e26110cf43b0400d72c97551656a1db24b001",
+    "comparison_evaluation.py": "6e756b3d38452964bfcc7c4475fdff939b75fbe23b4041035cf8e3651083d71c",
+    "evaluation.py": "4f31705581da1313147674ca8e92016bc62bca96e35bb141454334636d0124f6"
+  },
+  "protocol_sha256": "7fbd60586048adc4a352a19d4a9b30963b9e59c0fcfeed6364d3dc06537825db",
+  "retrieval_rubric_sha256": "f5b4e5e9887e54a7f6358b9fec4dcf7dea9a8a1f1baf26ff6d90238371c76846",
+  "answer_rubric_sha256": "fbb86bb32a2234ae9a3866722b5dbb61f79eb3474e123d9d36fef1c9ef11df51",
+  "pubmed_config_sha256": "fab2244eeaa4cc488791c9add4b0974afc5d14a241f4d75539650bee6788b9b7",
+  "package_versions": {
+    "medical-agentic-copilot": "0.1.0",
+    "langchain": "1.4.4",
+    "langchain-core": "1.6.9",
+    "langgraph": "1.2.14",
+    "langchain-google-genai": "4.4.0",
+    "langchain-openai": "1.7.0",
+    "google-genai": "2.29.0",
+    "pydantic": "2.14.0"
+  },
+  "baseline_origin": "data/evaluation/internal-runs/gemma-baseline-restart-20261011",
+  "baseline_manifest_sha256": "38fc00b96dd1d9b855fa77fb8ba8680920942f09561ed6b076ef7ef78eaa2606",
+  "pilot_origin": null,
+  "smoke_origin": "C:\\Users\\gatoj\\OneDrive\\Escritorio\\Stanford\\data\\checks\\clinical-pubmed-smoke-20261011",
+  "smoke_sha256": "de09e568561558584003972413de41c23a06147490f92e0ad64993b0e2c12676",
+  "limits": {
+    "max_model_turns": 3,
+    "max_tool_actions": 2,
+    "max_input_bytes": 65536
+  },
+  "search_policy": "Autonomous with user-requested evidence encouragement; no minimum or forced operation",
+  "supersedes": "gemma-autonomous-main-20261011 (preserved initial completed cohort); new user instruction, not score-based replacement",
+  "initial_ledger": {
+    "checked_at_utc": "2026-10-11T16:22:20+00:00",
+    "credential_source": "file",
+    "total_usage": 3.871177907,
+    "total_credits": 10,
+    "interpretation": "Account-wide observation; delayed billing or other account activity remains possible."
+  },
+  "budget": {
+    "limit_usd": 6.0,
+    "reported_or_estimated_spend_usd": 3.87144021,
+    "unreported_charge_reserve_usd": 0.15,
+    "policy": "Before each paid request, reserve a conservative prompt-byte estimate plus the full output cap at configured provider price ceilings. Failed requests without usage retain that reserve. This is a local guard, not a provider billing guarantee."
+  },
+  "finished_at_utc": "2026-10-11T16:22:28+00:00"
+}

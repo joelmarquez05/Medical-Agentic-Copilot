@@ -1,0 +1,112 @@
+{
+  "status": "completed",
+  "answer": {
+    "selected_option": "B",
+    "justification": "The recurrent laryngeal nerve runs in close proximity to the inferior thyroid artery within the tracheoesophageal groove. Ligation of the inferior thyroid artery, especially when performed close to the thyroid gland, significantly increases the risk of injuring the recurrent laryngeal nerve. Damage to this nerve leads to paralysis of the intrinsic muscles of the larynx (except the cricothyroid), resulting in the clinical presentation of hoarseness."
+  },
+  "trace": [
+    "answer"
+  ],
+  "elapsed_seconds": 8.495,
+  "mode": "direct",
+  "question_id": "MQ02",
+  "profile": "gemma-4-26b-a4b",
+  "question_sha256": "cfb3e74c71e60e59b3b53eb3ec1ff70ad41a5532d12b8150e200a04116ea4a36",
+  "model_calls": [
+    {
+      "stage": "final_answer",
+      "started_at_utc": "2026-10-11T10:08:59+00:00",
+      "system_prompt": "Answer this medical examination question in English. Select exactly one of the provided options. Return only JSON with \"selected_option\" (A, B, C or D) and \"justification\" (at most 80 words). Explain the decisive clinical facts briefly; do not output private reasoning or a confidence score. This is an educational examination case, not a patient consultation.",
+      "user_prompt": "{\"question\": \"A 38-year-old woman undergoes a partial thyroidectomy for an enlarged thyroid gland compressing the trachea. During surgery, a young surgeon ligates the inferior thyroid arteries as close to the poles as possible to prevent intraoperative hemorrhage. 2 weeks later, the patient presents to the outpatient clinic with hoarseness. What could be the most likely cause of her hoarseness?\", \"options\": {\"A\": \"Internal laryngeal nerve injury\", \"B\": \"Recurrent laryngeal nerve injury\", \"C\": \"External laryngeal nerve injury\", \"D\": \"Laryngeal edema\"}}",
+      "attempts": [
+        {
+          "number": 1,
+          "pre_call_wait_seconds": 0.0,
+          "status": "ok"
+        }
+      ],
+      "status": "ok",
+      "response": "```json\n{\n  \"selected_option\": \"B\",\n  \"justification\": \"The recurrent laryngeal nerve runs in close proximity to the inferior thyroid artery within the tracheoesophageal groove. Ligation of the inferior thyroid artery, especially when performed close to the thyroid gland, significantly increases the risk of injuring the recurrent laryngeal nerve. Damage to this nerve leads to paralysis of the intrinsic muscles of the larynx (except the cricothyroid), resulting in the clinical presentation of hoarseness.\"\n}\n```",
+      "usage": {
+        "input_tokens": 216,
+        "output_tokens": 735,
+        "total_tokens": 951,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 623
+        }
+      },
+      "response_metadata": {
+        "finish_reason": "stop",
+        "model_name": "google/gemma-4-26b-a4b-it",
+        "model_provider": "openai"
+      },
+      "elapsed_seconds": 8.491
+    }
+  ],
+  "pubmed_requests": [],
+  "audit_records": [
+    {
+      "question_id": "direct:MQ02",
+      "started_at_utc": "2026-10-11T10:08:59+00:00",
+      "paid_request": true,
+      "estimated_maximum_usd": 0.0020373,
+      "request_sent": true,
+      "cost_basis": "OpenRouter response usage.cost in USD.",
+      "status": "ok",
+      "usage": {
+        "input_tokens": 216,
+        "output_tokens": 735,
+        "total_tokens": 951,
+        "input_token_details": {
+          "audio": 0,
+          "cache_read": 0,
+          "cache_creation": 0
+        },
+        "output_token_details": {
+          "audio": 0,
+          "reasoning": 623
+        }
+      },
+      "provider_usage": {
+        "completion_tokens": 735,
+        "prompt_tokens": 216,
+        "total_tokens": 951,
+        "completion_tokens_details": {
+          "accepted_prediction_tokens": null,
+          "audio_tokens": 0,
+          "reasoning_tokens": 623,
+          "rejected_prediction_tokens": null,
+          "text_tokens": null,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cache_write_tokens": 0,
+          "cached_tokens": 0,
+          "image_tokens": null,
+          "text_tokens": null,
+          "video_tokens": 0
+        },
+        "cost": 0.000170772,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.000170772,
+          "upstream_inference_prompt_cost": 9.072e-06,
+          "upstream_inference_completions_cost": 0.0001617
+        }
+      },
+      "cost_usd": 0.000170772,
+      "model_name": "google/gemma-4-26b-a4b-it",
+      "model_version": null,
+      "finish_reason": "stop",
+      "provider_route": "Not exposed by this LangChain response.",
+      "elapsed_seconds": 8.479
+    }
+  ]
+}

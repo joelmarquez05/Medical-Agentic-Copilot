@@ -1,0 +1,17 @@
+{
+  "question_id": "BM25",
+  "model_profile": "qwen3.8-27b",
+  "answer_sha256": "657819ad1a5557c50193c0818cfd210b46e302ba38afd4c9ef8c801a3c98dd89",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "consistent"
+  },
+  "answer_notes": "Correct male infant/recurrent encapsulated bacterial infection pattern after maternal IgG wanes; concise knowledge-based explanation without claiming retrieval or laboratory confirmation.",
+  "researcher_reference_ids": [],
+  "queries": [],
+  "papers": {},
+  "citations": {},
+  "inline_citations": {}
+}

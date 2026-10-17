@@ -1,0 +1,7 @@
+{
+  "purpose": "Documented Google Interactions transport access diagnostic; not a medical evaluation.",
+  "status": "error",
+  "error_type": "TimeoutError",
+  "http_status": null,
+  "elapsed_seconds": 60.322
+}

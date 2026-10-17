@@ -1,0 +1,24 @@
+{
+  "rubric_id": "oncology-pubmed-retrieval-v1",
+  "created_at_utc": "2026-10-10",
+  "scope": "Requirement 3: relevance of retrieved PubMed papers for the unchanged ten-question internal set. This is separate from the requirement-2 answer-quality rubric.",
+  "review_basis": "Read the exact question and every unique retrieved paper's title, bibliographic metadata, and supplied abstract if available. Full text is not assumed to have been read. Judge each question-paper pair separately even when one PMID occurs for multiple questions.",
+  "paper_relevance": {
+    "2": "Directly useful: the title or supplied abstract addresses a central population/intervention/decision in the question and could inform an important part of an answer. A broadly applicable oncology guideline can qualify when its abstract explicitly identifies the relevant domain. This does not validate a specific dose or claim.",
+    "1": "Partially related: useful background or one peripheral component, but a population, intervention, outcome, scope, or abstract-detail mismatch limits its ability to inform the main question. Examples include pediatric evidence for an adult case or generic nutrition assessment for a precise protein target.",
+    "0": "Not useful for the question: off-topic condition/intervention, research focus unrelated to the clinical decision, or insufficient title/abstract evidence of a meaningful connection. Missing abstract alone does not imply irrelevance; disclose title-only assessment."
+  },
+  "question_coverage": {
+    "2": "Substantial: the retrieved set supplies material relevant to most central concepts or decisions in the question; important full-text or implementation details may still be missing.",
+    "1": "Partial: at least one central concept is addressed, but an important decision, context, precaution, or uncertainty remains unrepresented in the supplied material.",
+    "0": "No meaningful coverage: no returned paper addresses a central concept, or retrieval failed/returned no assessable records."
+  },
+  "protocol": {
+    "initial_query": "LLM formulates one PubMed query from question text and the general tool/topic catalogue; it receives no gold answers, reference IDs, expected key points, critical failures, or this rubric.",
+    "initial_results": "Normally the first five records ordered by PubMed relevance. Preserve ESearch ordering, translation, warnings, exclusions, metadata, and available abstract text.",
+    "refinement": "At most one additional reviewer-requested PubMed query in the same bounded graph. Assess pooled unique papers separately from initial-search counts.",
+    "assessor": "Unblinded qualitative review by the AI implementation assistant; no independent clinician adjudication. Record one rationale per paper and one coverage rationale per question.",
+    "integrity": "Bind each assessment to the SHA-256 of its retrieval record. Preserve all original searches and failures; do not select only successful or favorable outputs.",
+    "reporting": "Report ordinal counts, qualitative fit, missing concepts, and observed operational results. Do not infer recall without an exhaustive relevant-paper set or attribute answer improvement to retrieval without a controlled study."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "question_id": "BM23",
+  "model_profile": "glm-5.3",
+  "answer_sha256": "1c870ad08604784ffe163f4e2cbbf7288809b33043e2356543e6f28171384d0b",
+  "reviewer": "Unblinded implementation assistant; manual post-generation assessment, no paid judge or independent clinician",
+  "ratings": {
+    "case_reasoning": "consistent",
+    "reference_concordance": "consistent",
+    "calibration_and_provenance": "consistent"
+  },
+  "answer_notes": "Correct sargramostim/GM-CSF choice from the acute first-administration respiratory/hemodynamic reaction. Official label independently describes first-infusion reactions; the answer reports knowledge provenance and does not claim to have retrieved the label. Multilineage cytopenias do not imply that this agent alone corrects all three cell lines.",
+  "researcher_reference_ids": [
+    "R4-CL10"
+  ],
+  "queries": [],
+  "papers": {},
+  "citations": {},
+  "inline_citations": {}
+}
