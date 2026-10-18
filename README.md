@@ -41,7 +41,7 @@ On macOS or Linux, use `cp .env.example .env` and `python3 start.py`.
 
 Choose a model and try **Explore the evidence**, **Ask a document**, or **Continue a patient conversation**. You can edit the example questions or upload your own PDFs.
 
-Sending a question calls the model provider and may incur charges. Conversations and documents are saved locally in `runtime/`. Keep API keys in `.env` or `secrets/`; both are ignored by Git.
+Sending a question calls the model provider, beware of charges. Conversations and documents are saved locally in `runtime/`. Keep API keys in `.env` or `secrets/`; both are ignored by Git.
 
 Useful launcher options:
 
@@ -62,5 +62,4 @@ python -m pytest
 
 For frontend development, run `python scripts/run_web.py` from the root, then `npm ci` and `npm run dev` inside `web/` in a separate terminal.
 
-The agents and backend live in `src/medical_copilot/`, the frontend in `web/`, and recorded experiments in `data/evaluation/`. Some historical report scripts depend on files absent from this copy.
-
+The agents and backend live in `src/medical_copilot/`, the frontend in `web/`, and recorded experiments in `data/evaluation/`.
