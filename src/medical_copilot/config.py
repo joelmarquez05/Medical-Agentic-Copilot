@@ -86,11 +86,6 @@ def resolve_credential(config: ModelConfig, project_root: Path) -> tuple[str | N
             return os.environ[name].strip(), "environment"
     if config.credential_file:
         path = project_root / config.credential_file
-        # Recorded provider profiles retain their original hashes in this clean copy.
-        # Their legacy key filenames resolve to the independent secrets directory.
-        relocated = {"api_key.md": "gemini.key", "nvidia_api_key.md": "nvidia.key", "open_router_key.md": "openrouter.key"}
-        if not path.is_file() and config.credential_file in relocated:
-            path = project_root / "secrets" / relocated[config.credential_file]
         try:
             text = path.read_text(encoding="utf-8-sig").strip()
         except OSError:

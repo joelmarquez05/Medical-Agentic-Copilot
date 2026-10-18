@@ -21,11 +21,7 @@ ENVIRONMENT = ROOT / ".venv"
 PYTHON = ENVIRONMENT / ("Scripts/python.exe" if os.name == "nt" else "bin/python")
 DEPENDENCIES = ("requirements.txt", "requirements.lock.txt", "requirements-web.txt", "pyproject.toml")
 DEMO_FILES = (
-    "data/examples/clinical-demo-20261016.json",
-    "data/evaluation/patient-demo-20261014/alpha.pdf",
-    "data/evaluation/patient-demo-20261014/beta.pdf",
-    "data/evaluation/patient-runs/gemma-patient-main-20261014-pm05/answers/PM05.json",
-    "data/documents/reference/espen-cancer-2021.pdf",
+    "demo/cases/patients.json",
     "demo/01_espen_cancer_2021.pdf",
     "demo/02_proteos_protein_2023.pdf",
     "demo/cases/alpha_initial.pdf",

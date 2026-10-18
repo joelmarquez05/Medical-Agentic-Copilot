@@ -1,5 +1,0 @@
-{
-  "question_id": "PM08",
-  "question": "Use my dated fact records to check the correction to my most recent weight observation. Return a JSON object with current_weight_kg and superseded_weight_kg. Inspect the factual history if the earlier value is not in the current profile.",
-  "options": null
-}

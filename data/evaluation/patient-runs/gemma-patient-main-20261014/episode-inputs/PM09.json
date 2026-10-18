@@ -1,5 +1,0 @@
-{
-  "question_id": "PM09",
-  "question": "What is my measured serum albumin in g/dL? Return a JSON object with albumin_g_dl. Give null if no result is recorded; do not substitute a normal reference range.",
-  "options": null
-}

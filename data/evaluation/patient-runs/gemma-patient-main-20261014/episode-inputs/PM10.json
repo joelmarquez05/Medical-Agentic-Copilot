@@ -1,5 +1,0 @@
-{
-  "question_id": "PM10",
-  "question": "Find the PubMed record for the ESPEN practical guideline Clinical Nutrition in cancer. Return a JSON object with pmid as a string and year as an integer, and cite an actual PubMed source returned during this episode.",
-  "options": null
-}

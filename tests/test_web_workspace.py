@@ -146,7 +146,7 @@ def test_live_runtime_routes_selected_profile_and_records_actual_model_offline(t
     monkeypatch.setattr(runtime, "create_backend", backend)
     monkeypatch.setattr(runtime, "preflight", lambda config, root: {
         "eligible_endpoints": [{"supported_parameters": ["structured_outputs"]}], "ledger": {"total_usage": 0}})
-    monkeypatch.setattr(runtime, "prior_app_usage", lambda root, directory: {
+    monkeypatch.setattr(runtime, "prior_app_usage", lambda directory: {
         "account_anchor_usd": 0, "known_cost_usd": 0, "unknown_reserve_usd": 0})
     monkeypatch.setattr(runtime, "observe_ledger", lambda config, root: {"total_usage": 0})
     result = runtime.run_live(store, job, lambda *args, **kwargs: None, ROOT)
@@ -209,7 +209,7 @@ def test_patient_new_conversation_reuses_records_but_general_stays_empty(tmp_pat
 def test_pdf_tool_uses_owned_passage_and_public_result_routes_to_same_session(tmp_path):
     store = WorkspaceStore(tmp_path)
     session = store.create_session()
-    document = store.register_pdf(session["id"], ROOT / "data/evaluation/patient-demo-20261014/alpha.pdf", "Fictional case")
+    document = store.register_pdf(session["id"], ROOT / "demo/cases/alpha_initial.pdf", "Fictional case")
     model = Scripted([{"type": "tool", "name": "search_pdf", "arguments": {"document_id": document["document_id"], "query": "supplement cartons"}}])
     original_reply = model.reply
     def reply(request):
@@ -224,7 +224,7 @@ def test_pdf_tool_uses_owned_passage_and_public_result_routes_to_same_session(tm
         result = WorkspaceAgent(model, memory, store.session(session["id"])["owner_id"], session["id"], emit=lambda label, **kw: events.append((label, kw))).run({"question_id": "DOC", "question": "Read the supplement cartons in this PDF."})
     public = public_result(result, session["id"])
     assert public["status"] == "completed" and public["sources"][0]["pdf_page"] == 1
-    assert "Recorded supplement cartons per day: 2" in public["sources"][0]["text"]
+    assert "two oral nutritional supplement cartons daily" in " ".join(public["sources"][0]["text"].split())
     assert public["sources"][0]["file_url"].startswith("/api/sessions/" + session["id"])
     assert any(event[1].get("kind") == "tool_start" for event in events)
     other = store.create_session()
@@ -259,13 +259,34 @@ def test_restarted_job_is_not_automatically_charged_again(tmp_path):
 
 def test_crash_allowance_is_counted_before_known_response_accounting(tmp_path, monkeypatch):
     import medical_copilot.web.runtime as runtime
-    monkeypatch.setattr(runtime, "prior_usage", lambda root: {"saved_requests": 1, "known_cost_usd": 1, "unknown_reserve_usd": .1, "account_anchor_usd": 2})
     run = tmp_path / "runs/R1"
     run.mkdir(parents=True)
+    (run / "manifest.json").write_text(json.dumps({"preflight": {"ledger": {"total_usage": 2}}}))
     (run / "usage-audit.json").write_text(json.dumps({"records": [{"request_sent": True, "cost_usd": .02}]}))
     (run / "in-flight.json").write_text(json.dumps({"reserved_usd": .03}))
-    totals = prior_app_usage(tmp_path, tmp_path)
-    assert totals["saved_requests"] == 2 and totals["known_cost_usd"] == 1.02 and totals["unknown_reserve_usd"] == .13
+    totals = prior_app_usage(tmp_path)
+    assert totals["saved_requests"] == 1 and totals["known_cost_usd"] == .02 and totals["unknown_reserve_usd"] == .03
+    assert totals["account_anchor_usd"] == 2
+
+
+def test_restarted_workspace_does_not_add_later_ledger_observations_twice(tmp_path):
+    from medical_copilot.files import write_json
+    from medical_copilot.usage import BudgetLimitExceeded, RequestBudget
+
+    for run_id, observed, cost in [("R1", 2, .02), ("R2", 2.02, .03)]:
+        directory = tmp_path / "runs" / run_id
+        write_json(directory / "manifest.json", {"preflight": {"ledger": {"total_usage": observed}}})
+        write_json(directory / "usage-audit.json", {"records": [{"request_sent": True, "cost_usd": cost}]})
+    totals = prior_app_usage(tmp_path)
+    budget = RequestBudget(2.06, totals["account_anchor_usd"] + totals["known_cost_usd"])
+    budget.check(.005)
+    with pytest.raises(BudgetLimitExceeded):
+        budget.check(.02)
+
+
+def test_fresh_workspace_accounting_needs_no_historical_files(tmp_path):
+    totals = prior_app_usage(tmp_path)
+    assert totals == {"saved_requests": 0, "known_cost_usd": 0, "unknown_reserve_usd": 0, "account_anchor_usd": 0}
 
 
 def test_http_post_event_stream_and_idempotency_share_real_job(tmp_path):
@@ -289,7 +310,7 @@ def test_http_foreign_document_and_cross_origin_post_are_rejected(tmp_path):
     with TestClient(create_app(tmp_path, testing=True)) as client:
         a = client.post('/api/sessions', json={}).json()
         b = client.post('/api/sessions', json={}).json()
-        payload = (ROOT / 'data/evaluation/patient-demo-20261014/alpha.pdf').read_bytes()
+        payload = (ROOT / 'demo/cases/alpha_initial.pdf').read_bytes()
         doc = client.post('/api/sessions/' + a['id'] + '/documents', files={'file': ('case.pdf', payload, 'application/pdf')}).json()
         assert client.get(f"/api/sessions/{a['id']}/documents/{doc['document_id']}/file").status_code == 200
         assert client.get(f"/api/sessions/{b['id']}/documents/{doc['document_id']}/file").status_code == 404
@@ -315,14 +336,13 @@ def test_appearance_persists_but_script_logo_is_rejected(tmp_path):
         assert client.put('/api/appearance', json={**changed, 'logo':'data:image/svg+xml;base64,PHN2Zz4='}).status_code == 422
 
 
-def test_demo_setup_is_repeatable_and_saved_example_is_labelled(tmp_path):
+def test_demo_setup_is_repeatable_and_uses_current_documents(tmp_path):
     with TestClient(create_app(tmp_path, testing=True)) as client:
         first = client.post('/api/examples/prepare').json()
         second = client.post('/api/examples/prepare').json()
         assert first == second
         assert len(client.get('/api/bootstrap').json()['patients']) == 2
-        saved = client.post('/api/examples/saved').json()
-        context = client.get('/api/sessions/' + saved['id']).json()
+        context = client.get('/api/sessions/' + first['research_session']).json()
         assert context['session']['patient_id'] is None
         assert len(context['files']) == 1
         clinical = next(p for p in client.get('/api/bootstrap').json()['patients'] if p['name'] == 'Patient Alpha')
@@ -330,7 +350,5 @@ def test_demo_setup_is_repeatable_and_saved_example_is_labelled(tmp_path):
         clinical_files = client.get('/api/sessions/' + clinical_session['id']).json()['files']
         assert len(clinical_files) == 1 and clinical_files[0]['document_id'] != context['files'][0]['document_id']
         for document in context['files']:
-            assert client.get(f"/api/sessions/{saved['id']}/documents/{document['document_id']}/file").status_code == 200
-        row = context['messages'][0]
-        assert row['result']['archive']['new_inference'] is False
-        assert 'Saved model response' in row['result']['archive']['label']
+            assert client.get(f"/api/sessions/{first['research_session']}/documents/{document['document_id']}/file").status_code == 200
+        assert context['messages'] == []

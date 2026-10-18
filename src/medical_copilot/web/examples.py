@@ -24,7 +24,7 @@ EXAMPLES = [
 
 
 def prepare_clinical_patients(store, root, model_id):
-    fixtures = json.loads((root / "data/examples/clinical-demo-20261016.json").read_text(encoding="utf-8"))
+    fixtures = json.loads((root / "demo/cases/patients.json").read_text(encoding="utf-8"))
     people = []
     for profile in fixtures["patients"]:
         key = "clinical-" + profile["code"].lower()

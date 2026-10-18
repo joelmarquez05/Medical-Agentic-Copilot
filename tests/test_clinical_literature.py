@@ -11,7 +11,6 @@ from medical_copilot.clinical_graph import ClinicalAgent
 from medical_copilot.clinical_literature import (
     ClinicalLiteratureTools, ClinicalSearchArgs, ReadAbstractArgs, UnknownPubMedSelection,
 )
-from medical_copilot.clinical_literature_evaluation import EvidencePromptClient, EVIDENCE_SYSTEM, check_baseline, paired_transition
 from medical_copilot.pubmed import PubMedClient, PubMedConfig
 
 
@@ -158,59 +157,3 @@ def test_empty_search_can_reformulate_without_fabricated_papers(monkeypatch):
     result = ClinicalAgent(model, tools.definitions()).run(QUESTION)
     assert result["status"] == "completed" and len(requests) == 2
     assert result["evidence"] == {} and result["tool_actions"] == 2
-
-
-def test_archived_baseline_integrity_and_changed_core_guard():
-    import hashlib
-    from pathlib import Path
-    from medical_copilot.clinical_evaluation import DEFAULT_PROFILE, DEFAULT_SET
-    from medical_copilot.clinical_literature_evaluation import BASELINE
-    from medical_copilot.evaluation import file_hash, read_json
-    from medical_copilot.clinical_graph import SYSTEM
-
-    root = Path(__file__).resolve().parents[1]
-    archive = root / BASELINE
-    manifest = read_json(archive / "manifest.json")
-    assert manifest["run_id"] == "gemma-baseline-restart-20261011"
-    for name, expected in manifest["source_hashes"].items():
-        assert file_hash(archive / "source-snapshot" / name) == expected
-    assert file_hash(root / DEFAULT_PROFILE) == manifest["config_sha256"]
-    assert hashlib.sha256(SYSTEM.encode()).hexdigest() == manifest["system_sha256"]
-    for name, key in [("questions.json", "questions_sha256"), ("answer-key.json", "answer_key_sha256")]:
-        assert file_hash(root / DEFAULT_SET / name) == manifest[key]
-    # Relocated credentials change the live adapter. The historical guard must
-    # still refuse to claim that a new run uses the unmodified baseline code.
-    with pytest.raises(ValueError, match="Core baseline source changed"):
-        check_baseline(root)
-
-
-def test_evidence_envelope_encourages_without_rewriting_core_prompt_or_action_adapter():
-    from langchain_core.messages import AIMessage
-    from medical_copilot.clinical_graph import JSONActionModel, SYSTEM
-    from medical_copilot.config import ModelConfig
-    from medical_copilot.models import ModelClient
-
-    class Backend:
-        def __init__(self):
-            self.prompts = []
-
-        def invoke(self, messages):
-            self.prompts.append(messages)
-            return AIMessage(content=json.dumps(FINAL))
-
-    backend = Backend()
-    client = ModelClient(backend, ModelConfig(provider="openai_compatible", model="synthetic", base_url="http://localhost.invalid/v1", max_retries=0,
-                                            rate_limit_retries=0, json_repair_attempts=0))
-    result = ClinicalAgent(JSONActionModel(EvidencePromptClient(client), lambda request: None)).run(QUESTION)
-    assert result["status"] == "completed" and len(backend.prompts) == 1
-    assert backend.prompts[0][0].content == EVIDENCE_SYSTEM
-    assert EVIDENCE_SYSTEM.startswith(SYSTEM + "\n\n")
-    assert "no mandatory operation" in EVIDENCE_SYSTEM and "exact evidence_registry source IDs" in EVIDENCE_SYSTEM
-    assert client.calls[0]["system_prompt"] == EVIDENCE_SYSTEM
-
-
-@pytest.mark.parametrize("a,b,expected", [(True, True, "both_correct"), (False, True, "wrong_to_correct"),
-                                          (True, False, "correct_to_wrong"), (False, False, "both_wrong"),
-                                          (True, None, "operationally_incomplete")])
-def test_pairing_keeps_operational_failure_separate(a, b, expected):
-    assert paired_transition(a, b) == expected

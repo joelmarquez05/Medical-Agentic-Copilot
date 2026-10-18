@@ -8,7 +8,6 @@ import pytest
 from langchain_core.messages import AIMessage, HumanMessage
 from pydantic import BaseModel, ConfigDict, ValidationError
 
-from medical_copilot.clinical_evaluation import score_record
 from medical_copilot.clinical_graph import BudgetBlocked, EvidenceRecord, ToolDefinition, ToolOutput, UnusableModelResponse
 from medical_copilot.clinical_resilient import (
     PhaseBackend, ResilientClinicalAgent, ResilientJSONModel, ResilientLimits,
@@ -51,14 +50,11 @@ def fixture_tool(executions):
     return ToolDefinition("fixture_lookup", "Synthetic fixture; no network.", Args, execute)
 
 
-def test_observed_balance_nested_action_is_recovered_without_changing_arguments():
-    path = ROOT / "data/evaluation/retrieval-runs/gemma-evidence-main-20261011/answers/IC08.json"
-    old = json.loads(path.read_text(encoding="utf-8"))
-    raw = json.loads(old["model_calls"][-1]["response"])
+def test_nested_action_is_recovered_without_changing_arguments():
+    raw = {"action": {"type": "tool", "name": "fixture_lookup", "arguments": {"query": "marker"}}}
     action, notes = normalize_action(raw)
     assert action == raw["action"]
     assert notes == ["unwrapped_single_action_object"]
-    assert old["status"] == "invalid_model_output"
 
 
 @pytest.mark.parametrize("raw,note", [
@@ -97,7 +93,7 @@ def test_direct_answer_is_one_call_and_wrong_option_is_never_quality_retried():
     result = ResilientClinicalAgent(model).run(QUESTION)
     assert result["status"] == "completed" and result["model_turns"] == 1
     assert result["final_attempts"] == 0 and result["tool_actions"] == 0
-    assert score_record(result, {"question_id": "SYNTHETIC", "answer_idx": "A", "key_type": "fixture"})["correct"] is False
+    assert result["response"]["selected_option"] == "B"
 
 
 def test_tool_budget_routes_to_reserved_final_answer_instead_of_stopping():
@@ -138,7 +134,7 @@ def test_repeated_bad_final_has_honest_application_message_not_fake_medical_answ
     assert result["status"] == "operationally_unanswered" and result["response"]
     assert result["output_origin"] == "application" and result["response"]["selected_option"] is None
     assert len(model.requests) == 3
-    assert score_record(result, {"question_id": "SYNTHETIC", "answer_idx": "A", "key_type": "fixture"})["correct"] is None
+    assert result["response"]["selected_option"] is None
 
 
 def test_transient_provider_failure_gets_one_closing_recovery_and_no_raw_error_leak():

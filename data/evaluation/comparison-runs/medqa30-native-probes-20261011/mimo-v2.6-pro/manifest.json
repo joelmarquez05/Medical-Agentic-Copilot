@@ -1,8 +1,0 @@
-{
-  "run_id": "mimo-v2.6-pro",
-  "stage": "probes",
-  "question_ids": [
-    "PILOT-01"
-  ],
-  "parent_run": "medqa30-native-probes-20261011"
-}

@@ -13,7 +13,7 @@ from pathlib import Path
 from pydantic import Field
 
 from medical_copilot.clinical_graph import EvidenceRecord, StrictModel, ToolDefinition, ToolOutput, save_trace
-from medical_copilot.evaluation import file_hash, read_json
+from medical_copilot.files import file_hash, read_json
 
 VERSION = "page-aware-pdf-v2"
 CHUNK_CHARS = 4000

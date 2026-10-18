@@ -1,5 +1,0 @@
-{
-  "question_id": "PM06",
-  "question": "According to my registered synthetic case PDF, how many supplement cartons per day were recorded? Read its actual text and cite the exact source view. Return a JSON object with cartons_per_day.",
-  "options": null
-}

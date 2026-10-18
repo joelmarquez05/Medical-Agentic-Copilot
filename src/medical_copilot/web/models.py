@@ -5,11 +5,11 @@ ModelId = Literal["gemma", "kimi-k3"]
 DEFAULT_MODEL: ModelId = "gemma"
 PROFILES = {
     "gemma": {
-        "path": "config/models/openrouter-gemma-4-reference.json",
+        "path": "config/models/gemma.json",
         "name": "Gemma 4", "detail": "26B A4B · Reasoning enabled",
     },
     "kimi-k3": {
-        "path": "config/models/requirement-5-20261011/kimi-k3.json",
+        "path": "config/models/kimi-k3.json",
         "name": "Kimi K3", "detail": "Reasoning high",
     },
 }

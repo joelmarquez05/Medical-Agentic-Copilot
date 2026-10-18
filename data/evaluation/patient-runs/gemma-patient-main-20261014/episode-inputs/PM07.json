@@ -1,5 +1,0 @@
-{
-  "question_id": "PM07",
-  "question": "What is my latest observed weight, based on observation date rather than the last entry time? Return a JSON object with weight_kg.",
-  "options": null
-}

@@ -8,7 +8,7 @@ A research prototype with AI Agents for searching medical literature, ingestings
 - PDF questions with citations to source passages and pages.
 - Persistent patient facts, documents, and conversation history.
 - Gemma 4 and Kimi K3 model profiles through OpenRouter.
-- Saved execution traces and evaluation results.
+- Saved conversation history and execution traces.
 
 ## Quick start
 
@@ -62,4 +62,4 @@ python -m pytest
 
 For frontend development, run `python scripts/run_web.py` from the root, then `npm ci` and `npm run dev` inside `web/` in a separate terminal.
 
-The agents and backend live in `src/medical_copilot/`, the frontend in `web/`, and recorded experiments in `data/evaluation/`.
+The agents and backend live in `src/medical_copilot/`, the frontend in `web/`, and the example PDFs and fictional cases in `demo/`.

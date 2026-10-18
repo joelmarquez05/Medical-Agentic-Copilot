@@ -9,7 +9,6 @@ from pydantic import ValidationError
 from medical_copilot.pdf_documents import (
     PDFLibrary, PDFTools, ReadPDFPageArgs, SearchPDFArgs, ingest_pdf, normalize_text, ordered_blocks, split_page,
 )
-from medical_copilot.pdf_agent import CONDITIONS, PDFClinicalAgent, PDF_SYSTEM
 from medical_copilot.clinical_resilient import ResilientLimits
 
 
@@ -28,18 +27,8 @@ def document(tmp_path):
     return ingest_pdf(path, tmp_path / "ingested", title="Fixture clinical document")
 
 
-def final(citations=()):
-    return {"type": "final", "answer": "Assessment is needed.", "justification": "The provided question concerns assessment.",
-            "selected_option": None, "citations": list(citations), "limitations": []}
 
 
-class Scripted:
-    def __init__(self, actions):
-        self.actions, self.requests = iter(actions), []
-
-    def reply(self, request):
-        self.requests.append(copy.deepcopy(request))
-        return next(self.actions)
 
 
 def test_actual_pdf_columns_and_all_text_preserved(document):
@@ -133,57 +122,3 @@ def test_corrupted_chunk_coverage_rejected(document):
     altered["views"][next(iter(altered["views"]))]["text"] += "invented"
     with pytest.raises(AssertionError):
         PDFLibrary([altered])
-
-
-@pytest.mark.parametrize("condition", CONDITIONS)
-def test_three_conditions_initialize_with_correct_content_and_tools(document, condition):
-    library = PDFLibrary([document])
-    model = Scripted([final()])
-    tool = PDFTools(library) if condition == "C-pdf-tools" else None
-    result = PDFClinicalAgent(model, library, condition, pdf_tools=tool).run({"question_id": "fresh", "question": "What should be assessed?"})
-    assert result["status"] == "completed" and result["output_origin"] == "model"
-    request = model.requests[0]
-    assert request["history"] == []
-    assert bool(request["tools"]) == (condition == "C-pdf-tools")
-    assert request["evidence_registry"] == (library.all_views() if condition == "B-full-context" else {})
-    assert len((PDF_SYSTEM + json.dumps(request, ensure_ascii=False)).encode()) == result["trace"][1]["input_bytes"]
-
-
-def test_pdf_search_results_reach_next_model_turn(document):
-    library = PDFLibrary([document])
-    sid = library.search(document["document_id"], "constipation")[0][0]
-    model = Scripted([{"type": "tool", "name": "search_pdf", "arguments": {"document_id": document["document_id"], "query": "constipation"}}, final([sid])])
-    result = PDFClinicalAgent(model, library, pdf_tools=PDFTools(library)).run({"question_id": "fresh", "question": "What does the document say about constipation?"})
-    assert result["response"]["citations"] == [sid]
-    assert sid in model.requests[1]["evidence_registry"]
-    assert result["tool_actions"] == 1
-
-
-def test_new_episode_cannot_see_prior_tool_registry(document):
-    library = PDFLibrary([document])
-    first = PDFClinicalAgent(Scripted([{"type": "tool", "name": "read_pdf_page", "arguments": {"document_id": document["document_id"], "page": 1}}, final()]), library, pdf_tools=PDFTools(library))
-    first.run({"question_id": "one", "question": "Read the document."})
-    model = Scripted([final()])
-    second = PDFClinicalAgent(model, library, pdf_tools=PDFTools(library))
-    second.run({"question_id": "two", "question": "A different question."})
-    assert model.requests[0]["evidence_registry"] == {} and model.requests[0]["history"] == []
-
-
-def test_evaluator_fields_rejected_without_model_call(document):
-    model = Scripted([])
-    result = PDFClinicalAgent(model, PDFLibrary([document]), "A-no-document").run({"question_id": "one", "question": "Question", "answer_idx": "A"})
-    assert result["status"] == "invalid_input" and model.requests == []
-
-
-def test_pdf_specific_input_guard_stops_before_call(document):
-    altered = copy.deepcopy(document)
-    page = altered["pages"][0]
-    # Build a valid larger source with multiple chunks to cross the small test guard.
-    sid = page["chunk_ids"][0]
-    altered["views"][sid]["text"] = "large content " * 550
-    page["text"] = altered["views"][sid]["text"]
-    import hashlib
-    page["text_sha256"] = hashlib.sha256(page["text"].encode()).hexdigest()
-    model = Scripted([])
-    result = PDFClinicalAgent(model, PDFLibrary([altered]), "B-full-context", limits=ResilientLimits(max_input_bytes=4096)).run({"question_id": "one", "question": "Question"})
-    assert result["status"] == "operationally_unanswered" and model.requests == []

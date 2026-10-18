@@ -1,6 +1,4 @@
-# Tested Windows / Python 3.12 environment, 2026-10-10.
-# Includes the PDF-inspection extra installed after the model study.
-# Install this snapshot, then install this project with --no-deps -e .
+# Pinned dependencies for the current application, tested on Windows / Python 3.12.
 annotated-types==0.8.0
 anyio==4.15.1
 certifi==2026.7.22

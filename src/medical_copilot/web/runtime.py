@@ -1,27 +1,36 @@
-"""Audited live inference for the app, preserving historical evaluation files."""
-import copy
+"""Audited live inference and accounting for the current workspace."""
 import json
 from pathlib import Path
 import re
 import shutil
 
-from medical_copilot.clinical_evaluation import ACCOUNT_LIMIT, UNCERTAINTY_HEADROOM, BaselineAudit, maximum_request_cost, observe_ledger, preflight
+from medical_copilot.usage import ACCOUNT_LIMIT, UNCERTAINTY_HEADROOM, BaselineAudit, maximum_request_cost, observe_ledger, preflight, recoverable_error
 from medical_copilot.clinical_graph import BudgetBlocked
 from medical_copilot.clinical_literature import ClinicalLiteratureTools
 from medical_copilot.clinical_resilient import PhaseBackend, final_schema
-from medical_copilot.comparison_evaluation import BudgetLimitExceeded, RequestBudget
+from medical_copilot.usage import BudgetLimitExceeded, RequestBudget
 from medical_copilot.config import load_config
-from medical_copilot.evaluation import read_json, write_json
+from medical_copilot.files import read_json, write_json
 from medical_copilot.models import ModelClient, create_backend
 from medical_copilot.patient_memory import file_hash, utc_now
-from medical_copilot.patient_runtime import prior_usage, recoverable_error
 from medical_copilot.pubmed import PubMedClient, load_pubmed_config
 from medical_copilot.web.agent import WEB_SYSTEM, WebJSONModel, WorkspaceAgent, WorkspaceLimits
 from medical_copilot.web.models import DEFAULT_MODEL, profile_path, public_model
 
 
-def prior_app_usage(root, directory):
-    result = copy.deepcopy(prior_usage(root))
+def prior_app_usage(directory):
+    """Read only current workspace accounting, including crash reservations."""
+    directory = Path(directory)
+    result = {"saved_requests": 0, "known_cost_usd": 0.0, "unknown_reserve_usd": 0.0, "account_anchor_usd": 0.0}
+    anchors = []
+    for path in (directory / "runs").glob("*/manifest.json"):
+        ledger = read_json(path).get("preflight", {}).get("ledger", {})
+        if isinstance(ledger.get("total_usage"), (int, float)):
+            anchors.append(ledger["total_usage"])
+    # The first observed account balance already includes any earlier activity.
+    # Later observations must not be added to the same saved requests again.
+    if anchors:
+        result["account_anchor_usd"] = min(anchors)
     for path in (directory / "runs").glob("*/usage-audit.json"):
         for row in read_json(path)["records"]:
             result["saved_requests"] += bool(row.get("request_sent"))
@@ -83,7 +92,7 @@ def run_live(store, job, emit, root):
     observation = preflight(config, root)
     if not any("structured_outputs" in row["supported_parameters"] for row in observation["eligible_endpoints"]):
         raise ValueError("The configured endpoint does not advertise native final output.")
-    previous = prior_app_usage(root, store.directory)
+    previous = prior_app_usage(store.directory)
     budget = RequestBudget(ACCOUNT_LIMIT, max(observation["ledger"]["total_usage"], previous["account_anchor_usd"] + previous["known_cost_usd"]))
     budget.unreported_charge_reserve_usd = UNCERTAINTY_HEADROOM + previous["unknown_reserve_usd"]
     budget.check(maximum_request_cost(config, 65536 + 4096))

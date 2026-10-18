@@ -1,6 +1,0 @@
-{
-  "limit_usd": 6.0,
-  "reported_or_estimated_spend_usd": 4.82721186,
-  "unreported_charge_reserve_usd": 0.1563986,
-  "policy": "Before each paid request, reserve a conservative prompt-byte estimate plus the full output cap at configured provider price ceilings. Failed requests without usage retain that reserve. This is a local guard, not a provider billing guarantee."
-}

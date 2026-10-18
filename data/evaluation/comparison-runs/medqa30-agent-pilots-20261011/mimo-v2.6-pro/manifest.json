@@ -1,8 +1,0 @@
-{
-  "run_id": "mimo-v2.6-pro",
-  "stage": "pilots",
-  "question_ids": [
-    "PILOT-01"
-  ],
-  "parent_run": "medqa30-agent-pilots-20261011"
-}

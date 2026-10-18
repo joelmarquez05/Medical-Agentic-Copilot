@@ -144,7 +144,7 @@ def test_patient_rename_preserves_clinical_memory_and_removes_original_demos(tmp
             session = store.create_session(legacy["patient_id"], demo=True)
             store.add_fact(legacy["patient_id"], {"fact_key": "weight_kg", "value": 999,
                 "observed_at": "2026-10-10T09:00:00+00:00", "source_ref": "Obsolete synthetic demo."})
-            store.register_pdf(session["id"], ROOT / "data/evaluation/patient-demo-20261014" / (code.lower() + ".pdf"), "Obsolete demo")
+            store.register_pdf(session["id"], ROOT / "demo/cases" / (code.lower() + "_initial.pdf"), "Obsolete demo")
             with store.db() as db:
                 db.execute("UPDATE people SET name=? WHERE demo_key=?", (code + " - Clinical demo", "clinical-" + code.lower()))
         custom = store.create_patient("Patient Alpha")
@@ -175,14 +175,11 @@ def test_patient_rename_preserves_clinical_memory_and_removes_original_demos(tmp
             assert len(store.patients()) == 3
 
 
-def test_demo_case_files_are_one_page_and_do_not_change_frozen_case_pdfs():
+def test_demo_case_files_are_one_page_with_explicit_fictional_labels():
     import pymupdf
     from medical_copilot.patient_memory import file_hash
-    original = json.loads((ROOT / "data/evaluation/patient-demo-20261014/manifest.json").read_text())
     for filename in ["alpha_initial.pdf", "beta_initial.pdf", "alpha_followup.pdf"]:
         with pymupdf.open(ROOT / "demo/cases" / filename) as document:
             assert len(document) == 1
             text = document[0].get_text()
             assert "FICTIONAL TEACHING CASE" in text and len(text) > 900
-    for filename, digest in original["source_hashes"].items():
-        assert file_hash(ROOT / "data/evaluation/patient-demo-20261014" / filename) == digest

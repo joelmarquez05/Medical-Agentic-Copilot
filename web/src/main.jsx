@@ -187,7 +187,7 @@ function Message({ message, onSource, onActivity, retry, notify }) {
           </span>
           {result?.archive && (
             <span className="archive-label">
-              14 Oct 2026 · No new inference
+              Saved response · No new inference
             </span>
           )}
           {pending && <span className="working-dot" />}
@@ -556,12 +556,6 @@ function App() {
     if (busy || uploading || workingExample) return;
     setWorkingExample(true);
     try {
-      if (id === "saved") {
-        const saved = await post("/examples/saved");
-        activate(saved.id);
-        await refresh();
-        return;
-      }
       const data = await post("/examples/" + id + "/prepare", {
         model_id: currentModel,
       });
@@ -1078,19 +1072,6 @@ function App() {
                           ))}
                       </section>
                     ))}
-                    <div className="panel-divider" />
-                    <h3 className="small-heading">Presentation backup</h3>
-                    <p className="panel-description">
-                      Open a clearly labelled response saved during the previous
-                      evaluation. This makes no model request.
-                    </p>
-                    <button
-                      className="secondary-button full"
-                      disabled={workingExample || busy || uploading}
-                      onClick={() => example("saved")}
-                    >
-                      <History size={16} /> Open saved PDF example
-                    </button>
                   </>
                 )}
               </div>

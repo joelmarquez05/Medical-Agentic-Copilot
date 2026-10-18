@@ -20,7 +20,7 @@ from medical_copilot.patient_memory import FactInput, PatientScopeError
 from medical_copilot.web.agent import WorkspaceLimits
 from medical_copilot.web.models import DEFAULT_MODEL, PROFILES, ModelId, public_model
 from medical_copilot.web.examples import EXAMPLES, prepare_clinical_patients, prepare_example
-from medical_copilot.web.runtime import public_result, run_live
+from medical_copilot.web.runtime import run_live
 from medical_copilot.web.store import WorkspaceStore
 
 ROOT = Path(__file__).resolve().parents[3]
@@ -80,7 +80,7 @@ def prepare_examples(store, root):
     research = next((s for s in store.sessions() if s["demo"] and not s["patient_id"] and s["title"] == "Nutrition evidence"), None)
     if not research:
         research = store.create_session(title="Nutrition evidence", demo=True)
-    store.register_pdf(research["id"], root / "data/documents/reference/espen-cancer-2021.pdf", "ESPEN practical guideline: Clinical Nutrition in cancer (2021)")
+    store.register_pdf(research["id"], root / "demo/01_espen_cancer_2021.pdf", "ESPEN practical guideline: Clinical Nutrition in cancer (2021)")
     return {"research_session": research["id"], "patients": people}
 
 
@@ -256,20 +256,6 @@ def create_app(directory=None, runner=None, *, testing=False):
     @app.post("/api/examples/{example_id}/prepare")
     def guided_example(example_id: str, body: ModelChoice):
         return prepare_example(store, ROOT, example_id, body.model_id)
-
-    @app.post("/api/examples/saved")
-    def saved():
-        prepare_examples(store, ROOT)
-        session = store.create_session(title="Saved PDF answer (14 October)", demo=True)
-        store.register_pdf(session["id"], ROOT / "data/evaluation/patient-demo-20261014/alpha.pdf", "Fictional case record: Alpha (archived)")
-        source = json.loads((ROOT / "data/evaluation/patient-runs/gemma-patient-main-20261014-pm05/answers/PM05.json").read_text())
-        job, _ = store.begin(session["id"], source["question"]["question"], "A" + session["id"])
-        result = public_result(source, session["id"])
-        result["archive"] = {"label": "Saved model response · 14 October 2026", "new_inference": False}
-        result["memory_saved"] = False
-        store.event(job["id"], "Opened a saved evaluation response; no new inference", kind="archive")
-        store.finish(job["id"], result)
-        return session
 
     distribution = ROOT / "web/dist"
     if (distribution / "assets").is_dir():

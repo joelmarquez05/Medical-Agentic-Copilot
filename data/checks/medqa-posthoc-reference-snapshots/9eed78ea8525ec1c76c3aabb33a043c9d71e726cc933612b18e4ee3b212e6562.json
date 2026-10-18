@@ -1,1 +1,0 @@
-{"header":{"type":"esearch","version":"0.3"},"esearchresult":{"count":"1","retmax":"1","retstart":"0","idlist":["37199193"],"translationset":[],"querytranslation":"37199193[UID] NOT (\"retracted publication\"[Publication Type] OR \"retraction notice\"[Publication Type] OR \"hasretractionin\"[All Fields] OR \"hasretractionof\"[All Fields])"}}

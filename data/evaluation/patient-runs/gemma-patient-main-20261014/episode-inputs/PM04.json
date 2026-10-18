@@ -1,5 +1,0 @@
-{
-  "question_id": "PM04",
-  "question": "What preferred snack did I state in an earlier conversation? Recover my older history if needed. Return a JSON object with snack containing my exact original wording, or null if unavailable.",
-  "options": null
-}
