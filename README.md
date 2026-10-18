@@ -1,8 +1,6 @@
 # Medical Agentic Copilot
 
-A research prototype for searching medical literature, asking questions about PDFs, and keeping patient context across conversations. The initial focus is oncology nutrition.
-
-Built with Python, LangGraph, FastAPI, React, and SQLite.
+A research prototype with AI Agents for searching medical literature, ingestings PDFs, and keeping patient context across conversations. Built with Python, LangGraph, FastAPI, React, and SQLite.
 
 ## Features
 
@@ -65,6 +63,4 @@ python -m pytest
 For frontend development, run `python scripts/run_web.py` from the root, then `npm ci` and `npm run dev` inside `web/` in a separate terminal.
 
 The agents and backend live in `src/medical_copilot/`, the frontend in `web/`, and recorded experiments in `data/evaluation/`. Some historical report scripts depend on files absent from this copy.
-
-Demo patients are fictional, and the prototype is not clinically validated. Use fictional data for testing: relevant context may be sent to the selected model provider.
 
